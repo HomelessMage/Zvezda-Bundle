@@ -2,9 +2,26 @@
   skincolors="(#fce1c6, 100); (#f3c696, 100); (#f3c696, 100); (#aa7744, 100); (#f4be98, 100); (#d69a70, 100); (#ab7046, 100); (#774929, 100); (#c8a583, 100); (#a57c53, 100); (#7a5026, 100); (#4a3219, 100); (#957966, 100); (#714d34, 100); (#532d12, 100); (#26190e, 100)"
   haircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)"
   facialhaircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)">
-  <name firstname="Content/Characters/Human/firstnames_[GENDER].txt" lastname="Content/Characters/Human/lastnames.txt" />
+  <name firstname="Mods/Zvezda Bundle/Characters/Human/firstnames.txt" lastname="Mods/Zvezda Bundle/Characters/Human/lastnames.txt" />
   <ragdolls folder="default" />
   <animations folder="default" />
+
+
+
+
+  <StatusEffect 
+    type="always"
+    target="This"
+    ObstructVision="true"
+    setvalue="true"
+    disabledeltatime="true"
+  />    
+
+
+
+
+
+
   <damageemitter particle="gib" drawontop="True" particleamount="10" velocitymin="50" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <bloodemitter particle="blood" particleamount="10" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <bloodemitter particle="waterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
