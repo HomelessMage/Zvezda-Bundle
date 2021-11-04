@@ -1,0 +1,12 @@
+<SkillSettings
+  SingleRoundSkillGainMultiplier="0"
+  SkillIncreasePerRepair="0"
+  SkillIncreasePerCprRevive="0"
+  SkillIncreasePerRepairedStructureDamage="0"
+  SkillIncreasePerSecondWhenSteering="0"
+  SkillIncreasePerFabricatorRequiredSkill="0"
+  SkillIncreasePerHostileDamage="0"
+  SkillIncreasePerSecondWhenOperatingTurret="0"
+  SkillIncreasePerFriendlyHealed="0"
+  AssistantSkillIncreaseMultiplier="0"
+  />

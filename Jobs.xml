@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jobs>
+
+   <Job name="captain" identifier="captain" uicolor="0,0,128" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="helm" level="100,100" primary="true" />
+         <Skill identifier="weapons" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="sovietuniformk" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="sovietofficercap" equip="true" showpreview="true" />
+         <Item identifier="holster" equip="true" showpreview="true">
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="ots38" showpreview="true">
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="sovietuniform" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="sovietofficercap" equip="true" showpreview="true" />
+         <Item identifier="holster" equip="true" showpreview="true">
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="true">
+            <Item identifier="pmmag" showpreview="false" />
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="sovietuniform" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="sovietofficercap" equip="true" showpreview="true" />
+         <Item identifier="ammovestholster" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="aksu" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+      </ItemSet>      
+   </Job>
+   <Job name="securityofficer" identifier="securityofficer" uicolor="65,105,255" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="55,55" primary="true" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="holster" equip="true" showpreview="true">
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+         </Item>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="mvduniform" equip="true" outfit="true" showpreview="true">
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="mvdcap" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="true">
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="pr73m" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="ammovestblack" equip="true" showpreview="true">
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="kiparismag" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+            <Item identifier="handcuffs" showpreview="false" />
+         </Item>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="omonuniform" equip="true" outfit="true" showpreview="true">
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="zsh1omon" showpreview="false" />
+         </Item>
+         <Item identifier="omoncap" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="kiparis" showpreview="true">
+            <Item identifier="kiparismag" showpreview="false" />
+         </Item>
+         <Item identifier="pr73m" showpreview="true" />
+      </ItemSet>
+   </Job>
+   <Job name="brigadier" identifier="brigadier" uicolor="255,158,0" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="electrical" level="100,100" primary="true" />
+         <Skill identifier="mechanical" level="100,100" />
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="crewchiefclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+            <Item identifier="screwdriver" showpreview="true" />
+            <Item identifier="wrench" showpreview="true" />
+            <Item identifier="handheldterminal" showpreview="true" />
+         </Item>
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="pr73m" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="bluejumpsuit3" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+            <Item identifier="screwdriver" showpreview="true" />
+            <Item identifier="wrench" showpreview="true" />
+            <Item identifier="handheldterminal" showpreview="true" />
+         </Item>
+         <Item identifier="captainscap3" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="pr73m" showpreview="true" />
+      </ItemSet>
+   </Job>
+   <Override>
+      <Job name="engineer" identifier="engineer" uicolor="255,128,0" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+         <Skills>
+            <Skill identifier="electrical" level="55,55" primary="true" />
+            <Skill identifier="mechanical" level="55,55" />
+            <Skill identifier="weapons" level="0,0" />
+            <Skill identifier="medical" level="15,15" />
+            <Skill identifier="helm" level="0,0" />
+         </Skills>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="zhiganka" equip="true" showpreview="true" />
+            <Item identifier="orangejumpsuit2" equip="true" outfit="true" showpreview="true">
+               <Item identifier="screwdriver" showpreview="true" />
+               <Item identifier="wrench" showpreview="true" />
+               <Item identifier="wallet" showpreview="false">
+                  <Item identifier="100rubles" showpreview="false" />
+               </Item>
+            </Item>
+         </ItemSet>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="bonnet" equip="true" showpreview="true" />
+            <Item identifier="orangejumpsuit3" equip="true" outfit="true" showpreview="true">
+               <Item identifier="screwdriver" showpreview="true" />
+               <Item identifier="wrench" showpreview="true" />
+              <Item identifier="wallet" showpreview="false">
+                <Item identifier="100rubles" showpreview="false" />
+              </Item>
+            </Item>
+         </ItemSet>
+      </Job>
+   </Override>
+   <Override>
+      <Job name="mechanic" identifier="mechanic" uicolor="70,130,180" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+         <Skills>
+            <Skill identifier="mechanical" level="55,55" primary="true" />
+            <Skill identifier="electrical" level="25,25" />
+            <Skill identifier="weapons" level="0,0" />
+            <Skill identifier="medical" level="15,15" />
+            <Skill identifier="helm" level="0,0" />
+         </Skills>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="ushanka2" equip="true" showpreview="true" />
+            <Item identifier="bluejumpsuit1" equip="true" outfit="true">
+               <Item identifier="wrench" showpreview="true" />
+               <Item identifier="wallet" showpreview="false">
+                  <Item identifier="50rubles" showpreview="false" />
+               </Item>
+            </Item>
+         </ItemSet>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="ushanka" equip="true" showpreview="true" />
+            <Item identifier="bluejumpsuit3" equip="true" outfit="true">
+               <Item identifier="wrench" showpreview="true" />
+            </Item>
+         </ItemSet>
+      </Job>
+   </Override>
+   <Job name="leadermedicaldoctor" identifier="leadermedicaldoctor" uicolor="255,51,51" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="medical" level="100,100" primary="true" />
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="administratorclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="captainscap3" equip="true" showpreview="true" />
+         <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+   </Job>
+   <Override>
+      <Job name="medicaldoctor" identifier="medicaldoctor" uicolor="255,51,51" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+         <Skills>
+            <Skill identifier="medical" level="55,55" primary="true" />
+            <Skill identifier="weapons" level="0,0" />
+            <Skill identifier="mechanical" level="0,0" />
+            <Skill identifier="electrical" level="0,0" />
+            <Skill identifier="helm" level="0,0" />
+         </Skills>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
+               <Item identifier="wallet" showpreview="false">
+                  <Item identifier="100rubles" showpreview="false" />
+               </Item>
+            </Item>
+            <Item identifier="radio" equip="true" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </ItemSet>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="doctorsuniform3" equip="true" outfit="true" showpreview="true">
+               <Item identifier="cigpack" showpreview="true">
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+                  <Item identifier="cigarette" showpreview="false" />
+               </Item>
+               <Item identifier="wallet" showpreview="false">
+                  <Item identifier="100rubles" showpreview="false" />
+               </Item>
+            </Item>
+            <Item identifier="radio" equip="true" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </ItemSet>
+      </Job>
+   </Override>
+   <Job name="assistant" identifier="assistant" uicolor="150,150,150" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>          
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="commonerclothes1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="zhiganka_black" equip="true" showpreview="true" />
+         <Item identifier="duffelbag" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="commonerclothes2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="ushanka" equip="true" showpreview="true" />
+         <Item identifier="duffelbag" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="commonerclothes3" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="duffelbag" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="commonerclothes4" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="ushanka2" equip="true" showpreview="true" />
+         <Item identifier="duffelbag" equip="true" showpreview="false" />
+      </ItemSet>
+   </Job>
+   <Override>
+      <Job name="prisoner" identifier="prisoner" uicolor="50,50,50" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+         <Skills>
+            <Skill identifier="weapons" level="0,0" />
+            <Skill identifier="mechanical" level="0,0" />
+            <Skill identifier="electrical" level="0,0" />
+            <Skill identifier="medical" level="0,0" />
+            <Skill identifier="helm" level="0,0" />
+         </Skills>
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="ita_prisoneruniform" equip="true" outfit="true" showpreview="true" />
+         </ItemSet>
+      </Job>
+   </Override>
+   <Job name="watchman" identifier="watchman" uicolor="178,255,102" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="quartermasterclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="handheldterminal" showpreview="true" />
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="securityuniform1_1" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="handheldterminal" showpreview="true" />
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="bonnet" equip="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+   </Job>
+   <Job name="scientist" identifier="scientist" uicolor="102,102,255" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="100,100" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="researcherclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="greenjumpsuit" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="true">
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+               <Item identifier="cigarette" showpreview="false" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+      </ItemSet>
+   </Job>
+   <Job name="cook" identifier="cook" uicolor="255,153,153" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="cookclothes" equip="true" outfit="true" showpreview="true">
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="50rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="capcook" equip="true" showpreview="true" />
+      </ItemSet>
+   </Job>
+   <Job name="militaryman" identifier="militaryman" uicolor="50,205,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="100,100" primary="true" />
+         <Skill identifier="medical" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="55,55" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="ttsko" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="true">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="ammovest" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="divingknife" showpreview="true" />
+         </Item>
+         <Item identifier="aksu" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="ssh68" showpreview="false" />
+         <Item identifier="gcap" equip="true" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="afghanka" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="true">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="bodyarmor_6b4" equip="true" showpreview="true">
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="divingknife" showpreview="true" />
+         </Item>
+         <Item identifier="akm" equip="true" showpreview="true">
+            <Item identifier="76239mmmag" showpreview="false" />
+         </Item>
+         <Item identifier="ssh68" equip="true" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="berezka" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="true">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="ammovest" equip="true" showpreview="true">
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="divingknife" showpreview="true" />
+         </Item>
+         <Item identifier="mts21" equip="true" showpreview="true">
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+            <Item identifier="shotgunshellcombat" showpreview="false" />
+         </Item>
+         <Item identifier="bonnet" equip="true" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="securityuniform3_1" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="true">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="true">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="bodyarmor_6b4" equip="true" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />            
+            <Item identifier="divingknife" showpreview="true" />
+         </Item>
+         <Item identifier="ak74m" equip="true" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+         </Item>
+         <Item identifier="zsh1" equip="true" showpreview="true" />
+      </ItemSet>
+   </Job>
+   <Job name="janitor" identifier="janitor" uicolor="15, 105, 75" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="0,0" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="medical" level="15,15" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="zhiganka" equip="true" showpreview="true" />
+         <Item identifier="assistantclothes" equip="true" outfit="true">
+            <Item identifier="trashbagroll">
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+            </Item>
+            <Item identifier="trashbagroll">
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+               <Item identifier="trashbag" />
+            </Item>
+            <Item identifier="wallet" showpreview="false">
+               <Item identifier="50rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="mop" />
+      </ItemSet>
+   </Job>
+   <Job name="bandit" identifier="bandit" uicolor="85,40,40" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="100,100" primary="true" />
+         <Skill identifier="medical" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="true" />
+         </Item>
+         <Item identifier="banditfatigues_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="balaclava" equip="true" showpreview="true" />
+         <Item identifier="waistpack" equip="true" showpreview="true" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="banditfatigues_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="piratebandana" equip="true" showpreview="true" />
+         <Item identifier="waistpack" equip="true" showpreview="true" />  
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="banditfatigues_3" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="balaclava2" equip="true" showpreview="true" />
+         <Item identifier="waistpack" equip="true" showpreview="true" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="banditfatigues_4" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="balaclava2" equip="true" showpreview="true" />
+        <Item identifier="waistpack" equip="true" showpreview="true" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="banditleaderfatigues_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="balaclava3" equip="true" showpreview="true" />
+         <Item identifier="waistpack" equip="true" showpreview="true">
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />        
+         </Item>
+         <Item identifier="pmpistol" showpreview="true">
+            <Item identifier="pmmag" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="radio" equip="true" showpreview="true">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="banditleaderfatigues_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="balaclava4" equip="true" showpreview="true" />
+        <Item identifier="waistpack" equip="true" showpreview="true">
+          <Item identifier="pmmag" showpreview="false" />
+          <Item identifier="pmmag" showpreview="false" />
+          <Item identifier="pmmag" showpreview="false" />
+          <Item identifier="pmmag" showpreview="false" />
+        </Item>
+        <Item identifier="pmpistol" showpreview="true">
+          <Item identifier="pmmag" showpreview="false" />
+        </Item>
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>          
+   </Job>
+     <Job name="neorussian" identifier="neorussian" uicolor="45,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="100,100" primary="true" />
+         <Skill identifier="medical" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="false">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="false">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="reichbonnet" equip="true" showpreview="true" />
+         <Item identifier="ammovestblack" equip="true" showpreview="true">
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+            <Item identifier="76239mmmag" showpreview="false" />
+         </Item>
+         <Item identifier="akm" showpreview="true">
+            <Item identifier="76239mmmag" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="true" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="false">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="false">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="ssh68_mod" equip="true" showpreview="true" />
+         <Item identifier="ammovestblack" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="aksu" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="false">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="false">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="ssh68_mod_balaclava1" equip="true" showpreview="true" />
+         <Item identifier="bodyarmor_mod" equip="true" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+         </Item>
+         <Item identifier="ak74m" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="false">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="false">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="ssh68_mod_balaclava2" equip="true" showpreview="true" />
+         <Item identifier="bodyarmor_mod" equip="true" showpreview="true">
+            <Item identifier="rpdmagazine" showpreview="false" />
+            <Item identifier="rpdmagazine" showpreview="false" />
+            <Item identifier="rpdmagazine" showpreview="false" />
+         </Item>
+         <Item identifier="rpd" showpreview="true">
+            <Item identifier="rpdmagazine" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="false" />
+      </ItemSet>      
+   </Job>
+   <Job name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="100,100" primary="true" />
+         <Skill identifier="medical" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="100,100" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true">
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antibleeding2" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antidama1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="antibloodloss1" showpreview="false" />
+            <Item identifier="gp5mask" showpreview="false">
+               <Item identifier="oxygentank" showpreview="false" />
+            </Item>
+            <Item identifier="flashlight" showpreview="false">
+               <Item identifier="batterycell" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="reichcap" equip="true" showpreview="true" />
+         <Item identifier="ammovestblackholster" equip="true" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+         </Item>
+         <Item identifier="ak74m" showpreview="true">
+            <Item identifier="ak74mmag" showpreview="false" />
+         </Item>
+         <Item identifier="divingknife" showpreview="false" />
+      </ItemSet>      
+   </Job>
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <Job name="american_operator" identifier="american_operator" uicolor="51,51,51" allowalways="true" minkarma="0" minnumber="0" maxnumber="0" initialcount="1" vitalitymodifier="0" pricemultiplier="0">
+      <Skills>
+         <Skill identifier="weapons" level="100,100" primary="true" />
+         <Skill identifier="medical" level="55,55" />
+         <Skill identifier="mechanical" level="0,0" />
+         <Skill identifier="electrical" level="0,0" />
+         <Skill identifier="helm" level="0,0" />
+      </Skills>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true">
+            <Item identifier="batterycell" />
+         </Item>
+         <Item identifier="securityuniform3_1" equip="true" outfit="true">
+            <Item identifier="antibleeding2" />
+            <Item identifier="antibleeding2" />
+            <Item identifier="antibleeding2" />
+            <Item identifier="antidama1" />
+            <Item identifier="antidama1" />
+            <Item identifier="antidama1" />
+            <Item identifier="antibloodloss1" />
+            <Item identifier="antibloodloss1" />
+            <Item identifier="antibloodloss1" />
+            <Item identifier="gp5mask">
+               <Item identifier="oxygentank" />
+            </Item>
+            <Item identifier="flashlight">
+               <Item identifier="batterycell" />
+            </Item>
+         </Item>
+         <Item identifier="american_helmet" equip="true" />
+         <Item identifier="backpack" equip="true">
+            <Item identifier="drill">
+               <Item identifier="batterycell" />
+            </Item>
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="batterycell" />
+            <Item identifier="button" />
+            <Item identifier="button" />
+            <Item identifier="wire" />
+            <Item identifier="wire" />
+            <Item identifier="screwdriver" />
+            <Item identifier="detonator">
+               <Item identifier="f1grenade" />
+            </Item>
+            <Item identifier="detonator">
+               <Item identifier="f1grenade" />
+            </Item>
+         </Item>
+         <Item identifier="american_vest" equip="true">
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+            <Item identifier="ar15mag" />
+         </Item>
+         <Item identifier="ar15">
+            <Item identifier="ar15mag" />
+         </Item>
+         <Item identifier="divingknife" />
+      </ItemSet>
+   </Job>
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--HIDDEN-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->
+   <!--DEFAULT-->   
+</Jobs>
