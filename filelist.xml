@@ -1,20 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/Data/Zvezda Bundle.xml" corepackage="true" gameversion="0.9.0.0">
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
+  <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
+  <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
+  <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
+  <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
+
+
   <Item file="Content/Items/idcard.xml" />
   <Item file="Content/Items/Alien/alienitems.xml" />
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
   <Item file="Content/Items/Containers/containers.xml" />
-  <Item file="Content/Items/Jobgear/Captain/captain_gear.xml" />
-  <Item file="Content/Items/Jobgear/Medic/medic_gear.xml" />
-  <Item file="Content/Items/Jobgear/Engineer/engineer_gear.xml" />
-  <Item file="Content/Items/Jobgear/Mechanic/mechanic_gear.xml" />
-  <Item file="Content/Items/Jobgear/Assistant/assistant_gear.xml" />
-  <Item file="Content/Items/Jobgear/Watchman/watchman_gear.xml" />
-  <Item file="Content/Items/Jobgear/Security/securityofficer_gear.xml" />
-  <Item file="Content/Items/Jobgear/Commoner/commoner_gear.xml" />
-  <Item file="Content/Items/Jobgear/Clown/clown.xml" />
-  <Item file="Content/Items/Jobgear/misc.xml" />
   <Item file="Content/Items/CreatureLoot/creatureloot.xml" />
   <Item file="Content/Items/Diving/divinggear.xml" />
   <Item file="Content/Items/Door/doors.xml" />
@@ -64,12 +61,6 @@
   <Item file="Content/Items/Gardening/gardeningtools.xml" />
   <Item file="Content/Items/Gardening/plantproducts.xml" />
   <Item file="Content/Map/Pirates/PirateItems.xml" />
-  <Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />
-  <Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
-  <Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />
-  <Item file="Content/Items/Jobgear/Engineer/engineer_talent_items.xml" />
-  <Item file="Content/Items/Jobgear/Medic/medic_talent_items.xml" />
-  <Item file="Content/Items/Jobgear/Captain/captain_talent_items.xml" />
   <Character file="Content/Characters/Balloon/Balloon.xml" />
   <Character file="Content/Characters/Carrier/Carrier.xml" />
   <Character file="Content/Characters/Charybdis/Charybdis.xml" />
@@ -85,7 +76,7 @@
   <Character file="Content/Characters/Hammerheadgold/Hammerheadgold.xml" />
   <Character file="Content/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
   <Character file="Content/Characters/Hammerheadspawn/Hammerheadspawn.xml" />
-  <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
+
   <Character file="Content/Characters/Husk/Husk.xml" />
   <Character file="Content/Characters/Humanhusk/Humanhusk.xml" />
   <Character file="Content/Characters/Legacyfractalguardian/Legacyfractalguardian.xml" />
@@ -145,7 +136,6 @@
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
-  <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
   <Text file="Content/Texts/Polish/PolishVanilla.xml" />
   <Text file="Content/Texts/BrazilianPortuguese/BrazilianPortugueseVanilla.xml" />
   <Text file="Content/Texts/CastilianSpanish/CastilianSpanishVanilla.xml" />
@@ -246,12 +236,12 @@
   <NPCConversations file="Content/NPCConversations/Japanese/NpcConversations_Japanese.xml" />
   <NPCConversations file="Content/NPCConversations/Turkish/NpcConversations_Turkish.xml" />
   <NPCConversations file="Content/NPCConversations/Korean/NpcConversations_Korean.xml" />
-  <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
+
   <Orders file="Content/Orders.xml" />
   <Corpses file="Content/Corpses.xml" />
   <Sounds file="Content/Sounds/sounds.xml" />
   <Tutorials file="Content/Tutorials/Tutorials.xml" />
-  <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
+
   <ServerExecutable file="DedicatedServer" />
   <Factions file="Content/Map/factions.xml" />
   <Outpost file="Content/Map/Outposts/Outpost.sub" />
