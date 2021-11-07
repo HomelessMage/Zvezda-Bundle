@@ -350,13 +350,60 @@
 
 
 
+<!-- TODO -->
+<!-- Items (new) -->
 
-
+<entityname.accordion>Аккордеон</entityname.accordion>
+<entitydescription.accordion>Старый аккордеон ручной работы.</entitydescription.accordion>
+<entityname.bongodrums>Бонго</entityname.bongodrums>
+<entitydescription.bongodrums>Пара старых барабанов ручной работы.</entitydescription.bongodrums>
+<entityname.captainspipe>Трубка капитана</entityname.captainspipe>
+<entitydescription.captainspipe>Для успокоения нервов, когда на море качка.</entitydescription.captainspipe>
 
 
 
 
 <!-- TODO Вырезать -->
+<entityname.flamer>!ВЫРЕЗАТЬ Огнемет</entityname.flamer>
+<entitydescription.flamer>!ВЫРЕЗАТЬ Огневое оружие, которое выстреливает потоком горящего сварочного топлива.</entitydescription.flamer>
+<entityname.smg>!ВЫРЕЗАТЬ ПП</entityname.smg>
+<entitydescription.smg>!ВЫРЕЗАТЬ Пистолет-пулемет .45 калибра.</entitydescription.smg>
+<entityname.smgmagazine>!ВЫРЕЗАТЬ Магазин для ПП</entityname.smgmagazine>
+<entitydescription.smgmagazine>!ВЫРЕЗАТЬ Магазин для патронов для ПП .45 калибра.</entitydescription.smgmagazine>
+<entityname.smground>!ВЫРЕЗАТЬ Патрон для ПП</entityname.smground>
+<entitydescription.smground>!ВЫРЕЗАТЬ Патрон .45 калибра для пистолета-пулемета.</entitydescription.smground>
+<entityname.grenadelauncher>!ВЫРЕЗАТЬ Гранатомет</entityname.grenadelauncher>
+<entitydescription.grenadelauncher>!ВЫРЕЗАТЬ Портативный гранатомет для 40-мм гранат.</entitydescription.grenadelauncher>
+<entityname.40mmgrenade>!ВЫРЕЗАТЬ 40-мм граната</entityname.40mmgrenade>
+<entitydescription.40mmgrenade>!ВЫРЕЗАТЬ Снаряд для гранатомета.</entitydescription.40mmgrenade>
+<entityname.40mmstungrenade>!ВЫРЕЗАТЬ 40-мм оглушающая граната</entityname.40mmstungrenade>
+<entitydescription.40mmstungrenade>!ВЫРЕЗАТЬ Снаряд для гранатомета. Несмертельный.</entitydescription.40mmstungrenade>
+<entityname.shotgun>!ВЫРЕЗАТЬ Дробовик</entityname.shotgun>
+<entitydescription.shotgun>!ВЫРЕЗАТЬ Дробовик, разработанный для контроля толпы.</entitydescription.shotgun>
+<entityname.shotgunshell>!ВЫРЕЗАТЬ Патрон для дробовика</entityname.shotgunshell>
+<entitydescription.shotgunshell>!ВЫРЕЗАТЬ Патроны для дробовика. Смертельный.</entitydescription.shotgunshell>
+<entityname.stungun>!ВЫРЕЗАТЬ Электрошокер</entityname.stungun>
+<entitydescription.stungun>!ВЫРЕЗАТЬ Оружие, которое выстреливает электрическими дротиками.</entitydescription.stungun>
+<entityname.stungundart>!ВЫРЕЗАТЬ Дротик для электрошокера</entityname.stungundart>
+<entitydescription.stungundart>!ВЫРЕЗАТЬ Вызывает электрошок, который выводит цель из строя. Несмертельный.</entitydescription.stungundart>
+<entityname.toyhammer>!ВЫРЕЗАТЬ Игрушечный молот</entityname.toyhammer>
+<entitydescription.toyhammer>!ВЫРЕЗАТЬ Несмертельный, но жутко бесит.</entitydescription.toyhammer>
+<entityname.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Ящик взрывных снарядов</entityname.coilgunammoboxexplosive>
+<entitydescription.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunammoboxexplosive>
+<entityname.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Ящик пробивных снарядов</entityname.coilgunammoboxpiercing>
+<entitydescription.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunammoboxpiercing>
+<entityname.coilgunboltexplosive>!ВЫРЕЗАТЬ Взрывной снаряд магнитной пушки</entityname.coilgunboltexplosive>
+<entitydescription.coilgunboltexplosive>!ВЫРЕЗАТЬ Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunboltexplosive>
+<entityname.coilgunboltpiercing>!ВЫРЕЗАТЬ Пробивной снаряд магнитной пушки</entityname.coilgunboltpiercing>
+<entitydescription.coilgunboltpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunboltpiercing>
+<entityname.crawlermask>!ВЫРЕЗАТЬ Маска ползуна</entityname.crawlermask>
+<entitydescription.crawlermask>!ВЫРЕЗАТЬ Помогает сохранить анонимность. Подходит для некоторых вечеринок.</entitydescription.crawlermask>
+<entityname.huskstinger>!ВЫРЕЗАТЬЖало оболочки</entityname.huskstinger>
+<entitydescription.huskstinger>!ВЫРЕЗАТЬ Самодельное колющее оружие.</entitydescription.huskstinger>
+<entityname.shellshield>!ВЫРЕЗАТЬ Фрагмент панциря молоха</entityname.shellshield>
+<entitydescription.shellshield>!ВЫРЕЗАТЬ Крепкий кусок панциря молоха.</entitydescription.shellshield>
+<entityname.mudraptorshell>!ВЫРЕЗАТЬ Шкура грязевого раптора</entityname.mudraptorshell>
+<entitydescription.mudraptorshell>!ВЫРЕЗАТЬ Защитная шкура грязевого раптора.</entitydescription.mudraptorshell>
 <entityname.clowndivingmask>!ВЫРЕЗАТЬ Подводная маска клоуна</entityname.clowndivingmask>
 <entitydescription.clowndivingmask>!ВЫРЕЗАТЬ Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
 <entityname.vipclothes1>!ВЫРЕЗАТЬ Костюм ВИП-персоны</entityname.vipclothes1>
@@ -3005,53 +3052,7 @@
 <traitorgoaltamperrailguninfo>Зарядите холостой снаряд в зарядники всех рельсотронов.</traitorgoaltamperrailguninfo>
 <traitorgoaltamperrailguninfomulti>Зарядите холостые снаряды ([number]) в зарядник рельсотрона.</traitorgoaltamperrailguninfomulti>
 
-<!-- Items (new) -->
-<entityname.flamer>Огнемет</entityname.flamer>
-<entitydescription.flamer>Огневое оружие, которое выстреливает потоком горящего сварочного топлива.</entitydescription.flamer>
-<entityname.smg>ПП</entityname.smg>
-<entitydescription.smg>Пистолет-пулемет .45 калибра.</entitydescription.smg>
-<entityname.smgmagazine>Магазин для ПП</entityname.smgmagazine>
-<entitydescription.smgmagazine>Магазин для патронов для ПП .45 калибра.</entitydescription.smgmagazine>
-<entityname.smground>Патрон для ПП</entityname.smground>
-<entitydescription.smground>Патрон .45 калибра для пистолета-пулемета.</entitydescription.smground>
-<entityname.grenadelauncher>Гранатомет</entityname.grenadelauncher>
-<entitydescription.grenadelauncher>Портативный гранатомет для 40-мм гранат.</entitydescription.grenadelauncher>
-<entityname.40mmgrenade>40-мм граната</entityname.40mmgrenade>
-<entitydescription.40mmgrenade>Снаряд для гранатомета.</entitydescription.40mmgrenade>
-<entityname.40mmstungrenade>40-мм оглушающая граната</entityname.40mmstungrenade>
-<entitydescription.40mmstungrenade>Снаряд для гранатомета. Несмертельный.</entitydescription.40mmstungrenade>
-<entityname.shotgun>Дробовик</entityname.shotgun>
-<entitydescription.shotgun>Дробовик, разработанный для контроля толпы.</entitydescription.shotgun>
-<entityname.shotgunshell>Патрон для дробовика</entityname.shotgunshell>
-<entitydescription.shotgunshell>Патроны для дробовика. Смертельный.</entitydescription.shotgunshell>
-<entityname.stungun>Электрошокер</entityname.stungun>
-<entitydescription.stungun>Оружие, которое выстреливает электрическими дротиками.</entitydescription.stungun>
-<entityname.stungundart>Дротик для электрошокера</entityname.stungundart>
-<entitydescription.stungundart>Вызывает электрошок, который выводит цель из строя. Несмертельный.</entitydescription.stungundart>
-<entityname.toyhammer>Игрушечный молот</entityname.toyhammer>
-<entitydescription.toyhammer>Несмертельный, но жутко бесит.</entitydescription.toyhammer>
-<entityname.coilgunammoboxexplosive>Ящик взрывных снарядов</entityname.coilgunammoboxexplosive>
-<entitydescription.coilgunammoboxexplosive>Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunammoboxexplosive>
-<entityname.coilgunammoboxpiercing>Ящик пробивных снарядов</entityname.coilgunammoboxpiercing>
-<entitydescription.coilgunammoboxpiercing>Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunammoboxpiercing>
-<entityname.coilgunboltexplosive>Взрывной снаряд магнитной пушки</entityname.coilgunboltexplosive>
-<entitydescription.coilgunboltexplosive>Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunboltexplosive>
-<entityname.coilgunboltpiercing>Пробивной снаряд магнитной пушки</entityname.coilgunboltpiercing>
-<entitydescription.coilgunboltpiercing>Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunboltpiercing>
-<entityname.crawlermask>Маска ползуна</entityname.crawlermask>
-<entitydescription.crawlermask>Помогает сохранить анонимность. Подходит для некоторых вечеринок.</entitydescription.crawlermask>
-<entityname.huskstinger>Жало оболочки</entityname.huskstinger>
-<entitydescription.huskstinger>Самодельное колющее оружие.</entitydescription.huskstinger>
-<entityname.shellshield>Фрагмент панциря молоха</entityname.shellshield>
-<entitydescription.shellshield>Крепкий кусок панциря молоха.</entitydescription.shellshield>
-<entityname.mudraptorshell>Шкура грязевого раптора</entityname.mudraptorshell>
-<entitydescription.mudraptorshell>Защитная шкура грязевого раптора.</entitydescription.mudraptorshell>
-<entityname.accordion>Аккордеон</entityname.accordion>
-<entitydescription.accordion>Старый аккордеон ручной работы.</entitydescription.accordion>
-<entityname.bongodrums>Бонго</entityname.bongodrums>
-<entitydescription.bongodrums>Пара старых барабанов ручной работы.</entitydescription.bongodrums>
-<entityname.captainspipe>Трубка капитана</entityname.captainspipe>
-<entitydescription.captainspipe>Для успокоения нервов, когда на море качка.</entitydescription.captainspipe>
+
 
 <workshop.contenttag.eventset>Набор событий</workshop.contenttag.eventset>
 <workshop.contenttag.totalconversion>Полная конверсия</workshop.contenttag.totalconversion>
