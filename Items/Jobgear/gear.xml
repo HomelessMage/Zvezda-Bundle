@@ -693,7 +693,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="vipclothes1" nameidentifier="vipoutfit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="vipclothes1" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="0.9" sold="false"/>
@@ -727,7 +727,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="vipclothes2" nameidentifier="vipoutfit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="vipclothes2" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="0.9" sold="false"/>
@@ -762,7 +762,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="vipclothes3" nameidentifier="vipoutfit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="vipclothes3" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="0.9" sold="false"/>

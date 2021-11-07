@@ -153,39 +153,67 @@
 <!-- Одежда -->
 <!-- Одежда -->
 <entityname.orangejumpsuit1>Комбинезон инженера-ядерщика</entityname.orangejumpsuit1>
+<entitydescription.orangejumpsuit1></entitydescription.orangejumpsuit1>
 
 <entityname.orangejumpsuit2>Комбинезон инженера-электрика</entityname.orangejumpsuit2>
+<entityname.orangejumpsuit2></entityname.orangejumpsuit2>
 
 <entityname.bluejumpsuit1>Комбинезон механика-сварщика</entityname.bluejumpsuit1>
+<entitydescription.bluejumpsuit1></entitydescription.bluejumpsuit1>
 
 <entityname.bluejumpsuit2>Комбинезон механика-слесаря</entityname.bluejumpsuit2>
+<entitydescription.bluejumpsuit2></entitydescription.bluejumpsuit2>
 
 <entityname.minerclothes>Комбинезон шахтера</entityname.minerclothes>
-
-<entityname.captainsuniform1>Китель (утепленный)</entityname.captainsuniform1>
-
-<entityname.captainsuniform2>Китель (темный)</entityname.captainsuniform2>
-
-<entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
-
-<entityname.administratorclothes>Униформа милиционера</entityname.administratorclothes>
-
-<entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
+<entitydescription.minerclothes></entitydescription.minerclothes>
 
 <entityname.assistantclothes>Комбинезон уборщика</entityname.assistantclothes>
+<entitydescription.assistantclothes></entitydescription.assistantclothes>
 
 <entityname.watchmanclothes>Комбинезон завхоза</entityname.watchmanclothes>
+<entitydescription.watchmanclothes></entitydescription.watchmanclothes>
+
+<entityname.captainsuniform1>Китель (утепленный)</entityname.captainsuniform1>
+<entitydescription.captainsuniform1></entitydescription.captainsuniform1>
+
+<entityname.captainsuniform2>Китель (темный)</entityname.captainsuniform2>
+<entitydescription.captainsuniform2></entitydescription.captainsuniform2>
+
+<entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
+<entitydescription.securityuniform1></entitydescription.securityuniform1>
+
+<entityname.administratorclothes>Униформа милиционера</entityname.administratorclothes>
+<entitydescription.administratorclothes></entitydescription.administratorclothes>
+
+<entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
+<entitydescription.medicalofficerclothes></entitydescription.medicalofficerclothes>
+
+<entityname.prisonerclothes>Униформа заключенного</entityname.prisonerclothes>
+<entitydescription.prisonerclothes></entitydescription.prisonerclothes>
 
 <entityname.commonerclothes1>Одежда жителя станции (вариант 1)</entityname.commonerclothes1>
-<entityname.commonerclothes1>Одежда жителя станции (вариант 2)</entityname.commonerclothes1>
-<entityname.commonerclothes1>Одежда жителя станции (вариант 3)</entityname.commonerclothes1>
-<entityname.commonerclothes1>Одежда жителя станции (вариант 4)</entityname.commonerclothes1>
+<entitydescription.commonerclothes1></entitydescription.commonerclothes1>
+
+<entityname.commonerclothes2>Одежда жителя станции (вариант 2)</entityname.commonerclothes2>
+<entitydescription.commonerclothes2></entitydescription.commonerclothes2>
+
+<entityname.commonerclothes3>Одежда жителя станции (вариант 3)</entityname.commonerclothes3>
+<entitydescription.commonerclothes3></entitydescription.commonerclothes3>
+
+<entityname.commonerclothes4>Одежда жителя станции (вариант 4)</entityname.commonerclothes4>
+<entitydescription.commonerclothes4></entitydescription.commonerclothes4>
+
+<entityname.commonerclothes5>Одежда жителя станции (вариант 4)</entityname.commonerclothes5>
+<entitydescription.commonerclothes5></entitydescription.commonerclothes5>
+
 <entityname.crewchiefclothes>Одежда жителя станции (вариант 5)</entityname.crewchiefclothes>
+<entitydescription.crewchiefclothes></entitydescription.crewchiefclothes>
+
 <entityname.quartermasterclothes>Одежда жителя станции (вариант 6)</entityname.quartermasterclothes>
+<entitydescription.quartermasterclothes></entitydescription.quartermasterclothes>
 
-
-
-
+<entityname.vipclothes2>Одежда дипломата</entityname.vipclothes2>
+<entitydescription.vipclothes2></entitydescription.vipclothes2>
 
 
 
@@ -217,13 +245,17 @@
 <!-- Головные уборы -->
 <!-- Головные уборы -->
 <!-- Головные уборы -->
-
 <entityname.ballistichelmet2>Шлемофон ТШ-4</entityname.ballistichelmet2>
 <entitydescription.ballistichelmet2>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.ballistichelmet2>
 
 <entityname.captainscap1>Фуражка (вариант 1)</entityname.captainscap1>
+<entitydescription.captainscap1></entitydescription.captainscap1>
+
 <entityname.captainscap2>Фуражка (вариант 2)</entityname.captainscap2>
+<entitydescription.captainscap2></entitydescription.captainscap2>
+
 <entityname.captainscap3>Фуражка (вариант 3)</entityname.captainscap3>
+<entitydescription.captainscap3></entitydescription.captainscap3>
 <!-- Головные уборы -->
 <!-- Головные уборы -->
 <!-- Головные уборы -->
@@ -325,6 +357,12 @@
 
 
 <!-- TODO Вырезать -->
+<entityname.clowndivingmask>!ВЫРЕЗАТЬ Подводная маска клоуна</entityname.clowndivingmask>
+<entitydescription.clowndivingmask>!ВЫРЕЗАТЬ Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
+<entityname.vipclothes1>!ВЫРЕЗАТЬ Костюм ВИП-персоны</entityname.vipclothes1>
+<entitydescription.vipclothes1></entitydescription.vipclothes1>
+<entityname.vipclothes3>!ВЫРЕЗАТЬ Костюм ВИП-персоны</entityname.vipclothes3>
+<entitydescription.vipclothes3></entitydescription.vipclothes3>
 <entityname.bodyarmor>!ВЫРЕЗАТЬ Бронежилет</entityname.bodyarmor>
 <entityname.minerhelmet>!ВЫРЕЗАТЬ Шахтерский шлем</entityname.minerhelmet>
 <entityname.researcherclothes>!ВЫРЕЗАТЬ Костюм исследователя</entityname.researcherclothes>
@@ -5047,8 +5085,7 @@
 <dialoglowonchaingunammo>У нас заканчиваются боеприпасы для цепной пушки! Стрелять короткими залпами!</dialoglowonchaingunammo>
 <dialoglowonpulselaserammo>Горючего для импульсного лазера осталось мало.</dialoglowonpulselaserammo>
 <campaigninteraction.examine>Осмотреть: [[key]]</campaigninteraction.examine>
-<entityname.vipoutfit>Костюм ВИП-персоны</entityname.vipoutfit>
-<entityname.prisonerclothes>Костюм заключенного</entityname.prisonerclothes>
+
 <missiontype.escort>Сопровождение</missiontype.escort>
 <missiontype.pirate>Пират</missiontype.pirate>
 <dialogmentalstateconfused>Э-э... Что это было?</dialogmentalstateconfused>
@@ -6012,8 +6049,6 @@
 <entitydescription.nucleargun>Прототип энергетического оружия, созданный с использованием уникальных инопланетных материалов на Европе. При выстреле происходит реакция ядерного распада с мощным выбросом энергии.</entitydescription.nucleargun>
 <entityname.cargoscooter>Грузовой скутер</entityname.cargoscooter>
 <entitydescription.cargoscooter>Подводный скутер для транспортировки материалов под водой. Скутер слишком большой и не поместится в инвентаре, но нейтральная плавучесть позволяет ему оставаться там, где вы его бросите.</entitydescription.cargoscooter>
-<entityname.clowndivingmask>Подводная маска клоуна</entityname.clowndivingmask>
-<entitydescription.clowndivingmask>Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
 <entityname.safetyharness>Страховочные ремни</entityname.safetyharness>
 <entitydescription.safetyharness>Специальная обвязка, разработанная для снижения травматизма на подлодках Европы. Также обвязка частично гасит эффект потока воды, помогая в случае пробоины в корпусе.</entitydescription.safetyharness>
 <entityname.pucs>УЗК</entityname.pucs>
