@@ -310,8 +310,17 @@
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
-<entityname.idcard>Паспорт</entityname.idcard>
-<entitydescription.idcard>Обеспечивает ограниченный доступ в отсеки и позволяет установить личность гражданина.</entitydescription.idcard>
+<entityname.idcard>Паспорт СССР</entityname.idcard>
+<entitydescription.idcard>Позволяет идентифицировать личность гражданина и разрешает допуск в отсеки.</entitydescription.idcard>
+
+<entityname.idcardwreck>Рваный паспорт СССР</entityname.idcardwreck>
+<entitydescription.idcardwreck>Недействительный паспорт СССР.</entitydescription.idcardwreck>
+
+<entityname.idcardreich>Паспорт Тысячелетнего Рейха</entityname.idcardreich>
+<entitydescription.idcardreich>Позволяет идентифицировать бойца и разрешает допуск в отсеки.</entitydescription.idcardreich>
+
+<entityname.idcardusa>Паспорт США</entityname.idcardusa>
+<entitydescription.idcardusa>Позволяет идентифицировать бойца и разрешает допуск в отсеки.</entitydescription.idcardusa>
 
 <entityname.toolbox>Контейнер для хранения</entityname.toolbox>
 <entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
@@ -3693,8 +3702,7 @@
 <terminalwelcomemsg.traitorletter>Это сообщение будет одновременно моим прощанием и признанием. Мне поручили тайно пронести этот сонарный маяк на борт и включить его, когда мы окажемся на безопасном расстоянии. Оказалось, что он настроен на частоту, привлекающую монстров. Мне обещали, что за мной придет шаттл, который подберет меня после выполнения задания, но он так и не появился.\n\nЭто был последний раз, когда я согласился на "исследовательское задание" от какой-то шишки. Да или вообще от кого угодно, если уж на то пошло. Чтоб им всем орать в аду.</terminalwelcomemsg.traitorletter>
 <entityname.handheldterminal>Судовой журнал</entityname.handheldterminal>
 <entitydescription.handheldterminal>Портативное устройство для хранения сообщений.</entitydescription.handheldterminal>
-<entityname.idcardwreck>Удостоверение с места кораблекрушения</entityname.idcardwreck>
-<entitydescription.idcardwreck>Это удостоверение позволяет получить доступ к большей части затонувшего судна, если, конечно, дверь не заржавела.</entitydescription.idcardwreck>
+
 <missionname.salvagewreck1>Разбор обломков</missionname.salvagewreck1>
 <missiondescription.salvagewreck1>В точке «[location1]» только что был получен сигнал бедствия с судна, которое считалось пропавшим вместе с находившимися на его борту особо секретными зашифрованными данными. Ваше приоритетное задание - найти журнал капитана и вернуть его.</missiondescription.salvagewreck1>
 <missionsonarlabel.salvagewreck1>Обломки</missionsonarlabel.salvagewreck1>

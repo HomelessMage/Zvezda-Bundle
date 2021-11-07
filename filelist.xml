@@ -6,19 +6,22 @@
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
   <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
+  <LocationTypes file="Mods/Zvezda Bundle/Map/locationTypes.xml" />    
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
 <!-- Кастом -->
 
 
 <!-- TODO -->
+<Item file="Content/Items/Weapons/weapons.xml" />
 <Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Engineer/engineer_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Medic/medic_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Captain/captain_talent_items.xml" />
-<Item file="Content/Items/Weapons/weapons.xml" />
+
 <Item file="Content/Items/Tools/tools.xml" />
 <Item file="Content/Items/Misc/misc.xml" />
 <Item file="Content/Items/Diving/divinggear.xml" />
@@ -28,7 +31,7 @@
 
 
 <!-- Фреймворк -->
-  <Item file="Content/Items/idcard.xml" />
+
   <Item file="Content/Items/Alien/alienitems.xml" />
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
@@ -206,7 +209,7 @@
   <RandomEvents file="Content/randomevents.xml" />
   <RandomEvents file="Content/OutpostEvents.xml" />
   <EventManagerSettings file="Content/EventManagerSettings.xml" />
-  <LocationTypes file="Content/Map/locationTypes.xml" />
+
   <MapGenerationParameters file="Content/Map/MapGenerationParameters.xml" />
   <Item file="Content/Map/Outposts/AbandonedOutpost/AbandonedOutpostDecals.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
