@@ -121,10 +121,6 @@
 <jobdescription.neorussian2>Штурмгренадерский батальон "Тысячелетнего Рейха"</jobdescription.neorussian2>
 <jobdescription.neorussian3>Панцергренадерский батальон "Тысячелетнего Рейха"</jobdescription.neorussian3>
 <jobdescription.neorussian4>Батальон поддержки "Тысячелетнего Рейха"</jobdescription.neorussian4>
-
-<jobname.commoner>Обычный человек</jobname.commoner>
-<jobname.vip>ВИП-персона</jobname.vip>
-<jobname.vipsecurityofficer>Телохранитель</jobname.vipsecurityofficer>
 <!-- Роли -->
 <!-- Роли -->
 <!-- Роли -->
@@ -147,6 +143,169 @@
 
 
 
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<entityname.orangejumpsuit1>Комбинезон инженера-ядерщика</entityname.orangejumpsuit1>
+
+<entityname.orangejumpsuit2>Комбинезон инженера-электрика</entityname.orangejumpsuit2>
+
+<entityname.bluejumpsuit1>Комбинезон механика-сварщика</entityname.bluejumpsuit1>
+
+<entityname.bluejumpsuit2>Комбинезон механика-слесаря</entityname.bluejumpsuit2>
+
+<entityname.minerclothes>Комбинезон шахтера</entityname.minerclothes>
+
+<entityname.captainsuniform1>Китель (утепленный)</entityname.captainsuniform1>
+
+<entityname.captainsuniform2>Китель (темный)</entityname.captainsuniform2>
+
+<entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
+
+<entityname.administratorclothes>Униформа милиционера</entityname.administratorclothes>
+
+<entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
+
+<entityname.assistantclothes>Комбинезон уборщика</entityname.assistantclothes>
+
+<entityname.watchmanclothes>Комбинезон завхоза</entityname.watchmanclothes>
+
+<entityname.commonerclothes1>Одежда жителя станции (вариант 1)</entityname.commonerclothes1>
+<entityname.commonerclothes1>Одежда жителя станции (вариант 2)</entityname.commonerclothes1>
+<entityname.commonerclothes1>Одежда жителя станции (вариант 3)</entityname.commonerclothes1>
+<entityname.commonerclothes1>Одежда жителя станции (вариант 4)</entityname.commonerclothes1>
+<entityname.crewchiefclothes>Одежда жителя станции (вариант 5)</entityname.crewchiefclothes>
+<entityname.quartermasterclothes>Одежда жителя станции (вариант 6)</entityname.quartermasterclothes>
+
+
+
+
+
+
+
+
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+<!-- Одежда -->
+
+
+
+
+
+
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+
+<entityname.ballistichelmet2>Шлемофон ТШ-4</entityname.ballistichelmet2>
+<entitydescription.ballistichelmet2>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.ballistichelmet2>
+
+<entityname.captainscap1>Фуражка (вариант 1)</entityname.captainscap1>
+<entityname.captainscap2>Фуражка (вариант 2)</entityname.captainscap2>
+<entityname.captainscap3>Фуражка (вариант 3)</entityname.captainscap3>
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+<!-- Головные уборы -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+<!-- Слот сумки -->
+
+
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<entityname.idcard>Паспорт</entityname.idcard>
+<entitydescription.idcard>Обеспечивает ограниченный доступ в отсеки и позволяет установить личность гражданина.</entitydescription.idcard>
+
+<entityname.toolbox>Контейнер для хранения</entityname.toolbox>
+<entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
+
+<entityname.headset>Наушники</entityname.headset>
+<entitydescription.headset>Обеспечивают связь с другими членами экипажа на расстоянии.</entitydescription.headset>
+
+<entityname.handcuffs>Наручники</entityname.handcuffs>
+<entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
+<entityname.riotshield>Противоударный щит</entityname.riotshield>
+
+<entityname.divingmask>Подводная маска</entityname.divingmask>
+<entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
+
+<entityname.divingsuit>Скафандр</entityname.divingsuit>
+<entitydescription.divingsuit>Водолазный костюм с поддержанием атмосферного давления. Способен выдержать колоссальное давление воды под ледяной корой Европы.</entitydescription.divingsuit>
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
+<!-- Разное снаряжение -->
 
 
 
@@ -163,6 +322,35 @@
 
 
 
+
+
+<!-- TODO Вырезать -->
+<entityname.bodyarmor>!ВЫРЕЗАТЬ Бронежилет</entityname.bodyarmor>
+<entityname.minerhelmet>!ВЫРЕЗАТЬ Шахтерский шлем</entityname.minerhelmet>
+<entityname.researcherclothes>!ВЫРЕЗАТЬ Костюм исследователя</entityname.researcherclothes>
+<entityname.securitypatrolclothes>!ВЫРЕЗАТЬ Униформа охранника аванпоста</entityname.securitypatrolclothes>
+<entityname.ballistichelmet3>!ВЫРЕЗАТЬ Полицейский шлем</entityname.ballistichelmet3>
+<entitydescription.ballistichelmet3>!ВЫРЕЗАТЬ Шлем для усмирения массовых беспорядков, но подходит и для борьбы с инопланетными захватчиками.</entitydescription.ballistichelmet3>
+<entityname.ballistichelmet1>!ВЫРЕЗАТЬ Пуленепробиваемый шлем</entityname.ballistichelmet1>
+<entitydescription.ballistichelmet1>!ВЫРЕЗАТЬ Хотя шлем и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.ballistichelmet1>
+<entityname.securityuniform2>!ВЫРЕЗАТЬ Форма сотрудника службы безопасности</entityname.securityuniform2>
+<entitydescription.securityuniform2>!ВЫРЕЗАТЬ "Уважай мою власть!"</entitydescription.securityuniform2>
+<entityname.doctorsuniform2>!ВЫРЕЗАТЬ Форма врача</entityname.doctorsuniform2>
+<entitydescription.doctorsuniform2>!ВЫРЕЗАТЬ В ней вы будете выглядеть как человек, способный оказать первую медицинскую помощь.</entitydescription.doctorsuniform2>
+<entityname.healthscanner>!ВЫРЕЗАТЬ Информационный экран сканера здоровья</entityname.healthscanner>
+<entitydescription.healthscanner>!ВЫРЕЗАТЬ Информационный экран, на котором отображается информация о жизненных показателях и состоянии находящихся поблизости людей.</entitydescription.healthscanner>
+<entityname.alienpistol>!ВЫРЕЗАТЬ Инопланетный пистолет</entityname.alienpistol>
+<entitydescription.alienpistol>!ВЫРЕЗАТЬ Пистолет, работающий на энергоблоках инопланетян.</entitydescription.alienpistol>
+<entityname.doctorsuniform1>!ВЫРЕЗАТЬ Форма медика</entityname.doctorsuniform1>
+<entitydescription.doctorsuniform1>!ВЫРЕЗАТЬ Для медработников на передовой. Дает легкую защиту владельцу.</entitydescription.doctorsuniform1>
+<entityname.securityuniform3>!ВЫРЕЗАТЬ Форма стрелка</entityname.securityuniform3>
+<entitydescription.securityuniform3>!ВЫРЕЗАТЬ Обычная униформа для стрелка.</entitydescription.securityuniform3>
+<entityname.captainsuniform3>!ВЫРЕЗАТЬ Форма адмирала</entityname.captainsuniform3>
+<entityname.clownmask>!ВЫРЕЗАТЬ Клоунская маска</entityname.clownmask>
+<entitydescription.clownmask>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clownmask>
+<entityname.clowncostume>!ВЫРЕЗАТЬ Клоунский костюм</entityname.clowncostume>
+<entitydescription.clowncostume>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clowncostume>
+<!-- TODO Вырезать -->
 
 
 
@@ -1098,49 +1286,7 @@
 <entityname.railgunloadersinglehorizontal>Одиночный горизонтальный зарядник рельсотрона</entityname.railgunloadersinglehorizontal>
 <entitydescription.railgunloadersinglehorizontal>Подает боеприпасы в рельсотрон, к которому он подключен. Однозарядная версия.</entitydescription.railgunloadersinglehorizontal>
 
-<!-- Equipment -->
-<entityname.idcard>Удостоверение личности</entityname.idcard>
-<entitydescription.idcard>Обеспечивает ограниченный доступ в различные части подлодки.</entitydescription.idcard>
-<entityname.alienpistol>Инопланетный пистолет</entityname.alienpistol>
-<entitydescription.alienpistol>Пистолет, работающий на энергоблоках инопланетян.</entitydescription.alienpistol>
-<entityname.captainscap>Капитанская фуражка</entityname.captainscap>
-<entitydescription.captainscap>Символ безоговорочной власти капитана.</entitydescription.captainscap>
-<entityname.captainsuniform>Форма капитана</entityname.captainsuniform>
-<entitydescription.captainsuniform>В ней вы будете выглядеть, как настоящий командир.</entitydescription.captainsuniform>
-<entityname.healthscanner>Информационный экран сканера здоровья</entityname.healthscanner>
-<entitydescription.healthscanner>Информационный экран, на котором отображается информация о жизненных показателях и состоянии находящихся поблизости людей.</entitydescription.healthscanner>
-<entityname.doctorsuniform2>Форма врача</entityname.doctorsuniform2>
-<entitydescription.doctorsuniform2>В ней вы будете выглядеть как человек, способный оказать первую медицинскую помощь.</entitydescription.doctorsuniform2>
-<entityname.orangejumpsuit>Оранжевый комбинезон</entityname.orangejumpsuit>
-<entitydescription.orangejumpsuit>Жаропрочная ткань обеспечивает определенную защиту от огня.</entitydescription.orangejumpsuit>
-<entityname.bluejumpsuit>Синий комбинезон</entityname.bluejumpsuit>
-<entitydescription.bluejumpsuit>Жаропрочная ткань обеспечивает определенную защиту от огня.</entitydescription.bluejumpsuit>
-<entityname.toolbox>Контейнер для хранения</entityname.toolbox>
-<entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
-<entityname.headset>Наушники</entityname.headset>
-<entitydescription.headset>Обеспечивают связь с другими членами экипажа на расстоянии.</entitydescription.headset>
-<entityname.clownmask>Клоунская маска</entityname.clownmask>
-<entitydescription.clownmask>Слава красному носу.</entitydescription.clownmask>
-<entityname.clowncostume>Клоунский костюм</entityname.clowncostume>
-<entitydescription.clowncostume>Слава красному носу.</entitydescription.clowncostume>
-<entityname.assistantclothes>Одежда помощника</entityname.assistantclothes>
-<entitydescription.assistantclothes>Даже помощникам нужна одежда.</entitydescription.assistantclothes>
-<entityname.watchmanclothes>Одежда сторожа</entityname.watchmanclothes>
-<entitydescription.watchmanclothes>В ней вы будете выглядеть как человек, способный предложить работу любому прохожему.</entitydescription.watchmanclothes>
-<entityname.securityuniform2>Форма сотрудника службы безопасности</entityname.securityuniform2>
-<entitydescription.securityuniform2>"Уважай мою власть!"</entitydescription.securityuniform2>
-<entityname.bodyarmor>Бронежилет</entityname.bodyarmor>
-<entitydescription.bodyarmor>Хотя бронежилет и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.bodyarmor>
-<entityname.ballistichelmet1>Пуленепробиваемый шлем</entityname.ballistichelmet1>
-<entitydescription.ballistichelmet1>Хотя шлем и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.ballistichelmet1>
-<entityname.handcuffs>Наручники</entityname.handcuffs>
-<entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
-<entityname.riotshield>Полицейский щит</entityname.riotshield>
-<entitydescription.riotshield>Защищает от урона.</entitydescription.riotshield>
-<entityname.divingmask>Подводная маска</entityname.divingmask>
-<entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
-<entityname.divingsuit>Водолазный скафандр</entityname.divingsuit>
-<entitydescription.divingsuit>Водолазный костюм с поддержанием атмосферного давления. Способен выдержать колоссальное давление воды под ледяной корой Европы. Однако надежную защиту дает только на глубине до 4 000 м, на больших глубинах требуется боевой костюм или костюм бездны.</entitydescription.divingsuit>
+
 <entityname.underwaterscooter>Подводный скутер</entityname.underwaterscooter>
 <entitydescription.underwaterscooter>Подводное транспортное устройство, работающее от батарей.</entitydescription.underwaterscooter>
 <entityname.antibleeding1>Бинт</entityname.antibleeding1>
@@ -3263,32 +3409,7 @@
 <easterbunny_objectivesuccessmessage3>Ко-ко, ко-ко! Это было забавно. Человек с раскрашенным лицом будет просто в шоке, когда узнает, как тут все прошло.</easterbunny_objectivesuccessmessage3>
 <easterbunny_traitorobjectivestartmessage4>Спастись:\n[traitorgoalinfos]</easterbunny_traitorobjectivestartmessage4>
 
-<!-- New values -->
-<entityname.orangejumpsuit1>Защитный комплект</entityname.orangejumpsuit1>
-<entitydescription.orangejumpsuit1>Свинцовый костюм, защищающий от радиации.</entitydescription.orangejumpsuit1>
-<entityname.orangejumpsuit2>Комбинезон инженера</entityname.orangejumpsuit2>
-<entityname.bluejumpsuit1>Костюм котельника</entityname.bluejumpsuit1>
-<entityname.bluejumpsuit2>Комбинезон механика</entityname.bluejumpsuit2>
-<entityname.captainscap1>Фуражка ветерана</entityname.captainscap1>
-<entitydescription.captainscap1>Поношенная фуражка, побывавшая во многих портах.</entitydescription.captainscap1>
-<entityname.captainsuniform1>Форма ветерана</entityname.captainsuniform1>
-<entitydescription.captainsuniform1>Теплый китель, защищающий владельца от холода подводных глубин.</entitydescription.captainsuniform1>
-<entityname.captainscap2>Фуражка мятежника</entityname.captainscap2>
-<entitydescription.captainscap2>Вселяет ужас в сердца приверженцев Коалиции.</entitydescription.captainscap2>
-<entityname.captainsuniform2>Форма мятежника</entityname.captainsuniform2>
-<entitydescription.captainsuniform2>Показывает, кто здесь главный.</entitydescription.captainsuniform2>
-<entityname.captainscap3>Фуражка адмирала</entityname.captainscap3>
-<entityname.captainsuniform3>Форма адмирала</entityname.captainsuniform3>
-<entityname.securityuniform1>Форма спецназа</entityname.securityuniform1>
-<entitydescription.securityuniform1>"У меня нет времени истекать кровью".</entitydescription.securityuniform1>
-<entityname.securityuniform3>Форма стрелка</entityname.securityuniform3>
-<entitydescription.securityuniform3>Обычная униформа для стрелка.</entitydescription.securityuniform3>
-<entityname.ballistichelmet2>Шлем стрелка</entityname.ballistichelmet2>
-<entitydescription.ballistichelmet2>Этот шлем полегче, чем пуленепробиваемый вариант. Он не мешает владельцу использовать перископ.</entitydescription.ballistichelmet2>
-<entityname.ballistichelmet3>Полицейский шлем</entityname.ballistichelmet3>
-<entitydescription.ballistichelmet3>Шлем для усмирения массовых беспорядков, но подходит и для борьбы с инопланетными захватчиками.</entitydescription.ballistichelmet3>
-<entityname.doctorsuniform1>Форма медика</entityname.doctorsuniform1>
-<entitydescription.doctorsuniform1>Для медработников на передовой. Дает легкую защиту владельцу.</entitydescription.doctorsuniform1>
+
 <timeformathours>[hours] ч.</timeformathours>
 <timeformatminutes>[minutes] мин.</timeformatminutes>
 <timeformatseconds>[seconds] с.</timeformatseconds>
@@ -3876,16 +3997,8 @@
 <reputation>Репутация</reputation>
 <serversettingsdestructibleoutposts>Аванпосты можно разрушить</serversettingsdestructibleoutposts>
 <serversettingskillablenpcs>НИПов на аванпостах можно убить</serversettingskillablenpcs>
-<entityname.outpostoutfit1>Одежда обитателя аванпоста</entityname.outpostoutfit1>
-<entitydescription.outpostoutfit1>Ничего особенного, но в ней тепло и удобно.</entitydescription.outpostoutfit1>
-<entityname.stationadminoutfit>Костюм администратора станции</entityname.stationadminoutfit>
-<entityname.crewchiefoutfit>Костюм бригадира</entityname.crewchiefoutfit>
-<entityname.securitypatroloutfit>Униформа охранника аванпоста</entityname.securitypatroloutfit>
-<entityname.medicalofficeroutfit>Костюм медработника</entityname.medicalofficeroutfit>
-<entityname.quartermasteroutfit>Костюм начальника снабжения</entityname.quartermasteroutfit>
-<entityname.researcheroutfit>Костюм исследователя</entityname.researcheroutfit>
-<entityname.mineroutfit>Комбинезон шахтера</entityname.mineroutfit>
-<entityname.minerhelmet>Шахтерский шлем</entityname.minerhelmet>
+
+
 <label.deliveryservice>Служба доставки подлодок</label.deliveryservice>
 <loadingscreentip>Если создавать на аванпосте проблемы, это плохо скажется на вашей репутации. Плохая репутация ведет к тому, что жители аванпоста могут начать запрашивать максимальную цену за свои услуги, или - в более тяжелых случаях - возникнет конфликт с местной охраной.</loadingscreentip>
 <loadingscreentip>Многие аванпосты на Европе не признают власть Коалиции, хотя она все равно обладает такой мощью, что мало кто отваживается открыто противостоять ей. Однако есть и группы вроде Юпитерианских сепаратистов, которые ведут борьбу против Коалиции, поставив себе цель покончить с ней и построить более демократичное общество.</loadingscreentip>

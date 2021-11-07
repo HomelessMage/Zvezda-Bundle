@@ -7,11 +7,11 @@
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
   <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
 <!-- Кастом -->
 
 
 <!-- TODO -->
-
 <Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
 <Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />
@@ -23,8 +23,6 @@
 <Item file="Content/Items/Misc/misc.xml" />
 <Item file="Content/Items/Diving/divinggear.xml" />
 <Item file="Content/Items/Reactor/reactor.xml" />
-
-<Item file="Content/Items/Jobgear/misc.xml" />
 <!-- TODO -->
 
 
