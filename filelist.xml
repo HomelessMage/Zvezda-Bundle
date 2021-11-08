@@ -10,6 +10,7 @@
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
   <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
+  <Item file="Mods/Zvezda Bundle/Map/Pirates/PirateItems.xml" />  
 <!-- Кастом -->
 
 
@@ -79,7 +80,7 @@
   <Item file="Content/Items/Gardening/growableplants.xml" />
   <Item file="Content/Items/Gardening/gardeningtools.xml" />
   <Item file="Content/Items/Gardening/plantproducts.xml" />
-  <Item file="Content/Map/Pirates/PirateItems.xml" />
+
   <Character file="Content/Characters/Balloon/Balloon.xml" />
   <Character file="Content/Characters/Carrier/Carrier.xml" />
   <Character file="Content/Characters/Charybdis/Charybdis.xml" />

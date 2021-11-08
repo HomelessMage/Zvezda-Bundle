@@ -156,7 +156,7 @@
 <entitydescription.orangejumpsuit1></entitydescription.orangejumpsuit1>
 
 <entityname.orangejumpsuit2>Комбинезон инженера-электрика</entityname.orangejumpsuit2>
-<entityname.orangejumpsuit2></entityname.orangejumpsuit2>
+<entitydescription.orangejumpsuit2></entitydescription.orangejumpsuit2>
 
 <entityname.bluejumpsuit1>Комбинезон механика-сварщика</entityname.bluejumpsuit1>
 <entitydescription.bluejumpsuit1></entitydescription.bluejumpsuit1>
@@ -203,19 +203,32 @@
 <entityname.commonerclothes4>Одежда жителя станции (вариант 4)</entityname.commonerclothes4>
 <entitydescription.commonerclothes4></entitydescription.commonerclothes4>
 
-<entityname.commonerclothes5>Одежда жителя станции (вариант 4)</entityname.commonerclothes5>
+<entityname.commonerclothes5>Одежда жителя станции (вариант 5)</entityname.commonerclothes5>
 <entitydescription.commonerclothes5></entitydescription.commonerclothes5>
 
-<entityname.crewchiefclothes>Одежда жителя станции (вариант 5)</entityname.crewchiefclothes>
+<entityname.crewchiefclothes>Одежда жителя станции (вариант 6)</entityname.crewchiefclothes>
 <entitydescription.crewchiefclothes></entitydescription.crewchiefclothes>
 
-<entityname.quartermasterclothes>Одежда жителя станции (вариант 6)</entityname.quartermasterclothes>
+<entityname.quartermasterclothes>Одежда жителя станции (вариант 7)</entityname.quartermasterclothes>
 <entitydescription.quartermasterclothes></entitydescription.quartermasterclothes>
 
 <entityname.vipclothes2>Одежда дипломата</entityname.vipclothes2>
 <entitydescription.vipclothes2></entitydescription.vipclothes2>
 
+<entityname.pirateclothesnovice>Одежда бандита (вариант 1)</entityname.pirateclothesnovice>
+<entitydescription.pirateclothesnovice></entitydescription.pirateclothesnovice>
 
+<entityname.pirateclotheshard_1>Одежда бандита (вариант 2)</entityname.pirateclotheshard_1>
+<entitydescription.pirateclotheshard_1></entitydescription.pirateclotheshard_1>
+
+<entityname.pirateclotheshard_2>Одежда бандита (вариант 3)</entityname.pirateclotheshard_2>
+<entitydescription.pirateclotheshard_2></entitydescription.pirateclotheshard_2>
+
+<entityname.banditclothes1>Одежда бандита (вариант 4)</entityname.banditclothes1>
+<entitydescription.banditclothes1></entitydescription.banditclothes1>
+
+<entityname.banditclothes2>Одежда бандита (вариант 5)</entityname.banditclothes2>
+<entitydescription.banditclothes2></entitydescription.banditclothes2>
 
 
 <!-- Одежда -->
@@ -256,6 +269,20 @@
 
 <entityname.captainscap3>Фуражка (вариант 3)</entityname.captainscap3>
 <entitydescription.captainscap3></entitydescription.captainscap3>
+
+<entityname.piratehelmet>Шлем кустарный</entityname.piratehelmet>
+<entitydescription.piratehelmet></entitydescription.piratehelmet>
+
+
+
+
+
+
+<entityname.piratecaptainhat>Шляпа треуголка</entityname.piratecaptainhat>
+<entitydescription.piratecaptainhat></entitydescription.piratecaptainhat>
+
+<entityname.piratebandana>Бандана</entityname.piratebandana>
+<entitydescription.piratebandana></entitydescription.piratebandana>
 <!-- Головные уборы -->
 <!-- Головные уборы -->
 <!-- Головные уборы -->
@@ -288,7 +315,11 @@
 <!-- Слот сумки -->
 <!-- Слот сумки -->
 <!-- Слот сумки -->
+<entityname.bandolier>Разгрузочный жилет "Лифчик"</entityname.bandolier>
+<entitydescription.bandolier>Легкое снаряжение для переноски боеприпасов и других предметов.</entitydescription.bandolier>
 
+<entityname.piratebodyarmor>Бронежилет кустарный</entityname.piratebodyarmor>
+<entitydescription.piratebodyarmor></entitydescription.piratebodyarmor>
 <!-- Слот сумки -->
 <!-- Слот сумки -->
 <!-- Слот сумки -->
@@ -330,13 +361,39 @@
 
 <entityname.handcuffs>Наручники</entityname.handcuffs>
 <entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
+
 <entityname.riotshield>Противоударный щит</entityname.riotshield>
+<entitydescription.riotshield></entitydescription.riotshield>
 
 <entityname.divingmask>Подводная маска</entityname.divingmask>
 <entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
 
 <entityname.divingsuit>Скафандр</entityname.divingsuit>
-<entitydescription.divingsuit>Водолазный костюм с поддержанием атмосферного давления. Способен выдержать колоссальное давление воды под ледяной корой Европы.</entitydescription.divingsuit>
+<entitydescription.divingsuit>Водолазный костюм с поддержанием атмосферного давления.</entitydescription.divingsuit>
+
+<entityname.cigar>Сигара</entityname.cigar>
+<entitydescription.cigar>Жизнь под водой давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>
+
+<entityname.repairpack>Ремнабор</entityname.repairpack>
+<entitydescription.repairpack>Аптечка для быстрого решения проблем с механикой и электрикой. Расходуется при использовании.</entitydescription.repairpack>
+
+<entityname.accordion>Аккордеон</entityname.accordion>
+<entitydescription.accordion>Старый аккордеон ручной работы.</entitydescription.accordion>
+
+<entityname.bongodrums>Бонго</entityname.bongodrums>
+<entitydescription.bongodrums>Пара старых барабанов ручной работы.</entitydescription.bongodrums>
+
+<entityname.captainspipe>Трубка капитана</entityname.captainspipe>
+<entitydescription.captainspipe>Для успокоения нервов, когда на море качка.</entitydescription.captainspipe>
+
+<entityname.boardingaxe>Пожарный топор</entityname.boardingaxe>
+<entitydescription.boardingaxe></entitydescription.boardingaxe>
+
+<entityname.coalitioncommendation>Медаль "За Трудовую Доблесть"</entityname.coalitioncommendation>
+<entitydescription.coalitioncommendation></entitydescription.coalitioncommendation>
+
+<entityname.coalitionmedal>Медаль "За Отвагу"</entityname.coalitionmedal>
+<entitydescription.coalitionmedal></entitydescription.coalitionmedal>
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
@@ -360,19 +417,85 @@
 
 
 <!-- TODO -->
-<!-- Items (new) -->
-
-<entityname.accordion>Аккордеон</entityname.accordion>
-<entitydescription.accordion>Старый аккордеон ручной работы.</entitydescription.accordion>
-<entityname.bongodrums>Бонго</entityname.bongodrums>
-<entitydescription.bongodrums>Пара старых барабанов ручной работы.</entitydescription.bongodrums>
-<entityname.captainspipe>Трубка капитана</entityname.captainspipe>
-<entitydescription.captainspipe>Для успокоения нервов, когда на море качка.</entitydescription.captainspipe>
-
-
-
-
 <!-- TODO Вырезать -->
+<entityname.assaultrifle>!ВЫРЕЗАТ Штурмовая винтовка</entityname.assaultrifle>
+<entitydescription.assaultrifle>!ВЫРЕЗАТ Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
+<entityname.assaultriflemagazine>!ВЫРЕЗАТ Магазин штурмовой винтовки</entityname.assaultriflemagazine>
+<entitydescription.assaultriflemagazine>!ВЫРЕЗАТ Магазин под патроны калибра 6,8 мм.</entitydescription.assaultriflemagazine>
+<entityname.shotgunslugexplosive>!ВЫРЕЗАТ Разрывная пуля</entityname.shotgunslugexplosive>
+<entitydescription.shotgunslugexplosive>!ВЫРЕЗАТ Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
+<entityname.skillbooksailorsguide>!ВЫРЕЗАТЬ Справочник моряка</entityname.skillbooksailorsguide>
+<entitydescription.skillbooksailorsguide>!ВЫРЕЗАТЬ Краткий справочник по всем задачам, связанным с подводным плаванием.</entitydescription.skillbooksailorsguide>
+<entityname.skillbooksubmarinewarfare>!ВЫРЕЗАТЬ Искусство подводной войны</entityname.skillbooksubmarinewarfare>
+<entitydescription.skillbooksubmarinewarfare>!ВЫРЕЗАТЬ Руководство по военным действиям с участием подлодок, с подробными схемами тактических маневров и полным справочником по вооружению.</entitydescription.skillbooksubmarinewarfare>
+<entityname.skillbookhandyseaman>!ВЫРЕЗАТЬ Умелый моряк</entityname.skillbookhandyseaman>
+<entitydescription.skillbookhandyseaman>!ВЫРЕЗАТЬ Справочник с подробным описанием самых распространенных технических проблем на подлодках Европы, а также простыми и понятными советами по их решению.</entitydescription.skillbookhandyseaman>
+<entityname.skillbookeuropanmedicine>!ВЫРЕЗАТЬ Европейская медицина</entityname.skillbookeuropanmedicine>
+<entitydescription.skillbookeuropanmedicine>!ВЫРЕЗАТЬ Справочник по лечению раненых и больных в условиях ограниченного запаса медицинских ресурсов. В нем часто упоминается слово «сортировка».</entitydescription.skillbookeuropanmedicine>
+<entityname.thermalgoggles>!ВЫРЕЗАТЬ Тепловизор</entityname.thermalgoggles>
+<entitydescription.thermalgoggles>!ВЫРЕЗАТЬ Очки теплового зрения позволяют различать живые цели при плохом освещении и даже за препятствиями.</entitydescription.thermalgoggles>
+<entityname.reactorpda>!ВЫРЕЗАТЬ Пульт реактора</entityname.reactorpda>
+<entitydescription.reactorpda>Портативное устройство для дистанционного управления реактором подлодки.</entitydescription.reactorpda>
+<entityname.dirtybomb>!ВЫРЕЗАТЬ Грязная бомба</entityname.dirtybomb>
+<entitydescription.dirtybomb>!ВЫРЕЗАТЬ В зажигательную смесь добавлены радиоактивные материалы. При небольшой взрывной силе радиоактивное заражение катастрофически загрязняет место взрыва.</entitydescription.dirtybomb>
+<entityname.fulguriumfuelrodvolatile>!ВЫРЕЗАТЬ Нестабильный грозовиевый топливный стержень</entityname.fulguriumfuelrodvolatile>
+<entitydescription.fulguriumfuelrodvolatile>!ВЫРЕЗАТЬ Грозовиевый топливный стержень после дополнительной очистки поставляет энергию гораздо дольше. Однако его радиационная защита лишь частично экранирует фоновое излучение. Использовать с особой осторожностью!</entitydescription.fulguriumfuelrodvolatile>
+<entityname.nucleargun>!ВЫРЕЗАТЬ Быстрый ускоритель распада</entityname.nucleargun>
+<entitydescription.nucleargun>!ВЫРЕЗАТЬ Прототип энергетического оружия, созданный с использованием уникальных инопланетных материалов на Европе. При выстреле происходит реакция ядерного распада с мощным выбросом энергии.</entitydescription.nucleargun>
+<entityname.cargoscooter>!ВЫРЕЗАТЬ Грузовой скутер</entityname.cargoscooter>
+<entitydescription.cargoscooter>!ВЫРЕЗАТЬ Подводный скутер для транспортировки материалов под водой. Скутер слишком большой и не поместится в инвентаре, но нейтральная плавучесть позволяет ему оставаться там, где вы его бросите.</entitydescription.cargoscooter>
+<entityname.safetyharness>!ВЫРЕЗАТЬ Страховочные ремни</entityname.safetyharness>
+<entitydescription.safetyharness>!ВЫРЕЗАТЬ Специальная обвязка, разработанная для снижения травматизма на подлодках Европы. Также обвязка частично гасит эффект потока воды, помогая в случае пробоины в корпусе.</entitydescription.safetyharness>
+<entityname.pucs>!ВЫРЕЗАТЬ УЗК</entityname.pucs>
+<entitydescription.pucs>!ВЫРЕЗАТЬ Универсальный Защитный Костюм, или УЗК, обеспечивает полную защиту от воздействий внешней среды, таких как огонь и радиация. Встроенная система фильтрации воздуха оптимизирует использование кислорода, а портативный медицинский компьютер своевременно вводит пользователю имеющиеся в распоряжении медикаменты.</entitydescription.pucs>
+<entityname.autoinjectorheadset>!ВЫРЕЗАТЬ Гарнитура с инжектором</entityname.autoinjectorheadset>
+<entitydescription.autoinjectorheadset>!ВЫРЕЗАТЬ Модифицированная гарнитура с встроенной батареей и устройством, вводящим лекарства при снижении здоровья пользователя.</entitydescription.autoinjectorheadset>
+<entityname.depletedfuel>!ВЫРЕЗАТЬ Обедненное топливо</entityname.depletedfuel>
+<entitydescription.depletedfuel>!ВЫРЕЗАТЬ Тяжелый, плотный материал, полученный из отработанных топливных стержней. Годится для изготовления инструментов и боеприпасов.</entitydescription.depletedfuel>
+<entityname.wrenchhardened>!ВЫРЕЗАТЬ Закаленный гаечный ключ</entityname.wrenchhardened>
+<entitydescription.wrenchhardened>!ВЫРЕЗАТЬ Гаечный ключ, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.wrenchhardened>
+<entityname.screwdriverhardened>!ВЫРЕЗАТЬ Закаленная отвертка</entityname.screwdriverhardened>
+<entitydescription.screwdriverhardened>!ВЫРЕЗАТЬ Отвертка, закаленная с помощью обедненного топлива. Благодаря усиленному материалу более эффективна как инструмент и оружие.</entitydescription.screwdriverhardened>
+<entityname.crowbarhardened>!ВЫРЕЗАТЬ Закаленный лом</entityname.crowbarhardened>
+<entitydescription.crowbarhardened>!ВЫРЕЗАТЬ Лом, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.crowbarhardened>
+<entityname.divingknifehardened>!ВЫРЕЗАТЬ Закаленный нож ныряльщика</entityname.divingknifehardened>
+<entitydescription.divingknifehardened>!ВЫРЕЗАТЬ Нож ныряльщика, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как оружие.</entitydescription.divingknifehardened>
+<entityname.revolverrounddepletedfuel>!ВЫРЕЗАТЬ Патрон револьвера с обедненным топливом</entityname.revolverrounddepletedfuel>
+<entitydescription.revolverrounddepletedfuel>!ВЫРЕЗАТЬ Револьверный патрон калибра .38 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.revolverrounddepletedfuel>
+<entityname.smgmagazinedepletedfuel>!ВЫРЕЗАТЬ Магазин для ПП с обедненным топливом</entityname.smgmagazinedepletedfuel>
+<entitydescription.smgmagazinedepletedfuel>!ВЫРЕЗАТЬ Магазин для ПП с патронами калибра .45 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.smgmagazinedepletedfuel>
+<entityname.smgrounddepletedfuel>!ВЫРЕЗАТЬ Патрон для ПП с обедненным топливом</entityname.smgrounddepletedfuel>
+<entityname.coilgunammoboxdepletedfuel>!ВЫРЕЗАТЬ Ящик с боеприпасами с обедненным топливом для магнитной пушки</entityname.coilgunammoboxdepletedfuel>
+<entitydescription.coilgunammoboxdepletedfuel>!ВЫРЕЗАТЬ Тяжелый ящик с боеприпасами с обедненным топливом для магнитной пушки. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.coilgunammoboxdepletedfuel>
+<entityname.depletedfuelbolt>!ВЫРЕЗАТЬ Снаряд с обедненным топливом</entityname.depletedfuelbolt>
+<entityname.handheldelectricalmonitor>!ВЫРЕЗАТЬ Ручной электромонитор</entityname.handheldelectricalmonitor>
+<entitydescription.handheldelectricalmonitor>!ВЫРЕЗАТЬ Небольшое устройство для удаленного доступа к информации об электрических системах корабля.</entitydescription.handheldelectricalmonitor>
+<entityname.handheldstatusmonitor>!ВЫРЕЗАТЬ Ручной монитор статуса</entityname.handheldstatusmonitor>
+<entitydescription.handheldstatusmonitor>!ВЫРЕЗАТЬ Небольшое устройство, на экране которого мгновенно появляется информация о пробоинах в корпусе корабля.</entitydescription.handheldstatusmonitor>
+<entityname.autoshotgun>!ВЫРЕЗАТЬ Автоматический дробовик</entityname.autoshotgun>
+<entitydescription.autoshotgun>!ВЫРЕЗАТЬ Примитивный автоматический дробовик с огромным боезапасом. Большой размер и вес доставляют неудобства при использовании.</entitydescription.autoshotgun>
+<entityname.handcannon>!ВЫРЕЗАТЬ Бомбарда</entityname.handcannon>
+<entitydescription.handcannon>!ВЫРЕЗАТЬ Огромный револьвер, более эффективный против крупных инопланетных целей на Европе, чем обычное оружие.</entitydescription.handcannon>
+<entityname.handcannonround>!ВЫРЕЗАТЬ Патрон бомбарды</entityname.handcannonround>
+<entitydescription.handcannonround>!ВЫРЕЗАТЬ Огромный револьверный патрон калибра .61. Уникальный материал изготовления обеспечивает высокую бронебойность и останавливающую силу.</entitydescription.handcannonround>
+<entityname.slipsuit>!ВЫРЕЗАТЬ Гидрокостюм</entityname.slipsuit>
+<entitydescription.slipsuit>!ВЫРЕЗАТЬ Модифицированный боевой водолазный скафандр с плавниками и ластами облегчает передвижение в воде. К сожалению, ласты затрудняют передвижение по суше.</entitydescription.slipsuit>
+<entityname.stungundartfulgurium>!ВЫРЕЗАТЬ Грозовиевый дротик для электрошокера</entityname.stungundartfulgurium>
+<entitydescription.stungundartfulgurium>!ВЫРЕЗАТЬ Мощный дротик, который любого свалит с ног.</entitydescription.stungundartfulgurium>
+<entityname.fixfoamgrenade>!ВЫРЕЗАТЬ Граната с монтажной пеной</entityname.fixfoamgrenade>
+<entitydescription.fixfoamgrenade>!ВЫРЕЗАТЬ Выпускает облако химического уплотнителя, быстро ликвидирующего протечки.</entitydescription.fixfoamgrenade>
+<entityname.portablepump>!ВЫРЕЗАТЬ Портативный насос</entityname.portablepump>
+<entitydescription.portablepump>!ВЫРЕЗАТЬ Маленький насос на батарейке, монтируется на стенах. Очень быстро выкачивает воду, но расходует много энергии.</entitydescription.portablepump>
+<entityname.combatstimulantsyringe>!ВЫРЕЗАТЬ Боевой стимулятор</entityname.combatstimulantsyringe>
+<entityname.explosiveslug>!ВЫРЕЗАТЬ Разрывная пуля</entityname.explosiveslug>
+<entitydescription.explosiveslug>!ВЫРЕЗАТЬ Разрывные патроны для дробовика.</entitydescription.explosiveslug>
+<entityname.wrenchdementonite>!ВЫРЕЗАТЬ Дементонитовый гаечный ключ</entityname.wrenchdementonite>
+<entityname.screwdriverdementonite>!ВЫРЕЗАТЬ Дементонитовая отвертка</entityname.screwdriverdementonite>
+<entityname.crowbardementonite>!ВЫРЕЗАТЬ Дементонитовый лом</entityname.crowbardementonite>
+<entityname.divingknifedementonite>!ВЫРЕЗАТЬ Дементонитовый нож ныряльщика</entityname.divingknifedementonite>
+<entitydescription.dementonitetool>!ВЫРЕЗАТЬ Состоит из малоизученного инопланетного материала дементонита. При использовании вызывает странное неприятное ощущение.</entitydescription.dementonitetool>
+<entityname.chitinhelmet>!ВЫРЕЗАТЬ Хитиновый шлем</entityname.chitinhelmet>
+<entitydescription.chitinhelmet>!ВЫРЕЗАТЬ Прочный шлем, сделанный из хитина.</entitydescription.chitinhelmet>
 <entityname.flamer>!ВЫРЕЗАТЬ Огнемет</entityname.flamer>
 <entitydescription.flamer>!ВЫРЕЗАТЬ Огневое оружие, которое выстреливает потоком горящего сварочного топлива.</entitydescription.flamer>
 <entityname.smg>!ВЫРЕЗАТЬ ПП</entityname.smg>
@@ -445,6 +568,89 @@
 <entityname.clowncostume>!ВЫРЕЗАТЬ Клоунский костюм</entityname.clowncostume>
 <entitydescription.clowncostume>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clowncostume>
 <!-- TODO Вырезать -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4585,8 +4791,7 @@
 <entitydescription.mucusball>Липкий шарик слизи.</entitydescription.mucusball>
 <entityname.chitin>Кусок хитина</entityname.chitin>
 <entitydescription.chitin>Твердый кусок хитина.</entitydescription.chitin>
-<entityname.chitinhelmet>Хитиновый шлем</entityname.chitinhelmet>
-<entitydescription.chitinhelmet>Прочный шлем, сделанный из хитина.</entitydescription.chitinhelmet>
+
 <entityname.hallucinogenicbufotoxin>Галлюциногенный буфотоксин</entityname.hallucinogenicbufotoxin>
 <entitydescription.hallucinogenicbufotoxin>Галлюциногенный токсин, который встречается у некоторых обитателей Европы. В случае крайней необходимости можно использовать как антипарализатор.</entitydescription.hallucinogenicbufotoxin>
 <entityname.poop>Говно</entityname.poop>
@@ -4924,7 +5129,7 @@
 <entityname.stairsleftshort>Трап левый короткий</entityname.stairsleftshort>
 <entityname.stairsrightlong>Трап правый длинный</entityname.stairsrightlong>
 <entityname.stairsleftlong>Трап левый длинный</entityname.stairsleftlong>
-<entityname.banditoutfit>Бандитский наряд</entityname.banditoutfit>
+
 <campaigncrew.givenickname>Дать прозвище</campaigncrew.givenickname>
 <campaigncrew.givenicknametooltip>[mouseprimary]: дать прозвище</campaigncrew.givenicknametooltip>
 <confirm>Подтвердить</confirm>
@@ -5185,9 +5390,7 @@
 <orderdialog.mentalcase>У нас псих в помещении [roomname]!</orderdialog.mentalcase>
 <entityname.piratesubexterior>Часть экстерьера: пиратская подлодка</entityname.piratesubexterior>
 <entityname.piratesubdeco>Украшение: пиратская подлодка</entityname.piratesubdeco>
-<entityname.piratecaptainhat>Шляпа пиратского капитана</entityname.piratecaptainhat>
-<entityname.piratebandana>Бандана пирата</entityname.piratebandana>
-<entityname.pirateclothes>Костюм пирата</entityname.pirateclothes>
+
 <eventtext.atwitsend.c1>К вам подходит тощий молодой человек с бутылкой в руках. Несмотря на свой изможденный вид, он говорит довольно бодро:\n\n"Привет, я Арти Дулиттл. Вы же прибыли сюда на том корабле, так? Вы должны взять меня с собой!"\n</eventtext.atwitsend.c1>
 <eventtext.atwitsend.o1>Что? С чего бы мне это делать?</eventtext.atwitsend.o1>
 <eventtext.atwitsend.o1.c1>С того, что я буду отличным работником! Я мастер на все руки и к тому же готов работать бесплатно! Отлично звучит, а?</eventtext.atwitsend.o1.c1>
@@ -5504,16 +5707,13 @@
 
 
 <!-- New values (September 20) -->
-<entityname.piratehelmet>Пиратский шлем</entityname.piratehelmet>
-<entitydescription.piratehelmet>Пуленепробиваемый шлем пирата. Несмотря на кустарные улучшения, шлем выглядит на удивление крепким.</entitydescription.piratehelmet>
-<entitydescription.piratehelmet>Пиратский бронежилет, частично укрепленный поручными материалами. Он тяжелее, чем кажется.</entitydescription.piratehelmet>
-<entityname.piratebodyarmor>Пиратский бронежилет</entityname.piratebodyarmor>
+
 <entityname.chaingunammoboxphysicorium>Физикориевые боеприпасы для цепной пушки</entityname.chaingunammoboxphysicorium>
 <entitydescription.chaingunammoboxphysicorium>Невероятно тяжелый ящик снарядов для цепной пушки, сделанных из физикория. Останавливающая сила этих снарядов такова, что они могут оглушить любую цель.</entitydescription.chaingunammoboxphysicorium>
 <entityname.pulselaserammoboxtrilaser>Капсула для импульсного трилазера</entityname.pulselaserammoboxtrilaser>
 <entitydescription.pulselaserammoboxtrilaser>Ящик с раствором особых химикатов и ингредиентов. Линза разделяет луч лазера на три, позволяя поражать сразу несколько целей.</entitydescription.pulselaserammoboxtrilaser>
 <itemassemblyvanillafileexistswarning>Уже есть стандартная версия предмета с таким названием. Перезапись стандартных файлов запрещена; выберите другое название.</itemassemblyvanillafileexistswarning>
-<entitydescription.pirateclothes>Сделанный пиратами защитный костюм, предназначенный для суровых условий жизни моряка Европы. Этот костюм улучшен накладками легкой брони.</entitydescription.pirateclothes>
+
 <teampreference>Любимая команда: [team]</teampreference>
 <jobpreference>Любимая профессия: [job]</jobpreference>
 <connection.currentvelocityx>current_velocity_x</connection.currentvelocityx>
@@ -5990,94 +6190,7 @@
 <campaignoption.enablehardcore>Сложный режим</campaignoption.enablehardcore>
 <campaignoption.enablehardcore.tooltip>Испытание для опытных моряков. Сложность повышается. Персонажи получают больше опыта, но теряют прогресс при смерти.</campaignoption.enablehardcore.tooltip>
 <character.deathraptor>Раптор-убийца</character.deathraptor>
-<entityname.slipsuit>Гидрокостюм</entityname.slipsuit>
-<entitydescription.slipsuit>Модифицированный боевой водолазный скафандр с плавниками и ластами облегчает передвижение в воде. К сожалению, ласты затрудняют передвижение по суше.</entitydescription.slipsuit>
-<entityname.bandolier>Патронташ</entityname.bandolier>
-<entitydescription.bandolier>Легкое снаряжение для переноски боеприпасов и других предметов. Благодаря улучшенной эргономике повышает эффективность в бою с использованием оружия дальнего боя и орудий.</entitydescription.bandolier>
-<entityname.repairpack>Ремнабор</entityname.repairpack>
-<entitydescription.repairpack>Аптечка для быстрого решения проблем с механикой и электрикой. Расходуется при использовании.</entitydescription.repairpack>
-<entityname.autoinjectorheadset>Гарнитура с инжектором</entityname.autoinjectorheadset>
-<entitydescription.autoinjectorheadset>Модифицированная гарнитура с встроенной батареей и устройством, вводящим лекарства при снижении здоровья пользователя.</entitydescription.autoinjectorheadset>
-<entityname.depletedfuel>Обедненное топливо</entityname.depletedfuel>
-<entitydescription.depletedfuel>Тяжелый, плотный материал, полученный из отработанных топливных стержней. Годится для изготовления инструментов и боеприпасов.</entitydescription.depletedfuel>
-<entityname.wrenchhardened>Закаленный гаечный ключ</entityname.wrenchhardened>
-<entitydescription.wrenchhardened>Гаечный ключ, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.wrenchhardened>
-<entityname.screwdriverhardened>Закаленная отвертка</entityname.screwdriverhardened>
-<entitydescription.screwdriverhardened>Отвертка, закаленная с помощью обедненного топлива. Благодаря усиленному материалу более эффективна как инструмент и оружие.</entitydescription.screwdriverhardened>
-<entityname.crowbarhardened>Закаленный лом</entityname.crowbarhardened>
-<entitydescription.crowbarhardened>Лом, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.crowbarhardened>
-<entityname.divingknifehardened>Закаленный нож ныряльщика</entityname.divingknifehardened>
-<entitydescription.divingknifehardened>Нож ныряльщика, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как оружие.</entitydescription.divingknifehardened>
-<entityname.revolverrounddepletedfuel>Патрон револьвера с обедненным топливом</entityname.revolverrounddepletedfuel>
-<entitydescription.revolverrounddepletedfuel>Револьверный патрон калибра .38 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.revolverrounddepletedfuel>
-<entityname.smgmagazinedepletedfuel>Магазин для ПП с обедненным топливом</entityname.smgmagazinedepletedfuel>
-<entitydescription.smgmagazinedepletedfuel>Магазин для ПП с патронами калибра .45 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.smgmagazinedepletedfuel>
-<entityname.smgrounddepletedfuel>Патрон для ПП с обедненным топливом</entityname.smgrounddepletedfuel>
-<entityname.coilgunammoboxdepletedfuel>Ящик с боеприпасами с обедненным топливом для магнитной пушки</entityname.coilgunammoboxdepletedfuel>
-<entitydescription.coilgunammoboxdepletedfuel>Тяжелый ящик с боеприпасами с обедненным топливом для магнитной пушки. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.coilgunammoboxdepletedfuel>
-<entityname.depletedfuelbolt>Снаряд с обедненным топливом</entityname.depletedfuelbolt>
-<entityname.handheldelectricalmonitor>Ручной электромонитор</entityname.handheldelectricalmonitor>
-<entitydescription.handheldelectricalmonitor>Небольшое устройство для удаленного доступа к информации об электрических системах корабля.</entitydescription.handheldelectricalmonitor>
-<entityname.handheldstatusmonitor>Ручной монитор статуса</entityname.handheldstatusmonitor>
-<entitydescription.handheldstatusmonitor>Небольшое устройство, на экране которого мгновенно появляется информация о пробоинах в корпусе корабля.</entitydescription.handheldstatusmonitor>
-<entityname.autoshotgun>Автоматический дробовик</entityname.autoshotgun>
-<entitydescription.autoshotgun>Примитивный автоматический дробовик с огромным боезапасом. Большой размер и вес доставляют неудобства при использовании.</entitydescription.autoshotgun>
-<entityname.handcannon>Бомбарда</entityname.handcannon>
-<entitydescription.handcannon>Огромный револьвер, более эффективный против крупных инопланетных целей на Европе, чем обычное оружие.</entitydescription.handcannon>
-<entityname.handcannonround>Патрон бомбарды</entityname.handcannonround>
-<entitydescription.handcannonround>Огромный револьверный патрон калибра .61. Уникальный материал изготовления обеспечивает высокую бронебойность и останавливающую силу.</entitydescription.handcannonround>
-<entityname.coalitioncommendation>Благодарность коалиции</entityname.coalitioncommendation>
-<entitydescription.coalitioncommendation>Небольшая медная медаль, награда коалиции. Переданная другому члену команды, мгновенно добавляет ему опыта.</entitydescription.coalitioncommendation>
-<entityname.coalitionmedal>Медаль коалиции</entityname.coalitionmedal>
-<entitydescription.coalitionmedal>Небольшая бронзовая медаль, награда коалиции. Как и благодарность коалиции, добавляет опыта при передаче члену команды, но несколько больше.</entitydescription.coalitionmedal>
-<entityname.assaultrifle>Штурмовая винтовка</entityname.assaultrifle>
-<entitydescription.assaultrifle>Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
-<entityname.assaultriflemagazine>Магазин штурмовой винтовки</entityname.assaultriflemagazine>
-<entitydescription.assaultriflemagazine>Магазин под патроны калибра 6,8 мм.</entitydescription.assaultriflemagazine>
-<entityname.shotgunslugexplosive>Разрывная пуля</entityname.shotgunslugexplosive>
-<entitydescription.shotgunslugexplosive>Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
-<entityname.boardingaxe>Абордажный топор</entityname.boardingaxe>
-<entitydescription.boardingaxe>Большой двуручный топор. Острое лезвие и большая пробивная сила позволяют разрубать врагов надвое и сносить им головы.</entitydescription.boardingaxe>
-<entityname.skillbooksailorsguide>Справочник моряка</entityname.skillbooksailorsguide>
-<entitydescription.skillbooksailorsguide>Краткий справочник по всем задачам, связанным с подводным плаванием.</entitydescription.skillbooksailorsguide>
-<entityname.skillbooksubmarinewarfare>Искусство подводной войны</entityname.skillbooksubmarinewarfare>
-<entitydescription.skillbooksubmarinewarfare>Руководство по военным действиям с участием подлодок, с подробными схемами тактических маневров и полным справочником по вооружению.</entitydescription.skillbooksubmarinewarfare>
-<entityname.skillbookhandyseaman>Умелый моряк</entityname.skillbookhandyseaman>
-<entitydescription.skillbookhandyseaman>Справочник с подробным описанием самых распространенных технических проблем на подлодках Европы, а также простыми и понятными советами по их решению.</entitydescription.skillbookhandyseaman>
-<entityname.skillbookeuropanmedicine>Европейская медицина</entityname.skillbookeuropanmedicine>
-<entitydescription.skillbookeuropanmedicine>Справочник по лечению раненых и больных в условиях ограниченного запаса медицинских ресурсов. В нем часто упоминается слово «сортировка».</entitydescription.skillbookeuropanmedicine>
-<entityname.thermalgoggles>Тепловизор</entityname.thermalgoggles>
-<entitydescription.thermalgoggles>Очки теплового зрения позволяют различать живые цели при плохом освещении и даже за препятствиями.</entitydescription.thermalgoggles>
-<entityname.reactorpda>Пульт реактора</entityname.reactorpda>
-<entitydescription.reactorpda>Портативное устройство для дистанционного управления реактором подлодки.</entitydescription.reactorpda>
-<entityname.dirtybomb>Грязная бомба</entityname.dirtybomb>
-<entitydescription.dirtybomb>В зажигательную смесь добавлены радиоактивные материалы. При небольшой взрывной силе радиоактивное заражение катастрофически загрязняет место взрыва.</entitydescription.dirtybomb>
-<entityname.fulguriumfuelrodvolatile>Нестабильный грозовиевый топливный стержень</entityname.fulguriumfuelrodvolatile>
-<entitydescription.fulguriumfuelrodvolatile>Грозовиевый топливный стержень после дополнительной очистки поставляет энергию гораздо дольше. Однако его радиационная защита лишь частично экранирует фоновое излучение. Использовать с особой осторожностью!</entitydescription.fulguriumfuelrodvolatile>
-<entityname.nucleargun>Быстрый ускоритель распада</entityname.nucleargun>
-<entitydescription.nucleargun>Прототип энергетического оружия, созданный с использованием уникальных инопланетных материалов на Европе. При выстреле происходит реакция ядерного распада с мощным выбросом энергии.</entitydescription.nucleargun>
-<entityname.cargoscooter>Грузовой скутер</entityname.cargoscooter>
-<entitydescription.cargoscooter>Подводный скутер для транспортировки материалов под водой. Скутер слишком большой и не поместится в инвентаре, но нейтральная плавучесть позволяет ему оставаться там, где вы его бросите.</entitydescription.cargoscooter>
-<entityname.safetyharness>Страховочные ремни</entityname.safetyharness>
-<entitydescription.safetyharness>Специальная обвязка, разработанная для снижения травматизма на подлодках Европы. Также обвязка частично гасит эффект потока воды, помогая в случае пробоины в корпусе.</entitydescription.safetyharness>
-<entityname.pucs>УЗК</entityname.pucs>
-<entitydescription.pucs>Универсальный Защитный Костюм, или УЗК, обеспечивает полную защиту от воздействий внешней среды, таких как огонь и радиация. Встроенная система фильтрации воздуха оптимизирует использование кислорода, а портативный медицинский компьютер своевременно вводит пользователю имеющиеся в распоряжении медикаменты.</entitydescription.pucs>
-<entityname.cigar>Сигара</entityname.cigar>
-<entitydescription.cigar>Жизнь на подлодке давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>
-<entityname.stungundartfulgurium>Грозовиевый дротик для электрошокера</entityname.stungundartfulgurium>
-<entitydescription.stungundartfulgurium>Мощный дротик, который любого свалит с ног.</entitydescription.stungundartfulgurium>
-<entityname.fixfoamgrenade>Граната с монтажной пеной</entityname.fixfoamgrenade>
-<entitydescription.fixfoamgrenade>Выпускает облако химического уплотнителя, быстро ликвидирующего протечки.</entitydescription.fixfoamgrenade>
-<entityname.portablepump>Портативный насос</entityname.portablepump>
-<entitydescription.portablepump>Маленький насос на батарейке, монтируется на стенах. Очень быстро выкачивает воду, но расходует много энергии.</entitydescription.portablepump>
-<entityname.combatstimulantsyringe>Боевой стимулятор</entityname.combatstimulantsyringe>
-<entityname.explosiveslug>Разрывная пуля</entityname.explosiveslug>
-<entitydescription.explosiveslug>Разрывные патроны для дробовика.</entitydescription.explosiveslug>
-<entityname.wrenchdementonite>Дементонитовый гаечный ключ</entityname.wrenchdementonite>
-<entityname.screwdriverdementonite>Дементонитовая отвертка</entityname.screwdriverdementonite>
-<entityname.crowbardementonite>Дементонитовый лом</entityname.crowbardementonite>
-<entityname.divingknifedementonite>Дементонитовый нож ныряльщика</entityname.divingknifedementonite>
-<entitydescription.dementonitetool>Состоит из малоизученного инопланетного материала дементонита. При использовании вызывает странное неприятное ощущение.</entitydescription.dementonitetool>
+
 <itemmsgtotalnumberlimited>На этой подлодке установлено слишком много таких предметов</itemmsgtotalnumberlimited>
 <tabmenu.talents>Таланты</tabmenu.talents>
 <experienceshort>ОПЫТ</experienceshort>

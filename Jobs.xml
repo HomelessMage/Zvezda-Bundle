@@ -60,7 +60,6 @@
          </ItemSet>
          <ItemSet>
             <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="bonnet" equip="true" showpreview="true" />
             <Item identifier="orangejumpsuit2" equip="true" outfit="true" showpreview="true">
                <Item identifier="screwdriver" showpreview="true" />
                <Item identifier="wrench" showpreview="true" />
