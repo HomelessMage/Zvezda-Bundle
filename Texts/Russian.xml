@@ -270,14 +270,6 @@
 <entityname.captainscap3>Фуражка (вариант 3)</entityname.captainscap3>
 <entitydescription.captainscap3></entitydescription.captainscap3>
 
-<entityname.piratehelmet>Шлем кустарный</entityname.piratehelmet>
-<entitydescription.piratehelmet></entitydescription.piratehelmet>
-
-
-
-
-
-
 <entityname.piratecaptainhat>Шляпа треуголка</entityname.piratecaptainhat>
 <entitydescription.piratecaptainhat></entitydescription.piratecaptainhat>
 
@@ -318,8 +310,6 @@
 <entityname.bandolier>Разгрузочный жилет "Лифчик"</entityname.bandolier>
 <entitydescription.bandolier>Легкое снаряжение для переноски боеприпасов и других предметов.</entitydescription.bandolier>
 
-<entityname.piratebodyarmor>Бронежилет кустарный</entityname.piratebodyarmor>
-<entitydescription.piratebodyarmor></entitydescription.piratebodyarmor>
 <!-- Слот сумки -->
 <!-- Слот сумки -->
 <!-- Слот сумки -->
@@ -355,9 +345,6 @@
 
 <entityname.toolbox>Контейнер для хранения</entityname.toolbox>
 <entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
-
-<entityname.headset>Наушники</entityname.headset>
-<entitydescription.headset>Обеспечивают связь с другими членами экипажа на расстоянии.</entitydescription.headset>
 
 <entityname.handcuffs>Наручники</entityname.handcuffs>
 <entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
@@ -418,12 +405,36 @@
 
 <!-- TODO -->
 <!-- TODO Вырезать -->
-<entityname.assaultrifle>!ВЫРЕЗАТ Штурмовая винтовка</entityname.assaultrifle>
-<entitydescription.assaultrifle>!ВЫРЕЗАТ Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
+<entityname.underwaterscooter>!ВЫРЕЗАТЬ Подводный скутер</entityname.underwaterscooter>
+<entitydescription.underwaterscooter>!ВЫРЕЗАТЬ Подводное транспортное устройство, работающее от батарей.</entitydescription.underwaterscooter>
+<entityname.spear>!ВЫРЕЗАТЬ Гарпун</entityname.spear>
+<entitydescription.spear>!ВЫРЕЗАТЬ Гарпун для подводного ружья.</entitydescription.spear>
+<entityname.alienspear>!ВЫРЕЗАТЬ Физикориевый гарпун</entityname.alienspear>
+<entitydescription.alienspear>!ВЫРЕЗАТЬ Гарпун для подводного ружья, созданный из инопланетного материала.</entitydescription.alienspear>
+<entityname.explosivespear>!ВЫРЕЗАТЬ Взрывной гарпун</entityname.explosivespear>
+<entitydescription.explosivespear>!ВЫРЕЗАТЬ Гарпун для подводного ружья.</entitydescription.explosivespear>
+<entityname.harpoongun>!ВЫРЕЗАТЬ Подводное ружье</entityname.harpoongun>
+<entitydescription.harpoongun>!ВЫРЕЗАТЬ Стреляет гарпунами, взрывными гарпунами и инопланетными гарпунами.</entitydescription.harpoongun>
+<entityname.revolverround>!ВЫРЕЗАТЬ Патрон револьвера</entityname.revolverround>
+<entitydescription.revolverround>!ВЫРЕЗАТЬ Калибр .38. Может остановить человека...</entitydescription.revolverround>
+<entityname.revolver>!ВЫРЕЗАТЬ Револьвер</entityname.revolver>
+<entitydescription.revolver>!ВЫРЕЗАТЬ Калибр .38.</entitydescription.revolver>
+<entityname.incendiumgrenade>!ВЫРЕЗАТЬ Граната с воспламенитом</entityname.incendiumgrenade>
+<entitydescription.incendiumgrenade>!ВЫРЕЗАТЬ Зажигательная граната. Использовать с максимальной осторожностью.</entitydescription.incendiumgrenade>
+<entityname.stunbaton>!ВЫРЕЗАТЬ Шоковая дубинка</entityname.stunbaton>
+<entitydescription.stunbaton>!ВЫРЕЗАТЬ Если устного приказа недостаточно, возможно, крепкий удар и разряд тока смогут выбить всю дурь из головы проблемного члена экипажа.</entitydescription.stunbaton>
+<entityname.bikehorn>!ВЫРЕЗАТЬ Велосипедный гудок</entityname.bikehorn>
+<entitydescription.bikehorn>!ВЫРЕЗАТЬ ТУ-ТУ!</entitydescription.bikehorn>
+<entityname.abyssdivingsuit>!ВЫРЕЗАТЬ Водолазный скафандр бездны</entityname.abyssdivingsuit>
+<entitydescription.abyssdivingsuit>!ВЫРЕЗАТЬ Тяжелый скафандр для глубоководных исследований. Выдерживает очень большое давление на глубине до 10 000 м. Экономно расходует кислород, но за счет снижения скорости передвижения.</entitydescription.abyssdivingsuit>
+<entityname.combatdivingsuit>!ВЫРЕЗАТЬ Боевой водолазный скафандр</entityname.combatdivingsuit>
+<entitydescription.combatdivingsuit>!ВЫРЕЗАТЬ Облегченный, не стесняющий движений костюм, предназначенный для боя. В некоторой степени защищает и выдерживает давление на глубине до 6 000 м.</entitydescription.combatdivingsuit>
+<entityname.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка</entityname.assaultrifle>
+<entitydescription.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
 <entityname.assaultriflemagazine>!ВЫРЕЗАТ Магазин штурмовой винтовки</entityname.assaultriflemagazine>
 <entitydescription.assaultriflemagazine>!ВЫРЕЗАТ Магазин под патроны калибра 6,8 мм.</entitydescription.assaultriflemagazine>
 <entityname.shotgunslugexplosive>!ВЫРЕЗАТ Разрывная пуля</entityname.shotgunslugexplosive>
-<entitydescription.shotgunslugexplosive>!ВЫРЕЗАТ Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
+<entitydescription.shotgunslugexplosive>!ВЫРЕЗАТЬ Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
 <entityname.skillbooksailorsguide>!ВЫРЕЗАТЬ Справочник моряка</entityname.skillbooksailorsguide>
 <entitydescription.skillbooksailorsguide>!ВЫРЕЗАТЬ Краткий справочник по всем задачам, связанным с подводным плаванием.</entitydescription.skillbooksailorsguide>
 <entityname.skillbooksubmarinewarfare>!ВЫРЕЗАТЬ Искусство подводной войны</entityname.skillbooksubmarinewarfare>
@@ -530,7 +541,7 @@
 <entitydescription.coilgunboltpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunboltpiercing>
 <entityname.crawlermask>!ВЫРЕЗАТЬ Маска ползуна</entityname.crawlermask>
 <entitydescription.crawlermask>!ВЫРЕЗАТЬ Помогает сохранить анонимность. Подходит для некоторых вечеринок.</entitydescription.crawlermask>
-<entityname.huskstinger>!ВЫРЕЗАТЬЖало оболочки</entityname.huskstinger>
+<entityname.huskstinger>!ВЫРЕЗАТЬ Жало оболочки</entityname.huskstinger>
 <entitydescription.huskstinger>!ВЫРЕЗАТЬ Самодельное колющее оружие.</entitydescription.huskstinger>
 <entityname.shellshield>!ВЫРЕЗАТЬ Фрагмент панциря молоха</entityname.shellshield>
 <entitydescription.shellshield>!ВЫРЕЗАТЬ Крепкий кусок панциря молоха.</entitydescription.shellshield>
@@ -538,31 +549,11 @@
 <entitydescription.mudraptorshell>!ВЫРЕЗАТЬ Защитная шкура грязевого раптора.</entitydescription.mudraptorshell>
 <entityname.clowndivingmask>!ВЫРЕЗАТЬ Подводная маска клоуна</entityname.clowndivingmask>
 <entitydescription.clowndivingmask>!ВЫРЕЗАТЬ Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
-<entityname.vipclothes1>!ВЫРЕЗАТЬ Костюм ВИП-персоны</entityname.vipclothes1>
-<entitydescription.vipclothes1></entitydescription.vipclothes1>
-<entityname.vipclothes3>!ВЫРЕЗАТЬ Костюм ВИП-персоны</entityname.vipclothes3>
-<entitydescription.vipclothes3></entitydescription.vipclothes3>
-<entityname.bodyarmor>!ВЫРЕЗАТЬ Бронежилет</entityname.bodyarmor>
 <entityname.minerhelmet>!ВЫРЕЗАТЬ Шахтерский шлем</entityname.minerhelmet>
-<entityname.researcherclothes>!ВЫРЕЗАТЬ Костюм исследователя</entityname.researcherclothes>
-<entityname.securitypatrolclothes>!ВЫРЕЗАТЬ Униформа охранника аванпоста</entityname.securitypatrolclothes>
-<entityname.ballistichelmet3>!ВЫРЕЗАТЬ Полицейский шлем</entityname.ballistichelmet3>
-<entitydescription.ballistichelmet3>!ВЫРЕЗАТЬ Шлем для усмирения массовых беспорядков, но подходит и для борьбы с инопланетными захватчиками.</entitydescription.ballistichelmet3>
-<entityname.ballistichelmet1>!ВЫРЕЗАТЬ Пуленепробиваемый шлем</entityname.ballistichelmet1>
-<entitydescription.ballistichelmet1>!ВЫРЕЗАТЬ Хотя шлем и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.ballistichelmet1>
-<entityname.securityuniform2>!ВЫРЕЗАТЬ Форма сотрудника службы безопасности</entityname.securityuniform2>
-<entitydescription.securityuniform2>!ВЫРЕЗАТЬ "Уважай мою власть!"</entitydescription.securityuniform2>
-<entityname.doctorsuniform2>!ВЫРЕЗАТЬ Форма врача</entityname.doctorsuniform2>
-<entitydescription.doctorsuniform2>!ВЫРЕЗАТЬ В ней вы будете выглядеть как человек, способный оказать первую медицинскую помощь.</entitydescription.doctorsuniform2>
 <entityname.healthscanner>!ВЫРЕЗАТЬ Информационный экран сканера здоровья</entityname.healthscanner>
 <entitydescription.healthscanner>!ВЫРЕЗАТЬ Информационный экран, на котором отображается информация о жизненных показателях и состоянии находящихся поблизости людей.</entitydescription.healthscanner>
 <entityname.alienpistol>!ВЫРЕЗАТЬ Инопланетный пистолет</entityname.alienpistol>
 <entitydescription.alienpistol>!ВЫРЕЗАТЬ Пистолет, работающий на энергоблоках инопланетян.</entitydescription.alienpistol>
-<entityname.doctorsuniform1>!ВЫРЕЗАТЬ Форма медика</entityname.doctorsuniform1>
-<entitydescription.doctorsuniform1>!ВЫРЕЗАТЬ Для медработников на передовой. Дает легкую защиту владельцу.</entitydescription.doctorsuniform1>
-<entityname.securityuniform3>!ВЫРЕЗАТЬ Форма стрелка</entityname.securityuniform3>
-<entitydescription.securityuniform3>!ВЫРЕЗАТЬ Обычная униформа для стрелка.</entitydescription.securityuniform3>
-<entityname.captainsuniform3>!ВЫРЕЗАТЬ Форма адмирала</entityname.captainsuniform3>
 <entityname.clownmask>!ВЫРЕЗАТЬ Клоунская маска</entityname.clownmask>
 <entitydescription.clownmask>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clownmask>
 <entityname.clowncostume>!ВЫРЕЗАТЬ Клоунский костюм</entityname.clowncostume>
@@ -1587,18 +1578,13 @@
 <entitydescription.railgunloadersinglehorizontal>Подает боеприпасы в рельсотрон, к которому он подключен. Однозарядная версия.</entitydescription.railgunloadersinglehorizontal>
 
 
-<entityname.underwaterscooter>Подводный скутер</entityname.underwaterscooter>
-<entitydescription.underwaterscooter>Подводное транспортное устройство, работающее от батарей.</entitydescription.underwaterscooter>
+
 <entityname.antibleeding1>Бинт</entityname.antibleeding1>
 <entitydescription.antibleeding1>Обычный бинт, помогающий справиться с кровотечениями и ожогами.</entitydescription.antibleeding1>
 <entityname.antibleeding2>Эластичный бинт</entityname.antibleeding2>
 <entitydescription.antibleeding2>Синтетическая кожа с кровоостанавливающими свойствами, способная быстро исцелить большинство ран.</entitydescription.antibleeding2>
 <entityname.antibleeding3>Антибиотический клей</entityname.antibleeding3>
 <entitydescription.antibleeding3>Антибиотический клей с кровоостанавливающими свойствами. Мгновенно останавливает кровотечение и эффективно лечит ожоги. Внимание: чрезмерное использование может привести к появлению тромбов в кровеносной системе.</entitydescription.antibleeding3>
-<entityname.weldingtool>Сварочный аппарат</entityname.weldingtool>
-<entitydescription.weldingtool>Один из важнейших инструментов на борту подлодки. Работает даже под водой.</entitydescription.weldingtool>
-<entityname.plasmacutter>Плазменный резак</entityname.plasmacutter>
-<entitydescription.plasmacutter>Разрезает различные материалы струей ионизированного кислорода.</entitydescription.plasmacutter>
 <entityname.weldingfueltank>Топливный бак сварочного аппарата</entityname.weldingfueltank>
 <entitydescription.weldingfueltank>Топливо для сварочного аппарата.</entitydescription.weldingfueltank>
 <entityname.extinguisher>Огнетушитель</entityname.extinguisher>
@@ -1617,8 +1603,6 @@
 <entitydescription.flashlight>Портативный источник света.</entitydescription.flashlight>
 <entityname.flare>Сигнальный огонь</entityname.flare>
 <entitydescription.flare>Временный портативный источник света. Помогает размечать путь, когда вы исследуете местность за пределами подлодки.</entitydescription.flare>
-<entityname.alienflare>Инопланетный сигнальный огонь</entityname.alienflare>
-<entitydescription.alienflare>Временный портативный источник света. Помогает размечать путь, когда вы исследуете местность за пределами подлодки. Горит дольше, чем обычный сигнальный огонь.</entitydescription.alienflare>
 <entityname.coilgunammobox>Ящик с боеприпасами для магнитной пушки</entityname.coilgunammobox>
 <entitydescription.coilgunammobox>Боеприпасы для магнитной пушки.</entitydescription.coilgunammobox>
 <entityname.uex>UEX</entityname.uex>
@@ -1633,34 +1617,14 @@
 <entitydescription.ic4block>Взрывчатое соединение, состоящее из C-4 с добавлением воспламенита.</entitydescription.ic4block>
 <entityname.detonator>Детонатор</entityname.detonator>
 <entitydescription.detonator>Устройство, взрывающее содержащуюся в нем взрывчатку после получения соответствующего сигнала.</entitydescription.detonator>
-<entityname.spear>Гарпун</entityname.spear>
-<entitydescription.spear>Гарпун для подводного ружья.</entitydescription.spear>
-<entityname.alienspear>Физикориевый гарпун</entityname.alienspear>
-<entitydescription.alienspear>Гарпун для подводного ружья, созданный из инопланетного материала.</entitydescription.alienspear>
-<entityname.explosivespear>Взрывной гарпун</entityname.explosivespear>
-<entitydescription.explosivespear>Гарпун для подводного ружья.</entitydescription.explosivespear>
-<entityname.harpoongun>Подводное ружье</entityname.harpoongun>
-<entitydescription.harpoongun>Стреляет гарпунами, взрывными гарпунами и инопланетными гарпунами.</entitydescription.harpoongun>
-<entityname.syringegun>Шприц-пистолет</entityname.syringegun>
-<entitydescription.syringegun>Стреляет мини-шприцами с лекарствами или ядами.</entitydescription.syringegun>
-<entityname.revolverround>Патрон револьвера</entityname.revolverround>
-<entitydescription.revolverround>Калибр .38. Может остановить человека...</entitydescription.revolverround>
-<entityname.revolver>Револьвер</entityname.revolver>
-<entitydescription.revolver>Калибр .38.</entitydescription.revolver>
 <entityname.stungrenade>Светошумовая граната</entityname.stungrenade>
 <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
 <entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
 <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
 <entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
 <entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
-<entityname.incendiumgrenade>Граната с воспламенитом</entityname.incendiumgrenade>
-<entitydescription.incendiumgrenade>Зажигательная граната. Использовать с максимальной осторожностью.</entitydescription.incendiumgrenade>
-<entityname.stunbaton>Шоковая дубинка</entityname.stunbaton>
-<entitydescription.stunbaton>Если устного приказа недостаточно, возможно, крепкий удар и разряд тока смогут выбить всю дурь из головы проблемного члена экипажа.</entitydescription.stunbaton>
 <entityname.divingknife>Нож ныряльщика</entityname.divingknife>
 <entitydescription.divingknife>Режет, колет, рубит и рассекает.</entitydescription.divingknife>
-<entityname.bikehorn>Велосипедный гудок</entityname.bikehorn>
-<entitydescription.bikehorn>ТУ-ТУ!</entitydescription.bikehorn>
 <entityname.oxygenitetank>Баллон с кислородитом</entityname.oxygenitetank>
 <entitydescription.oxygenitetank>Баллон, содержащий жидкий кислородит.</entitydescription.oxygenitetank>
 <entityname.batterycell>Аккумулятор</entityname.batterycell>
@@ -5215,10 +5179,7 @@
 <reputationformat>[reputationname] ([reputationvalue])</reputationformat>
 <campaignstore.sellvaluetooltip>Покупая у вас предметы, торговцы всегда предлагают меньше, чем вы за них заплатили. Также на цену продажи предмета влияет торговый баланс и ваша репутация на аванпосте, ну и немного настроение торговца.</campaignstore.sellvaluetooltip>
 <campaignmoney>Баланс: [money] кред.</campaignmoney>
-<entityname.abyssdivingsuit>Водолазный скафандр бездны</entityname.abyssdivingsuit>
-<entitydescription.abyssdivingsuit>Тяжелый скафандр для глубоководных исследований. Выдерживает очень большое давление на глубине до 10 000 м. Экономно расходует кислород, но за счет снижения скорости передвижения.</entitydescription.abyssdivingsuit>
-<entityname.combatdivingsuit>Боевой водолазный скафандр</entityname.combatdivingsuit>
-<entitydescription.combatdivingsuit>Облегченный, не стесняющий движений костюм, предназначенный для боя. В некоторой степени защищает и выдерживает давление на глубине до 6 000 м.</entitydescription.combatdivingsuit>
+
 <hudbutton.crewlist>Экипаж ([key])</hudbutton.crewlist>
 <hudbutton.commandinterface>Управление ([key])</hudbutton.commandinterface>
 <hudbutton.tabmenu>Информация ([key])</hudbutton.tabmenu>
