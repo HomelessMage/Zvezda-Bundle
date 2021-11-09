@@ -404,31 +404,21 @@
 
 
 <!-- TODO -->
+<entityname.stungrenade>Светошумовая граната</entityname.stungrenade>
+<entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
+<entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
+<entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
+<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
+<entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
+<entityname.incendiumgrenade>Коктейль Молотова</entityname.incendiumgrenade>
+<entitydescription.incendiumgrenade>Бутыль с зажигательной смесью</entitydescription.incendiumgrenade>
+
+
+
+
 <!-- TODO Вырезать -->
-<entityname.underwaterscooter>!ВЫРЕЗАТЬ Подводный скутер</entityname.underwaterscooter>
-<entitydescription.underwaterscooter>!ВЫРЕЗАТЬ Подводное транспортное устройство, работающее от батарей.</entitydescription.underwaterscooter>
-<entityname.spear>!ВЫРЕЗАТЬ Гарпун</entityname.spear>
-<entitydescription.spear>!ВЫРЕЗАТЬ Гарпун для подводного ружья.</entitydescription.spear>
-<entityname.alienspear>!ВЫРЕЗАТЬ Физикориевый гарпун</entityname.alienspear>
-<entitydescription.alienspear>!ВЫРЕЗАТЬ Гарпун для подводного ружья, созданный из инопланетного материала.</entitydescription.alienspear>
-<entityname.explosivespear>!ВЫРЕЗАТЬ Взрывной гарпун</entityname.explosivespear>
-<entitydescription.explosivespear>!ВЫРЕЗАТЬ Гарпун для подводного ружья.</entitydescription.explosivespear>
-<entityname.harpoongun>!ВЫРЕЗАТЬ Подводное ружье</entityname.harpoongun>
-<entitydescription.harpoongun>!ВЫРЕЗАТЬ Стреляет гарпунами, взрывными гарпунами и инопланетными гарпунами.</entitydescription.harpoongun>
-<entityname.revolverround>!ВЫРЕЗАТЬ Патрон револьвера</entityname.revolverround>
-<entitydescription.revolverround>!ВЫРЕЗАТЬ Калибр .38. Может остановить человека...</entitydescription.revolverround>
-<entityname.revolver>!ВЫРЕЗАТЬ Револьвер</entityname.revolver>
-<entitydescription.revolver>!ВЫРЕЗАТЬ Калибр .38.</entitydescription.revolver>
-<entityname.incendiumgrenade>!ВЫРЕЗАТЬ Граната с воспламенитом</entityname.incendiumgrenade>
-<entitydescription.incendiumgrenade>!ВЫРЕЗАТЬ Зажигательная граната. Использовать с максимальной осторожностью.</entitydescription.incendiumgrenade>
-<entityname.stunbaton>!ВЫРЕЗАТЬ Шоковая дубинка</entityname.stunbaton>
-<entitydescription.stunbaton>!ВЫРЕЗАТЬ Если устного приказа недостаточно, возможно, крепкий удар и разряд тока смогут выбить всю дурь из головы проблемного члена экипажа.</entitydescription.stunbaton>
-<entityname.bikehorn>!ВЫРЕЗАТЬ Велосипедный гудок</entityname.bikehorn>
-<entitydescription.bikehorn>!ВЫРЕЗАТЬ ТУ-ТУ!</entitydescription.bikehorn>
-<entityname.abyssdivingsuit>!ВЫРЕЗАТЬ Водолазный скафандр бездны</entityname.abyssdivingsuit>
-<entitydescription.abyssdivingsuit>!ВЫРЕЗАТЬ Тяжелый скафандр для глубоководных исследований. Выдерживает очень большое давление на глубине до 10 000 м. Экономно расходует кислород, но за счет снижения скорости передвижения.</entitydescription.abyssdivingsuit>
-<entityname.combatdivingsuit>!ВЫРЕЗАТЬ Боевой водолазный скафандр</entityname.combatdivingsuit>
-<entitydescription.combatdivingsuit>!ВЫРЕЗАТЬ Облегченный, не стесняющий движений костюм, предназначенный для боя. В некоторой степени защищает и выдерживает давление на глубине до 6 000 м.</entitydescription.combatdivingsuit>
+<entityname.physicoriumammobox>Ящик физикориевых снарядов</entityname.physicoriumammobox>
+
 <entityname.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка</entityname.assaultrifle>
 <entitydescription.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
 <entityname.assaultriflemagazine>!ВЫРЕЗАТ Магазин штурмовой винтовки</entityname.assaultriflemagazine>
@@ -515,30 +505,24 @@
 <entitydescription.smgmagazine>!ВЫРЕЗАТЬ Магазин для патронов для ПП .45 калибра.</entitydescription.smgmagazine>
 <entityname.smground>!ВЫРЕЗАТЬ Патрон для ПП</entityname.smground>
 <entitydescription.smground>!ВЫРЕЗАТЬ Патрон .45 калибра для пистолета-пулемета.</entitydescription.smground>
-<entityname.grenadelauncher>!ВЫРЕЗАТЬ Гранатомет</entityname.grenadelauncher>
-<entitydescription.grenadelauncher>!ВЫРЕЗАТЬ Портативный гранатомет для 40-мм гранат.</entitydescription.grenadelauncher>
-<entityname.40mmgrenade>!ВЫРЕЗАТЬ 40-мм граната</entityname.40mmgrenade>
-<entitydescription.40mmgrenade>!ВЫРЕЗАТЬ Снаряд для гранатомета.</entitydescription.40mmgrenade>
-<entityname.40mmstungrenade>!ВЫРЕЗАТЬ 40-мм оглушающая граната</entityname.40mmstungrenade>
-<entitydescription.40mmstungrenade>!ВЫРЕЗАТЬ Снаряд для гранатомета. Несмертельный.</entitydescription.40mmstungrenade>
-<entityname.shotgun>!ВЫРЕЗАТЬ Дробовик</entityname.shotgun>
-<entitydescription.shotgun>!ВЫРЕЗАТЬ Дробовик, разработанный для контроля толпы.</entitydescription.shotgun>
-<entityname.shotgunshell>!ВЫРЕЗАТЬ Патрон для дробовика</entityname.shotgunshell>
-<entitydescription.shotgunshell>!ВЫРЕЗАТЬ Патроны для дробовика. Смертельный.</entitydescription.shotgunshell>
-<entityname.stungun>!ВЫРЕЗАТЬ Электрошокер</entityname.stungun>
-<entitydescription.stungun>!ВЫРЕЗАТЬ Оружие, которое выстреливает электрическими дротиками.</entitydescription.stungun>
-<entityname.stungundart>!ВЫРЕЗАТЬ Дротик для электрошокера</entityname.stungundart>
-<entitydescription.stungundart>!ВЫРЕЗАТЬ Вызывает электрошок, который выводит цель из строя. Несмертельный.</entitydescription.stungundart>
-<entityname.toyhammer>!ВЫРЕЗАТЬ Игрушечный молот</entityname.toyhammer>
-<entitydescription.toyhammer>!ВЫРЕЗАТЬ Несмертельный, но жутко бесит.</entitydescription.toyhammer>
+
+
+
+<entityname.flamerunique>Прототип паровой пушки</entityname.flamerunique>
+<entitydescription.flamerunique>Прекрасно справляется с паразитами. Патент ожидается.</entitydescription.flamerunique>
+<entityname.clownmaskunique>Материнская поддержка</entityname.clownmaskunique>
+<entitydescription.clownmaskunique>От чуткого материнского взгляда ничего не скроешь.</entitydescription.clownmaskunique>
+<entityname.clownsuitunique>Материнское провидение</entityname.clownsuitunique>
+<entitydescription.clownsuitunique>Ничто не вырвется из теплого объятия матери.</entitydescription.clownsuitunique>
+
+
+
+
+
 <entityname.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Ящик взрывных снарядов</entityname.coilgunammoboxexplosive>
 <entitydescription.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunammoboxexplosive>
 <entityname.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Ящик пробивных снарядов</entityname.coilgunammoboxpiercing>
 <entitydescription.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunammoboxpiercing>
-<entityname.coilgunboltexplosive>!ВЫРЕЗАТЬ Взрывной снаряд магнитной пушки</entityname.coilgunboltexplosive>
-<entitydescription.coilgunboltexplosive>!ВЫРЕЗАТЬ Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunboltexplosive>
-<entityname.coilgunboltpiercing>!ВЫРЕЗАТЬ Пробивной снаряд магнитной пушки</entityname.coilgunboltpiercing>
-<entitydescription.coilgunboltpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunboltpiercing>
 <entityname.crawlermask>!ВЫРЕЗАТЬ Маска ползуна</entityname.crawlermask>
 <entitydescription.crawlermask>!ВЫРЕЗАТЬ Помогает сохранить анонимность. Подходит для некоторых вечеринок.</entitydescription.crawlermask>
 <entityname.huskstinger>!ВЫРЕЗАТЬ Жало оболочки</entityname.huskstinger>
@@ -1484,8 +1468,8 @@
 <missiondescriptionneutral.pvpmission>Судну коалиции, покинувшему точку «[location1]», приказано уничтожить мятежную подлодку в районе точки «[location2]»,</missiondescriptionneutral.pvpmission>
 <missiondescription1.pvpmission>Мятежная подлодка обнаружена в районе точки «[location2]». Согласно законам Коалиции Европы, государственная измена карается смертью. Свершите суд над преступниками - любыми доступными средствами.</missiondescription1.pvpmission>
 <missiondescription2.pvpmission>Вы состоите в организации «Юпитерианские сепаратисты», выступающей против Коалиции Европы. Ваши агенты в точке «[location1]» докладывают, что Коалиция отправила за вами одну из своих боевых подлодок. Уничтожьте противника любыми доступными средствами.</missiondescription2.pvpmission>
-<missionteam1.pvpmission>Коалиция</missionteam1.pvpmission>
-<missionteam2.pvpmission>Юпитерианские сепаратисты</missionteam2.pvpmission>
+<missionteam1.pvpmission>Союз Советских Колоний Европы</missionteam1.pvpmission>
+<missionteam2.pvpmission>Тысячелетний Рейх</missionteam2.pvpmission>
 <missionsuccess.pvpmission>Судно [loser] было побеждено командой судна [winner]!</missionsuccess.pvpmission>
 <missionfailure.pvpmission>Обе команды погибли</missionfailure.pvpmission>
 
@@ -1494,9 +1478,9 @@
 <mapentitycategory.structure>Сооружение</mapentitycategory.structure>
 <mapentitycategory.machine>Механизм</mapentitycategory.machine>
 <mapentitycategory.equipment>Снаряжение</mapentitycategory.equipment>
+<mapentitycategory.misc>Разное</mapentitycategory.misc>
 <mapentitycategory.electrical>Электрика</mapentitycategory.electrical>
 <mapentitycategory.material>Материал</mapentitycategory.material>
-<mapentitycategory.misc>Разное</mapentitycategory.misc>
 <mapentitycategory.alien>Др. планеты</mapentitycategory.alien>
 <mapentitycategory.itemassembly>Сборка предмета</mapentitycategory.itemassembly>
 <mapentitycategory.legacy>Устаревшие</mapentitycategory.legacy>
@@ -1617,12 +1601,7 @@
 <entitydescription.ic4block>Взрывчатое соединение, состоящее из C-4 с добавлением воспламенита.</entitydescription.ic4block>
 <entityname.detonator>Детонатор</entityname.detonator>
 <entitydescription.detonator>Устройство, взрывающее содержащуюся в нем взрывчатку после получения соответствующего сигнала.</entitydescription.detonator>
-<entityname.stungrenade>Светошумовая граната</entityname.stungrenade>
-<entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
-<entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
-<entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
-<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
-<entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
+
 <entityname.divingknife>Нож ныряльщика</entityname.divingknife>
 <entitydescription.divingknife>Режет, колет, рубит и рассекает.</entitydescription.divingknife>
 <entityname.oxygenitetank>Баллон с кислородитом</entityname.oxygenitetank>
@@ -3155,8 +3134,7 @@
 <wificomponent.channel>Канал</wificomponent.channel>
 <quickuseaction.holdtounequip>Удерживать, чтобы снять</quickuseaction.holdtounequip>
 <entityname.incendiumfueltank>Топливный баллон из воспламенита</entityname.incendiumfueltank>
-<entityname.physicoriumammobox>Ящик физикориевых снарядов</entityname.physicoriumammobox>
-<entityname.physicoriumbolt>Физикориевый снаряд</entityname.physicoriumbolt>
+
 <statisticspromptheader>Хотите помочь нам сделать Barotrauma лучше?</statisticspromptheader>
 <statisticsprompttext>Вы позволяете Barotrauma отправлять статистику использования и отчеты об ошибках разработчикам? Все данные анонимны, не включают никакой личной информации и используются исключительно с диагностики ошибок и улучшения игры Barotrauma.</statisticsprompttext>
 <centerarealockedheader>Тайны ждут впереди…</centerarealockedheader>
@@ -4682,20 +4660,7 @@
 <entityname.minemineral>Месторождение минералов</entityname.minemineral>
 <ordername.cleanupitems>Очистить предметы</ordername.cleanupitems>
 <campaignstore.owned>В наличии: [amount]</campaignstore.owned>
-<entityname.shotgununique>Гремелка</entityname.shotgununique>
-<entitydescription.shotgununique>Взрывное веселье.</entitydescription.shotgununique>
-<entityname.spearunique>Копье Ахава</entityname.spearunique>
-<entitydescription.spearunique>Антикварное копье, названное в честь легендарного капитана.</entitydescription.spearunique>
-<entityname.divingknifeunique>Рукопожатие Европы</entityname.divingknifeunique>
-<entitydescription.divingknifeunique>Для друзей и врагов. Но больше для врагов.</entitydescription.divingknifeunique>
-<entityname.smgunique>Меткий карабин</entityname.smgunique>
-<entitydescription.smgunique>Тактическое оружие, доступное в черном и еще более черном.</entitydescription.smgunique>
-<entityname.flamerunique>Прототип паровой пушки</entityname.flamerunique>
-<entitydescription.flamerunique>Прекрасно справляется с паразитами. Патент ожидается.</entitydescription.flamerunique>
-<entityname.clownmaskunique>Материнская поддержка</entityname.clownmaskunique>
-<entitydescription.clownmaskunique>От чуткого материнского взгляда ничего не скроешь.</entitydescription.clownmaskunique>
-<entityname.clownsuitunique>Материнское провидение</entityname.clownsuitunique>
-<entitydescription.clownsuitunique>Ничто не вырвется из теплого объятия матери.</entitydescription.clownsuitunique>
+
 <entityname.sealedsupplycrate>Запечатанный ящик с припасами</entityname.sealedsupplycrate>
 <entitydescription.sealedsupplycrate>Ящик с необходимыми припасами. Можно выручить за него неплохую сумму на аванпосте.</entitydescription.sealedsupplycrate>
 <forbiddenservernameverification>Ваш сервер будет скрыт из списка серверов по умолчанию, потому что его название содержит слово "[forbiddenword]". Вы точно хотите назвать свой сервер "[servername]"?</forbiddenservernameverification>

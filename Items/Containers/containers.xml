@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="suppliescabinet" tags="container,suppliescontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="889,349,120,132" origin="0.5,0.5" />
+    <ItemContainer capacity="6" slotsperrow="3" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.18,0.25" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="mediumsteelcabinet" tags="locker,container" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="1,1,175,374" origin="0.5,0.5" />
+    <ItemContainer capacity="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.35" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="" aliases="Diving Gear Cabinet" identifier="mediumwindowedsteelcabinet" tags="locker,container,divinggearcontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="178,1,168,377" origin="0.5,0.5" />
+    <ItemContainer capacity="15" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.35" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="steelcabinet" tags="locker,container" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="348,2,364,373" origin="0.5,0.5" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <!-- TODO: switch to SecureSteelLockRed.png when access denied and SecureSteelLockGreen.png when access granted-->
+  <Item name="" identifier="securesteelcabinet" tags="locker,container,securecontainer" linkable="true" spritecolor="255,255,255,255" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="1,380,105,160" origin="0.5,0.5" />
+    <ItemContainer capacity="20" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="railgunshellrack" tags="container,railgunammocontainer" pickdistance="120" scale="0.5" canflipx="false" canflipy="false">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="330,811,218,212" origin="0.5,0.5" />
+    <ItemContainer hideitems="false" drawinventory="true" capacity="3" slotsperrow="3" itempos="53,-100" iteminterval="55,0" itemrotation="90" canbeselected="true" msg="ItemMsgInteractSelect">
+      <Upgrade gameversion="0.1300.0.6" itempos="53,-100" iteminterval="55,0" />
+      <GuiFrame relativesize="0.2,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="railgunshell,nuclearshell,railgunammo" />a
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="coilgunammoshelf" tags="container,coilgunammocontainer,ammocontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="188,717,140,306" canflipx="false" origin="0.5,0.5" />
+    <ItemContainer capacity="3" canbeselected="true" hideitems="false" itempos="70,-52" iteminterval="0,-96" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="ammobox,coilgunammo" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="medcabinet" tags="container,medcontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="815,1,208,346" canflipx="false" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="6" style="ItemUI" />
+      <Containable items="smallitem,chem,medical" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="toxcabinet" tags="container,toxcontainer" linkable="true" pickdistance="150" waterproof="true" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="889,483,125,148" canflipx="false" origin="0.5,0.5" />
+    <ItemContainer capacity="20" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+      <Containable items="smallitem,chem,medical" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="divingsuitlocker2" category="Legacy" tags="container,divingsuitcontainer,divingsuitcontainerhorizontal" pickdistance="50" scale="0.6" >
+    <Sprite name="Large Diving Suit Locker Horizontal" texture="DivingSuitLocker.png" depth="0.84" sourcerect="82,0,248,338" origin="0.5,0.5" />
+    <DecorativeSprite name="Diving Suit Locker Frame" texture="DivingSuitLocker.png" depth="0.82" sourcerect="0,340,232,69" origin="0.5,0.5" offset="0,130" />
+    <DecorativeSprite name="Diving Suit Locker Frame" texture="DivingSuitLocker.png" depth="0.82" sourcerect="0,340,232,69" origin="0.5,0.5" offset="0,65" />
+    <DecorativeSprite name="Diving Suit Locker Frame" texture="DivingSuitLocker.png" depth="0.82" sourcerect="0,340,232,69" origin="0.5,0.5" />
+    <DecorativeSprite name="Diving Suit Locker Frame" texture="DivingSuitLocker.png" depth="0.82" sourcerect="0,340,232,69" origin="0.5,0.5" offset="0,-65" />
+    <DecorativeSprite name="Diving Suit Locker Frame" texture="DivingSuitLocker.png" depth="0.82" sourcerect="0,340,232,69" origin="0.5,0.5" offset="0,-130" />
+    <!-- TODO: implement
+    <DecorativeSprite name="Diving Suit Locker Light" texture="DivingSuitLocker.png" depth="0.84" sourcerect="330,77,241,67" origin="0.5,0.5" />
+    -->
+    <ItemContainer hideitems="false" drawinventory="true" capacity="5" slotsperrow="5" itempos="132,-44" iteminterval="0,-65" itemrotation="0" containedspritedepth="0.83" canbeselected="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="divingsuit,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.6">
+    <Sprite name="Oxygen Tank Shelf" texture="DivingSuitLocker.png" depth="0.84" sourcerect="0,0,92,338" origin="0.5,0.5" />
+    <!--TODO: add light textures for powered-on state?-->
+    <Powered powerconsumption="50" currpowerconsumption="50" isactive="true">
+      <GuiFrame relativesize="0.18,0.15" minsize="350,160" maxsize="420,192" anchor="Center" relativeoffset="0,-0.1" style="ItemUI" msg="ItemMsgInteractSelect" />
+    </Powered>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="20" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="3" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <ParticleEmitter particle="spark" particleburstamount="5" particleburstinterval="1.05" scalemin="0.5" scalemax="1" mincondition="0.0" maxcondition="15.0" />
+      <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <ItemContainer hideitems="false" drawinventory="true" capacity="10" maxstacksize="1" slotsperrow="5" itempos="24,-41" iteminterval="42,-65" itemsperrow="2" itemrotation="0" canbeselected="true" containedspritedepth="0.83" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.3" anchor="Center" style="ItemUI" />
+      <Containable items="oxygensource,weldingfuel" excludeditems="oxygeniteshard" excludebroken="false">
+        <StatusEffect type="OnContaining" targettype="Contained" Condition="1.0" Comparison="And">
+          <Conditional Voltage="gt 0.1" targetcontainer="true" targetitemcomponent="Powered"/>
+          <Conditional HasTag="refillableoxygensource"/>
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="divingsuitlocker" tags="container,divingsuitcontainer,divingsuitcontainerwindow" pickdistance="50" scale="0.5">
+    <Sprite name="Diving Suit Locker Vertical" texture="containers.png" depth="0.84" sourcerect="714,1,99,256" origin="0.5,0.5" />
+    <!--TODO: add light textures for powered-on state?-->
+    <Powered powerconsumption="10" currpowerconsumption="10" isactive="true">
+      <GuiFrame relativesize="0.18,0.15" minsize="350,160" maxsize="420,192" anchor="Center" relativeoffset="0,-0.1" style="ItemUI" msg="ItemMsgInteractSelect" />
+    </Powered>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="20" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="3" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <ParticleEmitter particle="spark" particleburstamount="5" particleburstinterval="1.05" scalemin="0.5" scalemax="1" mincondition="0.0" maxcondition="15.0" />
+      <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="0,0" iteminterval="0,0" canbeselected="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="divingsuit,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="oxygentankshelf2" nameidentifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.5">
+    <Sprite name="Diving Suit Locker Small" texture="Content/Items/Containers/containers.png" sourcerect="714,259,99,82" depth="0.84" origin="0.5,0.5" />
+    <!--TODO: add light textures for powered-on state?-->
+    <Powered powerconsumption="30" currpowerconsumption="30" isactive="true">
+      <GuiFrame relativesize="0.18,0.15" minsize="350,160" maxsize="420,192" anchor="Center" relativeoffset="0,-0.1" style="ItemUI" msg="ItemMsgInteractSelect" />
+    </Powered>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="20" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="3" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <ParticleEmitter particle="spark" particleburstamount="5" particleburstinterval="1.05" scalemin="0.5" scalemax="1" mincondition="0.0" maxcondition="15.0" />
+      <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel> 
+    <ItemContainer hideitems="false" drawinventory="true" capacity="3" maxstacksize="1" slotsperrow="3" itempos="27,-42" iteminterval="22.5,0" itemrotation="0" canbeselected="true" containedspritedepth="0.83" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.16,0.18" anchor="Center" style="ItemUI" />
+      <Containable items="oxygensource,weldingfuel" excludeditems="oxygeniteshard" excludebroken="false">
+        <StatusEffect type="OnContaining" targettype="Contained" Condition="1.0" Comparison="And">
+          <Conditional Voltage="gt 0.1" targetcontainer="true" targetitemcomponent="Powered"/>
+          <Conditional HasTag="refillableoxygensource"/>
+        </StatusEffect>
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="metalcrate" tags="crate,allowcleanup" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="407,376,152,89" origin="0.5,0.5" />
+    <Body width="150" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="20" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="smallitem,mediumitem" excludeditems="toolbox,cargoscooter" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="securemetalcrate" tags="crate,securecrate" scale="0.5" linkable="true" pickdistance="150" impactsoundtag="impact_metal_heavy">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="561,377,151,86" origin="0.5,0.5" />
+    <Body width="150" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="20" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+      <Containable items="smallitem,mediumitem" excludeditems="toolbox,cargoscooter" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="explosivecrate" tags="crate,allowcleanup" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" waterproof="true">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="410,466,150,88" origin="0.5,0.5" />
+    <Body width="150" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-20,14" handle2="20,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="smallitem" excludeditems="toolbox,cargoscooter" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="chemicalcrate" tags="crate,allowcleanup" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" waterproof="true">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="562,467,148,87" origin="0.5,0.5" />
+    <Body width="145" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-20,14" handle2="20,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="smallitem" excludeditems="toolbox,cargoscooter" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="mediccrate" tags="crate,allowcleanup" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" waterproof="true">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Sprite texture="containers.png" depth="0.54" sourcerect="410,563,148,87" origin="0.5,0.5" />
+    <Body width="145" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-20,14" handle2="20,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" canbeselected="false" hideitems="true" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="smallitem" excludeditems="toolbox,cargoscooter" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="extinguisherbracket" tags="extinguisherholder" canflipx="false" canflipy="false" scale="0.5" pickdistance="75">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="815,349,72,204" origin="0.5,0.5" />
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="1" itempos="35,-130" iteminterval="0,0" itemrotation="0" canbeselected="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="extinguisher" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.5" itempos="35,-130" />
+  </Item>
+  <Item name="" identifier="weaponholder" tags="weaponholder" canflipx="false" canflipy="false" scale="0.5">
+    <Sprite texture="containers.png" depth="0.85" sourcerect="116,546,86,86" origin="0.5,0.5"/>
+    <DecorativeSprite texture="containers.png" depth="0.5" sourcerect="188,682,124,33" origin="0.5,0.5" />
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="1" itempos="46,-47" iteminterval="0,0" itemrotation="90" containedspritedepth="0.84" canbeselected="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="weapon" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="loosepanel" nameidentifier="loosepanel" tags="hidden" scale="0.5" 
+    interactdistance="100"
+    requirebodyinsidetrigger="false"
+    requirecursorinsidetrigger="true">
+    <trigger x="55" y="-55" width="40" height="40" />
+    <sprite texture="containers.png" sourcerect="330,648,162,161" depth="0.885" origin="0.5339039,0.4379086" canflipx="false"/>
+    <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.77" />
+  </Item>
+  
+  <Item name="" identifier="loosepanel2" nameidentifier="loosepanel" tags="hidden" scale="0.5" 
+    interactdistance="100"
+    requirebodyinsidetrigger="false"
+    requirecursorinsidetrigger="true">
+    <trigger x="35" y="-35" width="30" height="30" />
+    <sprite texture="containers.png" sourcerect="1,545,112,110" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+
+  <Item name="" identifier="crateshelf" tags="container,cargocontainer" linkable="true" canflipx="false" pickdistance="150" scale="0.5">
+    <Sprite texture="containers.png" depth="0.84" sourcerect="1,657,185,366" origin="0.5,0.5" />
+    <ItemContainer capacity="4" maxstacksize="1" canbeselected="true" hideitems="false" itempos="92,-48" iteminterval="0,-92" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
+      <Containable items="crate" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="coilgunammobox" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="coilgunammocontainer" minamount="1" maxamount="3"/>
+    <PreferredContainer primary="wreckcoilgun" minamount="0" maxamount="3" spawnprobability="0.25"/>
+    <Price baseprice="120" >
+      <Price locationtype="outpost" multiplier="1.3" minavailable="3"/>
+      <Price locationtype="city" multiplier="1.2" minavailable="6"/>
+      <Price locationtype="research" multiplier="1.3" minavailable="3"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="15"/>
+      <Price locationtype="mine" multiplier="1.2" minavailable="3"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="lead" copycondition="true"/>
+      <Item identifier="steel" copycondition="true"/>
+      <Item identifier="aluminium"/>
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="25"/>
+      <RequiredItem identifier="lead"/>
+      <RequiredItem identifier="steel"/>
+      <RequiredItem identifier="aluminium"/>
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="20"/>
+      <RequiredItem identifier="lead"/>
+      <RequiredItem identifier="steel"/>
+      <RequiredItem identifier="coilgunammobox" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="788,782,117,89" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect"/>
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <!-- we cheat a bit with ammunition boxes - they don't actually contain hundreds of rounds, 
+      but spawn a new round every time the OnUse effect is triggered. OnUse also reduces the condition
+      of the item, and when the condition is 0, the box is considered empty. -->
+      <!--  -0.5 per usage = 200 shots per box -->
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="coilgunbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-0.5" disabledeltatime="true">
+        <RequiredItem items="coilgunbolt" type="Contained" />
+      </StatusEffect>
+      <Containable items="coilgunbolt" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="railguncanistershell" tags="railgunequipment,railgunammo,containershell" category="Equipment" linkable="true" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="railgunammocontainer" spawnprobability="0.2"/>
+    <PreferredContainer primary="wreckrailgun" minamount="0" maxamount="3" spawnprobability="0.25"/>
+    <Price baseprice="95" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.2" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" minavailable="1"/>
+      <Price locationtype="research" multiplier="1.2" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="5"/>
+      <Price locationtype="mine" multiplier="1.2" sold="false"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="lead" copycondition="true"/> />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="8">
+      <RequiredSkill identifier="weapons" level="20" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="railguncanistershell" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="containers2.png" sourcerect="799,708,216,34" depth="0.55" origin="0.5,0.5" />
+    <BrokenSprite texture="containers2.png" sourcerect="799,744,216,34" depth="0.55" origin="0.5,0.5" maxcondition="0"/>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,447,64,64" origin="0.5,0.5" />
+    <Body width="215" height="30" density="35" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="11" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet"
+                   spawnwithid="railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet,railguncanistershellpellet">
+      <StatusEffect type="OnUse" target="This" condition="-100" disabledeltatime="true">
+        <RequiredItem items="railguncanistershellpellet" type="Contained" />
+      </StatusEffect>
+      <Containable items="railguncanistershellpellet" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="pulselaserammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="ammocontainer" spawnprobability="0.0"/>
+      <Price baseprice="250" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1.3" minavailable="1"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1.2" sold="false"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="lithium" copycondition="true"/>
+      <Item identifier="alienblood" copycondition="true"/>
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="lithium" />
+      <RequiredItem identifier="alienblood" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="lithium" />
+      <RequiredItem identifier="alienblood" />
+      <RequiredItem identifier="pulselaserammobox" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="550,678,117,89" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="pulselaserbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-2.25" disabledeltatime="true">
+        <RequiredItem items="pulselaserbolt" type="Contained" />
+      </StatusEffect>
+      <Containable items="pulselaserbolt" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="pulselaserammoboxtrilaser" fallbacknameidentifier="pulselaserammobox" scale="0.5" tags="pulselaserequipment,pulselaserammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="ammocontainer" spawnprobability="0.0"/>
+      <Price baseprice="435" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1.3" minavailable="1"/>
+      <Price locationtype="military" multiplier="0.9" sold="false"/>
+      <Price locationtype="mine" multiplier="1.2" sold="false"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="fulgurium" copycondition="true"/>
+      <Item identifier="alienblood" copycondition="true"/>
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="65" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="alienblood" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="60" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="alienblood" />
+      <RequiredItem identifier="pulselaserammoboxtrilaser" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="907,678,117,89" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="pulselaserbolttrilaser" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-3.5" disabledeltatime="true">
+        <RequiredItem items="pulselaserbolttrilaser" type="Contained" />
+      </StatusEffect>
+      <Containable items="pulselaserbolttrilaser" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="chaingunammobox" scale="0.5" tags="chaingunequipment,chaingunammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="ammocontainer" spawnprobability="0.0"/>
+    <Price baseprice="250" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" minavailable="1"/>
+      <Price locationtype="research" multiplier="1.3" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="3"/>
+      <Price locationtype="mine" multiplier="1.2" sold="false"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="lead" copycondition="true" />
+      <Item identifier="titaniumaluminiumalloy" copycondition="true"/>
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="35" />
+      <RequiredItem identifier="lead" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="chaingunammobox" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="669,681,117,89" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="chaingunbolt" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-0.67" disabledeltatime="true">
+        <RequiredItem items="chaingunbolt" type="Contained" />
+      </StatusEffect>
+      <Containable items="chaingunbolt" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="chaingunammoboxphysicorium" fallbacknameidentifier="chaingunammobox" scale="0.5" tags="chaingunequipment,chaingunammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="ammocontainer" spawnprobability="0.0"/>
+    <Price baseprice="400" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1.3" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1.2" sold="false"/>
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="physicorium" copycondition="true" />
+      <Item identifier="titaniumaluminiumalloy" copycondition="true"/>
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="55" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="15">
+      <RequiredSkill identifier="weapons" level="50" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="chaingunammoboxphysicorium" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="Content/Items/Containers/containers.png" depth="0.54" sourcerect="788,681,117,89" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="chaingunboltphysicorium" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" condition="-0.67" disabledeltatime="true">
+        <RequiredItem items="chaingunboltphysicorium" type="Contained" />
+      </StatusEffect>
+      <Containable items="chaingunboltphysicorium" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="artifacttransportcase" category="Equipment" tags="mediumitem,mobilecontainer,artifactcontainer" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_soft">
+    <PreferredContainer primary="engcab"/>
+    <Deconstruct time="20">
+      <Item identifier="lead" />
+      <Item identifier="titanium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <Item identifier="lead" />
+      <Item identifier="titanium" />
+    </Fabricate>
+    <Price baseprice="100" >
+      <Price locationtype="outpost" multiplier="0.7" sold="false" />
+      <Price locationtype="city" multiplier="1" minavailable="6" />
+      <Price locationtype="research" multiplier="1" minavailable="1" />
+      <Price locationtype="military" multiplier="0.8" sold="false" />
+      <Price locationtype="mine" multiplier="0.8" sold="false" />
+    </Price>
+    <InventoryIcon texture="Content/Items/Alien/AlienRuins_Items.png" sourcerect="806,2,124,100" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Alien/AlienRuins_Items.png" sourcerect="806,2,124,100" depth="0.6" />
+    <Body width="124" height="95" density="20" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="0,-70" handle1="0,45" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="1" hideitems="true">
+      <Containable items="alienartifact"/>
+    </ItemContainer>
+  </Item>
+
+
+  <Item name="" identifier="sealedsupplycrate" tags="crate" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+    <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
+    <Price baseprice="1250" soldeverywhere="false" canbespecial="false">
+      <Price locationtype="outpost" sold="false"/>
+      <Price locationtype="city" sold="false"/>
+      <Price locationtype="research" sold="false"/>
+      <Price locationtype="military" sold="false"/>
+      <Price locationtype="mine" sold="false"/>
+    </Price>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="562,563,147,86" origin="0.5,0.5" />
+    <Body width="150" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="unitloaddevice" tags="cargocontainer" linkable="true" pickdistance="150" scale="0.5">
+    <Sprite texture="UnitLoadDevice.png" depth="0.8" sourcerect="0,0,567,446" origin="0.5,0.5" />
+    <DecorativeSprite texture="UnitLoadDevice.png" depth="0.85" sourcerect="0,457,567,446" origin="0.5,0.5" />
+    <ItemContainer capacity="10" maxstacksize="1" canbeselected="true" hideitems="false" itempos="120,-364" iteminterval="150,80" itemsperrow="3" msg="ItemMsgInteractSelect" containedspritedepths="0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82">
+      <GuiFrame relativesize="0.25,0.3" anchor="Center" style="ItemUI" />
+      <Containable items="crate" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="" identifier="metalcrate_event" nameidentifier="metalcrate" tags="crate,allowcleanup" scale="0.5" linkable="true" pickdistance="150" showcontentsintooltip="true" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+    <Deconstruct time="20">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,128,64,64" />-->
+    <Sprite texture="containers.png" depth="0.54" sourcerect="407,376,152,89" origin="0.5,0.5" />
+    <Body width="150" height="85" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-30,14" handle2="30,14" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="20" canbeselected="false" hideitems="true" keepopenwhenequipped="false" movableframe="true">
+      <Containable items="smallitem,mediumitem" excludeditems="toolbox" />
+    </ItemContainer>
+  </Item>
+
+
+</Items>

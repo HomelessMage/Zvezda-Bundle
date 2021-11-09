@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>  
+  <Item name="" 
+        description=""
+        identifier="turrethardpoint" Tags="turret" category="Machine" interactthroughwalls="true" Scale="0.5" interactdistance="10" spritecolor="1.0,1.0,1.0,1.0" linkable="true" allowedlinks="turretammosource">
+    <Sprite texture="Loaders.png" depth="0.01" sourcerect="0,262,256,84" canflipy="false" />
+    <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="12,846,60,29" origin="0.5,0.5" />
+    <SwappableItem price="0" origin="128,78" swapidentifier="basicturret">
+      <SchematicSprite texture="Content/UI/WeaponUI.png" sourcerect="0,425,256,117" />
+      <SwapConnectedItem tag="periscope" swapto="blankperiscope" />
+      <SwapConnectedItem tag="turretammosource" swapto="blankloader" />
+    </SwappableItem>
+    <StaticBody width="80" radius="80" />
+    <Turret canbeselected="false" characterusable="false" linkable="true" barrelpos="128,88">
+      <LightComponent LightColor="1.0,0.8,0.8,1.0" Flicker="0.0" range="2500" IsOn="true" drawbehindsubs="true" ignorecontinuoustoggle="true">
+        <LightTexture texture="Content/Lights/alphaOne.png" />
+      </LightComponent>
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+      <input name="position_in" displayname="connection.turretaimingin" />
+      <input name="trigger_in" displayname="connection.turrettriggerin" />
+      <input name="toggle_light" displayname="connection.togglelight"/>
+      <input name="set_light" displayname="connection.setlight" />
+    </ConnectionPanel>
+  </Item>
+
+  <Item name="" description="" identifier="blankperiscope" tags="periscope" category="Machine" type="Controller" scale="0.5">
+    <SwappableItem canbebought="false" origin="67,0"/>
+    <Sprite texture="Loaders.png" depth="0.1" sourcerect="1,355,134,203" origin="0.5,0.5" />
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <output name="position_out" displayname="connection.turretaimingout" fallbackdisplayname="inputtype.aim" />
+      <output name="trigger_out" displayname="connection.turrettriggerout" fallbackdisplayname="inputtype.shoot" />
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="" identifier="blankloader" tags="turretammosource" category="Machine" linkable="true" allowedlinks="turrethardpoint" scale="0.5">
+    <SwappableItem canbebought="false" origin="82,334" />
+    <UpgradePreviewSprite scale="2.0" texture="Content/UI/WeaponUI.png" sourcerect="576,960,64,64" origin="0.5,0.45" />
+    <Sprite name="Blank Loader" texture="Loaders.png" depth="0.8" sourcerect="537,376,165,334" origin="0.5,0.5" />
+  </Item>
+</Items>
