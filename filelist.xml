@@ -22,6 +22,7 @@
 <Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
 <Item file="Mods/Zvezda Bundle/Items/CreatureLoot/creatureloot.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
+<Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
 
 
 <!-- Кастом -->
@@ -172,7 +173,6 @@
 <Text file="Content/Texts/Turkish/TurkishVanilla.xml" />
 <Text file="Content/Texts/Korean/KoreanVanilla.xml" />
 
-<Afflictions file="Content/Afflictions.xml" />
 <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
 <Structure file="Content/Map/StructurePrefabs.xml" />
 <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />

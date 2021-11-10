@@ -1,4 +1,10 @@
 <Character speciesname="Human" group="human" humanoid="True" hasinfo="True" usehuskappendage="True" needsair="True" genders="true" femaleratio="0.5" races="false" canspeak="True" caninteract="True" blooddecal="blood" noise="150" visibility="150" speciestranslationoverride="" displayname="" husk="False" needswater="False" usebosshealthbar="False" bleedparticleair="blooddrop" bleedparticlewater="waterblood" bleedparticlemultiplier="1" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" sonardisruption="0" distantsonarrange="0" disabledistance="25000" skincolors="(#fce1c6, 100); (#f3c696, 100); (#f3c696, 100); (#aa7744, 100); (#f4be98, 100); (#d69a70, 100); (#ab7046, 100); (#774929, 100); (#c8a583, 100); (#a57c53, 100); (#7a5026, 100); (#4a3219, 100); (#957966, 100); (#714d34, 100); (#532d12, 100); (#26190e, 100)" haircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)" facialhaircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)">
+    <StatusEffect tags="hunger" type="always" target="This">
+      <Affliction identifier="hunger" amount="0.02" />
+    </StatusEffect>
+    <StatusEffect tags="thirst" type="always" target="This">
+      <Affliction identifier="thirst" amount="0.02" />
+    </StatusEffect>  
   <StatusEffect type="always" target="This" ObstructVision="true" setvalue="true" disabledeltatime="true"/>  
   <name firstname="Mods/Zvezda Bundle/Characters/Human/firstnames.txt" lastname="Mods/Zvezda Bundle/Characters/Human/lastnames.txt"/>
   <ragdolls folder="default"/>
