@@ -360,69 +360,7 @@
       <QualityStat stattype="AttackMultiplier" value="0.1"/>
     </Quality>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
-  </Item>
-  
-  <Item name="" identifier="handheldsonar" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1"/>
-    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.1"/>
-    <Price baseprice="150" >
-      <Price locationtype="outpost" multiplier="1" minavailable="1" />
-      <Price locationtype="city" multiplier="0.9" minavailable="2" />
-      <Price locationtype="research" multiplier="1.25" minavailable="2" />
-      <Price locationtype="military" multiplier="1.25" minavailable="1" />
-      <Price locationtype="mine" multiplier="1" minavailable="1" />
-    </Price>
-    <Deconstruct time="15">
-      <Item identifier="fpgacircuit" />
-      <Item identifier="plastic" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="20">
-      <RequiredSkill identifier="mechanical" level="30" />
-      <RequiredItem identifier="fpgacircuit" />
-      <RequiredItem identifier="plastic" />
-    </Fabricate>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Tools/tools.png" sourcerect="227,163,48,24" depth="0.55" origin="0.5,0.5" />
-    <Body width="40" height="22" density="40" />
-    <AiTarget sight="500" staticsight="true"/>
-    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-25,0" msg="ItemMsgPickUpSelect" />
-    <Sonar range="6000.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
-      <StatusEffect type="OnUse" targettype="Contained" Condition="-1.0" disabledeltatime="true">
-        <RequiredItem items="batterycell" type="Contained" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.5" disabledeltatime="true">
-        <RequiredItem items="fulguriumbatterycell" type="Contained" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" targettype="Contained" Condition="-1.0" disabledeltatime="true">
-        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
-      </StatusEffect>
-      <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
-      <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01"/>
-      <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
-      <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
-      <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
-      <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
-      <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
-      <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
-      <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
-      <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
-      <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
-      <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5"/>
-      <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5"/>
-      <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5"/>
-      <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5"/>
-      <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5"/>
-      <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5"/>
-      <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5"/>
-    </Sonar>
-    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
-      <Containable items="mobilebattery">
-        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
-      </Containable>
-    </ItemContainer>
-    <Upgrade gameversion="0.10.0.0" scale="0.5" />
-  </Item>
-  
+  </Item>  
   <Item name="" identifier="sonarbeacon" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="crewcab,supplycab"/>
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1"/>
@@ -564,80 +502,6 @@
     <AiTarget sightrange="4000"/>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-
-  <Item name="" identifier="flamer" category="Equipment" Tags="smallitem,weapon,gun" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
-    <Upgrade gameversion="0.10.0.0" scale="0.5" />
-    <PreferredContainer primary="weaponholder" spawnprobability="0.1"/>
-    <PreferredContainer primary="secarmcab" minamount="0" maxamount="2" spawnprobability="0.25"/>
-    <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
-    <Price baseprice="75" soldeverywhere="false">
-      <Price locationtype="outpost" multiplier="1" sold="false"/>
-      <Price locationtype="city" multiplier="0.9" sold="false"/>
-      <Price locationtype="research" multiplier="1.25" sold="false"/>
-      <Price locationtype="military" multiplier="1.25" minavailable="1" />
-      <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,64,64,64" />-->
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,64,64,64" />
-    <Sprite texture="Content/Items/Tools/tools.png" sourcerect="154,22,158,77" depth="0.55" origin="0.5,0.5" />
-    <!-- the item takes 10 seconds to break down in a deconstructor and turns into steel and plastic -->
-    <Deconstruct time="10">
-      <Item identifier="steel" />
-      <Item identifier="plastic" />
-    </Deconstruct>
-    <!-- physics body -->
-    <Body width="150" height="77" density="40" />
-    <!-- the character will hold the item 50 pixels in front of him, with his hands at the handle1 and handle2 positions -->
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-62,-16" handle2="-11,-6" msg="ItemMsgPickUpSelect" />
-    <RepairTool firedamage="20.0" structurefixamount="0.0" usablein="Air" range="500" barrelpos="35,10" fireprobability="0.2" repairmultiple="true" repairthroughwalls="false" repairthroughholes="true" combatpriority="90" spread="25" unskilledspread="25">
-      <!-- the item must contain a welding fuel tank for it to work -->
-      <RequiredItems items="weldingtoolfuel" type="Contained" msg="ItemMsgWeldingFuelRequired" />
-      <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
-      <ParticleEmitter particle="flamethrower" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="1000" velocitymax="1500" highqualitycollisiondetection="true"/>
-      <ParticleEmitter particle="flamethrowersmoke" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="500" velocitymax="1000"/>
-      <sound file="Content/Items/Weapons/FlameThrowerLoop.ogg" type="OnUse" range="500.0" loop="true" />
-      <!-- bubbles when usage fails (e.g. in water) -->
-      <StatusEffect type="OnFailure" target="UseTarget">
-        <ParticleEmitter particle="bubbles" particlespersecond="20" anglemin="-10" anglemax="10" scalemin="0.3" scalemax="0.7" velocitymin="5" velocitymax="100" copyentityangle="true"/>
-        <ParticleEmitter particle="fleshsmoke" particlespersecond="10" anglemin="-10" anglemax="10" scalemin="1" scalemax="1.5" velocitymin="5" velocitymax="200" copyentityangle="true"/>
-      </StatusEffect>
-      <!-- make the item unusable when there's less than 10% oxygen -->
-      <StatusEffect type="OnUse" target="Hull,This" UsableIn="None">
-        <Conditional OxygenPercentage="lt 10"/>
-      </StatusEffect>
-      <!-- make the item usable again when there's more than 10% oxygen -->
-      <StatusEffect type="OnFailure" target="Hull,This" UsableIn="Air">
-        <Conditional OxygenPercentage="gt 10"/>
-      </StatusEffect>
-      <!-- when using, the contained welding fuel tank will detoriate (= lose fuel) -->
-      <StatusEffect type="OnUse" targettype="Contained" targets="weldingfueltank" Condition="-6.0" />
-      <StatusEffect type="OnUse" targettype="Contained" targets="incendiumfueltank" Condition="-2.5" />
-      <!-- do burn damage to characters -->
-      <StatusEffect type="OnUse" target="UseTarget">
-        <Affliction identifier="burn" amount="1.25" />
-      </StatusEffect>
-      <!-- do minor burn damage to the user -->
-      <StatusEffect type="OnUse" target="Character">
-        <Affliction identifier="burn" amount="0.1" />
-      </StatusEffect>
-      <!-- consume oxygen from the hull -->
-      <StatusEffect type="OnUse" target="Hull" Oxygen="-10000"/>
-      <!-- weapons skill 20 required to use the item -->
-      <RequiredSkill identifier="weapons" level="20" />
-      <!-- if the skill requirement isn't met the welding fuel will be used 50% faster -->
-      <StatusEffect type="OnFailure" targettype="Contained" targets="weldingfueltank,incendiumfueltank" Condition="-9.0" />
-      <LightComponent LightColor="255,174,121,255" Flicker="0.5" Range="500">
-        <sprite texture="Content/Items/Electricity/lightsprite.png" origin="0.5,0.5" />
-      </LightComponent>
-    </RepairTool>
-    <!-- one welding fuel or oxygen tank can be contained inside the welding tool -->
-    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="8,-20" containedspritedepth="0.56" containedstateindicatorstyle="tank">
-      <Containable items="weldingtoolfuel,oxygensource" />
-    </ItemContainer>
-    <aitarget sightrange="5000" soundrange="500" fadeouttime="5" />
-  </Item>
-
-
   <Item name="" identifier="oxygentank" category="Equipment,Misc" maxstacksize="8" Tags="smallitem,oxygensource,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" allowdroppingonswap="true">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="75" >
@@ -1043,70 +907,6 @@
       </StatusEffect>
     </Throwable>
   </whitepaint>
-  
-  <Item name="" identifier="flamerunique" category="Equipment" Tags="smallitem,weapon,gun" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" hideinmenus="true" allowasextracargo="true">
-    <PreferredContainer primary="armcab"/>
-    <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
-    <PreferredContainer secondary="wreckarmcab" spawnprobability="0.01"/>
-    <Price baseprice="755" soldeverywhere="false" canbespecial="false">
-      <Price locationtype="outpost" sold="false"/>
-      <Price locationtype="city" sold="false" />
-      <Price locationtype="research" sold="false"/>
-      <Price locationtype="military" sold="false" />
-      <Price locationtype="mine" sold="false"/>
-    </Price>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="384,256,64,64" />
-    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="263,191,150,89" depth="0.55" origin="0.5,0.5" />
-    <Deconstruct time="10">
-      <Item identifier="steel" />
-      <Item identifier="plastic" />
-    </Deconstruct>
-    <Body width="150" height="77" density="40" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-55,-20" handle2="-15,-10" msg="ItemMsgPickUpSelect" />
-    <RepairTool structurefixamount="0.0" range="500" barrelpos="35,10" fireprobability="0.0" repairmultiple="true" repairthroughwalls="false" repairthroughholes="true" combatpriority="90" spread="25" unskilledspread="25">
-      <RequiredItems items="weldingtoolfuel" type="Contained" msg="ItemMsgWeldingFuelRequired" />
-      <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
-      <ParticleEmitter particle="steamspray" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="300" velocitymax="500" highqualitycollisiondetection="true"/>
-      <ParticleEmitter particle="bubbles" particlespersecond="20" anglemin="-10" anglemax="10" scalemin="0.3" scalemax="0.7" velocitymin="5" velocitymax="100" copyentityangle="true"/>
-      <!--<ParticleEmitter particle="flamethrowersmoke" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="200" velocitymax="500"/>-->
-      <sound file="Content/Items/Weapons/FlameThrowerLoop.ogg" type="OnUse" range="500.0" loop="true" />
-      <!-- bubbles when usage fails (e.g. in water) -->
-      <StatusEffect type="OnFailure" target="UseTarget">
-        <ParticleEmitter particle="bubbles" particlespersecond="20" anglemin="-10" anglemax="10" scalemin="0.3" scalemax="0.7" velocitymin="5" velocitymax="100" copyentityangle="true"/>
-        <ParticleEmitter particle="fleshsmoke" particlespersecond="10" anglemin="-10" anglemax="10" scalemin="1" scalemax="1.5" velocitymin="5" velocitymax="200" copyentityangle="true"/>
-      </StatusEffect>
-      <!-- make the item unusable when there's less than 10% oxygen -->
-      <!--<StatusEffect type="OnUse" target="Hull,This" UsableIn="None">
-        <Conditional OxygenPercentage="lt 10"/>
-      </StatusEffect>-->
-      <!-- make the item usable again when there's more than 10% oxygen -->
-      <!--<StatusEffect type="OnFailure" target="Hull,This" UsableIn="Air">
-        <Conditional OxygenPercentage="gt 10"/>
-      </StatusEffect>-->
-      <!-- when using, the contained welding fuel tank will detoriate (= lose fuel) -->
-      <StatusEffect type="OnUse" targettype="Contained" targets="weldingfueltank" Condition="-6.0" />
-      <StatusEffect type="OnUse" targettype="Contained" targets="incendiumfueltank" Condition="-2.5" />
-      <!-- do burn damage to characters -->
-      <StatusEffect type="OnUse" target="UseTarget">
-        <Affliction identifier="burn" amount="1.25" />
-      </StatusEffect>
-      <!-- do minor burn damage to the user -->
-      <StatusEffect type="OnUse" target="Character">
-        <Affliction identifier="burn" amount="0.1" />
-      </StatusEffect>
-      <!-- consume oxygen from the hull -->
-      <!--<StatusEffect type="OnUse" target="Hull" Oxygen="-10000"/>-->
-      <!-- weapons skill 20 required to use the item -->
-      <RequiredSkill identifier="weapons" level="20" />
-      <!-- if the skill requirement isn't met the welding fuel will be used 50% faster -->
-      <StatusEffect type="OnFailure" targettype="Contained" targets="weldingfueltank,incendiumfueltank" Condition="-9.0" />
-    </RepairTool>
-    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="11,-15" containedspritedepth="0.56" containedstateindicatorstyle="tank">
-      <Containable items="weldingtoolfuel,oxygensource" />
-    </ItemContainer>
-    <aitarget sightrange="5000" soundrange="500" fadeouttime="5" />
-  </Item>
-
   <Item name="" identifier="glowstick" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1"/>
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5"/>
@@ -1144,51 +944,5 @@
     </LightComponent>
     <AiTarget sightrange="4000"/>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
-  </Item>
-
-  <Item name="" identifier="ruinscanner" description="" category="Equipment" Tags="smallitem,scanner" Scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true">
-    <Sprite texture="Content/Items/Alien/AlienRuins_Items.png" depth="0.8" sourcerect="966,353,52,62" origin="0.5,0.5" />
-    <Body width="48" height="62" density="20" />
-    <Holdable selectkey="Action" pickkey="Select" slots="Any,RightHand,LeftHand" msg="itemmsgpickupselect" aimpos="35,-10" handle1="0,0" attachable="true" aimable="true">
-      <!--<RequiredItem items="wrench" type="Equipped" />-->
-    </Holdable>
-    <Scanner scanduration="30" scanradius="1000" alwaysdisplayprogressbar="false">
-      <StatusEffect type="OnActive" targettype="This">
-        <Conditional scantimer="gt 0"/>
-        <ParticleEmitter particle="scannerwavefx" anglemax="360" particlespersecond="0.5" />
-        <ParticleEmitter particle="scannerdot" particlespersecond="0.9"/>
-      </StatusEffect>
-    </Scanner>
-    <AITarget sightrange="50" soundrange="10000" staticsight="true" fadeouttime="5" />
-    <Sonar range="6000.0" powerconsumption="0" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="false" allowuioverlap="true">
-      <!--<StatusEffect type="OnUse" targettype="Contained" Condition="-1.0" disabledeltatime="true">
-        <RequiredItem items="batterycell" type="Contained" />
-      </StatusEffect>-->
-      <!--<StatusEffect type="OnUse" targettype="Contained" Condition="-0.5" disabledeltatime="true">
-        <RequiredItem items="fulguriumbatterycell" type="Contained" />
-      </StatusEffect>-->
-      <!--<StatusEffect type="OnUse" targettype="Contained" Condition="-1.0" disabledeltatime="true">
-        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
-      </StatusEffect>-->
-      <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
-      <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01"/>
-      <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
-      <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
-      <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
-      <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
-      <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
-      <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
-      <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
-      <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
-      <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
-      <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5"/>
-      <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5"/>
-      <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5"/>
-      <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5"/>
-      <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5"/>
-      <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5"/>
-      <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5"/>
-    </Sonar>
-    
   </Item>
  </Items>

@@ -130,27 +130,6 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  
-  <Item name="" identifier="bikehorn" category="Equipment" tags="weapon,smallitem,hornitem" scale="0.5" cargocontaineridentifier="metalcrate" description="HONK">
-    <PreferredContainer primary="crewcab"/>
-    <Price baseprice="1" soldeverywhere="false" canbespecial="false">
-      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
-      <Price locationtype="city" multiplier="1" minavailable="1"/>
-      <Price locationtype="research" multiplier="1" sold="false"/>
-      <Price locationtype="military" multiplier="1" sold="false"/>
-      <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="769,385,64,64" depth="0.55" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="101,45,53,22" depth="0.55" />
-    <Body width="50" height="20" density="15" />
-    <Holdable slots="Any,RightHand,LeftHand" aimpos="100,0" handle1="-15,-3" msg="ItemMsgPickUpSelect" />
-    <RangedWeapon reload="2">
-      <Sound file="Content/Items/Weapons/honk.ogg" type="OnUse" />
-    </RangedWeapon>
-    <aitarget soundrange="1000" fadeouttime="5" />
-    <Upgrade gameversion="0.10.0.0" scale="0.5" />
-  </Item>
-  
   <Item name="" identifier="bunk" width="173" height="129" category="Decorative">
     <sprite texture="Content/Map/MiscStructures.png" sourcerect="1416,1163,173,129" depth="0.85" origin="0.5,0.5" />
     <Controller UserPos="0,-150" direction="Right" hidehud="false" canbeselected="true" drawuserbehind="true">

@@ -404,160 +404,14 @@
 
 
 <!-- TODO -->
-<entityname.stungrenade>Светошумовая граната</entityname.stungrenade>
+<entityname.stungrenade>Граната "Заря"</entityname.stungrenade>
 <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
-<entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
+<entityname.empgrenade>Граната "РЭП"</entityname.empgrenade>
 <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
-<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
+<entityname.fraggrenade>Граната "Ф-1"</entityname.fraggrenade>
 <entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
 <entityname.incendiumgrenade>Коктейль Молотова</entityname.incendiumgrenade>
 <entitydescription.incendiumgrenade>Бутыль с зажигательной смесью</entitydescription.incendiumgrenade>
-
-
-
-
-<!-- TODO Вырезать -->
-<entityname.physicoriumammobox>Ящик физикориевых снарядов</entityname.physicoriumammobox>
-
-<entityname.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка</entityname.assaultrifle>
-<entitydescription.assaultrifle>!ВЫРЕЗАТЬ Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
-<entityname.assaultriflemagazine>!ВЫРЕЗАТ Магазин штурмовой винтовки</entityname.assaultriflemagazine>
-<entitydescription.assaultriflemagazine>!ВЫРЕЗАТ Магазин под патроны калибра 6,8 мм.</entitydescription.assaultriflemagazine>
-<entityname.shotgunslugexplosive>!ВЫРЕЗАТ Разрывная пуля</entityname.shotgunslugexplosive>
-<entitydescription.shotgunslugexplosive>!ВЫРЕЗАТЬ Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
-<entityname.skillbooksailorsguide>!ВЫРЕЗАТЬ Справочник моряка</entityname.skillbooksailorsguide>
-<entitydescription.skillbooksailorsguide>!ВЫРЕЗАТЬ Краткий справочник по всем задачам, связанным с подводным плаванием.</entitydescription.skillbooksailorsguide>
-<entityname.skillbooksubmarinewarfare>!ВЫРЕЗАТЬ Искусство подводной войны</entityname.skillbooksubmarinewarfare>
-<entitydescription.skillbooksubmarinewarfare>!ВЫРЕЗАТЬ Руководство по военным действиям с участием подлодок, с подробными схемами тактических маневров и полным справочником по вооружению.</entitydescription.skillbooksubmarinewarfare>
-<entityname.skillbookhandyseaman>!ВЫРЕЗАТЬ Умелый моряк</entityname.skillbookhandyseaman>
-<entitydescription.skillbookhandyseaman>!ВЫРЕЗАТЬ Справочник с подробным описанием самых распространенных технических проблем на подлодках Европы, а также простыми и понятными советами по их решению.</entitydescription.skillbookhandyseaman>
-<entityname.skillbookeuropanmedicine>!ВЫРЕЗАТЬ Европейская медицина</entityname.skillbookeuropanmedicine>
-<entitydescription.skillbookeuropanmedicine>!ВЫРЕЗАТЬ Справочник по лечению раненых и больных в условиях ограниченного запаса медицинских ресурсов. В нем часто упоминается слово «сортировка».</entitydescription.skillbookeuropanmedicine>
-<entityname.thermalgoggles>!ВЫРЕЗАТЬ Тепловизор</entityname.thermalgoggles>
-<entitydescription.thermalgoggles>!ВЫРЕЗАТЬ Очки теплового зрения позволяют различать живые цели при плохом освещении и даже за препятствиями.</entitydescription.thermalgoggles>
-<entityname.reactorpda>!ВЫРЕЗАТЬ Пульт реактора</entityname.reactorpda>
-<entitydescription.reactorpda>Портативное устройство для дистанционного управления реактором подлодки.</entitydescription.reactorpda>
-<entityname.dirtybomb>!ВЫРЕЗАТЬ Грязная бомба</entityname.dirtybomb>
-<entitydescription.dirtybomb>!ВЫРЕЗАТЬ В зажигательную смесь добавлены радиоактивные материалы. При небольшой взрывной силе радиоактивное заражение катастрофически загрязняет место взрыва.</entitydescription.dirtybomb>
-<entityname.fulguriumfuelrodvolatile>!ВЫРЕЗАТЬ Нестабильный грозовиевый топливный стержень</entityname.fulguriumfuelrodvolatile>
-<entitydescription.fulguriumfuelrodvolatile>!ВЫРЕЗАТЬ Грозовиевый топливный стержень после дополнительной очистки поставляет энергию гораздо дольше. Однако его радиационная защита лишь частично экранирует фоновое излучение. Использовать с особой осторожностью!</entitydescription.fulguriumfuelrodvolatile>
-<entityname.nucleargun>!ВЫРЕЗАТЬ Быстрый ускоритель распада</entityname.nucleargun>
-<entitydescription.nucleargun>!ВЫРЕЗАТЬ Прототип энергетического оружия, созданный с использованием уникальных инопланетных материалов на Европе. При выстреле происходит реакция ядерного распада с мощным выбросом энергии.</entitydescription.nucleargun>
-<entityname.cargoscooter>!ВЫРЕЗАТЬ Грузовой скутер</entityname.cargoscooter>
-<entitydescription.cargoscooter>!ВЫРЕЗАТЬ Подводный скутер для транспортировки материалов под водой. Скутер слишком большой и не поместится в инвентаре, но нейтральная плавучесть позволяет ему оставаться там, где вы его бросите.</entitydescription.cargoscooter>
-<entityname.safetyharness>!ВЫРЕЗАТЬ Страховочные ремни</entityname.safetyharness>
-<entitydescription.safetyharness>!ВЫРЕЗАТЬ Специальная обвязка, разработанная для снижения травматизма на подлодках Европы. Также обвязка частично гасит эффект потока воды, помогая в случае пробоины в корпусе.</entitydescription.safetyharness>
-<entityname.pucs>!ВЫРЕЗАТЬ УЗК</entityname.pucs>
-<entitydescription.pucs>!ВЫРЕЗАТЬ Универсальный Защитный Костюм, или УЗК, обеспечивает полную защиту от воздействий внешней среды, таких как огонь и радиация. Встроенная система фильтрации воздуха оптимизирует использование кислорода, а портативный медицинский компьютер своевременно вводит пользователю имеющиеся в распоряжении медикаменты.</entitydescription.pucs>
-<entityname.autoinjectorheadset>!ВЫРЕЗАТЬ Гарнитура с инжектором</entityname.autoinjectorheadset>
-<entitydescription.autoinjectorheadset>!ВЫРЕЗАТЬ Модифицированная гарнитура с встроенной батареей и устройством, вводящим лекарства при снижении здоровья пользователя.</entitydescription.autoinjectorheadset>
-<entityname.depletedfuel>!ВЫРЕЗАТЬ Обедненное топливо</entityname.depletedfuel>
-<entitydescription.depletedfuel>!ВЫРЕЗАТЬ Тяжелый, плотный материал, полученный из отработанных топливных стержней. Годится для изготовления инструментов и боеприпасов.</entitydescription.depletedfuel>
-<entityname.wrenchhardened>!ВЫРЕЗАТЬ Закаленный гаечный ключ</entityname.wrenchhardened>
-<entitydescription.wrenchhardened>!ВЫРЕЗАТЬ Гаечный ключ, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.wrenchhardened>
-<entityname.screwdriverhardened>!ВЫРЕЗАТЬ Закаленная отвертка</entityname.screwdriverhardened>
-<entitydescription.screwdriverhardened>!ВЫРЕЗАТЬ Отвертка, закаленная с помощью обедненного топлива. Благодаря усиленному материалу более эффективна как инструмент и оружие.</entitydescription.screwdriverhardened>
-<entityname.crowbarhardened>!ВЫРЕЗАТЬ Закаленный лом</entityname.crowbarhardened>
-<entitydescription.crowbarhardened>!ВЫРЕЗАТЬ Лом, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.crowbarhardened>
-<entityname.divingknifehardened>!ВЫРЕЗАТЬ Закаленный нож ныряльщика</entityname.divingknifehardened>
-<entitydescription.divingknifehardened>!ВЫРЕЗАТЬ Нож ныряльщика, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как оружие.</entitydescription.divingknifehardened>
-<entityname.revolverrounddepletedfuel>!ВЫРЕЗАТЬ Патрон револьвера с обедненным топливом</entityname.revolverrounddepletedfuel>
-<entitydescription.revolverrounddepletedfuel>!ВЫРЕЗАТЬ Револьверный патрон калибра .38 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.revolverrounddepletedfuel>
-<entityname.smgmagazinedepletedfuel>!ВЫРЕЗАТЬ Магазин для ПП с обедненным топливом</entityname.smgmagazinedepletedfuel>
-<entitydescription.smgmagazinedepletedfuel>!ВЫРЕЗАТЬ Магазин для ПП с патронами калибра .45 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.smgmagazinedepletedfuel>
-<entityname.smgrounddepletedfuel>!ВЫРЕЗАТЬ Патрон для ПП с обедненным топливом</entityname.smgrounddepletedfuel>
-<entityname.coilgunammoboxdepletedfuel>!ВЫРЕЗАТЬ Ящик с боеприпасами с обедненным топливом для магнитной пушки</entityname.coilgunammoboxdepletedfuel>
-<entitydescription.coilgunammoboxdepletedfuel>!ВЫРЕЗАТЬ Тяжелый ящик с боеприпасами с обедненным топливом для магнитной пушки. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.coilgunammoboxdepletedfuel>
-<entityname.depletedfuelbolt>!ВЫРЕЗАТЬ Снаряд с обедненным топливом</entityname.depletedfuelbolt>
-<entityname.handheldelectricalmonitor>!ВЫРЕЗАТЬ Ручной электромонитор</entityname.handheldelectricalmonitor>
-<entitydescription.handheldelectricalmonitor>!ВЫРЕЗАТЬ Небольшое устройство для удаленного доступа к информации об электрических системах корабля.</entitydescription.handheldelectricalmonitor>
-<entityname.handheldstatusmonitor>!ВЫРЕЗАТЬ Ручной монитор статуса</entityname.handheldstatusmonitor>
-<entitydescription.handheldstatusmonitor>!ВЫРЕЗАТЬ Небольшое устройство, на экране которого мгновенно появляется информация о пробоинах в корпусе корабля.</entitydescription.handheldstatusmonitor>
-<entityname.autoshotgun>!ВЫРЕЗАТЬ Автоматический дробовик</entityname.autoshotgun>
-<entitydescription.autoshotgun>!ВЫРЕЗАТЬ Примитивный автоматический дробовик с огромным боезапасом. Большой размер и вес доставляют неудобства при использовании.</entitydescription.autoshotgun>
-<entityname.handcannon>!ВЫРЕЗАТЬ Бомбарда</entityname.handcannon>
-<entitydescription.handcannon>!ВЫРЕЗАТЬ Огромный револьвер, более эффективный против крупных инопланетных целей на Европе, чем обычное оружие.</entitydescription.handcannon>
-<entityname.handcannonround>!ВЫРЕЗАТЬ Патрон бомбарды</entityname.handcannonround>
-<entitydescription.handcannonround>!ВЫРЕЗАТЬ Огромный револьверный патрон калибра .61. Уникальный материал изготовления обеспечивает высокую бронебойность и останавливающую силу.</entitydescription.handcannonround>
-<entityname.slipsuit>!ВЫРЕЗАТЬ Гидрокостюм</entityname.slipsuit>
-<entitydescription.slipsuit>!ВЫРЕЗАТЬ Модифицированный боевой водолазный скафандр с плавниками и ластами облегчает передвижение в воде. К сожалению, ласты затрудняют передвижение по суше.</entitydescription.slipsuit>
-<entityname.stungundartfulgurium>!ВЫРЕЗАТЬ Грозовиевый дротик для электрошокера</entityname.stungundartfulgurium>
-<entitydescription.stungundartfulgurium>!ВЫРЕЗАТЬ Мощный дротик, который любого свалит с ног.</entitydescription.stungundartfulgurium>
-<entityname.fixfoamgrenade>!ВЫРЕЗАТЬ Граната с монтажной пеной</entityname.fixfoamgrenade>
-<entitydescription.fixfoamgrenade>!ВЫРЕЗАТЬ Выпускает облако химического уплотнителя, быстро ликвидирующего протечки.</entitydescription.fixfoamgrenade>
-<entityname.portablepump>!ВЫРЕЗАТЬ Портативный насос</entityname.portablepump>
-<entitydescription.portablepump>!ВЫРЕЗАТЬ Маленький насос на батарейке, монтируется на стенах. Очень быстро выкачивает воду, но расходует много энергии.</entitydescription.portablepump>
-<entityname.combatstimulantsyringe>!ВЫРЕЗАТЬ Боевой стимулятор</entityname.combatstimulantsyringe>
-<entityname.explosiveslug>!ВЫРЕЗАТЬ Разрывная пуля</entityname.explosiveslug>
-<entitydescription.explosiveslug>!ВЫРЕЗАТЬ Разрывные патроны для дробовика.</entitydescription.explosiveslug>
-<entityname.wrenchdementonite>!ВЫРЕЗАТЬ Дементонитовый гаечный ключ</entityname.wrenchdementonite>
-<entityname.screwdriverdementonite>!ВЫРЕЗАТЬ Дементонитовая отвертка</entityname.screwdriverdementonite>
-<entityname.crowbardementonite>!ВЫРЕЗАТЬ Дементонитовый лом</entityname.crowbardementonite>
-<entityname.divingknifedementonite>!ВЫРЕЗАТЬ Дементонитовый нож ныряльщика</entityname.divingknifedementonite>
-<entitydescription.dementonitetool>!ВЫРЕЗАТЬ Состоит из малоизученного инопланетного материала дементонита. При использовании вызывает странное неприятное ощущение.</entitydescription.dementonitetool>
-<entityname.chitinhelmet>!ВЫРЕЗАТЬ Хитиновый шлем</entityname.chitinhelmet>
-<entitydescription.chitinhelmet>!ВЫРЕЗАТЬ Прочный шлем, сделанный из хитина.</entitydescription.chitinhelmet>
-<entityname.flamer>!ВЫРЕЗАТЬ Огнемет</entityname.flamer>
-<entitydescription.flamer>!ВЫРЕЗАТЬ Огневое оружие, которое выстреливает потоком горящего сварочного топлива.</entitydescription.flamer>
-<entityname.smg>!ВЫРЕЗАТЬ ПП</entityname.smg>
-<entitydescription.smg>!ВЫРЕЗАТЬ Пистолет-пулемет .45 калибра.</entitydescription.smg>
-<entityname.smgmagazine>!ВЫРЕЗАТЬ Магазин для ПП</entityname.smgmagazine>
-<entitydescription.smgmagazine>!ВЫРЕЗАТЬ Магазин для патронов для ПП .45 калибра.</entitydescription.smgmagazine>
-<entityname.smground>!ВЫРЕЗАТЬ Патрон для ПП</entityname.smground>
-<entitydescription.smground>!ВЫРЕЗАТЬ Патрон .45 калибра для пистолета-пулемета.</entitydescription.smground>
-
-
-
-<entityname.flamerunique>Прототип паровой пушки</entityname.flamerunique>
-<entitydescription.flamerunique>Прекрасно справляется с паразитами. Патент ожидается.</entitydescription.flamerunique>
-<entityname.clownmaskunique>Материнская поддержка</entityname.clownmaskunique>
-<entitydescription.clownmaskunique>От чуткого материнского взгляда ничего не скроешь.</entitydescription.clownmaskunique>
-<entityname.clownsuitunique>Материнское провидение</entityname.clownsuitunique>
-<entitydescription.clownsuitunique>Ничто не вырвется из теплого объятия матери.</entitydescription.clownsuitunique>
-
-
-
-
-
-<entityname.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Ящик взрывных снарядов</entityname.coilgunammoboxexplosive>
-<entitydescription.coilgunammoboxexplosive>!ВЫРЕЗАТЬ Снаряды для магнитной пушки. Взрываются при столкновении с целью.</entitydescription.coilgunammoboxexplosive>
-<entityname.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Ящик пробивных снарядов</entityname.coilgunammoboxpiercing>
-<entitydescription.coilgunammoboxpiercing>!ВЫРЕЗАТЬ Снаряд для магнитной пушки с пробивающими способностями.</entitydescription.coilgunammoboxpiercing>
-<entityname.crawlermask>!ВЫРЕЗАТЬ Маска ползуна</entityname.crawlermask>
-<entitydescription.crawlermask>!ВЫРЕЗАТЬ Помогает сохранить анонимность. Подходит для некоторых вечеринок.</entitydescription.crawlermask>
-<entityname.huskstinger>!ВЫРЕЗАТЬ Жало оболочки</entityname.huskstinger>
-<entitydescription.huskstinger>!ВЫРЕЗАТЬ Самодельное колющее оружие.</entitydescription.huskstinger>
-<entityname.shellshield>!ВЫРЕЗАТЬ Фрагмент панциря молоха</entityname.shellshield>
-<entitydescription.shellshield>!ВЫРЕЗАТЬ Крепкий кусок панциря молоха.</entitydescription.shellshield>
-<entityname.mudraptorshell>!ВЫРЕЗАТЬ Шкура грязевого раптора</entityname.mudraptorshell>
-<entitydescription.mudraptorshell>!ВЫРЕЗАТЬ Защитная шкура грязевого раптора.</entitydescription.mudraptorshell>
-<entityname.clowndivingmask>!ВЫРЕЗАТЬ Подводная маска клоуна</entityname.clowndivingmask>
-<entitydescription.clowndivingmask>!ВЫРЕЗАТЬ Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
-<entityname.minerhelmet>!ВЫРЕЗАТЬ Шахтерский шлем</entityname.minerhelmet>
-<entityname.healthscanner>!ВЫРЕЗАТЬ Информационный экран сканера здоровья</entityname.healthscanner>
-<entitydescription.healthscanner>!ВЫРЕЗАТЬ Информационный экран, на котором отображается информация о жизненных показателях и состоянии находящихся поблизости людей.</entitydescription.healthscanner>
-<entityname.alienpistol>!ВЫРЕЗАТЬ Инопланетный пистолет</entityname.alienpistol>
-<entitydescription.alienpistol>!ВЫРЕЗАТЬ Пистолет, работающий на энергоблоках инопланетян.</entitydescription.alienpistol>
-<entityname.clownmask>!ВЫРЕЗАТЬ Клоунская маска</entityname.clownmask>
-<entitydescription.clownmask>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clownmask>
-<entityname.clowncostume>!ВЫРЕЗАТЬ Клоунский костюм</entityname.clowncostume>
-<entitydescription.clowncostume>!ВЫРЕЗАТЬ Слава красному носу.</entitydescription.clowncostume>
-<!-- TODO Вырезать -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1579,8 +1433,6 @@
 <entitydescription.wrench>Позволяет чинить механические устройства.</entitydescription.wrench>
 <entityname.crowbar>Лом</entityname.crowbar>
 <entitydescription.crowbar>Вскрывает люки и двери. Может использоваться как ударное оружие.</entitydescription.crowbar>
-<entityname.handheldsonar>Ручной сонар</entityname.handheldsonar>
-<entitydescription.handheldsonar>Портативный сонар. Очень полезен во время исследований.</entitydescription.handheldsonar>
 <entityname.sonarbeacon>Сонарный маяк</entityname.sonarbeacon>
 <entitydescription.sonarbeacon>Создает локальный сигнал, который принимается монитором сонара, ручным сонаром или навигационным терминалом.</entitydescription.sonarbeacon>
 <entityname.flashlight>Фонарик</entityname.flashlight>
@@ -1988,8 +1840,7 @@
 <entitydescription.oxygeniteshard>Инопланетный минерал.</entitydescription.oxygeniteshard>
 <entityname.sulphuriteshard>Осколок сернита</entityname.sulphuriteshard>
 <entitydescription.sulphuriteshard>Инопланетный минерал.</entitydescription.sulphuriteshard>
-<entityname.ancientweapon>Древнее оружие</entityname.ancientweapon>
-<entitydescription.ancientweapon>Очень мощное оружие.</entitydescription.ancientweapon>
+
 <entityname.alienhatch>Инопланетный люк</entityname.alienhatch>
 <entitydescription.alienhatch>Горизонтальный люк для инопланетных руин.</entitydescription.alienhatch>
 <entityname.aliendoor>Инопланетная дверь</entityname.aliendoor>
@@ -6190,8 +6041,6 @@
 <entitydescription.ruinwallcorner1>Обычный кусок стены из инопланетных руин.</entitydescription.ruinwallcorner1>
 <entityname.guardianpod>Модуль стража</entityname.guardianpod>
 <entitydescription.guardianpod>Защитный модуль для фрактальных стражей.</entitydescription.guardianpod>
-<entityname.ruinscanner>Сканер руин</entityname.ruinscanner>
-<entitydescription.ruinscanner>Эхолокатор для сканирования руин.</entitydescription.ruinscanner>
 <entityname.ruinvent>Вентиляция в руинах</entityname.ruinvent>
 <entitydescription.ruinvent>Вентиляционный клапан, который может выбросить вредные споры или газ.</entitydescription.ruinvent>
 <entityname.guardiancutter>Резак стража</entityname.guardiancutter>

@@ -17,6 +17,9 @@
 <Item file="Mods/Zvezda Bundle/Items/Diving/divinggear.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Misc/misc.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Containers/containers.xml" />
+<Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
+<Item file="Mods/Zvezda Bundle/Items/CreatureLoot/creatureloot.xml" />
+<Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
 
 <!-- Кастом -->
 
@@ -34,11 +37,11 @@
 
 <!-- Фреймворк -->
 
-<Item file="Content/Items/Alien/alienitems.xml" />
+
 <Item file="Content/Items/Button/button.xml" />
 <Item file="Content/Items/Command/command.xml" />
 
-<Item file="Content/Items/CreatureLoot/creatureloot.xml" />
+
 <Item file="Content/Items/Door/doors.xml" />
 <Item file="Content/Items/Electricity/lights.xml" />
 <Item file="Content/Items/Electricity/poweritems.xml" />
@@ -75,7 +78,7 @@
 <Item file="Content/Items/Legacy/legacyrailgun.xml" />
 <Item file="Content/Items/Legacy/legacysearchlight.xml" />
 <Item file="Content/Items/Pets/PetEggs.xml" />
-<Item file="Content/Items/Pets/PetItems.xml" />
+
 <Item file="Content/Items/Shipwrecks/wreckeditems.xml" />
 <Item file="Content/Map/Thalamus/thalamusitems.xml" />
 <Item file="Content/Items/Gardening/growableplants.xml" />
@@ -312,7 +315,6 @@
 
 
 <!-- Вырезано -->
-<Item file="Content/Items/Jobgear/Clown/clown.xml" />
 <Talents file="Content/Talents/Assistant/TalentsAssistant.xml"/>
 <Talents file="Content/Talents/Security/TalentsSecurity.xml"/>
 <Talents file="Content/Talents/Engineer/TalentsEngineer.xml"/>
