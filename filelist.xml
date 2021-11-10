@@ -9,6 +9,7 @@
 <LocationTypes file="Mods/Zvezda Bundle/Map/locationTypes.xml" />
 <UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
 <Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
+<Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
 <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
@@ -22,7 +23,9 @@
 <Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
 <Item file="Mods/Zvezda Bundle/Items/CreatureLoot/creatureloot.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
-<Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
+<Item file="Mods/Zvezda Bundle/Items/Gardening/gardeningtools.xml" />
+<Item file="Mods/Zvezda Bundle/Items/Nourishment/nourishment.xml" />
+
 
 
 <!-- Кастом -->
@@ -86,7 +89,7 @@
 <Item file="Content/Items/Shipwrecks/wreckeditems.xml" />
 <Item file="Content/Map/Thalamus/thalamusitems.xml" />
 <Item file="Content/Items/Gardening/growableplants.xml" />
-<Item file="Content/Items/Gardening/gardeningtools.xml" />
+
 <Item file="Content/Items/Gardening/plantproducts.xml" />
 
 <Character file="Content/Characters/Balloon/Balloon.xml" />
