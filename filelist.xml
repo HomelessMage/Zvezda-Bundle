@@ -7,6 +7,8 @@
 <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
 <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
 <LocationTypes file="Mods/Zvezda Bundle/Map/locationTypes.xml" />
+<UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
+<Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
 <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
@@ -20,6 +22,7 @@
 <Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
 <Item file="Mods/Zvezda Bundle/Items/CreatureLoot/creatureloot.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
+
 
 <!-- Кастом -->
 
@@ -168,7 +171,7 @@
 <Text file="Content/Texts/Japanese/JapaneseVanilla.xml" />
 <Text file="Content/Texts/Turkish/TurkishVanilla.xml" />
 <Text file="Content/Texts/Korean/KoreanVanilla.xml" />
-<UIStyle file="Content/UI/style.xml" />
+
 <Afflictions file="Content/Afflictions.xml" />
 <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
 <Structure file="Content/Map/StructurePrefabs.xml" />
@@ -255,7 +258,7 @@
 <NPCConversations file="Content/NPCConversations/Korean/NpcConversations_Korean.xml" />
 <Orders file="Content/Orders.xml" />
 <Corpses file="Content/Corpses.xml" />
-<Sounds file="Content/Sounds/sounds.xml" />
+
 <Tutorials file="Content/Tutorials/Tutorials.xml" />
 <ServerExecutable file="DedicatedServer" />
 <Factions file="Content/Map/factions.xml" />

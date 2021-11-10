@@ -191,7 +191,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="researcherclothes" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="captainsuniform1" equip="true" outfit="true" showpreview="true" />
       </ItemSet>
    </Job>
    <Job name="militaryman" identifier="militaryman" uicolor="50,205,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">

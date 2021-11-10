@@ -27,7 +27,7 @@
     beaconstationchance="0.5">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,640,128,128" color="128,206,175,255" />
-    <Portrait texture="Content/Map/LocationPortraits/NaturalFormations.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
     
     <ChangeTo type="Outpost" disallowedadjacentlocations="Lair" messagetag="locationchange.none.changeto.outpost">
       <!-- May be settled if within 3 steps of a colony, with an increasing chance should it be within 2 or less steps -->
@@ -47,7 +47,7 @@
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="384,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/Colony.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
   </City>
 
   <Outpost
@@ -57,7 +57,7 @@
     commonnessperzone="2: 2.5, 3: 1.0, 4: 0.75">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,512,128,128" color="128,206,175,255"/>
-    <Portrait texture="Content/Map/LocationPortraits/HabitationOutpost.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
     
     <!-- can become a specialized outpost if there are no adjacent lairs -->
     <ChangeTo type="Military" probability="0.3" 
@@ -89,7 +89,7 @@
     outpostteam="None">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/HabitationOutpost.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
   </Abandoned>
   
   <Military
@@ -101,7 +101,7 @@
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampMilitary.png" premultiplyalpha="false"/>    
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>    
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City" 
               requireddurationrange="2,4"
@@ -123,9 +123,9 @@
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="512,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility1.png" premultiplyalpha="false"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility2.png" premultiplyalpha="false"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility3.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City"
           requireddurationrange="2,4"
@@ -147,10 +147,10 @@
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,640,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining1.png" premultiplyalpha="false"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining2.png" premultiplyalpha="false"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining3.png" premultiplyalpha="false"/>
-    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining4.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City"
           requireddurationrange="2,4"
@@ -170,7 +170,7 @@
     commonnessperzone="1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1"
     hasoutpost="false">
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="521,648,110,110" color="245,105,105"/>
-    <Portrait texture="Content/Map/LocationPortraits/NaturalFormations.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
   </EndLocation>
   
   <!-- 
@@ -182,7 +182,7 @@
     useinmainmenu="true">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,128,128,128" color="250,59,59,255"/>
-    <Portrait texture="Content/Map/LocationPortraits/AlienRuins.png" premultiplyalpha="false"/>
+    <Portrait texture="Mods/Zvezda Bundle/Map/AlienRuins.png" premultiplyalpha="false"/>
 
     <ChangeTo type="Outpost" probability="0.05" requiredduration="3" disallowedadjacentlocations="Lair"/>
     <ChangeTo type="Military" probability="0.05" requiredduration="3" disallowedadjacentlocations="Lair"/>
