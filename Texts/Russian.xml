@@ -323,6 +323,22 @@
 <!-- Слот сумки -->
 
 
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+<!-- Слот рюкзака -->
+
+
+
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
 <!-- Разное снаряжение -->
@@ -348,9 +364,6 @@
 
 <entityname.handcuffs>Наручники</entityname.handcuffs>
 <entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
-
-<entityname.riotshield>Противоударный щит</entityname.riotshield>
-<entitydescription.riotshield></entitydescription.riotshield>
 
 <entityname.divingmask>Подводная маска</entityname.divingmask>
 <entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
@@ -404,21 +417,144 @@
 
 
 <!-- TODO -->
+
+
+
+
+
+
+
+
+
+<!--Оружие-->
+
+<entityname.pkm>ПКМ</entityname.pkm>
+<entitydescription.pkm>7,62-мм пулемёт Калашникова — советский пулемёт, разработанный М. Т. Калашниковым в качестве единого пулемёта для Вооружённых Сил СССР. ПК был принят на вооружение Вооружёнными Силами СССР в 1961 году. Применялся во многих войнах и вооружённых конфликтах второй половины XX века и начала XXI.</entitydescription.pkm>
+
+<entityname.rpd>РПД</entityname.rpd>
+<entitydescription.rpd>7,62-мм ручной пулемёт Дегтярёва — советский ручной пулемёт, разработанный в 1944 году под 7,62-мм патрон образца 1943 года.</entitydescription.rpd>
+
+<entityname.akm>АКМ</entityname.akm>
+<entitydescription.akm>7,62-мм автомат Калашникова модернизированный — автомат, принятый на вооружение ВС Союза ССР, в 1959 году, взамен автомата АК.</entitydescription.akm>
+
+<entityname.aksu>АКС-74У</entityname.aksu>
+<entitydescription.aksu>5,45×39 автомат Калашникова складной укороченный — укороченный вариант автомата АКС74, был разработан в конце 1970 — начале 1980-х годов для вооружения экипажей боевых машин, авиатехники, расчётов орудий, а также десантников.</entitydescription.aksu>
+
+<entityname.ak74m>АК-74М</entityname.ak74m>
+<entitydescription.ak74m>АК-74М (Автомат Калашникова 1974) — это советский автомат, разработанный Михаилом Калашниковым в 1974 году. Является дальнейшим развитием АКМ, который, в свою очередь, является модернизацией АК-47.</entitydescription.ak74m>
+
+<entityname.mts21>МР-133</entityname.mts21>
+<entitydescription.mts21>Укороченный вариант советского самозарядного ружья которое применяется правоохранительными органами и военными для охраны и самообороны.</entitydescription.mts21>
+
+<entityname.izh58>Обрез «ИЖ-58»</entityname.izh58>
+<entitydescription.izh58>Кустарная обрезанная версия советского двуствольного охотничьего ружья «ИЖ-58».</entitydescription.izh58>
+
+
+<entityname.kiparis>ОЦ-2 «Кипарис»</entityname.kiparis>
+<entitydescription.kiparis>Пистолет-пулемёт был разработан в 1972 году по заказу Министерства обороны СССР конструкторами ЦКИБ СОО г. Тулы Н. М. Афанасьевым, Д. П. Плешковым и Н. В. Трухачевым. За основу была взята компоновочная схема чехословацкого пистолета-пулемёта Scorpion Vz.61 образца 1961 года.</entitydescription.kiparis>
+
+
+<entityname.pmpistol>ПМ</entityname.pmpistol>
+<entitydescription.pmpistol>9-мм пистолет Макарова — советский самозарядный пистолет. Является личным оружием в советских и постсоветских вооружённых силах и правоохранительных органах, а также одним из самых массовых пистолетов в СССР.</entitydescription.pmpistol>
+
+<entityname.ots38>ОЦ-38</entityname.ots38>
+<entitydescription.ots38>7,62-мм револьвер специальный Стечкина ОЦ-38 — советский револьвер, состоящий на вооружении офицерских составов.</entitydescription.ots38>
+
+<entityname.tt33>ТТ-33</entityname.tt33>
+<entitydescription.tt33>ТТ (Тульский Токарев) — самозарядный пистолет, разработанный в 1930 году советским конструктором Фёдором Васильевичем Токаревым. Первый самозарядный пистолет отечественной разработки, принятый на вооружение в СССР.</entitydescription.tt33>
+
 <entityname.stungrenade>Граната "Заря"</entityname.stungrenade>
 <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
+
 <entityname.empgrenade>Граната "РЭП"</entityname.empgrenade>
 <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
+
 <entityname.fraggrenade>Граната "Ф-1"</entityname.fraggrenade>
 <entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
+
 <entityname.incendiumgrenade>Коктейль Молотова</entityname.incendiumgrenade>
 <entitydescription.incendiumgrenade>Бутыль с зажигательной смесью</entitydescription.incendiumgrenade>
 
+<entityname.pr73m>Дубинка «ПР-73М»</entityname.pr73m>
+<entitydescription.pr73m>Дубинка которую милиционеры носят и применяют для охраны правопорядка.</entitydescription.pr73m>
+
+<entityname.riotshield>Противоударный щит</entityname.riotshield>
+<entitydescription.riotshield></entitydescription.riotshield>
+
+<entityname.ar15>AR-15</entityname.ar15>
+<entitydescription.ar15>AR-15 — американская полуавтоматическая винтовка под патрон 5,56×45-мм.</entitydescription.ar15>
+
+<entityname.izdelie>Изделие «Заготовка-31»</entityname.izdelie>
+<entitydescription.izdelie>Кустарный образец карабина, сделанный из штампованных деталей.</entitydescription.izdelie>
 
 
 
 
 
 
+
+<!--Аммуниция-->
+
+<entityname.pkmmag>Короб для ПКМ</entityname.pkmmag>
+<entitydescription.pkmmag>Короб с лентой на 100 патронов 7,62x54-мм в прямоугольном металлическом коробе.</entitydescription.pkmmag>
+
+<entityname.rpdmagazine>Барабан для РПД</entityname.rpdmagazine>
+<entitydescription.rpdmagazine>Барабан с лентой на 100 патронов 7,62x39-мм в круглом металлическом коробе.</entitydescription.rpdmagazine>
+
+<entityname.76239mmmag>Магазин для АКМ</entityname.76239mmmag>
+<entitydescription.76239mmmag>Отъёмный коробчатый магазин на 30 патронов 7.62×39-мм.</entitydescription.76239mmmag>
+
+<entityname.76239mm>Патрон 7.62x39-мм</entityname.76239mm>
+<entitydescription.76239mm>7,62-мм патрон образца 1943 года (7,62×39 мм) — промежуточный патрон с невыступающей закраиной конструкции Н. М. Елизарова и Б. В. Сёмина.</entitydescription.76239mm>
+
+<entityname.aksumag>Магазин для АКС-74У</entityname.aksumag>
+<entitydescription.aksumag>Отъёмный коробчатый магазин на 30 патронов 5.45×39-мм.</entitydescription.aksumag>
+
+<entityname.ak74mmag>Магазин для АК-74М</entityname.ak74mmag>
+<entitydescription.ak74mmag>Отъёмный коробчатый магазин на 30 патронов 5.45×39-мм.</entitydescription.ak74mmag>
+
+<entityname.54539mm>Патрон 5.45x39-мм</entityname.54539mm>
+<entitydescription.54539mm>5,45×39 мм — малоимпульсный советский промежуточный унитарный патрон центрального воспламенения. Разработан в начале 1970-х годов.</entitydescription.54539mm>
+
+<entityname.shotgunshellcombat>Патрон 12 калибра (картечь)</entityname.shotgunshellcombat>
+<entitydescription.shotgunshellcombat>Картечь 12-го калибра — самый распространённый в настоящее время калибр ружейных патронов. Данный патрон начинен металлической картечью.</entitydescription.shotgunshellcombat>
+
+<entityname.shotgunshelltrauma>Патрон 12 калибра (травматическая пуля)</entityname.shotgunshelltrauma>
+<entitydescription.shotgunshelltrauma>Пуля 12-го калибра — самый распространённый в настоящее время калибр для ружейных патронов. Данный патрон имеет повышенное останавливающее действие.</entitydescription.shotgunshelltrauma>
+
+<entityname.shotgunshellslug>Патрон 12 калибра (пуля)</entityname.shotgunshellslug>
+<entitydescription.shotgunshellslug>Пуля 12-го калибра — самый распространённый в настоящее время калибр для ружейных патронов. Данный патрон имеет повышенное пробивное действие.</entitydescription.shotgunshellslug>
+
+
+<entityname.kiparismag>Магазин для ОЦ-2 «Кипарис»</entityname.kiparismag>
+<entitydescription.kiparismag>Магазин на 20 боевых патронов 9×18-мм ПМ.</entitydescription.kiparismag>
+
+<entityname.pmmag>Магазин для ПМ (боевой)</entityname.pmmag>
+<entitydescription.pmmag>Магазин на 8 боевых патронов 9×18-мм ПМ.</entitydescription.pmmag>
+
+<entityname.pmmagtrauma>Магазин для ПМ (травматический)</entityname.pmmagtrauma>
+<entitydescription.pmmagtrauma>Магазин на 8 травматических патронов с резиновыми пулями 9×18-мм ПМ.</entitydescription.pmmagtrauma>
+
+<entityname.pmround>Патрон 9x18-мм (боевой)</entityname.pmround>
+<entitydescription.pmround>9×18-мм ПМ — пистолетный унитарный патрон с бесфланцевой гильзой, созданный для замены патрона 7,62×25 мм ТТ. Разработан Б. В. Сёминым в 1951 году.</entitydescription.pmround>
+
+<entityname.pmroundtrauma>Патрон 9x18-мм (травматический)</entityname.pmroundtrauma>
+<entitydescription.pmroundtrauma>9×18-мм ПМ — пистолетный унитарный патрон с бесфланцевой гильзой, созданный для замены патрона 7,62×25 мм ТТ. Разработан Б. В. Сёминым в 1951 году.</entitydescription.pmroundtrauma>
+
+<entityname.76241mm>Патрон 7,62x41,5-мм</entityname.76241mm>
+<entitydescription.76241mm>СП-4 — советский патрон замкнутого типа.</entitydescription.76241mm>
+
+<entityname.tt33mag>Магазин для ТТ-33</entityname.tt33mag>
+<entitydescription.tt33mag>Магазин на 8 боевых патронов 7,62x25 мм ТТ.</entitydescription.tt33mag>
+
+<entityname.76225mm>Патрон 7,62x25 мм ТТ</entityname.76225mm>
+<entitydescription.76225mm>7,62x25 мм ТТ — советский пистолетный унитарный патрон с полуфланцевой гильзой бутылочной формы, разработанный на базе немецкого патрона 7,63x25 мм Маузер. Отличается от немецкого патрона увеличенной проточкой и частично выступающей закраиной. Это первый пистолетный патрон, официально принятый на вооружение в СССР и России. Использовался также в пистолетах-пулемётах.</entitydescription.76225mm>
+
+<entityname.ar15mag>Магазин для AR-15</entityname.ar15mag>
+<entitydescription.ar15mag>Отъёмный коробчатый магазин на 30 патронов 5,56x45-мм.</entitydescription.ar15mag>
+
+<entityname.55645round>Патрон 5,56x45-мм НАТО</entityname.55645round>
+<entitydescription.55645round>5,56x45 мм (.223 Remington) NATO — малоимпульсный промежуточный патрон с бесфланцевой гильзой бутылочной формы, принятый на вооружение странами НАТО в 1980-х годах.</entitydescription.55645round>
 
 
 
