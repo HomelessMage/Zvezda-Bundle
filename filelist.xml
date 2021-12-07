@@ -25,7 +25,7 @@
 <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Gardening/gardeningtools.xml" />
 <Item file="Mods/Zvezda Bundle/Items/Nourishment/nourishment.xml" />
-
+<Item file="Mods/Zvezda Bundle/Items/Reactor/reactor.xml" />
 
 
 <!-- Кастом -->
@@ -37,7 +37,7 @@
 
 
 
-<Item file="Content/Items/Reactor/reactor.xml" />
+
 <!-- TODO -->
 
 

@@ -765,6 +765,24 @@
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,768,128,128" color="195,180,60,255" origin="0,0"/>
   </Affliction>
 
+
+		<Affliction name="Nuclear Waste Exposure" identifier="exposure" description="You've been exposed to nuclear material." type="buff" causeofdeathdescription="Died to overexposure to nuclear material." selfcauseofdeathdescription="Died to overexposure to nuclear material." limbspecific="false" indicatorlimb="Torso" maxstrength="100" damageoverlayalpha="1">
+			<Effect minstrength="0" maxstrength="50" strengthchange="-8">
+				<StatusEffect target="Character">
+					<Affliction identifier="burn" amount="0.1" />
+				</StatusEffect>
+			</Effect>
+			<Effect minstrength="51" maxstrength="100" strengthchange="-20">
+				<StatusEffect target="Character">
+					<Affliction identifier="radiationsickness" amount="1" />
+					<Affliction identifier="organdamage" amount="1" />
+				</StatusEffect>
+			</Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="896,768,128,128" color="195,136,60,255" origin="0,0"/>
+		</Affliction>
+
+
+
   <Affliction
     name="Radiation sickness"
     identifier="radiationsickness"

@@ -371,6 +371,12 @@
 <entityname.divingsuit>Скафандр</entityname.divingsuit>
 <entitydescription.divingsuit>Водолазный костюм с поддержанием атмосферного давления.</entitydescription.divingsuit>
 
+<entityname.hazmat>Костюм РХБЗ</entityname.hazmat>
+<entitydescription.hazmat></entitydescription.hazmat>
+
+<entityname.tongs>Щипцы</entityname.tongs>
+<entitydescription.tongs></entitydescription.tongs>
+
 <entityname.cigar>Сигара</entityname.cigar>
 <entitydescription.cigar>Жизнь под водой давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>
 
@@ -556,9 +562,18 @@
 <entityname.55645round>Патрон 5,56x45-мм НАТО</entityname.55645round>
 <entitydescription.55645round>5,56x45 мм (.223 Remington) NATO — малоимпульсный промежуточный патрон с бесфланцевой гильзой бутылочной формы, принятый на вооружение странами НАТО в 1980-х годах.</entitydescription.55645round>
 
+<!--Аммуниция-->
 
 
 
+<!--Болезни-->
+
+<afflictionname.radiationsickness>Лучевая болезнь</afflictionname.radiationsickness>
+<afflictiondescription.radiationsickness>Кожа пациента красная и вздутая.</afflictiondescription.radiationsickness>
+<afflictionname.exposure>Заражение радиацией</afflictionname.exposure>
+<afflictiondescription.exposure></afflictiondescription.exposure>
+
+<!--Болезни-->
 
 
 
@@ -3694,8 +3709,7 @@
 <afflictioncauseofdeathself.bitewounds>Вы погибаете от укусов.</afflictioncauseofdeathself.bitewounds>
 <entityname.baseballcap>Бейсболка</entityname.baseballcap>
 <entitydescription.baseballcap>Головной убор, который должен иметь каждый уважающий себя механик.</entitydescription.baseballcap>
-<afflictionname.radiationsickness>Лучевая болезнь</afflictionname.radiationsickness>
-<afflictiondescription.radiationsickness>Кожа пациента красная и вздутая.</afflictiondescription.radiationsickness>
+
 <afflictionname.deliriuminepoisoning>Отравление бредогеном</afflictionname.deliriuminepoisoning>
 <afflictiondescription.deliriuminepoisoning>Пациент возбужден, у него нервный тик на лице, руки подрагивают.</afflictiondescription.deliriuminepoisoning>
 <editor.cut>Вырезать</editor.cut>
