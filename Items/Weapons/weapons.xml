@@ -678,10 +678,13 @@
          <StatusEffect type="OnUse">
             <Explosion range="75.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
          </StatusEffect>
+         <StatusEffect type="OnUse" target="Contained">
+            <Use />
+         </StatusEffect>         
          <RequiredItems items="tt33mag" type="Contained" msg="ItemMsgAmmoRequired" />
          <RequiredSkill identifier="weapons" level="100" />
       </RangedWeapon>
-      <ItemContainer capacity="1" hideitems="true">
+      <ItemContainer capacity="1" itempos="-50,-10" hideitems="true">
          <Containable items="tt33mag" />
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
