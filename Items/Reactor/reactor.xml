@@ -141,7 +141,7 @@
 
 
 
-  <Item identifier="hazmat" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
+  <Item identifier="hazmat" category="Equipment" tags="diving,deepdiving,provocative,respawnsuit" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <InventoryIcon name="Hazmat 1 Icon" texture="Mods/Zvezda Bundle/Items/Reactor/hazmat.png" sourcerect="8,350,64,64" origin="0.5,0.5" />
     <Sprite name="Hazmat 1" texture="Mods/Zvezda Bundle/Items/Reactor/hazmat.png" sourcerect="232,323,125,94" depth="0.55" origin="0.5,0.5" />
     <Body width="125" height="94" density="18" friction="0.8" restitution="0.01" />

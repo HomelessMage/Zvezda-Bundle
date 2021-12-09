@@ -230,6 +230,8 @@
 <entityname.banditclothes2>Одежда бандита (вариант 5)</entityname.banditclothes2>
 <entitydescription.banditclothes2></entitydescription.banditclothes2>
 
+<entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
+<entitydescription.camo_woodland></entitydescription.camo_woodland>
 
 <!-- Одежда -->
 <!-- Одежда -->
@@ -258,7 +260,7 @@
 <!-- Головные уборы -->
 <!-- Головные уборы -->
 <!-- Головные уборы -->
-<entityname.ballistichelmet2>Шлемофон ТШ-4</entityname.ballistichelmet2>
+<entityname.ballistichelmet2>Шлемофон «ТШ-4»</entityname.ballistichelmet2>
 <entitydescription.ballistichelmet2>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.ballistichelmet2>
 
 <entityname.captainscap1>Фуражка (вариант 1)</entityname.captainscap1>
@@ -275,6 +277,11 @@
 
 <entityname.piratebandana>Бандана</entityname.piratebandana>
 <entitydescription.piratebandana></entitydescription.piratebandana>
+
+<entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
+<entitydescription.zsh_helmet></entitydescription.zsh_helmet>
+
+
 <!-- Головные уборы -->
 <!-- Головные уборы -->
 <!-- Головные уборы -->
@@ -307,9 +314,14 @@
 <!-- Слот сумки -->
 <!-- Слот сумки -->
 <!-- Слот сумки -->
-<entityname.bandolier>Разгрузочный жилет "Лифчик"</entityname.bandolier>
+<entityname.bandolier>Разгрузочный жилет «Лифчик»</entityname.bandolier>
 <entitydescription.bandolier>Легкое снаряжение для переноски боеприпасов и других предметов.</entitydescription.bandolier>
 
+<entityname.6b13>Бронежилет «6Б13»</entityname.6b13>
+<entitydescription.6b13>Советский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.6b13>
+
+<entityname.miltec>Разгрузочный бронежилет «Mil-Tec»</entityname.miltec>
+<entitydescription.miltec>Американский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.miltec>
 <!-- Слот сумки -->
 <!-- Слот сумки -->
 <!-- Слот сумки -->
@@ -329,7 +341,8 @@
 <!-- Слот рюкзака -->
 <!-- Слот рюкзака -->
 <!-- Слот рюкзака -->
-
+<entityname.miningbackpack>Шахтёрский рюкзак</entityname.miningbackpack>
+<entitydescription.miningbackpack></entitydescription.miningbackpack>
 <!-- Слот рюкзака -->
 <!-- Слот рюкзака -->
 <!-- Слот рюкзака -->
@@ -395,6 +408,15 @@
 <entityname.boardingaxe>Пожарный топор</entityname.boardingaxe>
 <entitydescription.boardingaxe></entitydescription.boardingaxe>
 
+<entityname.arcwelder>Сварочный аппарат</entityname.arcwelder>
+<entitydescription.arcwelder></entitydescription.arcwelder>
+
+<entityname.drill>Дрель</entityname.drill>
+<entitydescription.drill></entitydescription.drill>
+
+<entityname.hullrepairkit>Ремонтный набор</entityname.hullrepairkit>
+<entitydescription.hullrepairkit></entitydescription.hullrepairkit>
+
 <entityname.coalitioncommendation>Медаль "За Трудовую Доблесть"</entityname.coalitioncommendation>
 <entitydescription.coalitioncommendation></entitydescription.coalitioncommendation>
 
@@ -434,6 +456,9 @@
 
 <!--Оружие-->
 
+<entityname.divingknife>Штык-нож «6Х4»</entityname.divingknife>
+<entitydescription.divingknife>Общевойсковой штык-нож, принятый на вооружение ВС СССР для использования с автоматами АКМ и АК74.</entitydescription.divingknife>
+
 <entityname.pkm>ПКМ</entityname.pkm>
 <entitydescription.pkm>7,62-мм пулемёт Калашникова — советский пулемёт, разработанный М. Т. Калашниковым в качестве единого пулемёта для Вооружённых Сил СССР. ПК был принят на вооружение Вооружёнными Силами СССР в 1961 году. Применялся во многих войнах и вооружённых конфликтах второй половины XX века и начала XXI.</entitydescription.pkm>
 
@@ -469,13 +494,13 @@
 <entityname.tt33>ТТ-33</entityname.tt33>
 <entitydescription.tt33>ТТ (Тульский Токарев) — самозарядный пистолет, разработанный в 1930 году советским конструктором Фёдором Васильевичем Токаревым. Первый самозарядный пистолет отечественной разработки, принятый на вооружение в СССР.</entitydescription.tt33>
 
-<entityname.stungrenade>Граната "Заря"</entityname.stungrenade>
+<entityname.stungrenade>Граната «Заря»</entityname.stungrenade>
 <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
 
-<entityname.empgrenade>Граната "РЭП"</entityname.empgrenade>
+<entityname.empgrenade>Граната «РЭП»</entityname.empgrenade>
 <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
 
-<entityname.fraggrenade>Граната "Ф-1"</entityname.fraggrenade>
+<entityname.fraggrenade>Граната «Ф-1»</entityname.fraggrenade>
 <entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
 
 <entityname.incendiumgrenade>Коктейль Молотова</entityname.incendiumgrenade>
@@ -1605,8 +1630,7 @@
 <entityname.detonator>Детонатор</entityname.detonator>
 <entitydescription.detonator>Устройство, взрывающее содержащуюся в нем взрывчатку после получения соответствующего сигнала.</entitydescription.detonator>
 
-<entityname.divingknife>Нож ныряльщика</entityname.divingknife>
-<entitydescription.divingknife>Режет, колет, рубит и рассекает.</entitydescription.divingknife>
+
 <entityname.oxygenitetank>Баллон с кислородитом</entityname.oxygenitetank>
 <entitydescription.oxygenitetank>Баллон, содержащий жидкий кислородит.</entitydescription.oxygenitetank>
 <entityname.batterycell>Аккумулятор</entityname.batterycell>

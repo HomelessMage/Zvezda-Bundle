@@ -920,7 +920,42 @@
 
 
 
-
+  <Item name="" identifier="camo_woodland" aliases="Camo Woodland" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="2" />
+      <Price locationtype="research" multiplier="1" minavailable="1" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <InventoryIcon name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+    <Sprite name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Camo Woodland Torso" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Hand" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Hand" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Lower Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Lower Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Upper Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Upper Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Waist" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Thigh" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Thigh" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Leg" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Leg" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Shoe" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Shoe" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />    
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+  </Item>
 
 
 
@@ -1277,6 +1312,39 @@
       <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.8" sourcerect="313,407,100,95" origin="0.55,0.6" />
     </Wearable>
   </Item>
+
+<Item name="" identifier="zsh_helmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+    <Upgrade gameversion="0.9.6.0" scale="0.4" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
+    <Price baseprice="640" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false" />
+      <Price locationtype="city" multiplier="1.2" minavailable="1" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="0.9" minavailable="1" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="15" />
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="steel" />
+    </Fabricate>
+    <Sprite name="zsh_helmet" texture="Mods/Zvezda Bundle/Items/Jobgear/helmets.png" sourcerect="100,0,85,67" depth="0.6" origin="0.5,0.4" />
+    <Body radius="30" density="50" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite name="zsh_helmet" texture="Mods/Zvezda Bundle/Items/Jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="100,0,85,67" origin="0.45,0.63" />
+	<StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
+	</Wearable>
+  </Item>
+
+
+
   <!-- ГОЛОВНЫЕ УБОРЫ -->
   <!-- ГОЛОВНЫЕ УБОРЫ -->
   <!-- ГОЛОВНЫЕ УБОРЫ -->
@@ -1512,7 +1580,80 @@
 
 
 
+  <Item name="" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.7" />
+    <Price baseprice="830" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/6b13_icon.png" sourcerect="0,0,172,257" origin="0.5,0.5" />
+    <Sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/6b13.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.14" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/6b13.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.81" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />   
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+  </Item>
 
+
+  <Item name="" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.6" />
+    <Price baseprice="650" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  minavailable="1"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="2"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45">
+      <RequiredSkill identifier="weapons" level="45" />	
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/miltec_icon.png" sourcerect="0,0,93,192" origin="0.5,0.5" />
+    <Sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/miltec.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/miltec.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.74" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+	  <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />  	  
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="4">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+    </ItemContainer>
+  </Item>
 
 
 
