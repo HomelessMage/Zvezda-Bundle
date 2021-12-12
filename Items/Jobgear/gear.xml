@@ -1727,11 +1727,11 @@
       <RequiredItem identifier="steel"/>
     </Fabricate>
     <InventoryIcon texture="Mods/Zvezda Bundle/Items/InventoryIconAtlas.png" sourcerect="192,0,64,64" origin="0.5,0.5"/>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/Mechanic/safetyharness.png" sourcerect="405,0,56,49" depth="0.6"/>
+    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" sourcerect="405,0,56,49" depth="0.6"/>
     <Body width="50" height="34" density="40"/>
     <Wearable slots="Any,RightHand+LeftHand" msg="ItemMsgPickUpSelect" autoequipwhenfull="false">
-      <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/Mechanic/safetyharness.png" limb="RightHand" sourcerect="462,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
-      <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/Mechanic/safetyharness.png" limb="LeftHand" sourcerect="487,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
+      <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" limb="RightHand" sourcerect="462,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
+      <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" limb="LeftHand" sourcerect="487,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
       <StatusEffect type="OnWearing" target="Character" lockhands="true" setvalue="true"/>
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />

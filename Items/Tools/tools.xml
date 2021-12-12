@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
 
+      <Item name="" identifier="radio" scale="0.35" category="Equipment" tags="smallitem,headset" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+         <InventoryIcon texture="radio.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+         <Sprite texture="radio.png" depth="0.6" sourcerect="0,64,48,96" origin="0.5,0.5" />
+         <Body width="35" height="55" density="30" />
+         <Deconstruct time="10">
+            <Item identifier="plastic" />
+            <Item identifier="fpgacircuit" />
+            <Item identifier="fpgacircuit" />
+         </Deconstruct>
+         <Fabricate suitablefabricators="fabricator" requiredtime="15">
+            <RequiredItem identifier="plastic" />
+            <RequiredItem identifier="fpgacircuit" />
+            <RequiredItem identifier="fpgacircuit" />
+         </Fabricate>
+         <WifiComponent range="50000.0" channel="0" LinkToChat="true" MinChatMessageInterval="0.0">
+            <RequiredItems items="mobilebattery" type="Contained" />
+         </WifiComponent>
+         <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+           <Containable items="mobilebattery">
+             <StatusEffect type="OnActive" target="This" Condition="-0.2" disabledeltatime="true" />
+           </Containable>
+         </ItemContainer>
+        <Holdable slots="Any" />         
+         <Wearable limbtype="Head" slots="Headset" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+            <LightComponent LightColor="235,188,44,225" Flicker="0.02" range="450" powerconsumption="0" IsOn="false" canbeselected="true">
+               <LightTexture texture="Content/Lights/lightcone.png" origin="-0, 0.485" size="1.0,1.0" />
+            </LightComponent>
+         </Wearable>
+         <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+            <GuiFrame relativesize="0.12,0.08" anchor="CenterRight" absoluteoffset="20,256" style="ItemUI" />
+            <TextBox text="Частота" propertyname="Channel" />
+         </CustomInterface>
+ <!-->
+      <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+         <GuiFrame relativesize="0.12,0.08" anchor="CenterRight" absoluteoffset="20,128" style="ItemUI" />
+         <TickBox text="Рация">
+            <StatusEffect type="OnUse" target="This" IsActive="true">
+               <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnSecondaryUse" target="This" IsActive="false" />
+         </TickBox>
+      </CustomInterface>         
+<-->
+       </Item>
+
+
+
+
+
+
 
   <Item name="" identifier="arcwelder" category="Equipment" Tags="smallitem,weldingequipment,tool,flashlight" cargocontaineridentifier="metalcrate" 
   description="" Scale="0.32" impactsoundtag="impact_metal_light">
