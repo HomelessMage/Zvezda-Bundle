@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.15.13.0" steamworkshopid="2676179277" installtime="1639312682">
+<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.15.13.0" steamworkshopid="2676179277" installtime="1639316694">
   <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />

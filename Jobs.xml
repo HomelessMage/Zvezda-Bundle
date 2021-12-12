@@ -398,7 +398,10 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcardreich" equip="true" showpreview="false" />
-         <Item identifier="assistantclothes" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>         
+         <Item identifier="pirateclotheshard_2" equip="true" outfit="true" showpreview="true" />
       </ItemSet>      
    </Job>
 </Jobs>
