@@ -82,7 +82,7 @@
     -->
     <ItemContainer hideitems="false" drawinventory="true" capacity="5" slotsperrow="5" itempos="132,-44" iteminterval="0,-65" itemrotation="0" containedspritedepth="0.83" canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.2" anchor="Center" style="ItemUI" />
-      <Containable items="divingsuit,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
+      <Containable items="divingsuit,hazmat,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
     </ItemContainer>
   </Item>
   <Item name="" identifier="oxygentankshelf" tags="container,oxygentankcontainer" pickdistance="50" scale="0.6">
@@ -137,7 +137,7 @@
     </ConnectionPanel>
     <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="0,0" iteminterval="0,0" canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
-      <Containable items="divingsuit,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
+      <Containable items="divingsuit,hazmat,abyssdivingsuit,combatdivingsuit,pucs,slipsuit" />
     </ItemContainer>
   </Item>
   
