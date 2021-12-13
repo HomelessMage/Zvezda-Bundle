@@ -1,33 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
-    <Upgrade gameversion="0.9.2.0" scale="0.5"/>
-    <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
-    <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
-    <Price baseprice="50" soldeverywhere="false">
-      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
-      <Price locationtype="city" multiplier="1" minavailable="1"/>
-      <Price locationtype="research" multiplier="1" sold="false"/>
-      <Price locationtype="military" multiplier="1" sold="false"/>
-      <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
-    <Sprite texture="Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5" />
-    <Body radius="40" height="160" density="12" />
-    <RangedWeapon reload="1" />
-    <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="30,-20" handle1="-2,-40" handle2="5,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="OnUse" target="Character">
-        <Conditional HasStatusTag="!equals clown" />
-        <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
-        <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
-        <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
-      </StatusEffect>
-      <StatusEffect type="OnUse" target="Character">
-        <Conditional HasStatusTag="clown" />
-        <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" range="600" loop="true" />
-      </StatusEffect>
-    </Holdable>
-  </Item>
+
+
+      <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+         <Upgrade gameversion="0.9.2.0" scale="0.5" />
+         <PreferredContainer primary="crewcab" spawnprobability="0.01" />
+         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
+         <Price baseprice="50" soldeverywhere="false">
+            <Price locationtype="outpost" multiplier="1" minavailable="1" />
+            <Price locationtype="city" multiplier="1" sold="false" />
+            <Price locationtype="research" multiplier="1" sold="false" />
+            <Price locationtype="military" multiplier="1" sold="false" />
+            <Price locationtype="mine" multiplier="1" sold="false" />
+         </Price>
+         <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
+         <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5" />
+         <Body radius="40" height="160" density="12" />
+         <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+            <StatusEffect type="OnUse" target="Character">
+               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            </StatusEffect>
+         </Holdable>
+      </Item>
+
+
+
+
+
+
+
+
+
+
+
+   <Item name="" identifier="guitar_bandit" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+      <Upgrade gameversion="0.9.2.0" scale="0.5" />
+      <PreferredContainer primary="crewcab" spawnprobability="0.01" />
+      <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
+      <Price baseprice="50" soldeverywhere="false">
+         <Price locationtype="outpost" multiplier="1" minavailable="1" />
+         <Price locationtype="city" multiplier="1" sold="false" />
+         <Price locationtype="research" multiplier="1" sold="false" />
+         <Price locationtype="military" multiplier="1" sold="false" />
+         <Price locationtype="mine" multiplier="1" sold="false" />
+      </Price>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5" />
+      <Body radius="40" height="160" density="12" />
+      <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+         <StatusEffect type="OnUse" target="Character">
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit6.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit7.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+         </StatusEffect>
+      </Holdable>
+   </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <Item name="" identifier="guitar_reich" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+      <Upgrade gameversion="0.9.2.0" scale="0.5" />
+      <PreferredContainer primary="crewcab" spawnprobability="0.01" />
+      <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
+      <Price baseprice="50" soldeverywhere="false">
+         <Price locationtype="outpost" multiplier="1" minavailable="1" />
+         <Price locationtype="city" multiplier="1" sold="false" />
+         <Price locationtype="research" multiplier="1" sold="false" />
+         <Price locationtype="military" multiplier="1" sold="false" />
+         <Price locationtype="mine" multiplier="1" sold="false" />
+      </Price>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5" />
+      <Body radius="40" height="160" density="12" />
+      <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+         <StatusEffect type="OnUse" target="Character">
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+         </StatusEffect>
+      </Holdable>
+   </Item>
+
+
+
+      <Item name="" identifier="accordion" category="Misc" Tags="smallitem" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+         <PreferredContainer primary="crewcab" spawnprobability="0.01" />
+         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
+         <Price baseprice="50" soldeverywhere="false">
+            <Price locationtype="outpost" multiplier="1" minavailable="1" />
+            <Price locationtype="city" multiplier="1" sold="false" />
+            <Price locationtype="research" multiplier="1" sold="false" />
+            <Price locationtype="military" multiplier="1" sold="false" />
+            <Price locationtype="mine" multiplier="1" sold="false" />
+         </Price>
+         <Upgrade gameversion="0.9.2.0" scale="0.5" />
+         <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,956,64,64" origin="0.5,0.5" />
+         <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="164,5,92,110" depth="0.55" origin="0.5,0.5" />
+         <Body width="92" height="110" />
+         <Holdable slots="RightHand+LeftHand" aimable="false" aimpos="50,-20" handle1="-20,0" handle2="-10,0" swingamount="50,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+            <StatusEffect type="OnUse" target="Character">
+               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            </StatusEffect>
+         </Holdable>
+      </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <Item name="" identifier="harmonica" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
@@ -49,25 +166,7 @@
       <StatusEffect tags="playingharmonica" type="OnUse" target="Character" duration="0.1" stackable="false" />
     </Holdable>
   </Item>
-  <Item name="" identifier="accordion" category="Misc" Tags="smallitem" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
-    <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
-    <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
-    <Price baseprice="50" soldeverywhere="false">
-      <Price locationtype="outpost" multiplier="1" minavailable="1" />
-      <Price locationtype="city" multiplier="1" minavailable="1"/>
-      <Price locationtype="research" multiplier="1" sold="false"/>
-      <Price locationtype="military" multiplier="1" sold="false"/>
-      <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <RangedWeapon reload="1" />
-    <Upgrade gameversion="0.9.2.0" scale="0.5" />
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,956,64,64" origin="0.5,0.5" />
-    <Sprite texture="Misc.png" sourcerect="164,5,92,110" depth="0.55" origin="0.5,0.5" />
-    <Body width="92" height="110" />
-    <Holdable slots="RightHand+LeftHand,Any" aimable="false" aimpos="50,-20" handle1="-20,0" handle2="-10,0" swingamount="50,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
-      <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" />
-    </Holdable>
-  </Item>
+
   
   <Item name="" identifier="captainspipe" category="Misc" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.01"/>

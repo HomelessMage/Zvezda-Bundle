@@ -47,7 +47,75 @@
 
 
 
+    <Affliction
+      name="Коммунизм"
+      identifier="communism_banner_morale"
+      description="Этот человек верит в правоту коммунистической партии и будет бороться за революцию до последнего вздоха."
+      type="resistance"
+      isbuff="true"
+      limbspecific="false"
+      maxstrength="600"
+	  indicatorlimb="Head">
+      <Effect minstrength="0" maxstrength="600"
+        strengthchange="-0.5"
+        resistancefor="damage"
+        minresistance="0"
+        maxresistance="0.25"/>
+      <icon texture="Mods/Zvezda Bundle/Items/Tools/soviet_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
+    </Affliction>
+	
+	<Affliction
+      name="Повышение морали"
+      identifier="communism_morale"
+      description="За Советский Союз! УРА!"
+      type="resistance"
+      isbuff="true"
+      limbspecific="false"
+      maxstrength="600"
+	  indicatorlimb="Head">
+      <Effect minstrength="0" maxstrength="600"
+        strengthchange="-500"
+        resistancefor="damage"
+        minresistance="0"
+        maxresistance="0.5"/>
+      <icon texture="Mods/Zvezda Bundle/Items/Tools/soviet_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
+    </Affliction>
 
+
+
+    <Affliction
+      name="Неонацизм"
+      identifier="neonazi_banner_morale"
+      description="Этот человек верит в правоту неонацистского движения и будет бороться за чистоту расы до последнего вздоха."
+      type="resistance"
+      isbuff="true"
+      limbspecific="false"
+      maxstrength="600"
+    indicatorlimb="Head">
+      <Effect minstrength="0" maxstrength="600"
+        strengthchange="-0.5"
+        resistancefor="damage"
+        minresistance="0"
+        maxresistance="0.25"/>
+      <icon texture="Mods/Zvezda Bundle/Items/Tools/neonazi_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
+    </Affliction>
+  
+  <Affliction
+      name="Повышение морали"
+      identifier="neonazi_morale"
+      description="ЕВРОПА — ДЛЯ РУССКИХ!"
+      type="resistance"
+      isbuff="true"
+      limbspecific="false"
+      maxstrength="600"
+    indicatorlimb="Head">
+      <Effect minstrength="0" maxstrength="600"
+        strengthchange="-500"
+        resistancefor="damage"
+        minresistance="0"
+        maxresistance="0.5"/>
+      <icon texture="Mods/Zvezda Bundle/Items/Tools/neonazi_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
+    </Affliction>
 
 
 

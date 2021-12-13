@@ -396,6 +396,21 @@
     <entityname.cigar>Сигара</entityname.cigar>
     <entitydescription.cigar>Жизнь под водой давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>
 
+    <entityname.cigarette>Сигарета</entityname.cigarette>
+    <entitydescription.cigarette></entitydescription.cigarette>
+
+    <entityname.cigpack>Пачка сигарет</entityname.cigpack>
+    <entitydescription.cigpack></entitydescription.cigpack>
+
+    <entityname.trashbagroll>Свёрток мусорных пакетов</entityname.trashbagroll>
+    <entitydescription.trashbagroll></entitydescription.trashbagroll>
+
+    <entityname.trashbag>Мусорный пакет</entityname.trashbag>
+    <entitydescription.trashbag></entitydescription.trashbag>            
+
+    <entityname.mop>Швабра</entityname.mop>
+    <entitydescription.mop></entitydescription.mop>    
+
     <entityname.repairpack>Ремнабор</entityname.repairpack>
     <entitydescription.repairpack>Аптечка для быстрого решения проблем с механикой и электрикой. Расходуется при использовании.</entitydescription.repairpack>
 
@@ -425,6 +440,22 @@
 
     <entityname.coalitionmedal>Медаль "За Отвагу"</entityname.coalitionmedal>
     <entitydescription.coalitionmedal></entitydescription.coalitionmedal>
+
+    <entityname.soviet_banner>Знамя СССР</entityname.soviet_banner>
+    <entitydescription.soviet_banner></entitydescription.soviet_banner>    
+
+    <entityname.neonazi_banner>Знамя Рейха</entityname.neonazi_banner>
+    <entitydescription.neonazi_banner></entitydescription.neonazi_banner>        
+
+    <entityname.guitar>Гитара</entityname.guitar>
+    <entitydescription.guitar>Старая акустическая гитара.</entitydescription.guitar>
+
+    <entityname.guitar_bandit>Гитара (блатная)</entityname.guitar_bandit>
+    <entitydescription.guitar_bandit>Старая акустическая гитара.</entitydescription.guitar_bandit>
+
+    <entityname.guitar_reich>Гитара (ТР)</entityname.guitar_reich>
+    <entitydescription.guitar_reich>Старая акустическая гитара.</entitydescription.guitar_reich>            
+    
     <!-- Разное снаряжение -->
     <!-- Разное снаряжение -->
     <!-- Разное снаряжение -->
@@ -1910,8 +1941,6 @@
     <entitydescription.swimbladder>У многих обитателей Европы есть плавательный пузырь, межклеточные жидкости которого можно переработать в стабилиоцин и физраствор.</entitydescription.swimbladder>
     <entityname.adrenalinegland>Адреналиновая железа</entityname.adrenalinegland>
     <entitydescription.adrenalinegland>Содержит большое количество адреналина, который можно извлечь при помощи деконструтора.</entitydescription.adrenalinegland>
-    <entityname.guitar>Гитара</entityname.guitar>
-    <entitydescription.guitar>Старая акустическая гитара.</entitydescription.guitar>
     <entityname.harmonica>Губная гармошка</entityname.harmonica>
     <entitydescription.harmonica>Старая губная гармошка ручной работы.</entitydescription.harmonica>
     <entityname.bgrock1>Фоновый камень 1</entityname.bgrock1>
@@ -4579,6 +4608,8 @@
     <!-- New values -->
 
     <entityname.opdeco_trashcan>Мусорное ведро</entityname.opdeco_trashcan>
+    <entityname.opdeco_trashcan_mod>Мусорное ведро (большое)</entityname.opdeco_trashcan_mod>
+    <entityname.shredder>Промышленный щредер</entityname.shredder>    
     <entityname.opdeco_cabinetsdorm>Шкафчики</entityname.opdeco_cabinetsdorm>
     <label.storage>Камера хранения</label.storage>
     <roomname.ballasttank5>Камера балласта E</roomname.ballasttank5>

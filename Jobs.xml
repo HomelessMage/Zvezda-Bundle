@@ -274,9 +274,9 @@
          <Item identifier="zsh_helmet" equip="true" showpreview="true" />
          <Item identifier="6b13" equip="true" showpreview="true" />
          <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true">
-            <Item identifier="ak74mag" showpreview="false" />
-            <Item identifier="ak74mag" showpreview="false" />
-            <Item identifier="ak74mag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
+            <Item identifier="ak74mmag" showpreview="false" />
          </Item>
          <Item identifier="ak74m" showpreview="true">
             <Item identifier="ak74mmag" showpreview="false" />

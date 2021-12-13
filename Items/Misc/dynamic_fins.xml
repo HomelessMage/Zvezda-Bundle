@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  
+  <Item name="Dynamic Fin 1A" identifier="ekdockyard_dynamicfinvanilla1" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="0,0,160,576" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="0,0,160,576" origin="0.3, 0.92" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 1B" identifier="ekdockyard_dynamicfinvanilla1mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="160,0,160,576" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="160,0,160,576" origin="0.7, 0.92" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 2A" identifier="ekdockyard_dynamicfinvanilla2" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="320,0,128,336" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="192,0,128,128" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="64,64" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="320,0,128,336" origin="0.43, 0.88" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 2B" identifier="ekdockyard_dynamicfinvanilla2mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="448,0,128,336" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="192,0,128,128" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="64,64" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="448,0,128,336" origin="0.57, 0.88" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 3A" identifier="ekdockyard_dynamicfinvanilla3" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="0,576,64,224" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="0,576,64,224" origin="0.51, 0.86" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 3B" identifier="ekdockyard_dynamicfinvanilla3mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="64,576,64,224" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="64,576,64,224" origin="0.49, 0.86" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 4A" identifier="ekdockyard_dynamicfinvanilla4" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="608,0,128,448" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="608,0,128,448" origin="0.62, 0.9" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 4B" identifier="ekdockyard_dynamicfinvanilla4mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="736,0,128,448" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="736,0,128,448" origin="0.38, 0.9" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 5A" identifier="ekdockyard_dynamicfinvanilla5" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="160,576,64,224" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="160,576,64,224" origin="0.75, 0.93" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 5B" identifier="ekdockyard_dynamicfinvanilla5mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="224,576,64,224" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="224,576,64,224" origin="0.25, 0.93" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 6A" identifier="ekdockyard_dynamicfinvanilla6" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="320,352,64,192" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="320,352,64,192" origin="0.5, 0.85" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 6B" identifier="ekdockyard_dynamicfinvanilla6mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="384,352,64,192" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="384,352,64,192" origin="0.5, 0.85" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 7A" identifier="ekdockyard_dynamicfinvanilla7" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="896,0,224,736" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="896,0,224,736" origin="0.58, 0.96" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 7B" identifier="ekdockyard_dynamicfinvanilla7mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="1120,0,224,736" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="1120,0,224,736" origin="0.42, 0.96" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 8A" identifier="ekdockyard_dynamicfinvanilla8" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="464,448,192,736" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="464,448,192,736" origin="0.62, 0.99" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 8B" identifier="ekdockyard_dynamicfinvanilla8mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="656,448,192,736" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,192,192" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="96,96" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="656,448,192,736" origin="0.38, 0.99" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 9A" identifier="ekdockyard_dynamicfinvanilla9" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="0,800,160,400" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="192,0,128,128" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="64,64" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="0,800,160,400" origin="0.57, 0.99" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 9B" identifier="ekdockyard_dynamicfinvanilla9mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="160,800,160,400" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="192,0,128,128" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="64,64" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="160,800,160,400" origin="0.43, 0.99" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 10A" identifier="ekdockyard_dynamicfinvanilla10" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="320,544,64,512" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="320,544,64,512" origin="0.5, 0.56" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+  
+  <Item name="Dynamic Fin 10B" identifier="ekdockyard_dynamicfinvanilla10mirror" category="Decorative" tags="smallitem" focusonselected="false" linkable="false" Scale="0.5" nonplayerteaminteractable="True" spritecolor="255,255,255,255" >
+    <InventoryIcon texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" sourcerect="384,544,64,512" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,192,96,96" canflipy="false" />
+    <BrokenSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamicfin_rotationhelper.png" depth="0.8" sourcerect="0,0,1,1" origin="0.5,0.5" maxcondition="90" />
+    <Turret canbeselected="false" characterusable="false" linkable="false" barrelpos="48,48" reload="999999999"
+      rotationlimits="135,225"
+      powerconsumption="0.0"
+      showchargeindicator="false"
+      showprojectileindicator="false"
+      springstiffnesslowskill="25" springstiffnesshighskill="25"
+      springdampinglowskill="10" springdampinghighskill="10"
+      rotationspeedlowskill="90" rotationspeedhighskill="90">
+      <StatusEffect type="Always" target="This" Condition="-10.0" disabledeltatime="true">
+        <Conditional Condition="gt 90" />
+      </StatusEffect>
+      <BarrelSprite texture="Mods/Zvezda Soviet Bundle/Items/Misc/dynamic_fins1.png" depth="0.805" sourcerect="384,544,64,512" origin="0.5, 0.56" />
+    </Turret>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="position_in" displayname="sp.item.rotation.name"/>
+    </ConnectionPanel>
+  </Item>
+
+</Items>
