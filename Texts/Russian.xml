@@ -2506,13 +2506,15 @@
     <orderdialogself.chargebatteries.charge>Я заряжу батареи!</orderdialogself.chargebatteries.charge>
     <orderdialog.chargebatteries.stopcharging>[name], хватит заряжать батареи!</orderdialog.chargebatteries.stopcharging>
     <orderdialogself.chargebatteries.stopcharging>Прекращаю заряжать батареи!</orderdialogself.chargebatteries.stopcharging>
-    <orderdialog.pumpwater>[name], начинай откачивать воду!</orderdialog.pumpwater>
-    <orderdialogself.pumpwater>Я начну откачивать воду!</orderdialogself.pumpwater>
-    <orderdialog.pumpwater.pumpout>[name], начинай откачивать воду!</orderdialog.pumpwater.pumpout>
-    <orderdialogself.pumpwater.pumpout>Я начну откачивать воду!</orderdialogself.pumpwater.pumpout>
-    <orderdialog.pumpwater.stoppumping>[name], выключи насосы!</orderdialog.pumpwater.stoppumping>
-    <orderdialog.pumpwater.stoppumping>[name], отключай насосы!</orderdialog.pumpwater.stoppumping>
-    <orderdialogself.pumpwater.stoppumping>Я отключаю насосы!</orderdialogself.pumpwater.stoppumping>
+<orderdialog.pumpwater>[name], начинай откачивать воду!</orderdialog.pumpwater>
+<orderdialogself.pumpwater>Я начну откачивать воду!</orderdialogself.pumpwater>
+<orderdialog.pumpwater.pumpout>[name], начинай откачивать воду!</orderdialog.pumpwater.pumpout>
+<orderdialogself.pumpwater.pumpout>Я начну откачивать воду!</orderdialogself.pumpwater.pumpout>
+<orderdialog.pumpwater.stoppumping>[name], выключи насосы!</orderdialog.pumpwater.stoppumping>
+<orderdialog.pumpwater.stoppumping>[name], отключай насосы!</orderdialog.pumpwater.stoppumping>
+<orderdialogself.pumpwater.stoppumping>Я отключаю насосы!</orderdialogself.pumpwater.stoppumping>
+<orderdialog.pumpwater.pumpin>[name], начинай закачивать воду!</orderdialog.pumpwater.pumpin>
+<orderdialogself.pumpwater.pumpin>Я начну качать воду!</orderdialogself.pumpwater.pumpin>
     <orderdialog.rescue>[name], помоги тем, кто попал в беду!</orderdialog.rescue>
     <orderdialog.rescue>[name], окажи первую помощь всем, кому потребуется!</orderdialog.rescue>
     <orderdialogself.rescue>Я окажу первую помощь всем, кому потребуется!</orderdialogself.rescue>
@@ -3027,7 +3029,7 @@
     <orderoptions.operateweapons>Огонь по готовности, Не стрелять</orderoptions.operateweapons>
     <orderoptions.steer>Сохранять позицию, Двигаться обратно, Двигаться к цели</orderoptions.steer>
     <orderoptions.chargebatteries>Зарядить, Прекратить зарядку</orderoptions.chargebatteries>
-    <orderoptions.pumpwater>Выкачать, Прекратить качать</orderoptions.pumpwater>
+<orderoptions.pumpwater>Сброс, Набор, Прекратить качать</orderoptions.pumpwater>
     <orderoptions.repairsystems>Починить поломку, Починить все</orderoptions.repairsystems>
 
     <ordername.dismissed>Отпустить</ordername.dismissed>
@@ -6195,7 +6197,7 @@
     <orderdialog.dismissed.fixleaks>[name], спасибо за помощь с протечками!</orderdialog.dismissed.fixleaks>
     <orderdialog.dismissed.extinguishfires>[name], спасибо за ликвидацию пожара!</orderdialog.dismissed.extinguishfires>
     <orderdialog.dismissed.chargebatteries>[name], спасибо за работу с батареями!</orderdialog.dismissed.chargebatteries>
-    <orderdialog.dismissed.pumpwater>[name], спасибо за откачку воды!</orderdialog.dismissed.pumpwater>
+<orderdialog.dismissed.pumpwater>[name], спасибо за откачку воды!</orderdialog.dismissed.pumpwater>
     <orderdialog.dismissed.rescue>[name], спасибо за медпомощь!</orderdialog.dismissed.rescue>
     <orderdialog.dismissed.repairsystems>[name], спасибо за ремонт поврежденных систем!</orderdialog.dismissed.repairsystems>
     <orderdialog.dismissed.repairsystems>[name], спасибо за помощь с поврежденными устройствами!</orderdialog.dismissed.repairsystems>
