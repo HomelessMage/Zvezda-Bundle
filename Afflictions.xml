@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Afflictions>
 
-
+      <!-- s -->
    <Affliction name="Голод" identifier="hunger" description="Потребность в еде" type="hunger" causeofdeathdescription="Погиб от голода." selfcauseofdeathdescription="Вы погибли от голода." limbspecific="false" indicatorlimb="Torso" showiconthreshold="0" karmachangeonapplied="0" maxstrength="200">
       <!-- Slow the player down -->
       <Effect minstrength="0" maxstrength="30" strengthchange="0.03" />
