@@ -10,7 +10,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="securityuniform1" equip="true" outfit="true" showpreview="true">
+         <Item identifier="Comendantuniform" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
             <Item identifier="tt33mag" showpreview="false" />
             <Item identifier="tt33mag" showpreview="false" />
@@ -26,7 +26,7 @@
       </ItemSet>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="captainsuniform2" equip="true" outfit="true" showpreview="true">
+         <Item identifier="ComendantuniformK" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
             <Item identifier="tt33mag" showpreview="false" />
             <Item identifier="tt33mag" showpreview="false" />

@@ -173,11 +173,11 @@
     <entityname.watchmanclothes>Комбинезон завхоза</entityname.watchmanclothes>
     <entitydescription.watchmanclothes></entitydescription.watchmanclothes>
 
-    <entityname.captainsuniform1>Китель (утепленный)</entityname.captainsuniform1>
-    <entitydescription.captainsuniform1></entitydescription.captainsuniform1>
+    <entityname.comendantuniform>Китель(Офицерский)</entityname.comendantuniform>
+    <entitydescription.comendantuniform></entitydescription.comendantuniform>
 
-    <entityname.captainsuniform2>Китель (темный)</entityname.captainsuniform2>
-    <entitydescription.captainsuniform2></entitydescription.captainsuniform2>
+    <entityname.comendantuniformK>Китель (Офицерский со знаком отличия)</entityname.comendantuniformK>
+    <entitydescription.comendantuniformK></entitydescription.comendantuniformK>
 
     <entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
     <entitydescription.securityuniform1></entitydescription.securityuniform1>
