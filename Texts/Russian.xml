@@ -290,10 +290,10 @@
     <entityname.gcap>Пилотка ВС СССР</entityname.gcap>
     <entitydescription.gcap></entitydescription.gcap>
 
-    <entityname.balaclava>Балоклава</entityname.balaclava>
+    <entityname.balaclava>Балаклава</entityname.balaclava>
     <entitydescription.balaclava></entitydescription.balaclava>
         
-    <entityname.balaclava2>Балоклава с кепкой</entityname.balaclava2>
+    <entityname.balaclava2>Балаклава с кепкой</entityname.balaclava2>
     <entitydescription.balaclava2></entitydescription.balaclava2>
 
     <entityname.balaclava3>Маска</entityname.balaclava3>
@@ -306,7 +306,7 @@
     <entitydescription.bonnet></entitydescription.bonnet>
 
 
-    <entityname.zsh_14>Балоклава со шлемом Тысячелетнего Рейха</entityname.zsh_14>
+    <entityname.zsh_14>Балаклава со шлемом Тысячелетнего Рейха</entityname.zsh_14>
     <entitydescription.zsh_14></entitydescription.zsh_14>
 
     <entityname.zsh_88>Маска со шлемом Тысячелетнего Рейха</entityname.zsh_88>
