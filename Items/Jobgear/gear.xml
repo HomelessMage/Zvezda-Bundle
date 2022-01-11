@@ -1353,10 +1353,10 @@
 
    <!--Head2 балаклавы, маски, ЗШ с забралом-->
    <!--Балаклава-->
-   <Item name="" identifier="balaclava" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.4">
-      <Sprite name="balaclava" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,0,70,87" origin="0.5,0.5" scale="0.8" />
-      <Body width="70" radius="70" density="70" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="0,0,70,87" />
+   <Item name="" identifier="balaclava" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411" >
+      <Sprite name="balaclava" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,0,70,87" origin="0.5,0.5" scale="0.411" />
+      <Body width="70" height="87" density="100" />
+      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="0,0,70,87" />            
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <Item identifier="organicfiber" />
       </Fabricate>
@@ -1364,15 +1364,15 @@
          <Item identifier="organicfiber" />
       </Deconstruct>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Balaclava Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="true" sourcerect="0,0,70,87" origin="0.5,0.48" />
+         <sprite name="Balaclava Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="true" sourcerect="0,0,70,84" scale="1.4" origin="0.5,0.42"/>
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
    <!--Балаклава c кепкой-->   
-   <Item name="" identifier="balaclava2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.8">
-      <Sprite name="balaclava2" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,0,73,87" origin="0.5,0.5" scale="0.8" />
-      <Body width="70" radius="70" density="70" />
+   <Item name="" identifier="balaclava2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+      <Sprite name="balaclava2" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,0,73,87" origin="0.5,0.5" scale="0.411" />
+      <Body width="73" height="87" density="70" />
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="70,0,73,87" />
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <Item identifier="organicfiber" />
@@ -1381,15 +1381,15 @@
          <Item identifier="organicfiber" />
       </Deconstruct>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="true" sourcerect="70,0,73,87" origin="0.55,0.48" />
+         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="false" scale="0.35" sourcerect="70,0,73,87" origin="0.5,0.42" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
    <!--Маска-->
-   <Item name="" identifier="balaclava3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.8">
-      <Sprite name="Balaclava2" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,96,70,82" origin="0.5,0.5" scale="0.8" />
-      <Body width="70" radius="70" density="70" />
+   <Item name="" identifier="balaclava3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+      <Sprite name="Balaclava3" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,96,70,82" origin="0.5,0.5" scale="0.411" />
+      <Body width="70" height="82" density="70" />
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="0,96,70,82" />
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <Item identifier="organicfiber" />
@@ -1398,15 +1398,15 @@
          <Item identifier="organicfiber" />
       </Deconstruct>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="true" sourcerect="0,96,70,82" origin="0.55,0.48" />
+         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="false" scale="0.35" sourcerect="0,96,70,82" origin="0.5,0.42" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
    <!--Маска с кепкой-->
-   <Item name="" identifier="balaclava4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.8">
-      <Sprite name="Balaclava2" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,96,73,82" origin="0.5,0.5" scale="0.8" />
-      <Body width="70" radius="70" density="70" />
+   <Item name="" identifier="balaclava4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+      <Sprite name="Balaclava4" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,96,73,82" origin="0.5,0.5" scale="0.411" />
+      <Body width="73" height="82" density="70" />
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="70,96,73,82" />
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <Item identifier="organicfiber" />
@@ -1415,15 +1415,15 @@
          <Item identifier="organicfiber" />
       </Deconstruct>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="true" sourcerect="70,96,73,82" origin="0.55,0.48" />
+         <sprite name="Balaclava2 Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="false" scale="0.37" sourcerect="70,96,73,82" origin="0.5,0.42" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
     <!--Бомжанка-->
-   <Item name="" identifier="bonnet" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.32">
-      <Sprite name="bonnet" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,178,73,34" origin="0.5,0.5" scale="0.4" />
-      <Body width="70" radius="70" density="70" />
+   <Item name="" identifier="bonnet" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+      <Sprite name="bonnet" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,178,73,34" origin="0.5,0.5" scale="0.411" />
+      <Body width="73" height="34" density="70" />
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="0,178,73,34" />
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <Item identifier="organicfiber" />
@@ -1432,7 +1432,7 @@
          <Item identifier="organicfiber" />
       </Deconstruct>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="bonnet Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" scale="0.32" inherittexturescale="false" sourcerect="0,178,73,34" origin="0.5,1.35" />
+         <sprite name="bonnet Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hidewearablesoftype="item, hair, faceattachment" inherittexturescale="false" scale="0.32" sourcerect="0,178,73,34" origin="0.5,1.19" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
@@ -1441,7 +1441,7 @@
 
 
   <!--Шлем с балоклавой Тысячелетнего Рейха-->   
-  <Item name="" identifier="zsh_14" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.8">
+  <Item name="" identifier="zsh_14" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.411">
     <Upgrade gameversion="0.9.6.0" scale="0.8" />
     <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
     <Price baseprice="640" soldeverywhere="false">
@@ -1460,20 +1460,20 @@
 	  <RequiredItem identifier="steel" />
     </Fabricate>
     <Sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="217,0,67,96" depth="0.6" origin="0.5,0.4" />
-    <Body radius="30" density="50" />
+    <Body width="67" height="96" />
     <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-      <sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="217,0,67,96" origin="0.45,0.63" />
+      <sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.35" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="217,0,67,96" origin="0.55,0.55" />
 	      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
   	</Wearable>
  </Item>
 
   <!--Шлем с маской Тысячелетнего Рейха-->   
-  <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.325">
-    <Upgrade gameversion="0.9.6.0" scale="0.325" />
+  <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.411">
+    <Upgrade gameversion="0.9.6.0" scale="0.411" />
     <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
     <Price baseprice="640" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
@@ -1490,14 +1490,14 @@
       <RequiredItem identifier="ballisticfiber" />
 	  <RequiredItem identifier="steel" />
     </Fabricate>
-    <Sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="143,0,74,87" depth="0.6" origin="0.5,0.4" />
-    <Body radius="30" density="50" />
+    <Sprite name="zsh_88" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="143,0,74,87" depth="0.6" origin="0.5,0.4" />
+    <Body width="74" height="87" density="50" />
     <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-      <sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.63" />
+      <sprite name="zsh_14" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.35" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.67" />
 	      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
   	</Wearable>
  </Item>
@@ -1611,60 +1611,15 @@
    <!--Офицерская фуражка ВС СССР-->
    <Item name="" identifier="sovietofficercap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
       <Sprite name="Soviet Officer Cap" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
-      <Body width="40" radius="30" density="15" />
+      <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="true" sourcerect="296,24,84,51" origin="0.6,1.2" />
+         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.411" sourcerect="296,24,84,51" origin="0.6,1.1" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
 
-
-
-   <!--Пилотка ВС СССР-->
-   <Item name="" identifier="gcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" sourcerect="200,22,75,48" />
-      <Sprite name="Pilotka" texture="Mods/Zvezda Soviet Bundle/Items/Jobgear/Head.png" depth="0.6" sourcerect="200,22,75,48" origin="0.55,0.50" scale="0.3" />
-      <Body width="40" radius="30" density="50" />
-      <Deconstruct time="10" />
-      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Pilotka" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" hideotherwearables="false" inherittexturescale="true" sourcerect="200,22,75,48" origin="0.5,1.1" scale="0.5" />
-         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
-      </Wearable>
-   </Item>
-
-
-
-     <!--Шапка-Ушанка (серая)-->
-   <Item name="" identifier="ushanka" category="Equipment" tags="smallitem,clothing" impactsoundtag="impact_metal_heavy" scale="0.4" cargocontaineridentifier="metalcrate">
-    <Price baseprice="50" soldeverywhere="false">
-      <Price locationtype="outpost" sold="false"/>
-      <Price locationtype="city" sold="false"/>
-      <Price locationtype="research" sold="false"/>
-      <Price locationtype="military" multiplier="1.3" sold="false"/>
-      <Price locationtype="mine" sold="false"/>
-    </Price>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" sourcerect="104,19,81,72" depth="0.6" origin="0.5,0.5" />
-    <Body radius="30" density="50" />
-    <Wearable slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.3" hidewearablesoftype="hair" sourcerect="104,19,81,72" origin="0.55,0.6" />
-    </Wearable>
-  </Item>
-  
-   <!--Шапка-Ушанка (чёрная)-->
-   <Item name="" identifier="ushanka2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.35">
-      <Sprite name="Black Ushanka" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="98,15,89,80" origin="0.55,0.5" scale="0.5" />
-      <Body width="40" radius="30" density="50" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" sourcerect="98,15,89,80" />
-      <Deconstruct time="10">
-         <Item identifier="organicfiber" />
-      </Deconstruct>
-      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Ushanka Wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" hideotherwearables="false" inherittexturescale="true" scale="0.5" sourcerect="98,15,89,80" origin="0.55,0.65" />
-         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
-      </Wearable>
-   </Item>
   <!-- ГОЛОВНЫЕ УБОРЫ -->
   <!-- ГОЛОВНЫЕ УБОРЫ -->
   <!-- ГОЛОВНЫЕ УБОРЫ -->
