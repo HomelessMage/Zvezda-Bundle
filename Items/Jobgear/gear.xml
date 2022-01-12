@@ -1614,7 +1614,7 @@
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.411" sourcerect="296,24,84,51" origin="0.6,1.1" />
+         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
