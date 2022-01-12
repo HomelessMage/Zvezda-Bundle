@@ -293,37 +293,37 @@
     <entityname.balaclava>Балаклава</entityname.balaclava>
     <entitydescription.balaclava></entitydescription.balaclava>
         
-    <entityname.balaclava2>Балаклава с кепкой</entityname.balaclava2>
+    <entityname.balaclava2>Жиганка с балаклавой</entityname.balaclava2>
     <entitydescription.balaclava2></entitydescription.balaclava2>
 
     <entityname.balaclava3>Маска</entityname.balaclava3>
     <entitydescription.balaclava3></entitydescription.balaclava3>
         
-    <entityname.balaclava4>Маска с кепкой</entityname.balaclava4>
+    <entityname.balaclava4>Жиганка с балаклавой</entityname.balaclava4>
     <entitydescription.balaclava4></entitydescription.balaclava4>
 
     <entityname.bonnet>Бомжанка</entityname.bonnet>
     <entitydescription.bonnet></entitydescription.bonnet>
 
 
-    <entityname.zsh_14>Балаклава со шлемом Тысячелетнего Рейха</entityname.zsh_14>
+    <entityname.zsh_14>Шлем «ЗШ-1» с балаклавой (ТР)</entityname.zsh_14>
     <entitydescription.zsh_14></entitydescription.zsh_14>
 
     <entityname.zsh_88>Маска со шлемом Тысячелетнего Рейха</entityname.zsh_88>
     <entitydescription.zsh_88></entitydescription.zsh_88>
 
-    <entityname.zsh_army>ЗШ ВС</entityname.zsh_army>
+    <entityname.zsh_army>Шлем «ЗШ-1» (ВС СССР)</entityname.zsh_army>
     <entitydescription.zsh_army></entitydescription.zsh_army>
 
-    <entityname.zsh_mvd>ЗШ МВД</entityname.zsh_mvd>
+    <entityname.zsh_mvd>Шлем «ЗШ-1» (МВД)</entityname.zsh_mvd>
     <entitydescription.zsh_mvd></entitydescription.zsh_mvd>
 
-    <entityname.zsh_omon>ЗШ ОМОН</entityname.zsh_omon>
+    <entityname.zsh_omon>Шлем «ЗШ-1» (ОМОН)</entityname.zsh_omon>
     <entitydescription.zsh_omon></entitydescription.zsh_omon>
 
 
 
-    <entityname.sovietofficercap>Офицерская фуражка ВС СССР</entityname.sovietofficercap>
+    <entityname.sovietofficercap>Фуражка (ВС СССР)</entityname.sovietofficercap>
     <entitydescription.sovietofficercap></entitydescription.sovietofficercap>
         
 
