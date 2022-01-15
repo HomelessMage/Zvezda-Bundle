@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-<!--//PKM-->
+
+
+   <!--ПКМ-->
    <Item name="" identifier="pkm" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.15" impactsoundtag="impact_metal_light">
       <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
       <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
@@ -46,7 +48,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
    </Item>
-   <!--//PKM magazine-->
+
+
+   <!--Магазин для пкм-->
    <Item name="" identifier="pkmmag" scale="0.17" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
       <PreferredContainer primary="pkm" minamount="0" maxamount="1" spawnprobability="1" />
       <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
@@ -76,7 +80,22 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
-   <!--//RPD-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Рпд-->
    <Item name="" identifier="rpd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.4" impactsoundtag="impact_metal_light">
       <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
       <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
@@ -122,7 +141,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
    </Item>
-   <!--//RPD magazine-->
+
+
+   <!--Барабан для РПД-->
    <Item name="" identifier="rpdmagazine" scale="0.3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
       <PreferredContainer primary="rpd" minamount="0" maxamount="1" spawnprobability="1" />
       <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
@@ -152,6 +173,20 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <!--//AKM-->
    <Item name="" identifier="akm" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,gun,weapon,heavygun" scale="0.35" impactsoundtag="impact_metal_light">
       <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
@@ -192,7 +227,9 @@
          <Containable identifiers="76239mmmag" />
       </ItemContainer>
    </Item>
-   <!--//AKM magazine-->
+
+
+   <!--Магазин для акм-->
    <Item name="" identifier="76239mmmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
       <PreferredContainer primary="akm" minamount="0" maxamount="1" spawnprobability="1" />
       <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
@@ -216,6 +253,9 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+
+   <!--Патроны магазина акм-->
    <Item name="" identifier="76239mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
       <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
@@ -236,7 +276,22 @@
       </Projectile>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
-   <!--//AKS74-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--АКУ-->
    <Item name="" identifier="aksu" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.28" impactsoundtag="impact_metal_light">
       <Deconstruct time="32">
          <Item identifier="steel" />
@@ -267,6 +322,65 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
    </Item>
+
+
+   <!--Магазин АКУ -->
+   <Item name="" identifier="aksumag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="167,444,46,68" origin="0.5,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" depth="0.54" sourcerect="167,444,46,68" origin="0.5,0.5" />
+      <Body width="105" height="78" density="50" />
+      <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+         <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
+            <SpawnItem identifiers="54539mm" spawnposition="ThisInventory" />
+         </StatusEffect>
+         <Containable identifiers="54539mm" />
+      </ItemContainer>
+      <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+   </Item>
+
+
+
+
+
+
+
+
+
+
+
+   <!--545x39mm-->
+   <Item name="" identifier="54539mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+      <InventoryIcon texture="Mods/Zvezda Bundle/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
+      <Body width="40" height="14" density="40" />
+      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+      <Projectile characterusable="false" hitscan="true" removeonhit="true">
+         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+         <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
+            <Affliction identifier="bleeding" strength="15" />
+            <Affliction identifier="gunshotwound" strength="10" />
+            <Affliction identifier="stun" strength="0.05" />
+         </Attack>
+         <StatusEffect type="OnImpact" target="UseTarget">
+            <Conditional entitytype="eq Structure" />
+            <Conditional hastag="eq door" />
+            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="3" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+         </StatusEffect>
+      </Projectile>
+      <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+   </Item>
+
+
+
+
+
+
+
+
+
+
+
+   <!--АК74-->
    <Item name="" identifier="ak74m" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.28" impactsoundtag="impact_metal_light">
       <Deconstruct time="32">
          <Item identifier="steel" />
@@ -297,6 +411,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
    </Item>
+
+
+   <!--Магазин для АК74-->
    <Item name="" identifier="ak74mmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="213,444,46,68" origin="0.5,0.5" />
       <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" depth="0.54" sourcerect="213,444,46,68" origin="0.5,0.5" />
@@ -309,40 +426,39 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
-   <Item name="" identifier="54539mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
-      <Body width="40" height="14" density="40" />
-      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-      <Projectile characterusable="false" hitscan="true" removeonhit="true">
-         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
-         <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
-            <Affliction identifier="bleeding" strength="15" />
-            <Affliction identifier="gunshotwound" strength="10" />
-            <Affliction identifier="stun" strength="0.05" />
-         </Attack>
-         <StatusEffect type="OnImpact" target="UseTarget">
-            <Conditional entitytype="eq Structure" />
-            <Conditional hastag="eq door" />
-            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="3" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-         </StatusEffect>
-      </Projectile>
-      <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
-   </Item>
-   <!--//AKS magazine-->
-   <Item name="" identifier="aksumag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="167,444,46,68" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" depth="0.54" sourcerect="167,444,46,68" origin="0.5,0.5" />
-      <Body width="105" height="78" density="50" />
-      <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
-         <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
-            <SpawnItem identifiers="54539mm" spawnposition="ThisInventory" />
-         </StatusEffect>
-         <Containable identifiers="54539mm" />
-      </ItemContainer>
-      <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
-   </Item>
-   <!--//Shotgun-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--МР-133-->
    <Item name="" identifier="mts21" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,heavygun" Scale="0.40" impactsoundtag="impact_metal_light">
       <Deconstruct time="60">
          <Item identifier="steel" />
@@ -378,6 +494,95 @@
       </ItemContainer>
       <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
    </Item>
+
+
+
+
+
+
+
+
+
+
+<!--Патрон 12 калибра (травматическая пуля)-->
+   <Item name="" identifier="shotgunshelltrauma" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+      <Body width="23" height="10" density="40" />
+      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+      <Projectile characterusable="false" hitscan="true" hitscancount="1" removeonhit="true" spread="1">
+         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.5">
+            <Affliction identifier="blunttrauma" strength="10" />
+            <Affliction identifier="stun" strength="1" />
+         </Attack>
+         <StatusEffect type="OnImpact" target="UseTarget">
+            <Conditional entitytype="eq Structure" />
+            <Conditional hastag="eq door" />
+            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+         </StatusEffect>
+      </Projectile>
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+   </Item>
+
+
+   <!--Патрон 12 калибра (картечь)-->
+   <Item name="" identifier="shotgunshellcombat" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+         <RequiredItem identifier="plastic" />
+         <RequiredItem identifier="lead" />
+      </Fabricate>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+      <Body width="23" height="10" density="40" />
+      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+      <Projectile characterusable="false" hitscan="true" hitscancount="8" removeonhit="true" spread="15">
+         <ParticleEmitter particle="tracerfirearm" particleamount="8" velocitymin="-20" velocitymax="20" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
+            <Affliction identifier="bleeding" strength="4" />
+            <Affliction identifier="gunshotwound" strength="5" />
+            <Affliction identifier="stun" strength="0.1" />
+         </Attack>
+         <StatusEffect type="OnImpact" target="UseTarget">
+            <Conditional entitytype="eq Structure" />
+            <Conditional hastag="eq door" />
+            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+         </StatusEffect>
+      </Projectile>
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+   </Item>
+
+
+   <!--Патрон 12 калибра (пуля)-->
+   <Item name="" identifier="shotgunshellslug" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+      <Body width="23" height="10" density="40" />
+      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+      <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="1">
+         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
+            <Affliction identifier="bleeding" strength="40" />
+            <Affliction identifier="gunshotwound" strength="20" />
+            <Affliction identifier="stun" strength="0.05" />
+         </Attack>
+         <StatusEffect type="OnImpact" target="UseTarget">
+            <Conditional entitytype="eq Structure" />
+            <Conditional hastag="eq door" />
+            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+         </StatusEffect>
+      </Projectile>
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+   </Item>
+
+
+
+
+
+
+
+
+   <!--Обрез ИЖ-58-->
    <Item name="" identifier="izh58" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,heavygun" Scale="0.30" impactsoundtag="impact_metal_light" hideinmenus="false">
       <Fabricate suitablefabricators="fabricator" requiredtime="20">
          <RequiredSkill identifier="mechanical" level="25" />
@@ -418,70 +623,21 @@
       </ItemContainer>
       <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
    </Item>
-   <!--//Shotgunshelltrauma-->
-   <Item name="" identifier="shotgunshelltrauma" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
-      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
-      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
-      <Body width="23" height="10" density="40" />
-      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-      <Projectile characterusable="false" hitscan="true" hitscancount="1" removeonhit="true" spread="1">
-         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
-         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.5">
-            <Affliction identifier="blunttrauma" strength="10" />
-            <Affliction identifier="stun" strength="1" />
-         </Attack>
-         <StatusEffect type="OnImpact" target="UseTarget">
-            <Conditional entitytype="eq Structure" />
-            <Conditional hastag="eq door" />
-            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-         </StatusEffect>
-      </Projectile>
-      <Upgrade gameversion="0.10.0.0" scale="0.5" />
-   </Item>
-   <Item name="" identifier="shotgunshellcombat" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
-      <Fabricate suitablefabricators="fabricator" requiredtime="10">
-         <RequiredItem identifier="plastic" />
-         <RequiredItem identifier="lead" />
-      </Fabricate>
-      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
-      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
-      <Body width="23" height="10" density="40" />
-      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-      <Projectile characterusable="false" hitscan="true" hitscancount="8" removeonhit="true" spread="15">
-         <ParticleEmitter particle="tracerfirearm" particleamount="8" velocitymin="-20" velocitymax="20" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
-         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
-            <Affliction identifier="bleeding" strength="4" />
-            <Affliction identifier="gunshotwound" strength="5" />
-            <Affliction identifier="stun" strength="0.1" />
-         </Attack>
-         <StatusEffect type="OnImpact" target="UseTarget">
-            <Conditional entitytype="eq Structure" />
-            <Conditional hastag="eq door" />
-            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-         </StatusEffect>
-      </Projectile>
-      <Upgrade gameversion="0.10.0.0" scale="0.5" />
-   </Item>
-   <Item name="" identifier="shotgunshellslug" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
-      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
-      <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
-      <Body width="23" height="10" density="40" />
-      <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-      <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="1">
-         <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
-         <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
-            <Affliction identifier="bleeding" strength="40" />
-            <Affliction identifier="gunshotwound" strength="20" />
-            <Affliction identifier="stun" strength="0.05" />
-         </Attack>
-         <StatusEffect type="OnImpact" target="UseTarget">
-            <Conditional entitytype="eq Structure" />
-            <Conditional hastag="eq door" />
-            <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-         </StatusEffect>
-      </Projectile>
-      <Upgrade gameversion="0.10.0.0" scale="0.5" />
-   </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Кипарис-->
    <Item name="" identifier="kiparis" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.22" impactsoundtag="impact_metal_light">
       <Deconstruct time="33">
          <Item identifier="steel" />
@@ -511,6 +667,9 @@
          <Containable items="kiparismag" />
       </ItemContainer>
    </Item>
+
+
+   <!--Магазин кипариса-->
    <Item name="" identifier="kiparismag" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
       <Deconstruct time="10">
          <Item identifier="steel" outcondition="0.5" />
@@ -526,7 +685,20 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
-   <!--//Pistol-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--ПМ-->
    <Item name="" identifier="pmpistol" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.30" impactsoundtag="impact_metal_light">
       <Deconstruct time="33">
          <Item identifier="steel" />
@@ -553,6 +725,9 @@
          <Containable items="pmmag,pmmagtrauma" />
       </ItemContainer>
    </Item>
+
+   
+   <!--Магазин ПМ (боевой)-->
    <Item name="" identifier="pmmag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
       <Deconstruct time="10">
          <Item identifier="steel" outcondition="0.5" />
@@ -568,6 +743,9 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+   
+   <!--Магазин ПМ (травмат)-->
    <Item name="" identifier="pmmagtrauma" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
       <Deconstruct time="10">
          <Item identifier="steel" outcondition="0.5" />
@@ -583,6 +761,9 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+   
+   <!--Патрон 9x18-мм-->
    <Item name="" identifier="pmround" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
       <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
       <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
@@ -602,6 +783,9 @@
          </StatusEffect>
       </Projectile>
    </Item>
+
+   
+   <!--Патрон 9x18-мм (травмат)-->
    <Item name="" identifier="pmroundtrauma" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
       <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
       <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
@@ -620,7 +804,22 @@
          </StatusEffect>
       </Projectile>
    </Item>
-   <!--//Revolver-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Револьвер-->
    <Item name="" identifier="ots38" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.35" impactsoundtag="impact_metal_light">
       <Deconstruct time="26">
          <Item identifier="steel" />
@@ -643,6 +842,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
    </Item>
+
+
+   <!--Патрон револьвера-->
    <Item name="" identifier="76241mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverammo" impactsoundtag="impact_metal_light">
       <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
       <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
@@ -663,7 +865,20 @@
       </Projectile>
       <Upgrade gameversion="0.10.0.0" scale="0.5" />
    </Item>
-   <!--//TT-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--ТТ-33-->
    <Item name="" identifier="tt33" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.35" impactsoundtag="impact_metal_light">
       <Deconstruct time="26">
          <Item identifier="steel" />
@@ -689,6 +904,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
    </Item>
+
+
+   <!--Магазин ТТ-33-->
    <Item name="" identifier="tt33mag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
       <Deconstruct time="10">
          <Item identifier="steel" outcondition="0.5" />
@@ -704,6 +922,9 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+
+   <!--Патрон магазина ТТ-->
    <Item name="" identifier="76225mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light">
       <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
       <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
@@ -724,6 +945,21 @@
       </Projectile>
       <Upgrade gameversion="0.10.0.0" scale="0.5" />
    </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Дубинка-->
    <Item name="" identifier="pr73m" scale="0.32" category="Equipment" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
       <Deconstruct time="7">
          <Item identifier="aluminium" />
@@ -744,6 +980,20 @@
          </Attack>
       </MeleeWeapon>
    </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--АР-15-->
    <Item name="" identifier="ar15" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.25" impactsoundtag="impact_metal_light">
       <Deconstruct time="32">
          <Item identifier="steel" />
@@ -774,6 +1024,9 @@
       </ItemContainer>
       <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
    </Item>
+
+
+   <!--Магазин АР-15-->
    <Item name="" identifier="ar15mag" cargocontaineridentifier="metalcrate" scale="0.3" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="267,443,39,71" origin="0.5,0.5" />
       <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" depth="0.54" sourcerect="267,443,39,71" origin="0.5,0.5" />
@@ -786,6 +1039,8 @@
       </ItemContainer>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+   <!--Патрон магазина АР-15-->
    <Item name="" identifier="55645round" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
       <InventoryIcon texture="Mods/Zvezda Bundle/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
       <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
@@ -805,6 +1060,21 @@
       </Projectile>
       <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
    </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--Самопал изделие-->
    <Item name="" identifier="izdelie" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.22" impactsoundtag="impact_metal_light">
       <Fabricate suitablefabricators="fabricator" requiredtime="40">
          <RequiredItem identifier="steel" />
@@ -890,6 +1160,92 @@
 
 
 
+   <!--Нож Штык-Нож-->
+  <Item name="" identifier="divingknife" category="Equipment" Tags="smallitem,weapon,gunsmith" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <PreferredContainer primary="armcab" minamount="0" maxamount="3" spawnprobability="1"/>
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.25"/>
+    <PreferredContainer secondary="abandonedarmcab,abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="30" >
+      <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
+      <Price locationtype="city" multiplier="1.25" minavailable="8" />
+      <Price locationtype="research" multiplier="1.25" minavailable="2" />
+      <Price locationtype="military" multiplier="0.9" minavailable="15" />
+      <Price locationtype="mine" multiplier="1.25" minavailable="2" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="weapons" level="30" />
+      <RequiredItem identifier="iron" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="835,385,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="183,203,66,16" depth="0.55" origin="0.5,0.5" />
+    <Body width="65" height="15" density="50" />
+    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-10,0" holdangle="30" reload="0.75" range="50" combatPriority="25" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="2" severlimbsprobability="0.1" itemdamage="10" structuredamage="5" structuresoundtype="StructureSlash">
+        <Affliction identifier="lacerations" strength="10" />
+        <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="stun" strength="0.2" />
+        <StatusEffect type="OnUse" target="Character">
+          <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
+          <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
+    <Quality>
+      <QualityStat stattype="AttackMultiplier" value="0.1"/>
+    </Quality>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+
+
+
+
+
+
+
+
+
+   <!--Шип шпинелина-->
+    <Item name="" identifier="spinelingspike" category="Misc" scale="0.5" sonarsize="2">
+    <Sprite texture="Content/Characters/Spineling/Spineling.png" sourcerect="0,215,180,18" depth="0.55" />
+    <Body width="160" height="10" density="20" />
+    <Projectile characterusable="false" launchimpulse="200" maxtargetstohit="3" sticktocharacters="true" sticktoitems="false" sticktostructures="true" stickpermanently="true">
+      <Attack structuredamage="10" severlimbsprobability="0.5">
+        <Affliction identifier="lacerations" strength="10" />
+        <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="stun" strength="0.25" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" lifetime="0.5">
+        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This" condition="-34"/>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure"/>
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="2000" scalemin="0.1" scalemax="0.2" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure"/>
+        <Conditional hastag="eq door"/>
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+    <LightComponent range="200" castshadows="False" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="200,200,255,20" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
+      <Sprite texture="Content/Characters/Spineling/Spineling.png" sourcerect="0,230,180,23" origin="0.5,0.6" alpha="0.5"/>
+    </LightComponent>
+  </Item>
 
 
 
@@ -940,6 +1296,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--
+      
+██████╗  █████╗ ██╗     ███████╗██╗  ██╗███████╗        ██████╗  ██████╗  ██████╗  █████╗         ███╗   ██╗███████╗████████╗
+██╔══██╗██╔══██╗██║     ██╔════╝██║  ██║██╔════╝        ██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗        ████╗  ██║██╔════╝╚══██╔══╝
+██║  ██║███████║██║     ███████╗███████║█████╗          ██████╔╝██║   ██║██║  ███╗███████║        ██╔██╗ ██║█████╗     ██║   
+██║  ██║██╔══██║██║     ╚════██║██╔══██║██╔══╝          ██╔══██╗██║   ██║██║   ██║██╔══██║        ██║╚██╗██║██╔══╝     ██║   
+██████╔╝██║  ██║███████╗███████║██║  ██║███████╗        ██████╔╝╚██████╔╝╚██████╔╝██║  ██║        ██║ ╚████║███████╗   ██║   
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝        ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝        ╚═╝  ╚═══╝╚══════╝   ╚═╝   
+                                                                                                                             
+   -->
 
 
 
@@ -1141,48 +1531,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1"/>
     </Quality>
   </Item>
-  <Item name="" identifier="divingknife" category="Equipment" Tags="smallitem,weapon,gunsmith" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
-    <PreferredContainer primary="armcab" minamount="0" maxamount="3" spawnprobability="1"/>
-    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.25"/>
-    <PreferredContainer secondary="abandonedarmcab,abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.5"/>
-    <Price baseprice="30" >
-      <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-      <Price locationtype="city" multiplier="1.25" minavailable="8" />
-      <Price locationtype="research" multiplier="1.25" minavailable="2" />
-      <Price locationtype="military" multiplier="0.9" minavailable="15" />
-      <Price locationtype="mine" multiplier="1.25" minavailable="2" />
-    </Price>
-    <Deconstruct time="10">
-      <Item identifier="iron" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="10">
-      <RequiredSkill identifier="weapons" level="30" />
-      <RequiredItem identifier="iron" />
-    </Fabricate>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="835,385,64,64" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="183,203,66,16" depth="0.55" origin="0.5,0.5" />
-    <Body width="65" height="15" density="50" />
-    <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-10,0" holdangle="30" reload="0.75" range="50" combatPriority="25" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="2" severlimbsprobability="0.1" itemdamage="10" structuredamage="5" structuresoundtype="StructureSlash">
-        <Affliction identifier="lacerations" strength="10" />
-        <Affliction identifier="bleeding" strength="10" />
-        <Affliction identifier="stun" strength="0.2" />
-        <StatusEffect type="OnUse" target="Character">
-          <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
-          <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
-          <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="500" />
-          <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="500" />
-          <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="500" />
-          <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="500" />
-        </StatusEffect>
-      </Attack>
-    </MeleeWeapon>
-    <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
-    <Quality>
-      <QualityStat stattype="AttackMultiplier" value="0.1"/>
-    </Quality>
-    <Upgrade gameversion="0.10.0.0" scale="0.5" />
-  </Item>
+
   
 
 
@@ -1277,37 +1626,5 @@
   </Item>
 
 
-  <Item name="" identifier="spinelingspike" category="Misc" scale="0.5" sonarsize="2">
-    <Sprite texture="Content/Characters/Spineling/Spineling.png" sourcerect="0,215,180,18" depth="0.55" />
-    <Body width="160" height="10" density="20" />
-    <Projectile characterusable="false" launchimpulse="200" maxtargetstohit="3" sticktocharacters="true" sticktoitems="false" sticktostructures="true" stickpermanently="true">
-      <Attack structuredamage="10" severlimbsprobability="0.5">
-        <Affliction identifier="lacerations" strength="10" />
-        <Affliction identifier="bleeding" strength="10" />
-        <Affliction identifier="stun" strength="0.25" />
-      </Attack>
-      <StatusEffect type="OnActive" target="This" lifetime="0.5">
-        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
-      </StatusEffect>
-      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
-        <Remove />
-      </StatusEffect>
-      <StatusEffect type="OnImpact" target="This" condition="-34"/>
-      <StatusEffect type="OnImpact" target="UseTarget">
-        <Conditional entitytype="eq Structure"/>
-        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="2000" scalemin="0.1" scalemax="0.2" />
-      </StatusEffect>
-      <StatusEffect type="OnImpact" target="UseTarget">
-        <Conditional entitytype="eq Structure"/>
-        <Conditional hastag="eq door"/>
-        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
-      </StatusEffect>
-      <StatusEffect type="OnBroken" target="This">
-        <Remove />
-      </StatusEffect>
-    </Projectile>
-    <LightComponent range="200" castshadows="False" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="200,200,255,20" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
-      <Sprite texture="Content/Characters/Spineling/Spineling.png" sourcerect="0,230,180,23" origin="0.5,0.6" alpha="0.5"/>
-    </LightComponent>
-  </Item>
+
 </Items>
