@@ -173,17 +173,17 @@
     <entityname.watchmanclothes>Комбинезон завхоза</entityname.watchmanclothes>
     <entitydescription.watchmanclothes></entitydescription.watchmanclothes>
 
-    <entityname.captainsuniform1>Китель (утепленный)</entityname.captainsuniform1>
-    <entitydescription.captainsuniform1></entitydescription.captainsuniform1>
+    <entityname.comendantuniform>Китель(Офицерский)</entityname.comendantuniform>
+    <entitydescription.comendantuniform></entitydescription.comendantuniform>
 
-    <entityname.captainsuniform2>Китель (темный)</entityname.captainsuniform2>
-    <entitydescription.captainsuniform2></entitydescription.captainsuniform2>
+    <entityname.comendantuniformK>Китель (Офицерский со знаком отличия)</entityname.comendantuniformK>
+    <entitydescription.comendantuniformK></entitydescription.comendantuniformK>
 
     <entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
     <entitydescription.securityuniform1></entitydescription.securityuniform1>
 
-    <entityname.administratorclothes>Униформа милиционера</entityname.administratorclothes>
-    <entitydescription.administratorclothes></entitydescription.administratorclothes>
+    <entityname.Mvd>Униформа милиционера</entityname.Mvd>
+    <entitydescription.Mvd></entitydescription.Mvd>
 
     <entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
     <entitydescription.medicalofficerclothes></entitydescription.medicalofficerclothes>
@@ -280,6 +280,54 @@
 
     <entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
     <entitydescription.zsh_helmet></entitydescription.zsh_helmet>
+
+    <entityname.ushanka>Шапка-Ушанка (серая)</entityname.ushanka>
+    <entitydescription.ushanka></entitydescription.ushanka>
+    
+    <entityname.ushanka2>Шапка-Ушанка (чёрная)</entityname.ushanka2>
+    <entitydescription.ushanka2></entitydescription.ushanka2>
+    
+    <entityname.gcap>Пилотка ВС СССР</entityname.gcap>
+    <entitydescription.gcap></entitydescription.gcap>
+
+    <entityname.balaclava>Балаклава</entityname.balaclava>
+    <entitydescription.balaclava></entitydescription.balaclava>
+        
+    <entityname.balaclava2>Жиганка с балаклавой</entityname.balaclava2>
+    <entitydescription.balaclava2></entitydescription.balaclava2>
+
+    <entityname.balaclava3>Маска</entityname.balaclava3>
+    <entitydescription.balaclava3></entitydescription.balaclava3>
+        
+    <entityname.balaclava4>Жиганка с маской</entityname.balaclava4>
+    <entitydescription.balaclava4></entitydescription.balaclava4>
+
+    <entityname.bonnet>Бомжанка</entityname.bonnet>
+    <entitydescription.bonnet></entitydescription.bonnet>
+
+
+    <entityname.zsh_14>Шлем «ЗШ-1» с балаклавой (ТР)</entityname.zsh_14>
+    <entitydescription.zsh_14></entitydescription.zsh_14>
+
+    <entityname.zsh_88>Шлем «ЗШ-1» с маской (ТР)</entityname.zsh_88>
+    <entitydescription.zsh_88></entitydescription.zsh_88>
+
+    <entityname.zsh_army>Шлем «ЗШ-1» (ВС СССР)</entityname.zsh_army>
+    <entitydescription.zsh_army></entitydescription.zsh_army>
+
+    <entityname.zsh_mvd>Шлем «ЗШ-1» (МВД)</entityname.zsh_mvd>
+    <entitydescription.zsh_mvd></entitydescription.zsh_mvd>
+
+    <entityname.zsh_omon>Шлем «ЗШ-1» (ОМОН)</entityname.zsh_omon>
+    <entitydescription.zsh_omon></entitydescription.zsh_omon>
+
+
+
+    <entityname.sovietofficercap>Фуражка (ВС СССР)</entityname.sovietofficercap>
+    <entitydescription.sovietofficercap></entitydescription.sovietofficercap>
+
+    <entityname.mvdcap>Фуражка (МВД СССР)</entityname.mvdcap>
+    <entitydescription.mvdcap></entitydescription.mvdcap>    
 
 
     <!-- Головные уборы -->

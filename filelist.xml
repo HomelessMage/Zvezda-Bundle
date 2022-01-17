@@ -10,6 +10,7 @@
   <Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Currency/Currency.xml" />
   <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
   <Item file="Mods/Zvezda Bundle/Map/Pirates/PirateItems.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Tools/tools.xml" />
