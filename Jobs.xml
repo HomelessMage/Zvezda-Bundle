@@ -66,7 +66,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="administratorclothes" equip="true" outfit="true" showpreview="true">
+         <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
@@ -84,10 +84,11 @@
             <Item identifier="pmmagtrauma" showpreview="false" />
          </Item>
          <Item identifier="pr73m" showpreview="false" />
-      </ItemSet>
+         <Item identifier="mvdcap" equip="true" showpreview="true" />
+      </ItemSet> 
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="administratorclothes" equip="true" outfit="true" showpreview="true">
+         <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
             <Item identifier="aksumag" showpreview="false" />
             <Item identifier="aksumag" showpreview="false" />
@@ -105,6 +106,7 @@
             <Item identifier="aksumag" showpreview="false" />
          </Item>
          <Item identifier="pr73m" showpreview="false" />
+         <Item identifier="mvdcap" equip="true" showpreview="true" />
       </ItemSet>      
    </Job>
 

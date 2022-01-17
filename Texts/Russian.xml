@@ -182,8 +182,8 @@
     <entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
     <entitydescription.securityuniform1></entitydescription.securityuniform1>
 
-    <entityname.administratorclothes>Униформа милиционера</entityname.administratorclothes>
-    <entitydescription.administratorclothes></entitydescription.administratorclothes>
+    <entityname.Mvd>Униформа милиционера</entityname.Mvd>
+    <entitydescription.Mvd></entitydescription.Mvd>
 
     <entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
     <entitydescription.medicalofficerclothes></entitydescription.medicalofficerclothes>
@@ -325,7 +325,9 @@
 
     <entityname.sovietofficercap>Фуражка (ВС СССР)</entityname.sovietofficercap>
     <entitydescription.sovietofficercap></entitydescription.sovietofficercap>
-        
+
+    <entityname.mvdcap>Фуражка (МВД СССР)</entityname.mvdcap>
+    <entitydescription.mvdcap></entitydescription.mvdcap>    
 
 
     <!-- Головные уборы -->

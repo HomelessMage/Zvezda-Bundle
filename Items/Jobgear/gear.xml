@@ -1,41 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+ ██████╗██╗      ██████╗ ████████╗██╗  ██╗
+██╔════╝██║     ██╔═══██╗╚══██╔══╝██║  ██║
+██║     ██║     ██║   ██║   ██║   ███████║
+██║     ██║     ██║   ██║   ██║   ██╔══██║
+╚██████╗███████╗╚██████╔╝   ██║   ██║  ██║
+ ╚═════╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+  -->       
   <!-- Комендант -->  
   <Item name="" identifier="Comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
@@ -106,6 +94,41 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
 
+  <!-- Милиционер -->
+   <Item name="" identifier="Mvd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Mvd Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Mvd Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Mvd Uniform 1 Torso" texture="Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Hand" texture="Mvd.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Hand" texture="Mvd.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Lower Arm" texture="Mvd.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Lower Arm" texture="Mvd.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Upper Arm" texture="Mvd.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Upper Arm" texture="Mvd.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Waist" texture="Mvd.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Thigh" texture="Mvd.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Thigh" texture="Mvd.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Leg" texture="Mvd.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Leg" texture="Mvd.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Shoe" texture="Mvd.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Shoe" texture="Mvd.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
   <!-- Ассистент -->
   <Item name="" identifier="assistantclothes" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
@@ -142,6 +165,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>  
+
   <!-- Обитатель станции 1 -->
   <Item name="" identifier="commonerclothes1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
@@ -965,83 +989,19 @@
 
 
 
+  <!-- 
+ ██████╗██╗      ██████╗ ████████╗██╗  ██╗
+██╔════╝██║     ██╔═══██╗╚══██╔══╝██║  ██║
+██║     ██║     ██║   ██║   ██║   ███████║
+██║     ██║     ██║   ██║   ██║   ██╔══██║
+╚██████╗███████╗╚██████╔╝   ██║   ██║  ██║
+ ╚═════╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+  -->       
 
 
 
 
 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->              
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА -->
-  <!-- ОДЕЖДА --> 
 
 
 
@@ -1105,91 +1065,37 @@
 
 
 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->  
 
+
+
+
+
+
+
+
+  <!-- 
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝     
+
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝   
+
+
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝    
+  -->  
   <Item name="" identifier="baseballcap" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
@@ -1351,6 +1257,51 @@
   </Item>
 
 
+
+<!--                                                              
+88        88                                   88         88  
+88        88                                   88       ,d88  
+88        88                                   88     888888  
+88aaaaaaaa88   ,adPPYba,  ,adPPYYba,   ,adPPYb,88         88  
+88""""""""88  a8P_____88  ""     `Y8  a8"    `Y88         88  
+88        88  8PP"""""""  ,adPPPPP88  8b       88         88  
+88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88         88  
+88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8         88  
+-->                                                                
+                                                              
+  <!--Офицерская фуражка ВС СССР-->
+   <Item name="" identifier="sovietofficercap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Soviet Officer Cap" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+  <!--Офицерская фуражка МВД СССР-->
+   <Item name="" identifier="mvdcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Mvd Cap" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+<!--                                                                   
+88        88                                   88      ad888888b,     
+88        88                                   88     d8"     "88     
+88        88                                   88             a8P     
+88aaaaaaaa88   ,adPPYba,  ,adPPYYba,   ,adPPYb,88          ,d8P"      
+88""""""""88  a8P_____88  ""     `Y8  a8"    `Y88        a8P"         
+88        88  8PP"""""""  ,adPPPPP88  8b       88      a8P'           
+88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88     d8"             
+88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8     88888888888     
+-->                                                                  
+                                                                      
    <!--Head2 балаклавы, маски, ЗШ с забралом-->
    <!--Балаклава-->
    <Item name="" identifier="balaclava" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411" >
@@ -1603,107 +1554,84 @@
 
 
 
+<!--                                                                                                                                 
+88        88                                   88      ad888888b,  
+88        88                                   88     d8"     "88  
+88        88                                   88             a8P  
+88aaaaaaaa88   ,adPPYba,  ,adPPYYba,   ,adPPYb,88          aad8"   
+88""""""""88  a8P_____88  ""     `Y8  a8"    `Y88          ""Y8,   
+88        88  8PP"""""""  ,adPPPPP88  8b       88             "8b  
+88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88     Y8,     a88  
+88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8      "Y888888P'                                                                                                                          
+-->   
 
 
 
 
 
-   <!--Офицерская фуражка ВС СССР-->
-   <Item name="" identifier="sovietofficercap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="Soviet Officer Cap" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
-      <Body width="84" height="51" density="15" />
-      <Deconstruct time="10" />
-      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="Soviet cap wearable" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
-         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
-      </Wearable>
-   </Item>
 
 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->  
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ -->
-  <!-- ГОЛОВНЫЕ УБОРЫ --> 
+
+  <!-- 
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝     
+
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝   
+
+
+██╗  ██╗ █████╗ ████████╗███████╗
+██║  ██║██╔══██╗╚══██╔══╝██╔════╝
+███████║███████║   ██║   ███████╗
+██╔══██║██╔══██║   ██║   ╚════██║
+██║  ██║██║  ██║   ██║   ███████║
+╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝    
+  -->  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
