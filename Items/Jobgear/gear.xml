@@ -39,8 +39,8 @@
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Captain's Uniform 1 Torso" texture="Comendant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Captain's Uniform 1 Right Hand" texture="Comendant.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Captain's Uniform 1 Left Hand" texture="Comendant.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Hand" texture="Comendant.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Hand" texture="Comendant.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 1 Right Lower Arm" texture="Comendant.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 1 Left Lower Arm" texture="Comendant.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 1 Right Upper Arm" texture="Comendant.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -74,8 +74,8 @@
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Captain's Uniform 2 Torso" texture="ComendantK.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Captain's Uniform 2 Right Hand" texture="ComendantK.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Captain's Uniform 2 Left Hand" texture="ComendantK.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Hand" texture="ComendantK.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Hand" texture="ComendantK.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 2 Right Lower Arm" texture="ComendantK.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 2 Left Lower Arm" texture="ComendantK.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 2 Right Upper Arm" texture="ComendantK.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -109,8 +109,8 @@
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Mvd Uniform 1 Torso" texture="Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Mvd Uniform 1 Right Hand" texture="Mvd.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Mvd Uniform 1 Left Hand" texture="Mvd.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Hand" texture="Mvd.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Hand" texture="Mvd.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Mvd Uniform 1 Right Lower Arm" texture="Mvd.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Mvd Uniform 1 Left Lower Arm" texture="Mvd.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Mvd Uniform 1 Right Upper Arm" texture="Mvd.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
