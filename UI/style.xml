@@ -251,6 +251,9 @@
     <Size maxresolution="2560,1600" height="45" />
     <Size height="45" />
   </GUIButton>
+   <EyeButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
+    <Sprite name="EyeButton" texture="Content/UI/MainIconsAtlas.png" sourcerect="149,285,86,48" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+  </EyeButton>
   <!--Same as the above but without the size restrictions-->
   <GUIButtonFreeScale color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" disabledcolor="125,125,125,255" pressedcolor="230,230,230,255">
     <Sprite name="GUIButton.None" texture="Content/UI/UIAtlasGeneral.png" state="None" sourcerect="6,216,164,45" slice="11,221,165,256" origin="0.5,0.5" />
