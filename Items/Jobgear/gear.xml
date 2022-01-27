@@ -70,8 +70,8 @@
     </Price>
     <Deconstruct time="10"/>
     <InventoryIcon name="Captain's Uniform 2 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="128,27,128,101" origin="0.5,0.5"/>
-    <Sprite name="Captain's Uniform 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="224,368,208,71" depth="0.6" origin="0.5,0.5"/>
-    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Sprite name="Captain's Uniform 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="224,532,206,68" depth="0.6" origin="0.5,0.5"/>
+    <Body width="206" height="68" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Captain's Uniform 2 Torso" texture="ComendantK.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Captain's Uniform 2 Right Hand" texture="ComendantK.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -125,6 +125,45 @@
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
       </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Повар -->
+  <Item name="" identifier="cookform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Cook Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Cook Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Cook Uniform 1 Torso" texture="Cook.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Hand" texture="Cook.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Hand" texture="Cook.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Lower Arm" texture="Cook.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Lower Arm" texture="Cook.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Upper Arm" texture="Cook.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Upper Arm" texture="Cook.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Waist" texture="Cook.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Thigh" texture="Cook.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Thigh" texture="Cook.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Leg" texture="Cook.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Leg" texture="Cook.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Shoe" texture="Cook.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Shoe" texture="Cook.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,lacerations" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.9" damagesound="" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.99" damagesound="LimbArmor"/>
+    	  <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
@@ -1564,6 +1603,48 @@
 88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88     Y8,     a88  
 88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8      "Y888888P'                                                                                                                          
 -->   
+
+
+
+
+
+
+
+<!--                                                                                                                                 
+                                                                                                               
+  ,ad8888ba,             88                                      88        88                                  
+ d8"'    `"8b     ,d     88                                      88        88                ,d                
+d8'        `8b    88     88                                      88        88                88                
+88          88  MM88MMM  88,dPPYba,    ,adPPYba,  8b,dPPYba,     88aaaaaaaa88  ,adPPYYba,  MM88MMM  ,adPPYba,  
+88          88    88     88P'    "8a  a8P_____88  88P'   "Y8     88""""""""88  ""     `Y8    88     I8[    ""  
+Y8,        ,8P    88     88       88  8PP"""""""  88             88        88  ,adPPPPP88    88      `"Y8ba,   
+ Y8a.    .a8P     88,    88       88  "8b,   ,aa  88             88        88  88,    ,88    88,    aa    ]8I  
+  `"Y8888Y"'      "Y888  88       88   `"Ybbd8"'  88             88        88  `"8bbdP"Y8    "Y888  `"YbbdP"'                                                                                                                                                                                                                                                                                                    
+-->   
+
+   <!--Поварской колпак-->
+   <Item name="" identifier="cookcap" category="Equipment" tags="smallitem,hat" cargocontaineridentifier="metalcrate" scale="0.4">
+      <Price locationtype="Research" buyprice="20" />
+      <Price locationtype="Military" buyprice="20" />
+      <Price locationtype="City" buyprice="30" />
+      <Price locationtype="Outpost" buyprice="50" />
+      <Deconstruct time="5">
+         <Item identifier="ballisticfiber" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+         <RequiredItem identifier="ballisticfiber" />
+      </Fabricate>
+      <Sprite name="capcook" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/cookcap.png" depth="0.6" sourcerect="8,8,78,54" origin="0.5,0.5" scale="0.4"/>
+      <Body width="75" height="50" density="30" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="capcook" texture="Mods/Zvezda Bundle/Items/Jobgear/Head/cookcap.png" limb="Head" inheritlimbdepth="true" hidelimb="false" hideotherwearables="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="true" scale="1.22" hidewearablesoftype="hair" sheetindex="0,0" sourcerect="0,0,96,96" origin="0.5,0.6485507" />
+      </Wearable>
+   </Item>
+
+
+
+
+
 
 
 
