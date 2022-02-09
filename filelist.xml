@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.15.23.0" steamworkshopid="2676179277" installtime="1643217096">
   <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
@@ -23,6 +23,7 @@
   <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Gardening/gardeningtools.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Nourishment/nourishment.xml" />
+  <Item file="Mods/Zvezda Bundle/Map/Torgomat/torgomat.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Reactor/reactor.xml" />
   <Structure file="Mods/Zvezda Bundle/Map/decorstuff.xml" />
   <Item file="Mods/Zvezda Bundle/Map/items.xml" />
