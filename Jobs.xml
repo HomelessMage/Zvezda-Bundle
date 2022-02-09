@@ -320,7 +320,7 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>         
-         <Item identifier="captainsuniform1" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
@@ -343,8 +343,8 @@
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="cookcap" equip="true" showpreview="true" />
-         <Item identifier="cookform" equip="true" outfit="true" showpreview="true" />
-           <Item identifier="wallet" showpreview="false" >
+         <Item identifier="cookform" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="wallet" showpreview="false" >
                <Item identifier="50rubles" showpreview="false" />
             </Item>
          </Item>

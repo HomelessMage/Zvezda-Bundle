@@ -236,6 +236,9 @@
     <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
     <entitydescription.camo_woodland></entitydescription.camo_woodland>
 
+    <entityname.cookform>Фартук повара</entityname.cookform>
+    <entitydescription.cookform></entitydescription.cookform>
+
     <!-- Одежда -->
     <!-- Одежда -->
     <!-- Одежда -->
@@ -331,6 +334,11 @@
 
     <entityname.mvdcap>Фуражка (МВД СССР)</entityname.mvdcap>
     <entitydescription.mvdcap></entitydescription.mvdcap>    
+
+
+
+    <entityname.cookcap>Поварской колпак</entityname.cookcap>
+    <entitydescription.cookcap></entitydescription.cookcap>
 
 
     <!-- Головные уборы -->
@@ -685,6 +693,13 @@
 
     <!--Болезни-->
 
+
+
+
+    <!--Торгомат-->
+    <entityname.torgomat>Торгомат</entityname.torgomat>
+    <entitydescription.torgomat>Торговая машина меняющая советскую валюту на вещи.</entitydescription.torgomat>
+    <!--Торгомат-->
 
 
 
@@ -6248,7 +6263,7 @@
     <orderdialog.dismissed.fixleaks>[name], спасибо за помощь с протечками!</orderdialog.dismissed.fixleaks>
     <orderdialog.dismissed.extinguishfires>[name], спасибо за ликвидацию пожара!</orderdialog.dismissed.extinguishfires>
     <orderdialog.dismissed.chargebatteries>[name], спасибо за работу с батареями!</orderdialog.dismissed.chargebatteries>
-<orderdialog.dismissed.pumpwater>[name], спасибо за откачку воды!</orderdialog.dismissed.pumpwater>
+    <orderdialog.dismissed.pumpwater>[name], спасибо за откачку воды!</orderdialog.dismissed.pumpwater>
     <orderdialog.dismissed.rescue>[name], спасибо за медпомощь!</orderdialog.dismissed.rescue>
     <orderdialog.dismissed.repairsystems>[name], спасибо за ремонт поврежденных систем!</orderdialog.dismissed.repairsystems>
     <orderdialog.dismissed.repairsystems>[name], спасибо за помощь с поврежденными устройствами!</orderdialog.dismissed.repairsystems>
