@@ -313,6 +313,9 @@
             <Remove />
          </StatusEffect>
       </Throwable>
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+         <RequiredItem identifier="10rubles" />
+      </Fabricate>
       <ItemContainer capacity="12" canbeselected="true" hideitems="false" keepopenwhenequipped="true" spawnwithid="cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette">
          <Containable items="cigarette" />
       </ItemContainer>
@@ -925,7 +928,7 @@
     <AiTarget sightrange="3000" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  
+
   <Item name="" identifier="flare" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1"/>
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5"/>
@@ -1127,6 +1130,7 @@
         </StatusEffect>
       </Holdable>
     </Item>
+
 
     <Item name="" identifier="fulguriumfuelrod" Tags="smallitem,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="Rod of dangerous radioactive material, used by humanity as the only reliable power source on Europa. Cooling down heated rod takes years under flowing water. Use tongs to deal with these dangerous items." health="150">
       <Fabricate suitablefabricators="fabricator" requiredtime="10">
