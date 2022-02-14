@@ -13,7 +13,7 @@
       <Item identifier="plastic" />
     </Deconstruct>
     <Body width="150" height="77" density="40" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="45,0" handle1="-40,-10" handle2="45,10" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="75,5" aimpos="75,0" handle1="-143,-20" handle2="40,5" holdangle="-70" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="20.0" structurefixamount="0.0" usablein="Air" range="1200" barrelpos="35,10" fireprobability="0.01" repairmultiple="true" repairthroughwalls="false" repairthroughholes="true" combatpriority="90" spread="2" unskilledspread="99">
       <RequiredItems items="petroltank" type="Contained" msg="ItemMsgWeldingFuelRequired" />
       <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
@@ -45,6 +45,8 @@
       </StatusEffect>
       <!-- consume oxygen from the hull -->
       <StatusEffect type="OnUse" target="Hull" Oxygen="-10000"/>
+      <!-- Дебаф скорости -->
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.82" setvalue="true" disabledeltatime="true" />
       <!-- weapons skill 20 required to use the item -->
       <RequiredSkill identifier="weapons" level="20" />
       <!-- if the skill requirement isn't met the welding fuel will be used 50% faster -->
@@ -87,7 +89,7 @@
     </Fabricate>
     <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/Flamer/Petroltankicon.png" sourcerect="0,0,169,170" origin="0.5,0.5" />
     <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/Flamer/Petroltank.png" sourcerect="0,0,220,51" depth="0.56" />
-    <Body width="169" height="170" density="9.7" />
+    <Body width="42" height="42" density="9.7" />
     <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnFire" target="This" Condition="-10.0" tags="onfire" duration="1" stackable="false" />
       <StatusEffect type="OnBroken" target="This" delay="1" stackable="false">
@@ -137,10 +139,10 @@
     <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
       <sprite name="Flamerpack Wearable" texture="Mods/Zvezda Bundle/Items/Weapons/Flamer/Flamerpack.png" limb="Torso" hidelimb="false" 
 	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="0,0,80,160" origin="1.2,0.6" scale="0.5"/>
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.78" setvalue="true" disabledeltatime="true" />
     <OxygenGenerator powerconsumption="0.0" minvoltage="0.0" canbeselected="true" msg="ItemMsgInteractSelect">
       <sound file="Content/Items/OxygenGenerator/OxygenGenerator.ogg" type="OnActive" range="1000.0" volumeproperty="CurrFlow" volume="0.001" loop="true"/>    
       <StatusEffect type="OnActive" targettype="Contained" targets="petroltank" Condition="7.0"/>
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.78" setvalue="true" disabledeltatime="true" />
     </OxygenGenerator>
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" >
