@@ -613,8 +613,14 @@
     <entitydescription.izdelie>Кустарный образец карабина, сделанный из штампованных деталей.</entitydescription.izdelie>
 
 
+    <entityname.flamerz>Самодельный огнемёт</entityname.flamerz>
+    <entitydescription.flamerz>Чёрт знает как это работает. Издалека видно, что автора этого творения необходимо изолировать от общества</entitydescription.flamerz>
 
+    <entityname.flamerpack>Ранец с бензином</entityname.flamerpack>
+    <entitydescription.flamerpack>Наполняет тару топливом.</entitydescription.flamerpack>
 
+    <entityname.petroltank>Бензин в банке</entityname.petroltank>
+    <entitydescription.petroltank>Красный цилиндр воняющий бензином.</entitydescription.petroltank>
 
 
 
