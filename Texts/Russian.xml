@@ -83,12 +83,10 @@
     <jobname.militaryman1>Связист</jobname.militaryman1>
     <jobname.militaryman2>Мотострелок</jobname.militaryman2>
     <jobname.militaryman3>Сапёр</jobname.militaryman3>
-    <jobname.militaryman4>Спецназовец</jobname.militaryman4>
     <jobdescription.militaryman>Боец погранвойск КГБ ССКЕ. Имеет законодательную монополию на применение силы.</jobdescription.militaryman>
     <jobdescription.militaryman1>Батальон связи</jobdescription.militaryman1>
     <jobdescription.militaryman2>Мотострелковый батальон</jobdescription.militaryman2>
     <jobdescription.militaryman3>Инженерно-сапёрный батальон</jobdescription.militaryman3>
-    <jobdescription.militaryman4>Управление «Альфа»</jobdescription.militaryman4>
 
     <jobname.janitor>Уборщик</jobname.janitor>
     <jobdescription.janitor>Сотрудник ЖКХ прикомандированный к станции.</jobdescription.janitor>
@@ -187,6 +185,12 @@
 
     <entityname.Mvd>Униформа милиционера</entityname.Mvd>
     <entitydescription.Mvd></entitydescription.Mvd>
+
+    <entityname.afganka>Полевая форма М88 (Афганка)</entityname.afganka>
+    <entitydescription.afganka>«Афганка» — жаргонное название, применяемое некоторыми военнослужащими для названия комплекта полевой формы военнослужащих Вооружённых Сил СССР.</entitydescription.afganka>
+
+    <entityname.omonuniform>Униформа (ОМОН)</entityname.omonuniform>
+    <entitydescription.omonuniform>Форменная одежда сотрудников ОМОН МВД СССР.</entitydescription.omonuniform>
 
     <entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
     <entitydescription.medicalofficerclothes></entitydescription.medicalofficerclothes>
