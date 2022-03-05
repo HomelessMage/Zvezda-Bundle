@@ -108,28 +108,6 @@
          <Item identifier="pr73m" showpreview="false" />
          <Item identifier="mvdcap" equip="true" showpreview="true" />
       </ItemSet>      
-      <ItemSet>
-         <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="omonuniform" equip="true" outfit="true" showpreview="true">
-            <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="wallet" showpreview="false" >
-               <Item identifier="100rubles" showpreview="false" /> 
-               <Item identifier="100rubles" showpreview="false" /> 
-               <Item identifier="100rubles" showpreview="false" /> 
-            </Item>
-         </Item>
-         <Item identifier="radio" equip="true" showpreview="false">
-            <Item identifier="batterycell" showpreview="false" />
-         </Item>
-         <Item identifier="aksu" showpreview="true" >
-            <Item identifier="aksumag" showpreview="false" />
-         </Item>
-         <Item identifier="pr73m" showpreview="false" />
-         <Item identifier="zsh_omon" equip="true" showpreview="true" />
-      </ItemSet>
    </Job>
 
    <!--Бригадир-->
@@ -416,40 +394,6 @@
             <Item identifier="aksumag" showpreview="false" />
          </Item>
       </ItemSet>      
-      <ItemSet>
-         <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="radio" equip="true" showpreview="false">
-            <Item identifier="batterycell" showpreview="false" />
-         </Item>
-         <Item identifier="ballistichelmet2" equip="true" showpreview="true" />
-         <Item identifier="6b13" equip="true" showpreview="true" />
-         <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="wallet" showpreview="false" />
-         </Item>
-         <Item identifier="aksu" showpreview="true">
-            <Item identifier="aksumag" showpreview="false" />
-         </Item>
-      </ItemSet>      
-      <ItemSet>
-         <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="radio" equip="true" showpreview="false">
-            <Item identifier="batterycell" showpreview="false" />
-         </Item>
-         <Item identifier="ballistichelmet2" equip="true" showpreview="true" />
-         <Item identifier="6b13" equip="true" showpreview="true" />
-         <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="wallet" showpreview="false" />
-         </Item>
-         <Item identifier="aksu" showpreview="true">
-            <Item identifier="aksumag" showpreview="false" />
-         </Item>
-      </ItemSet> 
    </Job>
 
    <!--Уборщик-->
