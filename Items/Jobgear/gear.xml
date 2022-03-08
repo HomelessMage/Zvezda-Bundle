@@ -142,7 +142,7 @@
     <InventoryIcon name="Cook Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5"/>
     <Sprite name="Cook Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
-    <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
+    <Wearable slots="OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Cook Uniform 1 Torso" texture="Cook.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Cook Uniform 1 Right Hand" texture="Cook.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <sprite name="Cook Uniform 1 Left Hand" texture="Cook.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
