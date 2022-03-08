@@ -309,5 +309,4 @@
   <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
   <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Weapons/Flamer/Flamethrower.xml" />
-  <Item file="Content/Items/Weapons/coilgun.xml" />
 </contentpackage>
