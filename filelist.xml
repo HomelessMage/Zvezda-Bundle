@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.16.7.0" steamworkshopid="2676179277" installtime="1643217096">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.15.23.0" steamworkshopid="2676179277" installtime="1645206049">
   <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
@@ -15,7 +15,7 @@
   <Item file="Mods/Zvezda Bundle/Map/Pirates/PirateItems.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Tools/tools.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Weapons/weapons.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Flamer/Flamethrower.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/coilgun.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Diving/divinggear.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Misc/misc.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
@@ -54,7 +54,6 @@
   <Item file="Content/Items/Weapons/chaingun.xml" />
   <Item file="Content/Items/Weapons/depthcharge.xml" />
   <Item file="Content/Items/Weapons/dischargecoil.xml" />
-  <Item file="Content/Items/Weapons/coilgun.xml" />
   <Item file="Content/Items/Weapons/explosives.xml" />
   <Item file="Content/Items/Weapons/pulselaser.xml" />
   <Item file="Content/Items/Weapons/railgun.xml" />
@@ -309,4 +308,5 @@
   <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
   <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
   <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/Flamer/Flamethrower.xml" />
 </contentpackage>
