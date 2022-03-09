@@ -1,42 +1,224 @@
 <!DOCTYPE html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-      <title>Звезда RP</title>
-      <script></script>
-      <style>
-         html {
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Звезда RP</title>
+    <style>
+
+        html {
          scroll-behavior: smooth; 
-         }
-         body {
+        }
+        body {
          margin: 0; 
-         }
-         section {
+         min-width: 310px;
+        }
+        section {
          height: 100vh; 
          padding: 20px; 
          box-sizing: border-box;
-         }
-         #background{
-         position: relative;
-         width: 100vw;
-         height: 100vh;
-         background-size: 100%;
-         background-color: black;
-         }
-         #logo{
-         position: absolute;
-         left: 0.70em;
-         top: 0.75em;
-         margin-left: 0em;
-         margin-right: auto;
-         }
-      </style>
-   </head>
-   <div id="background">
-       <img id="logo" src="logo.png"></img>
-      <iframe src="https://discord.com/widget?id=761585742161379329&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> 
-   </div>
-   </body>
+        }
+
+    #background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-color: black;
+    }
+
+    #logo{
+    position: absolute;
+    left: 0.70em;
+    top: 0.75em;
+    margin-left: 0em;
+    margin-right: auto;
+    }
+
+    #discord-widget{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: 0em;
+    }
+
+    .line-gray{
+    position: absolute;
+    width: 99.57vw;
+    height: 0px;
+    left: 0px;
+    top: 6.5em;
+
+    border: 1px solid #3D3D3D;
+    transform: rotate(-0.11deg);
+    }
+
+    .head-text{
+        font-family: Red October;
+        font-style: normal;
+        font-weight: 999;
+        font-size: 21px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+    }
+
+        /* Галерея */
+    #gallery{
+        position: absolute;
+        width: 109px;
+        height: 22px;
+        left: 426px;
+        top: 26px;
+    }
+
+
+        /* Вопросы? */
+
+    #faq{
+        position: absolute;
+        width: 133px;
+        height: 25px;
+        left: 827px;
+        top: 25px;
+    }
+
+        /* Информация */
+
+    #info{
+        position: absolute;
+        width: 170px;
+        height: 25px;
+        left: 596px;
+        top: 26px;
+    }
+        
+    /* С нами ты забудешь как срать! */
+
+    #title{
+    position: absolute;
+    width: 40vw;
+    height: 10vh;
+    left: calc(50% - 472px/2);
+    top: 11.5vh;
+
+    font-family: Red October;
+    font-style: normal;
+    font-weight: 999;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #22B14C;
+    }
+
+    .text-white{
+        font-family: Red Hat Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+    }
+
+    #main-text1{
+    position: absolute;
+    width: 90vw;
+    height: 15vh;
+    left: 5vw;
+    top: 24vh;
+    }
+    #main-text2{
+    position: absolute;
+    width: 19vw;
+    height: 10vh;
+    left: 8vw;
+    top: 59vh;
+    }
+
+    #img1{
+        position: absolute;
+        width: 35vw;
+        height: 35vh;
+        left: 0.5vw;
+        bottom: 0vh;
+        transform: scale(0.75,0.75);
+
+        background: url(/web/scrn3.png);
+    }
+    #img2{
+        position: absolute;
+        width: 35vw;
+        height: 35vh;
+        left: 25vw;
+        bottom: 0vh;
+        transform: scale(0.61,0.61);
+
+        background: url(/web/scrn2.png);  
+    }
+    #img3{
+        position: absolute;
+        width: 35vw;
+        height: 35vh;
+        left: 49.5vw;
+        bottom: 0vh;
+        transform: scale(0.61,0.61);
+
+        background: url(/web/scrn1.png);
+    }
+
+
+    </style>
+
+ </head>
+
+    
+    
+    <div id="background" >
+
+        <img id="logo" src="logo.png"></img>
+
+        <p class="head-text" id="gallery"> Галерея </p>
+        <p class="head-text" id="info"> Информация </p>
+        <p class="head-text" id="faq"> Вопросы? </p>
+
+        <div class="line-gray"></div>
+
+
+            <div><p id="title"> Добро пожаловать в RP сообщество «Звезда» </p>
+
+                <div>
+                    <p class="text-white" id="main-text1"> &nbsp; &nbsp; Большой опыт проведения RolePlay игр! Интересный отыгрыш. Каждый игрок влияет на сценарий и ход игры! Полное погружение в винтаж советской эпохи! Широкий выбор авторских карт и наличие своих собственных модификаций! Дружелюбное сообщество и отзывчивая администрация! Достойное техническое обслуживание, посредством выделенного сервера! </p>
+                    <p class="text-white" id="main-text2">  </p> 
+
+                </div>
+            </div>
+
+
+
+
+        <div id="img1"></div>
+        <div id="img2"></div>
+        <div id="img3"></div>
+
+
+
+
+
+
+
+        <div id="discord-widget">
+            <iframe src="https://discord.com/widget?id=761585742161379329&theme=dark" width="300" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+
+
+    </div>
+
+
+
+ </body>
+</html>
