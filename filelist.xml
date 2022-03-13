@@ -23,9 +23,11 @@
   <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Gardening/gardeningtools.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Nourishment/nourishment.xml" />
-  <Item file="Mods/Zvezda Bundle/Map/Torgomat/torgomat.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Reactor/reactor.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Generator/generator.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Medicine/drugs.xml" />
   <Structure file="Mods/Zvezda Bundle/Map/decorstuff.xml" />
+  <Item file="Mods/Zvezda Bundle/Map/Torgomat/torgomat.xml" />
   <Item file="Mods/Zvezda Bundle/Map/items.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Door/custom_dockingports.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Door/custom_doors.xml" />
