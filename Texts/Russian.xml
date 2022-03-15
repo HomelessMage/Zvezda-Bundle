@@ -716,6 +716,22 @@
 
 
 
+    <!--Механизмы-->
+    <entityname.generatordiesel_large>Дизельный генератор (большой)</entityname.generatordiesel_large>
+    <entitydescription.generatordiesel_large>Дизельный генератор.</entitydescription.generatordiesel_large>
+
+    <entityname.generatordiesel_medium>Дизельный генератор (средний)</entityname.generatordiesel_medium>
+    <entitydescription.generatordiesel_medium>Дизельный генератор.</entitydescription.generatordiesel_medium>
+
+    <entityname.generatordiesel_small>Дизельный генератор (малый)</entityname.generatordiesel_small>
+    <entitydescription.generatordiesel_small>Дизельный генератор.</entitydescription.generatordiesel_small>
+    <!--Механизмы-->
+
+
+
+
+
+
 
 
 
