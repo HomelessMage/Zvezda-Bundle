@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.16.7.0" steamworkshopid="2676179277" installtime="1647372265">
+<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.17.12.0" steamworkshopid="2676179277" installtime="1647372265">
   <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
@@ -8,30 +8,18 @@
   <UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
   <Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
   <Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/gear.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/misc.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Currency/Currency.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/idcard.xml" />
-  <Item file="Mods/Zvezda Bundle/Map/Pirates/PirateItems.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Tools/tools.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/weapons.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/coilgun.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Diving/divinggear.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Misc/misc.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Alien/alienitems.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/CreatureLoot/creatureloot.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Pets/PetItems.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Gardening/gardeningtools.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Nourishment/nourishment.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Reactor/reactor.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Generator/generator.xml" />
-  <Structure file="Mods/Zvezda Bundle/Map/decorstuff.xml" />
-  <Item file="Mods/Zvezda Bundle/Map/Torgomat/torgomat.xml" />
-  <Item file="Mods/Zvezda Bundle/Map/items.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Door/custom_dockingports.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Door/custom_doors.xml" />
-  <Particles file="Mods/Zvezda Bundle/Items/Tools/Cigarette/ParticlePrefabs.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Misc/dynamic_fins.xml" />
+
+  <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
+  
+
+
+
+
+
+
+
+
+  <<!--Ванила-->
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
   <Item file="Content/Items/Door/doors.xml" />
@@ -74,6 +62,8 @@
   <Item file="Content/Map/Thalamus/thalamusitems.xml" />
   <Item file="Content/Items/Gardening/growableplants.xml" />
   <Item file="Content/Items/Gardening/plantproducts.xml" />
+
+  <<!--Монстряки-->
   <Character file="Content/Characters/Balloon/Balloon.xml" />
   <Character file="Content/Characters/Carrier/Carrier.xml" />
   <Character file="Content/Characters/Charybdis/Charybdis.xml" />
@@ -125,6 +115,8 @@
   <Character file="Content/Characters/Variants/Mudraptor_passive/Mudraptor_passive.xml" />
   <Character file="Content/Characters/Variants/Tigerthresher_hatchling/Tigerthresher_hatchling.xml" />
   <MapCreature file="Content/Items/Gardening/ballastflora.xml" />
+
+  <<!--Раздолбышы и кастрюли-->
   <Wreck file="Content/Map/Wrecks/Dugong_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Kastrull_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Berilia_Wrecked.sub" />
@@ -145,6 +137,8 @@
   <Submarine file="Submarines/Venture.sub" />
   <Submarine file="Submarines/Azimuth.sub" />
   <Submarine file="Submarines/R-29.sub" />
+
+  <<!--Локализации-->
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
@@ -157,7 +151,9 @@
   <Text file="Content/Texts/Japanese/JapaneseVanilla.xml" />
   <Text file="Content/Texts/Turkish/TurkishVanilla.xml" />
   <Text file="Content/Texts/Korean/KoreanVanilla.xml" />
-  <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
+  
+
+  <<!--Остатнее гивно-->
   <Structure file="Content/Map/StructurePrefabs.xml" />
   <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />
   <Structure file="Content/Map/Pirates/PirateStructures.xml" />
@@ -309,5 +305,4 @@
   <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
   <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
   <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Flamer/Flamethrower.xml" />
 </contentpackage>
