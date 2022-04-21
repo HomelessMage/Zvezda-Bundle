@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  
+  <Item name="" identifier="duffelbag" category="Equipment" tags="mobilecontainer,despawncontainer" fireproof="true" description="" impactsoundtag="impact_soft" scale="0.4">
+    <Deconstruct time="5"/>
+    <Sprite texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="6,240,219,109" origin="0.5,0.56" depth="0.56" />
+    <Body width="120" radius="45" density="10.2" friction="1.0" restitution="0.01" />
+    <Holdable slots="RightHand,LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="20" keepopenwhenequipped="false" movableframe="true">
+      <Containable items="smallitem" excludeditems="toolbox" />
+    </ItemContainer>
+  </Item>
+</Items>

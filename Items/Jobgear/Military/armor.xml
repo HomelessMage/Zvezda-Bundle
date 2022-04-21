@@ -1,0 +1,115 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <Items>
+
+<<!--Бандера-->
+ <Item name="" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Price baseprice="250" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false" />
+      <Price locationtype="city" multiplier="1.2" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="0.9" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="35" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <Body radius="30" height="30" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Security Vest" texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="4">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+    </ItemContainer>
+  </Item>
+
+
+
+<<!--6B13-->
+  <Item name="" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.7" />
+    <Price baseprice="830" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Military/6b13/6b13_icon.png" sourcerect="0,0,172,257" origin="0.5,0.5" />
+    <Sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/Military/6b13/6b13.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.14" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/Military/6b13/6b13.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.81" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />   
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+  </Item>
+
+
+<<!--Милитек-->
+  <Item name="" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.6" />
+    <Price baseprice="650" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  minavailable="1"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="2"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45">
+      <RequiredSkill identifier="weapons" level="45" />	
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/Military/Miltec/miltec_icon.png" sourcerect="0,0,93,192" origin="0.5,0.5" />
+    <Sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/Military/Miltec/miltec.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/Military/Miltec/miltec.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.74" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+	  <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />  	  
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="4">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+    </ItemContainer>
+  </Item>
+
+
+
+  </Items>
