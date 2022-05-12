@@ -10,8 +10,27 @@
   <Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
 
   <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
-  
 
+
+  <<!--Currency-->
+  <Item file="Mods/Zvezda Bundle/Items/Currency/Currency.xml" />
+
+  <<!--idcards-->
+  <Item file="Mods/Zvezda Bundle/Items/idcards/idcard.xml" />
+  
+  <<!--Jobgear-->
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Crew/Crew.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Head/Heads.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Armor.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Military.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Stuff.xml" />
+
+  <<!--Tools-->
+  <Item file="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
+
+
+
+  
 
 
 
