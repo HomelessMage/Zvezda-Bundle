@@ -1,43 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.17.12.0" steamworkshopid="2676179277" installtime="1647372265">
-  <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
+  <Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
+  <UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
+  <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
   <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
   <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
-  <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
+  <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
   <LocationTypes file="Mods/Zvezda Bundle/Map/locationTypes.xml" />
-  <UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
-  <Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
+  
+  
   <Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
 
   <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
 
 
-  <<!--Currency-->
+  <!--Currency-->
   <Item file="Mods/Zvezda Bundle/Items/Currency/Currency.xml" />
 
-  <<!--idcards-->
+  <!--idcards-->
   <Item file="Mods/Zvezda Bundle/Items/idcards/idcard.xml" />
   
-  <<!--Jobgear-->
+  <!--Jobgear-->
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/Crew/Crew.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/Head/Heads.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Armor.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Military.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Stuff.xml" />
 
-  <<!--Tools-->
+  <!--Tools-->
   <Item file="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Tools/Cleaner/Clean.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Tools/Demian/flags.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Tools/Tools/tools.xml" />
 
-  <<!--Weapons-->
+  <!--Weapons-->
   <Item file="Mods/Zvezda Bundle/Items/Weapons/Cannons/coilgun.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Weapons/Melee/Melee.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/weapons.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 
-  <<!--Map-->
+  <!--Map-->
   <Item file="Mods/Zvezda Bundle/Items/Map/decor/decorsuff.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_dockingports.xml" />
   <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_doors.xml" />
@@ -49,7 +51,7 @@
   <Item file="Mods/Zvezda Bundle/Items/Map/Walls/Walls.xml" />
 
 
-  <<!--Systems-->
+  <!--Systems-->
   <Item file="Mods/Zvezda Bundle/Systems/Gardening/gardeningtools.xml" />
   <Item file="Mods/Zvezda Bundle/Systems/Music items/Misc.xml" />
   <Item file="Mods/Zvezda Bundle/Systems/Nourishment/nourishment.xml" />
@@ -67,7 +69,7 @@
 
 
 
-  <<!--Ванила-->
+  <!--Ванила-->
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
   <Item file="Content/Items/Door/doors.xml" />
@@ -111,7 +113,7 @@
   <Item file="Content/Items/Gardening/growableplants.xml" />
   <Item file="Content/Items/Gardening/plantproducts.xml" />
 
-  <<!--Монстряки-->
+  <!--Монстряки-->
   <Character file="Content/Characters/Balloon/Balloon.xml" />
   <Character file="Content/Characters/Carrier/Carrier.xml" />
   <Character file="Content/Characters/Charybdis/Charybdis.xml" />
@@ -164,7 +166,7 @@
   <Character file="Content/Characters/Variants/Tigerthresher_hatchling/Tigerthresher_hatchling.xml" />
   <MapCreature file="Content/Items/Gardening/ballastflora.xml" />
 
-  <<!--Раздолбышы и кастрюли-->
+  <!--Раздолбышы и кастрюли-->
   <Wreck file="Content/Map/Wrecks/Dugong_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Kastrull_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Berilia_Wrecked.sub" />
@@ -186,7 +188,7 @@
   <Submarine file="Submarines/Azimuth.sub" />
   <Submarine file="Submarines/R-29.sub" />
 
-  <<!--Локализации-->
+  <!--Локализации-->
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
@@ -201,7 +203,7 @@
   <Text file="Content/Texts/Korean/KoreanVanilla.xml" />
   
 
-  <<!--Остатнее гивно-->
+  <!--Остатнее гивно-->
   <Structure file="Content/Map/StructurePrefabs.xml" />
   <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />
   <Structure file="Content/Map/Pirates/PirateStructures.xml" />
