@@ -5,7 +5,7 @@
     requirebodyinsidetrigger="false"
     requirecursorinsidetrigger="true">
     <trigger x="0" y="0" width="64" height="64" />
-    <sprite texture="Mods/Zvezda Bundle/Map/panels.png" sourcerect="0,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/panels.png" sourcerect="0,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
     <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
@@ -17,7 +17,7 @@
     requirebodyinsidetrigger="false"
     requirecursorinsidetrigger="true">
     <trigger x="0" y="0" width="64" height="64" />
-    <sprite texture="Mods/Zvezda Bundle/Map/panels.png" sourcerect="65,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/panels.png" sourcerect="65,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
     <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
@@ -29,7 +29,7 @@
     requirebodyinsidetrigger="false"
     requirecursorinsidetrigger="true">
     <trigger x="0" y="0" width="64" height="64" />
-    <sprite texture="Mods/Zvezda Bundle/Map/panels.png" sourcerect="0,65,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/panels.png" sourcerect="0,65,64,64" depth="0.885" origin="0.5,0.5" canflipx="false"/>
     <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
@@ -41,7 +41,7 @@
     requirebodyinsidetrigger="false"
     requirecursorinsidetrigger="true">
     <trigger x="0" y="0" width="128" height="128" />
-    <sprite texture="Mods/Zvezda Bundle/Map/panels.png" sourcerect="130,0,128,128" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/panels.png" sourcerect="130,0,128,128" depth="0.885" origin="0.5,0.5" canflipx="false"/>
     <ItemContainer capacity="6" slotsperrow="3" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
@@ -53,7 +53,7 @@
     requirebodyinsidetrigger="false"
     requirecursorinsidetrigger="true">
     <trigger x="0" y="0" width="128" height="96" />
-    <sprite texture="Mods/Zvezda Bundle/Map/panels.png" sourcerect="259,0,128,96" depth="0.885" origin="0.5,0.5" canflipx="false"/>
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/panels.png" sourcerect="259,0,128,96" depth="0.885" origin="0.5,0.5" canflipx="false"/>
     <ItemContainer capacity="6" slotsperrow="3" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
@@ -61,7 +61,7 @@
     <Upgrade gameversion="0.10.0.0" scale="*0.676" />
   </Item>
   <Item name="wooden_bed" identifier="wooden_bed" tags="bed" allowattachitems="false" texturescale="1.0,1.0" scale="0.65" category="Decorative" canflipy="false">
-    <sprite texture="Mods/Zvezda Bundle/Map/furniture.png" sourcerect="13,37,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" sourcerect="13,37,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
     <Controller UserPos="0,-30" direction="Right" hidehud="false" canbeselected="true">
       <limbposition limb="Head" position="47,0" />
       <limbposition limb="Torso" position="92,0" />
@@ -73,7 +73,7 @@
     </Controller>
   </Item>
      <Item name="steel_bed" identifier="steel_bed" tags="bed" allowattachitems="false" texturescale="1.0,1.0" scale="0.65" category="Decorative" canflipy="false">
-     <sprite texture="Mods/Zvezda Bundle/Map/furniture.png" sourcerect="13,138,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
+     <sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" sourcerect="13,138,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
      <Controller UserPos="0,-30" direction="Right" hidehud="false" canbeselected="true">
       <limbposition limb="Head" position="47,0" />
       <limbposition limb="Torso" position="92,0" />
@@ -85,34 +85,34 @@
     </Controller>
   </Item>
      <Item name="leatherchair1" identifier="leatherchair1" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
-     <sprite texture="Mods/Zvezda Bundle/Map/furniture.png" sourcerect="13,238,126,178" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+     <sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" sourcerect="13,238,126,178" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
   </Item>
      <Item name="leatherchair2" identifier="leatherchair2" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
-     <sprite texture="Mods/Zvezda Bundle/Map/furniture.png" sourcerect="148,287,178,129" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+     <sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" sourcerect="148,287,178,129" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
   </Item>
   <Item name="woodencabinet_red" identifier="woodencabinet_red" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
-    <Sprite texture="Mods/Zvezda Bundle/Map/furniture.png" depth="0.84" sourcerect="340,55,217,359" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" depth="0.84" sourcerect="340,55,217,359" origin="0.5,0.5" />
     <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
     </ItemContainer>
   </Item>
   <Item name="woodencabinet_pink" identifier="woodencabinet_pink" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
-    <Sprite texture="Mods/Zvezda Bundle/Map/furniture.png" depth="0.84" sourcerect="568,55,217,359" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" depth="0.84" sourcerect="568,55,217,359" origin="0.5,0.5" />
     <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
     </ItemContainer>
   </Item>
   <Item name="woodencabinet_yellow" identifier="woodencabinet_yellow" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
-    <Sprite texture="Mods/Zvezda Bundle/Map/furniture.png" depth="0.84" sourcerect="794,55,217,359" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" depth="0.84" sourcerect="794,55,217,359" origin="0.5,0.5" />
     <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
       <Containable items="smallitem,mediumitem" />
     </ItemContainer>
   </Item>
   <Item name="vendor" identifier="vendor" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
-    <Sprite texture="Mods/Zvezda Bundle/Map/sign.png" depth="0.84" sourcerect="144,4,257,340" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Walls/sign.png" depth="0.84" sourcerect="144,4,257,340" origin="0.5,0.5" />
     <LightComponent range="0.0" lightcolor="255,255,255,111" IsOn="true" castshadows="false" allowingameediting="false">
       <sprite texture="Mods/Zvezda Bundle/Content/Map/light.png" sourcerect="0,0,257,340" depth="0.1" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
@@ -122,7 +122,7 @@
     </ItemContainer>
   </Item>
   <Item name="safecabinet" identifier="safecabinet" tags="locker,container,securecontainer" linkable="true" spritecolor="255,255,255,255" pickdistance="150" scale="0.5">
-    <Sprite texture="Mods/Zvezda Bundle/Map/sign.png" depth="0.84" sourcerect="408,4,127,160" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Walls/sign.png" depth="0.84" sourcerect="408,4,127,160" origin="0.5,0.5" />
     <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
       <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
@@ -130,51 +130,51 @@
     </ItemContainer>
   </Item>
   <Item name="sovietlogo" identifier="sovietlogo" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
-     <sprite texture="Mods/Zvezda Bundle/Map/furniture.png" sourcerect="6,429,147,147" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+     <sprite texture="Mods/Zvezda Bundle/Map/Walls/furniture.png" sourcerect="6,429,147,147" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
   </Item>
   <item name="sovietposter1" nameidentifier="sovietposter1" identifier="sovietposter1" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="0,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="0,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter2" nameidentifier="sovietposter2" identifier="sovietposter2" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="161,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="161,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter3" nameidentifier="sovietposter3" identifier="sovietposter3" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="0,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="0,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter4" nameidentifier="sovietposter4" identifier="sovietposter4" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="161,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="161,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter5" nameidentifier="sovietposter5" identifier="sovietposter5" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="0,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="0,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter6" nameidentifier="sovietposter6" identifier="sovietposter6" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="161,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="161,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter7" nameidentifier="sovietposter7" identifier="sovietposter7" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="0,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="0,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
   <item name="sovietposter8" nameidentifier="sovietposter8" identifier="sovietposter8" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/soviet_posters.png" sourcerect="161,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/soviet_posters.png" sourcerect="161,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </item>
  <OpDeco name="Reich_flag_square" nameidentifier="Reich_flag_square" identifier="Reich_flag_square" width="120" height="120" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="0,0,120,120" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="0,0,120,120" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
  <OpDeco name="Reich_flag_long" nameidentifier="Reich_flag_long" identifier="Reich_flag_long" width="130" height="208" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="125,0,130,208" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="125,0,130,208" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
  <OpDeco name="Reich_flag_triangle" nameidentifier="Reich_flag_triangle" identifier="Reich_flag_triangle" width="128" height="171" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="274,0,128,171" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="274,0,128,171" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
  <OpDeco name="Reich_eagle" nameidentifier="Reich_eagle" identifier="Reich_eagle" width="130" height="158" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="417,0,130,158" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="417,0,130,158" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <OpDeco name="Ola_banner" identifier="Ola_banner" width="198" height="146" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="562,6,198,146" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="562,6,198,146" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <OpDeco name="Scratches_ver" identifier="Scratches_ver" width="128" height="234" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="786,6,128,234" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="786,6,128,234" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <OpDeco name="Scratches_hor" identifier="Scratches_hor" width="143" height="74" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
-    <sprite texture="Mods/Zvezda Bundle/Map/stuff.png" sourcerect="785,250,143,74" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="Mods/Zvezda Bundle/Map/Walls/stuff.png" sourcerect="785,250,143,74" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>    
 </Items>

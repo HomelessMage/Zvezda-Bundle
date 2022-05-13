@@ -27,6 +27,35 @@
 
   <<!--Tools-->
   <Item file="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Tools/Cleaner/Clean.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Tools/Demian/flags.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Tools/Tools/tools.xml" />
+
+  <<!--Weapons-->
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/Cannons/coilgun.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/Melee/Melee.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/weapons.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
+
+  <<!--Map-->
+  <Item file="Mods/Zvezda Bundle/Items/Map/decor/decorsuff.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_dockingports.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_doors.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Map/Generator/generator.xml" />
+
+  <Item file="Mods/Zvezda Bundle/Items/Map/locations/locationsTypes.xml" />
+
+  <Item file="Mods/Zvezda Bundle/Items/Map/Torgomat/torgomat.xml" />
+  <Item file="Mods/Zvezda Bundle/Items/Map/Walls/Walls.xml" />
+
+
+  <<!--Systems-->
+  <Item file="Mods/Zvezda Bundle/Systems/Gardening/gardeningtools.xml" />
+  <Item file="Mods/Zvezda Bundle/Systems/Music items/Misc.xml" />
+  <Item file="Mods/Zvezda Bundle/Systems/Nourishment/nourishment.xml" />
+  <Item file="Mods/Zvezda Bundle/Systems/Reactor/reactor.xml" />
+
+
 
 
 

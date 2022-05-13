@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <sounds>
-  <!--<startupsound file="Content/Sounds/StartDrone.ogg"/>-->
+  <startupsound file="Mods/Zvezda Bundle/Sounds/Main Menu Music2.ogg"/>
 
   <!--
   <music file="Content/Sounds/Music/Simplex.ogg" type="default"/>
   <music file="Content/Sounds/Music/Tenebrous Brothers Carnival - Prelude.ogg" type="default"/>
   -->
 
-  <music file="Mods/Zvezda Bundle/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/>
+    <!--<music file="Mods/Zvezda Bundle/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/> -->
 
   <music file="Content/Sounds/Music/Subaquatic Symphony for Hammer And Metal.ogg" type="editor" continuefromprevioustime="true"/>
   

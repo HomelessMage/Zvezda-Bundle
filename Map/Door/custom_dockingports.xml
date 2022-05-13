@@ -96,14 +96,14 @@
   <Item name="Docking Rail Vertical" identifier="dockingrailvertical" tags="dock" linkable="true" scale="0.5" 
   description="A docking interface aligned along a vertical rail."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="0,0,128,160" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="0,0,128,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="32" y="0" width="64" height="160" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,256" DockedDistance="176">
       <StatusEffect type="OnSecondaryUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail2.ogg" type="OnSecondaryUse" range="4000.0" volume="0.7" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail2.ogg" type="OnSecondaryUse" range="4000.0" volume="0.7" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail1.ogg" type="OnUse" range="4000.0" volume="0.7" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail1.ogg" type="OnUse" range="4000.0" volume="0.7" />
       </StatusEffect>
     </DockingPort>
     <PowerTransfer CanBeOverloaded="false" FireProbability="0.0" />
@@ -122,14 +122,14 @@
   <Item name="Docking Rail Horizontal" identifier="dockingrailhorizontal" tags="dock" linkable="true" scale="0.5" 
   description="A docking interface aligned along a horizontal rail."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="128,0,160,128" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="128,0,160,128" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="-32" width="160" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="256,64" DockedDistance="176">
       <StatusEffect type="OnSecondaryUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail2.ogg" type="OnSecondaryUse" range="4000.0" volume="0.7" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail2.ogg" type="OnSecondaryUse" range="4000.0" volume="0.7" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail1.ogg" type="OnUse" range="4000.0" volume="0.7" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail1.ogg" type="OnUse" range="4000.0" volume="0.7" />
       </StatusEffect>
     </DockingPort>
     <PowerTransfer CanBeOverloaded="false" FireProbability="0.0" />
@@ -148,7 +148,7 @@
   <Item name="Small Docking Port" identifier="dockingportsmall" tags="dock" linkable="true" scale="0.5"
   description="A vertically aligned docking interface in a thin form-factor."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="160" height="60" />
     <trigger x="0" y="-358" width="160" height="60" />
     <DockingPort IsHorizontal="true" DistanceTolerance="200,64" DockedDistance="110">
@@ -168,11 +168,11 @@
     <Wire />
     <LightComponent range="10.0" lightcolor="255,0,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="false" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="0,255,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="true" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
@@ -188,7 +188,7 @@
   <Item name="Small Docking Hatch" identifier="dockinghatchsmall" tags="dock" linkable="true" scale="0.5" 
   description="A horizontally aligned docking interface in a thin form-factor."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="60" height="160" />
     <trigger x="196" y="0" width="60" height="160" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,200" DockedDistance="110">
@@ -208,11 +208,11 @@
     <Wire />
     <LightComponent range="10.0" lightcolor="255,0,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="false" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="0,255,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="true" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
@@ -228,7 +228,7 @@
   <Item name="Small Docking Port (Silent)" identifier="dockingportsmallsilent" tags="dock" linkable="true" scale="0.5"
   description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="160" height="60" />
     <trigger x="0" y="-358" width="160" height="60" />
     <DockingPort IsHorizontal="true" DistanceTolerance="200,64" DockedDistance="110">
@@ -246,11 +246,11 @@
     <Wire />
     <LightComponent range="10.0" lightcolor="255,0,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="false" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="0,255,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="true" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="168,136,80,208" depth="0.9" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
@@ -266,7 +266,7 @@
   <Item name="Small Docking Hatch (Silent)" identifier="dockinghatchsmallsilent" tags="dock" linkable="true" scale="0.5" 
   description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="60" height="160" />
     <trigger x="196" y="0" width="60" height="160" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,200" DockedDistance="110">
@@ -284,11 +284,11 @@
     <Wire />
     <LightComponent range="10.0" lightcolor="255,0,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="false" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="0,255,0,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false">
       <IsActive targetitemcomponent="DockingPort" docked="true" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="560,2,136,88" depth="0.9" origin="0.5,0.5" alpha="1.0"  />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
       <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
@@ -304,14 +304,14 @@
   <Item name="Docking Port Micro" identifier="dockingportmicro" tags="dock" linkable="true" scale="0.5" 
   description="A vertically aligned docking interface in a very small form-factor."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="560,96,72,64" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="560,96,72,64" depth="0.94" origin="0.5,0.5" />
     <trigger x="4" y="0" width="64" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,175" DockedDistance="64">
       <StatusEffect type="OnSecondaryUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail2.ogg" type="OnSecondaryUse" range="1500.0" volume="0.5" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail2.ogg" type="OnSecondaryUse" range="1500.0" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail1.ogg" type="OnUse" range="1500.0" volume="0.5" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail1.ogg" type="OnUse" range="1500.0" volume="0.5" />
       </StatusEffect>
     </DockingPort>
     <PowerTransfer CanBeOverloaded="false" FireProbability="0.0" />
@@ -330,14 +330,14 @@
   <Item name="Docking Hach Micro" identifier="dockinghatchmicro" tags="dock" linkable="true" scale="0.5" 
   description="A horizontally aligned docking interface in a very small form-factor."
   indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/dockingports_custom.png" sourcerect="640,96,64,72" depth="0.94" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/dockingports_custom.png" sourcerect="640,96,64,72" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="-4" width="64" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="175,64" DockedDistance="64">
       <StatusEffect type="OnSecondaryUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail2.ogg" type="OnSecondaryUse" range="1500.0" volume="0.5" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail2.ogg" type="OnSecondaryUse" range="1500.0" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
-        <sound file="Mods/Zvezda Bundle/Items/Door/dockingrail1.ogg" type="OnUse" range="1500.0" volume="0.5" />
+        <sound file="Mods/Zvezda Bundle/Map/Door/dockingrail1.ogg" type="OnUse" range="1500.0" volume="0.5" />
       </StatusEffect>
     </DockingPort>
     <PowerTransfer CanBeOverloaded="false" FireProbability="0.0" />

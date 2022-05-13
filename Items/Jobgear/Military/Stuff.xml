@@ -2,32 +2,8 @@
 <Items>
 
 <!-- Наручники -->
-  <Item name="" identifier="handcuffs" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,handlocker" scale="0.5" impactsoundtag="impact_metal_light" equipconfirmationtext="handcuffequipconfirmation">
-      <Upgrade gameversion="0.10.0.0" scale="0.5"/>
-      <PreferredContainer primary="armcab" minamount="0" maxamount="2" spawnprobability="1"/>
-      <Price baseprice="30" soldeverywhere="false">
-        <Price locationtype="outpost" multiplier="1" minavailable="1"/>
-        <Price locationtype="city" multiplier="0.9" minavailable="2"/>
-        <Price locationtype="research" multiplier="1" sold="false"/>
-        <Price locationtype="military" multiplier="0.9" minavailable="3"/>
-        <Price locationtype="mine" multiplier="1" sold="false"/>
-      </Price>
-      <Deconstruct time="10">
-        <Item identifier="steel"/>
-      </Deconstruct>
-      <Fabricate suitablefabricators="fabricator" requiredtime="10">
-        <RequiredSkill identifier="weapons" level="20"/>
-        <RequiredItem identifier="steel"/>
-      </Fabricate>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/InventoryIconAtlas.png" sourcerect="192,0,64,64" origin="0.5,0.5"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" sourcerect="405,0,56,49" depth="0.6"/>
-      <Body width="50" height="34" density="40"/>
-      <Wearable slots="Any,RightHand+LeftHand" msg="ItemMsgPickUpSelect" autoequipwhenfull="false">
-        <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" limb="RightHand" sourcerect="462,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
-        <sprite texture="Mods/Zvezda Bundle/Items/Jobgear/safetyharness.png" limb="LeftHand" sourcerect="487,1,25,16" origin="0.5,0.8" depth="0.09" inheritlimbdepth="false" inherittexturescale="true"/>
-        <StatusEffect type="OnWearing" target="Character" lockhands="true" setvalue="true"/>
-      </Wearable>
-    </Item>
+
+
 
 
 <!-- Бронещит -->

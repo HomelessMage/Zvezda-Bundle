@@ -6,12 +6,12 @@
   <Item name="Glass Door" identifier="glassdoor" tags="door" scale="0.5" 
   description="A sliding door with a huge window. No integrated buttons - has to be wired manually."
   health="80" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
 	<Sprite texture="Content/Items/Door/door.png" sourcerect="0,0,49,416" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,416" depth="0.89" origin="0.5,0.5"/>
     <Door window="0,-48,48,320" canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="0.7,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,0,48,416" depth="0.05" origin="0.5,0.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,0,48,416" depth="0.05" origin="0.5,0.0" />
       <WeldedSprite texture="Content/Items/Door/door.png" sourcerect="203,0,65,377" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/door.png" sourcerect="392,0,120,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -48,13 +48,13 @@
   <Item name="Glass Door with Buttons" identifier="glassdoorwbuttons" tags="door" scale="0.5" 
   description="A sliding door with a huge window and two integrated buttons."
   health="80" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/door.png" sourcerect="0,0,49,416" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door2.png" sourcerect="0,0,170,416" depth="0.89" origin="0.51,0.5"/>
     <Door window="0,-48,48,320" canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="0.7,1" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,0,48,416" depth="0.05" origin="0.5,0.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,0,48,416" depth="0.05" origin="0.5,0.0" />
       <WeldedSprite texture="Content/Items/Door/door.png" sourcerect="203,0,65,377" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/door.png" sourcerect="392,0,120,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -92,11 +92,11 @@
   <Item name="Windowed Hatch" identifier="glasshatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A windowed door, but on the horizontal axis. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/hatch.png" sourcerect="0,0,256,98" depth="0.7" origin="0.5,0.5" />
     <Door window="48,0,160,48" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,0,256,48" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,0,256,48" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -127,13 +127,13 @@
   <Item name="Windowed Hatch with Buttons" identifier="glasshatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A windowed door, but on the horizontal axis. Two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/hatch.png" sourcerect="0,0,256,98" depth="0.7" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/hatch.png" sourcerect="0,234,256,193" depth="0.89" origin="0.5,0.5"/>
     <Door window="48,0,160,48" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgOpen" PickingTime="10.0" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,0,256,48" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,0,256,48" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -205,12 +205,12 @@
   <Item name="Short Door" identifier="shortdoor" tags="door" scale="0.5"
   description="A door with the same size as a hatch. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,256" depth="0.89" origin="0.5,0.5"/>
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="0.7,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="392,416,40,256" depth="0.05" origin="0.5,0.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="392,416,40,256" depth="0.05" origin="0.5,0.0" />
       <WeldedSprite texture="Content/Items/Door/door.png" sourcerect="203,0,65,256" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/door.png" sourcerect="271,80,121,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -241,13 +241,13 @@
   <Item name="Short Door With Buttons" identifier="shortdoorwbuttons" tags="door" scale="0.5"
   description="A door with the same size as a hatch with two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,256" depth="0.89" origin="0.5,0.5"/>
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="0.7,1" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="392,416,40,256" depth="0.05" origin="0.5,0.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="392,416,40,256" depth="0.05" origin="0.5,0.0" />
       <WeldedSprite texture="Content/Items/Door/door.png" sourcerect="203,0,65,256" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/door.png" sourcerect="271,80,121,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -284,15 +284,15 @@
   description="A heavy bulkhead door. No integrated buttons - has to be wired manually."
   health="450" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
-    <DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="320,0,96,416" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
+    <DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="320,0,96,416" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="0.7,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -318,16 +318,16 @@
   description="A heavy bulkhead door with two integrated buttons."
   health="450" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
-    <DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="320,0,96,416" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
+    <DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="320,0,96,416" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="0.7,1" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -356,15 +356,15 @@
   description="A heavily armored shutter. No integrated buttons - has to be wired manually."
   health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
-    <DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="192,416,88,416" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
+    <DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="192,416,88,416" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="0.7,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="96,416,88,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="96,416,88,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -390,16 +390,16 @@
   description="A heavily armored shutter. No integrated buttons - has to be wired manually."
   health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
-    <DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="192,416,88,416" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
+    <DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="192,416,88,416" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="0.7,1" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="96,416,88,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="96,416,88,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,432" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -428,14 +428,14 @@
   description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually."
   health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,0,384,80" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,0,384,80" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -461,15 +461,15 @@
   description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually."
   health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
 	<!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="20.0" openingspeed="0.7" closingspeed="0.7" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="352,0,384,80" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="352,0,384,80" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/blastdoor1_move.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -499,18 +499,18 @@
   <Item name="Maintenance Panel A Vertical 416" identifier="doormaintenance1_vertical416" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,512,64,416" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,512,64,416" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,512,64,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,512,64,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="4000.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -534,18 +534,18 @@
   <Item name="Maintenance Panel A Vertical 256" identifier="doormaintenance1_vertical256" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="320,512,64,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="320,512,64,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="320,512,64,256" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="320,512,64,256" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -569,18 +569,18 @@
   <Item name="Maintenance Panel A Horizontal 384" identifier="doormaintenance1_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,0,384,64" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,0,384,64" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,0,384,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,0,384,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -604,18 +604,18 @@
   <Item name="Maintenance Panel A Horizontal 256" identifier="doormaintenance1_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,0,256,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,0,256,64" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,0,256,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,0,256,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -639,18 +639,18 @@
   <Item name="Maintenance Panel B Vertical 416" identifier="doormaintenance2_vertical416" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="64,512,96,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="768,0,96,416" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="64,512,96,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="768,0,96,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="64,512,96,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,416" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="64,512,96,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,448,224,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -674,18 +674,18 @@
   <Item name="Maintenance Panel B Vertical 256" identifier="doormaintenance2_vertical256" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="384,512,96,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="768,448,96,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="384,512,96,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="768,448,96,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="384,512,96,256" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="672,448,224,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="384,512,96,256" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="512,0,96,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="672,448,224,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -709,18 +709,18 @@
   <Item name="Maintenance Panel B Horizontal 384" identifier="doormaintenance2_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal thick hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,64,384,96" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,384,384,96" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,64,384,96" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,384,384,96" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,64,384,96" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,608,384,224" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,64,384,96" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,96,384,96" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,608,384,224" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -744,18 +744,18 @@
   <Item name="Maintenance Panel B Horizontal 256" identifier="doormaintenance2_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal thick hull wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,64,256,96" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,384,256,96" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,64,256,96" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,384,256,96" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,64,256,96" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,96,256,96" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="672,736,256,224" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,64,256,96" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,96,256,96" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="672,736,256,224" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -779,18 +779,18 @@
   <Item name="Maintenance Panel C Vertical 416" identifier="doormaintenance3_vertical416" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical legacy wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="160,512,64,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="160,512,64,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="160,512,64,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="160,512,64,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -814,18 +814,18 @@
   <Item name="Maintenance Panel C Vertical 256" identifier="doormaintenance3_vertical256" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical legacy wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="480,512,64,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="480,512,64,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="480,512,64,256" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="480,512,64,256" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -849,18 +849,18 @@
   <Item name="Maintenance Panel C Horizontal 384" identifier="doormaintenance3_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal legacy wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,160,384,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,160,384,64" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,160,384,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,160,384,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -884,18 +884,18 @@
   <Item name="Maintenance Panel C Horizontal 256" identifier="doormaintenance3_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal legacy wall."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,160,256,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,160,256,64" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,160,256,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,160,256,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -919,18 +919,18 @@
   <Item name="Maintenance Panel D Vertical 416" identifier="doormaintenance4_vertical416" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical armor wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.35" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="224,512,64,416" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="224,512,64,416" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="224,512,64,416" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="224,512,64,416" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,416" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="640,0,160,416" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -954,18 +954,18 @@
   <Item name="Maintenance Panel D Vertical 256" identifier="doormaintenance4_vertical256" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical armor wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.35" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="544,512,64,256" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="544,512,64,256" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="544,512,64,256" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="544,512,64,256" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -989,18 +989,18 @@
   <Item name="Maintenance Panel D Horizontal 384" identifier="doormaintenance4_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal armor wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.35" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,224,384,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,224,384,64" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="0,224,384,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="0,224,384,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,384,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,224,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -1024,18 +1024,18 @@
   <Item name="Maintenance Panel D Horizontal 256" identifier="doormaintenance4_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" 
   description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal armor wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.35" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,224,256,64" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,224,256,64" origin="0.5,0.5" />
+    <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1.png" sourcerect="416,224,256,64" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1.png" sourcerect="416,224,256,64" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,256,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door2.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door3.ogg" type="OnUse" range="500.0" />
       <sound file="Content/Items/Door/Door4.ogg" type="OnUse" range="500.0" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/maintenancepanel1_move.ogg" type="OnPicked" range="650.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
       <sound file="Content/Items/Door/DoorBreak1.ogg" type="OnBroken" selectionmode="Random" range="3000" />
@@ -1061,11 +1061,11 @@
   <Item name="Shuttle Shell Hatch" identifier="shuttleshellhatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with window. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1096,13 +1096,13 @@
   <Item name="Shuttle Shell Hatch with Buttons" identifier="shuttleshellhatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window and two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgOpen" PickingTime="10.0" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1134,11 +1134,11 @@
   <Item name="Windowed Shuttle Shell Hatch" identifier="windowedshuttleshellhatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
     <Door window="48,0,160,88" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1169,13 +1169,13 @@
   <Item name="Windowed Shuttle Shell Hatch with Buttons" identifier="windowedshuttleshellhatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window and two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" origin="0.0,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" origin="0.0,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
     <Door window="48,0,160,88" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgOpen" PickingTime="10.0" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1207,11 +1207,11 @@
   <Item name="Shuttle Shell Hatch Mirrored" identifier="shuttleshellhatch_mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with window. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1242,13 +1242,13 @@
   <Item name="Shuttle Shell Hatch with Buttons Mirrored" identifier="shuttleshellhatchwbuttons_mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window and two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgOpen" PickingTime="10.0" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,0,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1280,11 +1280,11 @@
   <Item name="Windowed Shuttle Shell Hatch Mirrored" identifier="windowedshuttleshellhatch_mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window. No integrated buttons - has to be wired manually."
   health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
     <Door window="48,0,160,88" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1315,13 +1315,13 @@
   <Item name="Windowed Shuttle Shell Hatch with Buttons Mirrored" identifier="windowedshuttleshellhatchwbuttons_mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" 
   description="A shuttle shell access hatch with a window and two integrated buttons."
   health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="264,0,256,88" depth="0.7" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="528,1,256,190" depth="0.89" origin="0.5,0.5"/>
     <Door window="48,0,160,88" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgOpen" PickingTime="10.0" shadowscale="1,0.8" hasintegratedbuttons="true">
       <RequiredItem items="crowbar" type="Equipped" optional="true"/>
       <Requireditem items="idcard" type="Picked" optional="true"/>
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,96,256,88" depth="0.05" origin="0.0,0.5" />
       <WeldedSprite texture="Content/Items/Door/hatch.png" sourcerect="0,100,227,75" depth="0.0" origin="0.5,0.5" />
       <BrokenSprite texture="Content/Items/Door/hatch.png" sourcerect="256,45,256,114" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Door1.ogg" type="OnUse" range="500.0" />
@@ -1355,14 +1355,14 @@
   <Item name="Shell Door Horizontal A 256" identifier="shelldoor1_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,192,128,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,192,128,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,192,128,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,192,128,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1387,14 +1387,14 @@
   <Item name="Windowed Shell Door Horizontal A 256" identifier="shelldoor1windowed_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,272,128,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,272,128,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="32,0,64,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,272,128,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,272,128,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1419,14 +1419,14 @@
   <Item name="Shell Door Horizontal A 512" identifier="shelldoor1_horizontal512" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,352,256,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,352,256,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,352,256,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,352,256,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1451,14 +1451,14 @@
   <Item name="Windowed Shell Door Horizontal A 512" identifier="shelldoor1windowed_horizontal512" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,432,256,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,432,256,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="64,0,128,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,432,256,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,432,256,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1483,14 +1483,14 @@
   <Item name="Shell Door Horizontal A 768" identifier="shelldoor1_horizontal768" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,512,384,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,512,384,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,512,384,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,512,384,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1515,14 +1515,14 @@
   <Item name="Windowed Shell Door Horizontal A 768" identifier="shelldoor1windowed_horizontal768" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,592,384,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,592,384,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="96,0,192,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,592,384,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,592,384,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1547,14 +1547,14 @@
   <Item name="Shell Door Horizontal A 1024" identifier="shelldoor1_horizontal1024" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,672,512,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,672,512,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,672,512,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,672,512,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1579,14 +1579,14 @@
   <Item name="Windowed Shell Door Horizontal A 1024" identifier="shelldoor1windowed_horizontal1024" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,752,512,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,752,512,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="160,0,192,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,752,512,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,752,512,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1611,14 +1611,14 @@
   <Item name="Shell Door Horizontal A 1536" identifier="shelldoor1_horizontal1536" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,832,768,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,832,768,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.084" closingspeed="0.084" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,832,768,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,832,768,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1643,14 +1643,14 @@
   <Item name="Windowed Shell Door Horizontal A 1536" identifier="shelldoor1windowed_horizontal1536" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,912,768,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,912,768,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="224,0,320,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.084" closingspeed="0.084" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="0,912,768,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="0,912,768,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1675,14 +1675,14 @@
   <Item name="Shell Door Vertical A 256" identifier="shelldoor1_vertical256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="136,192,72,128" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="136,192,72,128" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="136,192,72,128" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="136,192,72,128" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1707,13 +1707,13 @@
   <Item name="Windowed Shell Door Vertical A 256" identifier="shelldoor1windowed_vertical256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="216,192,72,128" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="216,192,72,128" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-32,24,64" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">      <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="216,192,72,128" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="216,192,72,128" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1738,14 +1738,14 @@
   <Item name="Shell Door Vertical A 512" identifier="shelldoor1_vertical512" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="296,192,72,256" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="296,192,72,256" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="296,192,72,256" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="296,192,72,256" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1770,14 +1770,14 @@
   <Item name="Windowed Shell Door Vertical A 512" identifier="shelldoor1windowed_vertical512" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="376,192,72,256" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="376,192,72,256" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-64,24,128" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="376,192,72,256" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="376,192,72,256" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1802,14 +1802,14 @@
   <Item name="Shell Door Vertical A 768" identifier="shelldoor1_vertical768" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="456,192,72,384" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="456,192,72,384" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="456,192,72,384" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="456,192,72,384" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1834,14 +1834,14 @@
   <Item name="Windowed Shell Door Vertical A 768" identifier="shelldoor1windowed_vertical768" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="536,192,72,384" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="536,192,72,384" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-96,24,192" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="536,192,72,384" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="536,192,72,384" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1866,14 +1866,14 @@
   <Item name="Shell Door Vertical A 1024" identifier="shelldoor1_vertical1024" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="616,192,72,512" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="616,192,72,512" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="616,192,72,512" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="616,192,72,512" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1898,14 +1898,14 @@
   <Item name="Windowed Shell Door Vertical A 1024" identifier="shelldoor1windowed_vertical1024" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="696,192,72,512" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="696,192,72,512" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-160,24,192" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1.png" sourcerect="696,192,72,512" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1.png" sourcerect="696,192,72,512" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1932,14 +1932,14 @@
   <Item name="Shell Door Horizontal A 256 Mirrored" identifier="shelldoor1_horizontal256mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,192,128,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,192,128,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,192,128,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,192,128,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1964,14 +1964,14 @@
   <Item name="Windowed Shell Door Horizontal A 256 Mirrored" identifier="shelldoor1windowed_horizontal256mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,272,128,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,272,128,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,128,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="32,0,64,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,272,128,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,272,128,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,128,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -1996,14 +1996,14 @@
   <Item name="Shell Door Horizontal A 512 Mirrored" identifier="shelldoor1_horizontal512mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,352,256,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,352,256,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,352,256,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,352,256,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2028,14 +2028,14 @@
   <Item name="Windowed Shell Door Horizontal A 512 Mirrored" identifier="shelldoor1windowed_horizontal512mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,432,256,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,432,256,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,256,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="64,0,128,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,432,256,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,432,256,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,256,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,256,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2060,14 +2060,14 @@
   <Item name="Shell Door Horizontal A 768 Mirrored" identifier="shelldoor1_horizontal768mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,512,384,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,512,384,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,512,384,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,512,384,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2092,14 +2092,14 @@
   <Item name="Windowed Shell Door Horizontal A 768 Mirrored" identifier="shelldoor1windowed_horizontal768mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,592,384,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,592,384,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,384,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="96,0,192,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,592,384,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,592,384,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,384,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,384,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2124,14 +2124,14 @@
   <Item name="Shell Door Horizontal A 1024 Mirrored" identifier="shelldoor1_horizontal1024mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,672,512,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,672,512,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,672,512,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,672,512,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2156,14 +2156,14 @@
   <Item name="Windowed Shell Door Horizontal A 1024 Mirrored" identifier="shelldoor1windowed_horizontal1024mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,752,512,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,752,512,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,512,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="160,0,192,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,752,512,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,752,512,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,512,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,512,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2188,14 +2188,14 @@
   <Item name="Shell Door Horizontal A 1536 Mirrored" identifier="shelldoor1_horizontal1536mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,832,768,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,832,768,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.084" closingspeed="0.084" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,832,768,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,832,768,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2220,14 +2220,14 @@
   <Item name="Windowed Shell Door Horizontal A 1536 Mirrored" identifier="shelldoor1windowed_horizontal1536mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Horizontal shell wall."
   health="300" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,912,768,72" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,912,768,72" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,992,768,72" depth="0.89" origin="0.5,0.5" />
 	<Door window="224,0,320,72" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.084" closingspeed="0.084" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="0,912,768,72" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="0,912,768,72" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,768,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,768,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2252,14 +2252,14 @@
   <Item name="Shell Door Vertical A 256 Mirrored" identifier="shelldoor1_vertical256mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="136,192,72,128" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="136,192,72,128" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="136,192,72,128" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="136,192,72,128" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2284,13 +2284,13 @@
   <Item name="Windowed Shell Door Vertical A 256 Mirrored" identifier="shelldoor1windowed_vertical256mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="150" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="216,192,72,128" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="216,192,72,128" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,128" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-32,24,64" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">      <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="216,192,72,128" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="216,192,72,128" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,128" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2315,14 +2315,14 @@
   <Item name="Shell Door Vertical A 512 Mirrored" identifier="shelldoor1_vertical512mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="296,192,72,256" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="296,192,72,256" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="296,192,72,256" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="296,192,72,256" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2347,14 +2347,14 @@
   <Item name="Windowed Shell Door Vertical A 512 Mirrored" identifier="shelldoor1windowed_vertical512mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="200" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="376,192,72,256" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="376,192,72,256" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,256" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-64,24,128" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.25" closingspeed="0.25" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="376,192,72,256" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="376,192,72,256" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2379,14 +2379,14 @@
   <Item name="Shell Door Vertical A 768 Mirrored" identifier="shelldoor1_vertical768mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="456,192,72,384" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="456,192,72,384" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="456,192,72,384" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="456,192,72,384" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2411,14 +2411,14 @@
   <Item name="Windowed Shell Door Vertical A 768 Mirrored" identifier="shelldoor1windowed_vertical768mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="536,192,72,384" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="536,192,72,384" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,384" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-96,24,192" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.166" closingspeed="0.166" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="536,192,72,384" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="536,192,72,384" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2443,14 +2443,14 @@
   <Item name="Shell Door Vertical A 1024 Mirrored" identifier="shelldoor1_vertical1024mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="616,192,72,512" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="616,192,72,512" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
 	<Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="616,192,72,512" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="616,192,72,512" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2475,14 +2475,14 @@
   <Item name="Windowed Shell Door Vertical A 1024 Mirrored" identifier="shelldoor1windowed_vertical1024mirrored" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="1" 
   description="A sliding exterior hull door. Vertical shell wall."
   health="250" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.2" allowrotatingineditor="false">
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="696,192,72,512" origin="0.5,0.5" />
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
+    <InventoryIcon texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="696,192,72,512" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="936,192,72,512" depth="0.89" origin="0.5,0.5" />
 	<Door window="24,-160,24,192" canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" openingspeed="0.125" closingspeed="0.125" shadowscale="0.8,1">
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="696,192,72,512" depth="0.05" origin="0.5,0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
-      <sound file="Mods/Zvezda Bundle/Items/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="696,192,72,512" depth="0.05" origin="0.5,0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="1016,192,72,256" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="0,160,160,256" depth="0.051" origin="0.5,0.0" scale="true" />
+      <sound file="Mods/Zvezda Bundle/Map/Door/exteriorshelldoor1_move.ogg" type="OnUse" range="1000.0" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="4000.0" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnFailure" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnFailure" range="300" />
@@ -2509,12 +2509,12 @@
   <Item name="Medium Duct A" identifier="mediumduct1" tags="ductblock" scale="0.5" 
   description="A mechanically operated vent that may be opened or closed to allow the passage of water."
   damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,64,128,64" depth="0.01" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,64,128,64" depth="0.01" origin="0.5,0.5" />
     <Door canbepicked="true" canbeselected="true" horizontal="true" pickkey="Action" impassable="true" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" >
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,128,128,32" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,128,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,128,128,32" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,128,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,128,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnUse" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnUse" range="300" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="500.0" />
@@ -2538,12 +2538,12 @@
   <Item name="Medium Duct B" identifier="mediumduct2" tags="ductblock" scale="0.5" 
   description="A mechanically operated vent that may be opened or closed to allow the passage of water."
   damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,64,192,64" depth="0.01" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,64,192,64" depth="0.01" origin="0.5,0.5" />
     <Door canbepicked="true" canbeselected="true" horizontal="true" pickkey="Action" impassable="true" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" >
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,160,192,32" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,0,192,64" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="0,416,192,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,160,192,32" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,0,192,64" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="0,416,192,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnUse" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnUse" range="300" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="500.0" />
@@ -2567,12 +2567,12 @@
   <Item name="Medium Duct C" identifier="mediumduct3" tags="ductblock" scale="0.5" 
   description="A mechanically operated vent that may be opened or closed to allow the passage of water."
   damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="256,64,64,128" depth="0.01" origin="0.5,0.5" />
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="256,64,64,128" depth="0.01" origin="0.5,0.5" />
     <Door canbepicked="true" canbeselected="true" pickkey="Action" impassable="true" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" >
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="320,64,32,128" depth="0.05" origin="0.5,0.0" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,128" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="320,64,32,128" depth="0.05" origin="0.5,0.0" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="416,0,64,128" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_maintenancepanels1break.png" sourcerect="800,0,160,128" depth="0.051" origin="0.5,0.0" scale="true" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnUse" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnUse" range="300" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="500.0" />
@@ -2596,13 +2596,13 @@
   <Item name="Shell Duct Horizontal" identifier="shellduct1_horizontal" tags="ductblock" scale="1" 
   description="A mechanically operated vent that may be opened or closed to allow the passage of water."
   damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,200,96,72" depth="0.01" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="272,200,64,48" depth="0.89" origin="0.5,0.5"/>
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,200,96,72" depth="0.01" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="272,200,64,48" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" horizontal="true" pickkey="Action" impassable="true" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" >
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,280,96,40" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,96,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,96,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,280,96,40" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,96,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,96,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnUse" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnUse" range="300" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="500.0" />
@@ -2626,13 +2626,13 @@
   <Item name="Shell Duct Horizontal Mirrored" identifier="shellduct1_horizontalmirrored" tags="ductblock" scale="1" 
   description="A mechanically operated vent that may be opened or closed to allow the passage of water."
   damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
-	<Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="168,200,96,72" depth="0.01" origin="0.5,0.5" />
-	<DecorativeSprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="272,256,64,48" depth="0.89" origin="0.5,0.5"/>
+	<Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="168,200,96,72" depth="0.01" origin="0.5,0.5" />
+	<DecorativeSprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="272,256,64,48" depth="0.89" origin="0.5,0.5"/>
     <Door canbepicked="true" canbeselected="true" horizontal="true" pickkey="Action" impassable="true" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" >
       <RequiredItem items="crowbar" type="Equipped" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Door/door_custom1.png" sourcerect="64,280,96,40" depth="0.05" origin="0.0,0.5" />
-      <WeldedSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors2.png" sourcerect="288,112,96,72" depth="0.0" origin="0.5,0.5" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Door/door_exteriordoors1break.png" sourcerect="160,0,96,160" depth="0.051" origin="0.0,0.5" scale="true" />
+      <Sprite texture="Mods/Zvezda Bundle/Map/Door/door_custom1.png" sourcerect="64,280,96,40" depth="0.05" origin="0.0,0.5" />
+      <WeldedSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors2.png" sourcerect="288,112,96,72" depth="0.0" origin="0.5,0.5" />
+      <BrokenSprite texture="Mods/Zvezda Bundle/Map/Door/door_exteriordoors1break.png" sourcerect="160,0,96,160" depth="0.051" origin="0.0,0.5" scale="true" />
       <sound file="Content/Items/Door/Duct1.ogg" type="OnUse" selectionmode="Random" range="300" />
       <sound file="Content/Items/Door/Duct2.ogg" type="OnUse" range="300" />
       <sound file="Content/Items/Tools/Crowbar.ogg" type="OnPicked" range="500.0" />
