@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" path="Mods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.17.12.0" steamworkshopid="2676179277" installtime="1647372265">
-  <Sounds file="Mods/Zvezda Bundle/Sounds/sounds.xml" />
-  <UIStyle file="Mods/Zvezda Bundle/UI/style.xml" />
-  <Character file="Mods/Zvezda Bundle/Characters/Human/Human.xml" />
-  <SkillSettings file="Mods/Zvezda Bundle/SkillSettings.xml" />
-  <Text file="Mods/Zvezda Bundle/Texts/Russian.xml" />
-  <Jobs file="Mods/Zvezda Bundle/Jobs.xml" />
-  <LocationTypes file="Mods/Zvezda Bundle/Map/locationTypes.xml" />
+<contentpackage name="Zvezda Bundle" path="LocalMods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.17.16.0" steamworkshopid="2676179277" installtime="1647372265">
+  <Sounds file="LocalMods/Zvezda Bundle/Sounds/sounds.xml" />
+  <UIStyle file="LocalMods/Zvezda Bundle/UI/loh/style.xml" />
+  <Character file="LocalMods/Zvezda Bundle/Characters/Human/Human.xml" />
+  <SkillSettings file="LocalMods/Zvezda Bundle/SkillSettings.xml" />
+  <Text file="LocalMods/Zvezda Bundle/Texts/Russian.xml" />
+  <Jobs file="LocalMods/Zvezda Bundle/Jobs.xml" />
+  <LocationTypes file="LocalMods/Zvezda Bundle/Map/locations/locationTypes.xml" />
   
   
-  <Afflictions file="Mods/Zvezda Bundle/Afflictions.xml" />
+  <Afflictions file="LocalMods/Zvezda Bundle/Afflictions.xml" />
 
   <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
 
 
   <!--Currency-->
-  <Item file="Mods/Zvezda Bundle/Items/Currency/Currency.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Currency/Currency.xml" />
 
   <!--idcards-->
-  <Item file="Mods/Zvezda Bundle/Items/idcards/idcard.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/idcards/idcard.xml" />
   
   <!--Jobgear-->
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Crew/Crew.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Head/Heads.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Armor.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Military.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Jobgear/Military/Stuff.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Crew/Crew.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Head/Heads.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Armor.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Military.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Stuff.xml" />
 
   <!--Tools-->
-  <Item file="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Tools/Cleaner/Clean.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Tools/Demian/flags.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Tools/Tools/tools.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Cleaner/Clean.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Demian/flags.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Tools/tools.xml" />
 
   <!--Weapons-->
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Cannons/coilgun.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Melee/Melee.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/weapons.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Cannons/coilgun.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Melee/Melee.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Weapon/weapons.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 
   <!--Map-->
-  <Item file="Mods/Zvezda Bundle/Items/Map/decor/decorsuff.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_dockingports.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Map/Door/custom_doors.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Map/Generator/generator.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/decor/decorsuff.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/Door/custom_dockingports.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/Door/custom_doors.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/Generator/generator.xml" />
 
-  <Item file="Mods/Zvezda Bundle/Items/Map/locations/locationsTypes.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/locations/locationsTypes.xml" />
 
-  <Item file="Mods/Zvezda Bundle/Items/Map/Torgomat/torgomat.xml" />
-  <Item file="Mods/Zvezda Bundle/Items/Map/Walls/Walls.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/Torgomat/torgomat.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Items/Map/Walls/Walls.xml" />
 
 
   <!--Systems-->
-  <Item file="Mods/Zvezda Bundle/Systems/Gardening/gardeningtools.xml" />
-  <Item file="Mods/Zvezda Bundle/Systems/Music items/Misc.xml" />
-  <Item file="Mods/Zvezda Bundle/Systems/Nourishment/nourishment.xml" />
-  <Item file="Mods/Zvezda Bundle/Systems/Reactor/reactor.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Systems/Gardening/gardeningtools.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Systems/Music items/Misc.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Systems/Nourishment/nourishment.xml" />
+  <Item file="LocalMods/Zvezda Bundle/Systems/Reactor/reactor.xml" />
 
 
 
@@ -172,21 +172,25 @@
   <Wreck file="Content/Map/Wrecks/Berilia_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Wreck1.sub" />
   <Wreck file="Content/Map/Wrecks/Hemulen_Wrecked.sub" />
-  <Submarine file="Submarines/Berilia.sub" />
-  <Submarine file="Submarines/Dugong.sub" />
-  <Submarine file="Submarines/Hemulen.sub" />
-  <Submarine file="Submarines/Humpback.sub" />
-  <Submarine file="Submarines/Kastrull.sub" />
-  <Submarine file="Submarines/KastrullDrone.sub" />
-  <Submarine file="Submarines/Orca.sub" />
-  <Submarine file="Submarines/Remora.sub" />
-  <Submarine file="Submarines/RemoraDrone.sub" />
-  <Submarine file="Submarines/Selkie.sub" />
-  <Submarine file="Submarines/Typhon.sub" />
-  <Submarine file="Submarines/Typhon2.sub" />
-  <Submarine file="Submarines/Venture.sub" />
-  <Submarine file="Submarines/Azimuth.sub" />
-  <Submarine file="Submarines/R-29.sub" />
+  <Submarine file="Content/Submarines/Berilia.sub" />
+  <Submarine file="Content/Submarines/Dugong.sub" />
+  <Submarine file="Content/Submarines/Hemulen.sub" />
+  <Submarine file="Content/Submarines/Humpback.sub" />
+  <Submarine file="Content/Submarines/Kastrull.sub" />
+  <Submarine file="Content/Submarines/KastrullDrone.sub" />
+  <Submarine file="Content/Submarines/Orca.sub" />
+  <Submarine file="Content/Submarines/Orca2.sub" />
+  <Submarine file="Content/Submarines/Remora.sub" />
+  <Submarine file="Content/Submarines/RemoraDrone.sub" />
+  <Submarine file="Content/Submarines/Selkie.sub" />
+  <Submarine file="Content/Submarines/Typhon.sub" />
+  <Submarine file="Content/Submarines/Typhon2.sub" />
+  <Submarine file="Content/Submarines/Venture.sub" />
+  <Submarine file="Content/Submarines/Azimuth.sub" />
+  <Submarine file="Content/Submarines/R-29.sub" />
+  <Submarine file="Content/Submarines/Barsuk.sub" />
+  <Submarine file="Content/Submarines/Herja.sub" />
+  <Submarine file="Content/Submarines/Winterhalter.sub" />
 
   <!--Локализации-->
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
