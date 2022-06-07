@@ -1,54 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <items>
-<!--Сигарета-->
-<Item name="" identifier="cigarette" category="Misc" Tags="smallitem">
-      <Sprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,10,17,2" depth="0.55" maxcondition="0" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
-      <Body width="14" height="1" density="9.9" />
-      <RepairTool>
-         <ParticleEmitter particle="cigsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
-         <LightComponent LightColor="1.0,0.5,0.5,0.2" Flicker="0.4" range="50" IsOn="false">
-            <StatusEffect type="OnUse" target="This" IsOn="true" />
-            <StatusEffect type="OnActive" target="This,Hull" Condition="-2.0">
-               <ParticleEmitter particle="cigsmoke" particlespersecond="1" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
-            </StatusEffect>
-            <StatusEffect type="InWater" target="This" IsOn="false" />
-            <StatusEffect type="OnFire" target="This" Condition="-20" IsOn="true" />
-            <StatusEffect type="OnFire" target="This">
-               <Remove />
-            </StatusEffect>
-            <StatusEffect type="OnBroken" target="This">
-               <Remove />
-            </StatusEffect>
-         </LightComponent>
-      </RepairTool>
-      <Holdable slots="RightHand,LeftHand,Any" controlpose="true" aimpos="30,18" handle1="0,0" handle2="0,0" />
-   </Item>
-   <!--Пачка сигарет-->
-   <Item name="" identifier="cigpack" category="Misc" Tags="cntnr,smallitem">
-      <Sprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="39,1,10,20" depth="0.55" />
-      <BrokenSprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Cigarette.png" sourcerect="50,1,10,20" depth="0.55" maxcondition="0" fadein="true" />
-      <Body width="6" height="16" density="9.8" />
-      <Throwable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" throwforce="2" aimpos="35,-10">
-         <StatusEffect type="OnFire" target="This" Condition="-10" />
-         <StatusEffect type="OnFire" target="This">
-            <Remove />
-         </StatusEffect>
-      </Throwable>
-      <Fabricate suitablefabricators="torgomat" requiredtime="3">
-         <RequiredItem identifier="10rubles" />
-      </Fabricate>
-      <ItemContainer capacity="12" canbeselected="true" hideitems="false" keepopenwhenequipped="true" spawnwithid="cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette">
-         <Containable items="cigarette" />
-      </ItemContainer>
-   </Item>
-
+	<!--Сигарета-->
+	<Item name="" identifier="cigarette" category="Misc" Tags="smallitem">
+		<Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
+		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
+		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,10,17,2" depth="0.55" maxcondition="0" />
+		<InventoryIcon texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+		<Body width="14" height="1" density="9.9" />
+		<RepairTool>
+			<ParticleEmitter particle="cigsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
+			<LightComponent LightColor="1.0,0.5,0.5,0.2" Flicker="0.4" range="50" IsOn="false">
+				<StatusEffect type="OnUse" target="This" IsOn="true" />
+				<StatusEffect type="OnActive" target="This,Hull" Condition="-2.0">
+					<ParticleEmitter particle="cigsmoke" particlespersecond="1" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
+				</StatusEffect>
+				<StatusEffect type="InWater" target="This" IsOn="false" />
+				<StatusEffect type="OnFire" target="This" Condition="-20" IsOn="true" />
+				<StatusEffect type="OnFire" target="This">
+					<Remove />
+				</StatusEffect>
+				<StatusEffect type="OnBroken" target="This">
+					<Remove />
+				</StatusEffect>
+			</LightComponent>
+		</RepairTool>
+		<Holdable slots="RightHand,LeftHand,Any" controlpose="true" aimpos="30,18" handle1="0,0" handle2="0,0" />
+	</Item>
+	<!--Пачка сигарет-->
+	<Item name="" identifier="cigpack" category="Misc" Tags="cntnr,smallitem">
+		<Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="39,1,10,20" depth="0.55" />
+		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="50,1,10,20" depth="0.55" maxcondition="0" fadein="true" />
+		<Body width="6" height="16" density="9.8" />
+		<Throwable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" throwforce="2" aimpos="35,-10">
+			<StatusEffect type="OnFire" target="This" Condition="-10" />
+			<StatusEffect type="OnFire" target="This">
+				<Remove />
+			</StatusEffect>
+		</Throwable>
+		<Fabricate suitablefabricators="torgomat" requiredtime="3">
+			<RequiredItem identifier="10rubles" />
+		</Fabricate>
+		<ItemContainer capacity="12" canbeselected="true" hideitems="false" keepopenwhenequipped="true" spawnwithid="cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette">
+			<Containable items="cigarette" />
+		</ItemContainer>
+	</Item>
 </items>
-<prefabs>
-   <cigsmoke lifetime="3" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="360" rotatetodirection="False" drag="0" waterdrag="0" velocitychange="0,0.2" velocitychangewater="0,0.2" collisionradius="1" collideswithwalls="False" deleteoncollision="False" friction="0.5" restitution="0.5" startsizemin="0.01,0.01" startsizemax="0.2,0.2" sizechangemin="0.01,0.01" sizechangemax="0.1,0.1" growtime="0.1" startcolor="0.5,0.5,0.5,0.5" startalpha="1" colorchange="-0.1,-0.1,-0.1,-0.2" drawtarget="air" blendstate="AlphaBlend" animduration="3" loopanim="True">
-      <animatedsprite texture="Mods/Zvezda Bundle/Items/Tools/Cigarki/Smoke.png" sourcerect="0,0,4096,4096" columns="8" rows="8" origin="0.5,0.5" />
-   </cigsmoke>
-</prefabs>

@@ -18,11 +18,11 @@
          <Body radius="40" height="160" density="12" />
          <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
             <StatusEffect type="OnUse" target="Character">
-               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/guitar5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/guitar4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/guitar5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
             </StatusEffect>
          </Holdable>
       </Item>
@@ -53,13 +53,13 @@
       <Body radius="40" height="160" density="12" />
       <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="Character">
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit6.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_bandit7.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit6.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_bandit7.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
          </StatusEffect>
       </Holdable>
    </Item>
@@ -94,11 +94,11 @@
       <Body radius="40" height="160" density="12" />
       <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="Character">
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-            <sound file="Mods/Zvezda Bundle/Items/Misc/guitar_reich5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_reich1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_reich2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_reich3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_reich4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+            <sound file="%ModDir%/Items/Misc/guitar_reich5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
          </StatusEffect>
       </Holdable>
    </Item>
@@ -121,11 +121,11 @@
          <Body width="92" height="110" />
          <Holdable slots="RightHand+LeftHand" aimable="false" aimpos="50,-20" handle1="-20,0" handle2="-10,0" swingamount="50,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
             <StatusEffect type="OnUse" target="Character">
-               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
-               <sound file="Mods/Zvezda Bundle/Items/Misc/accordion5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/accordion1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/accordion2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/accordion3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/accordion4.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
+               <sound file="%ModDir%/Items/Misc/accordion5.ogg" type="OnUse" selectionmode="CharacterSpecific" range="200" loop="true" />
             </StatusEffect>
          </Holdable>
       </Item>

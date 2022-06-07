@@ -142,8 +142,8 @@
 
 
   <Item identifier="hazmat" category="Equipment" tags="diving,deepdiving,provocative,respawnsuit" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
-    <InventoryIcon name="Hazmat 1 Icon" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" sourcerect="8,350,64,64" origin="0.5,0.5" />
-    <Sprite name="Hazmat 1" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" sourcerect="232,323,125,94" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon name="Hazmat 1 Icon" texture="%ModDir%/Systems/Reactor/hazmat.png" sourcerect="8,350,64,64" origin="0.5,0.5" />
+    <Sprite name="Hazmat 1" texture="%ModDir%/Systems/Reactor/hazmat.png" sourcerect="232,323,125,94" depth="0.55" origin="0.5,0.5" />
     <Body width="125" height="94" density="18" friction="0.8" restitution="0.01" />
     <Price baseprice="1200">
       <Price locationtype="outpost" multiplier="1" minavailable="1" maxavailable="1" />
@@ -153,21 +153,21 @@
       <Price locationtype="mine" multiplier="1" minavailable="1" maxavailable="1" />
     </Price>
     <Wearable slots="OuterClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Hazmat 1 Head" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="185,4,1,1" />
-      <sprite name="Hazmat 1 Torso" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Torso" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.535,0.55" sourcerect="185,4,145,278" />
-      <sprite name="Hazmat 1 Left Upper Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="11,2,51,73" />
-      <sprite name="Hazmat 1 Right Upper Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="12,0,55,79" />
-      <sprite name="Hazmat 1 Left Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftForeArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="12,215,50,72" />
-      <sprite name="Hazmat 1 Right Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightForeArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="17,81,51,71" />
-      <sprite name="Hazmat 1 Left Lower Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftHand" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.50527763,0.50859255" sourcerect="22,287,42,51" />
-      <sprite name="Hazmat 1 Right Lower Arm" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightHand" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5008234,0.49972168" sourcerect="30,151,40,53" />
-      <sprite name="Hazmat 1 Waist" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Waist" hidelimb="true" inheritlimbdepth="true" scale="0.4" inheritorigin="true" sourcerect="99,360,89,65" />
-      <sprite name="Hazmat 1 Right Thigh" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightThigh" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="77,3,90,128" />
-      <sprite name="Hazmat 1 Left Thigh" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftThigh" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="77,3,90,128" />
-      <sprite name="Hazmat 1 Right Leg" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightLeg" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.55" sourcerect="85,140,69,96" />
-      <sprite name="Hazmat 1 Left Leg" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftLeg" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.55" sourcerect="85,140,69,96" />
-      <sprite name="Hazmat 1 Right Shoe" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
-      <sprite name="Hazmat 1 Left Shoe" texture="Mods/Zvezda Bundle/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
+      <sprite name="Hazmat 1 Head" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Head" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="185,4,1,1" />
+      <sprite name="Hazmat 1 Torso" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Torso" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.535,0.55" sourcerect="185,4,145,278" />
+      <sprite name="Hazmat 1 Left Upper Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="11,2,51,73" />
+      <sprite name="Hazmat 1 Right Upper Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="12,0,55,79" />
+      <sprite name="Hazmat 1 Left Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftForeArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="12,215,50,72" />
+      <sprite name="Hazmat 1 Right Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightForeArm" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.4,0.48" sourcerect="17,81,51,71" />
+      <sprite name="Hazmat 1 Left Lower Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftHand" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.50527763,0.50859255" sourcerect="22,287,42,51" />
+      <sprite name="Hazmat 1 Right Lower Arm" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightHand" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5008234,0.49972168" sourcerect="30,151,40,53" />
+      <sprite name="Hazmat 1 Waist" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="Waist" hidelimb="true" inheritlimbdepth="true" scale="0.4" inheritorigin="true" sourcerect="99,360,89,65" />
+      <sprite name="Hazmat 1 Right Thigh" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightThigh" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="77,3,90,128" />
+      <sprite name="Hazmat 1 Left Thigh" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftThigh" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.5" sourcerect="77,3,90,128" />
+      <sprite name="Hazmat 1 Right Leg" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightLeg" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.55" sourcerect="85,140,69,96" />
+      <sprite name="Hazmat 1 Left Leg" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftLeg" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.55" sourcerect="85,140,69,96" />
+      <sprite name="Hazmat 1 Right Shoe" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
+      <sprite name="Hazmat 1 Left Shoe" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.67" damagesound="LimbArmor" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="radiationsickness" damagemultiplier="0.5" damagesound="LimbArmor" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.6" HideFace="true" ObstructVision="true" setvalue="true" disabledeltatime="true"/>
@@ -230,11 +230,11 @@
       <RequiredItem identifier="steel" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
-    <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Reactor/tongs.png" sourcerect="605,205,124,40" origin="0.5,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Systems/Reactor/tongs.png" sourcerect="605,205,230,40" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Systems/Reactor/tongs.png" sourcerect="605,205,124,40" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Reactor/tongs.png" sourcerect="605,205,230,40" depth="0.55" origin="0.5,0.5" />
     <Body width="120" height="30" density="15" />
     <LightComponent range="350.0" lightcolor="40,180,40,255" powerconsumption="3" MinVoltage="0.99" IsOn="true" castshadows="true" allowingameediting="false">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Reactor/tongs.png" sourcerect="627,248,19,69" />
+      <Sprite texture="%ModDir%/Systems/Reactor/tongs.png" sourcerect="627,248,19,69" />
     </LightComponent>
     <Holdable slots="RightHand+LeftHand" holdpos="100,-15" aimpos="100,0" handle1="-85,-4" handle2="-85,-4" msg="ItemMsgPickUpSelect" attachable="false">
       <!--Cause fire when tongs with hot rod are contained -->

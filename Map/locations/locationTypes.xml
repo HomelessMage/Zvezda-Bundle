@@ -16,18 +16,33 @@
     requiredduration                        = Can be used in place of the previous attribute if you want to use a fixed delay. 
     
     locationtypechangecooldown              = The location can't change it's type for this many turns after this location type changes occurs.
+    
+  Store:
+    dailyspecialscount        = The number of daily specials for merchants at this location type. Defaults to 1.
+    requestedgoodscount       = The number of requested goods for merchants at this location type. Defaults to 1.
+    maxreputationmodifier     = The maximum effect reputation can have on store prices. Defaults to 0.1.
+    sellpricemodifier         = Used to determine the selling price from the base price of an item. Defaults to 0.8.
+    dailyspecialpricemodifier = Change in buying price of daily specials. Defaults to 0.5.
+    requestgoodpricemodifier  = Change in selling price of requested goods. Defaults to 1.5.
+    initialbalance            = Initial balance of the store. Defaults to 5000.
+    pricemodifierrange        = The range of randomized price modifier. Randomized for each store individually. Defaults to 5. Note: value is direct percentage, i.e. 5 = 5%. 
+    
+    BalanceStatus:
+      percentage        = If the store's current balance is below this percentage of the initial balance, this balance status will be active. Defaults to 1.0.
+      sellpricemodifier = The sell price modifier applied when this balance status is active. Defaults to 1.0.
+      color             = The color used on the store interface when this balance status is active. Defaults to (255,255,255,255), i.e. white.
   -->
     
     
   <None
     identifier="None"
-    namefile="Mods/Zvezda Bundle/Map/locationNames.txt"    
+    namefile="Content/Map/locationNames.txt"    
     commonnessperzone="1: 1.5, 2: 3.0, 3: 4.0, 4: 5.0, 5: 5.0, 6: 0"
     hasoutpost="false"
     beaconstationchance="0.5">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,640,128,128" color="128,206,175,255" />
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/NaturalFormations.png" premultiplyalpha="false"/>
     
     <ChangeTo type="Outpost" disallowedadjacentlocations="Lair" messagetag="locationchange.none.changeto.outpost">
       <!-- May be settled if within 3 steps of a colony, with an increasing chance should it be within 2 or less steps -->
@@ -42,23 +57,52 @@
   <City
     identifier="City"
     replaceinradiation="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/cityNames.txt"
-    commonnessperzone="1: 3.0">
+    namefile="Content/Map/cityNames.txt"
+    commonnessperzone="1: 0, 2: 0.5"
+    mincountperzone="1: 1">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="384,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/Colony.png" premultiplyalpha="false"/>
+
+    <Hireable identifier="assistant" commonness="10"/>
+    <Hireable identifier="engineer" commonness="3"/>
+    <Hireable identifier="mechanic" commonness="3"/>
+    <Hireable identifier="medicaldoctor" commonness="1"/>
+    <Hireable identifier="securityofficer" commonness="1"/>
+    <Hireable identifier="captain" commonness="1"/>
+
+    <Store
+      maxreputationmodifier="0.1"
+      sellpricemodifier="0.8"
+      dailyspecialpricemodifier="0.5"
+      requestgoodpricemodifier="1.5"
+      initialbalance="5000"
+      pricemodifierrange="5"
+      dailyspecialscount="2"
+      requestedgoodscount="2">
+      <BalanceStatus percentage="1.0" sellpricemodifier="1.0" color="255,255,255,255"/>
+      <BalanceStatus percentage="0.5" sellpricemodifier="0.75" color="255,165,0,255"/>
+      <BalanceStatus percentage="0.25" sellpricemodifier="0.2" color="255,0,0,255"/>
+    </Store>
   </City>
 
   <Outpost
     identifier="Outpost"
     replaceinradiation="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/cityNames.txt"
-    commonnessperzone="2: 2.5, 3: 1.0, 4: 0.75">
+    namefile="Content/Map/cityNames.txt"
+    commonnessperzone="1: 1.5, 2: 2.5, 3: 1.0, 4: 0.75">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,512,128,128" color="128,206,175,255"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/HabitationOutpost.png" premultiplyalpha="false"/>
     
+    <Hireable identifier="assistant" commonness="10"/>
+    <Hireable identifier="engineer" commonness="3"/>
+    <Hireable identifier="mechanic" commonness="3"/>
+    <Hireable identifier="medicaldoctor" commonness="1"/>
+    <Hireable identifier="securityofficer" commonness="1"/>
+    <Hireable identifier="captain" commonness="1"/>
+
     <!-- can become a specialized outpost if there are no adjacent lairs -->
     <ChangeTo type="Military" probability="0.3" 
               requireddurationrange="1,3"
@@ -78,30 +122,50 @@
     <ChangeTo type="Abandoned" requireddurationrange="1,1" messagetag="locationchange.outpost.changeto.abandoned">
       <Requirement requirehuntinggrounds="true" probability="0.5" requiredproximity="1" />  
     </ChangeTo>
+
+    <Store
+      maxreputationmodifier="0.1"
+      sellpricemodifier="0.8"
+      dailyspecialpricemodifier="0.5"
+      requestgoodpricemodifier="1.5"
+      initialbalance="5000"
+      pricemodifierrange="5">
+      <BalanceStatus percentage="1.0" sellpricemodifier="1.0" color="255,255,255,255"/>
+      <BalanceStatus percentage="0.5" sellpricemodifier="0.75" color="255,165,0,255"/>
+      <BalanceStatus percentage="0.25" sellpricemodifier="0.2" color="255,0,0,255"/>
+    </Store>
   </Outpost>
 
   <Abandoned
     identifier="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/cityNames.txt"
+    namefile="Content/Map/cityNames.txt"
     commonnessperzone="1: 0, 2: 0.8, 3: 0.8, 4: 0.5, 5: 0.5, 6: 0"
     missiontags="abandonedoutpost"
     hideentitysubcategories="abandonedhuman,abandonedmonster"
     outpostteam="None">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/HabitationOutpost.png" premultiplyalpha="false"/>
   </Abandoned>
   
   <Military
     identifier="Military"
     replaceinradiation="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/locationNames.txt"
+    namefile="Content/Map/locationNames.txt"
     commonnessperzone="1: 0.6, 2: 1.75, 3: 1.0, 4: 0.75"
     useinmainmenu="true">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>    
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampMilitary.png" premultiplyalpha="false"/>
+    
+    <Hireable identifier="securityofficer" commonness="10"/>
+    <Hireable identifier="captain" commonness="3"/>
+    <Hireable identifier="assistant" commonness="2"/>
+    <Hireable identifier="engineer" commonness="2"/>
+    <Hireable identifier="mechanic" commonness="2"/>
+    <Hireable identifier="medicaldoctor" commonness="2"/>
+    
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City" 
               requireddurationrange="2,4"
@@ -113,19 +177,39 @@
     <ChangeTo type="Abandoned" requireddurationrange="1,1" messagetag="locationchange.outpost.changeto.abandoned">
       <Requirement requirehuntinggrounds="true" probability="0.5" requiredproximity="1" />  
     </ChangeTo>
+
+    <Store
+      maxreputationmodifier="0.1"
+      sellpricemodifier="0.8"
+      dailyspecialpricemodifier="0.5"
+      requestgoodpricemodifier="1.5"
+      initialbalance="5000"
+      pricemodifierrange="5">
+      <BalanceStatus percentage="1.0" sellpricemodifier="1.0" color="255,255,255,255"/>
+      <BalanceStatus percentage="0.5" sellpricemodifier="0.75" color="255,165,0,255"/>
+      <BalanceStatus percentage="0.25" sellpricemodifier="0.2" color="255,0,0,255"/>
+    </Store>
   </Military>
 
   <Research
     identifier="Research"
     replaceinradiation="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/locationNames.txt"
+    namefile="Content/Map/locationNames.txt"
     commonnessperzone="1: 0.0, 2: 1.75, 3: 1.0, 4: 0.75">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="512,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility1.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility2.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampResearchFacility3.png" premultiplyalpha="false"/>
+
+    <Hireable identifier="engineer" commonness="5"/>
+    <Hireable identifier="mechanic" commonness="5"/>
+    <Hireable identifier="medicaldoctor" commonness="3"/>
+    <Hireable identifier="assistant" commonness="3"/>
+    <Hireable identifier="securityofficer" commonness="1"/>
+    <Hireable identifier="captain" commonness="1"/>
+
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City"
           requireddurationrange="2,4"
@@ -137,20 +221,37 @@
     <ChangeTo type="Abandoned" requireddurationrange="1,1" messagetag="locationchange.outpost.changeto.abandoned">
       <Requirement requirehuntinggrounds="true" probability="0.5" requiredproximity="1" />  
     </ChangeTo>
+
+    <Store
+      maxreputationmodifier="0.1"
+      sellpricemodifier="0.8"
+      dailyspecialpricemodifier="0.5"
+      requestgoodpricemodifier="1.5"
+      initialbalance="5000"
+      pricemodifierrange="5">
+      <BalanceStatus percentage="1.0" sellpricemodifier="1.0" color="255,255,255,255"/>
+      <BalanceStatus percentage="0.5" sellpricemodifier="0.75" color="255,165,0,255"/>
+      <BalanceStatus percentage="0.25" sellpricemodifier="0.2" color="255,0,0,255"/>
+    </Store>
   </Research>
   
   <Mine
     identifier="Mine"
     replaceinradiation="Abandoned"
-    namefile="Mods/Zvezda Bundle/Map/locationNames.txt"
+    namefile="Content/Map/locationNames.txt"
     commonnessperzone="1: 0.6, 2: 1.75, 3: 1.0, 4: 0.75">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,640,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining1.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining2.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining3.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/WorkCampMining4.png" premultiplyalpha="false"/>
+    
+    <Hireable identifier="engineer" commonness="5"/>
+    <Hireable identifier="mechanic" commonness="5"/>
+    <Hireable identifier="assistant" commonness="3"/>
+
     <!-- can become a city if there are no adjacent lairs -->
     <ChangeTo type="City"
           requireddurationrange="2,4"
@@ -162,6 +263,18 @@
     <ChangeTo type="Abandoned" requireddurationrange="1,1" messagetag="locationchange.outpost.changeto.abandoned">
       <Requirement requirehuntinggrounds="true" probability="0.5" requiredproximity="1" />  
     </ChangeTo>
+
+    <Store
+      maxreputationmodifier="0.1"
+      sellpricemodifier="0.8"
+      dailyspecialpricemodifier="0.5"
+      requestgoodpricemodifier="1.5"
+      initialbalance="5000"
+      pricemodifierrange="5">
+      <BalanceStatus percentage="1.0" sellpricemodifier="1.0" color="255,255,255,255"/>
+      <BalanceStatus percentage="0.5" sellpricemodifier="0.75" color="255,165,0,255"/>
+      <BalanceStatus percentage="0.25" sellpricemodifier="0.2" color="255,0,0,255"/>
+    </Store>
   </Mine>
 
   <EndLocation
@@ -170,7 +283,7 @@
     commonnessperzone="1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1"
     hasoutpost="false">
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="521,648,110,110" color="245,105,105"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/Menu.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/NaturalFormations.png" premultiplyalpha="false"/>
   </EndLocation>
   
   <!-- 
@@ -182,7 +295,7 @@
     useinmainmenu="true">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,128,128,128" color="250,59,59,255"/>
-    <Portrait texture="Mods/Zvezda Bundle/Map/AlienRuins.png" premultiplyalpha="false"/>
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins.png" premultiplyalpha="false"/>
 
     <ChangeTo type="Outpost" probability="0.05" requiredduration="3" disallowedadjacentlocations="Lair"/>
     <ChangeTo type="Military" probability="0.05" requiredduration="3" disallowedadjacentlocations="Lair"/>

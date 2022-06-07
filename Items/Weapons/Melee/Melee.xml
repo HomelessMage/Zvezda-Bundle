@@ -10,8 +10,8 @@
          <RequiredItem identifier="aluminium" />
          <RequiredItem identifier="rubber" />
       </Fabricate>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Items/Weapons/Melee/baton.png" sourcerect="220,0,60,60" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Items/Weapons/Melee/baton.png" sourcerect="0,0,220,60" depth="0.55" origin="0.5,0.75" />
+      <InventoryIcon texture="%ModDir%/Items/Weapons/Melee/baton.png" sourcerect="220,0,60,60" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Items/Weapons/Melee/baton.png" sourcerect="0,0,220,60" depth="0.55" origin="0.5,0.75" />
       <Body width="224" height="28" density="20" />
       <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="45,10" handle1="-25,-3" holdangle="20" reload="0.8" range="100" combatPriority="30" msg="ItemMsgPickUpSelect">
       <Attack targetimpulse="3" severlimbsprobability="0" itemdamage="0">

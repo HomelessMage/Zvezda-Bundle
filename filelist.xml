@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" path="LocalMods/Zvezda Bundle/filelist.xml" corepackage="true" gameversion="0.17.16.0" steamworkshopid="2676179277" installtime="1647372265">
-  <Sounds file="LocalMods/Zvezda Bundle/Sounds/sounds.xml" />
-  <UIStyle file="LocalMods/Zvezda Bundle/UI/loh/style.xml" />
-  <Character file="LocalMods/Zvezda Bundle/Characters/Human/Human.xml" />
-  <SkillSettings file="LocalMods/Zvezda Bundle/SkillSettings.xml" />
-  <Text file="LocalMods/Zvezda Bundle/Texts/Russian.xml" />
-  <Jobs file="LocalMods/Zvezda Bundle/Jobs.xml" />
-  <LocationTypes file="LocalMods/Zvezda Bundle/Map/locations/locationTypes.xml" />
+<contentpackage name="Zvezda Bundle" corepackage="true" gameversion="0.17.16.0" steamworkshopid="2676179277" installtime="1647372265">
+  <Sounds file="%ModDir%/Sounds/sounds.xml" />
+  <UIStyle file="%ModDir%/UI/loh2/style.xml" />
+  <Character file="%ModDir%/Characters/Human/Human.xml" />
+  <SkillSettings file="%ModDir%/SkillSettings.xml" />
+  <Text file="%ModDir%/Texts/Russian.xml" />
+  <Jobs file="%ModDir%/Jobs.xml" />
+  <LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />
   
   
-  <Afflictions file="LocalMods/Zvezda Bundle/Afflictions.xml" />
+  <Afflictions file="%ModDir%/Afflictions.xml" />
 
   <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
 
 
   <!--Currency-->
-  <Item file="LocalMods/Zvezda Bundle/Items/Currency/Currency.xml" />
+  <Item file="%ModDir%/Items/Currency/Currency.xml" />
 
   <!--idcards-->
-  <Item file="LocalMods/Zvezda Bundle/Items/idcards/idcard.xml" />
+  <Item file="%ModDir%/Items/idcards/idcard.xml" />
   
   <!--Jobgear-->
-  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Crew/Crew.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Head/Heads.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Armor.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Military.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Jobgear/Military/Stuff.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Crew/Crew.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Head/Heads.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Military/Military.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
 
   <!--Tools-->
-  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Cigarki/Cigarki.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Cleaner/Clean.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Demian/flags.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Tools/Tools/tools.xml" />
+  <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
+  <Item file="%ModDir%/Items/Tools/Cleaner/Clean.xml" />
+  <Item file="%ModDir%/Items/Tools/Demian/flags.xml" />
+  <Item file="%ModDir%/Items/Tools/Tools/tools.xml" />
 
   <!--Weapons-->
-  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Cannons/coilgun.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Melee/Melee.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Weapon/weapons.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
+  <Item file="%ModDir%/Items/Weapons/Cannons/coilgun.xml" />
+  <Item file="%ModDir%/Items/Weapons/Melee/Melee.xml" />
+  <Item file="%ModDir%/Items/Weapons/Weapon/weapons.xml" />
+  <Item file="%ModDir%/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 
   <!--Map-->
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/decor/decorsuff.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/Door/custom_dockingports.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/Door/custom_doors.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/Generator/generator.xml" />
+  <Item file="%ModDir%/Items/Map/decor/decorsuff.xml" />
+  <Item file="%ModDir%/Items/Map/Door/custom_dockingports.xml" />
+  <Item file="%ModDir%/Items/Map/Door/custom_doors.xml" />
+  <Item file="%ModDir%/Items/Map/Generator/generator.xml" />
 
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/locations/locationsTypes.xml" />
+  <Item file="%ModDir%/Items/Map/locations/locationsTypes.xml" />
 
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/Torgomat/torgomat.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Items/Map/Walls/Walls.xml" />
+  <Item file="%ModDir%/Items/Map/Torgomat/torgomat.xml" />
+  <Item file="%ModDir%/Items/Map/Walls/Walls.xml" />
 
 
   <!--Systems-->
-  <Item file="LocalMods/Zvezda Bundle/Systems/Gardening/gardeningtools.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Systems/Music items/Misc.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Systems/Nourishment/nourishment.xml" />
-  <Item file="LocalMods/Zvezda Bundle/Systems/Reactor/reactor.xml" />
+  <Item file="%ModDir%/Systems/Gardening/gardeningtools.xml" />
+  <Item file="%ModDir%/Systems/Music items/Misc.xml" />
+  <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
+  <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
 
 
 
@@ -121,6 +121,7 @@
   <Character file="Content/Characters/Coelanth/Coelanth.xml" />
   <Character file="Content/Characters/Crawler/Crawler.xml" />
   <Character file="Content/Characters/Crawlerhusk/Crawlerhusk.xml" />
+  <Character file="Content/Characters/Crawlerbroodmother/Crawlerbroodmother.xml" />
   <Character file="Content/Characters/Endworm/Endworm.xml" />
   <Character file="Content/Characters/Fractalguardian/Fractalguardian.xml" />
   <Character file="Content/Characters/Fractalguardian2/Fractalguardian2.xml" />
@@ -129,8 +130,10 @@
   <Character file="Content/Characters/Hammerheadgold/Hammerheadgold.xml" />
   <Character file="Content/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
   <Character file="Content/Characters/Hammerheadspawn/Hammerheadspawn.xml" />
+  <Character file="Content/Characters/Human/Human.xml" />
   <Character file="Content/Characters/Husk/Husk.xml" />
   <Character file="Content/Characters/Humanhusk/Humanhusk.xml" />
+  <Character file="Content/Characters/Latcher/Latcher.xml" />
   <Character file="Content/Characters/Legacyfractalguardian/Legacyfractalguardian.xml" />
   <Character file="Content/Characters/Legacyfractalguardian2/Legacyfractalguardian2.xml" />
   <Character file="Content/Characters/Legacyhusk/Legacyhusk.xml" />
@@ -155,15 +158,19 @@
   <Character file="Content/Characters/Terminalcell/Terminalcell.xml" />
   <Character file="Content/Characters/Watcher/Watcher.xml" />
   <Character file="Content/Characters/Spineling/Spineling.xml" />
+  <Character file="Content/Characters/Spineling_giant/Spineling_giant.xml" />
   <Character file="Content/Characters/Variants/Swarmcrawler.xml" />
   <Character file="Content/Characters/Variants/Moloch_m.xml" />
   <Character file="Content/Characters/Variants/Molochblack_m.xml" />
   <Character file="Content/Characters/Variants/Hammerhead_m.xml" />
+  <Character file="Content/Characters/Variants/Hammerhead_mNamed.xml" />
   <Character file="Content/Characters/Variants/Hammerheadgold_m.xml" />
   <Character file="Content/Characters/Variants/Crawler_hatchling/Crawler_hatchling.xml" />
   <Character file="Content/Characters/Variants/Mudraptor_hatchling/Mudraptor_hatchling.xml" />
   <Character file="Content/Characters/Variants/Mudraptor_passive/Mudraptor_passive.xml" />
+  <Character file="Content/Characters/Variants/Mudraptor_veteran/Mudraptor_veteran.xml" />
   <Character file="Content/Characters/Variants/Tigerthresher_hatchling/Tigerthresher_hatchling.xml" />
+  <Character file="Content/Characters/Variants/Doomworm.xml" />
   <MapCreature file="Content/Items/Gardening/ballastflora.xml" />
 
   <!--Раздолбышы и кастрюли-->

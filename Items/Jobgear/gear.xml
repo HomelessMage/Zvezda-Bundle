@@ -36,8 +36,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Captain's Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="0,27,128,101" origin="0.5,0.5"/>
-    <Sprite name="Captain's Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="224,361,208,79" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Captain's Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="0,27,128,101" origin="0.5,0.5"/>
+    <Sprite name="Captain's Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,361,208,79" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Captain's Uniform 1 Torso" texture="Comendant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -71,8 +71,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Captain's Uniform 2 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="128,27,128,101" origin="0.5,0.5"/>
-    <Sprite name="Captain's Uniform 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="224,532,206,68" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Captain's Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="128,27,128,101" origin="0.5,0.5"/>
+    <Sprite name="Captain's Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,532,206,68" depth="0.6" origin="0.5,0.5"/>
     <Body width="206" height="68" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Captain's Uniform 2 Torso" texture="ComendantK.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -106,8 +106,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Mvd Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
-    <Sprite name="Mvd Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Mvd Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Mvd Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Mvd Uniform 1 Torso" texture="Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -141,8 +141,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Cook Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5"/>
-    <Sprite name="Cook Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Cook Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Cook Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Cook Uniform 1 Torso" texture="Cook.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -182,8 +182,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Assistant Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Assistant Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Assistant's Uniform Torso" texture="Assistant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -217,8 +217,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="commoner 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="8,361,207,79" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="8,361,207,79" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 1 Torso" texture="Commoner1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -250,8 +250,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="commoner 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="224,368,208,71" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,368,208,71" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 2 Torso" texture="Commoner2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -283,8 +283,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="commoner 3" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 3" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 3  Torso" texture="Commoner3.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -316,8 +316,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="commoner 4" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 4" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 4 Torso" texture="Commoner4.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -349,8 +349,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="commoner 5" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 5" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commoner's Clothes 5 Torso" texture="commoner_5.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -382,8 +382,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="crewchief" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="crewchief" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Crew Chief Torso" texture="crewchief.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -415,8 +415,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="medicalofficer" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="medicalofficer" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="MedicalOfficer's Uniform Torso" texture="MedicalOfficer.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -448,8 +448,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="miner" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="miner" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Miner Torso" texture="miner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -481,8 +481,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="quartermaster" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="quartermaster" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Quartermaster Torso" texture="quartermaster.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -514,8 +514,8 @@
       <Price locationtype="military" multiplier="1" minavailable="1"/>
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="administrator" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="administrator" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Administrator Suit Torso" texture="administrator.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -547,8 +547,8 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="bandit" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="15,813,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="15,813,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Bandit Uniform 1 Torso" texture="bandit_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -580,8 +580,8 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="bandit" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="241,813,200,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="241,813,200,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Bandit Uniform 2 Torso" texture="bandit_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -613,8 +613,8 @@
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
     <!-- not properly linked-->
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
@@ -647,8 +647,8 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,812,212,64" depth="0.6" origin="0.5,0.5" />    
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,812,212,64" depth="0.6" origin="0.5,0.5" />    
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Prisoner's Uniform Torso" texture="Prisoner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -682,8 +682,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Engineer Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="0,150,128,107" origin="0.5,0.5"/>
-    <Sprite name="Engineer Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="13,446,208,71" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Engineer Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="0,150,128,107" origin="0.5,0.5"/>
+    <Sprite name="Engineer Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="13,446,208,71" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Engineer's Uniform 1 Torso" texture="engineer_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -717,8 +717,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Engineer Uniform 2 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="384,27,127,101" origin="0.5,0.5"/>
-    <Sprite name="Engineer Uniform 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="227,452,202,65" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Engineer Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="384,27,127,101" origin="0.5,0.5"/>
+    <Sprite name="Engineer Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="227,452,202,65" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Engineer's Uniform 2 Torso" texture="engineer_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -753,8 +753,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Mechanic Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="256,274,127,110" origin="0.5,0.5"/>
-    <Sprite name="Mechanic Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="13,532,187,71" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Mechanic Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="256,274,127,110" origin="0.5,0.5"/>
+    <Sprite name="Mechanic Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="13,532,187,71" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Mechanic's Uniform 1 Torso" texture="mechanic_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -788,8 +788,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Mechanic Uniform 2 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="129,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="Mechanic Uniform 2" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="223,531,207,70" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Mechanic Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="129,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="Mechanic Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="223,531,207,70" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Mechanic's Uniform 2 Torso" texture="mechanic_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -824,8 +824,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Security Officer's Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,151,129,105" origin="0.5,0.5"/>
-    <Sprite name="Security Officer's Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="18,714,205,79" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Security Officer's Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,151,129,105" origin="0.5,0.5"/>
+    <Sprite name="Security Officer's Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="18,714,205,79" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Security Officer's Uniform 1 Torso" texture="SecurityOfficer1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -856,8 +856,8 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/InventoryIconAtlas.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
-    <Sprite texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="202,2,185,69" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon texture="%ModDir%/Items/InventoryIconAtlas.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,2,185,69" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" variants="1" msg="ItemMsgPickUpSelect">
       <sprite name="Watchman Torso" texture="watchman.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -889,8 +889,8 @@
       <Price locationtype="military" multiplier="1.3" sold="false"/>
       <Price locationtype="mine" multiplier="0.9" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="pirate" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Pirate Uniform 2 Torso" texture="pirate_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -923,8 +923,8 @@
       <Price locationtype="military" multiplier="1.3" sold="false"/>
       <Price locationtype="mine" multiplier="0.9" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="pirate" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Pirate Uniform 3 Torso" texture="pirate_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -958,8 +958,8 @@
       <Price locationtype="military" multiplier="1.3" sold="false"/>
       <Price locationtype="mine" multiplier="0.9" sold="false"/>
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
-    <Sprite name="pirate" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Pirate Uniform 3 Torso" texture="pirate_3.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -1001,24 +1001,24 @@
       <Price locationtype="mine" multiplier="1" minavailable="1" />
     </Price>
     <Deconstruct time="10" />
-    <InventoryIcon name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
-    <Sprite name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+    <Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Camo Woodland Torso" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Hand" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Hand" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Lower Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Lower Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Upper Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Upper Arm" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Waist" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Thigh" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Thigh" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Leg" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Leg" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Right Shoe" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Camo Woodland Left Shoe" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Torso" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Waist" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />    
@@ -1038,8 +1038,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
-    <Sprite name="Camo Woodland" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+    <Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Afganka Uniform 1 Torso" texture="Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -1073,8 +1073,8 @@
       <Price locationtype="mine" multiplier="1" minavailable="1"/>
     </Price>
     <Deconstruct time="10"/>
-    <InventoryIcon name="Mvd Uniform 1 Icon" texture="Mods/Zvezda Bundle/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
-    <Sprite name="Omon Uniform 1" texture="Mods/Zvezda Bundle/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <InventoryIcon name="Mvd Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Omon Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Omon Uniform 1 Torso" texture="Omon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
@@ -1299,11 +1299,11 @@
       <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="plastic" />
     </Fabricate>
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
-    <Sprite texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
     <Body radius="30" height="30" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
-      <sprite name="Security Vest" texture="Mods/Zvezda Bundle/Items/JobGear/Talents/TalentGear.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+      <sprite name="Security Vest" texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="4">
@@ -1335,15 +1335,15 @@
 	  <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/6b13_icon.png" sourcerect="0,0,172,257" origin="0.5,0.5" />
-    <Sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/6b13.png" sourcerect="14,45,103,180" depth="0.6" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/6b13_icon.png" sourcerect="0,0,172,257" origin="0.5,0.5" />
+    <Sprite name="6b13" texture="%ModDir%/Items/Jobgear/6b13.png" sourcerect="14,45,103,180" depth="0.6" />
     <Body radius="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
       <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.14" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
-      <sprite name="6b13" texture="Mods/Zvezda Bundle/Items/Jobgear/6b13.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.81" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <sprite name="6b13" texture="%ModDir%/Items/Jobgear/6b13.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.81" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />   
    </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
@@ -1371,15 +1371,15 @@
 	  <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="Mods/Zvezda Bundle/Items/Jobgear/miltec_icon.png" sourcerect="0,0,93,192" origin="0.5,0.5" />
-    <Sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/miltec.png" sourcerect="14,45,103,180" depth="0.6" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/miltec_icon.png" sourcerect="0,0,93,192" origin="0.5,0.5" />
+    <Sprite name="miltec Vest" texture="%ModDir%/Items/Jobgear/miltec.png" sourcerect="14,45,103,180" depth="0.6" />
     <Body radius="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
       <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
-      <sprite name="miltec Vest" texture="Mods/Zvezda Bundle/Items/Jobgear/miltec.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.74" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <sprite name="miltec Vest" texture="%ModDir%/Items/Jobgear/miltec.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.74" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
 	  <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />  	  
    </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />

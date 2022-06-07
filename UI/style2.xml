@@ -198,7 +198,7 @@
   <LargeFont file="Content/Fonts/NotoSans/NotoSans-ExtraBold.ttf" size="22"/>
   -->
   <TitleText color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" pressedcolor="255,255,255,255">
-    <Sprite texture="Mods/Zvezda Bundle/UI/titleText.png" sourcerect="0,520,1024,328" tile="false" maintainaspectratio="true">
+    <Sprite texture="%ModDir%/UI/titleText.png" sourcerect="0,520,1024,328" tile="false" maintainaspectratio="true">
       <override language="Traditional Chinese" texture="Content/UI/titleText.png" sourcerect="0,176,1024,343" />
       <override language="Simplified Chinese" texture="Content/UI/titleText.png" sourcerect="0,176,1024,343" />
     </Sprite>
@@ -270,32 +270,32 @@
     <GUITextBlock textcolor="16,34,33,255" padding="10.0, 0.0, 10.0, 0.0" font="subheading" />
   </GUIButtonFreeScale>
   <MainMenuGUITextBlock textcolor="0,0,0,255" color="255,255,255,255" padding="10,10,10,10">
-    <Sprite name="MainMenuGUITextBlock" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="10,775,476,37" tile="false" origin="0.5,0.5" compress="false" />
+    <Sprite name="MainMenuGUITextBlock" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="10,775,476,37" tile="false" origin="0.5,0.5" compress="false" />
   </MainMenuGUITextBlock>
   <MainMenuGUIFrame color="255,255,255,255">
-    <Sprite name="MainMenuGUIFrame" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="10,812,476,199" tile="false" origin="0.5,0.5" />
+    <Sprite name="MainMenuGUIFrame" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="10,812,476,199" tile="false" origin="0.5,0.5" />
   </MainMenuGUIFrame>
   <MainMenuGUIButton hovercolor="44,208,150,255" disabledcolor="125,125,125,125">
-    <Sprite name="MainMenuGUIButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Hover" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5" />
+    <Sprite name="MainMenuGUIButton" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5" />
     <GUITextBlock textcolor="228,217,167,255" disabledcolor="125,125,125,125" disabledtextcolor="125,125,125,125" padding="10.0, 0.0, 10.0, 0.0" />
   </MainMenuGUIButton>
   <MainMenuNotifBackground>
-    <Sprite name="MainMenuGUIButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5" />
+    <Sprite name="MainMenuGUIButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5" />
   </MainMenuNotifBackground>
   <MainMenuCampaignIcon color="44,208,150,255">
-    <Sprite name="MainMenuCampaignIcon" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="773,524,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MainMenuCampaignIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="773,524,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </MainMenuCampaignIcon>
   <MainMenuMultiplayerIcon color="44,208,150,255">
-    <Sprite name="MainMenuMultiplayerIcon" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="773,335,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MainMenuMultiplayerIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="773,335,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </MainMenuMultiplayerIcon>
   <MainMenuCustomizeIcon color="44,208,150,255">
-    <Sprite name="MainMenuCustomizeIcon" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="582,713,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MainMenuCustomizeIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="582,713,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </MainMenuCustomizeIcon>
   <MainMenuOptionIcon color="44,208,150,255">
-    <Sprite name="MainMenuOptionIcon" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="582,524,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MainMenuOptionIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="582,524,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </MainMenuOptionIcon>
   <MainMenuVignette color="255,255,255,255">
-    <Sprite name="MainMenuVignette" texture="Mods/Zvezda Bundle/UI/MainMenuVignette.png" sourcerect="0,0,2048,1152" origin="0.5,0.5" />
+    <Sprite name="MainMenuVignette" texture="%ModDir%/UI/MainMenuVignette.png" sourcerect="0,0,2048,1152" origin="0.5,0.5" />
   </MainMenuVignette>
   <GUIButtonLarge color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" disabledcolor="125,125,125,255" pressedcolor="230,230,230,255">
     <Sprite name="GUIButtonLarge.None" texture="Content/UI/UIAtlasGeneral.png" state="None" sourcerect="6,216,164,45" slice="11,221,165,256" origin="0.5,0.5" />
@@ -722,70 +722,70 @@
   </ChatTextBox>
   <!-- Sub editor -->
   <OpenButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="OpenButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="654,147,49,42" tile="false" maintainaspectratio="true" origin="0.5,0.5" compress="false" />
+    <Sprite name="OpenButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="654,147,49,42" tile="false" maintainaspectratio="true" origin="0.5,0.5" compress="false" />
   </OpenButton>
   <SaveButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="SaveButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="704,147,42,43" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="SaveButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="704,147,42,43" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </SaveButton>
   <TestButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="TestButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="707,194,35,36" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TestButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="707,194,35,36" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </TestButton>
   <EditSubButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="EditSubButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="753,148,36,35" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="EditSubButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="753,148,36,35" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </EditSubButton>
   <UndoHistoryButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="UndoHistoryButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="752,193,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="UndoHistoryButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="752,193,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </UndoHistoryButton>
   <WiringModeButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="WiringModeButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="846,144,32,39" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="WiringModeButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="846,144,32,39" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </WiringModeButton>
   <GenerateWaypointsButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="GenerateWaypointsButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="979,144,41,42" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="GenerateWaypointsButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="979,144,41,42" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </GenerateWaypointsButton>
   <RecentlyUsedButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="RecentlyUsedButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="890,146,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="RecentlyUsedButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="890,146,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </RecentlyUsedButton>
   <SetupVisibilityButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="SetupVisibilityButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="936,146,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="SetupVisibilityButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="936,146,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </SetupVisibilityButton>
   <CategoryButton.All color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.All" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="437,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.All" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="437,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.All>
   <CategoryButton.Structure color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Structure" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="565,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Structure" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="565,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Structure>
   <CategoryButton.Decorative color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Decorative" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="501,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Decorative" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="501,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Decorative>
   <CategoryButton.Machine color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Machine" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="437,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Machine" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="437,397,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Machine>
   <CategoryButton.Equipment color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Equipment" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="565,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Equipment" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="565,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Equipment>
   <CategoryButton.Electrical color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Electrical" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="501,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Electrical" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="501,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Electrical>
   <CategoryButton.Material color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Material" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="437,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Material" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="437,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Material>
   <CategoryButton.Misc color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Misc" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="629,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Misc" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="629,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Misc>
   <CategoryButton.Alien color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Alien" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="565,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Alien" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="565,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Alien>
   <CategoryButton.Wrecked color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Wrecked" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="694,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Wrecked" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="694,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Wrecked>
   <CategoryButton.Thalamus color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Thalamus" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="694,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Thalamus" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="694,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Thalamus>
   <CategoryButton.ItemAssembly color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.ItemAssembly" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="629,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.ItemAssembly" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="629,333,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.ItemAssembly>
   <CategoryButton.Legacy color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CategoryButton.Legacy" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="501,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CategoryButton.Legacy" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="501,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.Legacy>
   <!-- Health interface -->
   <GUIHealthBarIcon color="255,255,255,255">
@@ -974,41 +974,41 @@
   </DigitalFrameDark>
   <!-- In-game HUD -->
   <InfoAreaPortraitBG>
-    <Sprite name="InfoAreaPortraitBG" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="251,269,142,97" origin="0.5,0.5" compress="false" />
+    <Sprite name="InfoAreaPortraitBG" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="251,269,142,97" origin="0.5,0.5" compress="false" />
   </InfoAreaPortraitBG>
   <CharacterHealthBar color="255,255,255,255">
     <GUIFrame color="255,255,255,255">
-      <Sprite name="CharacterHealthBarBG" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,366,107,67" slice="329,384,390,413" origin="0.5,0.5" />
+      <Sprite name="CharacterHealthBarBG" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,366,107,67" slice="329,384,390,413" origin="0.5,0.5" />
     </GUIFrame>
     <Slider color="255,255,255,255">
-      <Sprite name="CharacterHealthBarSlider" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,434,107,68" slice="330,453,390,481"  origin="0.5,0.5" />
+      <Sprite name="CharacterHealthBarSlider" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,434,107,68" slice="330,453,390,481"  origin="0.5,0.5" />
     </Slider>
   </CharacterHealthBar>
   <CharacterHealthBarCentered color="255,255,255,255">
     <GUIFrame color="255,255,255,255">
-      <Sprite name="CharacterHealthBarCenteredBG" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,687,147,67" slice="331,705,391,734" origin="0.5,0.5" />
+      <Sprite name="CharacterHealthBarCenteredBG" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,687,147,67" slice="331,705,391,734" origin="0.5,0.5" />
     </GUIFrame>
     <Slider color="255,255,255,255">
-      <Sprite name="CharacterHealthBarCenteredSlider" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,434,147,68" slice="330,453,391,481"  origin="0.5,0.5" />
+      <Sprite name="CharacterHealthBarCenteredSlider" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="288,434,147,68" slice="330,453,391,481"  origin="0.5,0.5" />
     </Slider>
   </CharacterHealthBarCentered>
   <EquipmentToggleButton color="255,255,255,255">
-    <Sprite name="EquipmentToggleButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="492,140,25,95" origin="0.5,0.5" />
+    <Sprite name="EquipmentToggleButton" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="492,140,25,95" origin="0.5,0.5" />
   </EquipmentToggleButton>
   <EquipmentIndicatorDivingSuit color="255,255,255,255">
-    <Sprite name="EquipmentIndicatorDivingSuit" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,151,12,9" origin="0.5,0.5" />
+    <Sprite name="EquipmentIndicatorDivingSuit" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,151,12,9" origin="0.5,0.5" />
   </EquipmentIndicatorDivingSuit>
   <EquipmentIndicatorID color="255,255,255,255">
-    <Sprite name="EquipmentIndicatorID" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,164,12,9" origin="0.5,0.5" />
+    <Sprite name="EquipmentIndicatorID" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,164,12,9" origin="0.5,0.5" />
   </EquipmentIndicatorID>
   <EquipmentIndicatorOutfit color="255,255,255,255">
-    <Sprite name="EquipmentIndicatorOutfit" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,176,12,9" origin="0.5,0.5" />
+    <Sprite name="EquipmentIndicatorOutfit" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,176,12,9" origin="0.5,0.5" />
   </EquipmentIndicatorOutfit>
   <EquipmentIndicatorHeadwear color="255,255,255,255">
-    <Sprite name="EquipmentIndicatorHeadwear" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,188,12,9" origin="0.5,0.5" />
+    <Sprite name="EquipmentIndicatorHeadwear" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,188,12,9" origin="0.5,0.5" />
   </EquipmentIndicatorHeadwear>
   <EquipmentIndicatorHeadphones color="255,255,255,255">
-    <Sprite name="EquipmentIndicatorHeadphones" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,200,12,9" origin="0.5,0.5" />
+    <Sprite name="EquipmentIndicatorHeadphones" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" sourcerect="450,200,12,9" origin="0.5,0.5" />
   </EquipmentIndicatorHeadphones>
   <PowerButton color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" pressedcolor="220,220,220,255" disabledcolor="120,120,120,255" colorfadetime="0.75" spritefadetime="0.25" colortransition="easein">
     <Sprite name="PowerButton_None" texture="Content/UI/UIAtlasDevices.png" state="None" maintainaspectratio="true" sourcerect="90,266,130,130" tile="false" origin="0.5,0.5" crossfadein="false" crossfadeout="false" />
@@ -1032,19 +1032,19 @@
     <Sprite name="DockingButtonRight" texture="Content/UI/UIAtlasDevices.png" tile="false" sourcerect="501,599,52,149" origin="0.5,0.5" maintainaspectratio="true" />
   </DockingButtonRight>
   <ChatToggleButton color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" disabledcolor="125,125,125,255" pressedcolor="255,255,255,255">
-    <Sprite name="GUIButton.None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" state="None" sourcerect="8,425,111,66" origin="0.5,0.5" />
-    <Sprite name="GUIButton.Selected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" state="Selected" sourcerect="8,635,111,66" origin="0.5,0.5" />
-    <Sprite name="GUIButton.Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" state="Hover" sourcerect="8,495,111,66" origin="0.5,0.5" />
-    <Sprite name="GUIButton.HoverSelected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" state="HoverSelected" sourcerect="8,495,111,66" origin="0.5,0.5" />
-    <Sprite name="GUIButton.Pressed" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" tile="false" state="Pressed" sourcerect="8,565,111,66" origin="0.5,0.5" />
+    <Sprite name="GUIButton.None" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" state="None" sourcerect="8,425,111,66" origin="0.5,0.5" />
+    <Sprite name="GUIButton.Selected" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" state="Selected" sourcerect="8,635,111,66" origin="0.5,0.5" />
+    <Sprite name="GUIButton.Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" state="Hover" sourcerect="8,495,111,66" origin="0.5,0.5" />
+    <Sprite name="GUIButton.HoverSelected" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" state="HoverSelected" sourcerect="8,495,111,66" origin="0.5,0.5" />
+    <Sprite name="GUIButton.Pressed" texture="%ModDir%/UI/InventoryUIAtlas.png" tile="false" state="Pressed" sourcerect="8,565,111,66" origin="0.5,0.5" />
   </ChatToggleButton>
   <!-- Command UI starts -->
   <CommandButton color="255,255,255,255">
-    <Sprite name="CommandButton_None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="123,145,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CommandButton_Selected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="123,355,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CommandButton_Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="123,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CommandButton_HoverSelected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="123,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CommandButton_Pressed" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="123,285,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CommandButton_None" texture="%ModDir%/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="123,145,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CommandButton_Selected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="123,355,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CommandButton_Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="123,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CommandButton_HoverSelected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="123,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CommandButton_Pressed" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="123,285,111,66" maintainaspectratio="true" origin="0.5,0.5" />
   </CommandButton>
   <CommandStartNode color="180,196,137,250">
     <Sprite name="CommandStartNode" texture="Content/UI/CommandUIAtlas.png" sourcerect="896,0,128,128" maintainaspectratio="true" tile="false" />
@@ -1090,11 +1090,11 @@
     <Sprite name="VoipIconHigh" texture="Content/UI/UIAtlasGeneral.png" sourcerect="61,573,35,38" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </VoipIconHigh>
   <CrewListToggleButton color="255,255,255,255">
-    <Sprite name="CrewListToggleButton_None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="8,145,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CrewListToggleButton_Selected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="8,355,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CrewListToggleButton_Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="8,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CrewListToggleButton_HoverSelected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="8,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="CrewListToggleButton_Pressed" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="8,285,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewListToggleButton_None" texture="%ModDir%/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="8,145,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewListToggleButton_Selected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="8,355,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewListToggleButton_Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="8,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewListToggleButton_HoverSelected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="8,215,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewListToggleButton_Pressed" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="8,285,111,66" maintainaspectratio="true" origin="0.5,0.5" />
   </CrewListToggleButton>
   <CrewListBackground color="255,255,255,255">
     <Sprite name="CrewListBackground_None" texture="Content/UI/CommandUIAtlas.png" state="None" tile="false" sourcerect="0,728,320,40" />
@@ -1363,40 +1363,40 @@
     <Sprite name="EditIcon" texture="Content/UI/UIAtlasGeneral.png" tile="false" maintainaspectratio="true" sourcerect="149,51,43,43" origin="0.5,0.5" />
   </EditIcon>
   <TabMenuButton color="255,255,255,255">
-    <Sprite name="TabMenuButton_None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="123,425,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="TabMenuButton_Selected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="123,635,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="TabMenuButton_Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="123,495,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="TabMenuButton_HoverSelected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="123,495,111,66" maintainaspectratio="true" origin="0.5,0.5" />
-    <Sprite name="TabMenuButton_Pressed" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="123,565,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TabMenuButton_None" texture="%ModDir%/UI/InventoryUIAtlas.png" state="None" tile="false" sourcerect="123,425,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TabMenuButton_Selected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Selected" tile="false" sourcerect="123,635,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TabMenuButton_Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" tile="false" sourcerect="123,495,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TabMenuButton_HoverSelected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="HoverSelected" tile="false" sourcerect="123,495,111,66" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TabMenuButton_Pressed" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Pressed" tile="false" sourcerect="123,565,111,66" maintainaspectratio="true" origin="0.5,0.5" />
   </TabMenuButton>
   <DifficultyIndicator>
     <Sprite name="DifficultyIndicator" texture="Content/Map/MapAtlas.png" tile="false" sourcerect="68,802,24,21" origin="0.5,0.5" maintainaspectratio="true" />
   </DifficultyIndicator>
 
   <InfoFrameTabButton.MyCharacter color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="MyCharacterTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="303,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MyCharacterTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="303,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.MyCharacter>
   <InfoFrameTabButton.Crew color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="CrewTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="369,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="CrewTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="369,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Crew>
   <InfoFrameTabButton.Mission color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="MissionTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="435,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="MissionTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="435,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Mission>
   <InfoFrameTabButton.Reputation color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="ReputationTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="501,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="ReputationTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="501,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Reputation>
   <InfoFrameTabButton.Submarine color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="SubmarineTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="303,606,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="SubmarineTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="303,606,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Submarine>
   <InfoFrameTabButton.Traitor color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="TraitorTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="369,606,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TraitorTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="369,606,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Traitor>
   <InfoFrameTabButton.Talents color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="TalentsTabButton" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="303,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+    <Sprite name="TalentsTabButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="303,540,65,65" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </InfoFrameTabButton.Talents>
   <ExpandButton>
-    <Sprite name="ExpandButton.None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="795,190,40,40" tile="false" maintainaspectratio="true" origin="0.5,0.5" state="None" />
-    <Sprite name="ExpandButton.Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" sourcerect="845,190,40,40" tile="false" maintainaspectratio="true" origin="0.5,0.5" state="Hover" />
+    <Sprite name="ExpandButton.None" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="795,190,40,40" tile="false" maintainaspectratio="true" origin="0.5,0.5" state="None" />
+    <Sprite name="ExpandButton.Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="845,190,40,40" tile="false" maintainaspectratio="true" origin="0.5,0.5" state="Hover" />
   </ExpandButton>
   <IdleObjectiveIcon color="255,255,255,255">
     <Sprite name="IdleObjectiveIcon" texture="Content/UI/CommandUIAtlas.png" sourcerect="384,512,128,128" maintainaspectratio="true" tile="false" />
@@ -1411,10 +1411,10 @@
     <Sprite name="SlideDownArrow" texture="Content/UI/UIAtlasGeneral.png" tile="false" maintainaspectratio="true" sourcerect="276,566,27,30" origin="0.5,0.5" />
   </SlideDownArrow>
   <SlideDown color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" disabledcolor="125,125,125,255" pressedcolor="230,230,230,255">
-    <Sprite name="SlideDown.None" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="None" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
-    <Sprite name="SlideDown.Hover" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Hover" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
-    <Sprite name="SlideDown.Selected" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Selected" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
-    <Sprite name="SlideDown.Pressed" texture="Mods/Zvezda Bundle/UI/InventoryUIAtlas.png" state="Pressed" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
+    <Sprite name="SlideDown.None" texture="%ModDir%/UI/InventoryUIAtlas.png" state="None" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
+    <Sprite name="SlideDown.Hover" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
+    <Sprite name="SlideDown.Selected" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Selected" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
+    <Sprite name="SlideDown.Pressed" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Pressed" sourcerect="518,949,126,42" slice="524,949,638,991" origin="0.5,0.5" />
   </SlideDown>
 
 <!-- talent UI-->

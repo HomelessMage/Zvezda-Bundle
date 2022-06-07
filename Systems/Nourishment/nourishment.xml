@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
    <Item name="Холодильник" identifier="fridge" tags="container,cookcab,fridge" linkable="true" pickdistance="150" waterproof="true">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/refrigerator.png" depth="0.84" sourcerect="0,0,100,200" canflipx="false" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/refrigerator.png" depth="0.84" sourcerect="0,0,100,200" canflipx="false" />
       <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="6" style="ItemUI" />
          <Containable items="smallitem,chem,food,snack" />
       </ItemContainer>
    </Item>
    <Item name="Левосторонний ящик" identifier="cupboardl" tags="container,cookcab,cupboard" linkable="true" pickdistance="150" waterproof="true">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/cupboardl.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/cupboardl.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
       <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="5" style="ItemUI" />
          <Containable items="smallitem,chem,food,snack" />
       </ItemContainer>
    </Item>
    <Item name="Правосторонний ящик" identifier="cupboardr" tags="container,cookcab,cupboard" linkable="true" pickdistance="150" waterproof="true">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/cupboardr.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/cupboardr.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
       <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="5" style="ItemUI" />
          <Containable items="smallitem,chem,food,snack" />
       </ItemContainer>
    </Item>
    <Item name="Кладовая" identifier="pantry" tags="container,cookcab,pantry" linkable="true" pickdistance="150" waterproof="true">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/pantry.png" depth="0.84" sourcerect="0,0,71,181" canflipx="false" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/pantry.png" depth="0.84" sourcerect="0,0,71,181" canflipx="false" />
       <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="6" style="ItemUI" />
          <Containable items="smallitem,chem,food,snack" />
       </ItemContainer>
    </Item>
    <Item name="Плита" identifier="kitchen" tags="kitchen" category="Machine" linkable="true" allowedlinks="fabricator,medicalfabricator,deconstructor,locker,container,cookcab" description="" scale="0.4">
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/kitchen.png" sourcerect="0,0,285,260" depth="0.8" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/kitchen.png" sourcerect="0,0,285,260" depth="0.8" />
       <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
          <sound file="Content/Items/Fabricators/Fabricator.ogg" type="OnActive" range="1000.0" loop="true" />
@@ -144,8 +144,8 @@
       <Deconstruct time="10">
          <Item identifier="iron" />
       </Deconstruct>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
@@ -162,8 +162,8 @@
       <Fabricate suitablefabricators="fabricator" requiredtime="10">
          <RequiredItem identifier="carbon" />
       </Fabricate>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
       <Body width="50" height="58" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
@@ -180,8 +180,8 @@
       </Fabricate>
       <SuitableTreatment identifier="thirst" suitability="100" />
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
@@ -202,8 +202,8 @@
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
       <SuitableTreatment identifier="thirst" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-25" disabledeltatime="true" />
@@ -222,8 +222,8 @@
          <RequiredItem identifier="mre" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50" disabledeltatime="true" />
@@ -243,8 +243,8 @@
          <RequiredItem identifier="aquaticpoppy" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
@@ -265,8 +265,8 @@
          <RequiredItem identifier="mre" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50" disabledeltatime="true" />
@@ -285,8 +285,8 @@
          <RequiredItem identifier="elastinplant" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
@@ -305,8 +305,8 @@
          <RequiredItem identifier="adrenalinegland" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
@@ -324,8 +324,8 @@
          <RequiredItem identifier="adrenalinegland" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
@@ -344,8 +344,8 @@
          <RequiredItem identifier="saltbulb" />
       </Fabricate>
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
@@ -359,8 +359,8 @@
    </Item>
    <Item name="Торт Наполеон" identifier="bowl8" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с тортом-пирожным из слоёного теста с заварным кремом." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
       <SuitableTreatment identifier="hunger" suitability="100" />
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" depth="0.6" origin="0.5,0.5" />
       <Body width="48" height="56" density="20" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
@@ -383,8 +383,8 @@
       <Deconstruct time="5">
          <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
       </Deconstruct>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/StolichnayaI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/Stolichnaya.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/StolichnayaI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/Stolichnaya.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
       <Body width="31" height="137" density="9" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
@@ -403,7 +403,7 @@
             <Affliction identifier="strengthen" amount="50" />
          </StatusEffect>
          <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
-            <sound file="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/vodka.ogg" type="OnUse" range="600" selectionmode="All" />
+            <sound file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg" type="OnUse" range="600" selectionmode="All" />
          </StatusEffect>
          <!-- Remove the item when fully used -->
          <StatusEffect type="OnBroken" target="This">
@@ -419,8 +419,8 @@
       <Deconstruct time="20">
          <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
       </Deconstruct>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/pohI.png" sourcerect="447,819,80,81" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/pohmelin.png" sourcerect="430.7,722,60,188" depth="0.6" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/pohI.png" sourcerect="447,819,80,81" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/pohmelin.png" sourcerect="430.7,722,60,188" depth="0.6" origin="0.5,0.5" />
       <Body width="60" height="140" density="9" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
@@ -428,7 +428,7 @@
             <ReduceAffliction identifier="drunk" amount="2.5" />
          </StatusEffect>
          <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
-            <sound file="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/poh.ogg" type="OnUse" range="600" selectionmode="All" />
+            <sound file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" type="OnUse" range="600" selectionmode="All" />
          </StatusEffect>
          <!-- Remove the item when fully used -->
          <StatusEffect type="OnBroken" target="This">
@@ -448,8 +448,8 @@
       <Deconstruct time="5">
          <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
       </Deconstruct>
-      <InventoryIcon texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/beerI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
-      <Sprite texture="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/beer.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/beerI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/beer.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
       <Body width="31" height="137" density="9" />
       <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
          <RequiredSkill identifier="medical" level="1" />
@@ -465,10 +465,10 @@
             <Affliction identifier="strengthen" amount="100" />
          </StatusEffect>
          <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
-            <sound file="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/beer.ogg" type="OnUse" range="600" selectionmode="All" />
+            <sound file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" type="OnUse" range="600" selectionmode="All" />
          </StatusEffect>
          <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
-            <sound file="Mods/Zvezda Bundle/Systems/Nourishment/Alcohol/water.ogg" type="OnUse" range="600" selectionmode="All" delay="2.0" />
+            <sound file="%ModDir%/Systems/Nourishment/Alcohol/water.ogg" type="OnUse" range="600" selectionmode="All" delay="2.0" />
          </StatusEffect>
          <!-- Remove the item when fully used -->
          <StatusEffect type="OnBroken" target="This">

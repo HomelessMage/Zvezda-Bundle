@@ -3,11 +3,11 @@
 
   <Item name="" identifier="generatordiesel_large" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="96" y="-64" width="576" height="240" />
-    <Sprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_large.png" sourcerect="0,0,768,368" origin="0.5,0.45" depth="0.8" />
+    <Sprite texture="%ModDir%/Map/Generator/generator_diesel_large.png" sourcerect="0,0,768,368" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_large.png" sourcerect="0,368,768,368" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_large.png" sourcerect="0,368,768,368" depth="0.8" origin="0.5,0.45" maxcondition="60" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_large.png" sourcerect="0,736,768,368" depth="0.8" origin="0.5,0.45" maxcondition="1" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_large.png" sourcerect="0,368,768,368" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_large.png" sourcerect="0,368,768,368" depth="0.8" origin="0.5,0.45" maxcondition="60" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_large.png" sourcerect="0,736,768,368" depth="0.8" origin="0.5,0.45" maxcondition="1" />
     <aitarget sightrange="500" soundrange="10000" />
     <Reactor canbeselected="true" firedelay="20" meltdowndelay="60" maxpoweroutput="9000" fuelconsumptionrate="0.5" vulnerabletoemp="false" msg="ItemMsgInteractSelect">
       <StatusEffect type="InWater" target="This" condition="-1">
@@ -39,7 +39,7 @@
         <Sprite name="TempRangeIndicator" texture="Content/UI/UIAtlasDevices.png" sourcerect="31,614,52,25" origin="0.5,0.5" size="0.6,0.6" />
       </TempRangeIndicator>
       <RequiredSkill identifier="mechanical" level="50" />
-      <sound file="Mods/Zvezda Bundle/Map/Generator/generator_diesel_large.ogg" type="OnActive" range="1750.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
+      <sound file="%ModDir%/Map/Generator/generator_diesel_large.ogg" type="OnActive" range="1750.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
       <StatusEffect type="OnBroken" target="This" FissionRate="0.0" disabledeltatime="true">
         <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="8000" selectionmode="All" />
         <sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="8000" />
@@ -123,11 +123,11 @@
 
   <Item name="" identifier="generatordiesel_medium" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="56" y="-64" width="448" height="224" />
-    <Sprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="0,0,560,352" origin="0.5,0.45" depth="0.8" />
+    <Sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="0,0,560,352" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="560,0,560,352" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="560,0,560,352" depth="0.8" origin="0.5,0.45" maxcondition="60" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="0,352,560,352" depth="0.8" origin="0.5,0.45" maxcondition="1" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="560,0,560,352" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="560,0,560,352" depth="0.8" origin="0.5,0.45" maxcondition="60" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="0,352,560,352" depth="0.8" origin="0.5,0.45" maxcondition="1" />
     <aitarget sightrange="500" soundrange="7500" />
     <Reactor canbeselected="true" firedelay="20" meltdowndelay="60" maxpoweroutput="6000" fuelconsumptionrate="0.35" vulnerabletoemp="false" msg="ItemMsgInteractSelect">
       <StatusEffect type="InWater" target="This" condition="-1.5">
@@ -159,7 +159,7 @@
         <Sprite name="TempRangeIndicator" texture="Content/UI/UIAtlasDevices.png" sourcerect="31,614,52,25" origin="0.5,0.5" size="0.6,0.6" />
       </TempRangeIndicator>
       <RequiredSkill identifier="mechanical" level="50" />
-      <sound file="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.ogg" type="OnActive" range="1250.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
+      <sound file="%ModDir%/Map/Generator/generator_diesel_medium.ogg" type="OnActive" range="1250.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
       <StatusEffect type="OnBroken" target="This" FissionRate="0.0" disabledeltatime="true">
         <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="8000" selectionmode="All" />
         <sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="8000" />
@@ -173,11 +173,11 @@
     </Reactor>
     <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false" flicker="0.3" flickerspeed="0.2">
       <IsActive targetitemcomponent="Reactor" temperature="gt 2" />
-      <sprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" depth="0.025" sourcerect="560,352,144,96" origin="-0.3,-0.22" alpha="1.0" />
+      <sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" depth="0.025" sourcerect="560,352,144,96" origin="-0.3,-0.22" alpha="1.0" />
     </LightComponent>
     <LightComponent range="10.0" lightcolor="255,100,100,0" powerconsumption="0" IsOn="false" castshadows="false" allowingameediting="false" blinkfrequency="1">
       <IsActive targetitemcomponent="Reactor" temperaturecritical="eq true" />
-      <sprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" depth="0.025" sourcerect="560,352,144,96" origin="-0.3,-0.22" alpha="1.0" />
+      <sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" depth="0.025" sourcerect="560,352,144,96" origin="-0.3,-0.22" alpha="1.0" />
     </LightComponent>
     <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
       <GuiFrame relativesize="0.3,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
@@ -248,11 +248,11 @@
 
   <Item name="" identifier="generatordiesel_small" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="48" y="-32" width="256" height="224" />
-    <Sprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="0,704,352,288" origin="0.5,0.45" depth="0.8" />
+    <Sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="0,704,352,288" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="352,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="352,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="60" />
-    <BrokenSprite texture="Mods/Zvezda Bundle/Map/Generator/generator_diesel_medium.png" sourcerect="704,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="1" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="352,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="90" mincondition="60" fadein="true" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="352,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="60" />
+    <BrokenSprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="704,704,352,288" depth="0.8" origin="0.5,0.45" maxcondition="1" />
     <aitarget sightrange="500" soundrange="5000" />
     <Reactor canbeselected="true" firedelay="20" meltdowndelay="60" maxpoweroutput="3000" fuelconsumptionrate="0.2" vulnerabletoemp="false" msg="ItemMsgInteractSelect">
       <StatusEffect type="InWater" target="This" condition="-2">
@@ -284,7 +284,7 @@
         <Sprite name="TempRangeIndicator" texture="Content/UI/UIAtlasDevices.png" sourcerect="31,614,52,25" origin="0.5,0.5" size="0.6,0.6" />
       </TempRangeIndicator>
       <RequiredSkill identifier="mechanical" level="50" />
-      <sound file="Mods/Zvezda Bundle/Map/Generator/generator_diesel_small_mono.ogg" type="OnActive" range="750.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
+      <sound file="%ModDir%/Map/Generator/generator_diesel_small_mono.ogg" type="OnActive" range="750.0" volumeproperty="FissionRate" volume="0.02" loop="true" />
       <StatusEffect type="OnBroken" target="This" FissionRate="0.0" disabledeltatime="true">
         <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="8000" selectionmode="All" />
         <sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="8000" />
