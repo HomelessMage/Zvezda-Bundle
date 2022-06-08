@@ -112,20 +112,20 @@
 		<Sprite name="Omon Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
 		<Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
 		<Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-			<sprite name="Omon Uniform 1 Torso" texture="Omon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Hand" texture="Omon.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Hand" texture="Omon.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Lower Arm" texture="Omon.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Lower Arm" texture="Omon.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Upper Arm" texture="Omon.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Upper Arm" texture="Omon.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Waist" texture="Omon.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Thigh" texture="Omon.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Thigh" texture="Omon.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Leg" texture="Omon.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Leg" texture="Omon.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Left Shoe" texture="Omon.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Omon Uniform 1 Right Shoe" texture="Omon.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Omon Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<ItemContainer capacity="5">
 				<Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
 			</ItemContainer>
@@ -145,8 +145,20 @@
 		<Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
 		<Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
 		<Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-			<sprite name="Afganka Uniform 1 Torso" texture="Solders/Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Hand" texture="Solders/Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<ItemContainer capacity="5">
 				<Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
 			</ItemContainer>

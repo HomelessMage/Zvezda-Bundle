@@ -58,6 +58,83 @@
   <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
 
 
+  <!--Музыка говна-->
+  <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg"/>
+  <Other file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg"/>
+  <Other file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg"/>
+  <Other file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg"/>
+  <Other file="%ModDir%/Systems/Nourishment/Alcohol/water.ogg"/>
+
+  <Other file="%ModDir%/Systems/Music items/accordion1.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/accordion2.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/accordion3.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/accordion4.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/accordion5.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit1.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit2.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit3.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit4.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit5.ogg"/>
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit6.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_bandit7.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_reich1.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_reich2.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_reich3.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_reich4.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar_reich5.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar1.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar2.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar3.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar4.ogg" />
+  <Other file="%ModDir%/Systems/Music items/guitar5.ogg" />
+
+  <Other file="%ModDir%/Map/Door/blastdoor1_move.ogg" />
+  <Other file="%ModDir%/Map/Door/dockingrail1.ogg" />
+  <Other file="%ModDir%/Map/Door/dockingrail2.ogg" />
+  <Other file="%ModDir%/Map/Door/exteriorshelldoor1_move.ogg" />
+  <Other file="%ModDir%/Map/Door/maintenancepanel1_move.ogg" />
+
+  <Other file="%ModDir%/Items/Tools/Demian/neonazi_scream.ogg" />
+  <Other file="%ModDir%/Items/Tools/Demian/soviet_scream.ogg" />
+
+  <Other file="%ModDir%/Items/Tools/Work/drill_loop.ogg" />
+  <Other file="%ModDir%/Items/Tools/Work/patching_kit_loop.ogg" />
+
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun2.ogg" />
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun3.ogg" />
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun4.ogg" />
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun5.ogg" />
+  <Other file="%ModDir%/Items/Weapons/Cannons/Coilgun6.ogg" />
+
+  <Other file="%ModDir%/Items/Weapons/ogg/ak74mshot.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ak74mshot1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ksm.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ksm1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ksm2.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ksm3.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/ksm4.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/pmpistol3.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot3.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot4.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot5.ogg" />
+  <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" />
+
+  <Other file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" />
+
+  <Other file="%ModDir%/Map/Torgomat/sell.ogg" />
+
+
+
+
 
 
 

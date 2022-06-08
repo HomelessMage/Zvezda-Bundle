@@ -9,6 +9,8 @@
 
   <!-- <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/> -->
   <music file="%ModDir%/UI/Mucyraev.ogg" type="menu" continuefromprevioustime="true"/>
+
+<!--
   <music file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="default"/>
   <music file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" type="default"/>
   <music file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" type="default"/>
@@ -81,7 +83,7 @@
   <music file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" type="default"/>
 
   <music file="%ModDir%/Map/Torgomat/sell.ogg" type="default"/>
-
+-->
 
 
 
