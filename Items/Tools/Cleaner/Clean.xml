@@ -19,7 +19,7 @@
 		<Deconstruct time="15">
 			<Item identifier="rubber" />
 		</Deconstruct>
-		<InventoryIcon texture="%ModDir%/Items/Cleaner/Tools/trashbag.png" sourcerect="1,0,295,405" origin="0.51525426,0.51358026" />
+		<InventoryIcon texture="%ModDir%/Items/Tools/Cleaner/trashbagroll.png" sourcerect="1,0,295,405" origin="0.51525426,0.51358026" />
 		<Sprite texture="%ModDir%/Items/Tools/Cleaner/trashbag.png" sourcerect="2,5,286,399" origin="0.5174825,0.3433584" />
 		<MeleeWeapon slots="RightHand,LeftHand,Any" controlpose="true" aimpos="45,10" handle1="0,10" handle2="-15,10" holdangle="90" reload="1" range="50" combatpriority="5" msg="ItemMsgPickUpSelect" />
 		<Body width="90" height="60" density="20" />

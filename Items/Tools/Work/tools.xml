@@ -79,8 +79,8 @@
       <RequiredItem identifier="titanium" />
       <RequiredItem identifier="fpgacircuit" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Tools/tools.png" sourcerect="832,0,64,64" />
-    <Sprite texture="%ModDir%/Items/Tools/tools.png" sourcerect="672,272,224,96" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="832,0,64,64" />
+    <Sprite texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="672,272,224,96" depth="0.55" origin="0.5,0.5" />
     <Body width="180" height="85" density="30" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,-5" aimpos="45,0" handle1="-52,-16" handle2="32,-16" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="15.0" structurefixamount="1.25" range="125" barrelpos="35,9" particles="weld" repairmultiple="true" repairthroughwalls="false" combatpriority="5">
@@ -150,8 +150,8 @@
       <RequiredItem identifier="titanium" />
       <RequiredItem identifier="plastic" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Tools/tools.png" sourcerect="128,0,64,64" />
-    <Sprite texture="%ModDir%/Items/Tools/tools.png" sourcerect="48,128,272,128" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="128,0,64,64" />
+    <Sprite texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="48,128,272,128" depth="0.55" origin="0.5,0.5" />
     <Body width="228" height="96" density="30" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="65,-5" aimpos="50,0" handle1="-98,-24" handle2="8,-16" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="10.0" structurefixamount="-0.07" range="25" barrelpos="48,10" combatpriority="23" RepairMultiple="true" RepairThroughHoles="false" levelwallfixamount="-5.0">
@@ -211,9 +211,9 @@
       <RequiredItem identifier="rubber" />
       <RequiredItem identifier="wrench" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Tools/tools.png" sourcerect="384,64,64,64" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Tools/tools.png" sourcerect="448,256,128,128" depth="0.55" origin="0.5,0.55" />
-    <BrokenSprite texture="%ModDir%/Items/Tools/tools.png" sourcerect="576,256,96,160" depth="0.55" origin="0.5,0.5" maxcondition="95" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="384,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="448,256,128,128" depth="0.55" origin="0.5,0.55" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="576,256,96,160" depth="0.55" origin="0.5,0.5" maxcondition="95" />
     <Body width="128" height="104" density="25" />
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true"
 			  holdpos="55,-20" aimpos="50,0" holdangle="-40" handle1="0,-32" handle2="8,32" msg="ItemMsgPickUpSelect" >
@@ -260,15 +260,15 @@
       <RequiredItem identifier="toolbox" />
       <RequiredItem identifier="organicfiber" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Tools/tools.png" sourcerect="656,0,96,160" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Tools/tools.png" depth="0.6" sourcerect="656,0,96,160" origin="0.5,0.6" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Work/tools.png" sourcerect="656,0,96,160" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Work/tools.png" depth="0.6" sourcerect="656,0,96,160" origin="0.5,0.6" />
     <Body width="95" height="115" density="15" />
     <ItemContainer capacity="20" depth="0.5" >
       <Containable items="smallitem,explosive,tool,ore" excludeditems="toolbelt,toolbox,mobilecontainer,rucksack,backpack,waistbelt" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <sprite name="Backpack Wearable" texture="%ModDir%/Items/Tools/tools.png" limb="Torso" hidelimb="false" 
+      <sprite name="Backpack Wearable" texture="%ModDir%/Items/Tools/Work/tools.png" limb="Torso" hidelimb="false" 
 	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="656,0,96,160" origin="1.2,0.6" scale="0.35"/>
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />
     </Wearable>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" corepackage="true" gameversion="0.17.16.0" steamworkshopid="2676179277" installtime="1647372265">
   <Sounds file="%ModDir%/Sounds/sounds.xml" />
-  <UIStyle file="%ModDir%/UI/loh2/style.xml" />
+  <UIStyle file="%ModDir%/UI/style.xml" />
   <Character file="%ModDir%/Characters/Human/Human.xml" />
   <SkillSettings file="%ModDir%/SkillSettings.xml" />
   <Text file="%ModDir%/Texts/Russian.xml" />

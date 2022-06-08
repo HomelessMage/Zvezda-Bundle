@@ -141,24 +141,12 @@
 			<Price locationtype="military" multiplier="1" minavailable="1"/>
 			<Price locationtype="mine" multiplier="1" minavailable="1"/></Price>
 		<Deconstruct time="10"/>
-		<InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+		<InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
 		<Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
 		<Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
 		<Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-			<sprite name="Afganka Uniform 1 Torso" texture="Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Hand" texture="Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Hand" texture="Afganka.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Lower Arm" texture="Afganka.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Lower Arm" texture="Afganka.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Upper Arm" texture="Afganka.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Upper Arm" texture="Afganka.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Waist" texture="Afganka.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Thigh" texture="Afganka.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Thigh" texture="Afganka.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Leg" texture="Afganka.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Leg" texture="Afganka.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Left Shoe" texture="Afganka.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-			<sprite name="Afganka Uniform 1 Right Shoe" texture="Afganka.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform 1 Torso" texture="Solders/Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Afganka Uniform 1 Right Hand" texture="Solders/Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<ItemContainer capacity="5">
 				<Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
 			</ItemContainer>
@@ -176,24 +164,24 @@
 			<Price locationtype="military" multiplier="1" minavailable="4" />
 			<Price locationtype="mine" multiplier="1" minavailable="1" /></Price>
 		<Deconstruct time="10" />
-		<InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+		<InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
 		<Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
 		<Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
 		<Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-			<sprite name="Camo Woodland Torso" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Waist" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Right Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="Camo Woodland Left Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Torso" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Waist" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Right Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="Camo Woodland Left Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
 			<damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
 		</Wearable>
 		<Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />

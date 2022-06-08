@@ -6,8 +6,8 @@
 
 
     <Item name="" identifier="flamerz" category="Equipment" Tags="smallitem,weapon,gun" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
-    <InventoryIcon texture="%ModDir%/Items/Weapons/Flamer/Flamericon.png" sourcerect="0,0,250,361" />
-    <Sprite texture="%ModDir%/Items/Weapons/Flamer/Flamer.png" sourcerect="0,0,415,140" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamericon.png" sourcerect="0,0,250,361" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamer.png" sourcerect="0,0,415,140" depth="0.55" origin="0.5,0.5" />
     <Deconstruct time="25">
       <Item identifier="steel" />
       <Item identifier="plastic" />
@@ -87,8 +87,8 @@
       <RequiredItem identifier="weldingfueltank" mincondition="0.0" usecondition="false"/>
       <RequiredItem identifier="ethanol" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Weapons/Flamer/Petroltankicon.png" sourcerect="0,0,169,170" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Weapons/Flamer/Petroltank.png" sourcerect="0,0,220,51" depth="0.56" />
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Petroltankicon.png" sourcerect="0,0,169,170" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Petroltank.png" sourcerect="0,0,220,51" depth="0.56" />
     <Body width="42" height="42" density="9.7" />
     <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnFire" target="This" Condition="-10.0" tags="onfire" duration="1" stackable="false" />
@@ -129,15 +129,15 @@
       <Item identifier="aluminium" /> 
       <Item identifier="aluminium" /> 
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/Items/Weapons/Flamer/Flamerpack2.png" sourcerect="0,0,80,160" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Weapons/Flamer/Flamerpack.png" depth="0.6" sourcerect="0,0,80,160" origin="0.5,0.6" />
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack2.png" sourcerect="0,0,80,160" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack.png" depth="0.6" sourcerect="0,0,80,160" origin="0.5,0.6" />
     <Body width="95" height="115" density="15" />
     <ItemContainer capacity="1" depth="0.5" ShowContainedStateIndicator="false" ShowConditionInContainedStateIndicator="true" UILabel="Перекачка" >
       <Containable items="petroltank,refillableoxygensource" excludeditems="" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <sprite name="Flamerpack Wearable" texture="%ModDir%/Items/Weapons/Flamer/Flamerpack.png" limb="Torso" hidelimb="false" 
+      <sprite name="Flamerpack Wearable" texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack.png" limb="Torso" hidelimb="false" 
 	  inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="0,0,80,160" origin="1.2,0.6" scale="0.5"/>
     <OxygenGenerator powerconsumption="0.0" minvoltage="0.0" canbeselected="true" msg="ItemMsgInteractSelect">
       <sound file="Content/Items/OxygenGenerator/OxygenGenerator.ogg" type="OnActive" range="1000.0" volumeproperty="CurrFlow" volume="0.001" loop="true"/>    

@@ -856,7 +856,7 @@
       <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1" sold="false"/>
     </Price>
-    <InventoryIcon texture="%ModDir%/Items/InventoryIconAtlas.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
     <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,2,185,69" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" variants="1" msg="ItemMsgPickUpSelect">

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<names format="[firstname] [lastname]">
+
+<firstname tags="female" value="Агафья" />
+<firstname tags="female" value="Аглая" />
+<firstname tags="female" value="Агния" />
+<firstname tags="female" value="Агриппина" />
+<firstname tags="female" value="Аза" />
+<firstname tags="female" value="Акулина" />
+<firstname tags="female" value="Алевтина" />
+<firstname tags="female" value="Александра" />
+<firstname tags="female" value="Алина" />
+<firstname tags="female" value="Алла" />
+<firstname tags="female" value="Анастасия" />
+<firstname tags="female" value="Ангелина" />
+<firstname tags="female" value="Анжела" />
+<firstname tags="female" value="Анжелика" />
+<firstname tags="female" value="Анна" />
+<firstname tags="female" value="Антонина" />
+<firstname tags="female" value="Анфиса" />
+<firstname tags="female" value="Валентина" />
+<firstname tags="female" value="Валерия" />
+<firstname tags="female" value="Варвара" />
+<firstname tags="female" value="Василиса" />
+<firstname tags="female" value="Вера" />
+<firstname tags="female" value="Вероника" />
+<firstname tags="female" value="Виктория" />
+<firstname tags="female" value="Галина" />
+<firstname tags="female" value="Глафира" />
+<firstname tags="female" value="Гликерия" />
+<firstname tags="female" value="Дана" />
+<firstname tags="female" value="Дарья" />
+<firstname tags="female" value="Евгения" />
+<firstname tags="female" value="Евдокия" />
+<firstname tags="female" value="Евлалия" />
+<firstname tags="female" value="Евлампия" />
+<firstname tags="female" value="Евпраксия" />
+<firstname tags="female" value="Евфросиния" />
+<firstname tags="female" value="Екатерина" />
+<firstname tags="female" value="Елена" />
+<firstname tags="female" value="Елизавета" />
+<firstname tags="female" value="Епистима" />
+<firstname tags="female" value="Ермиония" />
+<firstname tags="female" value="Жанна" />
+<firstname tags="female" value="Зинаида" />
+<firstname tags="female" value="Злата" />
+<firstname tags="female" value="Зоя" />
+<firstname tags="female" value="Инга" />
+<firstname tags="female" value="Инесса" />
+<firstname tags="female" value="Инна" />
+<firstname tags="female" value="Иоанна" />
+<firstname tags="female" value="Ираида" />
+<firstname tags="female" value="Ирина" />
+<firstname tags="female" value="Капитолина" />
+<firstname tags="female" value="Карина" />
+<firstname tags="female" value="Каролина" />
+<firstname tags="female" value="Кира" />
+<firstname tags="female" value="Клавдия" />
+<firstname tags="female" value="Ксения" />
+<firstname tags="female" value="Лада" />
+<firstname tags="female" value="Лариса" />
+<firstname tags="female" value="Лидия" />
+<firstname tags="female" value="Лилия" />
+<firstname tags="female" value="Любовь" />
+<firstname tags="female" value="Людмила" />
+<firstname tags="female" value="Маргарита" />
+<firstname tags="female" value="Марина" />
+<firstname tags="female" value="Мария" />
+<firstname tags="female" value="Марфа" />
+<firstname tags="female" value="Матрёна" />
+<firstname tags="female" value="Милица" />
+<firstname tags="female" value="Мирослава" />
+<firstname tags="female" value="Надежда" />
+<firstname tags="female" value="Наталья" />
+<firstname tags="female" value="Нина" />
+<firstname tags="female" value="Нонна" />
+<firstname tags="female" value="Оксана" />
+<firstname tags="female" value="Октябрина" />
+<firstname tags="female" value="Олимпиада" />
+<firstname tags="female" value="Ольга" />
+<firstname tags="female" value="Павлина" />
+<firstname tags="female" value="Пелагея" />
+<firstname tags="female" value="Полина" />
+<firstname tags="female" value="Прасковья" />
+<firstname tags="female" value="Рада" />
+<firstname tags="female" value="Регина" />
+<firstname tags="female" value="Римма" />
+<firstname tags="female" value="Рогнеда" />
+<firstname tags="female" value="Светлана" />
+<firstname tags="female" value="Серафима" />
+<firstname tags="female" value="Снежана" />
+<firstname tags="female" value="София" />
+<firstname tags="female" value="Таисия" />
+<firstname tags="female" value="Тамара" />
+<firstname tags="female" value="Татьяна" />
+<firstname tags="female" value="Улита" />
+<firstname tags="female" value="Ульяна" />
+<firstname tags="female" value="Урсула" />
+<firstname tags="female" value="Фаина" />
+<firstname tags="female" value="Феврония" />
+<firstname tags="female" value="Фёкла" />
+<firstname tags="female" value="Феодора" />
+<firstname tags="female" value="Целестина" />
+<firstname tags="female" value="Юлия" />
+<firstname tags="female" value="Яна" />
+<firstname tags="female" value="Ярослава" />
+
+<firstname tags="male" value="Александр" />
+<firstname tags="male" value="Алексей" />
+<firstname tags="male" value="Альберт" />
+<firstname tags="male" value="Анатолий" />
+<firstname tags="male" value="Андрей" />
+<firstname tags="male" value="Антон" />
+<firstname tags="male" value="Аркадий" />
+<firstname tags="male" value="Арсений" />
+<firstname tags="male" value="Артём" />
+<firstname tags="male" value="Артур" />
+<firstname tags="male" value="Афанасий" />
+<firstname tags="male" value="Богдан" />
+<firstname tags="male" value="Борис" />
+<firstname tags="male" value="Вадим" />
+<firstname tags="male" value="Валентин" />
+<firstname tags="male" value="Валерий" />
+<firstname tags="male" value="Василий" />
+<firstname tags="male" value="Виктор" />
+<firstname tags="male" value="Виталий" />
+<firstname tags="male" value="Владимир" />
+<firstname tags="male" value="Владислав" />
+<firstname tags="male" value="Всеволод" />
+<firstname tags="male" value="Вячеслав" />
+<firstname tags="male" value="Геннадий" />
+<firstname tags="male" value="Георгий" />
+<firstname tags="male" value="Глеб" />
+<firstname tags="male" value="Григорий" />
+<firstname tags="male" value="Даниил" />
+<firstname tags="male" value="Демид" />
+<firstname tags="male" value="Демьян" />
+<firstname tags="male" value="Денис" />
+<firstname tags="male" value="Дмитрий" />
+<firstname tags="male" value="Евгений" />
+<firstname tags="male" value="Егор" />
+<firstname tags="male" value="Иван" />
+<firstname tags="male" value="Игорь" />
+<firstname tags="male" value="Илья" />
+<firstname tags="male" value="Кирилл" />
+<firstname tags="male" value="Константин" />
+<firstname tags="male" value="Лев" />
+<firstname tags="male" value="Леонид" />
+<firstname tags="male" value="Макар" />
+<firstname tags="male" value="Максим" />
+<firstname tags="male" value="Матвей" />
+<firstname tags="male" value="Михаил" />
+<firstname tags="male" value="Никита" />
+<firstname tags="male" value="Николай" />
+<firstname tags="male" value="Олег" />
+<firstname tags="male" value="Павел" />
+<firstname tags="male" value="Пётр" />
+<firstname tags="male" value="Родион" />
+<firstname tags="male" value="Роман" />
+<firstname tags="male" value="Руслан" />
+<firstname tags="male" value="Савелий" />
+<firstname tags="male" value="Святослав" />
+<firstname tags="male" value="Семён" />
+<firstname tags="male" value="Сергей" />
+<firstname tags="male" value="Станислав" />
+<firstname tags="male" value="Степан" />
+<firstname tags="male" value="Тимофей" />
+<firstname tags="male" value="Тимур" />
+<firstname tags="male" value="Фёдор" />
+<firstname tags="male" value="Эдуард" />
+<firstname tags="male" value="Юрий" />
+<firstname tags="male" value="Ян" />
+
+<lastname value="Авдеев" />
+<lastname value="Агапов" />
+<lastname value="Агафонов" />
+<lastname value="Агеев" />
+<lastname value="Акимов" />
+<lastname value="Аксёнов" />
+<lastname value="Александров" />
+<lastname value="Алексеев" />
+<lastname value="Алёхин" />
+<lastname value="Алешин" />
+<lastname value="Алёшин" />
+<lastname value="Ананьев" />
+<lastname value="Андреев" />
+<lastname value="Андрианов" />
+<lastname value="Аникин" />
+<lastname value="Анисимов" />
+<lastname value="Анохин" />
+<lastname value="Антипов" />
+<lastname value="Антонов" />
+<lastname value="Артамонов" />
+<lastname value="Артёмов" />
+<lastname value="Архипов" />
+<lastname value="Астафьев" />
+<lastname value="Астахов" />
+<lastname value="Афанасьев" />
+<lastname value="Бабушкин" />
+<lastname value="Баженов" />
+<lastname value="Балашов" />
+<lastname value="Баранов" />
+<lastname value="Барсуков" />
+<lastname value="Басов" />
+<lastname value="Безруков" />
+<lastname value="Беликов" />
+<lastname value="Белкин" />
+<lastname value="Белов" />
+<lastname value="Белоусов" />
+<lastname value="Беляев" />
+<lastname value="Беляков" />
+<lastname value="Березин" />
+<lastname value="Берия" />
+<lastname value="Беспалов" />
+<lastname value="Бессонов" />
+<lastname value="Бирюков" />
+<lastname value="Блинов" />
+<lastname value="Блохин" />
+<lastname value="Бобров" />
+<lastname value="Богданов" />
+<lastname value="Богомолов" />
+<lastname value="Болдырев" />
+<lastname value="Большаков" />
+<lastname value="Бондарев" />
+<lastname value="Борисов" />
+<lastname value="Бородин" />
+<lastname value="Бочаров" />
+<lastname value="Булатов" />
+<lastname value="Булгаков" />
+<lastname value="Буров" />
+<lastname value="Быков" />
+<lastname value="Бычков" />
+<lastname value="Вавилов" />
+<lastname value="Васильев" />
+<lastname value="Вдовин" />
+<lastname value="Верещагин" />
+<lastname value="Вешняков" />
+<lastname value="Виноградов" />
+<lastname value="Винокуров" />
+<lastname value="Вишневский" />
+<lastname value="Владимиров" />
+<lastname value="Власов" />
+<lastname value="Волков" />
+<lastname value="Волошин" />
+<lastname value="Воробьёв" />
+<lastname value="Воронин" />
+<lastname value="Воронков" />
+<lastname value="Воронов" />
+<lastname value="Воронцов" />
+<lastname value="Второв" />
+<lastname value="Высоцкий" />
+<lastname value="Гаврилов" />
+<lastname value="Гайдуков" />
+<lastname value="Гакабов" />
+<lastname value="Галкин" />
+<lastname value="Герасимов" />
+<lastname value="Гладков" />
+<lastname value="Глебов" />
+<lastname value="Глухов" />
+<lastname value="Глушков" />
+<lastname value="Гноев" />
+<lastname value="Голиков" />
+<lastname value="Голованов" />
+<lastname value="Головин" />
+<lastname value="Голубев" />
+<lastname value="Гончаров" />
+<lastname value="Горбань" />
+<lastname value="Горбачав" />
+<lastname value="Горбачёв" />
+<lastname value="Горбунов" />
+<lastname value="Гордеев" />
+<lastname value="Горелов" />
+<lastname value="Горлов" />
+<lastname value="Горохов" />
+<lastname value="Горшков" />
+<lastname value="Горюнов" />
+<lastname value="Горячев" />
+<lastname value="Грачёв" />
+<lastname value="Греков" />
+<lastname value="Грибков" />
+<lastname value="Грибов" />
+<lastname value="Григорьев" />
+<lastname value="Гришин" />
+<lastname value="Громов" />
+<lastname value="Губанов" />
+<lastname value="Гуляев" />
+<lastname value="Гуров" />
+<lastname value="Гусев" />
+<lastname value="Гущин" />
+<lastname value="Давыдов" />
+<lastname value="Данилов" />
+<lastname value="Дашков" />
+<lastname value="Дегтярев" />
+<lastname value="Дегтярёв" />
+<lastname value="Дементьев" />
+<lastname value="Демидов" />
+<lastname value="Дёмин" />
+<lastname value="Демьянов" />
+<lastname value="Денисов" />
+<lastname value="Дмитриев" />
+<lastname value="Добрынин" />
+<lastname value="Долгов" />
+<lastname value="Дорофеев" />
+<lastname value="Дорохов" />
+<lastname value="Дроздов" />
+<lastname value="Дружинин" />
+<lastname value="Дубинин" />
+<lastname value="Дубов" />
+<lastname value="Дубровин" />
+<lastname value="Дьяков" />
+<lastname value="Дьяконов" />
+<lastname value="Евдокимов" />
+<lastname value="Евсеев" />
+<lastname value="Егоров" />
+<lastname value="Ежов" />
+<lastname value="Елизаров" />
+<lastname value="Елисеев" />
+<lastname value="Ельцин" />
+<lastname value="Емельянов" />
+<lastname value="Еремеев" />
+<lastname value="Ерёмин" />
+<lastname value="Ермаков" />
+<lastname value="Ермилов" />
+<lastname value="Ермолаев" />
+<lastname value="Ермолов" />
+<lastname value="Еромлаев" />
+<lastname value="Ерофеев" />
+<lastname value="Ерохин" />
+<lastname value="Ершов" />
+<lastname value="Ефимов" />
+<lastname value="Ефремов" />
+<lastname value="Жаров" />
+<lastname value="Жданов" />
+<lastname value="Жилин" />
+<lastname value="Жириновский" />
+<lastname value="Жуков" />
+<lastname value="Журавлёв" />
+<lastname value="Завьялов" />
+<lastname value="Зайцев" />
+<lastname value="Захаров" />
+<lastname value="Зверев" />
+<lastname value="Звягинцев" />
+<lastname value="Зеленин" />
+<lastname value="Зимин" />
+<lastname value="Зиновьев" />
+<lastname value="Злобин" />
+<lastname value="Золотарев" />
+<lastname value="Золотарёв" />
+<lastname value="Золотов" />
+<lastname value="Зорин" />
+<lastname value="Зотов" />
+<lastname value="Зубков" />
+<lastname value="Зубов" />
+<lastname value="Зуев" />
+<lastname value="Зыков" />
+<lastname value="Зюганов" />
+<lastname value="Иванов" />
+<lastname value="Ивашов" />
+<lastname value="Игнатов" />
+<lastname value="Игнатьев" />
+<lastname value="Измайлов" />
+<lastname value="Ильин" />
+<lastname value="Ильинский" />
+<lastname value="Ильюхин" />
+<lastname value="Исаев" />
+<lastname value="Исаков" />
+<lastname value="Казаков" />
+<lastname value="Казанцев" />
+<lastname value="Калачев" />
+<lastname value="Калачёв" />
+<lastname value="Калашников" />
+<lastname value="Калинин" />
+</names>

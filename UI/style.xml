@@ -85,6 +85,12 @@
   <GenericThrobber texture="Content/UI/generic_throbber.png" rows="4" columns="4"/>
   <WalletPortraitBG texture="Content/UI/InventoryUIAtlas.png" tile="false" sourcerect="935,873,48,18" origin="0.5,0.5" slice="945,873,973,891"/>
   <CrewWalletIconSmall texture="Content/UI/InventoryUIAtlas.png" tile="false" sourcerect="932,742,34,32" origin="0.5,0.5" maintainaspectratio="true"/>
+ 
+  <EditorLayerButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
+    <Sprite name="EditorLayerButton" texture="Content/UI/InventoryUIAtlas.png" sourcerect="890,191,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
+  </EditorLayerButton>
+ 
+ 
   <Font file="Content/Fonts/Exo2-SemiBold.otf">
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>
     <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
@@ -93,7 +99,7 @@
     <Size maxresolution="1024,768" size="11"/>
     <Size maxresolution="1280,800" size="12"/>
     <Size maxresolution="1920,1080" size="14"/>
-    <Size maxresolution="2048,1080" size="16"/>
+    <Size maxresolution="2048,1080" size="15"/>
     <Size maxresolution="2560,1600" size="16"/>
     <Size size="18"/>
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>

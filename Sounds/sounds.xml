@@ -7,7 +7,73 @@
   <music file="Content/Sounds/Music/Tenebrous Brothers Carnival - Prelude.ogg" type="default"/>
   -->
 
-  <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/>
+  <!-- <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/> -->
+  <music file="%ModDir%/UI/Mucyraev.ogg" type="menu" continuefromprevioustime="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <music file="Content/Sounds/Music/Subaquatic Symphony for Hammer And Metal.ogg" type="editor" continuefromprevioustime="true"/>
   
