@@ -28,12 +28,12 @@
       </Holdable>
       <RangedWeapon reload="0.07" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot2.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot3.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot4.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot5.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot6.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot3.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot4.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot5.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
          </StatusEffect>
@@ -121,12 +121,12 @@
       </Holdable>
       <RangedWeapon reload="0.09" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot2.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot3.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot4.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot5.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/RPDsingleShot6.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot3.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot4.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot5.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
          </StatusEffect>
@@ -211,8 +211,8 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="45,0" handle1="-40,-10" handle2="30,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
       <RangedWeapon barrelpos="45,20" spread="2" unskilledspread="10" combatPriority="50" reload="0.1" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/akmshot.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/akmshot1.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="50" />
          </StatusEffect>
@@ -306,8 +306,8 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-5" aimpos="45,0" handle1="-40,-10" handle2="45,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.08" barrelpos="40,20" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/aksushot1.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="100" />
          </StatusEffect>
@@ -395,8 +395,8 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-70,-5" handle2="45,15" holdangle="-40" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.08" barrelpos="40,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ak74mshot.ogg" type="OnUse" range="3000" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ak74mshot1.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ak74mshot.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ak74mshot1.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="100" />
          </StatusEffect>
@@ -473,11 +473,11 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-20" aimpos="35,-20" handle1="-70,-5" handle2="100,-20" holdangle="-30" msg="ItemMsgPickUpSelect" />
       <RangedWeapon barrelpos="40,10" spread="10" unskilledspread="50" combatPriority="85" reload="1.3" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm1.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm2.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm3.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm4.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm1.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm2.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm3.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm4.ogg" type="OnUse" range="2800" />
          <StatusEffect type="OnUse">
             <Explosion range="150.0" force="5" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="200" />
          </StatusEffect>
@@ -651,9 +651,9 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,5" aimpos="40,5" handle1="10,0" handle2="80,-5" holdangle="-50" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.1" barrelpos="30,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol2.ogg" type="OnUse" range="2400" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol3.ogg" type="OnUse" range="2400" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" type="OnUse" range="2400" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol3.ogg" type="OnUse" range="2400" />
          <StatusEffect type="OnUse">
             <Explosion range="120.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="20" />
          </StatusEffect>
@@ -709,9 +709,9 @@
       <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.25" barrelpos="8,15" spread="0" unskilledspread="1" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol2.ogg" type="OnUse" range="2400" />
-         <Sound file="%ModDir%/Items/Weapons/oog/pmpistol3.ogg" type="OnUse" range="2400" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" type="OnUse" range="2400" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol3.ogg" type="OnUse" range="2400" />
          <StatusEffect type="OnUse">
             <Explosion range="120.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="20" />
          </StatusEffect>
@@ -829,7 +829,7 @@
       <Body width="72" height="40" density="50" />
       <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
-         <Sound file="%ModDir%/Items/Weapons/oog/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <StatusEffect type="OnUse">
             <Explosion range="75.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
@@ -888,7 +888,7 @@
       <Body width="72" height="40" density="50" />
       <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.5" barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
-         <Sound file="%ModDir%/Items/Weapons/oog/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <StatusEffect type="OnUse">
             <Explosion range="75.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
@@ -983,8 +983,8 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="55,5" aimpos="55,10" handle1="-50,-15" handle2="45,10" holdangle="-50" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.08" barrelpos="40,23" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
-         <Sound file="%ModDir%/Items/Weapons/oog/aksushot1.ogg" type="OnUse" range="3000" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" type="OnUse" range="3000" />
          <StatusEffect type="OnUse">
             <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="40" />
          </StatusEffect>
@@ -1068,11 +1068,11 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="40,-10" handle1="-100,-10" handle2="120,0" holdangle="-50" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="2.5" barrelpos="30,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm1.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm2.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm3.ogg" type="OnUse" range="2800" />
-         <Sound file="%ModDir%/Items/Weapons/oog/ksm4.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm1.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm2.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm3.ogg" type="OnUse" range="2800" />
+         <Sound file="%ModDir%/Items/Weapons/ogg/ksm4.ogg" type="OnUse" range="2800" />
          <StatusEffect type="OnUse">
             <Explosion range="150.0" force="20" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="200" />
          </StatusEffect>
