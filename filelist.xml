@@ -31,7 +31,7 @@
   <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
   <Item file="%ModDir%/Items/Tools/Cleaner/Clean.xml" />
   <Item file="%ModDir%/Items/Tools/Demian/flags.xml" />
-  <Item file="%ModDir%/Items/Tools/Tools/tools.xml" />
+  <Item file="%ModDir%/Items/Tools/Work/tools.xml" />
 
   <!--Weapons-->
   <Item file="%ModDir%/Items/Weapons/Cannons/coilgun.xml" />
@@ -56,6 +56,13 @@
   <Item file="%ModDir%/Systems/Music items/Misc.xml" />
   <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
+
+  <Item file="%ModDir%/Systems/Mining/Mine.xml" />
+  <Item file="%ModDir%/Systems/Mining/Ore.xml" />
+  <Item file="%ModDir%/Systems/Mining/Melted.xml" />
+  <Item file="%ModDir%/Systems/Mining/Ingot.xml" />
+
+
 
 
   <!--Музыка говна-->
@@ -157,10 +164,10 @@
   <Item file="Content/Items/Fabricators/fabricators.xml" />
   <Item file="Content/Items/Genetic/genetic.xml" />
   <Item file="Content/Items/Labels/labels.xml" />
-  <Item file="Content/Items/Ladder/ladder.xml" />
-  <Item file="Content/Items/Materials/materials.xml" />
+  <Item file="Content/Items/Ladder/ladder.xml" />  
+  <!-- <Item file="Content/Items/Materials/materials.xml" />  -->
   <Item file="Content/Items/Materials/medmaterials.xml" />
-  <Item file="Content/Items/Materials/minerals.xml" />
+  <!-- <Item file="Content/Items/Materials/minerals.xml" />   -->
   <Item file="Content/Items/Medical/medical.xml" />
   <Item file="Content/Items/Medical/poisons.xml" />
   <Item file="Content/Items/Medical/buffs.xml" />
@@ -277,6 +284,7 @@
   <Submarine file="Content/Submarines/Winterhalter.sub" />
 
   <!--Локализации-->
+  <!--<Text file="Content/Texts/Russian/RussianVanilla.xml" />-->
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
