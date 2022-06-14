@@ -79,7 +79,7 @@
 		<Sprite name="Mvd Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
 		<Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
 		<Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-			<sprite name="Mvd Uniform 1 Torso" texture="Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+			<sprite name="Mvd Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<sprite name="Mvd Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<sprite name="Mvd Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
 			<sprite name="Mvd Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
