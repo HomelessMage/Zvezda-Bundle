@@ -20,6 +20,11 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
+    <Deconstruct time="30">
+      <Item identifier="carbonMelted" />
+      <Item identifier="carbonMelted" />
+      <Item identifier="carbonMelted" />
+    </Deconstruct>
     <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="258,4,126,121" />
     <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="258,4,126,121" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
@@ -50,7 +55,7 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
     </Price>
-    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="10,6,119,122" />
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="10,6,119,122" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.45" sourcerect="10,6,119,122" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
