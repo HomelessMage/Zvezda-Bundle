@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Items>
    <Item name="" identifier="torgomat" tags="torgomat" category="Machine" linkable="true" allowedlinks="fabricator,medicalfabricator,deconstructor,locker,container" description="" scale="0.2">
-      <Sprite texture="Mods/Zvezda Bundle/Map/Torgomat/torgomat.png" sourcerect="0,0,598,820" depth="0.8" />
+      <Sprite texture="%ModDir%/Map/Torgomat/torgomat.png" sourcerect="0,0,598,820" depth="0.8" />
       <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
          <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
-         <sound file="Mods/Zvezda Bundle/Map/Torgomat/sell.ogg" type="OnActive" range="1000.0" loop="true" />
+         <sound file="%ModDir%/Map/Torgomat/sell.ogg" type="OnActive" range="1000.0" loop="true" />
          <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
          <StatusEffect type="InWater" target="This" condition="-0.5" />
       </Fabricator>

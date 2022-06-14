@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" corepackage="true" gameversion="0.17.16.0" steamworkshopid="2676179277" installtime="1647372265">
   <Sounds file="%ModDir%/Sounds/sounds.xml" />
   <UIStyle file="%ModDir%/UI/style.xml" />
-  <Character file="%ModDir%/Characters/Human/Human.xml" />
+  <Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
   <SkillSettings file="%ModDir%/SkillSettings.xml" />
   <Text file="%ModDir%/Texts/Russian.xml" />
   <Jobs file="%ModDir%/Jobs.xml" />
-  <LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />
+  <LocationTypes file="Content/Map/locationTypes.xml" />
+  <MapGenerationParameters file="Content/Map/MapGenerationParameters.xml" />
   
   
   <Afflictions file="%ModDir%/Afflictions.xml" />
@@ -45,7 +46,6 @@
   <Item file="%ModDir%/Items/Map/Door/custom_doors.xml" />
   <Item file="%ModDir%/Items/Map/Generator/generator.xml" />
 
-  <Item file="%ModDir%/Items/Map/locations/locationsTypes.xml" />
 
   <Item file="%ModDir%/Items/Map/Torgomat/torgomat.xml" />
   <Item file="%ModDir%/Items/Map/Walls/Walls.xml" />
@@ -138,8 +138,6 @@
 
 
 
-  
-
 
 
 
@@ -147,8 +145,22 @@
 
 
   <!--Ванила-->
+  <Item file="Content/Items/Alien/alienitems.xml" />
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
+  <Item file="Content/Items/Containers/containers.xml" />
+  <Item file="Content/Items/Jobgear/Captain/captain_gear.xml" />
+  <Item file="Content/Items/Jobgear/Medic/medic_gear.xml" />
+  <Item file="Content/Items/Jobgear/Engineer/engineer_gear.xml" />
+  <Item file="Content/Items/Jobgear/Mechanic/mechanic_gear.xml" />
+  <Item file="Content/Items/Jobgear/Assistant/assistant_gear.xml" />
+  <Item file="Content/Items/Jobgear/Watchman/watchman_gear.xml" />
+  <Item file="Content/Items/Jobgear/Security/securityofficer_gear.xml" />
+  <Item file="Content/Items/Jobgear/Commoner/commoner_gear.xml" />
+  <Item file="Content/Items/Jobgear/Clown/clown.xml" />
+  <Item file="Content/Items/Jobgear/misc.xml" />
+  <Item file="Content/Items/CreatureLoot/creatureloot.xml" />
+  <Item file="Content/Items/Diving/divinggear.xml" />
   <Item file="Content/Items/Door/doors.xml" />
   <Item file="Content/Items/Electricity/lights.xml" />
   <Item file="Content/Items/Electricity/poweritems.xml" />
@@ -164,9 +176,13 @@
   <Item file="Content/Items/Medical/medical.xml" />
   <Item file="Content/Items/Medical/poisons.xml" />
   <Item file="Content/Items/Medical/buffs.xml" />
+  <Item file="Content/Items/Misc/misc.xml" />
   <Item file="Content/Items/OxygenGenerator/oxygengenerator.xml" />
   <Item file="Content/Items/Pump/pump.xml" />
   <Item file="Content/Items/SearchLight/searchlight.xml" />
+  <Item file="Content/Items/Reactor/reactor.xml" />
+  <Item file="Content/Items/Tools/tools.xml" />
+  <Item file="Content/Items/Weapons/coilgun.xml" />
   <Item file="Content/Items/Weapons/chaingun.xml" />
   <Item file="Content/Items/Weapons/depthcharge.xml" />
   <Item file="Content/Items/Weapons/dischargecoil.xml" />
@@ -174,8 +190,8 @@
   <Item file="Content/Items/Weapons/pulselaser.xml" />
   <Item file="Content/Items/Weapons/railgun.xml" />
   <Item file="Content/Items/Weapons/turrethardpoint.xml" />
+  <Item file="Content/Items/Weapons/weapons.xml" />
   <Item file="Content/Items/Legacy/legacycommand.xml" />
-  <Item file="Content/Items/Containers/containers.xml" />
   <Item file="Content/Items/Legacy/legacycontainers.xml" />
   <Item file="Content/Items/Legacy/legacyengine.xml" />
   <Item file="Content/Items/Legacy/legacyfabricators.xml" />
@@ -185,10 +201,19 @@
   <Item file="Content/Items/Legacy/legacyrailgun.xml" />
   <Item file="Content/Items/Legacy/legacysearchlight.xml" />
   <Item file="Content/Items/Pets/PetEggs.xml" />
+  <Item file="Content/Items/Pets/PetItems.xml" />
   <Item file="Content/Items/Shipwrecks/wreckeditems.xml" />
   <Item file="Content/Map/Thalamus/thalamusitems.xml" />
   <Item file="Content/Items/Gardening/growableplants.xml" />
+  <Item file="Content/Items/Gardening/gardeningtools.xml" />
   <Item file="Content/Items/Gardening/plantproducts.xml" />
+  <Item file="Content/Map/Pirates/PirateItems.xml" />
+  <Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />
+  <Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
+  <Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />
+  <Item file="Content/Items/Jobgear/Engineer/engineer_talent_items.xml" />
+  <Item file="Content/Items/Jobgear/Medic/medic_talent_items.xml" />
+  <Item file="Content/Items/Jobgear/Captain/captain_talent_items.xml" />
 
   <!--Монстряки-->
   <Character file="Content/Characters/Balloon/Balloon.xml" />
@@ -207,7 +232,6 @@
   <Character file="Content/Characters/Hammerheadgold/Hammerheadgold.xml" />
   <Character file="Content/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
   <Character file="Content/Characters/Hammerheadspawn/Hammerheadspawn.xml" />
-  <Character file="Content/Characters/Human/Human.xml" />
   <Character file="Content/Characters/Husk/Husk.xml" />
   <Character file="Content/Characters/Humanhusk/Humanhusk.xml" />
   <Character file="Content/Characters/Latcher/Latcher.xml" />
@@ -250,6 +274,7 @@
   <Character file="Content/Characters/Variants/Doomworm.xml" />
   <MapCreature file="Content/Items/Gardening/ballastflora.xml" />
 
+
   <!--Раздолбышы и кастрюли-->
   <Wreck file="Content/Map/Wrecks/Dugong_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Kastrull_Wrecked.sub" />
@@ -278,8 +303,11 @@
 
   <!--Локализации-->
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
+  <Text file="Content/Texts/English/EnglishVanillaEditorTexts.xml" />
+  <Text file="Content/Texts/English/EnglishVanillaNew.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
+  <!--<Text file="Content/Texts/Russian/RussianVanilla.xml" />  -->
   <Text file="Content/Texts/Polish/PolishVanilla.xml" />
   <Text file="Content/Texts/BrazilianPortuguese/BrazilianPortugueseVanilla.xml" />
   <Text file="Content/Texts/CastilianSpanish/CastilianSpanishVanilla.xml" />
@@ -292,6 +320,14 @@
   
 
   <!--Остатнее гивно-->
+  <Afflictions file="Content/Afflictions.xml" />
+  <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
+  <Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />
+  <Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />
+  <Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />
+  <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
+  <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
+  <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
   <Structure file="Content/Map/StructurePrefabs.xml" />
   <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />
   <Structure file="Content/Map/Pirates/PirateStructures.xml" />
@@ -336,6 +372,7 @@
   <RandomEvents file="Content/randomevents_campaign.xml" />
   <RandomEvents file="Content/OutpostEvents.xml" />
   <EventManagerSettings file="Content/EventManagerSettings.xml" />
+  <LocationTypes file="Content/Map/locationTypes.xml" />
   <MapGenerationParameters file="Content/Map/MapGenerationParameters.xml" />
   <Item file="Content/Map/Outposts/AbandonedOutpost/AbandonedOutpostDecals.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
@@ -376,8 +413,7 @@
   <NPCConversations file="Content/NPCConversations/Korean/NpcConversations_Korean.xml" />
   <Orders file="Content/Orders.xml" />
   <Corpses file="Content/Corpses.xml" />
-  <Tutorials file="Content/Tutorials/Tutorials.xml" />
-  <ServerExecutable file="DedicatedServer" />
+  <Sounds file="Content/Sounds/sounds.xml" />
   <Factions file="Content/Map/factions.xml" />
   <Outpost file="Content/Map/Outposts/Outpost.sub" />
   <Outpost file="Content/Map/Outposts/Outpost2.sub" />
@@ -427,20 +463,56 @@
   <OutpostModule file="Content/Map/Outposts/MineModule_04.sub" />
   <OutpostModule file="Content/Map/Outposts/HallModuleHorizontal_Abandoned.sub" />
   <OutpostModule file="Content/Map/Outposts/HallModuleVertical_Abandoned.sub" />
-  <EnemySubmarine file="Content/Map/EnemySubmarines/DugongPirate.sub" />
-  <EnemySubmarine file="Content/Map/EnemySubmarines/HumpbackPirate.sub" />
-  <EnemySubmarine file="Content/Map/EnemySubmarines/Typhon2Pirate.sub" />
-  <Talents file="Content/Talents/Assistant/TalentsAssistant.xml" />
-  <Talents file="Content/Talents/Security/TalentsSecurity.xml" />
-  <Talents file="Content/Talents/Engineer/TalentsEngineer.xml" />
-  <Talents file="Content/Talents/Mechanic/TalentsMechanic.xml" />
-  <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
-  <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
-  <TalentTrees file="Content/Talents/TalentTrees.xml" />
-  <Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />
-  <Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />
-  <Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />
-  <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
-  <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
-  <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
+  <OutpostModule file="Content/Map/Outposts/DockingModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/DockingModule_02_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/AdminModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/AdminModule_02_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/EngineeringModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/EngineeringModule_02_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/MedicalModule_01.sub" />
+  <OutpostModule file="Content/Map/Outposts/MedicalModule_02.sub" />
+  <OutpostModule file="Content/Map/Outposts/MedicalModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/MedicalModule_02_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/ResidentialModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/ArmoryModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/ResearchModule_01_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/ResearchModule_02_Colony.sub" />
+  <OutpostModule file="Content/Map/Outposts/SecurityModule_01_Colony.sub" />
+  <EnemySubmarine file="Content/Map/EnemySubmarines/DugongPirate.sub"/>
+  <EnemySubmarine file="Content/Map/EnemySubmarines/HumpbackPirate.sub"/>
+  <EnemySubmarine file="Content/Map/EnemySubmarines/Typhon2Pirate.sub"/>
+  <ItemAssembly file="Content/Items/Assemblies/AirlockDoors.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AirlockPump.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienTurretAssembly.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienCellBottom.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienCellTop.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienChestLarge.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienChestSmall.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienDoorAssembly1.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienDoorAssembly2.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienDoorAssembly5.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienFractalSpawnpoint.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienHatchAssembly.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienHatchAssembly2.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienPumpAssembly.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienPumpAssembly1.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienPumpAssembly2.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoDoor.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoHatch.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoDockingHatch.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoAirlockDoors.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoBilgePump.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AlienGeneratorCharged.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/DivingSuitLocker.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/Door.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/DivingGearCabinetLarge.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/DivingGearCabinetSmall.xml" />
+  <ItemAssembly file="Content/Items/Assemblies/AutoDoorWindowed.xml" />
+  <Talents file="Content/Talents/Assistant/TalentsAssistant.xml"/>
+  <Talents file="Content/Talents/Security/TalentsSecurity.xml"/>
+  <Talents file="Content/Talents/Engineer/TalentsEngineer.xml"/>
+  <Talents file="Content/Talents/Mechanic/TalentsMechanic.xml"/>
+  <Talents file="Content/Talents/Captain/TalentsCaptain.xml"/>
+  <Talents file="Content/Talents/Doctor/TalentsDoctor.xml"/>
+  <TalentTrees file="Content/Talents/TalentTrees.xml"/>
 </contentpackage>

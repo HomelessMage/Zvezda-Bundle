@@ -7,7 +7,152 @@
   <music file="Content/Sounds/Music/Tenebrous Brothers Carnival - Prelude.ogg" type="default"/>
   -->
 
-  <music file="Mods/Zvezda Bundle/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/>
+  <!-- <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/> -->
+  <music file="%ModDir%/UI/Mucyraev.ogg" type="menu" continuefromprevioustime="true"/>
+
+<!--
+  <music file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Nourishment/Alcohol/water.ogg" type="default"/>
+
+  <music file="%ModDir%/Systems/Music items/accordion1.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/accordion2.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/accordion3.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/accordion4.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/accordion5.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit1.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit2.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit3.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit4.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit5.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit6.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_bandit7.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_reich1.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_reich2.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_reich3.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_reich4.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar_reich5.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar1.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar2.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar3.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar4.ogg" type="default"/>
+  <music file="%ModDir%/Systems/Music items/guitar5.ogg" type="default"/>
+
+  <music file="%ModDir%/Map/Door/blastdoor1_move.ogg" type="default"/>
+  <music file="%ModDir%/Map/Door/dockingrail1.ogg" type="default"/>
+  <music file="%ModDir%/Map/Door/dockingrail2.ogg" type="default"/>
+  <music file="%ModDir%/Map/Door/exteriorshelldoor1_move.ogg" type="default"/>
+  <music file="%ModDir%/Map/Door/maintenancepanel1_move.ogg" type="default"/>
+
+  <music file="%ModDir%/Items/Tools/Demian/neonazi_scream.ogg" type="default"/>
+  <music file="%ModDir%/Items/Tools/Demian/soviet_scream.ogg" type="default"/>
+
+  <music file="%ModDir%/Items/Tools/Work/drill_loop.ogg" type="default"/>
+  <music file="%ModDir%/Items/Tools/Work/patching_kit_loop.ogg" type="default"/>
+
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun2.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun3.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun4.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun5.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun6.ogg" type="default"/>
+
+  <music file="%ModDir%/Items/Weapons/ogg/ak74mshot.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ak74mshot1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ksm.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ksm1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ksm2.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ksm3.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/ksm4.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/pmpistol3.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot3.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot4.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot5.ogg" type="default"/>
+  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" type="default"/>
+
+  <music file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" type="default"/>
+
+  <music file="%ModDir%/Map/Torgomat/sell.ogg" type="default"/>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <music file="Content/Sounds/Music/Subaquatic Symphony for Hammer And Metal.ogg" type="editor" continuefromprevioustime="true"/>
   

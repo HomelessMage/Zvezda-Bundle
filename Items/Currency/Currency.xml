@@ -4,7 +4,7 @@
     <!--Сберкасса+-->
     <Item name="Сберкасса+" identifier="atm+" tags="atm" category="Machine" linkable="true" allowedlinks="" description="Размен на больший валютный номинал" scale="0.35">
 
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/atm.png" sourcerect="0,0,256,512" depth="0.8" />
+        <Sprite texture="%ModDir%/Items/Currency/atm.png" sourcerect="0,0,256,512" depth="0.8" />
 
         <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
             <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
@@ -50,7 +50,7 @@
     <!--Сберкасса- -->
     <Item name="Сберкасса-" identifier="atm-" tags="atm" category="Machine" linkable="true" allowedlinks="" description="Размен на меньший валютный номинал" scale="0.35">
 
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/atm.png" depth="0.8" sourcerect="256,0,256,512" />
+        <Sprite texture="%ModDir%/Items/Currency/atm.png" depth="0.8" sourcerect="256,0,256,512" />
 
         <Deconstructor canbeselected="true" powerconsumption="0.0" msg="ItemMsgInteractSelect">
             <GuiFrame relativesize="0.25,0.25" style="ItemUI" anchor="Center" />
@@ -101,8 +101,8 @@
             <Price locationtype="military" multiplier="1" minavailable="100"/>
             <Price locationtype="mine" multiplier="1" minavailable="100"/>
         </Price>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
         <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
@@ -119,8 +119,8 @@
             <Price locationtype="military" multiplier="1" minavailable="100"/>
             <Price locationtype="mine" multiplier="1" minavailable="100"/>
         </Price>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
         <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
@@ -148,8 +148,8 @@
             <Price locationtype="military" multiplier="1" minavailable="100"/>
             <Price locationtype="mine" multiplier="1" minavailable="100"/>
         </Price>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
 
@@ -180,8 +180,8 @@
             <Price locationtype="military" multiplier="1" minavailable="100"/>
             <Price locationtype="mine" multiplier="1" minavailable="100"/>
         </Price>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
 
@@ -210,8 +210,8 @@
             <Price locationtype="military" multiplier="1" minavailable="100"/>
             <Price locationtype="mine" multiplier="1" minavailable="100"/>
         </Price>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
 
@@ -239,8 +239,8 @@
             <RequiredSkill identifier="mechanical" level="5" />
             <Item identifier="plastic" />
         </Fabricate>
-        <InventoryIcon texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" origin="0.5,0.5" />
-        <Sprite texture="Mods/Zvezda Bundle/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" depth="0.6" origin="0.5,0.5" />
+        <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" depth="0.6" origin="0.5,0.5" />
 
         <Body width="64" height="64" density="20" />
         <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">

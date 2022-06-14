@@ -20,7 +20,7 @@
       <Effect minstrength="100" maxstrength="200" multiplybymaxvitality="true" dialogflag="Истощение" minvitalitydecrease="0" maxvitalitydecrease="1" strengthchange="0.02" minscreendistort="0.4" maxscreendistort="0.5" minscreenblur="0.4" maxscreenblur="0.5">
          <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5" />
       </Effect>
-      <icon texture="Mods/Zvezda Bundle/HungerIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
+      <icon texture="%ModDir%/Systems/Hunger/HungerIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
    </Affliction>
    <Affliction name="Жажда" identifier="thirst" description="Потребность в воде" type="thirst" causeofdeathdescription="Погиб от обезвоживания." selfcauseofdeathdescription="Вы погибли от обезвоживания." limbspecific="false" indicatorlimb="Head" showiconthreshold="0" karmachangeonapplied="0" maxstrength="200">
       <!-- Slow the player down -->
@@ -40,7 +40,7 @@
       <Effect minstrength="100" maxstrength="200" multiplybymaxvitality="true" dialogflag="Сильное обезвоживание" minvitalitydecrease="0" maxvitalitydecrease="1" strengthchange="0.03" minscreenblur="0.4" maxscreenblur="0.5">
          <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5" />
       </Effect>
-      <icon texture="Mods/Zvezda Bundle/ThirstIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
+      <icon texture="%ModDir%/Systems/Hunger/ThirstIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
    </Affliction>
 
 
@@ -61,7 +61,7 @@
         resistancefor="damage"
         minresistance="0"
         maxresistance="0.25"/>
-      <icon texture="Mods/Zvezda Bundle/Items/Tools/soviet_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
+      <icon texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
     </Affliction>
 	
 	<Affliction
@@ -78,7 +78,7 @@
         resistancefor="damage"
         minresistance="0"
         maxresistance="0.5"/>
-      <icon texture="Mods/Zvezda Bundle/Items/Tools/soviet_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
+      <icon texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
     </Affliction>
 
 
@@ -97,7 +97,7 @@
         resistancefor="damage"
         minresistance="0"
         maxresistance="0.25"/>
-      <icon texture="Mods/Zvezda Bundle/Items/Tools/neonazi_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
+      <icon texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="137,0,128,128" color="0,255,0,255" origin="0,0"/>
     </Affliction>
   
   <Affliction
@@ -114,7 +114,7 @@
         resistancefor="damage"
         minresistance="0"
         maxresistance="0.5"/>
-      <icon texture="Mods/Zvezda Bundle/Items/Tools/neonazi_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
+      <icon texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="137,128,128,128" color="0,255,0,255" origin="0,0"/>
     </Affliction>
 
 
