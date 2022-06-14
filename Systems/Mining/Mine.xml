@@ -4,7 +4,7 @@
 
 
 
-  <Item name="" identifier="titanite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="titanite" category="Material" Tags="smallitem,ore" maxstacksize="1" canbepicked="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <PreferredContainer secondary="locker"/>
@@ -18,7 +18,6 @@
     <Deconstruct time="5">
       <Item identifier="titaniumOre" />
       <Item identifier="titaniumOre" />
-      <Item identifier="titaniumOre" />
       <Item identifier="ironOre2" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
@@ -26,13 +25,13 @@
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
     <ContainedSprite texture="Content/Items/Materials/MineralEnvironment.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible"  depth="0.55" sourcerect="0,146,86,147" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="394,133,118,123" origin="0.5,0.5" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="85,146,86,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.48" sourcerect="172,146,84,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.51" sourcerect="85,146,86,147" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.52" sourcerect="172,146,84,147" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.491" sourcerect="85,146,86,147" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.53" sourcerect="172,146,84,147" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
+    <Sprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.3" sourcerect="85,146,86,147" origin="0.5,0.5" scale="6.0"/>
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="85,146,86,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.48" sourcerect="172,146,84,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.51" sourcerect="85,146,86,147" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.52" sourcerect="172,146,84,147" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.491" sourcerect="85,146,86,147" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
+    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.53" sourcerect="172,146,84,147" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.0" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
     <DecorativeSprite texture="Content/Items/Materials/Minerals.png" depth="0.4" sourcerect="810,893,173,131" offset="0,-40" randomrotation="-20,20" origin="0.5,0.5" />
     <Body radius="40" width="20" density="50" />
     <LevelResource deattachduration="4" randomoffsetfromwall="80">
@@ -43,7 +42,9 @@
       <Commonness commonness="0.65" leveltype="wastesbasic" />
       <RequiredItem items="cuttingequipment" type="Equipped" />
     </LevelResource>
-    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
+    <Holdable slots="RightHand+LeftHand" msg="ItemMsgUsePlasmaCutter" holdpos="90,10" handle1="-11,-7" handle2="-11,-7" pickingtime="5.0" attachable="true" reattachable="false" >
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.45" />
+    </Holdable>
   </Item>
 
 
