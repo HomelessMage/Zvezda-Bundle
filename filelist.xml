@@ -17,6 +17,11 @@
   <!--Currency-->
   <Item file="%ModDir%/Items/Currency/Currency.xml" />
 
+  <!--Drugs-->
+  <Item file="%ModDir%/Items/Drugs/medical.xml" />
+  <Item file="%ModDir%/Items/Drugs/poisons.xml" />
+  <Item file="%ModDir%/Items/Drugs/buffs.xml" />
+
   <!--idcards-->
   <Item file="%ModDir%/Items/idcards/idcard.xml" />
   
@@ -168,9 +173,9 @@
   <!-- <Item file="Content/Items/Materials/materials.xml" />  -->
   <Item file="Content/Items/Materials/medmaterials.xml" />
   <!-- <Item file="Content/Items/Materials/minerals.xml" />   -->
-  <Item file="Content/Items/Medical/medical.xml" />
-  <Item file="Content/Items/Medical/poisons.xml" />
-  <Item file="Content/Items/Medical/buffs.xml" />
+  <!--<Item file="Content/Items/Medical/medical.xml" />-->
+  <!--<Item file="Content/Items/Medical/poisons.xml" />-->
+  <!--<Item file="Content/Items/Medical/buffs.xml" />-->
   <Item file="Content/Items/OxygenGenerator/oxygengenerator.xml" />
   <Item file="Content/Items/Pump/pump.xml" />
   <Item file="Content/Items/SearchLight/searchlight.xml" />
