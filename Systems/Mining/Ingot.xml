@@ -26,6 +26,11 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+			<RequiredSkill identifier="weapons" level="45" />
+			<RequiredItem identifier="carbonMelted" />
+			<RequiredItem identifier="carbonMelted" />
+		</Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="5,55,46,38" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />

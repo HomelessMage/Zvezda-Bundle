@@ -20,10 +20,6 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
-    <Fabricate suitablefabricators="fabricator" requiredtime="30">
-      <RequiredSkill identifier="mechanical" level="20" />
-      <RequiredItem identifier="carbonOre" />
-    </Fabricate>
     <InventoryIcon texture="%ModDir%/Systems/Mining/Melted.png" sourcerect="0,0,240,160" />
     <Sprite texture="%ModDir%/Systems/Mining/Melted.png" sourcerect="0,0,240,160" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
