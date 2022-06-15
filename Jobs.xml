@@ -481,11 +481,11 @@
          <Skill identifier="helm" level="0,0" />
       </Skills>
       <ItemSet>
-         <Item identifier="banditclothes1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="banditclothes2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_2" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>      
    </Job>
@@ -500,7 +500,7 @@
          <Skill identifier="helm" level="0,0" />
       </Skills>
       <ItemSet>
-         <Item identifier="pirateclothesnovice" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
