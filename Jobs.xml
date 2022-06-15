@@ -500,7 +500,7 @@
          <Skill identifier="helm" level="0,0" />
       </Skills>
       <ItemSet>
-         <Item identifier="reichfatigues" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
