@@ -119,15 +119,13 @@
       
     <Holdable slots="LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,10" handle1="-11,-7" holdangle="-45" handle2="-11,-7" pickingtime="5.0" attachable="true" reattachable="false" >
       <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" /> 
-      <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
         <Remove />
       </StatusEffect>
 
         <!--If character holds a hot rod, give him exposure -->
         <StatusEffect type="OnPicked" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
-          <Conditional hastag="hot" />
-          <Affliction identifier="Burn" strength="15" />
+          <Affliction identifier="Burn" strength="70" />
         </StatusEffect>
         <!--Constantly emits radiation sickness -->
         <!--<StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="60" stackable="false">
@@ -139,11 +137,10 @@
           <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="50" scalemin="1" scalemax="1" />
           <ParticleEmitter particle="extinguisher" anglemin="0" anglemax="360" velocitymin="5.0" velocitymax="50.0" particlespersecond="40" />
           <sound file="%ModDir%/Items/Reactor/bubbleloop.ogg" type="OnUse" range="300.0" loop="true" />
-          <Conditional hastag="hot" />
         </StatusEffect>
         <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
-        <StatusEffect type="OnImpact" target="This" disabledeltatime="true" stackable="false" delay="1">
-          <Explosion range="30" stun="60" force="1" smoke="false" flames="false" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.01" flash="false" flashRange="90">
+        <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" stackable="false" delay="1">
+          <Explosion range="30" stun="60" force="1" smoke="true" flames="true" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.01" flash="false" flashRange="90">
             <Affliction identifier="Burn" strength="10" />
           </Explosion>
           <Fire />
