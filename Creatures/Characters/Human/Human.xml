@@ -62,7 +62,7 @@
       <VitalityMultiplier type="damage" multiplier="0.5" />
     </Limb>
   </health>
-  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
+  <inventory arrowslot="2" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, HealthInterface" AccessibleWhenAlive="True" Commonness="1" />
   <Heads>
     <Head tags="head1,male" sheetindex="0,0" />
     <Head tags="head2,male" sheetindex="1,0" />

@@ -319,7 +319,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="watchmanclothes" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="25rubles" showpreview="false" />
@@ -481,13 +481,43 @@
          <Skill identifier="helm" level="0,0" />
       </Skills>
       <ItemSet>
-         <Item identifier="banditclothes_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="bandit_1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="banditclothes_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="bandit_2" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
-      </ItemSet>      
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="bandit_3" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="bandit_4" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="banditLeader_1" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="banditLeader_2" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      </ItemSet>       
    </Job>
 
    <!--Тысячелетний Рейх-->
@@ -521,7 +551,7 @@
          </Item>
       </ItemSet>
       <ItemSet>
-         <Item identifier="pirateclotheshard_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
@@ -536,7 +566,7 @@
          </Item>
       </ItemSet>      
       <ItemSet>
-         <Item identifier="pirateclotheshard_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
@@ -565,7 +595,7 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>         
-         <Item identifier="pirateclotheshard_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
       </ItemSet>      
    </Job>
    

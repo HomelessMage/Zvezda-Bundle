@@ -168,8 +168,8 @@
     <entityname.assistantclothes>Комбинезон уборщика</entityname.assistantclothes>
     <entitydescription.assistantclothes></entitydescription.assistantclothes>
 
-    <entityname.watchmanclothes>Комбинезон завхоза</entityname.watchmanclothes>
-    <entitydescription.watchmanclothes></entitydescription.watchmanclothes>
+    <entityname.botanistclothes>Комбинезон завхоза</entityname.botanistclothes>
+    <entitydescription.botanistclothes></entitydescription.botanistclothes>
 
     <entityname.comendantuniform>Китель(Офицерский)</entityname.comendantuniform>
     <entitydescription.comendantuniform></entitydescription.comendantuniform>
@@ -231,17 +231,32 @@
     <entityname.pirateclotheshard_2>Одежда комбатанта (вариант 3)</entityname.pirateclotheshard_2>
     <entitydescription.pirateclotheshard_2></entitydescription.pirateclotheshard_2>
 
-    <entityname.banditclothes1>Одежда бандита (вариант 1)</entityname.banditclothes1>
-    <entitydescription.banditclothes1></entitydescription.banditclothes1>
+    <entityname.bandit_1>Спортивная одежда (вариант 1)</entityname.bandit_1>
+    <entitydescription.bandit_1></entitydescription.bandit_1>
 
-    <entityname.banditclothes2>Одежда бандита (вариант 2)</entityname.banditclothes2>
-    <entitydescription.banditclothes2></entitydescription.banditclothes2>
+    <entityname.bandit_2>Спортивная одежда (вариант 2)</entityname.bandit_2>
+    <entitydescription.bandit_2></entitydescription.bandit_2>
+
+    <entityname.bandit_3>Спортивная одежда (вариант 3)</entityname.bandit_3>
+    <entitydescription.bandit_3></entitydescription.bandit_3>
+
+    <entityname.bandit_4>Спортивная одежда (вариант 4)</entityname.bandit_4>
+    <entitydescription.bandit_4></entitydescription.bandit_4>
+
+    <entityname.banditleader_1>Кожанка (вариант 1)</entityname.banditleader_1>
+    <entitydescription.bandit_1></entitydescription.bandit_1>
+
+    <entityname.banditleader_2>Кожанка (вариант 2)</entityname.banditleader_2>
+    <entitydescription.banditleader_2></entitydescription.banditleader_2>
 
     <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
     <entitydescription.camo_woodland></entitydescription.camo_woodland>
 
     <entityname.cookform>Фартук повара</entityname.cookform>
     <entitydescription.cookform></entitydescription.cookform>
+
+    <entityname.nacik_uniform1>Одежда тысячалетнего рейха (вариант 1)</entityname.nacik_uniform1>
+    <entitydescription.nacik_uniform1></entitydescription.nacik_uniform1>
 
     <!-- Одежда -->
     <!-- Одежда -->

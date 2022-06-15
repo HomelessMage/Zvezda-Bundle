@@ -234,4 +234,36 @@
 		</Wearable>
 		<Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
 	</Item>
+	<Item name="" identifier="prisonerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="0.9" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,812,212,64" depth="0.6" origin="0.5,0.5" />    
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Prisoner's Uniform Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Prisoner's Uniform Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Prisoner.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
 </Items>
