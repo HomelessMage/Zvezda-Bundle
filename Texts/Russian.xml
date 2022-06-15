@@ -231,23 +231,23 @@
     <entityname.pirateclotheshard_2>Одежда комбатанта (вариант 3)</entityname.pirateclotheshard_2>
     <entitydescription.pirateclotheshard_2></entitydescription.pirateclotheshard_2>
 
-    <entityname.bandit_1>Спортивная одежда (вариант 1)</entityname.bandit_1>
-    <entitydescription.bandit_1></entitydescription.bandit_1>
+    <entityname.banditclothes_1>Спортивная одежда (вариант 1)</entityname.banditclothes_1>
+    <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
 
-    <entityname.bandit_2>Спортивная одежда (вариант 2)</entityname.bandit_2>
-    <entitydescription.bandit_2></entitydescription.bandit_2>
+    <entityname.banditclothes_2>Спортивная одежда (вариант 2)</entityname.banditclothes_2>
+    <entitydescription.banditclothes_2></entitydescription.banditclothes_2>
 
-    <entityname.bandit_3>Спортивная одежда (вариант 3)</entityname.bandit_3>
-    <entitydescription.bandit_3></entitydescription.bandit_3>
+    <entityname.banditclothes_3>Спортивная одежда (вариант 3)</entityname.banditclothes_3>
+    <entitydescription.banditclothes_3></entitydescription.banditclothes_3>
 
-    <entityname.bandit_4>Спортивная одежда (вариант 4)</entityname.bandit_4>
-    <entitydescription.bandit_4></entitydescription.bandit_4>
+    <entityname.banditclothes_4>Спортивная одежда (вариант 4)</entityname.banditclothes_4>
+    <entitydescription.banditclothes_4></entitydescription.banditclothes_4>
 
-    <entityname.banditleader_1>Кожанка (вариант 1)</entityname.banditleader_1>
-    <entitydescription.bandit_1></entitydescription.bandit_1>
+    <entityname.banditleaderclothes_1>Кожанка (вариант 1)</entityname.banditleaderclothes_1>
+    <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
 
-    <entityname.banditleader_2>Кожанка (вариант 2)</entityname.banditleader_2>
-    <entitydescription.banditleader_2></entitydescription.banditleader_2>
+    <entityname.banditleaderclothes_2>Кожанка (вариант 2)</entityname.banditleaderclothes_2>
+    <entitydescription.banditleaderclothes_2></entitydescription.banditleaderclothes_2>
 
     <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
     <entitydescription.camo_woodland></entitydescription.camo_woodland>

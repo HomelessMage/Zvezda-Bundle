@@ -551,20 +551,20 @@
     <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="15,813,212,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Bandit Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
       </ItemContainer>
@@ -584,20 +584,20 @@
     <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="241,813,200,64" depth="0.6" origin="0.5,0.5"/>
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
-      <sprite name="Bandit Uniform 2 Torso" texture="bandit_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Bandit Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/bandit_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Torso" texture="banditclothes_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
       </ItemContainer>

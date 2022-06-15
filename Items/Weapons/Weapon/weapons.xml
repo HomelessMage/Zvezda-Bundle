@@ -23,7 +23,7 @@
       <Wearable slots="OuterClothes">
          <sprite name="PKM" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="0,0,158,816" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.15" />
       </Wearable>
-      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="45,5" aimpos="70,0" handle1="-175,-20" handle2="50,5" holdangle="-70" msg="ItemMsgPickUpSelect">
+      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="45,5" aimpos="70,0" handle1="-175,-20" handle2="60,5" holdangle="-70" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
       </Holdable>
       <RangedWeapon reload="0.07" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">

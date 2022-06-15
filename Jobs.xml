@@ -481,23 +481,23 @@
          <Skill identifier="helm" level="0,0" />
       </Skills>
       <ItemSet>
-         <Item identifier="bandit_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="bandit_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_2" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="bandit_3" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_3" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="bandit_4" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="banditclothes_4" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="banditLeader_1" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="banditleaderclothes_1" equip="true" outfit="true" showpreview="true" >
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
@@ -508,7 +508,7 @@
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
       <ItemSet>
-         <Item identifier="banditLeader_2" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="banditleaderclothes_2" equip="true" outfit="true" showpreview="true" >
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />

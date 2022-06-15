@@ -177,7 +177,7 @@
       <ParticleEmitterHitItem identifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" particle="weldspark" particlespersecond="50" anglemin="-70" anglemax="70" velocitymin="100" velocitymax="800" />
       <ParticleEmitterHitItem identifiers="door,windoweddoor,hatch,ductblock,aliendoor,alienhatch" particle="shrapnel" particlespersecond="25" anglemin="-45" anglemax="45" velocitymin="100" velocitymax="200" scalemin="0.5" scalemax="0.75" />
       <ParticleEmitterHitItem identifiers="ore" particle="iceshards" particlespersecond="5" anglemin="-40" anglemax="40" velocitymin="10" velocitymax="300" scalemin="0.5" scalemax="1.0" />
-      <sound file="%ModDir%/Items/Tools/drill_loop.ogg" type="OnUse" range="500.0" loop="true" />
+      <sound file="%ModDir%/Items/Tools/Work/drill_loop.ogg" type="OnUse" range="500.0" loop="true" />
       <Fixable identifier="structure" />
     </RepairTool>
     <ItemContainer autofill="True" capacity="1" maxstacksize="1" hideitems="true">
