@@ -261,7 +261,7 @@
       </StatusEffect>
     </Holdable>
     <ItemContainer capacity="1" hideitems="false" itempos="0,0" containedspritedepth="0.51" keepopenwhenequipped="true">
-      <Containable items="reactorfuel,hot,fuelrodtest2" excludeditems="tongs" />
+      <Containable items="reactorfuel,hot,fuelrodtest2,melted" excludeditems="tongs" />
     </ItemContainer>
   </Item>
 

@@ -710,6 +710,8 @@
     <!--Торгомат-->
     <entityname.torgomat>Торгомат</entityname.torgomat>
     <entitydescription.torgomat>Торговая машина меняющая советскую валюту на вещи.</entitydescription.torgomat>
+
+    <displayname.boughtitem>[itemname] из торгомата</displayname.boughtitem>
     <!--Торгомат-->
 
 

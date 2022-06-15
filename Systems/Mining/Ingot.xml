@@ -666,7 +666,7 @@
 
 
   
-  <Item name="" identifier="titanium" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="titanium" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="1.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1"/>
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06"/>
     <PreferredContainer secondary="locker" />
@@ -677,10 +677,16 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="5" />
     </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5" usecondition="true">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="titaniumMelted" />
+      <RequiredItem identifier="titaniumMelted" />
+    </Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="150,55,46,37" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
-    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+    <Holdable slots="RightHand+LeftHand" msg="ItemMsgPickUpSelect" holdpos="10,-70" handle1="0,-20" handle2="0,-20" pickingtime="5.0" attachable="true" reattachable="false" >
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.85" /> 
       <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
         <Remove />
