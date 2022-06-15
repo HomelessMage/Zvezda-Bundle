@@ -125,7 +125,7 @@
       </StatusEffect>
 
         <!--If character holds a hot rod, give him exposure -->
-        <StatusEffect type="OnContained" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
+        <StatusEffect type="OnPicked" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
           <Conditional hastag="hot" />
           <Affliction identifier="Burn" strength="15" />
         </StatusEffect>
@@ -143,7 +143,7 @@
         </StatusEffect>
         <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
         <StatusEffect type="OnImpact" target="This" disabledeltatime="true" stackable="false" delay="1">
-          <Explosion range="30" stun="60" force="1" smoke="true" flames="true" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.01" flash="false" flashRange="90">
+          <Explosion range="30" stun="60" force="1" smoke="false" flames="false" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.01" flash="false" flashRange="90">
             <Affliction identifier="Burn" strength="10" />
           </Explosion>
           <Fire />
