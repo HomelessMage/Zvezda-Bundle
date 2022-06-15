@@ -31,9 +31,12 @@
   <Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Military.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
+<<<<<<< Updated upstream
   <Item file="%ModDir%/Items/Jobgear/Factions/Reich/Reich.xml" />
   <Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />
   
+=======
+>>>>>>> Stashed changes
 
   <!--Tools-->
   <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
@@ -48,10 +51,10 @@
   <Item file="%ModDir%/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 
   <!--Map-->
-  <Item file="%ModDir%/Items/Map/decor/decorsuff.xml" />
-  <Item file="%ModDir%/Items/Map/Door/custom_dockingports.xml" />
-  <Item file="%ModDir%/Items/Map/Door/custom_doors.xml" />
-  <Item file="%ModDir%/Items/Map/Generator/generator.xml" />
+  <Item file="%ModDir%/Map/decor/decorsuff.xml" />
+  <Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
+  <Item file="%ModDir%/Map/Door/custom_doors.xml" />
+  <Item file="%ModDir%/Map/Generator/generator.xml" />
 
   <Item file="%ModDir%/Items/Map/locations/locationsTypes.xml" />
 
@@ -65,10 +68,12 @@
   <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
 
-  <Item file="%ModDir%/Systems/Mining/Mine.xml" />
-  <Item file="%ModDir%/Systems/Mining/Ore.xml" />
-  <Item file="%ModDir%/Systems/Mining/Melted.xml" />
-  <Item file="%ModDir%/Systems/Mining/Ingot.xml" />
+  <Item file="%ModDir%/Systems/Mining/1Mine.xml" />
+  <Item file="%ModDir%/Systems/Mining/2Ore.xml" />
+  <Item file="%ModDir%/Systems/Mining/3Melted.xml" />
+  <Item file="%ModDir%/Systems/Mining/4Cooldown.xml" />
+  <Item file="%ModDir%/Systems/Mining/5Ingot.xml" />
+  <Item file="%ModDir%/Systems/Mining/Mining.xml" />
 
 
 
