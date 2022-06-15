@@ -31,6 +31,7 @@
   <Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Military.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
+  <Item file="%ModDir%/Items/Jobgear/gear.xml" />
 
   <!--Tools-->
   <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
