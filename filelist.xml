@@ -170,6 +170,7 @@
 
 
   <!--Ванила-->
+  <Item file="Content/Items/Alien/alienitems.xml" />
   <Item file="Content/Items/Button/button.xml" />
   <Item file="Content/Items/Command/command.xml" />
   <Item file="Content/Items/Containers/containers.xml" />
@@ -257,6 +258,7 @@
   <Character file="Content/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
   <Character file="Content/Characters/Hammerheadspawn/Hammerheadspawn.xml" />
   <!-- <Character file="Content/Characters/Human/Human.xml" /> -->
+  <Character file="Content/Characters/Human/Human.xml" />
   <Character file="Content/Characters/Husk/Husk.xml" />
   <Character file="Content/Characters/Humanhusk/Humanhusk.xml" />
   <Character file="Content/Characters/Latcher/Latcher.xml" />
@@ -346,6 +348,14 @@
 
   <!--Остатнее гивно-->
   <!--<Structure file="Content/Map/StructurePrefabs.xml" />-->
+  <Afflictions file="Content/Afflictions.xml" />
+  <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
+  <Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />
+  <Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />
+  <Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />
+  <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
+  <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
+  <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
   <Structure file="Content/Map/StructurePrefabs.xml" />
   <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />
   <Structure file="Content/Map/Pirates/PirateStructures.xml" />
@@ -353,7 +363,7 @@
   <Structure file="Content/Items/Shipwrecks/StructurePrefabsWrecked.xml" />
   <Structure file="Content/Map/Thalamus/thalamusstructures.xml" />
   <UpgradeModules file="Content/Upgrades/UpgradeModules.xml" />
-  <!--<RuinConfig file="Content/Map/RuinConfig.xml" />-->
+  <RuinConfig file="Content/Map/RuinConfig.xml" />
   <OutpostModule file="Content/Map/RuinModules/Alien_Chambers4Way.sub" />
   <OutpostModule file="Content/Map/RuinModules/Alien_Chasm.sub" />
   <OutpostModule file="Content/Map/RuinModules/Alien_DeadEndL.sub" />
@@ -391,7 +401,8 @@
   <RandomEvents file="Content/OutpostEvents.xml" />
   <RandomEvents file="Content/OutpostEventsLegacy.xml" />
   <EventManagerSettings file="Content/EventManagerSettings.xml" />
-  <!-- <MapGenerationParameters file="Content/Map/MapGenerationParameters.xml" /> -->
+  <LocationTypes file="Content/Map/locationTypes.xml" />
+  <MapGenerationParameters file="Content/Map/MapGenerationParameters.xml" />
   <Item file="Content/Map/Outposts/AbandonedOutpost/AbandonedOutpostDecals.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
   <CaveGenerationParameters file="Content/Map/Biomes/CaveGenerationParameters.xml" />
@@ -433,7 +444,7 @@
   <Corpses file="Content/Corpses.xml" />
   <Sounds file="Content/Sounds/sounds.xml" />
   <SkillSettings file="Content/SkillSettings.xml" />
-  <!-- <Factions file="Content/Map/factions.xml" /> -->
+  <Factions file="Content/Map/factions.xml" />
   <Outpost file="Content/Map/Outposts/Outpost.sub" />
   <Outpost file="Content/Map/Outposts/Outpost2.sub" />
   <Outpost file="Content/Map/Outposts/Outpost3.sub" />
@@ -538,10 +549,4 @@
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml"/>
   <TalentTrees file="Content/Talents/TalentTrees.xml"/>
   <StartItems file="Content/Items/StartItems.xml" />
-  <Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />
-  <Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />
-  <Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />
-  <Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
-  <Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
-  <Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
 </contentpackage>
