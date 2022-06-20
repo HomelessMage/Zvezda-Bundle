@@ -734,6 +734,28 @@
 
 
     <!--Механизмы-->
+
+
+
+
+
+    <entityname.reactor_mini>Миниатюрный ядерный реактор «ЯР-5»</entityname.reactor_mini>
+    <entitydescription.reactor_mini>Эксперементальная модель ядерного двигателя для подлодок дальнего следования.</entitydescription.reactor_mini>
+
+    <entityname.reactor_small>Ядерный реактор «ЯР-88»</entityname.reactor_small>
+    <entitydescription.reactor_small>Генерирует электричество на большинстве подводных станций.</entitydescription.reactor_small>
+
+    <entityname.reactorslow_small>Маловольтажный ядерный реактор «ЯР-98».</entityname.reactorslow_small>
+    <entitydescription.reactorslow_small>Упрощённая версия «ЯРика»</entitydescription.reactorslow_small>
+
+
+
+    <entityname.generatorfuel>Канистра дизеля</entityname.generatorfuel>
+    <entitydescription.generatorfuel>Серая канистра опасной для питья и курения жидкости.</entitydescription.generatorfuel>
+
+
+
+
     <entityname.generatordiesel_large>Дизельный генератор (большой)</entityname.generatordiesel_large>
     <entitydescription.generatordiesel_large>Дизельный генератор.</entitydescription.generatordiesel_large>
 
@@ -5718,7 +5740,8 @@
 <jobname.prisoner>Заключенный</jobname.prisoner>
 <jobname.commoner>Обычный человек</jobname.commoner>
 <jobname.vip>ВИП-персона</jobname.vip>
-<jobname.vipsecurityofficer>Телохранитель</jobname.vipsecurityofficer>
+<!--
+<jobname.vipsecurityofficer>Телохранитель</jobname.vipsecurityofficer> -->
 <missiontypedescription.escort>Сопроводите пассажиров с одного аванпоста на другой, обеспечив безопасность людей.</missiontypedescription.escort>
 <missiontypedescription.pirate>Найдите пиратский корабль и уничтожьте есго вместе с экипажем.</missiontypedescription.pirate>
 <eventtext.missionevent_escort1.c1>"Обычные люди ищут возможности безопасно перебраться на соседнюю станцию. Сопроводите их без происшествий, и вам заплатят".</eventtext.missionevent_escort1.c1>

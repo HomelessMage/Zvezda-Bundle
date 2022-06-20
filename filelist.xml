@@ -5,14 +5,15 @@
 <UIStyle file="%ModDir%/UI/style.xml" />
 
 
-
+<StartItems file="%ModDir%/StartItems.xml" />
 
 <SkillSettings file="%ModDir%/SkillSettings.xml" />
 <Text file="%ModDir%/Texts/Russian.xml" />
 <Jobs file="%ModDir%/Jobs.xml" />
-<LocationTypes file="Content/Map/locationTypes.xml" />
+<Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
+<LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />
 <Sounds file="%ModDir%/Sounds/sounds.xml" />
-<!--<Afflictions file="%ModDir%/Afflictions1.xml" />-->
+<Afflictions file="%ModDir%/ZvezdaAfflictions.xml" />
 <!--Currency-->
 <Item file="%ModDir%/Items/Currency/Currency.xml" />
 <!--Drugs-->
@@ -23,39 +24,44 @@
 <Item file="%ModDir%/Items/idcards/idcard.xml" />
 <!--Jobgear-->
 <Item file="%ModDir%/Items/Jobgear/Crew/Crew.xml" />
-<!--<Item file="%ModDir%/Items/Jobgear/Head/Heads.xml" />-->
-<!--<Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
+<Item file="%ModDir%/Items/Jobgear/Head/Heads.xml" />
+<Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
 <Item file="%ModDir%/Items/Jobgear/Military/Military.xml" />
 <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
 <Item file="%ModDir%/Items/Jobgear/Factions/Reich/Reich.xml" />
-<Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />-->
+<Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />
+<Item file="%ModDir%/Items/Jobgear/Bags/Bags.xml" />
+<Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
 <!--Tools-->
 <!--<Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
+<Prefab file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />-->
 <Item file="%ModDir%/Items/Tools/Cleaner/Clean.xml" />
 <Item file="%ModDir%/Items/Tools/Demian/flags.xml" />
-<Item file="%ModDir%/Items/Tools/Work/tools.xml" />-->
+<Item file="%ModDir%/Items/Tools/Work/tools.xml" />
 <!--Weapons-->
-<Item file="%ModDir%/Items/Weapons/Cannons/coilgun.xml" />
+<!--<Item file="%ModDir%/Items/Weapons/Cannons/coilgun.xml" /> -->
 <Item file="%ModDir%/Items/Weapons/Melee/Melee.xml" />
 <Item file="%ModDir%/Items/Weapons/Weapon/weapons.xml" />
 <Item file="%ModDir%/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 <!--Map-->
-<!-- <Item file="%ModDir%/Map/decor/decorsuff.xml" />-->
-<!--<Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
-<Item file="%ModDir%/Map/Door/custom_doors.xml" />
-<Item file="%ModDir%/Map/Generator/generator.xml" />-->
-<!--<Item file="%ModDir%/Items/Map/locations/locationsTypes.xml" /> -->
-<!--<LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />-->
-<!--<MapGenerationParameters file="%ModDir%/Map/locations/MapGenerationParameters.xml" />-->
+<!--<Structure file="%ModDir%/Map/decor/decorsuff.xml" />
+<Structure file="%ModDir%/Map/Door/custom_dockingports.xml" />
+<Structure file="%ModDir%/Map/Door/custom_doors.xml" />-->
+<!--<Item file="%ModDir%/Map/Generator/generator.xml" />-->
+<!--<LocationTypes file="Content/Map/locationTypes.xml" /> -->
+<!--<LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />
+<MapGenerationParameters file="%ModDir%/Map/locations/MapGenerationParameters.xml" />-->
 <!--<RuinConfig file="%ModDir%/Map/locations/RuinConfig.xml" />-->
 <!--<Structure file="%ModDir%/Map/locations/StructurePrefabs.xml" />-->
-<!--<Item file="%ModDir%/Map/Torgomat/torgomat.xml" />
-<Item file="%ModDir%/Map/Walls/Walls.xml" />-->
+<Item file="%ModDir%/Map/Torgomat/torgomat.xml" />
+<!--<Item file="%ModDir%/Map/Walls/Walls.xml" />-->
 <!--Systems-->
 <Item file="%ModDir%/Systems/Gardening/gardeningtools.xml" />
-<Item file="%ModDir%/Systems/Music items/Misc.xml" />
+<!--<Item file="%ModDir%/Systems/Music items/Misc.xml" />-->
 <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
 <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
+<Item file="%ModDir%/Systems/Reactor/reactorgear.xml" /> 
+<Item file="%ModDir%/Systems/Reactor/rod.xml" />
 <Item file="%ModDir%/Systems/Mining/1Mine.xml" />
 <Item file="%ModDir%/Systems/Mining/2Ore.xml" />
 <Item file="%ModDir%/Systems/Mining/3Melted.xml" />
@@ -64,6 +70,9 @@
 <Item file="%ModDir%/Systems/Mining/Mining.xml" />
 <!--Музыка говна-->
 <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg" />
+<Other file="%ModDir%/Systems/Reactor/generator_diesel_small.ogg" />
+<Other file="%ModDir%/Systems/Reactor/generator_diesel_medium.ogg" />
+<Other file="%ModDir%/Systems/Reactor/generator_diesel_large.ogg" />
 <Other file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" />
 <Other file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" />
 <Other file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg" />
@@ -157,16 +166,16 @@
 <Item file="Content/Items/Button/button.xml" />
 <Item file="Content/Items/Command/command.xml" />
 <Item file="Content/Items/Containers/containers.xml" />
-<Item file="Content/Items/Jobgear/Captain/captain_gear.xml" />
-<Item file="Content/Items/Jobgear/Medic/medic_gear.xml" />
-<Item file="Content/Items/Jobgear/Engineer/engineer_gear.xml" />
-<Item file="Content/Items/Jobgear/Mechanic/mechanic_gear.xml" />
-<Item file="Content/Items/Jobgear/Assistant/assistant_gear.xml" />
-<Item file="Content/Items/Jobgear/Watchman/watchman_gear.xml" />
-<Item file="Content/Items/Jobgear/Security/securityofficer_gear.xml" />
+<!--<Item file="Content/Items/Jobgear/Captain/captain_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Medic/medic_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Engineer/engineer_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Mechanic/mechanic_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Assistant/assistant_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Watchman/watchman_gear.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Security/securityofficer_gear.xml" />-->
 <!--<Item file="Content/Items/Jobgear/Commoner/commoner_gear.xml" />-->
-<Item file="Content/Items/Jobgear/Clown/clown.xml" />
-<Item file="Content/Items/Jobgear/misc.xml" />
+<!--<Item file="Content/Items/Jobgear/Clown/clown.xml" />-->
+<!--<Item file="Content/Items/Jobgear/misc.xml" />-->
 <Item file="Content/Items/CreatureLoot/creatureloot.xml" />
 <Item file="Content/Items/Diving/divinggear.xml" />
 <Item file="Content/Items/Door/doors.xml" />
@@ -178,23 +187,23 @@
 <Item file="Content/Items/Genetic/genetic.xml" />
 <Item file="Content/Items/Labels/labels.xml" />
 <Item file="Content/Items/Ladder/ladder.xml" />
-<Item file="Content/Items/Materials/materials.xml" />
-<Item file="Content/Items/Materials/medmaterials.xml" />
-<Item file="Content/Items/Materials/minerals.xml" />
-<Item file="Content/Items/Misc/misc.xml" />
+<!-- <Item file="Content/Items/Materials/materials.xml" /> -->
+<!--<Item file="Content/Items/Materials/medmaterials.xml" /> -->
+<!--<Item file="Content/Items/Materials/minerals.xml" /> -->
+<!--<Item file="Content/Items/Misc/misc.xml" />-->
 <Item file="Content/Items/OxygenGenerator/oxygengenerator.xml" />
 <Item file="Content/Items/Pump/pump.xml" />
 <Item file="Content/Items/SearchLight/searchlight.xml" />
-<Item file="Content/Items/Reactor/reactor.xml" />
+<!--<Item file="Content/Items/Reactor/reactor.xml" /> -->
 <!---<Item file="Content/Items/Tools/tools.xml" /> -->
-<Item file="Content/Items/Weapons/coilgun.xml" />
-<Item file="Content/Items/Weapons/chaingun.xml" />
+<!--<Item file="Content/Items/Weapons/coilgun.xml" />-->
+<!--<Item file="Content/Items/Weapons/chaingun.xml" />
 <Item file="Content/Items/Weapons/depthcharge.xml" />
 <Item file="Content/Items/Weapons/dischargecoil.xml" />
 <Item file="Content/Items/Weapons/explosives.xml" />
 <Item file="Content/Items/Weapons/pulselaser.xml" />
 <Item file="Content/Items/Weapons/railgun.xml" />
-<!---<Item file="Content/Items/Weapons/turrethardpoint.xml" />-->
+-<Item file="Content/Items/Weapons/turrethardpoint.xml" />-->
 <!---<Item file="Content/Items/Weapons/weapons.xml" />-->
 <Item file="Content/Items/Legacy/legacycommand.xml" />
 <Item file="Content/Items/Legacy/legacycontainers.xml" />
@@ -210,15 +219,15 @@
 <Item file="Content/Items/Shipwrecks/wreckeditems.xml" />
 <Item file="Content/Map/Thalamus/thalamusitems.xml" />
 <Item file="Content/Items/Gardening/growableplants.xml" />
-<Item file="Content/Items/Gardening/gardeningtools.xml" />
+<!--<Item file="Content/Items/Gardening/gardeningtools.xml" /> -->
 <Item file="Content/Items/Gardening/plantproducts.xml" />
-<Item file="Content/Map/Pirates/PirateItems.xml" />
-<Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />
-<Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
-<Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />
-<Item file="Content/Items/Jobgear/Engineer/engineer_talent_items.xml" />
-<Item file="Content/Items/Jobgear/Medic/medic_talent_items.xml" />
-<Item file="Content/Items/Jobgear/Captain/captain_talent_items.xml" />
+<!--<Item file="Content/Map/Pirates/PirateItems.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Assistant/assistant_talent_items.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Security/securityofficer_talent_items.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Engineer/engineer_talent_items.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Medic/medic_talent_items.xml" />-->
+<!--<Item file="Content/Items/Jobgear/Captain/captain_talent_items.xml" />-->
 <Character file="Content/Characters/Balloon/Balloon.xml" />
 <Character file="Content/Characters/Carrier/Carrier.xml" />
 <Character file="Content/Characters/Charybdis/Charybdis.xml" />
@@ -235,7 +244,7 @@
 <Character file="Content/Characters/Hammerheadgold/Hammerheadgold.xml" />
 <Character file="Content/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
 <Character file="Content/Characters/Hammerheadspawn/Hammerheadspawn.xml" />
-<Character file="Content/Characters/Human/Human.xml" />
+<!--<Character file="Content/Characters/Human/Human.xml" /> -->
 <Character file="Content/Characters/Husk/Husk.xml" />
 <Character file="Content/Characters/Humanhusk/Humanhusk.xml" />
 <Character file="Content/Characters/Latcher/Latcher.xml" />
@@ -318,14 +327,14 @@
 <Text file="Content/Texts/Turkish/TurkishVanilla.xml" />
 <Text file="Content/Texts/Korean/KoreanVanilla.xml" />
 
-<Afflictions file="Content/Afflictions.xml" />
+<!--<Afflictions file="Content/Afflictions.xml" /> -->
 <Afflictions file="Content/AfflictionsGeneticMaterial.xml" />
-<Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />
-<Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />
-<Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />
-<Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />
-<Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />
-<Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />
+<!--<Afflictions file="Content/Talents/Assistant/AfflictionsAssistant.xml" />-->
+<!--<Afflictions file="Content/Talents/Captain/AfflictionsCaptain.xml" />-->
+<!--<Afflictions file="Content/Talents/Doctor/AfflictionsDoctor.xml" />-->
+<!--<Afflictions file="Content/Talents/Engineer/AfflictionsEngineer.xml" />-->
+<!--<Afflictions file="Content/Talents/Mechanic/AfflictionsMechanic.xml" />-->
+<!--<Afflictions file="Content/Talents/Security/AfflictionsSecurity.xml" />-->
 <Structure file="Content/Map/StructurePrefabs.xml" />
 <Structure file="Content/Map/Outposts/OutpostStructurePrefabs.xml" />
 <Structure file="Content/Map/Pirates/PirateStructures.xml" />
@@ -515,5 +524,5 @@
 <Talents file="Content/Talents/Captain/TalentsCaptain.xml"/>
 <Talents file="Content/Talents/Doctor/TalentsDoctor.xml"/>
 <TalentTrees file="Content/Talents/TalentTrees.xml"/>
-<StartItems file="Content/Items/StartItems.xml" />
+<!--<StartItems file="Content/Items/StartItems.xml" /> -->
 </contentpackage>

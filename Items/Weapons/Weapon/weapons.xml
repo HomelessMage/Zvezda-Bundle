@@ -1188,9 +1188,9 @@
 
 
    <!--Шип шпинелина-->
-    <Item name="" identifier="spinelingspike" category="Misc" scale="0.5" sonarsize="2">
+    <Item name="" identifier="kostil_spinelingspike" category="Misc" scale="0.5" sonarsize="2">
     <Sprite texture="Content/Characters/Spineling/Spineling.png" sourcerect="0,215,180,18" depth="0.55" />
-    <Body width="160" height="10" density="20" />
+    <Body width="160" height="10" density="20" />  
     <Projectile characterusable="false" launchimpulse="200" maxtargetstohit="3" sticktocharacters="true" sticktoitems="false" sticktostructures="true" stickpermanently="true">
       <Attack structuredamage="10" severlimbsprobability="0.5">
         <Affliction identifier="lacerations" strength="10" />
@@ -1528,6 +1528,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
+<!--
   <Item name="acidemitter" identifier="acidemitter" Scale="1" tags="" sonarsize="0" impacttolerance="0.001" health="30">
     <Body radius="200" density="10" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,2,2" depth="0.55" origin="0.5,0.5" />
@@ -1535,7 +1536,7 @@
       <StatusEffect type="Always" target="This" lifetime="1">
         <ParticleEmitter particle="acidmist" particlespersecond="6" scalemin="0.9" scalemax="1" velocitymin="50" velocitymax="150" anglemin="0" anglemax="360" copyentityangle="false"/>
       </StatusEffect>
-      <!-- reduce condition to remove the emitter after 30 seconds -->
+      
       <StatusEffect type="Always" target="This" condition="-1"/>
       <StatusEffect type="Always" target="NearbyCharacters" range="100">
         <Affliction identifier="acidburn" strength="1" />
@@ -1566,7 +1567,9 @@
         <Remove />
       </StatusEffect>
     </ItemComponent>
-  </Item>
+  </Item> 
+  -->
+<!--
   <Item name="ballastfloratoxins" identifier="ballastfloratoxins" Scale="1" tags="" sonarsize="0" health="10" depth="0.1" isdangerous="true">
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,2,2" depth="0.55" origin="0.5,0.5" />
     <ItemComponent>
@@ -1599,7 +1602,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-
+  -->
 
 
 </Items>

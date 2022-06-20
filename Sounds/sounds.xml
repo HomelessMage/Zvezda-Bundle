@@ -10,150 +10,6 @@
   <!-- <music file="%ModDir%/Sounds/Main Menu Music.ogg" type="menu" continuefromprevioustime="true"/> -->
   <music file="%ModDir%/UI/Mucyraev.ogg" type="menu" continuefromprevioustime="true"/>
 
-<!--
-  <music file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Nourishment/Alcohol/water.ogg" type="default"/>
-
-  <music file="%ModDir%/Systems/Music items/accordion1.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/accordion2.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/accordion3.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/accordion4.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/accordion5.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit1.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit2.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit3.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit4.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit5.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit6.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_bandit7.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_reich1.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_reich2.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_reich3.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_reich4.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar_reich5.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar1.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar2.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar3.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar4.ogg" type="default"/>
-  <music file="%ModDir%/Systems/Music items/guitar5.ogg" type="default"/>
-
-  <music file="%ModDir%/Map/Door/blastdoor1_move.ogg" type="default"/>
-  <music file="%ModDir%/Map/Door/dockingrail1.ogg" type="default"/>
-  <music file="%ModDir%/Map/Door/dockingrail2.ogg" type="default"/>
-  <music file="%ModDir%/Map/Door/exteriorshelldoor1_move.ogg" type="default"/>
-  <music file="%ModDir%/Map/Door/maintenancepanel1_move.ogg" type="default"/>
-
-  <music file="%ModDir%/Items/Tools/Demian/neonazi_scream.ogg" type="default"/>
-  <music file="%ModDir%/Items/Tools/Demian/soviet_scream.ogg" type="default"/>
-
-  <music file="%ModDir%/Items/Tools/Work/drill_loop.ogg" type="default"/>
-  <music file="%ModDir%/Items/Tools/Work/patching_kit_loop.ogg" type="default"/>
-
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun2.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun3.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun4.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun5.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/Cannons/Coilgun6.ogg" type="default"/>
-
-  <music file="%ModDir%/Items/Weapons/ogg/ak74mshot.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ak74mshot1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ksm.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ksm1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ksm2.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ksm3.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/ksm4.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/pmpistol3.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot3.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot4.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot5.ogg" type="default"/>
-  <music file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" type="default"/>
-
-  <music file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" type="default"/>
-
-  <music file="%ModDir%/Map/Torgomat/sell.ogg" type="default"/>
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <music file="Content/Sounds/Music/Subaquatic Symphony for Hammer And Metal.ogg" type="editor" continuefromprevioustime="true"/>
   
   <music file="Content/Sounds/Music/Layer 3 - Leaving Start Location.ogg" type="start"/>
@@ -194,6 +50,7 @@
   <music file="Content/Sounds/Music/Layer 12 - Objective Complete.ogg" type="levelend"/>
   <music file="Content/Sounds/Music/Look Behind The Watery Shadows.ogg" type="wreck"/>
   <music file="Content/Sounds/Music/All But Systematic Chaos.ogg" type="ending"/>
+  <music file="Content/Sounds/Music/Moribund In An Underwater Coffin.ogg" type="abandoned"/>
 
   <music file="Content/Sounds/Music/Alien Ruins Loop.ogg" type="ruinsambience"/>
 
@@ -333,7 +190,7 @@
   <rewire file="Content/Sounds/RewiringLoop.ogg" volume="1.0" range="1000"/>
   <repair file="Content/Sounds/RepairLoop.ogg" volume="1.0" range="1000"/>
   
-  <flow file="Content/Sounds/Water/FlowSmall.ogg"/>
+  <flow file="Content/Sounds/Water/FlowSmall.ogg" volume="0.6"/>
   <flow file="Content/Sounds/Water/FlowMedium.ogg"/>
   <flow file="Content/Sounds/Water/FlowLarge.ogg"/>
 
@@ -443,20 +300,22 @@
   <hull file="Content/Sounds/Hull/HullLong1.ogg" />
   <hull file="Content/Sounds/Hull/HullLong2.ogg" />
 
-  <guisound file="Content/Sounds/UI/UImsg.ogg"            guisoundtype="UIMessage"/>
-  <guisound file="Content/Sounds/UI/ChatMsg.ogg"          guisoundtype="ChatMessage"/>
-  <guisound file="Content/Sounds/UI/RadioMsg.ogg"         guisoundtype="RadioMessage"/>
-  <guisound file="Content/Sounds/UI/DeadMsg.ogg"          guisoundtype="DeadMessage"/>
-  <guisound file="Content/Sounds/UI/Click.ogg"            guisoundtype="Click"/>
-  <guisound file="Content/Sounds/UI/PopupMenu.ogg"        guisoundtype="PopupMenu"/>
-  <guisound file="Content/Sounds/UI/QuantityDecrease.ogg" guisoundtype="DecreaseQuantity"/>
-  <guisound file="Content/Sounds/UI/QuantityIncrease.ogg" guisoundtype="IncreaseQuantity"/>
-  <guisound file="Content/Sounds/UI/HireRepairClick.ogg"  guisoundtype="HireRepairClick"/>
-  <guisound file="Content/Sounds/UI/UIswitch1.ogg"        guisoundtype="UISwitch"/>
-  <guisound file="Content/Sounds/UI/UIswitch2.ogg"        guisoundtype="UISwitch"/>
-  <guisound file="Content/Sounds/UI/UIswitch3.ogg"        guisoundtype="UISwitch"/>
-  <guisound file="Content/Sounds/PickItem.ogg"            guisoundtype="PickItem"/>
-  <guisound file="Content/Sounds/PickItemFail.ogg"        guisoundtype="PickItemFail"/>
-  <guisound file="Content/Sounds/DropItem.ogg"            guisoundtype="DropItem"/>
-  
+  <guisound file="Content/Sounds/UI/UImsg.ogg"              guisoundtype="UIMessage"/>
+  <guisound file="Content/Sounds/UI/ChatMsg.ogg"            guisoundtype="ChatMessage"/>
+  <guisound file="Content/Sounds/UI/RadioMsg.ogg"           guisoundtype="RadioMessage"/>
+  <guisound file="Content/Sounds/UI/DeadMsg.ogg"            guisoundtype="DeadMessage"/>
+  <guisound file="Content/Sounds/UI/UI_labelSelect.ogg"     guisoundtype="Select"/>
+  <guisound file="Content/Sounds/UI/PopupMenu.ogg"          guisoundtype="PopupMenu"/>
+  <guisound file="Content/Sounds/UI/UI_labelCountMinus.ogg" guisoundtype="Decrease"/>
+  <guisound file="Content/Sounds/UI/UI_labelCountPlus.ogg"  guisoundtype="Increase"/>
+  <guisound file="Content/Sounds/UI/UIswitch1.ogg"          guisoundtype="UISwitch"/>
+  <guisound file="Content/Sounds/UI/UIswitch2.ogg"          guisoundtype="UISwitch"/>
+  <guisound file="Content/Sounds/UI/UIswitch3.ogg"          guisoundtype="UISwitch"/>
+  <guisound file="Content/Sounds/PickItem.ogg"              guisoundtype="PickItem"/>
+  <guisound file="Content/Sounds/PickItemFail.ogg"          guisoundtype="PickItemFail"/>
+  <guisound file="Content/Sounds/DropItem.ogg"              guisoundtype="DropItem"/>
+  <guisound file="Content/Sounds/UI/UI_labelCheckBox.ogg"   guisoundtype="TickBox"/>
+  <guisound file="Content/Sounds/UI/UI_labelMarkka.ogg"     guisoundtype="ConfirmTransaction"/>
+  <guisound file="Content/Sounds/UI/UI_labelCart.ogg"       guisoundtype="Cart"/>
+
 </sounds>
