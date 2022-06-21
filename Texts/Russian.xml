@@ -150,17 +150,17 @@
     <!-- Одежда -->
     <!-- Одежда -->
     <!-- Одежда -->
-    <entityname.orangejumpsuit1>Комбинезон инженера-ядерщика</entityname.orangejumpsuit1>
-    <entitydescription.orangejumpsuit1></entitydescription.orangejumpsuit1>
+    <entityname.engineer_1>Комбинезон инженера-ядерщика</entityname.engineer_1>
+    <entitydescription.engineer_1></entitydescription.engineer_1>
 
-    <entityname.orangejumpsuit2>Комбинезон инженера-электрика</entityname.orangejumpsuit2>
-    <entitydescription.orangejumpsuit2></entitydescription.orangejumpsuit2>
+    <entityname.engineer_2>Комбинезон инженера-электрика</entityname.engineer_2>
+    <entitydescription.engineer_2></entitydescription.engineer_2>
 
-    <entityname.bluejumpsuit1>Комбинезон механика-сварщика</entityname.bluejumpsuit1>
-    <entitydescription.bluejumpsuit1></entitydescription.bluejumpsuit1>
+    <entityname.mechanic_1>Комбинезон механика-сварщика</entityname.mechanic_1>
+    <entitydescription.mechanic_1></entitydescription.mechanic_1>
 
-    <entityname.bluejumpsuit2>Комбинезон механика-слесаря</entityname.bluejumpsuit2>
-    <entitydescription.bluejumpsuit2></entitydescription.bluejumpsuit2>
+    <entityname.mechanic_2>Комбинезон механика-слесаря</entityname.mechanic_2>
+    <entitydescription.mechanic_2></entitydescription.mechanic_2>
 
     <entityname.minerclothes>Комбинезон шахтера</entityname.minerclothes>
     <entitydescription.minerclothes></entitydescription.minerclothes>
@@ -286,26 +286,26 @@
     <!-- Головные уборы -->
     <!-- Головные уборы -->
     <!-- Головные уборы -->
-    <entityname.ballistichelmet2>Шлемофон «ТШ-4»</entityname.ballistichelmet2>
-    <entitydescription.ballistichelmet2>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.ballistichelmet2>
+    <entityname.slemahon>Шлемофон «ТШ-4»</entityname.slemahon>
+    <entitydescription.slemahon>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.slemahon>
 
-    <entityname.captainscap1>Фуражка (вариант 1)</entityname.captainscap1>
-    <entitydescription.captainscap1></entitydescription.captainscap1>
+    <entityname.captan_head1>Фуражка (вариант 1)</entityname.captan_head1>
+    <entitydescription.captan_head1></entitydescription.captan_head1>
 
-    <entityname.captainscap2>Фуражка (вариант 2)</entityname.captainscap2>
-    <entitydescription.captainscap2></entitydescription.captainscap2>
+    <entityname.captan_head2>Фуражка (вариант 2)</entityname.captan_head2>
+    <entitydescription.captan_head2></entitydescription.captan_head2>
 
-    <entityname.captainscap3>Фуражка (вариант 3)</entityname.captainscap3>
-    <entitydescription.captainscap3></entitydescription.captainscap3>
+    <entityname.captan_head3>Фуражка (вариант 3)</entityname.captan_head3>
+    <entitydescription.captan_head3></entitydescription.captan_head3>
 
-    <entityname.piratecaptainhat>Шляпа треуголка</entityname.piratecaptainhat>
-    <entitydescription.piratecaptainhat></entitydescription.piratecaptainhat>
+    <entityname.kostil_piratecaptainhat>Шляпа треуголка</entityname.kostil_piratecaptainhat>
+    <entitydescription.kostil_piratecaptainhat></entitydescription.kostil_piratecaptainhat>
 
-    <entityname.piratebandana>Бандана</entityname.piratebandana>
-    <entitydescription.piratebandana></entitydescription.piratebandana>
+    <entityname.kostil_piratebandana>Бандана</entityname.kostil_piratebandana>
+    <entitydescription.kostil_piratebandana></entitydescription.kostil_piratebandana>
 
-    <entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
-    <entitydescription.zsh_helmet></entitydescription.zsh_helmet>
+    <entityname.kostil_zsh_helmet>Шлем «ЗШ-1»</entityname.kostil_zsh_helmet>
+    <entitydescription.kostil_zsh_helmet></entitydescription.kostil_zsh_helmet>
 
     <entityname.ushanka>Шапка-Ушанка (серая)</entityname.ushanka>
     <entitydescription.ushanka></entitydescription.ushanka>
@@ -360,6 +360,18 @@
     <entityname.cookcap>Поварской колпак</entityname.cookcap>
     <entitydescription.cookcap></entitydescription.cookcap>
 
+    <entityname.kepka>Обычная керка</entityname.kepka>
+    <entitydescription.kepka></entitydescription.kepka>
+
+    <entityname.captan_head3>Фурашка бригадира</entityname.captan_head3>
+    <entitydescription.captan_head3></entitydescription.captan_head3>
+
+    <entityname.captan_head2>Фурашка капитана подводной лодки(вариант1)</entityname.captan_head2>
+    <entitydescription.captan_head2></entitydescription.captan_head2>
+
+    <entityname.captan_head1>Фурашка капитана подводной лодки(вариант1)</entityname.captan_head1>
+    <entitydescription.captan_head1></entitydescription.captan_head1>
+
 
     <!-- Головные уборы -->
     <!-- Головные уборы -->
@@ -396,11 +408,44 @@
     <entityname.bandolier>Разгрузочный жилет «Лифчик»</entityname.bandolier>
     <entitydescription.bandolier>Легкое снаряжение для переноски боеприпасов и других предметов.</entitydescription.bandolier>
 
+    <entityname.holster>Портупея</entityname.holster>
+    <entitydescription.holster>Часть военного снаряжения, ременная перевязь в виде ремней различной длины и ширины, перекинутая через одно плечо для личного огнестрельного оружия и полевой сумки.</entitydescription.holster>
+
+    <entityname.bananka>Сумка-бананка</entityname.bananka>
+    <entitydescription.bananka>Обычный поясная сумка.</entitydescription.bananka>
+
+    <entityname.backpack>Американкий рюкзак</entityname.backpack>
+    <entitydescription.backpack>Обычный рюкзак</entitydescription.backpack>
+
     <entityname.6b13>Бронежилет «6Б13»</entityname.6b13>
     <entitydescription.6b13>Советский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.6b13>
 
     <entityname.miltec>Разгрузочный бронежилет «Mil-Tec»</entityname.miltec>
     <entitydescription.miltec>Американский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.miltec>
+
+    <entityname.bodyarmor_6b4>Разгрузочный бронежилет «6Б4» (ВС ССКЕ)</entityname.bodyarmor_6b4>
+    <entitydescription.bodyarmor_6b4>6Б4 - советский противоосколочный и противопульный бронежилет четвёртого поколения.</entitydescription.bodyarmor_6b4>
+
+    <entityname.bodyarmor_mod>Разгрузочный бронежилет «6Б4» (ТР)</entityname.bodyarmor_mod>
+    <entitydescription.bodyarmor_mod>6Б4 - советский противоосколочный и противопульный бронежилет четвёртого поколения.</entitydescription.bodyarmor_mod>
+
+    <entityname.bodyarmor_mvd>Разгрузочный бронежилет «6Б4» (МВД)</entityname.bodyarmor_mvd>
+    <entitydescription.bodyarmor_mvd>6Б4 - советский противоосколочный и противопульный бронежилет четвёртого поколения.</entitydescription.bodyarmor_mvd>
+
+    <entityname.bodyarmor_omon>Разгрузочный бронежилет «6Б4» (ОМОН)</entityname.bodyarmor_omon>
+    <entitydescription.bodyarmor_omon>6Б4 - советский противоосколочный и противопульный бронежилет четвёртого поколения.</entitydescription.bodyarmor_omon>
+
+    <entityname.ammovest>Разгрузочный жилет «Лифчик» (ВС ССКЕ)</entityname.ammovest>
+    <entitydescription.ammovest>Разгрузочный жилет в виде самодельного нагрудника из тонкого брезента, на армейском жаргоне именуемом «Лифчиком».</entitydescription.ammovest>
+
+    <entityname.ammovestholster>Разгрузочный жилет «Лифчик» с кобурой (ВС ССКЕ)</entityname.ammovestholster>
+    <entitydescription.ammovestholster>Разгрузочный жилет в виде самодельного нагрудника из тонкого брезента, на армейском жаргоне именуемом «Лифчиком».</entitydescription.ammovestholster>
+
+    <entityname.ammovestblack>Разгрузочный жилет «Лифчик» (черный)</entityname.ammovestblack>
+    <entitydescription.ammovestblack>Разгрузочный жилет в виде самодельного нагрудника из тонкого брезента, на армейском жаргоне именуемом «Лифчиком».</entitydescription.ammovestblack>
+
+    <entityname.ammovestblackholster>Разгрузочный жилет «Лифчик» c кобурой (черный)</entityname.ammovestblackholster>
+    <entitydescription.ammovestblackholster>Разгрузочный жилет в виде самодельного нагрудника из тонкого брезента, на армейском жаргоне именуемом «Лифчиком».</entitydescription.ammovestblackholster>
     <!-- Слот сумки -->
     <!-- Слот сумки -->
     <!-- Слот сумки -->

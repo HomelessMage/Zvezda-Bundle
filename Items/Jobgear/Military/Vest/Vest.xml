@@ -15,7 +15,7 @@
          <RequiredItem identifier="plastic" mincondition="0.5" usecondition="true" />
          <RequiredItem identifier="copper" mincondition="0.5" usecondition="true" />
       </Fabricate>
-      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,576,64,64" origin="0.5,0.5" />
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/holster.png" depth="0.6" sourcerect="0,199,90,66" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/holster.png" depth="0.6" sourcerect="0,199,90,66" origin="0.5,0.5" />
       <Body width="80" height="40" density="20" />
       <ItemContainer capacity="4" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
