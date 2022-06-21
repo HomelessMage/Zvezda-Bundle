@@ -56,6 +56,7 @@
 <Item file="%ModDir%/Map/Torgomat/torgomat.xml" />
 <!--<Item file="%ModDir%/Map/Walls/Walls.xml" />-->
 <!--Systems-->
+<Item file="%ModDir%/Systems/Temperature/tool_xolod.xml" />
 <Item file="%ModDir%/Systems/Gardening/gardeningtools.xml" />
 <!--<Item file="%ModDir%/Systems/Music items/Misc.xml" />-->
 <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
