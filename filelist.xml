@@ -88,8 +88,6 @@
 <None file="%ModDir%/Creatures/Characters/Pig/PigPain.ogg" />
 <None file="%ModDir%/Creatures/Characters/Pig/PigGrowl.ogg" />
 <None file="%ModDir%/Creatures/Characters/Pig/PigDie.ogg" />
-<None file="%ModDir%/Creatures/Characters/Pig/PigBark3.ogg" />
-<None file="%ModDir%/Creatures/Characters/Pig/PigBark2.ogg" />
 <None file="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" />
 <None file="%ModDir%/Creatures/Characters/Pig/PigAttack2.ogg" />
 <None file="%ModDir%/Creatures/Characters/Pig/PigAttack1.ogg" />
