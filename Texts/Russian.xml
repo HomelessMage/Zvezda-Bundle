@@ -286,8 +286,8 @@
     <!-- Головные уборы -->
     <!-- Головные уборы -->
     <!-- Головные уборы -->
-    <entityname.slemahon>Шлемофон «ТШ-4»</entityname.slemahon>
-    <entitydescription.slemahon>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.slemahon>
+    <entityname.slemofon>Шлемофон «ТШ-4»</entityname.slemofon>
+    <entitydescription.slemofon>Шлемофон — головной убор, предохраняющий владельца от механических повреждений (травм) головы и повышенного шума, и оборудованный средствами двусторонней связи.</entitydescription.slemofon>
 
     <entityname.captan_head1>Фуражка (вариант 1)</entityname.captan_head1>
     <entitydescription.captan_head1></entitydescription.captan_head1>
@@ -304,8 +304,8 @@
     <entityname.kostil_piratebandana>Бандана</entityname.kostil_piratebandana>
     <entitydescription.kostil_piratebandana></entitydescription.kostil_piratebandana>
 
-    <entityname.kostil_zsh_helmet>Шлем «ЗШ-1»</entityname.kostil_zsh_helmet>
-    <entitydescription.kostil_zsh_helmet></entitydescription.kostil_zsh_helmet>
+    <entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
+    <entitydescription.zsh_helmet></entitydescription.zsh_helmet>
 
     <entityname.ushanka>Шапка-Ушанка (серая)</entityname.ushanka>
     <entitydescription.ushanka></entitydescription.ushanka>

@@ -7,18 +7,13 @@
   <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1" VelocityMin="200" VelocityMax="700" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="20" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <gibemitter Particle="heavygib" AngleMin="0" AngleMax="360" ScaleMin="0.5" ScaleMax="0.8" VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="5" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
   <health Vitality="100" DoesBleed="True" CrushDepth="-Infinity" UseHealthWindow="False" BleedingReduction="0.2" BurnReduction="0" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="10" StunImmunity="False" PoisonImmunity="False" ApplyAfflictionColors="False" />
-  <sound File="Content/Characters/Crawler/CRAWLER_attack1.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_attack2.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_attack3.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_attack4.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_idle1.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_idle2.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_idle3.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_death1.ogg" State="Die" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_death2.ogg" State="Die" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_damage1.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_damage2.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="Content/Characters/Crawler/CRAWLER_damage3.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigAttack1.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigAttack2.ogg" State="Attack" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" State="Idle" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigDie.ogg" State="Die" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigPain.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigGrowl.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
   <ai CombatStrength="250" Sight="1" Hearing="1" AggressionHurt="200" AggressionGreed="10" FleeHealthThreshold="10" AttackWhenProvoked="False" AvoidGunfire="True" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="True" RandomAttack="False" CanOpenDoors="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
     <target Tag="husk" State="PassiveAggressive" Priority="200" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
     <target Tag="dead" State="Attack" Priority="999" ReactDistance="100" AttackDistance="100" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
