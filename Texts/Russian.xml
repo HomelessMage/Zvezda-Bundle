@@ -313,9 +313,6 @@
     <entityname.ushanka>Шапка-Ушанка (серая)</entityname.ushanka>
     <entitydescription.ushanka></entitydescription.ushanka>
     
-    <entityname.ushanka2>Шапка-Ушанка (чёрная)</entityname.ushanka2>
-    <entitydescription.ushanka2></entitydescription.ushanka2>
-    
     <entityname.gcap>Пилотка ВС СССР</entityname.gcap>
     <entitydescription.gcap></entitydescription.gcap>
 
@@ -357,6 +354,29 @@
 
     <entityname.mvdcap>Фуражка (МВД СССР)</entityname.mvdcap>
     <entitydescription.mvdcap></entitydescription.mvdcap>    
+
+
+
+
+
+
+    <entityname.hardhatWL>Шахтёрская каска с фонариком</entityname.hardhatWL>
+    <entitydescription.hardhatWL></entitydescription.hardhatWL>
+
+    <entityname.hardhatW>Шахтёрская каска</entityname.hardhatW>
+    <entitydescription.hardhatW></entitydescription.hardhatW>    
+
+    <entityname.hardhatY>Жёлтая каска</entityname.hardhatY>
+    <entitydescription.hardhatY></entitydescription.hardhatY>
+
+    <entityname.hardhatB>Синяя каска</entityname.hardhatB>
+    <entitydescription.hardhatB></entitydescription.hardhatB>  
+    
+    <entityname.seacap>Флотская фуражка</entityname.seacap>
+    <entitydescription.seacap></entitydescription.seacap> 
+
+
+
 
 
 
