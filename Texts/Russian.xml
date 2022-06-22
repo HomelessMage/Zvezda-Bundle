@@ -183,6 +183,9 @@
     <entityname.securityuniform1>Китель (светлый)</entityname.securityuniform1>
     <entitydescription.securityuniform1></entitydescription.securityuniform1>
 
+    <entityname.scientific_collaboratorclothes>Одежда научного сотрудника</entityname.scientific_collaboratorclothes>
+    <entitydescription.scientific_collaboratorclothes></entitydescription.scientific_collaboratorclothes>
+
     <entityname.Mvd>Униформа милиционера</entityname.Mvd>
     <entitydescription.Mvd></entitydescription.Mvd>
 
