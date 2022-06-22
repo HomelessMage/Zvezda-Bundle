@@ -69,6 +69,35 @@
 <Item file="%ModDir%/Systems/Mining/4Cooldown.xml" />
 <Item file="%ModDir%/Systems/Mining/5Ingot.xml" />
 <Item file="%ModDir%/Systems/Mining/Mining.xml" />
+
+
+
+
+
+
+
+
+
+<Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
+<!--
+<None file="%ModDir%/Creatures/Characters/Pig/Ragdolls/PigDefaultRagdoll.xml" />
+<None file="%ModDir%/Creatures/Characters/Pig/Animations/PigSwimSlow.xml" />
+<None file="%ModDir%/Creatures/Characters/Pig/Animations/PigWalk.xml" />
+<None file="%ModDir%/Creatures/Characters/Pig/Animations/PigSwimFast.xml" />
+-->
+<None file="%ModDir%/Creatures/Characters/Pig/PigPain.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigGrowl.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigDie.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigBark3.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigBark2.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigAttack2.ogg" />
+<None file="%ModDir%/Creatures/Characters/Pig/PigAttack1.ogg" />
+
+
+
+
+
 <!--Музыка говна-->
 <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg" />
 <Other file="%ModDir%/Systems/Reactor/generator_diesel_small.ogg" />
