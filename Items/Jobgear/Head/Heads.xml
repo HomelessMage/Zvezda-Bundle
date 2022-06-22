@@ -178,7 +178,69 @@
       </Wearable>
    </Item>
 
+
+   <!--Офицерская фуражка ТР-->
+   <Item name="" identifier="tpcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,195,84,51" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,195,84,51" origin="0.6,1.05" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+   <!--Противогаз ГП-5-->
+   <Item name="" identifier="gasmask" scale="0.35" category="Diving,Equipment" Tags="smallitem,diving,lightdiving" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Head/Head1.png" sourcerect="103,124,107,118" origin="0.5,0.5" />
+    <Sprite name="Gas Mask" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="103,124,107,118" origin="0.5,0.5" scale="0.5" />
+    <Body width="40" height="35" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gas Mask Wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="false" inheritscale="false" ignorelimbscale="true" scale="0.4" hidelimb="false" hideotherwearables="false" sourcerect="103,124,107,118" origin="0.3,0.3" hidewearablesoftype="moustache,beard,hair" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+  </Item>
+
+
+
    
+
+
+
 
 
    <!--                                                                   
@@ -459,22 +521,22 @@
 
 <!--Жёлтая каска-->
    <Item name="" identifier="hardhatY" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="hardhatY" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="hardhatY wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
    <!--Синяя каска-->
    <Item name="" identifier="hardhatB" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="hardhatB" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="hardhatB wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
@@ -488,7 +550,7 @@
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="gcap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
@@ -557,6 +619,8 @@
          <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
       </Wearable>
    </Item>
+
+
 
 
 
