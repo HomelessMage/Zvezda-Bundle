@@ -341,7 +341,7 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>         
-         <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="scientific_collaboratorclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
