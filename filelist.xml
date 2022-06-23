@@ -43,6 +43,7 @@
 <Item file="%ModDir%/Items/Weapons/Melee/Melee.xml" />
 <Item file="%ModDir%/Items/Weapons/Weapon/weapons.xml" />
 <Item file="%ModDir%/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
+<Item file="%ModDir%/Items/Weapons/Weapon/As_vall/as_vallweapon.xml" />
 <!--Map-->
 <!--<Structure file="%ModDir%/Map/decor/decorsuff.xml" />
 <Structure file="%ModDir%/Map/Door/custom_dockingports.xml" />
@@ -164,6 +165,7 @@
 <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" />
 <Other file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" />
 <Other file="%ModDir%/Map/Torgomat/sell.ogg" />
+<Other file="%ModDir%/Items/Weapons/Weapon/As_vall/AS_VALL.ogg" />
 
 
 

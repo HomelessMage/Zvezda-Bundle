@@ -715,6 +715,9 @@
     <entityname.petroltank>Бензин в банке</entityname.petroltank>
     <entitydescription.petroltank>Красный цилиндр воняющий бензином.</entitydescription.petroltank>
 
+    <entityname.as_vall>АС «Вал»</entityname.as_vall>
+    <entitydescription.as_vall>бесшумный автомат, разработанный для специальных вооруженныйх сил СССР</entitydescription.as_vall>
+
 
 
     <!--Аммуниция-->
@@ -736,6 +739,9 @@
 
     <entityname.ak74mmag>Магазин для АК-74М</entityname.ak74mmag>
     <entitydescription.ak74mmag>Отъёмный коробчатый магазин на 30 патронов 5.45×39-мм.</entitydescription.ak74mmag>
+
+    <entityname.as_vallmag>Магазин для АС «Вал»</entityname.as_vallmag>
+    <entitydescription.as_vallmag></entitydescription.as_vallmag>
 
     <entityname.54539mm>Патрон 5.45x39-мм</entityname.54539mm>
     <entitydescription.54539mm>5,45×39 мм — малоимпульсный советский промежуточный унитарный патрон центрального воспламенения. Разработан в начале 1970-х годов.</entitydescription.54539mm>
