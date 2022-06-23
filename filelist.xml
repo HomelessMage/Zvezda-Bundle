@@ -49,8 +49,8 @@
 <Item file="%ModDir%/Map/decor/Assetsb.xml" />
 <Item file="%ModDir%/Map/decor/Sign1.xml" />
 <Item file="%ModDir%/Map/decor/Sign2.xml" />
-<!--<Structure file="%ModDir%/Map/Door/custom_dockingports.xml" />
-<Structure file="%ModDir%/Map/Door/custom_doors.xml" />-->
+<Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
+<Item file="%ModDir%/Map/Door/custom_doors.xml" />
 <!--<Item file="%ModDir%/Map/Generator/generator.xml" />-->
 <!--<LocationTypes file="Content/Map/locationTypes.xml" /> -->
 <!--<LocationTypes file="%ModDir%/Map/locations/locationTypes.xml" />
@@ -221,7 +221,7 @@
 <Item file="Content/Items/Labels/labels.xml" />
 <Item file="Content/Items/Ladder/ladder.xml" />
 <!-- <Item file="Content/Items/Materials/materials.xml" /> -->
-<!--<Item file="Content/Items/Materials/medmaterials.xml" /> -->
+<Item file="Content/Items/Materials/medmaterials.xml" />
 <!--<Item file="Content/Items/Materials/minerals.xml" /> -->
 <!--<Item file="Content/Items/Misc/misc.xml" />-->
 <Item file="Content/Items/OxygenGenerator/oxygengenerator.xml" />
