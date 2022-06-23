@@ -310,6 +310,9 @@
     <entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
     <entitydescription.zsh_helmet></entitydescription.zsh_helmet>
 
+    <entityname.gasmask>Противогаз ГП-5</entityname.gasmask>
+    <entitydescription.gasmask></entitydescription.gasmask> 
+
     <entityname.ushanka>Шапка-Ушанка (серая)</entityname.ushanka>
     <entitydescription.ushanka></entitydescription.ushanka>
     
@@ -354,6 +357,9 @@
 
     <entityname.mvdcap>Фуражка (МВД СССР)</entityname.mvdcap>
     <entitydescription.mvdcap></entitydescription.mvdcap>    
+
+    <entityname.tpcap>Фуражка (ТР)</entityname.tpcap>
+    <entitydescription.tpcap></entitydescription.tpcap> 
 
 
 
