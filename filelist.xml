@@ -44,8 +44,11 @@
 <Item file="%ModDir%/Items/Weapons/Weapon/weapons.xml" />
 <Item file="%ModDir%/Items/Weapons/Weapon/Flamer/Flamethrower.xml" />
 <!--Map-->
-<!--<Structure file="%ModDir%/Map/decor/decorsuff.xml" />
-<Structure file="%ModDir%/Map/Door/custom_dockingports.xml" />
+<Item file="%ModDir%/Map/decor/decorsuff.xml" />
+<Item file="%ModDir%/Map/decor/Assetsb.xml" />
+<Item file="%ModDir%/Map/decor/Sign1.xml" />
+<Item file="%ModDir%/Map/decor/Sign2.xml" />
+<!--<Structure file="%ModDir%/Map/Door/custom_dockingports.xml" />
 <Structure file="%ModDir%/Map/Door/custom_doors.xml" />-->
 <!--<Item file="%ModDir%/Map/Generator/generator.xml" />-->
 <!--<LocationTypes file="Content/Map/locationTypes.xml" /> -->
@@ -54,7 +57,7 @@
 <!--<RuinConfig file="%ModDir%/Map/locations/RuinConfig.xml" />-->
 <!--<Structure file="%ModDir%/Map/locations/StructurePrefabs.xml" />-->
 <Item file="%ModDir%/Map/Torgomat/torgomat.xml" />
-<!--<Item file="%ModDir%/Map/Walls/Walls.xml" />-->
+<Structure  file="%ModDir%/Map/Walls/Walls.xml" />
 <!--Systems-->
 <Item file="%ModDir%/Systems/Temperature/tool_xolod.xml" />
 <Item file="%ModDir%/Systems/Gardening/gardeningtools.xml" />
