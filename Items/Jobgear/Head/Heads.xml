@@ -499,33 +499,33 @@
 -->
 <!--Шахтёрская каска с фонариком-->
    <Item name="" identifier="hardhatWL" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="116,0,78,55" origin="0.5,0.4" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatWL wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="hardhatWL wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="116,0,78,55" origin="0.5,0.8" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
    
 <!--Шахтёрская каска-->
    <Item name="" identifier="hardhatW" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="196,0,78,55" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="196,0,78,55" origin="0.5,0.8" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
 
 <!--Жёлтая каска-->
    <Item name="" identifier="hardhatY" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="hardhatY" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="hardhatY" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,0,78,55" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="hardhatY wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="hardhatY wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="276,0,78,55" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
@@ -546,10 +546,11 @@
 
 <!--Пилотка МВД-->
    <Item name="" identifier="gcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="gcap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="gcap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,56,80,39" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="276,56,80,39" origin="0.7,0.9" />
          <sprite name="gcap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
