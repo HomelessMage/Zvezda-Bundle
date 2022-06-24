@@ -49,6 +49,9 @@
 <Item file="%ModDir%/Map/decor/Assetsb.xml" />
 <Item file="%ModDir%/Map/decor/Sign1.xml" />
 <Item file="%ModDir%/Map/decor/Sign2.xml" />
+<Item file="%ModDir%/Map/decor/columns.xml" />
+<Item file="%ModDir%/Map/decor/beds.xml" />
+<Item file="%ModDir%/Map/Walls/lsepanels.xml" />
 <Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
 <Item file="%ModDir%/Map/Door/custom_doors.xml" />
 <!--<Item file="%ModDir%/Map/Generator/generator.xml" />-->
