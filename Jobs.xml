@@ -584,7 +584,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="assistantclothes" equip="true" outfit="true" >
+         <Item identifier="commonerclothes4" equip="true" outfit="true" >
            <Item identifier="wallet" showpreview="false" >
                <Item identifier="50rubles" showpreview="false" />
             </Item>

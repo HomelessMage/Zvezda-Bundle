@@ -34,7 +34,7 @@
 <Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
 <!--Tools-->
 <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
-<Prefabs file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />
+<Particles file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />
 <Item file="%ModDir%/Items/Tools/Cleaner/Clean.xml" />
 <Item file="%ModDir%/Items/Tools/Demian/flags.xml" />
 <Item file="%ModDir%/Items/Tools/Work/tools.xml" />

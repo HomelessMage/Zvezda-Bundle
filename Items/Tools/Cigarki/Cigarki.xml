@@ -25,7 +25,7 @@
 
 
 
-<Сigarette name="" identifier="cigarette" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+<Item name="" identifier="cigarette" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
 		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
 		<BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
@@ -60,6 +60,6 @@
         </Explosion>
       </StatusEffect>
     </Holdable>
-  </Сigarette>
+  </Item>
 
 </Items>
