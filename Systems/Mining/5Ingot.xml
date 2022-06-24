@@ -1535,32 +1535,6 @@
 
 
 
-  <Item name="" identifier="paralyxis" category="Material" maxstacksize="8" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" canbepicked="true">
-    <PreferredContainer primary="toxcab,medfabcab,storagecab"/>
-    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.06"/>
-    <PreferredContainer secondary="locker" />
-    <Price baseprice="200" sold="false" minavailable="1">
-      <Price storeidentifier="merchantoutpost" multiplier="1.25" />
-      <Price storeidentifier="merchantcity" multiplier="1.15" />
-      <Price storeidentifier="merchantresearch" sold="true" />
-      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
-      <Price storeidentifier="merchantmine" sold="true" multiplier="0.9" />
-    </Price>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,832,64,64" origin="0.5,0.5"/>
-    <Sprite texture="Content/Items/Alien/AlienMaterials.png" sourcerect="266,430,45,76" depth="0.55" />
-    <Body radius="25" density="50" />
-    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" attachable="true" reattachable="false">
-      <!-- Remove the item when fully used -->
-      <StatusEffect type="OnBroken" target="This">
-        <Remove />
-      </StatusEffect>
-    </Holdable>
-    <ContainedSprite texture="Content/Items/Alien/AlienMaterials.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="274,270,205,86" origin="0.5,0.5" />
-    <LevelResource deattachduration="4" randomoffsetfromwall="20">
-      <Commonness commonness="0.02" />
-      <RequiredItem items="cuttingequipment" type="Equipped" />
-    </LevelResource>
-  </Item>
 
 
 
