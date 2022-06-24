@@ -234,12 +234,12 @@
 <!--<Item file="Content/Items/Reactor/reactor.xml" /> -->
 <!---<Item file="Content/Items/Tools/tools.xml" /> -->
 <!--<Item file="Content/Items/Weapons/coilgun.xml" />-->
-<!--<Item file="Content/Items/Weapons/chaingun.xml" />
+<Item file="Content/Items/Weapons/chaingun.xml" />
 <Item file="Content/Items/Weapons/depthcharge.xml" />
 <Item file="Content/Items/Weapons/dischargecoil.xml" />
 <Item file="Content/Items/Weapons/pulselaser.xml" />
 <Item file="Content/Items/Weapons/railgun.xml" />
--<Item file="Content/Items/Weapons/turrethardpoint.xml" />-->
+<Item file="Content/Items/Weapons/turrethardpoint.xml" />
 <!---<Item file="Content/Items/Weapons/weapons.xml" />-->
 <Item file="Content/Items/Legacy/legacycommand.xml" />
 <Item file="Content/Items/Legacy/legacycontainers.xml" />

@@ -235,7 +235,7 @@
       <RequiredItems identifier="steel" type="Contained" msg="ItemMsgAmmoRequired" />
       <StatusEffect type="OnUse" targettype="Contained" targets="steel" Condition="-1.5" />
       <StatusEffect type="OnUse" targettype="UseTarget" targets="door,hatch,ductblock" Condition="10.0" />
-      <sound file="%ModDir%/Items/Tools/patching_kit_loop.ogg" type="OnUse" range="500.0" loop="true" />
+      <sound file="%ModDir%/Items/Tools/Work/patching_kit_loop.ogg" type="OnUse" range="500.0" loop="true" />
       <Fixable identifier="structure" />
     </RepairTool>
     <ItemContainer autofill="False" capacity="1" maxstacksize="1" hideitems="true">

@@ -244,6 +244,7 @@
                <Item identifier="wallet" showpreview="false" >
                   <Item identifier="25rubles" showpreview="false" />
                </Item>
+            <Item identifier="Stolichnaya vodka" showpreview="false" />
             </Item>
             <Item identifier="toolbelt" equip="true" showpreview="true" />
          </ItemSet>         
@@ -583,7 +584,7 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="commonerclothes3" equip="true" outfit="true" >
+         <Item identifier="assistantclothes" equip="true" outfit="true" >
            <Item identifier="wallet" showpreview="false" >
                <Item identifier="50rubles" showpreview="false" />
             </Item>
