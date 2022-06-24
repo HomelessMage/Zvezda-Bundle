@@ -382,6 +382,8 @@
          <Fabricate suitablefabricators="torgomat" requiredtime="3">
             <RequiredItem identifier="10rubles" />
             <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
         </Fabricate>
       </Fabricate>
       <Deconstruct time="5">
