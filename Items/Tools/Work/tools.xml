@@ -14,6 +14,13 @@
             <RequiredItem identifier="plastic" />
             <RequiredItem identifier="fpgacircuit" />
             <RequiredItem identifier="fpgacircuit" />
+            <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+        </Fabricate>
          </Fabricate>
          <WifiComponent range="50000.0" channel="0" LinkToChat="true" MinChatMessageInterval="0.0">
             <RequiredItems items="mobilebattery" type="Contained" />
@@ -770,6 +777,10 @@
       <Price locationtype="military" multiplier="1.25" minavailable="2" />
       <Price locationtype="mine" multiplier="1" minavailable="2" />
     </Price>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+        </Fabricate>
     <Deconstruct time="15">
       <Item identifier="aluminium" />
       <Item identifier="lightcomponent" />

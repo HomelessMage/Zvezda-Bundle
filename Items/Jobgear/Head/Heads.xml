@@ -29,6 +29,11 @@
          <Price locationtype="military" multiplier="1" minavailable="2" />
          <Price locationtype="mine" multiplier="1" minavailable="2" />
       </Price>
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
       <Deconstruct time="10" />
       <Sprite name="Baseball Cap" texture="%ModDir%/Items/Jobgear/Head/headgears.png" depth="0.6" sourcerect="321,332,86,45" origin="0.5,0.5" />
       <Body width="75" height="50" density="30" />
@@ -240,6 +245,11 @@
       <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="103,18,85,75" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
          <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.34" sourcerect="103,18,85,75" origin="0.54,0.63" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
@@ -251,6 +261,11 @@
       <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,37,80,50" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
          <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,37,80,50" origin="0.45,0.85" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />

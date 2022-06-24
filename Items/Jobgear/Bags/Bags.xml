@@ -41,6 +41,13 @@
             <Price locationtype="military" multiplier="1.25" minavailable="8" />
             <Price locationtype="mine" multiplier="1.25" minavailable="8" />
          </Price>
+         <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+        </Fabricate>
          <InventoryIcon texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" sourcerect="0,55,228,144" depth="0.56" origin="0.50086355,0.5007147" />
          <Sprite texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" sourcerect="0,55,228,144" depth="0.56" origin="0.50086355,0.5007147" />
          <Body width="120" radius="45" density="20" friction="1.0" restitution="0.01" />
