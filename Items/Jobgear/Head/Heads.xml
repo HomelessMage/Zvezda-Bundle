@@ -425,7 +425,7 @@
       </Wearable>
    </Item>
    <!--Шлем с маской Тысячелетнего Рейха-->
-   <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.411">
+   <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.380">
       <Upgrade gameversion="0.9.6.0" scale="0.411" />
       <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
       <Price baseprice="640" soldeverywhere="false">
@@ -450,7 +450,7 @@
          <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.411" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.64" />
+         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.380" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.64" />
          <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
       </Wearable>
    </Item>

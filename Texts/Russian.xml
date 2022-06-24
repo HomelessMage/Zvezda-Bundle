@@ -16,45 +16,55 @@
     <!-- Роли -->
     <!-- Роли -->
     <jobname.comendant>Комендант</jobname.comendant>
-    <jobdescription.comendant>Управляющий на станции. Занимается организацией работы персонала на станции. Имеет законодательную монополию на применение силы.</jobdescription.comendant>
-    <jobname.comendant1>Комендант</jobname.comendant1>
+    <jobdescription.comendant>1)Комендант — Управляющий на станции. Занимается организацией работы персонала на станции. Имеет законодательную монополию на применение силы.
+2)Офицер КГБ — Офицер Комитета Государственной Безопасности</jobdescription.comendant>
+    <!--<jobname.comendant1>Комендант</jobname.comendant1>
     <jobname.comendant2>Офицер КГБ</jobname.comendant2>
     <jobdescription.comendant1>Военная Комендатура</jobdescription.comendant1>
-    <jobdescription.comendant2>Комитет Государственной Безопасности</jobdescription.comendant2>
+    <jobdescription.comendant2>Комитет Государственной Безопасности</jobdescription.comendant2>-->
 
     <jobname.militia>Милиционер</jobname.militia>
-    <jobname.militia1>Милиционер</jobname.militia1>
-    <jobname.militia2>ОМОН</jobname.militia2>
-    <jobdescription.militia>Помогает организовать работу всех служб Коменданту станции. Имеет законодательную монополию на применение силы. Выполняет особые поручения Коменданта.</jobdescription.militia>
-    <jobdescription.militia1>Сотрудник патрульно-постовой службы МВД.</jobdescription.militia1>
-    <jobdescription.militia2>Сотрудник отряда милиции особого назначения МВД.</jobdescription.militia2>
+    <!--<jobname.militia1>Милиционер</jobname.militia1>
+    <jobname.militia2>ОМОН</jobname.militia2>-->
+    <jobdescription.militia>1)Милиционер — Помогает организовать работу всех служб Коменданту станции. Имеет законодательную монополию на применение силы. Выполняет особые поручения Коменданта.
+2)Патрульный — Сотрудник патрульно-постовой службы МВД.
+3)ОМОН — Сотрудник отряда милиции особого назначения МВД.  
+    </jobdescription.militia>
+    <!--<jobdescription.militia1>Сотрудник патрульно-постовой службы МВД.</jobdescription.militia1>
+    <jobdescription.militia2>Сотрудник отряда милиции особого назначения МВД.</jobdescription.militia2>-->
 
     <jobname.brigadier>Бригадир</jobname.brigadier>
     <jobdescription.brigadier>Осуществляет организацию работы инженеров, механиков, а так же рабочей силы. Проводит обучение для перспективных кадров. Инспектирует важные объекты инфраструктуры.</jobdescription.brigadier>
 
     <jobname.engineer>Инженер</jobname.engineer>
-    <jobname.engineer1>Ядерщик</jobname.engineer1>
-    <jobname.engineer2>Электрик</jobname.engineer2>
-    <jobdescription.engineer>Осуществляет обслуживание сложных систем станции. Понимает как работает электроэнергия на станции. Могут принимать участие в научной деятельности. Оперирует стратегические объекты инфраструктуры станции. Является почетной должностью вхожей в интеллигенцию рабочей партии.</jobdescription.engineer>
-    <jobdescription.engineer1>Инженеры-ядерщики обеспечивают работу реактора подлодки. Защитное снаряжение позволяет им снизить опасность облучения.</jobdescription.engineer1>
-    <jobdescription.engineer2>Электрические системы подлодки требуют постоянной проверки и обслуживания. Инженерам-электрикам принадлежит сомнительная честь замены предохранителей, починки электроприборов и регулярные удары током.</jobdescription.engineer2>
+    <!--<jobname.engineer1>Ядерщик</jobname.engineer1>
+    <jobname.engineer2>Электрик</jobname.engineer2>-->
+    <jobdescription.engineer>1)Инженер — Осуществляет обслуживание сложных систем станции. Понимает как работает электроэнергия на станции. Могут принимать участие в научной деятельности. Оперирует стратегические объекты инфраструктуры станции. Является почетной должностью вхожей в интеллигенцию рабочей партии.
+2)Инженер-ядерщик — Обеспечивает работу реактора подлодки. Защитное снаряжение позволяет ему снизить опасность облучения.
+3)Электрик — Электрические системы подлодки требуют постоянной проверки и обслуживания. Инженерам-электрикам принадлежит сомнительная честь замены предохранителей, починки электроприборов и регулярные удары током.</jobdescription.engineer>
+    <!--<jobdescription.engineer1>Инженеры-ядерщики обеспечивают работу реактора подлодки. Защитное снаряжение позволяет им снизить опасность облучения.</jobdescription.engineer1>
+    <jobdescription.engineer2>Электрические системы подлодки требуют постоянной проверки и обслуживания. Инженерам-электрикам принадлежит сомнительная честь замены предохранителей, починки электроприборов и регулярные удары током.</jobdescription.engineer2>-->
 
     <jobname.mechanic>Механик</jobname.mechanic>
-    <jobname.mechanic1>Сварщик</jobname.mechanic1>
-    <jobname.mechanic2>Слесарь</jobname.mechanic2>
-    <jobdescription.mechanic>Осуществляет обслуживание систем станции. Является начальной должностью карьеры инженеров. Могут привлекаться в качестве рабочей силы для различных задач.</jobdescription.mechanic>
-    <jobdescription.mechanic1>Основная работа механика на Европе - заделывать протечки везде, где они появляются. Они обучены содержать корпус, устройства и снаряжение в порядке.</jobdescription.mechanic1>
-    <jobdescription.mechanic2>Вариант механика, который специализируется на искусстве (и припасах) из грубых материалов.</jobdescription.mechanic2>
+    <!--<jobname.mechanic1>Сварщик</jobname.mechanic1>
+    <jobname.mechanic2>Слесарь</jobname.mechanic2>-->
+    <jobdescription.mechanic>1)Механик — Осуществляет обслуживание систем станции. Является начальной должностью карьеры инженеров. Могут привлекаться в качестве рабочей силы для различных задач.
+2)Сварщик — Основная работа механика на Европе - заделывать протечки везде, где они появляются. Они обучены содержать корпус, устройства и снаряжение в порядке.
+3)Слесарь — Вариант механика, который специализируется на искусстве (и припасах) из грубых материалов.</jobdescription.mechanic>
+    <!--<jobdescription.mechanic1>Основная работа механика на Европе - заделывать протечки везде, где они появляются. Они обучены содержать корпус, устройства и снаряжение в порядке.</jobdescription.mechanic1>
+    <jobdescription.mechanic2>Вариант механика, который специализируется на искусстве (и припасах) из грубых материалов.</jobdescription.mechanic2>-->
 
     <jobname.leadermedicaldoctor>Главврач</jobname.leadermedicaldoctor>
     <jobdescription.leadermedicaldoctor>Осуществляет стандартную роль врача, а так же руководит медицинской службой. Ведет научную деятельность, обучает персонал.</jobdescription.leadermedicaldoctor>
 
     <jobname.medicaldoctor>Врач</jobname.medicaldoctor>
-    <jobname.medicaldoctor1>Терапевт</jobname.medicaldoctor1>
-    <jobname.medicaldoctor2>Фельдшер</jobname.medicaldoctor2>
-    <jobdescription.medicaldoctor>Профессионал давший клятву Гиппократу.</jobdescription.medicaldoctor>
-    <jobdescription.medicaldoctor1>Врач общей практики, который может оказать медицинскую помощь.</jobdescription.medicaldoctor1>
-    <jobdescription.medicaldoctor2>Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.</jobdescription.medicaldoctor2>
+    <!--<jobname.medicaldoctor1>Терапевт</jobname.medicaldoctor1>
+    <jobname.medicaldoctor2>Фельдшер</jobname.medicaldoctor2>-->
+    <jobdescription.medicaldoctor>1)Врач — Профессионал давший клятву Гиппократу.
+2)Терапевт — Врач общей практики, который может оказать медицинскую помощь.
+3)Фельдшер — Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.</jobdescription.medicaldoctor>
+    <!--<jobdescription.medicaldoctor1>Врач общей практики, который может оказать медицинскую помощь.</jobdescription.medicaldoctor1>
+    <jobdescription.medicaldoctor2>Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.</jobdescription.medicaldoctor2>-->
 
     <jobname.stager>Стажёр</jobname.stager>
     <jobdescription.stager>Осуществляет роль помощника для инженеров, механиков, врачей. Может так же использоваться как рабочая сила.</jobdescription.stager>
@@ -63,62 +73,80 @@
     <jobdescription.prisoner>Бесправный член экипажа, осужденный за преступления в своем прошлом. Он никто на станции, однако у него есть шанс проявить себя.</jobdescription.prisoner>
 
     <jobname.stockman>Завхоз</jobname.stockman>
-    <jobname.stockman1>Кладовщик</jobname.stockman1>
-    <jobname.stockman2>Продавец</jobname.stockman2>
-    <jobdescription.stockman>Важный член персонала, отвечающий за складские помещения и инвентаризацию станции.</jobdescription.stockman>
-    <jobdescription.stockman1>Отвечает за склад станции.</jobdescription.stockman1>
-    <jobdescription.stockman2>Отвечает за магазин станции.</jobdescription.stockman2>
+    <!--<jobname.stockman1>Кладовщик</jobname.stockman1>
+    <jobname.stockman2>Продавец</jobname.stockman2>-->
+    <jobdescription.stockman>1)Завхоз — Важный член персонала, отвечающий за складские помещения и инвентаризацию станции.
+2)Кладовщик — Отвечает за склад станции.
+3)Продавец — Отвечает за магазин станции.</jobdescription.stockman>
+    <!--<jobdescription.stockman1>Отвечает за склад станции.</jobdescription.stockman1>
+    <jobdescription.stockman2>Отвечает за магазин станции.</jobdescription.stockman2>-->
 
     <jobname.scientist>Исследователь</jobname.scientist>
-    <jobname.scientist1>Научный сотрудник</jobname.scientist1>
-    <jobname.scientist2>Агроном</jobname.scientist2>
-    <jobdescription.scientist>Персонал, ответственный за сектор лаборатории и проводящий исследования в области технологических разработок.</jobdescription.scientist>
-    <jobdescription.scientist1>Ведет секретную научную деятельность, занимается разработкой. Подчиняется напрямую Сфере-5. Выполняет специальные задания. Не подчиняется коменданту станции.</jobdescription.scientist1>
-    <jobdescription.scientist2>Занимется выращиванием агрокультурных растений.</jobdescription.scientist2>
+    <!--<jobname.scientist1>Научный сотрудник</jobname.scientist1>
+    <jobname.scientist2>Агроном</jobname.scientist2>-->
+    <jobdescription.scientist>1)Исследователь — Персонал, ответственный за сектор лаборатории и проводящий исследования в области технологических разработок.
+2)Научный сотрудник — Ведет секретную научную деятельность, занимается разработкой. Подчиняется напрямую Сфере-5. Выполняет специальные задания. Не подчиняется коменданту станции.
+3)Агроном — Занимется выращиванием агрокультурных растений.</jobdescription.scientist>
+    <!--<jobdescription.scientist1>Ведет секретную научную деятельность, занимается разработкой. Подчиняется напрямую Сфере-5. Выполняет специальные задания. Не подчиняется коменданту станции.</jobdescription.scientist1>
+    <jobdescription.scientist2>Занимется выращиванием агрокультурных растений.</jobdescription.scientist2>-->
 
     <jobname.cook>Повар</jobname.cook>
     <jobdescription.cook>Человек, профессией — специальностью которого является приготовление пищи и сортировки имеющихся припасов по пищевым контейнерам.</jobdescription.cook>
 
     <jobname.militaryman>Военнослужащий</jobname.militaryman>
-    <jobname.militaryman1>Связист</jobname.militaryman1>
+    <!--<jobname.militaryman1>Связист</jobname.militaryman1>
     <jobname.militaryman2>Мотострелок</jobname.militaryman2>
-    <jobname.militaryman3>Сапёр</jobname.militaryman3>
-    <jobdescription.militaryman>Боец погранвойск КГБ ССКЕ. Имеет законодательную монополию на применение силы.</jobdescription.militaryman>
-    <jobdescription.militaryman1>Батальон связи</jobdescription.militaryman1>
+    <jobname.militaryman3>Сапёр</jobname.militaryman3>-->
+    <jobdescription.militaryman>1)Военнослужащий — Боец погранвойск КГБ ССКЕ. Имеет законодательную монополию на применение силы.
+2)Батальон связи — Батальон связи
+3)Мотострелок — Мотострелковый батальон
+4)Сапёр — Инженерно-сапёрный батальон
+5)Огнемётчик — Специальный батальон по борьбе с экзотиками Европы (СБЭЕ)</jobdescription.militaryman>
+    <!--<jobdescription.militaryman1>Батальон связи</jobdescription.militaryman1>
     <jobdescription.militaryman2>Мотострелковый батальон</jobdescription.militaryman2>
-    <jobdescription.militaryman3>Инженерно-сапёрный батальон</jobdescription.militaryman3>
+    <jobdescription.militaryman3>Инженерно-сапёрный батальон</jobdescription.militaryman3>-->
 
     <jobname.janitor>Уборщик</jobname.janitor>
     <jobdescription.janitor>Сотрудник ЖКХ прикомандированный к станции.</jobdescription.janitor>
 
     <jobname.bandit>Бандит</jobname.bandit>
-    <jobname.bandit1>Шестёрка</jobname.bandit1>
+    <!--<jobname.bandit1>Шестёрка</jobname.bandit1>
     <jobname.bandit2>Шнырь</jobname.bandit2>
     <jobname.bandit3>Барыга</jobname.bandit3>
     <jobname.bandit4>Приблатненный</jobname.bandit4>
     <jobname.bandit5>Блатной</jobname.bandit5>
-    <jobname.bandit6>Пахан</jobname.bandit6>
-    <jobdescription.bandit>Криминальный элемент.</jobdescription.bandit>
-    <jobdescription.bandit1>Шпана. Не имеет авторитета.</jobdescription.bandit1>
+    <jobname.bandit6>Пахан</jobname.bandit6>-->
+    <jobdescription.bandit>Криминальный элемент.
+1)Шестёрка — Шпана. Не имеет авторитета.
+2)Шнырь — Личные помощники блатных или приблатнённых. Практически то же, что и шестёрки.
+3)Барыга — Торговцы наркотиками, скупщики и продавцы краденого, спекулянты, содержатели притонов. По статусу выше шестёрок.
+4)Приблатненный — Уголовники, воры, мошенники, фальшивомонетчики. По статусу выше шестёрок и барыг.
+5)Блатной — Профессиональные преступники. Высшая каста в иерархии.
+6)Пахан — Лидер криминальной группы.</jobdescription.bandit>
+    <!--<jobdescription.bandit1>Шпана. Не имеет авторитета.</jobdescription.bandit1>
     <jobdescription.bandit2>Личные помощники блатных или приблатнённых. Практически то же, что и шестёрки.</jobdescription.bandit2>
     <jobdescription.bandit3>Торговцы наркотиками, скупщики и продавцы краденого, спекулянты, содержатели притонов. По статусу выше шестёрок.</jobdescription.bandit3>
     <jobdescription.bandit4>Уголовники, воры, мошенники, фальшивомонетчики. По статусу выше шестёрок и барыг.</jobdescription.bandit4>
     <jobdescription.bandit5>Профессиональные преступники. Высшая каста в иерархии.</jobdescription.bandit5>
-    <jobdescription.bandit6>Лидер криминальной группы.</jobdescription.bandit6>
+    <jobdescription.bandit6>Лидер криминальной группы.</jobdescription.bandit6>-->
 
-    <jobname.neorussian_comm>Бункерфюрер «‎Тысячелетнего Рейха»‎</jobname.neorussian_comm>
-    <jobdescription.neorussian_comm>Командир батальона «‎Тысячелетний Рейх»‎</jobdescription.neorussian_comm>
-
-    <jobname.neorussian>Боец «‎Тысячелетнего Рейха»</jobname.neorussian>
-    <jobdescription.neorussian>Один из комбатантов «‎Тысячелетнего Рейха»‎.</jobdescription.neorussian>
-    <jobname.neorussian1>Связист</jobname.neorussian1>
+    <jobname.neorussian_comm>Бункерфюрер «Тысячелетнего Рейха»</jobname.neorussian_comm>
+    <jobdescription.neorussian_comm>Командир батальона «Тысячелетний Рейх»</jobdescription.neorussian_comm>
+    
+    <jobname.neorussian>Боец «Тысячелетнего Рейха»</jobname.neorussian>
+    <jobdescription.neorussian>1)Боец «Тысячелетнего Рейха» — Один из комбатантов «Тысячелетнего Рейха».
+2)Связист — Штурмгренадерский батальон "Тысячелетнего Рейха"
+3)Фельдфебель — Панцергренадерский батальон "Тысячелетнего Рейха"
+4)Поручик — Батальон поддержки "Тысячелетнего Рейха"
+5)Flammenwerferbedienungsmann — Поджигатель "Тысячелетнего Рейха"</jobdescription.neorussian>
+    <!--<jobname.neorussian1>Связист</jobname.neorussian1>
     <jobname.neorussian2>Унтер-офицер</jobname.neorussian2>
     <jobname.neorussian3>Фельдфебель</jobname.neorussian3>
-    <jobname.neorussian4>Поручик</jobname.neorussian4>
-    <jobdescription.neorussian1>Батальон связи "Тысячелетнего Рейха"</jobdescription.neorussian1>
+    <jobname.neorussian4>Поручик</jobname.neorussian4>-->
+    <!--<jobdescription.neorussian1>Батальон связи "Тысячелетнего Рейха"</jobdescription.neorussian1>
     <jobdescription.neorussian2>Штурмгренадерский батальон "Тысячелетнего Рейха"</jobdescription.neorussian2>
     <jobdescription.neorussian3>Панцергренадерский батальон "Тысячелетнего Рейха"</jobdescription.neorussian3>
-    <jobdescription.neorussian4>Батальон поддержки "Тысячелетнего Рейха"</jobdescription.neorussian4>
+    <jobdescription.neorussian4>Батальон поддержки "Тысячелетнего Рейха"</jobdescription.neorussian4>-->
     <!-- Роли -->
     <!-- Роли -->
     <!-- Роли -->
@@ -205,6 +233,7 @@
     <entitydescription.commonerclothes1></entitydescription.commonerclothes1>
 
     <entityname.commonerclothes2>Одежда жителя станции (вариант 2)</entityname.commonerclothes2>
+    <entityname.commonerclothes2>Одежда жителя станции (вариант2)</entityname.commonerclothes2>
     <entitydescription.commonerclothes2></entitydescription.commonerclothes2>
 
     <entityname.commonerclothes3>Одежда жителя станции (вариант 3)</entityname.commonerclothes3>
@@ -228,7 +257,7 @@
     <entityname.pirateclothesnovice>Одежда комбатанта (вариант 1)</entityname.pirateclothesnovice>
     <entitydescription.pirateclothesnovice></entitydescription.pirateclothesnovice>
 
-    <entityname.pirateclotheshard_1>Одежда комбатанта (вариант 2)</entityname.pirateclotheshard_1>
+    <entityname.pirateclotheshard_1>Одежда комбатанта (вариант2)</entityname.pirateclotheshard_1>
     <entitydescription.pirateclotheshard_1></entitydescription.pirateclotheshard_1>
 
     <entityname.pirateclotheshard_2>Одежда комбатанта (вариант 3)</entityname.pirateclotheshard_2>
@@ -237,7 +266,7 @@
     <entityname.banditclothes_1>Спортивная одежда (вариант 1)</entityname.banditclothes_1>
     <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
 
-    <entityname.banditclothes_2>Спортивная одежда (вариант 2)</entityname.banditclothes_2>
+    <entityname.banditclothes_2>Спортивная одежда (вариант2)</entityname.banditclothes_2>
     <entitydescription.banditclothes_2></entitydescription.banditclothes_2>
 
     <entityname.banditclothes_3>Спортивная одежда (вариант 3)</entityname.banditclothes_3>
@@ -249,7 +278,6 @@
     <entityname.banditleaderclothes_1>Кожанка (вариант 1)</entityname.banditleaderclothes_1>
     <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
 
-    <entityname.banditleaderclothes_2>Кожанка (вариант 2)</entityname.banditleaderclothes_2>
     <entitydescription.banditleaderclothes_2></entitydescription.banditleaderclothes_2>
 
     <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
@@ -298,7 +326,6 @@
     <entityname.captan_head1>Фуражка (вариант 1)</entityname.captan_head1>
     <entitydescription.captan_head1></entitydescription.captan_head1>
 
-    <entityname.captan_head2>Фуражка (вариант 2)</entityname.captan_head2>
     <entitydescription.captan_head2></entitydescription.captan_head2>
 
     <entityname.captan_head3>Фуражка (вариант 3)</entityname.captan_head3>
@@ -1973,7 +2000,7 @@
 <entitydescription.weldingfueltank>Топливо для сварочного аппарата.</entitydescription.weldingfueltank>
 <entityname.extinguisher>Огнетушитель</entityname.extinguisher>
 <entitydescription.extinguisher>Удобный углекислотный огнетушитель.</entitydescription.extinguisher>
-<entityname.screwdriver>Отвертка</entityname.screwdriver>
+<entityname.screwdriver>Отвёртка</entityname.screwdriver>
 <entitydescription.screwdriver>Позволяет чинить электрику и работать с проводкой.</entitydescription.screwdriver>
 <entityname.wrench>Гаечный ключ</entityname.wrench>
 <entitydescription.wrench>Позволяет чинить механические устройства.</entitydescription.wrench>
@@ -2021,14 +2048,14 @@
 <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
 <entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
 <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
-<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
-<entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
+<!--<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
+<entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>-->
 <entityname.incendiumgrenade>Граната с воспламенитом</entityname.incendiumgrenade>
 <entitydescription.incendiumgrenade>Зажигательная граната. Использовать с максимальной осторожностью.</entitydescription.incendiumgrenade>
 <entityname.stunbaton>Шоковая дубинка</entityname.stunbaton>
 <entitydescription.stunbaton>Если устного приказа недостаточно, возможно, крепкий удар и разряд тока смогут выбить всю дурь из головы проблемного члена экипажа.</entitydescription.stunbaton>
-<entityname.divingknife>Нож ныряльщика</entityname.divingknife>
-<entitydescription.divingknife>Режет, колет, рубит и рассекает.</entitydescription.divingknife>
+<!--<entityname.divingknife>Нож ныряльщика</entityname.divingknife>
+<entitydescription.divingknife>Режет, колет, рубит и рассекает.</entitydescription.divingknife>-->
 <entityname.bikehorn>Велосипедный гудок</entityname.bikehorn>
 <entitydescription.bikehorn>ТУ-ТУ!</entitydescription.bikehorn>
 <entityname.oxygenitetank>Баллон с кислородитом</entityname.oxygenitetank>
@@ -3051,7 +3078,7 @@
 <afflictiondescription.strengthen>У пациента очень высокий болевой порог.</afflictiondescription.strengthen>
 
 <!-- Jobs -->
-<jobname.captain>Капитан</jobname.captain>
+<!-- <jobname.captain>Капитан</jobname.captain>
 <jobdescription.captain>Командующий офицер руководит всей командой и отвечает за то, чтобы все и везде работало безотказно.</jobdescription.captain>
 <jobname.engineer>Инженер</jobname.engineer>
 <jobdescription.engineer>Инженеры составляют костяк всей команды, а их знания и опыт в обращении с электроприборами отлично дополняют навыки механиков. Они могут обслуживать и ремонтировать различное электрооборудование подлодки.</jobdescription.engineer>
@@ -3064,7 +3091,7 @@
 <jobname.assistant>Помощник</jobname.assistant>
 <jobdescription.assistant>У помощников нет определенных обязанностей, и они не обладают какими-то особыми знаниями. Эта работа - отличный выбор для новичков, которые хотят освоиться на подводной лодке, не рискуя при этом браться за задания, с которыми они могут не справиться.</jobdescription.assistant>
 <jobname.watchman>Сторож</jobname.watchman>
-<jobdescription.watchman></jobdescription.watchman>
+<jobdescription.watchman></jobdescription.watchman>-->
 
 <!-- Locations -->
 <locationname.none></locationname.none>

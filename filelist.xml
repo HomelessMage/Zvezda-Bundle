@@ -34,7 +34,7 @@
 <Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
 <!--Tools-->
 <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
-<Prefab file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />
+<Prefabs file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />
 <Item file="%ModDir%/Items/Tools/Cleaner/Clean.xml" />
 <Item file="%ModDir%/Items/Tools/Demian/flags.xml" />
 <Item file="%ModDir%/Items/Tools/Work/tools.xml" />
@@ -230,13 +230,13 @@
 <Item file="Content/Items/OxygenGenerator/oxygengenerator.xml" />
 <Item file="Content/Items/Pump/pump.xml" />
 <Item file="Content/Items/SearchLight/searchlight.xml" />
+<Item file="Content/Items/Weapons/explosives.xml" />
 <!--<Item file="Content/Items/Reactor/reactor.xml" /> -->
 <!---<Item file="Content/Items/Tools/tools.xml" /> -->
 <!--<Item file="Content/Items/Weapons/coilgun.xml" />-->
 <!--<Item file="Content/Items/Weapons/chaingun.xml" />
 <Item file="Content/Items/Weapons/depthcharge.xml" />
 <Item file="Content/Items/Weapons/dischargecoil.xml" />
-<Item file="Content/Items/Weapons/explosives.xml" />
 <Item file="Content/Items/Weapons/pulselaser.xml" />
 <Item file="Content/Items/Weapons/railgun.xml" />
 -<Item file="Content/Items/Weapons/turrethardpoint.xml" />-->
