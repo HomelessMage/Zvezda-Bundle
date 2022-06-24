@@ -232,7 +232,6 @@
     <entityname.commonerclothes1>Одежда жителя станции (вариант 1)</entityname.commonerclothes1>
     <entitydescription.commonerclothes1></entitydescription.commonerclothes1>
 
-    <entityname.commonerclothes2>Одежда жителя станции (вариант 2)</entityname.commonerclothes2>
     <entityname.commonerclothes2>Одежда жителя станции (вариант2)</entityname.commonerclothes2>
     <entitydescription.commonerclothes2></entitydescription.commonerclothes2>
 
@@ -278,6 +277,7 @@
     <entityname.banditleaderclothes_1>Кожанка (вариант 1)</entityname.banditleaderclothes_1>
     <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
 
+    <entityname.banditleaderclothes_2>Кожанка (вариант2)</entityname.banditleaderclothes_2>
     <entitydescription.banditleaderclothes_2></entitydescription.banditleaderclothes_2>
 
     <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
@@ -326,6 +326,7 @@
     <entityname.captan_head1>Фуражка (вариант 1)</entityname.captan_head1>
     <entitydescription.captan_head1></entitydescription.captan_head1>
 
+    <entityname.captan_head2>Фуражка (вариант2)</entityname.captan_head2>
     <entitydescription.captan_head2></entitydescription.captan_head2>
 
     <entityname.captan_head3>Фуражка (вариант 3)</entityname.captan_head3>
