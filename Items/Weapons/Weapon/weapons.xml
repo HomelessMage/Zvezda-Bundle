@@ -26,7 +26,7 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="45,5" aimpos="70,0" handle1="-175,-20" handle2="60,5" holdangle="-70" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
       </Holdable>
-      <RangedWeapon reload="0.07" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <RangedWeapon reload="0.07" barrelpos="80,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
          <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="OnUse" range="3000" />
@@ -119,7 +119,7 @@
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-25" aimpos="50,-25" handle1="-60,-15" handle2="30,5" holdangle="-30" msg="ItemMsgPickUpSelect">
          <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
       </Holdable>
-      <RangedWeapon reload="0.09" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <RangedWeapon reload="0.09" barrelpos="70,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
          <Sound file="%ModDir%/Items/Weapons/ogg/RPDsingleShot2.ogg" type="OnUse" range="3000" />
@@ -209,7 +209,7 @@
          <sprite name="AKM" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="353,0,93,304" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.35" />
       </Wearable>
       <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="45,0" handle1="-40,-10" handle2="30,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
-      <RangedWeapon barrelpos="45,20" spread="2" unskilledspread="10" combatPriority="50" reload="0.1" drawhudwhenequipped="true" crosshairscale="0.2">
+      <RangedWeapon barrelpos="60,20" spread="2" unskilledspread="10" combatPriority="50" reload="0.1" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" type="OnUse" range="3000" />
          <Sound file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" type="OnUse" range="3000" />
@@ -266,7 +266,6 @@
          <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
             <Affliction identifier="bleeding" strength="5" />
             <Affliction identifier="gunshotwound" strength="10" />
-            <Affliction identifier="stun" strength="0.05" />
          </Attack>
          <StatusEffect type="OnImpact" target="UseTarget">
             <Conditional entitytype="eq Structure" />
@@ -303,8 +302,8 @@
       <Wearable slots="OuterClothes">
          <sprite name="AKSU" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="446,0,100,318" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.28" />
       </Wearable>
-      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-5" aimpos="45,0" handle1="-40,-10" handle2="45,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
-      <RangedWeapon reload="0.08" barrelpos="40,20" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-5" aimpos="45,0" handle1="-40,-17" handle2="45,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
+      <RangedWeapon reload="0.08" barrelpos="60,20" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
          <Sound file="%ModDir%/Items/Weapons/ogg/aksushot1.ogg" type="OnUse" range="3000" />
@@ -359,7 +358,6 @@
          <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
             <Affliction identifier="bleeding" strength="15" />
             <Affliction identifier="gunshotwound" strength="10" />
-            <Affliction identifier="stun" strength="0.05" />
          </Attack>
          <StatusEffect type="OnImpact" target="UseTarget">
             <Conditional entitytype="eq Structure" />
@@ -392,8 +390,8 @@
       <Wearable slots="OuterClothes">
          <sprite name="AK74M" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="158,411,97,410" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.28" />
       </Wearable>
-      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-70,-5" handle2="45,15" holdangle="-40" msg="ItemMsgPickUpSelect" />
-      <RangedWeapon reload="0.08" barrelpos="40,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-70,-10" handle2="45,15" holdangle="-40" msg="ItemMsgPickUpSelect" />
+      <RangedWeapon reload="0.08" barrelpos="60,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/ak74mshot.ogg" type="OnUse" range="3000" />
          <Sound file="%ModDir%/Items/Weapons/ogg/ak74mshot1.ogg" type="OnUse" range="3000" />
@@ -470,7 +468,7 @@
       <Wearable slots="OuterClothes">
          <sprite name="MTS21" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="277,308,53,191" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.4" />
       </Wearable>
-      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-20" aimpos="35,-20" handle1="-70,-5" handle2="100,-20" holdangle="-30" msg="ItemMsgPickUpSelect" />
+      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-20" aimpos="35,-20" handle1="-80,-5" handle2="100,-20" holdangle="-30" msg="ItemMsgPickUpSelect" />
       <RangedWeapon barrelpos="40,10" spread="10" unskilledspread="50" combatPriority="85" reload="1.3" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/ksm.ogg" type="OnUse" range="2800" />
@@ -541,7 +539,6 @@
          <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
             <Affliction identifier="bleeding" strength="4" />
             <Affliction identifier="gunshotwound" strength="5" />
-            <Affliction identifier="stun" strength="0.1" />
          </Attack>
          <StatusEffect type="OnImpact" target="UseTarget">
             <Conditional entitytype="eq Structure" />
@@ -564,7 +561,6 @@
          <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
             <Affliction identifier="bleeding" strength="40" />
             <Affliction identifier="gunshotwound" strength="20" />
-            <Affliction identifier="stun" strength="0.05" />
          </Attack>
          <StatusEffect type="OnImpact" target="UseTarget">
             <Conditional entitytype="eq Structure" />
@@ -648,8 +644,8 @@
       <Wearable slots="OuterClothes">
          <sprite name="Kiparis" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="546,0,101,326" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.22" />
       </Wearable>
-      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,5" aimpos="40,5" handle1="10,0" handle2="80,-5" holdangle="-50" msg="ItemMsgPickUpSelect" />
-      <RangedWeapon reload="0.1" barrelpos="30,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,5" aimpos="40,5" handle1="10,-10" handle2="80,-5" holdangle="-50" msg="ItemMsgPickUpSelect" />
+      <RangedWeapon reload="0.1" barrelpos="50,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
          <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol2.ogg" type="OnUse" range="2400" />
@@ -706,7 +702,7 @@
       <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/iconatlas_weapons.png" sourcerect="696,845,26,42" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="357,95,79,59" depth="0.55" />
       <Body width="72" height="40" density="50" origin="0.5,0.5" />
-      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-25,-10" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.25" barrelpos="8,15" spread="0" unskilledspread="1" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
          <Sound file="%ModDir%/Items/Weapons/ogg/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
@@ -774,7 +770,6 @@
          <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.001">
             <Affliction identifier="bleeding" strength="10" />
             <Affliction identifier="gunshotwound" strength="15" />
-            <Affliction identifier="stun" strength="0.05" />
          </Attack>
          <StatusEffect type="OnImpact" target="UseTarget">
             <Conditional entitytype="eq Structure" />
@@ -827,7 +822,7 @@
       <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/iconatlas_weapons.png" sourcerect="663,845,23,42" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="357,16,79,55" depth="0.55" origin="0.5,0.5" />
       <Body width="72" height="40" density="50" />
-      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-18,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
          <Sound file="%ModDir%/Items/Weapons/ogg/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
@@ -886,7 +881,7 @@
       <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="355,177,89,62" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="355,177,89,62" depth="0.55" origin="0.5,0.5" />
       <Body width="72" height="40" density="50" />
-      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-20,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.5" barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
          <Sound file="%ModDir%/Items/Weapons/ogg/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
