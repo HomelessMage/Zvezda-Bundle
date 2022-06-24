@@ -764,7 +764,7 @@
    </Job>
 
    <!--Тысячелетний Рейх Банкерфюрер-->
-   <Job hiddenjob="true" name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+   <Job hiddenjob="false" name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
       <Skills>
          <Skill identifier="weapons" level="100,100" primary="true" />
          <Skill identifier="medical" level="55,55" />
