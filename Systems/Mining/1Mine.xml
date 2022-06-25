@@ -4,7 +4,7 @@
 
 
 
-  <Item name="" identifier="titanite" category="Material" Tags="smallitem,ore" maxstacksize="1" canbepicked="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="titanite" category="Material" Tags="smallitem,mine" maxstacksize="1" canbepicked="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <PreferredContainer secondary="locker"/>
