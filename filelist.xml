@@ -76,6 +76,7 @@
 <Item file="%ModDir%/Systems/Mining/4Cooldown.xml" />
 <Item file="%ModDir%/Systems/Mining/5Ingot.xml" />
 <Item file="%ModDir%/Systems/Mining/Mining.xml" />
+<Item file="%ModDir%/Systems/Mining/fabricators.xml" />
 
 
 

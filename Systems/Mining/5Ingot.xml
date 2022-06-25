@@ -679,8 +679,8 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="5" usecondition="true">
       <RequiredSkill identifier="mechanical" level="20" />
-      <RequiredItem identifier="titaniumMelted" />
-      <RequiredItem identifier="titaniumMelted" />
+      <RequiredItem identifier="titaniumCool" />
+      <RequiredItem identifier="titaniumCool" />
     </Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="150,55,46,37" depth="0.55" origin="0.5,0.5" />

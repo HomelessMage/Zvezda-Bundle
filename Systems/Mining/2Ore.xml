@@ -114,7 +114,7 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="5" />
     </Price>
-    <Deconstruct time="5">
+    <Deconstruct suitabledeconstructors="furnace" time="45">
       <Item identifier="titaniumMelted" />
       <Item identifier="titaniumMelted" />
       <Item identifier="titaniumMelted" />

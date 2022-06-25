@@ -15,10 +15,9 @@
       <Price storeidentifier="merchantmilitary" />
       <Price storeidentifier="merchantmine" multiplier="0.75" />
     </Price>
-    <Deconstruct time="5">
+    <Deconstruct suitabledeconstructors="crusher" time="15">
       <Item identifier="titaniumOre" />
       <Item identifier="titaniumOre" />
-      <Item identifier="ironOre2" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
     <LightComponent lightcolor="113,204,164,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">

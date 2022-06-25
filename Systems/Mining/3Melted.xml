@@ -117,6 +117,11 @@
         <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
       </LightComponent>
       
+    <Deconstruct suitabledeconstructors="cooler" time="5">
+      <Item identifier="titaniumCool" />
+      <Item identifier="titaniumCool" />
+    </Deconstruct>
+
     <Holdable slots="LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,10" handle1="-11,-7" holdangle="-45" handle2="-11,-7" pickingtime="5.0" attachable="true" reattachable="false" >
       <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" /> 
       <StatusEffect type="OnBroken" target="This">
