@@ -77,6 +77,7 @@
 <Item file="%ModDir%/Systems/Mining/5Ingot.xml" />
 <Item file="%ModDir%/Systems/Mining/Mining.xml" />
 <Item file="%ModDir%/Systems/Mining/fabricators.xml" />
+<Item file="%ModDir%/Systems/Mining/VanillaFabricators.xml" />
 
 
 
@@ -220,7 +221,7 @@
 <Item file="Content/Items/Electricity/poweritems.xml" />
 <Item file="Content/Items/Electricity/signalitems.xml" />
 <Item file="Content/Items/Engine/engine.xml" />
-<Item file="Content/Items/Fabricators/fabricators.xml" />
+<!--<Item file="Content/Items/Fabricators/fabricators.xml" />-->
 <Item file="Content/Items/Genetic/genetic.xml" />
 <Item file="Content/Items/Labels/labels.xml" />
 <Item file="Content/Items/Ladder/ladder.xml" />
