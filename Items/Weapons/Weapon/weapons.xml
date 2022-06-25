@@ -881,7 +881,7 @@
       <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="355,177,89,62" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="355,177,89,62" depth="0.55" origin="0.5,0.5" />
       <Body width="72" height="40" density="50" />
-      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-20,-7" msg="ItemMsgPickUpSelect" />
+      <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-30,-7" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.5" barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
          <Sound file="%ModDir%/Items/Weapons/ogg/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />

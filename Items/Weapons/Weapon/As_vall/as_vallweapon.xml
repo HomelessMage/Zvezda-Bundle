@@ -8,6 +8,9 @@
       <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="250,735,75,45" origin="0.5,0.5" />
       <Sprite texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="50,0,1129,269" depth="0.55" origin="0.5,0.5" />
       <Body width="300" height="136" density="50" />
+      <Wearable slots="OuterClothes">
+         <sprite name="AS_VALL" texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="893,320,137,580" limb="Torso" hidelimb="false" origin="1.4,0.4" scale="0.19" />
+      </Wearable>
       <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-140,-25" handle2="35,30" holdangle="-40" msg="ItemMsgPickUpSelect" />
       <RangedWeapon reload="0.08" barrelpos="40,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
          <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
