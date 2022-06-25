@@ -68,6 +68,7 @@
 <Item file="%ModDir%/Systems/Gardening/gardeningtools.xml" />
 <!--<Item file="%ModDir%/Systems/Music items/Misc.xml" />-->
 <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
+<Item file="%ModDir%/Systems/Nourishment/Hungertool.xml" />
 <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
 <Item file="%ModDir%/Systems/Reactor/reactorgear.xml" /> 
 <Item file="%ModDir%/Systems/Reactor/rod.xml" />

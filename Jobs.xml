@@ -623,15 +623,16 @@
             <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="pmmag" showpreview="false" />
             <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="wallet" showpreview="false" >
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
          </Item>
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
          <Item identifier="divingknife" showpreview="true" />
          <Item identifier="eightBlade" showpreview="true" equip="true"/>
-         <Item identifier="wallet" showpreview="false" >
-            <Item identifier="100rubles" showpreview="false" />
-            <Item identifier="100rubles" showpreview="false" />
-            <Item identifier="100rubles" showpreview="false" />
-         </Item>
+         <Item identifier="pmpistol" showpreview="true" />
       </ItemSet>
       <!--Приблатнённый-->
       <ItemSet>
