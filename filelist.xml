@@ -32,6 +32,7 @@
 <Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />
 <Item file="%ModDir%/Items/Jobgear/Bags/Bags.xml" />
 <Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
+<Item file="%ModDir%/Items/Jobgear/Diving/divinggear.xml"  />
 <!--Tools-->
 <Item file="%ModDir%/Items/Tools/Cigarki/Cigarki.xml" />
 <Particles file="%ModDir%/Items/Tools/Cigarki/ParticlePrefabs.xml" />

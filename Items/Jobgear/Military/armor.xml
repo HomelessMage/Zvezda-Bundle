@@ -124,8 +124,7 @@
       <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" sourcerect="16,45,103,180" depth="0.6" origin="0.5,0.5" />
       <Body radius="45" height="60" density="40" />
       <Wearable slots="Bag" msg="ItemMsgEquipSelect">
-         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="16,44,103,180" />
-         <sprite name="6b4 Uniform Waist" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" limb="Waist" hidelimb="false" inherittexturescale="false" scale="0.37" inheritorigin="false" inheritsourcerect="false" sourcerect="16,44,103,180" />
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" scale="0.8" sourcerect="16,44,103,180" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
@@ -202,8 +201,7 @@
       <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" sourcerect="16,45,103,180" depth="0.6" origin="0.5,0.5" />
       <Body radius="45" height="60" density="40" />
       <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="0,0,80,80" />
-         <sprite name="6b4 Uniform Waist" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" limb="Waist" hidelimb="false" inherittexturescale="false" scale="0.37" inheritorigin="false" inheritsourcerect="false" sourcerect="16,44,103,180" />
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="16,44,103,180" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
          <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
