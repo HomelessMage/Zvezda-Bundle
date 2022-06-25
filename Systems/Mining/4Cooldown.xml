@@ -15,7 +15,7 @@
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="5" />
     </Price>
     <InventoryIcon texture="%ModDir%/Systems/Mining/Melted.png" sourcerect="720,0,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/hot.png" sourcerect="720,0,240,160" depth="0.55" angle="135" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Mining/Melted.png" sourcerect="720,0,240,160" depth="0.55" angle="135" origin="0.5,0.5" />
     <Body width="65" height="80" density="50" />
     <Holdable slots="RightHand+LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,-35" holdangle="15" handle1="-11,-15" handle2="-11,-15" pickingtime="5.0" attachable="true" reattachable="false" >
     <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.7" />  
