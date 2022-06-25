@@ -235,7 +235,7 @@
       </StatusEffect>
     </Repairable>
     <ItemContainer capacity="3" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="3" uilabel="" allowuioverlap="true">
-      <Containable excludeditems="ore,petfood3,melted"/>
+      <Containable excludeditems="ore,melted,cool,ingot"/>
     </ItemContainer>
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="" allowuioverlap="true"/>
   </Item>

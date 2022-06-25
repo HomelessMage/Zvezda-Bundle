@@ -675,7 +675,7 @@
          <Item identifier="tt33" showpreview="true" >
             <Item identifier="tt33mag" showpreview="false" />
          </Item>
-         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+         <Item identifier="idcard" equip="true" showpreview="false" />
       </ItemSet>       
    </Job>
 

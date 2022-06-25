@@ -34,7 +34,9 @@
         <Affliction identifier="stun" strength="4" />
       </StatusEffect>
     </Repairable>
-    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true"/>
+    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true">
+      <Containable excludeditems="ore,cool,ingot"/>
+    </ItemContainer>
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="" allowuioverlap="true"/>
    </Item>
 
@@ -74,7 +76,9 @@
         <Affliction identifier="stun" strength="4" />
       </StatusEffect>
     </Repairable>
-    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true"/>
+    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true">
+      <Containable excludeditems="melted,cool,ingot"/>
+    </ItemContainer>
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="" allowuioverlap="true"/>
    </Item>
 
@@ -113,7 +117,9 @@
         <Affliction identifier="stun" strength="4" />
       </StatusEffect>
     </Repairable>
-    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true"/>
+    <ItemContainer capacity="2" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="2" uilabel="" allowuioverlap="true">
+      <Containable excludeditems="ore,cool,ingot"/>
+    </ItemContainer>
     <ItemContainer capacity="5" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="" allowuioverlap="true"/>
    </Item>
     

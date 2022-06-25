@@ -103,7 +103,7 @@
 
 
 
-<Item name="" identifier="titaniumOre" category="Material" maxstacksize="4" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+<Item name="" identifier="titaniumOre" category="Material" maxstacksize="4" Tags="smallitem,ore" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1"/>
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06"/>
     <PreferredContainer secondary="locker" />
