@@ -618,11 +618,11 @@
 
    <!--Флотская фуражка-->
    <Item name="" identifier="seacap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-      <Sprite name="seacap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Sprite name="seacap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="397,195,84,51" origin="0.5,0.5" scale="0.5" />
       <Body width="84" height="51" density="15" />
       <Deconstruct time="10" />
       <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-         <sprite name="seacap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <sprite name="seacap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="397,195,84,51" origin="0.6,1.05" />
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
