@@ -13,17 +13,6 @@
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="ComendantuniformK" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
@@ -31,18 +20,31 @@
                <Item identifier="50rubles" showpreview="false" /> 
             </Item>
          </Item>
+         <Item identifier="holster" equip="true">
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="ots38" showpreview="true">
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+               <Item identifier="76241mm" showpreview="false" />
+            </Item>
+         </Item>
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
-         </Item>
-         <Item identifier="ots38" showpreview="true">
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
-            <Item identifier="76241mm" showpreview="false" />
          </Item>
          <Item identifier="sovietofficercap" equip="true" showpreview="true" />
       </ItemSet>
@@ -50,9 +52,6 @@
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="Comendantuniform" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />    
             <Item identifier="wallet" showpreview="false" >   
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
@@ -60,12 +59,17 @@
                <Item identifier="50rubles" showpreview="false" />  
             </Item>    
          </Item>
+         <Item identifier="holster" equip="true">
+            <Item identifier="tt33" showpreview="true">
+               <Item identifier="tt33mag" showpreview="false" />
+            </Item>         
+            <Item identifier="tt33mag" showpreview="false" />
+            <Item identifier="tt33mag" showpreview="false" />
+            <Item identifier="tt33mag" showpreview="false" />    
+         </Item>
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="tt33" showpreview="true">
-            <Item identifier="tt33mag" showpreview="false" />
-         </Item>         
          <Item identifier="sovietofficercap" equip="true" showpreview="true" />
       </ItemSet>      
    </Job>
@@ -84,20 +88,22 @@
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="pmmagtrauma" showpreview="false" />
-            <Item identifier="pmmagtrauma" showpreview="false" />
-            <Item identifier="pmmagtrauma" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
               <Item identifier="100rubles" showpreview="false" /> 
               <Item identifier="100rubles" showpreview="false" /> 
               <Item identifier="100rubles" showpreview="false" /> 
             </Item>
          </Item>
+         <Item identifier="holster" equip="true">
+            <Item identifier="pmpistol" showpreview="true" >
+               <Item identifier="pmmagtrauma" showpreview="false" />
+            </Item>
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
-         </Item>
-         <Item identifier="pmpistol" showpreview="true" >
-            <Item identifier="pmmagtrauma" showpreview="false" />
          </Item>
          <Item identifier="pr73m" showpreview="false" />
          <Item identifier="mvdcap" equip="true" showpreview="true" />
@@ -107,13 +113,16 @@
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
             </Item>
+         </Item>
+         <Item identifier="bodyarmor_mvd" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
          </Item>
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
