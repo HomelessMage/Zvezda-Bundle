@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contentpackage name="Zvezda Bundle" corepackage="true" gameversion="0.18.11.0" >
 
-
+<Submarine file="%ModDir%/Submarines/Zvezda 2 R1.sub" />
 <UIStyle file="%ModDir%/UI/style.xml" />
 
 
