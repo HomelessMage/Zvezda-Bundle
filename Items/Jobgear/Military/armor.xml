@@ -100,4 +100,123 @@
 			<Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
 		</ItemContainer>
 	</Item>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Разгрузочный бронежилет «6Б4» (ВС СССР)-->
+   <Item name="" identifier="bodyarmor_6b4" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+      <Deconstruct time="20">
+         <Item identifier="ballisticfiber" />
+         <Item identifier="ballisticfiber" />
+         <Item identifier="titaniumaluminiumalloy" />
+         <Item identifier="plastic" />
+      </Deconstruct>
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" sourcerect="16,45,103,180" />
+      <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" sourcerect="16,45,103,180" depth="0.6" origin="0.5,0.5" />
+      <Body radius="45" height="60" density="40" />
+      <Wearable slots="Bag" msg="ItemMsgEquipSelect">
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" scale="0.8" sourcerect="16,44,103,180" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.75" />
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />      
+      <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
+         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+      </ItemContainer>
+   </Item>
+
+
+   <!--Разгрузочный бронежилет «6Б4» (Тысячелетний Рейх)-->
+   <Item name="" identifier="bodyarmor_mod" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+      <Deconstruct time="20">
+         <Item identifier="ballisticfiber" />
+         <Item identifier="ballisticfiber" />
+         <Item identifier="titaniumaluminiumalloy" />
+         <Item identifier="plastic" />
+      </Deconstruct>
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mod.png" sourcerect="16,45,103,180" />
+      <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mod.png" sourcerect="16,44,118,225" depth="0.6" origin="0.5,0.5" />
+      <Body radius="45" height="60" density="40" />
+      <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mod.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="false" inheritsourcerect="false" scale="0.77" sourcerect="16,45,103,180" />
+         <!--<sprite name="6b4 Right Arm" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mod.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="false" scale="0.8" sourcerect="154,2,210,42" />-->
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.75" />
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />       
+      <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
+         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+      </ItemContainer>
+   </Item>
+
+
+   <!--Разгрузочный бронежилет «6Б4» (МВД)-->
+   <Item name="" identifier="bodyarmor_mvd" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+      <Deconstruct time="20">
+         <Item identifier="ballisticfiber" />
+         <Item identifier="ballisticfiber" />
+         <Item identifier="titaniumaluminiumalloy" />
+         <Item identifier="plastic" />
+      </Deconstruct>
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mvd.png" sourcerect="16,45,103,180" />
+      <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mvd.png" sourcerect="16,44,103,180" depth="0.6" origin="0.5,0.5" />
+      <Body radius="45" height="60" density="40" />
+      <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mvd.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" scale="0.37" inheritsourcerect="false" sourcerect="16,44,103,180" />
+         <sprite name="6b4 Uniform Waist" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_mvd.png" limb="Waist" hidelimb="false" inherittexturescale="true" scale="0.37" inheritorigin="false" inheritsourcerect="false" sourcerect="16,44,103,180" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.75" />
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />       
+      <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
+         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+      </ItemContainer>
+   </Item>
+
+
+   <!--Разгрузочный бронежилет «6Б4» (ОМОН)-->
+   <Item name="" identifier="bodyarmor_omon" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+      <Deconstruct time="20">
+         <Item identifier="ballisticfiber" />
+         <Item identifier="ballisticfiber" />
+         <Item identifier="titaniumaluminiumalloy" />
+         <Item identifier="plastic" />
+      </Deconstruct>
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" sourcerect="16,45,103,180" />
+      <Sprite texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" sourcerect="16,45,103,180" depth="0.6" origin="0.5,0.5" />
+      <Body radius="45" height="60" density="40" />
+      <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+         <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="16,44,103,180" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.3" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" deflectprojectiles="true" />
+         <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+         <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.75" />
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />       
+      <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
+         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+      </ItemContainer>
+   </Item>   
+
+
+
+
+
+
+
 </Items>

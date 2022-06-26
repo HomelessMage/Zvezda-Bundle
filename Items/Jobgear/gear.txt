@@ -1,0 +1,1455 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+ ██████╗██╗      ██████╗ ████████╗██╗  ██╗
+██╔════╝██║     ██╔═══██╗╚══██╔══╝██║  ██║
+██║     ██║     ██║   ██║   ██║   ███████║
+██║     ██║     ██║   ██║   ██║   ██╔══██║
+╚██████╗███████╗╚██████╔╝   ██║   ██║  ██║
+ ╚═════╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+  -->      
+   
+  <!-- Комендант -->  
+
+  <Item name="" identifier="Comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Captain's Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="0,27,128,101" origin="0.5,0.5"/>
+    <Sprite name="Captain's Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,361,208,79" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Captain's Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Comendant.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Комендант с нашивками-->
+  <Item name="" identifier="ComendantuniformK" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Captain's Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="128,27,128,101" origin="0.5,0.5"/>
+    <Sprite name="Captain's Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,532,206,68" depth="0.6" origin="0.5,0.5"/>
+    <Body width="206" height="68" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Captain's Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Captain's Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/ComendantK.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Милиционер -->
+   <Item name="" identifier="Mvd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Mvd Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Mvd Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Mvd Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mvd Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Mvd.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Повар Фартук -->
+  <Item name="" identifier="cookform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Cook Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Cook Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Cook Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Cook Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/Cook.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,lacerations" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.9" damagesound="" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.99" damagesound="LimbArmor"/>
+    	  <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Ассистент -->
+  <Item name="" identifier="assistantclothes" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Assistant Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Assistant's Uniform Torso" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Waist" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Assistant's Uniform Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Assistant.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>  
+
+  <!-- Обитатель станции 1 -->
+  <Item name="" identifier="commonerclothes1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="8,361,207,79" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Commoner's Clothes 1 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Commoner's Clothes 1 Left Shoe" texture="Commoner1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="commonerclothes2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="224,368,208,71" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Commoner's Clothes 2 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Commoner's Clothes 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="commonerclothes3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 3" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Commoner's Clothes 3  Torso" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3  Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 3 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Commoner's Clothes 3 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner3.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="commonerclothes4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 4" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Commoner's Clothes 4 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 4 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Commoner's Clothes 4 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="commonerclothes5" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="commoner 5" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Commoner's Clothes 5 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Commoner's Clothes 5 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/commoner_5.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="crewchiefclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="crewchief" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Crew Chief Torso" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Hand" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Hand" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Waist" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Leg" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Leg" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Crew Chief Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/crewchief.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="medicalofficerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="medicalofficer" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="MedicalOfficer's Uniform Torso" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Hand" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Left Hand" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Waist" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Leg" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Left Leg" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="MedicalOfficer's Uniform Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="MedicalOfficer's Uniform Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/MedicalOfficer.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="minerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="miner" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Miner Torso" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Waist" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/miner.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="quartermasterclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="quartermaster" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Quartermaster Torso" texture="quartermaster.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Waist" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Quartermaster Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/quartermaster.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="administratorclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="administrator" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Administrator Suit Torso" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Waist" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Administrator Suit Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/administrator.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="banditclothes1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="0.9" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="15,813,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Bandit Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="banditclothes2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="0.9" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="241,813,200,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Bandit Uniform 2 Torso" texture="banditclothes_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Bandit Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Bandits/banditclothes_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="vipclothes2" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="0.9" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <!-- not properly linked-->
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <!--TODO: change the texture when added-->
+      <sprite name="VIP's Clothes 2 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="VIP's Clothes 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="VIP's Clothes 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/VIP2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="prisonerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="0.9" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,812,212,64" depth="0.6" origin="0.5,0.5" />    
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Prisoner's Uniform Torso" texture="Prisoner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Hand" texture="Prisoner.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Hand" texture="Prisoner.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Lower Arm" texture="Prisoner.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Lower Arm" texture="Prisoner.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Upper Arm" texture="Prisoner.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Upper Arm" texture="Prisoner.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Waist" texture="Prisoner.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Thigh" texture="Prisoner.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Thigh" texture="Prisoner.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Leg" texture="Prisoner.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Left Leg" texture="Prisoner.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Prisoner's Uniform Right Shoe" texture="Prisoner.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Prisoner's Uniform Left Shoe" texture="Prisoner.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>  
+  <Item name="" identifier="orangejumpsuit1" aliases="orangejumpsuit" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Engineer Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="0,150,128,107" origin="0.5,0.5"/>
+    <Sprite name="Engineer Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="13,446,208,71" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Engineer's Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/engineer_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="orangejumpsuit2" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Engineer Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="384,27,127,101" origin="0.5,0.5"/>
+    <Sprite name="Engineer Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="227,452,202,65" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Engineer's Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Engineer's Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/engineer_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <!-- UNIFORMS START-->
+  <Item name="" identifier="bluejumpsuit1" aliases="bluejumpsuit" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Mechanic Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="256,274,127,110" origin="0.5,0.5"/>
+    <Sprite name="Mechanic Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="13,532,187,71" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Mechanic's Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/mechanic_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="bluejumpsuit2" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Mechanic Uniform 2 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="129,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="Mechanic Uniform 2" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="223,531,207,70" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Mechanic's Uniform 2 Torso" texture="mechanic_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Mechanic's Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/mechanic_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <!-- UNIFORMS START -->
+  <Item name="" identifier="securityuniform1" aliases="securityuniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05"/>
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Security Officer's Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,151,129,105" origin="0.5,0.5"/>
+    <Sprite name="Security Officer's Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="18,714,205,79" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Security Officer's Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Security Officer's Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+      <sprite name="Security Officer's Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/SecurityOfficer1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+  <Item name="" identifier="watchmanclothes" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="1" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+    <Sprite texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,2,185,69" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" variants="1" msg="ItemMsgPickUpSelect">
+      <sprite name="Watchman Torso" texture="watchman.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Waist" texture="watchman.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Watchman Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/watchman.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <Item name="" identifier="pirateclothesnovice" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1.3" sold="false"/>
+      <Price locationtype="mine" multiplier="0.9" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 2 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 2 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+
+  <Item name="" identifier="pirateclotheshard_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="300" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1.3" sold="false"/>
+      <Price locationtype="mine" multiplier="0.9" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 3 Torso" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+
+
+  <Item name="" identifier="pirateclotheshard_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="300" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" sold="false"/>
+      <Price locationtype="city" multiplier="1.2" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1.3" sold="false"/>
+      <Price locationtype="mine" multiplier="0.9" sold="false"/>
+    </Price>
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="pirate" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Pirate Uniform 3 Torso" texture="pirate_3.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Hand" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Waist" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Thigh" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Leg" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Pirate Uniform 3 Right Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/pirate_3.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+
+
+
+
+
+
+
+  <Item name="" identifier="camo_woodland" aliases="Camo Woodland" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="2" />
+      <Price locationtype="research" multiplier="1" minavailable="1" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+    <Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Camo Woodland Torso" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Hand" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Lower Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Upper Arm" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Waist" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Thigh" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Leg" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Right Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Camo Woodland Left Shoe" texture="%ModDir%/Items/Jobgear/camo_woodland.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />    
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+  </Item>
+
+
+<!-- Афганка -->
+  <Item name="" identifier="afganka" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Camo Woodland" texture="%ModDir%/Items/Jobgear/camo_woodland_icon.png" sourcerect="70,24,206,161" origin="0.5,0.5" />
+    <Sprite name="Camo Woodland" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Afganka Uniform 1 Torso" texture="Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+  <!-- Омон форма -->
+  <Item name="" identifier="omonuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <Deconstruct time="10"/>
+    <InventoryIcon name="Mvd Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5"/>
+    <Sprite name="Omon Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="664,375,212,64" depth="0.6" origin="0.5,0.5"/>
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Omon Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Omon Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/MVD/Omon.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+
+
+  <!-- 
+ ██████╗██╗      ██████╗ ████████╗██╗  ██╗
+██╔════╝██║     ██╔═══██╗╚══██╔══╝██║  ██║
+██║     ██║     ██║   ██║   ██║   ███████║
+██║     ██║     ██║   ██║   ██║   ██╔══██║
+╚██████╗███████╗╚██████╔╝   ██║   ██║  ██║
+ ╚═════╝╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+  -->       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+ <Item name="" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Price baseprice="250" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false" />
+      <Price locationtype="city" multiplier="1.2" sold="false" />
+      <Price locationtype="research" multiplier="1" sold="false" />
+      <Price locationtype="military" multiplier="0.9" sold="false" />
+      <Price locationtype="mine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25" requiresrecipe="true">
+      <RequiredSkill identifier="weapons" level="35" />
+      <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" sourcerect="202,304,48,61" origin="0.45,0.5" />
+    <Sprite texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" sourcerect="216,210,78,95" depth="0.6" origin="0.5,0.5" />
+    <Body radius="30" height="30" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="Security Vest" texture="%ModDir%/Items/JobGear/Talents/TalentGear.png" limb="Torso" hidelimb="false" sourcerect="215,209,79,97" inherittexturescale="true" origin="0.45,0.6" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="4">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+    </ItemContainer>
+  </Item>
+
+
+
+  <Item name="" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.7" />
+    <Price baseprice="830" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/6b13_icon.png" sourcerect="0,0,172,257" origin="0.5,0.5" />
+    <Sprite name="6b13" texture="%ModDir%/Items/Jobgear/6b13.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.14" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="6b13" texture="%ModDir%/Items/Jobgear/6b13.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.81" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />   
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+  </Item>
+
+
+  <Item name="" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+    <Upgrade gameversion="0.9.3.0" scale="0.35" />
+    <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.6" />
+    <Price baseprice="650" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.3" sold="false"/>
+      <Price locationtype="city" multiplier="1.2"  minavailable="1"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="2"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+    <Deconstruct time="40">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="45">
+      <RequiredSkill identifier="weapons" level="45" />	
+      <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+	  <RequiredItem identifier="ballisticfiber" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/miltec_icon.png" sourcerect="0,0,93,192" origin="0.5,0.5" />
+    <Sprite name="miltec Vest" texture="%ModDir%/Items/Jobgear/miltec.png" sourcerect="14,45,103,180" depth="0.6" />
+    <Body radius="45" height="50" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="miltec Vest" texture="%ModDir%/Items/Jobgear/miltec.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.74" inheritorigin="false" origin="0.52,0.5" inheritsourcerect="false" sourcerect="14,45,103,180" />
+	  <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />  	  
+   </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
+    <ItemContainer capacity="4">
+      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+    </ItemContainer>
+  </Item>
+
+
+
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+  <!-- РАЗГРУЗКА -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- HEADGEAR END -->
+
+
+
+
+
+  <!-- UNIFORMS END -->
+
+  <!-- HEADGEAR START -->
+
+
+</Items>

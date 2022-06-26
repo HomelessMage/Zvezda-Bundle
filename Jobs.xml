@@ -13,9 +13,17 @@
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="ComendantuniformK" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />
-            <Item identifier="tt33mag" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
@@ -26,8 +34,15 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="tt33" showpreview="true">
-            <Item identifier="tt33mag" showpreview="false" />
+         <Item identifier="ots38" showpreview="true">
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
+            <Item identifier="76241mm" showpreview="false" />
          </Item>
          <Item identifier="sovietofficercap" equip="true" showpreview="true" />
       </ItemSet>
@@ -64,6 +79,7 @@
          <Skill identifier="electrical" level="0,0" />
          <Skill identifier="helm" level="0,0" />
       </Skills>
+      <!--Милиционер-->
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
@@ -85,7 +101,8 @@
          </Item>
          <Item identifier="pr73m" showpreview="false" />
          <Item identifier="mvdcap" equip="true" showpreview="true" />
-      </ItemSet> 
+      </ItemSet>
+      <!--Патрульный--> 
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
@@ -94,7 +111,6 @@
             <Item identifier="aksumag" showpreview="false" />
             <Item identifier="aksumag" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
-               <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
             </Item>
@@ -107,19 +123,21 @@
          </Item>
          <Item identifier="pr73m" showpreview="false" />
          <Item identifier="mvdcap" equip="true" showpreview="true" />
-      </ItemSet>      
+      </ItemSet>   
+      <!--ОМОН-->   
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="omonuniform" equip="true" outfit="true" showpreview="true">
             <Item identifier="handcuffs" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" /> 
                <Item identifier="100rubles" showpreview="false" /> 
-               <Item identifier="100rubles" showpreview="false" /> 
             </Item>
+         </Item>
+         <Item identifier="bodyarmor_omon" equip="true" showpreview="true">
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
          </Item>
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
@@ -146,6 +164,7 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>        
+         <Item identifier="captan_head3" equip="true" showpreview="true" />
          <Item identifier="crewchiefclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
              <Item identifier="100rubles" showpreview="false" /> 
@@ -164,23 +183,29 @@
             <Skill identifier="medical" level="15,15" />
             <Skill identifier="helm" level="0,0" />
          </Skills>
+         <!--Инженер-->   
          <ItemSet>
             <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="orangejumpsuit1" equip="true" outfit="true" showpreview="true">
-               <Item identifier="screwdriver" showpreview="true" />
-               <Item identifier="wrench" showpreview="true" />
-            </Item>
-         </ItemSet>
-         <ItemSet>
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="orangejumpsuit2" equip="true" outfit="true" showpreview="true">
+            <Item identifier="engineer_1" equip="true" outfit="true" showpreview="true">
                <Item identifier="screwdriver" showpreview="true" />
                <Item identifier="wrench" showpreview="true" />
                <Item identifier="wallet" showpreview="false" >
-                  <Item identifier="100rubles" showpreview="false" />
+                  <Item identifier="50rubles" showpreview="false" />
                </Item>
             </Item>
          </ItemSet>
+         <!--Инженер-Ядерщик-->   
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="engineer_2" equip="true" outfit="true" showpreview="true">
+               <Item identifier="screwdriver" showpreview="true" />
+               <Item identifier="wrench" showpreview="true" />
+               <Item identifier="wallet" showpreview="false" >
+                  <Item identifier="50rubles" showpreview="false" />
+               </Item>
+            </Item>
+         </ItemSet>
+         <!--Электрик-->   
       </Job>
 
       <!--Механик-->
@@ -192,21 +217,36 @@
             <Skill identifier="medical" level="15,15" />
             <Skill identifier="helm" level="0,0" />
          </Skills>
+         <!--Механик-->
          <ItemSet>
             <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="bluejumpsuit1" equip="true" outfit="true">
-               <Item identifier="wrench" showpreview="true" />
-            </Item>
-         </ItemSet>
-         <ItemSet>
-            <Item identifier="idcard" equip="true" showpreview="false" />
-            <Item identifier="bluejumpsuit2" equip="true" outfit="true">
+            <Item identifier="mechanic_1" equip="true" outfit="true">
                <Item identifier="wrench" showpreview="true" />
                <Item identifier="wallet" showpreview="false" >
-                  <Item identifier="50rubles" showpreview="false" />
                   <Item identifier="25rubles" showpreview="false" />
                </Item>
             </Item>
+         </ItemSet>
+         <!--Сварщик-->
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="mechanic_2" equip="true" outfit="true">
+               <Item identifier="wallet" showpreview="false" >
+                  <Item identifier="25rubles" showpreview="false" />
+               </Item>
+            <Item identifier="Stolichnaya vodka" showpreview="false" />
+            </Item>
+         </ItemSet>
+         <!--Слесарь-->
+         <ItemSet>
+            <Item identifier="idcard" equip="true" showpreview="false" />
+            <Item identifier="mechanic_2" equip="true" outfit="true">
+               <Item identifier="wallet" showpreview="false" >
+                  <Item identifier="25rubles" showpreview="false" />
+               </Item>
+            <Item identifier="Stolichnaya vodka" showpreview="false" />
+            </Item>
+            <Item identifier="toolbelt" equip="true" showpreview="true" />
          </ItemSet>         
       </Job>
 
@@ -229,6 +269,14 @@
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
+            </Item>
+            <Item identifier="toolbox" showpreview="false" >
+               <Item identifier="handheldterminal" showpreview="false" />
+               <Item identifier="handheldterminal" showpreview="false" />
+               <Item identifier="handheldterminal" showpreview="false" />
+               <Item identifier="handheldterminal" showpreview="false" />
+               <Item identifier="handheldterminal" showpreview="false" />
+               <Item identifier="handheldterminal" showpreview="false" />
             </Item>
          </Item>
       </ItemSet>
@@ -283,13 +331,19 @@
             <Item identifier="wallet" showpreview="true" />
          </Item>
          <Item identifier="duffelbag" equip="true" showpreview="false" />
-
       </ItemSet>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="commonerclothes4" equip="true" outfit="true" showpreview="true" />
          <Item identifier="duffelbag" equip="true" showpreview="false" />
          <Item identifier="bonnet" equip="true" showpreview="true" />
+      </ItemSet>
+       <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="commonerclothes5" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="wallet" showpreview="true" />
+         </Item>
+         <Item identifier="duffelbag" equip="true" showpreview="false" />
       </ItemSet>
    </Job>
 
@@ -319,12 +373,31 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="watchmanclothes" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="25rubles" showpreview="false" />
             </Item>
          </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="wallet" showpreview="false" >
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="25rubles" showpreview="false" />
+            </Item>
+         </Item>
+      </ItemSet>
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="wallet" showpreview="false" >
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="25rubles" showpreview="false" />
+            </Item>
+         </Item>
+      <Item identifier="bonnet" equip="true" showpreview="true" />
       </ItemSet>
    </Job>
 
@@ -342,12 +415,25 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>         
-         <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true" >
+         <Item identifier="scientific_collaboratorclothes" equip="true" outfit="true" showpreview="true" >
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
                <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="wallet" showpreview="false" >
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         <Item identifier="toolbox" showpreview="true" >
+               <Item identifier="chloralhydrate" showpreview="false" />
+               <Item identifier="chloralhydrate" showpreview="false" />
+               <Item identifier="chloralhydrate" showpreview="false" />
+               <Item identifier="divingknife" showpreview="false" />
+               <Item identifier="trashbagroll" showpreview="false" />
             </Item>
          </Item>
       </ItemSet>
@@ -369,6 +455,7 @@
             <Item identifier="wallet" showpreview="false" >
                <Item identifier="50rubles" showpreview="false" />
             </Item>
+         <Item identifier="divingknife" showpreview="false" />
          </Item>
       </ItemSet>
    </Job>
@@ -382,12 +469,13 @@
          <Skill identifier="electrical" level="0,0" />
          <Skill identifier="helm" level="55,55" />
       </Skills>
+      <!--Военнослужащий-->
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="zsh_helmet" equip="true" showpreview="true" />
+         <Item identifier="zsh_40" equip="true" showpreview="true" />
          <Item identifier="6b13" equip="true" showpreview="true" />
          <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true">
             <Item identifier="ak74mmag" showpreview="false" />
@@ -399,29 +487,32 @@
             <Item identifier="ak74mmag" showpreview="false" />
          </Item>
       </ItemSet>
+      <!--Батальон связи-->
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="ballistichelmet2" equip="true" showpreview="true" />
-         <Item identifier="6b13" equip="true" showpreview="true" />
-         <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true">
+         <Item identifier="zsh_40" equip="true" showpreview="true" />
+         <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
             <Item identifier="aksumag" showpreview="false" />
             <Item identifier="aksumag" showpreview="false" />
             <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
             <Item identifier="wallet" showpreview="false" />
          </Item>
          <Item identifier="aksu" showpreview="true">
             <Item identifier="aksumag" showpreview="false" />
          </Item>
-      </ItemSet>      
+      </ItemSet>    
+      <!--Мотострелок-->  
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="ballistichelmet2" equip="true" showpreview="true" />
+         <Item identifier="zsh_helmet" equip="true" showpreview="true" />
          <Item identifier="6b13" equip="true" showpreview="true" />
          <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
             <Item identifier="aksumag" showpreview="false" />
@@ -432,22 +523,52 @@
          <Item identifier="aksu" showpreview="true">
             <Item identifier="aksumag" showpreview="false" />
          </Item>
-      </ItemSet>      
+      </ItemSet>     
+      <!--Сапёр--> 
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
-         <Item identifier="ballistichelmet2" equip="true" showpreview="true" />
-         <Item identifier="6b13" equip="true" showpreview="true" />
+         <Item identifier="zsh_army" equip="true" showpreview="true" />
+         <Item identifier="miltec" equip="true" showpreview="true" >
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
          <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="aksumag" showpreview="false" />
-            <Item identifier="wallet" showpreview="false" />
+            <Item identifier="fraggrenade" showpreview="false" />
+            <Item identifier="screwdriver" showpreview="false" />
+            <Item identifier="detonator" showpreview="false" />
+            <Item identifier="redwire" showpreview="false" />
+            <Item identifier="button" showpreview="false" />
          </Item>
          <Item identifier="aksu" showpreview="true">
             <Item identifier="aksumag" showpreview="false" />
+         </Item>
+      </ItemSet> 
+      <!--Огнемётчик-->
+      <ItemSet>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="gasmask" equip="true" showpreview="true" >
+            <Item identifier="oxygentank" showpreview="false" />
+         </Item>
+         <Item identifier="6b13" equip="true" showpreview="true" />
+         <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="wallet" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="false" >
+            <Item identifier="pmmag" showpreview="false" />
+         </Item>
+         <Item identifier="flamerz" showpreview="false"/>
+         <Item identifier="flamerpack" showpreview="true" equip="true">
+            <Item identifier="petroltank" showpreview="false"/>
          </Item>
       </ItemSet> 
    </Job>
@@ -463,10 +584,12 @@
       </Skills>
       <ItemSet>
          <Item identifier="idcard" equip="true" showpreview="false" />
-         <Item identifier="assistantclothes" equip="true" outfit="true" >
+         <Item identifier="commonerclothes4" equip="true" outfit="true" >
            <Item identifier="wallet" showpreview="false" >
                <Item identifier="50rubles" showpreview="false" />
             </Item>
+         <Item identifier="trashbagroll" showpreview="false" />
+         <Item identifier="mop" showpreview="false" />
          </Item>
       </ItemSet>
    </Job>
@@ -480,14 +603,80 @@
          <Skill identifier="electrical" level="0,0" />
          <Skill identifier="helm" level="0,0" />
       </Skills>
+      <!--Шестёрка-->
       <ItemSet>
          <Item identifier="banditclothes_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="eightBlade" showpreview="true" equip="true"/>
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
       </ItemSet>
+      <!--Шнырь-->
       <ItemSet>
          <Item identifier="banditclothes_2" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardwreck" equip="true" showpreview="false" />
-      </ItemSet>      
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="eightBlade" showpreview="true" equip="true"/>
+      </ItemSet>
+      <!--Барыга-->
+      <ItemSet>
+         <Item identifier="banditclothes_3" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmagtrauma" showpreview="false" />
+            <Item identifier="wallet" showpreview="false" >
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+               <Item identifier="100rubles" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="eightBlade" showpreview="true" equip="true"/>
+         <Item identifier="pmpistol" showpreview="true" />
+      </ItemSet>
+      <!--Приблатнённый-->
+      <ItemSet>
+         <Item identifier="banditclothes_4" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+         <Item identifier="divingknife" showpreview="true" />
+         <Item identifier="aksu" showpreview="true" >
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="handcuffs" showpreview="false" />
+            
+      </ItemSet>
+      <!--Блатной-->
+      <ItemSet>
+         <Item identifier="banditleaderclothes_1" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="handcuffs" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="aksu" showpreview="true" >
+            <Item identifier="aksumag" showpreview="false" />
+         </Item>
+         <Item identifier="pmpistol" showpreview="true" >
+            <Item identifier="pmmagtrauma" showpreview="false" />
+         </Item>
+         <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      </ItemSet>
+      <!--Пахан-->
+      <ItemSet>
+         <Item identifier="banditleaderclothes_2" equip="true" outfit="true" showpreview="true" >
+            <Item identifier="tt33mag" showpreview="false" />
+            <Item identifier="tt33mag" showpreview="false" />
+            <Item identifier="tt33mag" showpreview="false" />
+         </Item>
+         <Item identifier="tt33" showpreview="true" >
+            <Item identifier="tt33mag" showpreview="false" />
+         </Item>
+         <Item identifier="idcard" equip="true" showpreview="false" />
+      </ItemSet>       
    </Job>
 
    <!--Тысячелетний Рейх-->
@@ -515,17 +704,19 @@
             <Item identifier="shotgunshellcombat" showpreview="false" />
             <Item identifier="shotgunshellcombat" showpreview="false" />
          </Item>
+         <Item identifier="zsh_34" equip="true" showpreview="true" />
          <Item identifier="izh58" showpreview="true">
             <Item identifier="shotgunshellcombat" showpreview="false" />
             <Item identifier="shotgunshellcombat" showpreview="false" />
          </Item>
       </ItemSet>
       <ItemSet>
-         <Item identifier="pirateclotheshard_1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
+         <Item identifier="zsh_34" equip="true" showpreview="true" />
          <Item identifier="bandolier" equip="true" showpreview="true">
             <Item identifier="76239mmmag" showpreview="false" />
             <Item identifier="76239mmmag" showpreview="false" />
@@ -536,8 +727,9 @@
          </Item>
       </ItemSet>      
       <ItemSet>
-         <Item identifier="pirateclotheshard_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
          <Item identifier="idcardreich" equip="true" showpreview="false" />
+         <Item identifier="zsh_88" equip="true" showpreview="true" />
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>
@@ -549,10 +741,31 @@
             <Item identifier="rpdmagazine" showpreview="false" />
          </Item>
       </ItemSet>
+      <ItemSet>
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true">
+            <Item identifier="cigpack" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="pmmag" showpreview="false" />
+            <Item identifier="wallet" showpreview="false" />
+         </Item>
+         <Item identifier="radio" equip="true" showpreview="false">
+            <Item identifier="batterycell" showpreview="false" />
+         </Item>
+         <Item identifier="zsh_14" equip="true" showpreview="true" />
+         <Item identifier="bodyarmor_mod" equip="true" showpreview="true" >
+            <Item identifier="pmpistol" showpreview="false" >
+               <Item identifier="pmmag" showpreview="false" />
+            </Item>
+         </Item>
+         <Item identifier="flamerz" showpreview="false"/>
+         <Item identifier="flamerpack" showpreview="true" equip="true">
+            <Item identifier="petroltank" showpreview="false"/>
+         </Item>
+      </ItemSet>
    </Job>
 
    <!--Тысячелетний Рейх Банкерфюрер-->
-   <Job hiddenjob="true" name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+   <Job hiddenjob="false" name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
       <Skills>
          <Skill identifier="weapons" level="100,100" primary="true" />
          <Skill identifier="medical" level="55,55" />
@@ -565,7 +778,8 @@
          <Item identifier="radio" equip="true" showpreview="false">
             <Item identifier="batterycell" showpreview="false" />
          </Item>         
-         <Item identifier="pirateclotheshard_2" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
+         <Item identifier="tpcap" equip="true" showpreview="true" />
       </ItemSet>      
    </Job>
    

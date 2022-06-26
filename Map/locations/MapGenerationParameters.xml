@@ -2,7 +2,7 @@
 <MapGenerationParameters
   DifficultyZones="6"
   GateCount="1,1,1,1,1,1"
-  Width="2400"
+  Width="8000"
   Height="800"
   MinZoom="1.0"
   MaxZoom="1.4"

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style>
   <!--
   General green highlight color used for elements that are highlighted from code
@@ -45,10 +45,6 @@
   <HealthBarColorLow color="255,0,0,255"/>
   <HealthBarColorMedium color="255,165,0,255"/>
   <HealthBarColorHigh color="78,114,88"/>
-  <!-- Equipment toggle button indicators -->
-  <EquipmentIndicatorNotEquipped color="128,128,128,255"/>
-  <EquipmentIndicatorEquipped color="105,202,125,255"/>
-  <EquipmentIndicatorRunningOut color="202,105,105,255"/>
   <ColorReputationVeryLow color="192,60,60,255"/>
   <ColorReputationLow color="203,145,23,255"/>
   <ColorReputationNeutral color="228,217,167,255"/>
@@ -85,54 +81,24 @@
   <GenericThrobber texture="Content/UI/generic_throbber.png" rows="4" columns="4"/>
   <WalletPortraitBG texture="Content/UI/InventoryUIAtlas.png" tile="false" sourcerect="935,873,48,18" origin="0.5,0.5" slice="945,873,973,891"/>
   <CrewWalletIconSmall texture="Content/UI/InventoryUIAtlas.png" tile="false" sourcerect="932,742,34,32" origin="0.5,0.5" maintainaspectratio="true"/>
- 
-  <EditorLayerButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
-    <Sprite name="EditorLayerButton" texture="Content/UI/InventoryUIAtlas.png" sourcerect="890,191,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
-  </EditorLayerButton>
- 
- 
   <Font file="Content/Fonts/Exo2-SemiBold.otf">
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
+    <override language="Simplified Chinese,Japanese,Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
     <Size maxresolution="1024,768" size="11"/>
     <Size maxresolution="1280,800" size="12"/>
     <Size maxresolution="1920,1080" size="14"/>
-    <Size maxresolution="2048,1080" size="15"/>
-    <Size maxresolution="2560,1600" size="16"/>
-    <Size size="18"/>
-    <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <Size maxresolution="1024,768" size="11"/>
-    <Size maxresolution="1280,800" size="12"/>
-    <Size maxresolution="1920,1080" size="14"/>
-    <Size maxresolution="2048,1440" size="16"/>
+    <Size maxresolution="2048,1080" size="16"/>
     <Size maxresolution="2560,1600" size="16"/>
     <Size size="18"/>
   </Font>
-  <GlobalFont file="Content/Fonts/Exo2-SemiBold.otf">
-    <Size maxresolution="1024,768" size="11"/>
-    <Size maxresolution="1280,800" size="12"/>
-    <Size maxresolution="1920,1080" size="14"/>
-    <Size maxresolution="2048,1440" size="16"/>
-    <Size maxresolution="2560,1600" size="16"/>
-    <Size size="18"/>
-  </GlobalFont>
   <UnscaledSmallFont file="Content/Fonts/Exo2-SemiBold.otf">
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
+    <override language="Simplified Chinese,Japanese,Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
     <Size size="12"/>
   </UnscaledSmallFont>
   <SmallFont file="Content/Fonts/Exo2-SemiBold.otf">
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
+    <override language="Simplified Chinese,Japanese,Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Medium.otf" dynamicloading="true" iscjk="true"/>
     <Size maxresolution="1024,768" size="9"/>
     <Size maxresolution="1280,800" size="10"/>
     <Size maxresolution="1920,1080" size="12"/>
@@ -141,8 +107,20 @@
     <Size size="16"/>
   </SmallFont>
   <LargeFont file="Content/Fonts/BebasNeue-Regular.otf" size="28">
-    <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Bold.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
+    <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Bold.otf" dynamicloading="true" iscjk="true">
+      <Size maxresolution="1024,768" size="20"/>
+      <Size maxresolution="1280,800" size="22"/>
+      <Size maxresolution="1920,1080" size="25"/>
+      <Size maxresolution="2560,1600" size="32"/>
+      <Size size="36"/>
+    </override>
+    <override language="Japanese,Korean,Traditional Chinese,Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true">
+      <Size maxresolution="1024,768" size="20"/>
+      <Size maxresolution="1280,800" size="22"/>
+      <Size maxresolution="1920,1080" size="25"/>
+      <Size maxresolution="2560,1600" size="32"/>
+      <Size size="36"/>
+    </override>
     <override language="Russian" file="Content/Fonts/Oswald-Bold.ttf" dynamicloading="true" iscjk="false">
       <Size maxresolution="1024,768" size="20"/>
       <Size maxresolution="1280,800" size="22"/>
@@ -150,8 +128,6 @@
       <Size maxresolution="2560,1600" size="32"/>
       <Size size="36"/>
     </override>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
     <Size maxresolution="1024,768" size="24"/>
     <Size maxresolution="1280,800" size="28"/>
     <Size maxresolution="1920,1080" size="32"/>
@@ -160,9 +136,7 @@
   </LargeFont>
   <SubHeading file="Content/Fonts/Exo2-Bold.ttf" size="18" forceuppercase="true">
     <override language="Traditional Chinese" file="Content/Fonts/NotoSans/NotoSansTC-Bold.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Simplified Chinese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Japanese" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
-    <override language="Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
+    <override language="Simplified Chinese,Japanese,Korean" file="Content/Fonts/NotoSans/NotoSansCJKsc-Bold.otf" dynamicloading="true" iscjk="true"/>
     <Size maxresolution="1024,768" size="11"/>
     <Size maxresolution="1280,800" size="13"/>
     <Size maxresolution="1920,1080" size="16"/>
@@ -733,7 +707,7 @@
     <Size maxresolution="2048,1440" height="32"/>
     <Size maxresolution="2560,1600" height="45"/>
     <Size height="50"/>
-  </ChatTextBox><!-- Sub editor -->
+  </ChatTextBox>
   <!-- Sub editor -->
   <OpenButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
     <Sprite name="OpenButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="654,147,49,42" tile="false" maintainaspectratio="true" origin="0.5,0.5" compress="false" />
@@ -744,6 +718,9 @@
   <TestButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
     <Sprite name="TestButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="707,194,35,36" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </TestButton>
+  <NewContentPackageIcon color="220,220,220,255" hovercolor="255,255,255,255" pressedcolor="150,150,150,255" disabledcolor="125,125,125,125">
+    <Sprite name="NewContentPackageIcon" texture="Content/UI/UIAtlasGeneral.png" tile="false" maintainaspectratio="true" sourcerect="466,1,46,46" origin="0.5,0.5"/>
+  </NewContentPackageIcon>
   <EditSubButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
     <Sprite name="EditSubButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="753,148,36,35" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </EditSubButton>
@@ -762,6 +739,9 @@
   <SetupVisibilityButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
     <Sprite name="SetupVisibilityButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="936,146,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </SetupVisibilityButton>
+  <EditorLayerButton color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
+    <Sprite name="EditorLayerButton" texture="Content/UI/InventoryUIAtlas.png" sourcerect="890,191,40,37" tile="false" maintainaspectratio="true" origin="0.5,0.5"/>
+  </EditorLayerButton>
   <CategoryButton.All color="169,212,187,255" hovercolor="220,220,220,255" selectedcolor="255,255,255,255" pressedcolor="100,100,100,255" disabledcolor="125,125,125,125">
     <Sprite name="CategoryButton.All" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="437,269,64,64" tile="false" maintainaspectratio="true" origin="0.5,0.5" />
   </CategoryButton.All>

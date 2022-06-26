@@ -8,7 +8,18 @@
 ██║  ██║██║  ██║   ██║   ███████║
 ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝    
   -->
-   <Item name="" identifier="baseballcap" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+<!--                                                               
+  8b           d8                           88  88  88              
+  `8b         d8'                           ""  88  88              
+   `8b       d8'                                88  88              
+    `8b     d8'    ,adPPYYba,  8b,dPPYba,   88  88  88  ,adPPYYba,  
+     `8b   d8'     ""     `Y8  88P'   `"8a  88  88  88  ""     `Y8  
+      `8b d8'      ,adPPPPP88  88       88  88  88  88  ,adPPPPP88  
+       `888'       88,    ,88  88       88  88  88  88  88,    ,88  
+        `8'        `"8bbdP"Y8  88       88  88  88  88  `"8bbdP"Y8                                                             
+-->        
+                                                   
+   <Item name="" identifier="kepka" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125" />
       <Price baseprice="75">
@@ -18,6 +29,11 @@
          <Price locationtype="military" multiplier="1" minavailable="2" />
          <Price locationtype="mine" multiplier="1" minavailable="2" />
       </Price>
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
       <Deconstruct time="10" />
       <Sprite name="Baseball Cap" texture="%ModDir%/Items/Jobgear/Head/headgears.png" depth="0.6" sourcerect="321,332,86,45" origin="0.5,0.5" />
       <Body width="75" height="50" density="30" />
@@ -26,7 +42,7 @@
       </Wearable>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
    </Item>
-   <Item name="" identifier="ballistichelmet2" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+   <Item name="" identifier="slemofon" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
       <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
       <Price baseprice="175" soldeverywhere="false">
          <Price locationtype="outpost" multiplier="1.3" sold="false" />
@@ -53,7 +69,7 @@
       </Wearable>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
    </Item>
-   <Item name="" identifier="captainscap1" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+   <Item name="" identifier="captan_head1" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <Price baseprice="75">
          <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -70,7 +86,7 @@
       </Wearable>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
    </Item>
-   <Item name="" identifier="captainscap2" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+   <Item name="" identifier="captan_head2" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <Price baseprice="75">
          <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -87,7 +103,7 @@
       </Wearable>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
    </Item>
-   <Item name="" identifier="captainscap3" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+   <Item name="" identifier="captan_head3" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" scale="0.4">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <Price baseprice="75">
          <Price locationtype="outpost" multiplier="1" minavailable="1" />
@@ -104,7 +120,7 @@
       </Wearable>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
    </Item>
-   <Item name="" identifier="piratecaptainhat" category="Equipment" tags="smallitem,clothing" impactsoundtag="impact_metal_heavy" scale="0.4" cargocontaineridentifier="metalcrate">
+   <Item name="" identifier="kostil_piratecaptainhat" category="Equipment" tags="smallitem,clothing" impactsoundtag="impact_metal_heavy" scale="0.4" cargocontaineridentifier="metalcrate">
       <Price baseprice="175" soldeverywhere="false">
          <Price locationtype="outpost" sold="false" />
          <Price locationtype="city" sold="false" />
@@ -118,7 +134,7 @@
          <sprite texture="%ModDir%/Items/Jobgear/Head/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.8" hidewearablesoftype="hair" sourcerect="197,406,102,107" origin="0.55,0.6" />
       </Wearable>
    </Item>
-   <Item name="" identifier="piratebandana" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" scale="0.5" impactsoundtag="impact_soft">
+   <Item name="" identifier="kostil_piratebandana" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" scale="0.5" impactsoundtag="impact_soft">
       <Price baseprice="1" soldeverywhere="false" canbespecial="false">
          <Price locationtype="outpost" multiplier="1" sold="false" />
          <Price locationtype="city" multiplier="1" sold="false" />
@@ -132,35 +148,7 @@
          <sprite texture="%ModDir%/Items/Jobgear/Head/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.8" sourcerect="313,407,100,95" origin="0.55,0.6" />
       </Wearable>
    </Item>
-   <Item name="" identifier="zsh_helmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
-      <Upgrade gameversion="0.9.6.0" scale="0.4" />
-      <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
-      <Price baseprice="640" soldeverywhere="false">
-         <Price locationtype="outpost" multiplier="1.3" sold="false" />
-         <Price locationtype="city" multiplier="1.2" minavailable="1" />
-         <Price locationtype="research" multiplier="1" sold="false" />
-         <Price locationtype="military" multiplier="0.9" minavailable="1" />
-         <Price locationtype="mine" multiplier="1" sold="false" />
-      </Price>
-      <Deconstruct time="10">
-         <Item identifier="steel" />
-      </Deconstruct>
-      <Fabricate suitablefabricators="fabricator" requiredtime="20">
-         <RequiredSkill identifier="weapons" level="15" />
-         <RequiredItem identifier="ballisticfiber" />
-         <RequiredItem identifier="steel" />
-      </Fabricate>
-      <Sprite name="zsh_helmet" texture="%ModDir%/Items/Jobgear/Head/helmets.png" sourcerect="100,0,85,67" depth="0.6" origin="0.5,0.4" />
-      <Body radius="30" density="50" />
-      <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
-         <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
-         <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
-         <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
-         <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-         <sprite name="zsh_helmet" texture="%ModDir%/Items/Jobgear/Head/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="100,0,85,67" origin="0.45,0.63" />
-         <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
-      </Wearable>
-   </Item>
+
    <!--                                                              
 88        88                                   88         88  
 88        88                                   88       ,d88  
@@ -171,6 +159,7 @@
 88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88         88  
 88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8         88  
 -->
+
    <!--Офицерская фуражка ВС СССР-->
    <Item name="" identifier="sovietofficercap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
       <Sprite name="Soviet Officer Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
@@ -181,6 +170,8 @@
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
+
+
    <!--Офицерская фуражка МВД СССР-->
    <Item name="" identifier="mvdcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
       <Sprite name="Mvd Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
@@ -191,6 +182,127 @@
          <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
       </Wearable>
    </Item>
+
+
+   <!--Офицерская фуражка ТР-->
+   <Item name="" identifier="tpcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,195,84,51" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,195,84,51" origin="0.6,1.05" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+   <!--Противогаз ГП-5-->
+   <Item name="" identifier="gasmask" scale="0.35" category="Diving,Equipment" Tags="smallitem,diving,lightdiving" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="rubber" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Head/Head1.png" sourcerect="103,124,107,118" origin="0.5,0.5" />
+    <Sprite name="Gas Mask" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="103,124,107,118" origin="0.5,0.5" scale="0.5" />
+    <Body width="40" height="35" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect" displaycontainedstatus="true">
+      <sprite name="Gas Mask Wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="false" inheritscale="false" ignorelimbscale="true" scale="0.4" hidelimb="false" hideotherwearables="false" sourcerect="103,124,107,118" origin="0.3,0.3" hidewearablesoftype="moustache,beard,hair" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygentank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-5.0" Condition="-5.0">
+        <Conditional IsDead="false" />
+        <RequiredItem items="weldingfueltank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="-100.0" Oxygen="-7.0" Condition="-5.0">
+        <RequiredItem items="incendiumfueltank" type="Contained" />
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1500.0" Condition="-0.1" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnWearing" target="Contained,Character" SpeedMultiplier="1.2" setvalue="true" comparison="Or">
+        <Conditional IsDead="false" />
+        <RequiredItem items="oxygenitetank" type="Contained" />
+      </StatusEffect>
+    </Wearable>
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
+      <Containable items="oxygensource,weldingtoolfuel" />
+    </ItemContainer>
+  </Item>
+
+  <!--Ушанка-->
+   <Item name="" identifier="ushanka" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="103,18,85,75" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.34" sourcerect="103,18,85,75" origin="0.54,0.63" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+   <!--Восьмиклинка-->
+   <Item name="" identifier="eightBlade" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,37,80,50" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,37,80,50" origin="0.45,0.85" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+   <!--ЗШ-40-->
+   <Item name="" identifier="zsh_40" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,110,80,50" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,110,80,50" origin="0.45,0.95" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+   <!--ЗШ-40 ТР-->
+   <Item name="" identifier="zsh_34" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,175,80,50" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,175,80,50" origin="0.45,0.95" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+
+
+   
+
+
+
+
+
    <!--                                                                   
 88        88                                   88      ad888888b,     
 88        88                                   88     d8"     "88     
@@ -308,12 +420,12 @@
          <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.35" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="217,0,67,96" origin="0.55,0.55" />
+         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.411" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="217,0,67,96" origin="0.55,0.55" />
          <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
       </Wearable>
    </Item>
    <!--Шлем с маской Тысячелетнего Рейха-->
-   <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.411">
+   <Item name="" identifier="zsh_88" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.380">
       <Upgrade gameversion="0.9.6.0" scale="0.411" />
       <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
       <Price baseprice="640" soldeverywhere="false">
@@ -338,7 +450,7 @@
          <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
-         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.35" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.67" />
+         <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.380" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.64" />
          <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
       </Wearable>
    </Item>
@@ -445,6 +557,158 @@
 88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88     Y8,     a88  
 88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8      "Y888888P'                                                                                                                          
 -->
+<!--Шахтёрская каска с фонариком-->
+   <Item name="" identifier="hardhatWL" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="116,0,78,55" origin="0.5,0.4" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="hardhatWL wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="116,0,78,55" origin="0.5,0.8" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+   
+<!--Шахтёрская каска-->
+   <Item name="" identifier="hardhatW" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="hardhatWL" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="196,0,78,55" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="hardhatW wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="196,0,78,55" origin="0.5,0.8" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+<!--Жёлтая каска-->
+   <Item name="" identifier="hardhatY" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="hardhatY" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,0,78,55" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="hardhatY wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="276,0,78,55" origin="0.5,0.8" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+   <!--Синяя каска-->
+   <Item name="" identifier="hardhatB" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="hardhatB" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="355,0,78,55" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="hardhatB wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="355,0,78,55" origin="0.5,0.8" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+
+
+<!--Пилотка МВД-->
+   <Item name="" identifier="gcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="gcap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,56,80,39" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="gcap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.35" sourcerect="276,56,80,39" origin="0.45,0.9" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+   <!--Флотская фуражка-->
+   <Item name="" identifier="seacap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+      <Sprite name="seacap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="296,110,84,51" origin="0.5,0.5" scale="0.5" />
+      <Body width="84" height="51" density="15" />
+      <Deconstruct time="10" />
+      <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+         <sprite name="seacap wearable" texture="%ModDir%/Items/Jobgear/Head/Head3.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,110,84,51" origin="0.6,1.05" />
+         <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+      </Wearable>
+   </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--                                                                                                                                 
+88        88              88                                                          88  
+88        88              88                                    ,d                  ,d88  
+88        88              88                                    88                888888  
+88aaaaaaaa88   ,adPPYba,  88  88,dPYba,,adPYba,    ,adPPYba,  MM88MMM  ,adPPYba,      88  
+88""""""""88  a8P_____88  88  88P'   "88"    "8a  a8P_____88    88     I8[    ""      88  
+88        88  8PP"""""""  88  88      88      88  8PP"""""""    88      `"Y8ba,       88  
+88        88  "8b,   ,aa  88  88      88      88  "8b,   ,aa    88,    aa    ]8I      88  
+88        88   `"Ybbd8"'  88  88      88      88   `"Ybbd8"'    "Y888  `"YbbdP"'      88                                                                                                                        
+-->
+
+<!--Шлем «ЗШ-1»-->
+   <Item name="" identifier="zsh_helmet" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+      <Upgrade gameversion="0.9.6.0" scale="0.4" />
+      <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="1" />
+      <Price baseprice="640" soldeverywhere="false">
+         <Price locationtype="outpost" multiplier="1.3" sold="false" />
+         <Price locationtype="city" multiplier="1.2" minavailable="1" />
+         <Price locationtype="research" multiplier="1" sold="false" />
+         <Price locationtype="military" multiplier="0.9" minavailable="1" />
+         <Price locationtype="mine" multiplier="1" sold="false" />
+      </Price>
+      <Deconstruct time="10">
+         <Item identifier="steel" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20">
+         <RequiredSkill identifier="weapons" level="15" />
+         <RequiredItem identifier="ballisticfiber" />
+         <RequiredItem identifier="steel" />
+      </Fabricate>
+      <Sprite name="zsh_helmet" texture="%ModDir%/Items/Jobgear/Head/helmets.png" sourcerect="100,0,85,67" depth="0.6" origin="0.5,0.4" />
+      <Body radius="30" density="50" />
+      <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+         <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
+         <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
+         <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+         <sprite name="zsh_helmet" texture="%ModDir%/Items/Jobgear/Head/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="100,0,85,67" origin="0.45,0.63" />
+         <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
+      </Wearable>
+   </Item>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--                                                                                                                                                                                                                         
+88        88              88                                                       ad888888b,  
+88        88              88                                    ,d                d8"     "88  
+88        88              88                                    88                        a8P  
+88aaaaaaaa88   ,adPPYba,  88  88,dPYba,,adPYba,    ,adPPYba,  MM88MMM  ,adPPYba,       ,d8P"   
+88""""""""88  a8P_____88  88  88P'   "88"    "8a  a8P_____88    88     I8[    ""     a8P"      
+88        88  8PP"""""""  88  88      88      88  8PP"""""""    88      `"Y8ba,    a8P'        
+88        88  "8b,   ,aa  88  88      88      88  "8b,   ,aa    88,    aa    ]8I  d8"          
+88        88   `"Ybbd8"'  88  88      88      88   `"Ybbd8"'    "Y888  `"YbbdP"'  88888888888                                                                                       
+-->
+
+
+
+
+
+
+
+
    <!--                                                                                                                                 
                                                                                                                
   ,ad8888ba,             88                                      88        88                                  

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <Faction identifier="coalition" initialreputation="15" minreputation="-100" maxreputation="100" menuorder="0">
+    <Icon name="CoalitionIcon" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="143,523,94,113" color="62,177,182,255"/>
+    <Portrait name="CoalitionPortrait" texture="Content/UI/Server/ServerAtlas1.png" sourcerect="0,0,852,340"/>
+  </Faction>
+  <Faction identifier="separatists" initialreputation="-10" minreputation="-100" maxreputation="100" menuorder="1">
+    <Icon name="SeparatistIcon" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="268,523,105,113" color="215,156,85,255"/>
+    <Portrait name="SeparatistPortrait" texture="Content/UI/Server/ServerAtlas1.png" sourcerect="0,342,852,340"/>
+  </Faction>
+  <Faction identifier="huskcult" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="2">
+    <Icon name="HuskCultIcon" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="402,523,96,113" color="58,165,121,255"/>
+    <Portrait name="HuskCultPortrait" texture="Content/UI/Server/ServerAtlas2.png" sourcerect="0,342,852,340"/>
+  </Faction>
+  <Faction identifier="clowns" initialreputation="-5" minreputation="-100" maxreputation="100" menuorder="3">
+    <Icon name="ClownIcon" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="0,523,118,113" color="206,62,62,255"/>
+    <Portrait name="ClownPortrait" texture="Content/UI/Server/ServerAtlas2.png" sourcerect="0,0,852,340"/>
+  </Faction>
+</Factions>

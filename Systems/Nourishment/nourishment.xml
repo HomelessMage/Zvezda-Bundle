@@ -379,6 +379,12 @@
       <Fabricate suitablefabricators="fabricator,medicalfabricator,kitchen" requiredtime="20">
          <RequiredItem identifier="ethanol" />
          <RequiredItem identifier="canteen" />
+         <Fabricate suitablefabricators="torgomat" requiredtime="3">
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="10rubles" />
+            <RequiredItem identifier="5rubles" />
+        </Fabricate>
       </Fabricate>
       <Deconstruct time="5">
          <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
