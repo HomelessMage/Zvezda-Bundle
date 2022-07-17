@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Items>
-  <Item name="" identifier="as_vall" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.1" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="as_vall" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,mountableweapon" Scale="0.1" impactsoundtag="impact_metal_light">
       <Deconstruct time="32">
          <Item identifier="steel" />
          <Item identifier="plastic" />
