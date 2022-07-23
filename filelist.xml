@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" corepackage="True">
+<contentpackage name="Zvezda Bundle" modversion="23.7.22" corepackage="True">
   <Submarine file="%ModDir%/Submarines/Железногорск v1.2.5.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.3.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.0.sub" />
