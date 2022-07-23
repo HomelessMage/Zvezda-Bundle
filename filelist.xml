@@ -3,6 +3,8 @@
   <Submarine file="%ModDir%/Submarines/Zvezda 2 R1.sub" />
   <Submarine file="%ModDir%/Submarines/Железногорск v1.2.5.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1.1.6.1.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-11.sub" />
+  <Submarine file="%ModDir%/Submarines/СТО.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <StartItems file="%ModDir%/StartItems.xml" />
   <SkillSettings file="%ModDir%/SkillSettings.xml" />
