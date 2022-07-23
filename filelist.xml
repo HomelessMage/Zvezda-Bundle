@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="1.0.2" corepackage="True" steamworkshopid="2826890267" gameversion="0.18.15.0">
-  <Submarine file="%ModDir%/Submarines/Zvezda 2 R1.sub" />
+<contentpackage name="Zvezda Bundle" modversion="23.7.22" corepackage="True">
   <Submarine file="%ModDir%/Submarines/Железногорск v1.2.5.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-1.1.6.1.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-1 v1.3.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-2 v1.0.sub" />
+  <Submarine file="%ModDir%/Submarines/СТО v1.0.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <StartItems file="%ModDir%/StartItems.xml" />
   <SkillSettings file="%ModDir%/SkillSettings.xml" />
@@ -462,4 +463,8 @@
   <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
+  <Submarine file="%ModDir%/Железногорск v1.2.5.sub" />
+  <Submarine file="%ModDir%/Звезда-1 v1.3.sub" />
+  <Submarine file="%ModDir%/СТО v1.0.sub" />
+  <Submarine file="%ModDir%/Звезда-2 v1.0.sub" />
 </contentpackage>
