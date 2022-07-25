@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" modversion="23.7.23" corepackage="True" steamworkshopid="2826890267" gameversion="0.18.15.0">
   <Submarine file="%ModDir%/Submarines/Железногорск v1.2.5.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-1 v1.3.sub" />
+  <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.3.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.0.sub" />
   <Submarine file="%ModDir%/Submarines/СТО v1.0.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
