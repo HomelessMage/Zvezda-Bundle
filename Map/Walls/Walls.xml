@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <Wall_St1 name="wall1" identifier="wall1" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/softwall.png" sourcerect="0,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St1>
+  <Wall_St2 name="wall2" identifier="wall2" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/softwall.png" sourcerect="512,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St2>
+  <Wall_St3 name="wall3" identifier="wall3" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/softwall.png" sourcerect="0,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St3>
+  <Wall_St4 name="wall4" identifier="wall4" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/softwall.png" sourcerect="512,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St4>
+  <Wall_St5 name="wall5" identifier="wall5" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/mtlwall.png" sourcerect="0,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St5>
+  <Wall_St6 name="wall6" identifier="wall6" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/mtlwall.png" sourcerect="512,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St6>
+  <Wall_St7 name="wall7" identifier="wall7" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/mtlwall.png" sourcerect="0,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St7>
+  <Wall_St8 name="wall8" identifier="wall8" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/mtlwall.png" sourcerect="512,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St8>
+  <Wall_St9 name="wall9" identifier="wall9" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall.png" sourcerect="0,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St9>
+  <Wall_St10 name="wall10" identifier="wall10" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall.png" sourcerect="512,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St10>
+  <Wall_St11 name="wall11" identifier="wall11" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall.png" sourcerect="0,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St11>
+  <Wall_St12 name="wall12" identifier="wall12" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall1.png" sourcerect="0,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St12>
+  <Wall_St13 name="wall13" identifier="wall13" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall1.png" sourcerect="512,0,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St13>
+  <Wall_St14 name="wall14" identifier="wall14" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall1.png" sourcerect="0,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St14>
+  <Wall_St15 name="wall15" identifier="wall15" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/hardwall1.png" sourcerect="512,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_St15>
+  <Opbg name="Beton1" identifier="Beton1" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="0,0,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton2" identifier="Beton2" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="832,0,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton3" identifier="Beton3" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="0,416,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton4" identifier="Beton4" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="832,416,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton5" identifier="Beton5" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="0,832,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton6" identifier="Beton6" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="832,832,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton7" identifier="Beton7" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="0,1248,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <Opbg name="Beton8" identifier="Beton8" allowattachitems="true" width="32" height="32" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="832,1248,832,416" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Opbg>
+  <OpDeco name="Joint_1" identifier="Joint_1" allowattachitems="false" width="127" height="416" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="1682,0,127,416" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Joint_2" identifier="Joint_2" allowattachitems="false" width="21" height="416" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="1830,0,21,416" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Joint_3" identifier="Joint_3" allowattachitems="false" width="21" height="111" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="1871,0,21,111" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Заплатка" identifier="Patch_met_sqr" allowattachitems="false" width="84" height="66" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="1914,0,84,66" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Заплатка люковая" identifier="Patch_met_rnd" allowattachitems="false" width="83" height="83" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/walls.png" sourcerect="1914,74,84,83" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <Wall_S1 name="woodenwall" identifier="woodenwall" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/wood_ceramic_wall.png" sourcerect="0,0,512,256" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S1>
+  <Wall_S2 name="ceramicwall" identifier="ceramicwall" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/wood_ceramic_wall.png" sourcerect="0,256,512,256" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S2>
+  <Wall_S3 name="clearwall1" identifier="clearwall1" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/clear_wall.png" sourcerect="0,0,512,256" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S3>
+  <Wall_S4 name="clearwall2" identifier="clearwall2" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/clear_wall.png" sourcerect="0,256,512,256" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S4>
+  <Wall_S5 name="clearwall3" identifier="clearwall3" description="" allowattachitems="true" width="512" height="512" texturescale="1.0,1.0" scale="0.5" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="0,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S5>
+  <Wall_S6 name="clearwall4" identifier="clearwall4" description="" allowattachitems="true" width="512" height="512" texturescale="1.0,1.0" scale="0.5" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="512,512,512,512" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S6>
+  <Wall_S7 name="iron fence" identifier="iron fence" description="" allowattachitems="true" width="512" height="256" texturescale="1.0,1.0" scale="0.5" resizehorizontal="true" resizevertical="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/steel_wall.png" sourcerect="0,0,512,256" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_S7>
+</prefabs>

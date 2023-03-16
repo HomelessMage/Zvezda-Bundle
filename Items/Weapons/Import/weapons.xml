@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--//PKM-->
+  <Item name="" identifier="pkm" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.15" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
+    <Price baseprice="500" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="0.9" minavailable="12" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="iron" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="831,830,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="0,817,815,183" depth="0.55" />
+    <Body width="70" height="30" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="PKM" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="0,0,158,816" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.15" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="45,5" aimpos="70,0" handle1="-175,-20" handle2="50,5" holdangle="-70" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
+    </Holdable>
+    <RangedWeapon reload="0.07" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot2.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot3.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot4.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot5.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot6.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="pkmmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" itempos="-50,-10" hideitems="false">
+      <Containable items="pkmmag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+  </Item>
+  <!--//PKM magazine-->
+  <Item name="" identifier="pkmmag" scale="0.17" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="pkm" minamount="0" maxamount="1" spawnprobability="1" />
+    <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="2" spawnprobability="0.125" />
+    <Price baseprice="100" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="true" />
+      <Price locationtype="city" multiplier="0.1" minavailable="2" />
+      <Price locationtype="research" multiplier="0.1" sold="false" />
+      <Price locationtype="military" multiplier="1.25" minavailable="4" />
+      <Price locationtype="mine" multiplier="0.1" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="phosphorus" mincondition="0.9" />
+      <Item identifier="flashpowder" mincondition="0.9" />
+      <Item identifier="lead" mincondition="0.9" />
+      <Item identifier="iron" mincondition="0.9" />
+      <Item identifier="plastic" copycondition="true" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="815,817,79,141" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.54" sourcerect="815,817,79,141" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="76239mm">
+      <Containable items="76239mm" />
+      <StatusEffect type="OnUse" target="This" condition="-2.5" disabledeltatime="true">
+        <SpawnItem identifiers="76239mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//RPD-->
+  <Item name="" identifier="rpd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.4" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
+    <Price baseprice="500" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="0.9" minavailable="12" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="iron" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="831,830,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="1,1,313,73" depth="0.55" />
+    <Body width="70" height="30" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="RPD" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="277,0,76,308" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.4" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-25" aimpos="50,-25" handle1="-60,-15" handle2="30,5" holdangle="-30" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
+    </Holdable>
+    <RangedWeapon reload="0.09" barrelpos="50,20" spread="10" unskilledspread="30" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot2.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot3.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot4.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot5.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/RPDsingleShot6.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="rpdmagazine" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" itempos="-20,-10" hideitems="false">
+      <Containable items="rpdmagazine" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+  </Item>
+  <!--//RPD magazine-->
+  <Item name="" identifier="rpdmagazine" scale="0.3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="rpd" minamount="0" maxamount="1" spawnprobability="1" />
+    <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="2" spawnprobability="0.125" />
+    <Price baseprice="100" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="true" />
+      <Price locationtype="city" multiplier="0.1" minavailable="2" />
+      <Price locationtype="research" multiplier="0.1" sold="false" />
+      <Price locationtype="military" multiplier="1.25" minavailable="4" />
+      <Price locationtype="mine" multiplier="0.1" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="phosphorus" mincondition="0.9" />
+      <Item identifier="flashpowder" mincondition="0.9" />
+      <Item identifier="lead" mincondition="0.9" />
+      <Item identifier="iron" mincondition="0.9" />
+      <Item identifier="plastic" copycondition="true" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="960,960,64,64" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.54" sourcerect="1,435,47,77" origin="0.49019924,0.44504407" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="76239mm">
+      <Containable items="76239mm" />
+      <StatusEffect type="OnUse" target="This" condition="-2.5" disabledeltatime="true">
+        <SpawnItem identifiers="76239mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//AKM-->
+  <Item name="" identifier="akm" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,gun,weapon,heavygun" scale="0.35" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
+    <Price baseprice="200" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="0.9" minavailable="12" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="895,830,67,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="1,76,313,76" depth="0.55" />
+    <Body width="90" height="30" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AKM" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="353,0,93,304" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.35" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-5" aimpos="45,0" handle1="-40,-10" handle2="30,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon barrelpos="45,20" spread="2" unskilledspread="10" combatPriority="50" reload="0.1" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/akmshot.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/akmshot1.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="50" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="76239mmmag" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifiers="76239mmmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="10,-20" depth="0.65">
+      <Containable identifiers="76239mmmag" />
+    </ItemContainer>
+  </Item>
+  <!--//AKM magazine-->
+  <Item name="" identifier="76239mmmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="akm" minamount="0" maxamount="1" spawnprobability="1" />
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
+    <Price baseprice="50" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="true" />
+      <Price locationtype="city" multiplier="0.1" minavailable="2" />
+      <Price locationtype="research" multiplier="0.1" sold="false" />
+      <Price locationtype="military" multiplier="1.25" minavailable="4" />
+      <Price locationtype="mine" multiplier="0.1" sold="false" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="312,449,53,58" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.65" sourcerect="312,449,53,58" origin="0.5,0.5" />
+    <Body width="105" height="78" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="76239mm">
+      <Containable items="76239mm" />
+      <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
+        <SpawnItem identifiers="76239mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="76239mm" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="76239mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
+    <Body width="40" height="14" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
+        <Affliction identifier="bleeding" strength="5" />
+        <Affliction identifier="gunshotwound" strength="10" />
+        <Affliction identifier="stun" strength="0.05" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="3" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//AKS74-->
+  <Item name="" identifier="aksu" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.28" impactsoundtag="impact_metal_light">
+    <Deconstruct time="32">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="769,841,59,48" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="0,175,318,85" depth="0.55" origin="0.5,0.5" />
+    <Body width="300" height="136" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AKSU" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="446,0,100,318" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.28" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-5" aimpos="45,0" handle1="-40,-10" handle2="45,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.08" barrelpos="40,20" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/aksushot1.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="100" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="aksumag,ak74mmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="25,-30" containedspritedepth="0.56">
+      <Containable items="aksumag,ak74mmag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="ak74m" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.28" impactsoundtag="impact_metal_light">
+    <Deconstruct time="32">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="895,830,67,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="0,534,410,100" depth="0.55" origin="0.5,0.5" />
+    <Body width="300" height="136" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AK74M" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="158,411,97,410" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.28" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-70,-5" handle2="45,15" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.08" barrelpos="40,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/ak74mshot.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/ak74mshot1.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="100" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="aksumag,ak74mmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="-5,-25" containedspritedepth="0.65">
+      <Containable items="aksumag,ak74mmag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="ak74mmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="213,444,46,68" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.54" sourcerect="213,444,46,68" origin="0.5,0.5" />
+    <Body width="105" height="78" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
+        <SpawnItem identifiers="54539mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="54539mm" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="54539mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
+    <Body width="40" height="14" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
+        <Affliction identifier="bleeding" strength="15" />
+        <Affliction identifier="gunshotwound" strength="10" />
+        <Affliction identifier="stun" strength="0.05" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="3" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//AKS magazine-->
+  <Item name="" identifier="aksumag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="167,444,46,68" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.54" sourcerect="167,444,46,68" origin="0.5,0.5" />
+    <Body width="105" height="78" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
+        <SpawnItem identifiers="54539mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="54539mm" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//Shotgun-->
+  <Item name="" identifier="mts21" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,heavygun" Scale="0.40" impactsoundtag="impact_metal_light">
+    <Deconstruct time="60">
+      <Item identifier="steel" />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="727,841,43,48" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="3,283,190,53" depth="0.55" origin="0.5,0.5" />
+    <Body width="520" height="90" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="MTS21" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="277,308,53,191" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.4" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-20" aimpos="35,-20" handle1="-70,-5" handle2="100,-20" holdangle="-30" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon barrelpos="40,10" spread="10" unskilledspread="50" combatPriority="85" reload="1.3" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/ksm.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm1.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm2.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm3.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm4.ogg" type="OnUse" range="2800" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="200" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" delay="0.8">
+        <Sound file="Content/Items/Weapons/ShotgunLoad1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad2.ogg" type="OnUse" range="3000" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad3.ogg" type="OnUse" range="3000" />
+      </StatusEffect>
+      <RequiredItems items="shotgunammo" type="Contained" maxstacksize="4" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" itempos="27,10" iteminterval="0,-4" hideitems="true">
+      <Containable items="shotgunammo" />
+    </ItemContainer>
+    <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="izh58" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,heavygun" Scale="0.30" impactsoundtag="impact_metal_light" hideinmenus="false">
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="263,280,184,46" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="263,280,184,46" depth="0.55" origin="0.5,0.5" />
+    <Body width="180" height="45" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="IZH58" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="382,304,46,184" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.3" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="35,-10" aimpos="35,-10" handle1="-15,-6" handle2="26,7" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon barrelpos="45,10" spread="1" unskilledspread="10" combatPriority="80" reload="1.5" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="Content/Items/Weapons/ShotgunShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="Content/Items/Weapons/ShotgunShot2.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/ShotgunShot3.ogg" type="OnUse" range="3000" />
+      <Sound file="Content/Items/Weapons/ShotgunShot4.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="20" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="200" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" delay="1.0">
+        <Sound file="Content/Items/Weapons/ShotgunLoad1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad2.ogg" type="OnUse" range="3000" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad3.ogg" type="OnUse" range="3000" />
+      </StatusEffect>
+      <RequiredItems items="shotgunammo" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" maxstacksize="2" itempos="27,10" iteminterval="0,-4" hideitems="true">
+      <Containable items="shotgunammo" />
+    </ItemContainer>
+    <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
+  </Item>
+  <!--//Shotgunshelltrauma-->
+  <Item name="" identifier="shotgunshelltrauma" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+    <Body width="23" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" hitscancount="1" removeonhit="true" spread="1">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.5">
+        <Affliction identifier="blunttrauma" strength="10" />
+        <Affliction identifier="stun" strength="1" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="shotgunshellcombat" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+    <Body width="23" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" hitscancount="8" removeonhit="true" spread="15">
+      <ParticleEmitter particle="tracerfirearm" particleamount="8" velocitymin="-20" velocitymax="20" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
+        <Affliction identifier="bleeding" strength="4" />
+        <Affliction identifier="gunshotwound" strength="5" />
+        <Affliction identifier="stun" strength="0.1" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="shotgunshellslug" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
+    <Body width="23" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="1">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="-5" velocitymax="5" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="4" itemdamage="20" severlimbsprobability="0.2">
+        <Affliction identifier="bleeding" strength="40" />
+        <Affliction identifier="gunshotwound" strength="20" />
+        <Affliction identifier="stun" strength="0.05" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="kiparis" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.22" impactsoundtag="impact_metal_light">
+    <Deconstruct time="33">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="466,0,326,101" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="466,0,326,101" depth="0.55" />
+    <Body width="72" height="40" density="50" origin="0.5,0.5" />
+    <Wearable slots="OuterClothes">
+      <sprite name="Kiparis" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="546,0,101,326" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.22" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,5" aimpos="40,5" handle1="10,0" handle2="80,-5" holdangle="-50" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.1" barrelpos="30,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol2.ogg" type="OnUse" range="2400" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol3.ogg" type="OnUse" range="2400" />
+      <StatusEffect type="OnUse">
+        <Explosion range="120.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="20" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifier="kiparismag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="80,-10" containedspritedepth="0.56">
+      <Containable items="kiparismag" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="kiparismag" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="steel" outcondition="0.5" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="393,444,28,66" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.56" sourcerect="393,444,28,66" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="pmround">
+      <Containable items="pmround" />
+      <StatusEffect type="OnUse" target="This" condition="-5.0" disabledeltatime="true">
+        <SpawnItem identifiers="pmround" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!--//Pistol-->
+  <Item name="" identifier="pmpistol" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.30" impactsoundtag="impact_metal_light">
+    <Deconstruct time="33">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="696,845,26,42" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="357,95,79,59" depth="0.55" />
+    <Body width="72" height="40" density="50" origin="0.5,0.5" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.25" barrelpos="8,15" spread="0" unskilledspread="1" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol1.ogg" type="OnUse" range="2400" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol2.ogg" type="OnUse" range="2400" />
+      <Sound file="%ModDir%/Items/Weapons/pmpistol3.ogg" type="OnUse" range="2400" />
+      <StatusEffect type="OnUse">
+        <Explosion range="120.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="20" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifier="pmmag,pmmagtrauma" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="true">
+      <Containable items="pmmag,pmmagtrauma" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="pmmag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="steel" outcondition="0.5" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="785,964,26,47" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.56" sourcerect="113,443,35,64" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="pmround">
+      <Containable items="pmround" />
+      <StatusEffect type="OnUse" target="This" condition="-13.0" disabledeltatime="true">
+        <SpawnItem identifiers="pmround" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="pmmagtrauma" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="steel" outcondition="0.5" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="785,964,26,47" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.56" sourcerect="113,443,35,64" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="pmroundtrauma">
+      <Containable items="pmroundtrauma" />
+      <StatusEffect type="OnUse" target="This" condition="-13.0" disabledeltatime="true">
+        <SpawnItem identifiers="pmroundtrauma" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="pmround" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
+    <Body width="29" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.001">
+        <Affliction identifier="bleeding" strength="10" />
+        <Affliction identifier="gunshotwound" strength="15" />
+        <Affliction identifier="stun" strength="0.05" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="pmroundtrauma" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
+    <Body width="29" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" stun="0.15" targetforce="4">
+        <Affliction identifier="blunttrauma" strength="10" />
+        <Affliction identifier="stun" strength="0.5" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <!--//Revolver-->
+  <Item name="" identifier="ots38" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.35" impactsoundtag="impact_metal_light">
+    <Deconstruct time="26">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/iconatlas_weapons.png" sourcerect="663,845,23,42" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="357,16,79,55" depth="0.55" origin="0.5,0.5" />
+    <Body width="72" height="40" density="50" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Sound file="%ModDir%/Items/Weapons/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <StatusEffect type="OnUse">
+        <Explosion range="75.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
+      </StatusEffect>
+      <RequiredItems items="76241mm" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="true">
+      <Containable items="76241mm" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="76241mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverammo" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
+    <Body width="29" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="20" severlimbsprobability="0.1">
+        <Affliction identifier="bleeding" strength="40" />
+        <Affliction identifier="gunshotwound" strength="30" />
+        <Affliction identifier="stun" strength="0.4" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <!--//TT-->
+  <Item name="" identifier="tt33" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.35" impactsoundtag="impact_metal_light">
+    <Deconstruct time="26">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="355,177,89,62" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="355,177,89,62" depth="0.55" origin="0.5,0.5" />
+    <Body width="72" height="40" density="50" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.5" barrelpos="10,15" spread="0" unskilledspread="1" combatPriority="30" drawhudwhenequipped="true" crosshairscale="0.2">
+      <Sound file="%ModDir%/Items/Weapons/welrod.ogg" type="OnUse" range="800" selectionmode="Random" />
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <StatusEffect type="OnUse">
+        <Explosion range="75.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="50" />
+      </StatusEffect>
+      <RequiredItems items="tt33mag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="true">
+      <Containable items="tt33mag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="tt33mag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="steel" outcondition="0.5" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="442,456,27,49" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.56" sourcerect="442,456,27,49" origin="0.5,0.5" />
+    <Body width="30" height="40" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="76225mm">
+      <Containable items="76225mm" />
+      <StatusEffect type="OnUse" target="This" condition="-20.0" disabledeltatime="true">
+        <SpawnItem identifiers="76225mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="76225mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
+    <Body width="29" height="10" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="20" severlimbsprobability="0.1">
+        <Affliction identifier="bleeding" strength="40" />
+        <Affliction identifier="gunshotwound" strength="30" />
+        <Affliction identifier="stun" strength="0.4" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+  </Item>
+  <Item name="" identifier="smokegrenade" category="Equipment" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="1">
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+      <Item identifier="flashpowder" mincondition="0.75" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="130,312,27,54" depth="0.55" origin="0.5,0.5" />
+    <Body width="26" height="50" density="30" />
+    <ItemComponent characterusable="false">
+      <StatusEffect type="OnUse" target="This" Condition="-15.0" disabledeltatime="true">
+        <Conditional Condition="eq 100" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" Condition="-2">
+        <Conditional Condition="lt 100" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This,Hull">
+        <Conditional Condition="lt 99" />
+        <ParticleEmitter particle="smoke" anglemin="0" anglemax="360" particlespersecond="5" scale="15" velocitymin="100" velocitymax="200" />
+        <ParticleEmitter particle="DarkSmoke" anglemin="0" anglemax="360" particlespersecond="5" scale="15" velocitymin="100" velocitymax="200" />
+        <ParticleEmitter particle="heavysmoke" anglemin="0" anglemax="360" particlespersecond="5" scale="15" velocitymin="100" velocitymax="200" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemComponent>
+    <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10.0" delay="0.5" disabledeltatime="true">
+        <Conditional Condition="eq 100" />
+      </StatusEffect>
+    </Throwable>
+  </Item>
+  <Item name="" identifier="co2grenade" category="Equipment" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" scale="0.5" impactsoundtag="impact_metal_light" maxstacksize="1">
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+      <Item identifier="flashpowder" mincondition="0.75" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="130,312,27,54" depth="0.55" origin="0.5,0.5" />
+    <Body width="26" height="50" density="30" />
+    <ItemComponent characterusable="false">
+      <StatusEffect type="OnUse" target="This" Condition="-15.0" disabledeltatime="true">
+        <Conditional Condition="eq 100" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" Condition="-2">
+        <Conditional Condition="lt 100" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This,Hull" oxygen="-27500.0">
+        <Conditional Condition="lt 85" />
+        <Affliction identifier="oxygenlow" amount="3" />
+        <ParticleEmitter particle="smoke" anglemin="0" anglemax="360" particlespersecond="3" velocitymin="25" velocitymax="75" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="NearbyCharacters" range="200" duration="10">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+        <Affliction identifier="oxygenlow" strength="1" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemComponent>
+    <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-10.0" delay="0.5" disabledeltatime="true">
+        <Conditional Condition="eq 100" />
+      </StatusEffect>
+    </Throwable>
+  </Item>
+  <Item name="" identifier="ru_stungrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" Scale="0.5" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+      <Item identifier="phosphorus" mincondition="0.9" />
+      <Item identifier="flashpowder" mincondition="0.9" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="130,312,27,54" depth="0.55" origin="0.5,0.5" />
+    <Body width="26" height="50" density="30" />
+    <ItemComponent characterusable="false">
+      <!-- statuseffect that explodes the grenade when used by something else than a character (e.g. a detonator) -->
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect type="OnBroken" target="This">
+        <sound file="Content/Items/Weapons/StunGrenade.ogg" />
+        <Explosion range="500" force="0.1" smoke="false">
+          <Affliction identifier="stun" strength="10" />
+        </Explosion>
+      </StatusEffect>
+    </ItemComponent>
+    <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-100.0" delay="3.0" disabledeltatime="true" checkconditionalalways="true" />
+    </Throwable>
+  </Item>
+  <Item name="" identifier="f1grenade" category="Equipment" maxstacksize="1" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+      <Item identifier="uex" mincondition="0.9" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="580,770,54,63" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="217,305,40,61" depth="0.55" origin="0.5,0.5" />
+    <Body radius="20" height="10" density="30" />
+    <Projectile characterusable="false" launchimpulse="5" sticktocharacters="true" severlimbsprobability="0.1">
+      <Attack structuredamage="0" stun="0.2" itemdamage="100">
+        <Affliction identifier="lacerations" strength="10" />
+        <Affliction identifier="stun" strength="0.25" />
+      </Attack>
+      <sound file="Content/Items/Weapons/ExplosionMedium2.ogg" type="OnUse" range="2000" selectionmode="All" />
+      <sound file="Content/Items/Weapons/ExplosionDebris2.ogg" type="OnUse" range="2000" />
+      <StatusEffect type="OnUse" Condition="-100.0" stun="10.0" disabledeltatime="true">
+        <Explosion range="200.0" structuredamage="5" itemdamage="250" stun="2" force="5" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
+          <Affliction identifier="bleeding" strength="50" />
+          <Affliction identifier="explosiondamage" strength="40" />
+          <Affliction identifier="stun" strength="1" />
+        </Explosion>
+      </StatusEffect>
+      <!--Destroy this after exploding-->
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnBroken">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+    <ItemComponent characterusable="false">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect type="OnBroken" target="This">
+        <sound file="Content/Items/Weapons/ExplosionMedium1.ogg" type="OnUse" range="10000" selectionmode="All" />
+        <sound file="Content/Items/Weapons/ExplosionDebris1.ogg" type="OnUse" range="10000" />
+        <Explosion range="600.0" structuredamage="0" ballastfloradamage="120" itemdamage="500" force="10" severlimbsprobability="2" decal="explosion" decalsize="0.5">
+          <Affliction identifier="bleeding" strength="80" />
+          <Affliction identifier="explosiondamage" strength="180" />
+          <Affliction identifier="stun" strength="2" />
+        </Explosion>
+        <Remove />
+      </StatusEffect>
+    </ItemComponent>
+    <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-100.0" delay="3.0" disabledeltatime="true" checkconditionalalways="true" />
+    </Throwable>
+  </Item>
+  <Item name="" identifier="pr73m" scale="0.32" category="Equipment" tags="smallitem,weapon" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_heavy">
+    <Deconstruct time="7">
+      <Item identifier="aluminium" />
+      <Item identifier="rubber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="rubber" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/melee.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/melee.png" sourcerect="0,272,224,64" depth="0.55" origin="0.5,0.75" />
+    <Body width="224" height="28" density="20" />
+    <MeleeWeapon slots="RightHand,Any" controlpose="true" holdpos="35,-40" aimpos="45,10" handle1="-22,-3" holdangle="40" reload="0.8" range="50" combatPriority="30" msg="ItemMsgPickUpSelect">
+      <Attack targetimpulse="3" severlimbsprobability="0" itemdamage="0">
+        <Affliction identifier="blunttrauma" strength="10" />
+        <Affliction identifier="stun" strength="1" />
+        <Sound file="Content/Items/Weapons/Smack1.ogg" range="800" />
+      </Attack>
+    </MeleeWeapon>
+  </Item>
+  <Item name="" identifier="riotshield" category="Equipment" tags="weapon" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,320,64,64" />
+    <Sprite texture="Content/Items/Jobgear/Security/riotgear.png" sourcerect="31,54,27,147" origin="0.5,0.5" depth="0.55" />
+    <Body width="40" height="145" density="30" />
+    <Wearable slots="OuterClothes">
+      <sprite name="Riotshield" texture="Content/Items/Jobgear/Security/riotgear.png" sourcerect="31,54,27,147" limb="Torso" hidelimb="false" origin="1.3,0.35" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" aimpos="60,-30" holdpos="45,-30" handle1="-10,0" handle2="10,0" controlpose="true" blocksplayers="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.6" setvalue="true" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="ar15" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.25" impactsoundtag="impact_metal_light">
+    <Deconstruct time="32">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="0,642,411,113" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="0,642,411,113" depth="0.55" origin="0.5,0.5" />
+    <Body width="140" height="60" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AR-15" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="158,0,119,411" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.25" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="55,5" aimpos="55,10" handle1="-50,-15" handle2="45,10" holdangle="-50" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.08" barrelpos="40,23" spread="10" unskilledspread="16" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/aksushot.ogg" type="OnUse" range="3000" selectionmode="Random" />
+      <Sound file="%ModDir%/Items/Weapons/aksushot1.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="40" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="ar15mag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="-5,-40" containedspritedepth="0.65" scale="0.15">
+      <Containable items="ar15mag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="ar15mag" cargocontaineridentifier="metalcrate" scale="0.3" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="267,443,39,71" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" depth="0.54" sourcerect="267,443,39,71" origin="0.5,0.5" />
+    <Body width="105" height="78" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <StatusEffect type="OnUse" target="This" condition="-3" disabledeltatime="true">
+        <SpawnItem identifiers="55645round" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="55645round" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="55645round" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+    <InventoryIcon texture="%ModDir%/Items/weapons/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
+    <Body width="40" height="14" density="40" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6" />
+      <Attack structuredamage="0" targetforce="5" itemdamage="10" severlimbsprobability="0.05">
+        <Affliction identifier="bleeding" strength="15" />
+        <Affliction identifier="gunshotwound" strength="10" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="3" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+    </Projectile>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="izdelie" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,heavygun" Scale="0.22" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="fabricator" requiredtime="40">
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="aluminium" />
+    </Fabricate>
+    <Deconstruct time="33">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="482,147,271,104" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/weapons.png" sourcerect="482,147,271,104" depth="0.55" />
+    <Body width="72" height="40" density="50" origin="0.5,0.5" />
+    <Wearable slots="OuterClothes">
+      <sprite name="izdelie" texture="%ModDir%/Items/Weapons/weapons_wearable.png" sourcerect="277,499,104,271" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.22" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="40,-10" handle1="-100,-10" handle2="120,0" holdangle="-50" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="2.5" barrelpos="30,20" spread="10" unskilledspread="50" combatPriority="45" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/ksm.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm1.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm2.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm3.ogg" type="OnUse" range="2800" />
+      <Sound file="%ModDir%/Items/Weapons/ksm4.ogg" type="OnUse" range="2800" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="20" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="200" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" delay="1.0">
+        <Sound file="Content/Items/Weapons/ShotgunLoad1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad2.ogg" type="OnUse" range="3000" />
+        <Sound file="Content/Items/Weapons/ShotgunLoad3.ogg" type="OnUse" range="3000" />
+      </StatusEffect>
+      <RequiredItems identifier="76241mm,shotgunammo,76239mm,54539mm,pmround,pmroundtrauma,55645round" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" maxstacksize="1" itempos="27,10" iteminterval="0,-4" hideitems="true">
+      <Containable items="76241mm,shotgunammo,76239mm,54539mm,pmround,pmroundtrauma,55645round" />
+    </ItemContainer>
+  </Item>
+</Items>

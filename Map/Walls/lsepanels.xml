@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="lsepanel1" identifier="lsepanel1" tags="hidden" scale="0.5" interactdistance="100" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true">
+    <trigger x="0" y="0" width="64" height="64" />
+    <sprite texture="%ModDir%/Map/Walls/panels.png" sourcerect="0,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false" />
+    <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+  <Item name="lsepanel2" identifier="lsepanel2" tags="hidden" scale="0.5" interactdistance="100" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true">
+    <trigger x="0" y="0" width="64" height="64" />
+    <sprite texture="%ModDir%/Map/Walls/panels.png" sourcerect="65,0,64,64" depth="0.885" origin="0.5,0.5" canflipx="false" />
+    <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+  <Item name="lsepanel3" identifier="lsepanel3" tags="hidden" scale="0.5" interactdistance="100" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true">
+    <trigger x="0" y="0" width="64" height="64" />
+    <sprite texture="%ModDir%/Map/Walls/panels.png" sourcerect="0,65,64,64" depth="0.885" origin="0.5,0.5" canflipx="false" />
+    <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+  <Item name="biglsepanel1" identifier="biglsepanel1" tags="hidden" scale="0.5" interactdistance="100" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true">
+    <trigger x="0" y="0" width="128" height="128" />
+    <sprite texture="%ModDir%/Map/Walls/panels.png" sourcerect="130,0,128,128" depth="0.885" origin="0.5,0.5" canflipx="false" />
+    <ItemContainer capacity="6" slotsperrow="3" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+  <Item name="biglsepanel2" identifier="biglsepanel2" tags="hidden" scale="0.5" interactdistance="100" requirebodyinsidetrigger="false" requirecursorinsidetrigger="true">
+    <trigger x="0" y="0" width="128" height="96" />
+    <sprite texture="%ModDir%/Map/Walls/panels.png" sourcerect="259,0,128,96" depth="0.885" origin="0.5,0.5" canflipx="false" />
+    <ItemContainer capacity="6" slotsperrow="3" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+    <Upgrade gameversion="0.10.0.0" scale="*0.676" />
+  </Item>
+  <Item name="leatherchair1" identifier="leatherchair1" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Map/Walls/furniture.png" sourcerect="13,238,126,178" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+  <Item name="leatherchair2" identifier="leatherchair2" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Map/Walls/furniture.png" sourcerect="148,287,178,129" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+</Items>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="fuelrod" Tags="smallitem,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="">
+    <PreferredContainer primary="reactorcab" minamount="2" maxamount="5" spawnprobability="1" />
+    <PreferredContainer primary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <Price baseprice="910">
+      <Price locationtype="outpost" multiplier="1" minavailable="2" maxavailable="2" />
+      <Price locationtype="city" multiplier="0.9" minavailable="3" maxavailable="5" />
+      <Price locationtype="research" multiplier="1" minavailable="2" maxavailable="5" />
+      <Price locationtype="military" multiplier="1" minavailable="2" maxavailable="5" />
+      <Price locationtype="mine" multiplier="0.8" minavailable="4" maxavailable="8" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="25" />
+      <RequiredItem identifier="uranium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="410,1,19,68" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,64,64,64" origin="0.5,0.5" />
+    <BrokenSprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" depth="0.500" offset="0,0" origin="0.5,0.5" maxcondition="99.99" />
+    <Body radius="6" height="55" density="20" />
+    <LightComponent range="350.0" lightcolor="40,180,40,255" powerconsumption="3" MinVoltage="0.99" IsOn="true" castshadows="true" allowingameediting="false">
+      <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
+    </LightComponent>
+    <Holdable holdpos="30,-15" handle1="0,0" slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <!--Give the fuel rod a "hot" tag when it looses any condition -->
+      <StatusEffect type="Always" target="This" duration="0.1" stackable="false" tags="hot">
+        <Conditional condition="lt 100" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.5 if rod is at full condition -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" setvalue="true" scale="0.5">
+        <Conditional condition="eq 100" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.45 every half second if the rod is hot and give it voltage so it emits light -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" delay="0.5" setvalue="true" scale="0.45" voltage="1">
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--Make the rod loose condition if its contained in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This" disabledeltatime="false" scale="-0.1">
+        <Conditional hastag="eq container" targetcontainer="true" />
+      </StatusEffect>
+      <!--Cause fire if the rod is hot AND if its in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This">
+        <Conditional scale="lt 0.45" />
+        <Fire />
+      </StatusEffect>
+      <!--If the rod's condition is 0, return it to 0.001, which enables me to use RequiredItem and will give reactor energy close to 0 and enables light to stay on -->
+      <StatusEffect type="Always" targettype="This" disabledeltatime="true" delay="1" stackable="false" setvalue="true" condition="0.001">
+        <Conditional condition="eq 0" />
+      </StatusEffect>
+      <!--If character holds a hot rod, give him exposure -->
+      <StatusEffect type="OnContained" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
+        <Conditional hastag="hot" />
+        <Affliction identifier="radiationsickness" strength="18" />
+      </StatusEffect>
+      <!--Constantly emits radiation sickness -->
+      <StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="100" stackable="false">
+        <Affliction identifier="radiationsickness" strength="1" />
+      </StatusEffect>
+      <!--Make a hot rod sizzle in water -->
+      <StatusEffect type="InWater" target="This">
+        <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="50" scalemin="1" scalemax="1" />
+        <ParticleEmitter particle="extinguisher" anglemin="0" anglemax="360" velocitymin="5.0" velocitymax="50.0" particlespersecond="40" />
+        <sound file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="OnUse" range="300.0" loop="true" />
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
+      <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" stackable="false" delay="1">
+        <Conditional hastag="hot" />
+        <Explosion range="30" stun="0" force="1" smoke="false" flames="false" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.0" flash="false" flashRange="90">
+          <Affliction identifier="radiationsickness" strength="10" />
+        </Explosion>
+        <Fire />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="fulguriumfuelrod" Tags="smallitem,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="Rod of dangerous radioactive material, used by humanity as the only reliable power source on Europa. Cooling down heated rod takes years under flowing water. Use tongs to deal with these dangerous items." health="150">
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="fulgurium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="lead" copycondition="true" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="431,1,19,68" />
+    <BrokenSprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" depth="0.500" offset="0,0" origin="0.5,0.5" maxcondition="149.99" />
+    <LightComponent range="350.0" lightcolor="40,180,40,255" powerconsumption="0" MinVoltage="0" IsOn="true" castshadows="true" allowingameediting="false">
+      <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
+      <StatusEffect type="Always" target="This" IsActive="false">
+        <Conditional condition="eq 150" />
+      </StatusEffect>
+      <StatusEffect type="OnContained" target="This" IsActive="false">
+        <Conditional condition="eq 150" />
+      </StatusEffect>
+    </LightComponent>
+    <BrokenSprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" depth="0.500" offset="0,0" origin="0.5,0.5" maxcondition="99" />
+    <Body radius="6" height="55" density="20" />
+    <LightComponent range="350.0" lightcolor="40,180,40,255" powerconsumption="3" MinVoltage="0.99" IsOn="true" castshadows="true" allowingameediting="false">
+      <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
+    </LightComponent>
+    <Holdable holdpos="30,-15" handle1="0,0" slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <!--Give the fuel rod a "hot" tag when it looses any condition -->
+      <StatusEffect type="Always" target="This" duration="0.1" stackable="false" tags="hot">
+        <Conditional condition="lt 150" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.5 if rod is at full condition -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" setvalue="true" scale="0.5">
+        <Conditional condition="eq 150" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.45 every half second if the rod is hot and give it voltage so it emits light -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" delay="0.5" setvalue="true" scale="0.45" voltage="1">
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--Make the rod loose condition if its contained in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This" disabledeltatime="false" scale="-0.1">
+        <Conditional hastag="eq container" targetcontainer="true" />
+      </StatusEffect>
+      <!--Cause fire if the rod is hot AND if its in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This">
+        <Conditional scale="lt 0.45" />
+        <Fire />
+      </StatusEffect>
+      <!--If the rod's condition is 0, return it to 0.001, which enables me to use RequiredItem and will give reactor energy close to 0 and enables light to stay on -->
+      <StatusEffect type="Always" targettype="This" disabledeltatime="true" delay="1" stackable="false" setvalue="true" condition="0.001">
+        <Conditional condition="eq 0" />
+      </StatusEffect>
+      <!--If character holds a hot rod, give him exposure -->
+      <StatusEffect type="OnContained" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
+        <Conditional hastag="hot" />
+        <Affliction identifier="radiationsickness" strength="18" />
+      </StatusEffect>
+      <!--Constantly emits radiation sickness -->
+      <StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="100" stackable="false">
+        <Affliction identifier="radiationsickness" strength="1" />
+      </StatusEffect>
+      <!--Make a hot rod sizzle in water -->
+      <StatusEffect type="InWater" target="This">
+        <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="50" scalemin="1" scalemax="1" />
+        <ParticleEmitter particle="extinguisher" anglemin="0" anglemax="360" velocitymin="5.0" velocitymax="50.0" particlespersecond="40" />
+        <sound file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="OnUse" range="300.0" loop="true" />
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
+      <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" stackable="false" delay="1">
+        <Conditional hastag="hot" />
+        <Explosion range="30" stun="0" force="1" smoke="false" flames="false" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.0" flash="false" flashRange="90">
+          <Affliction identifier="radiationsickness" strength="10" />
+        </Explosion>
+        <Fire />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="thoriumfuelrod" Tags="smallitem,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="Rod of dangerous radioactive material, which lasts longer than uranium. Cooling down heated rod takes years under flowing water. Use tongs to deal with these dangerous items." health="200">
+    <PreferredContainer primary="reactorcab" minamount="2" maxamount="3" spawnprobability="1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="60" />
+      <RequiredItem identifier="thorium" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="lead" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="lead" copycondition="true" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,64,64,64" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="452,1,19,68" />
+    <BrokenSprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" depth="0.500" offset="0,0" origin="0.5,0.5" maxcondition="199.99" />
+    <Body radius="6" height="55" density="20" />
+    <LightComponent range="350.0" lightcolor="40,180,40,255" powerconsumption="3" MinVoltage="0.99" IsOn="true" castshadows="true" allowingameediting="false">
+      <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
+    </LightComponent>
+    <Holdable holdpos="30,-15" handle1="0,0" slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <!--Give the fuel rod a "hot" tag when it looses any condition -->
+      <StatusEffect type="Always" target="This" duration="0.1" stackable="false" tags="hot">
+        <Conditional condition="lt 200" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.5 if rod is at full condition -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" setvalue="true" scale="0.5">
+        <Conditional condition="eq 200" />
+      </StatusEffect>
+      <!--Keep resetting the scale of the item to 0.45 every half second if the rod is hot and give it voltage so it emits light -->
+      <StatusEffect type="Always" target="This" disabledeltatime="true" delay="0.5" setvalue="true" scale="0.45" voltage="1">
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--Make the rod loose condition if its contained in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This" disabledeltatime="false" scale="-0.1">
+        <Conditional hastag="eq container" targetcontainer="true" />
+      </StatusEffect>
+      <!--Cause fire if the rod is hot AND if its in one of the listed containers -->
+      <StatusEffect type="OnContained" target="This">
+        <Conditional scale="lt 0.45" />
+        <Fire />
+      </StatusEffect>
+      <!--If the rod's condition is 0, return it to 0.001, which enables me to use RequiredItem and will give reactor energy close to 0 and enables light to stay on -->
+      <StatusEffect type="Always" targettype="This" disabledeltatime="true" delay="1" stackable="false" setvalue="true" condition="0.001">
+        <Conditional condition="eq 0" />
+      </StatusEffect>
+      <!--If character holds a hot rod, give him exposure -->
+      <StatusEffect type="OnContained" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
+        <Conditional hastag="hot" />
+        <Affliction identifier="radiationsickness" strength="18" />
+      </StatusEffect>
+      <!--Constantly emits radiation sickness -->
+      <StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="100" stackable="false">
+        <Affliction identifier="radiationsickness" strength="1" />
+      </StatusEffect>
+      <!--Make a hot rod sizzle in water -->
+      <StatusEffect type="InWater" target="This">
+        <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="50" scalemin="1" scalemax="1" />
+        <ParticleEmitter particle="extinguisher" anglemin="0" anglemax="360" velocitymin="5.0" velocitymax="50.0" particlespersecond="40" />
+        <sound file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="OnUse" range="300.0" loop="true" />
+        <Conditional hastag="hot" />
+      </StatusEffect>
+      <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
+      <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" stackable="false" delay="1">
+        <Conditional hastag="hot" />
+        <Explosion range="30" stun="0" force="1" smoke="false" flames="false" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.0" flash="false" flashRange="90">
+          <Affliction identifier="radiationsickness" strength="10" />
+        </Explosion>
+        <Fire />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

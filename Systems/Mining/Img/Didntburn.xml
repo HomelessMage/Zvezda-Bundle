@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--Неплавкое полотно-->
+  <Item name="Неплавкое полотно" identifier="fireCanvas" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="1" />
+      <Price locationtype="research" multiplier="1" minavailable="1" />
+      <Price locationtype="military" multiplier="1" minavailable="1" />
+      <Price locationtype="mine" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <InventoryIcon name="Cook Uniform 1 Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="386,410,116,102" origin="0.5,0.5" />
+    <Sprite name="Cook Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="202,3,212,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="212" height="64" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="OuterClothes+InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Cook Uniform 1 Torso" texture="Didntburn.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Hand" texture="Didntburn.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Hand" texture="Didntburn.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Lower Arm" texture="Didntburn.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Lower Arm" texture="Didntburn.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Upper Arm" texture="Didntburn.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Upper Arm" texture="Didntburn.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Waist" texture="Didntburn.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Thigh" texture="Didntburn.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Thigh" texture="Didntburn.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Leg" texture="Didntburn.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Leg" texture="Didntburn.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Left Shoe" texture="Didntburn.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Cook Uniform 1 Right Shoe" texture="Didntburn.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <ItemContainer capacity="1">
+        <Containable items="smallitem,melted" />
+      </ItemContainer>
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,lacerations" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.00" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.1" setvalue="true" disabledeltatime="true" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
+      <StatusEffect type="OnContained" target="Character" HideFace="true" SpeedMultiplier="0.1" setvalue="true" disabledeltatime="true" />
+    </Holdable>
+  </Item>
+</Items>

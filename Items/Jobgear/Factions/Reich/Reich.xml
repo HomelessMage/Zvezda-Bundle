@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Форма Тысечелетнего рейха -->
+  <Item name="" identifier="nacik_uniform1" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
+    <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
+    <Price baseprice="150">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" minavailable="2" />
+      <Price locationtype="research" multiplier="1" minavailable="1" />
+      <Price locationtype="military" multiplier="1" minavailable="4" />
+      <Price locationtype="mine" multiplier="1" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <InventoryIcon name="Nacik Uniform 1" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="133,410,116,102" origin="0.5,0.5" />
+    <Sprite name="Nacik Uniform 1" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="462,796,201,86" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Nacik Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/Reich/reichfatigues.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    <ItemContainer capacity="5">
+      <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
+    </ItemContainer>
+  </Item>
+</Items>

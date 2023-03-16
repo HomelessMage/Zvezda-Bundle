@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--Сигарета-->
+  <!--Пачка сигарет-->
+  <Item name="" identifier="cigpack" category="Misc" Tags="cntnr,smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="39,1,10,20" depth="0.55" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="50,1,10,20" depth="0.55" maxcondition="0" fadein="true" />
+    <Body width="6" height="16" density="9.8" />
+    <Throwable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" throwforce="2" aimpos="35,-10">
+      <StatusEffect type="OnFire" target="This" Condition="-10" />
+      <StatusEffect type="OnFire" target="This">
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+    </Fabricate>
+    <ItemContainer capacity="12" canbeselected="true" hideitems="false" keepopenwhenequipped="true" spawnwithid="cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette,cigarette">
+      <Containable items="cigarette" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="cigarette" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,10,17,2" depth="0.55" maxcondition="0" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+    <Body width="32" height="4" density="9.9" />
+    <RepairTool structurefixamount="0.0" usablein="Air">
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <ParticleEmitter particle="bubbles" particlespersecond="2" anglemin="-10" anglemax="10" scalemin="0.3" scalemax="0.7" velocitymin="5" velocitymax="100" copyentityangle="true" />
+        <ParticleEmitter particle="fleshsmoke" particlespersecond="1" anglemin="-10" anglemax="10" scalemin="1" scalemax="1.5" velocitymin="5" velocitymax="200" copyentityangle="true" />
+      </StatusEffect>
+      <ParticleEmitter particle="cigsmoke" particlespersecond="1" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" />
+      <LightComponent LightColor="1.0,0.5,0.5,0.2" Flicker="0.4" range="100" IsOn="false" CastShadows="false">
+        <StatusEffect type="OnActive" target="This,Hull" Condition="-2.5">
+          <ParticleEmitter particle="cigsmoke" particlespersecond="2" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="20" scalemin="1" scalemax="3" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Hull" Oxygen="-100" />
+        <StatusEffect type="InWater" target="This" IsOn="false" />
+        <StatusEffect type="OnFire" target="This" Condition="-20" IsOn="true" />
+        <StatusEffect type="OnFire" target="This">
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+        <!-- <StatusEffect type="OnBroken" target="This" IsOn="false" /> -->
+      </LightComponent>
+    </RepairTool>
+    <Holdable slots="RightHand,LeftHand,Any" canBeCombined="true" removeOnCombined="true" controlpose="true" aimpos="30,16" handle1="-7,0" handle2="-7,0">
+      <StatusEffect type="OnUse" target="This">
+        <Explosion range="100.0" structuredamage="0" itemdamage="0" stun="0" force="0.01" severlimbsprobability="0" decal="" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="0.0"></Explosion>
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

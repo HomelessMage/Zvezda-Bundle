@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="flamerz" category="Equipment" Tags="smallitem,weapon,gun" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamericon.png" sourcerect="0,0,250,361" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamer.png" sourcerect="0,0,415,140" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="25">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Body width="150" height="77" density="40" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="75,5" aimpos="75,0" handle1="-143,-20" handle2="40,5" holdangle="-70" msg="ItemMsgPickUpSelect" />
+    <RepairTool firedamage="20.0" structurefixamount="0.0" usablein="Air" range="1200" barrelpos="35,10" fireprobability="0.01" repairmultiple="true" repairthroughwalls="false" repairthroughholes="true" combatpriority="90" spread="2" unskilledspread="99">
+      <RequiredItems items="petroltank" type="Contained" msg="ItemMsgWeldingFuelRequired" />
+      <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />
+      <ParticleEmitter particle="flamethrower" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="1000" velocitymax="1500" highqualitycollisiondetection="true" />
+      <ParticleEmitter particle="flamethrowersmoke" particlespersecond="80" anglemin="0" anglemax="0" velocitymin="150" velocitymax="1000" />
+      <sound file="Content/Items/Weapons/FlameThrowerLoop.ogg" type="OnUse" range="500.0" loop="true" />
+      <!-- bubbles when usage fails (e.g. in water) -->
+      <StatusEffect type="OnFailure" target="UseTarget">
+        <ParticleEmitter particle="bubbles" particlespersecond="20" anglemin="-10" anglemax="10" scalemin="0.3" scalemax="0.7" velocitymin="5" velocitymax="100" copyentityangle="true" />
+        <ParticleEmitter particle="fleshsmoke" particlespersecond="10" anglemin="-10" anglemax="10" scalemin="1" scalemax="1.5" velocitymin="5" velocitymax="200" copyentityangle="true" />
+      </StatusEffect>
+      <!-- make the item unusable when there's less than 10% oxygen -->
+      <StatusEffect type="OnUse" target="Hull,This" UsableIn="None">
+        <Conditional OxygenPercentage="lt 10" />
+      </StatusEffect>
+      <!-- make the item usable again when there's more than 10% oxygen -->
+      <StatusEffect type="OnFailure" target="Hull,This" UsableIn="Air">
+        <Conditional OxygenPercentage="gt 10" />
+      </StatusEffect>
+      <!-- Расход топлива при использовании -->
+      <StatusEffect type="OnUse" targettype="Contained" targets="petroltank" Condition="-6.0" />
+      <!-- do burn damage to characters -->
+      <StatusEffect type="OnUse" target="UseTarget">
+        <Affliction identifier="burn" amount="3.75" />
+      </StatusEffect>
+      <!-- do minor burn damage to the user -->
+      <StatusEffect type="OnUse" target="Character">
+        <Affliction identifier="burn" amount="0.1" />
+      </StatusEffect>
+      <!-- consume oxygen from the hull -->
+      <StatusEffect type="OnUse" target="Hull" Oxygen="-10000" />
+      <!-- Дебаф скорости -->
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.82" setvalue="true" disabledeltatime="true" />
+      <!-- weapons skill 20 required to use the item -->
+      <RequiredSkill identifier="weapons" level="20" />
+      <!-- if the skill requirement isn't met the welding fuel will be used 50% faster -->
+      <StatusEffect type="OnFailure" targettype="Contained" targets="petroltank" Condition="-9.0" />
+      <LightComponent LightColor="255,174,121,255" Flicker="0.5" Range="500">
+        <sprite texture="Content/Items/Electricity/lightsprite.png" origin="0.5,0.5" />
+      </LightComponent>
+    </RepairTool>
+    <!-- one welding fuel or oxygen tank can be contained inside the welding tool -->
+    <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="24,12" containedspritedepth="0.56" containedstateindicatorstyle="tank">
+      <Containable items="petroltank,oxygensource" />
+    </ItemContainer>
+    <aitarget sightrange="5000" soundrange="500" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="petroltank" category="Equipment" maxstacksize="8" Tags="smallitem,petroltank" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light">
+    <Deconstruct time="10">
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="mechanical" level="20" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="ethanol" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="5">
+      <RequiredSkill identifier="mechanical" level="15" />
+      <RequiredItem identifier="weldingfueltank" mincondition="0.0" usecondition="false" />
+      <RequiredItem identifier="ethanol" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Petroltankicon.png" sourcerect="0,0,169,170" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Petroltank.png" sourcerect="0,0,220,51" depth="0.56" />
+    <Body width="42" height="42" density="9.7" />
+    <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnFire" target="This" Condition="-10.0" tags="onfire" duration="1" stackable="false" />
+      <StatusEffect type="OnBroken" target="This" delay="1" stackable="false">
+        <Conditional HasStatusTag="onfire" />
+        <sound file="Content/Items/Weapons/ExplosionSmall3.ogg" range="5000" selectionmode="All" />
+        <sound file="Content/Items/Weapons/ExplosionDebris3.ogg" range="5000" />
+        <Explosion range="250.0" structuredamage="15" force="3.0" ignorefireeffectsfortags="oxygensource,weldingtoolfuel">
+          <Affliction identifier="burn" strength="25" />
+          <Affliction identifier="stun" strength="4" />
+        </Explosion>
+      </StatusEffect>
+    </Holdable>
+    <Quality>
+      <QualityStat stattype="Condition" value="0.1" />
+    </Quality>
+  </Item>
+  <Item name="" identifier="flamerpack" scale="0.5" category="Equipment" tags="mediumitem,petrolpack" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+    <Price baseprice="90" soldeverywhere="false" minleveldifficulty="15">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="0.9" sold="false" />
+      <Price locationtype="research" multiplier="1.25" minavailable="1" />
+      <Price locationtype="military" multiplier="1.25" sold="false" />
+      <Price locationtype="mine" multiplier="1.25" minavailable="2" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="aluminium" />
+      <Item identifier="aluminium" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack2.png" sourcerect="0,0,80,160" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack.png" depth="0.6" sourcerect="0,0,80,160" origin="0.5,0.6" />
+    <Body width="95" height="115" density="15" />
+    <ItemContainer capacity="1" depth="0.5" ShowContainedStateIndicator="false" ShowConditionInContainedStateIndicator="true" UILabel="Перекачка">
+      <Containable items="petroltank,refillableoxygensource" excludeditems="" />
+    </ItemContainer>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
+    <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
+      <sprite name="Flamerpack Wearable" texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="0,0,80,160" origin="1.2,0.6" scale="0.5" />
+      <OxygenGenerator powerconsumption="0.0" minvoltage="0.0" canbeselected="true" msg="ItemMsgInteractSelect">
+        <sound file="Content/Items/OxygenGenerator/OxygenGenerator.ogg" type="OnActive" range="1000.0" volumeproperty="CurrFlow" volume="0.001" loop="true" />
+        <StatusEffect type="OnActive" targettype="Contained" targets="petroltank" Condition="7.0" />
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.78" setvalue="true" disabledeltatime="true" />
+      </OxygenGenerator>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false">
+      <StatusEffect type="OnPicked" target="Character" SpeedMultiplier="0.65" setvalue="true" disabledeltatime="true" />
+    </Holdable>
+  </Item>
+</Items>

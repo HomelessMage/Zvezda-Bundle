@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Голод и жажда" identifier="hunger_tool" scale="0.35" category="Equipment" tags="smallitem,headset" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" Scale="0.2">
+    <InventoryIcon texture="%ModDir%/Systems/Temperature/temperature_tool.png" sourcerect="0,0,500,500" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Temperature/temperature_tool.png" depth="0.6" sourcerect="0,0,500,500" origin="0.5,0.5" />
+    <Holdable holdpos="30,-15" handle1="0,0" slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="60000" stackable="false">
+        <Affliction identifier="thirst" amount="0.0004" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="60000" stackable="false">
+        <Affliction identifier="hunger" amount="0.0003" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

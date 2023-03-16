@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="ekutility_densifiedmaterial_morbusine" aliases="ekutility_bulkcrate_morbusine" category="Material" tags="smallitem,mediumitem,toolbox,mobilecontainer,ek_densifiedresource" scale="0.5" pickdistance="150" impactsoundtag="impact_metal_light" maxstacksize="3">
+    <!--<PreferredContainer primary="medcab" minamount="0" maxamount="1" spawnprobability="0.15"/>-->
+    <PreferredContainer primary="wreckmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
+    <Price baseprice="6500" soldeverywhere="false" minleveldifficulty="15">
+      <!-- 650 -->
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1.1" sold="false" />
+    </Price>
+    <Deconstruct time="5">
+      <Item identifier="morbusine" mincondition="0.1" />
+      <Item identifier="morbusine" mincondition="0.2" />
+      <Item identifier="morbusine" mincondition="0.3" />
+      <Item identifier="morbusine" mincondition="0.4" />
+      <Item identifier="morbusine" mincondition="0.5" />
+      <Item identifier="morbusine" mincondition="0.6" />
+      <Item identifier="morbusine" mincondition="0.7" />
+      <Item identifier="morbusine" mincondition="0.8" />
+      <Item identifier="morbusine" mincondition="0.9" />
+      <Item identifier="morbusine" mincondition="0.99" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator,medicalfabricator" requiredtime="5" outcondition="0.5">
+      <RequiredItem identifier="morbusine" />
+      <RequiredItem identifier="morbusine" />
+      <RequiredItem identifier="morbusine" />
+      <RequiredItem identifier="morbusine" />
+      <RequiredItem identifier="morbusine" />
+    </Fabricate>
+    <BrokenSprite texture="%ModDir%/Items/Materials/ekutility_densifiedmedical.png" sourcerect="448,768,112,96" depth="0.55" origin="0.5,0.5" maxcondition="51" />
+    <Sprite texture="%ModDir%/Items/Materials/ekutility_densifiedmedical.png" depth="0.55" sourcerect="448,864,112,96" />
+    <Body width="110" height="80" density="25" />
+    <Holdable slots="RightHand+LeftHand" holdpos="50,0" handle1="4,22" handle2="4,22" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" removeOnCombined="true">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" />
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+      <CustomInterface drawhudwhenequipped="true" canbeselected="false">
+        <GuiFrame style="ItemUI" absoluteoffset="0,150" anchor="BottomCenter" relativesize="0.06,0.08" />
+        <Button text="Take One">
+          <StatusEffect target="This,Character" type="OnUse" Condition="-10" disabledeltatime="true">
+            <Sound file="Content/Sounds/DropItem.ogg" type="OnUse" range="250" />
+            <SpawnItem identifiers="morbusine" spawnposition="This" />
+          </StatusEffect>
+        </Button>
+      </CustomInterface>
+    </Holdable>
+  </Item>
+</Items>

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Холодильник" identifier="fridge" tags="container,cookcab,fridge" linkable="true" pickdistance="150" waterproof="true">
+    <Sprite texture="%ModDir%/Systems/Nourishment/refrigerator.png" depth="0.84" sourcerect="0,0,100,200" canflipx="false" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="6" style="ItemUI" />
+      <Containable items="smallitem,chem,food,snack" />
+    </ItemContainer>
+  </Item>
+  <Item name="Левосторонний ящик" identifier="cupboardl" tags="container,cookcab,cupboard" linkable="true" pickdistance="150" waterproof="true">
+    <Sprite texture="%ModDir%/Systems/Nourishment/cupboardl.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
+    <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="5" style="ItemUI" />
+      <Containable items="smallitem,chem,food,snack" />
+    </ItemContainer>
+  </Item>
+  <Item name="Правосторонний ящик" identifier="cupboardr" tags="container,cookcab,cupboard" linkable="true" pickdistance="150" waterproof="true">
+    <Sprite texture="%ModDir%/Systems/Nourishment/cupboardr.png" depth="0.84" sourcerect="0,0,64,64" canflipx="false" />
+    <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="5" style="ItemUI" />
+      <Containable items="smallitem,chem,food,snack" />
+    </ItemContainer>
+  </Item>
+  <Item name="Кладовая" identifier="pantry" tags="container,cookcab,pantry" linkable="true" pickdistance="150" waterproof="true">
+    <Sprite texture="%ModDir%/Systems/Nourishment/pantry.png" depth="0.84" sourcerect="0,0,71,181" canflipx="false" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" slotsperrow="6" style="ItemUI" />
+      <Containable items="smallitem,chem,food,snack" />
+    </ItemContainer>
+  </Item>
+  <Item name="Плита" identifier="kitchen" tags="kitchen" category="Machine" linkable="true" allowedlinks="fabricator,medicalfabricator,deconstructor,locker,container,cookcab" description="" scale="0.4">
+    <Sprite texture="%ModDir%/Systems/Nourishment/kitchen.png" sourcerect="0,0,285,260" depth="0.8" />
+    <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
+      <sound file="Content/Items/Fabricators/Fabricator.ogg" type="OnActive" range="1000.0" loop="true" />
+      <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
+      <StatusEffect type="InWater" target="This" condition="-0.5" />
+    </Fabricator>
+    <ConnectionPanel selectkey="Action" canbeselected="true" hudpriority="10" msg="ItemMsgRewireScrewdriver">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="60" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.50" mindeteriorationdelay="60" maxdeteriorationdelay="120" AIRepairThreshold="50" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="0.1,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem items="wrench" type="Equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flames="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+         &gt;
+      </Repairable>
+    <ItemContainer capacity="5" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="" allowuioverlap="true" />
+    <ItemContainer capacity="1" canbeselected="true" hideitems="true" slotsperrow="1" uilabel="" allowuioverlap="true" />
+  </Item>
+  <Override>
+    <Item name="" identifier="wateringcan" category="Equipment" Tags="smallitem,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
+      <InventoryIcon texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="896,0,128,128" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="896,0,128,128" depth="0.55" origin="0.5,0.5" />
+      <Price baseprice="80">
+        <Price locationtype="outpost" multiplier="1" minavailable="1" />
+        <Price locationtype="city" multiplier="1.2" minavailable="1" />
+        <Price locationtype="research" multiplier="0.9" minavailable="2" />
+        <Price locationtype="military" multiplier="1.2" sold="false" />
+        <Price locationtype="mine" multiplier="0.75" sold="false" />
+      </Price>
+      <PreferredContainer primary="storagecab" minamount="0" maxamount="1" spawnprobability="0.125" />
+      <PreferredContainer primary="crewcab" minamount="0" maxamount="2" spawnprobability="0.5" />
+      <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.125" />
+      <Body width="121" height="96" density="40" />
+      <Fabricate suitablefabricators="fabricator" requiredtime="35">
+        <RequiredSkill identifier="mechanical" level="20" />
+        <RequiredItem identifier="steel" />
+        <RequiredItem identifier="plastic" />
+      </Fabricate>
+      <Fabricate suitablefabricators="kitchen" requiredtime="10">
+        <RequiredItem identifier="wateringcan" mincondition="0.0" usecondition="false" />
+      </Fabricate>
+      <Deconstruct time="20">
+        <Item identifier="steel" copycondition="true" mincondition="0.1" />
+        <Item identifier="plastic" copycondition="true" mincondition="0.1" />
+      </Deconstruct>
+      <Holdable slots="Any,RightHand+LeftHand" aimpos="60,0" holdangle="45" handle1="-50,20" handle2="-30,62" msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnUse" target="This" Condition="-0.1" disabledeltatime="true" />
+      </Holdable>
+      <RepairTool wateramount="10.0" range="0" barrelpos="24,21" targetstructures="false" hititems="false">
+        <ParticleEmitter particle="waterdrop" velocitymin="0.0" velocitymax="0.0" particlespersecond="50" />
+      </RepairTool>
+    </Item>
+  </Override>
+  <Item name="Фляжка с водой" identifier="canteen" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment,waterbottle" impacttolerance="8" description="Фляжка наполненная фильтрованной водой. Ее можно наполнить в балласте или из крана кухонной плиты." useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <SuitableTreatment identifier="thirst" suitability="100" />
+    <Fabricate suitablefabricators="kitchen" requiredtime="10">
+      <RequiredItem identifier="canteen" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="iron" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="iron" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect type="InWater" target="This" Condition="100.0" setvalue="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="thirst" amount="25" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Рацион питания" identifier="mre" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,food" impacttolerance="8" description="Индивидуальный рацион питания состоящий из протеинового порошка. Можно приготовить на плите." useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="10">
+      <RequiredItem identifier="mre" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="50" height="58" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="25" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Борщ" identifier="bowl1" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с борщом - разновидности супа на основе свёклы, которая придаёт ему характерный красный цвет." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="canteen" />
+      <RequiredItem identifier="fiberplant" />
+      <RequiredItem identifier="yeastshroom" />
+    </Fabricate>
+    <SuitableTreatment identifier="thirst" suitability="100" />
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="thirst" amount="70" />
+        <ReduceAffliction identifier="hunger" amount="40" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Суп-пюре" identifier="bowl7" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Банка супа-пюре - это густой суп, приготовленный из протертых овощей, круп, мяса, птицы или рыбы; питательное блюдо, которое отличается выраженным вкусом, легко усваивается организмом человека и аппетитно выглядит." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="canteen" />
+      <RequiredItem identifier="canteen" />
+      <RequiredItem identifier="mre" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <SuitableTreatment identifier="thirst" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-25" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+        <ReduceAffliction identifier="thirst" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Котлеты по-киевски" identifier="bowl2" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с котлетами по-киевски - разновидность котлет из отбивного куриного филе, в которые завёрнуты кусочки сливочного масла." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="saltbulb" />
+      <RequiredItem identifier="mre" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Морские водоросли" identifier="bowl3" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с приготовленными морскими водорослями." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="elastinplant" />
+      <RequiredItem identifier="fiberplant" />
+      <RequiredItem identifier="yeastshroom" />
+      <RequiredItem identifier="aquaticpoppy" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect type="InWater" target="This" Condition="100.0" setvalue="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+        <ReduceAffliction identifier="thirst" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Варёные яйца" identifier="bowl4" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Чашка с варёными яйцами - распространённым пищевым продуктом. В силу доступности в настоящее время самыми распространёнными в употреблении являются яйца подводных тварей." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="canteen" />
+      <RequiredItem identifier="saltbulb" />
+      <RequiredItem identifier="mre" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Бутерброд с ветчиной и сыром" identifier="bowl5" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с бутербродом с ветчиной и сыром - закуска, представляющая собой ломтик хлеба или булки, на который положены дополнительные пищевые продукты. Существует огромное количество видов бутербродов — от классических с колбасой или сыром до многослойных из различных сортов мяса, овощей, зелени и соусов или паштетов." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="mre" />
+      <RequiredItem identifier="slimebacteria" />
+      <RequiredItem identifier="elastinplant" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Фрикадельки" identifier="bowl6" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с фрикадельками, заправленными острым соусом - блюдо, представляющее собой шарики из мясного или рыбного фарша." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="mre" />
+      <RequiredItem identifier="slimebacteria" />
+      <RequiredItem identifier="adrenalinegland" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Креветки" identifier="bowl9" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с варёными креветками и капустой." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="swimbladder" />
+      <RequiredItem identifier="adrenalinegland" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Шашлык" identifier="bowl10" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Поднос с кусочками шашлыка животного происхождения." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="50">
+      <RequiredItem identifier="swimbladder" />
+      <RequiredItem identifier="adrenalinegland" />
+      <RequiredItem identifier="saltbulb" />
+    </Fabricate>
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-33.4" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="50" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Торт Наполеон" identifier="bowl8" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с тортом-пирожным из слоёного теста с заварным кремом." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <SuitableTreatment identifier="hunger" suitability="100" />
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" depth="0.6" origin="0.5,0.5" />
+    <Body width="48" height="56" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="15" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Водка «Столичная»" identifier="Stolichnaya vodka" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Price locationtype="City" buyprice="100" />
+    <Price locationtype="Outpost" buyprice="100" />
+    <Fabricate suitablefabricators="fabricator,medicalfabricator,kitchen" requiredtime="20">
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="canteen" />
+      <Fabricate suitablefabricators="torgomat" requiredtime="3">
+        <RequiredItem identifier="10rubles" />
+        <RequiredItem identifier="10rubles" />
+        <RequiredItem identifier="10rubles" />
+        <RequiredItem identifier="5rubles" />
+      </Fabricate>
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/StolichnayaI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/Stolichnaya.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
+    <Body width="31" height="137" density="9" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="8.0" delay="10.0">
+        <ReduceAffliction identifier="internaldamage" amount="2" />
+        <Affliction identifier="drunk" amount="4" />
+        <Affliction identifier="psychosisresistance" amount="200" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="This, Limb" duration="1.0">
+        <ReduceAffliction identifier="bleeding" amount="9" />
+        <ReduceAffliction identifier="burn" amount="15" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true" delay="3.0">
+        <Affliction identifier="durationincrease" amount="50" />
+        <!-- <Affliction identifier="pressureresistance" amount="100" /> -->
+        <Affliction identifier="strengthen" amount="50" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <sound file="%ModDir%/Systems/Nourishment/Alcohol/vodka.ogg" type="OnUse" range="600" selectionmode="All" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Антипохмелин" identifier="pohmelin" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="5" />
+      <RequiredItem identifier="ethanol" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/pohI.png" sourcerect="447,819,80,81" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/pohmelin.png" sourcerect="430.7,722,60,188" depth="0.6" origin="0.5,0.5" />
+    <Body width="60" height="140" density="9" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="10.0" delay="3.0">
+        <ReduceAffliction identifier="drunk" amount="2.5" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <sound file="%ModDir%/Systems/Nourishment/Alcohol/poh.ogg" type="OnUse" range="600" selectionmode="All" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Пиво «Жигулёвское»‎" identifier="beer" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Price locationtype="City" buyprice="120" />
+    <Price locationtype="Outpost" buyprice="120" />
+    <Fabricate suitablefabricators="fabricator,medicalfabricator,kitchen" requiredtime="20">
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="canteen" />
+      <RequiredItem identifier="yeastshroom" />
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/Alcohol/beerI.png" sourcerect="143,124,111,110" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/Alcohol/beer.png" sourcerect="188,104,32,139" origin="0.5,0.5" />
+    <Body width="31" height="137" density="9" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <RequiredSkill identifier="medical" level="1" />
+      <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="8.0" delay="10.0">
+        <ReduceAffliction identifier="internaldamage" amount="2" />
+        <Affliction identifier="drunk" amount="2" />
+        <ReduceAffliction identifier="psychosis" amount="4" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true" delay="3.0">
+        <Affliction identifier="durationincrease" amount="100" />
+        <!-- <Affliction identifier="pressureresistance" amount="100" /> -->
+        <Affliction identifier="strengthen" amount="100" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <sound file="%ModDir%/Systems/Nourishment/Alcohol/beer.ogg" type="OnUse" range="600" selectionmode="All" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <sound file="%ModDir%/Systems/Nourishment/Alcohol/water.ogg" type="OnUse" range="600" selectionmode="All" delay="2.0" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

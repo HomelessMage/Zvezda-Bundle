@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<necroappendage>
+  <limb name="Necroappendage 1" id="13" height="10" width="15" ignorecollisions="True" flip="True">
+    <sprite texture="Content/Characters/Humanhusk/Husk_Injector.png" sourcerect="25,86,20,15" depth="0.5" origin="0.5,0.5" />
+  </limb>
+  <limb name="Necroappendage 2" id="14" height="10" width="15" ignorecollisions="True" flip="True">
+    <sprite texture="Content/Characters/Humanhusk/Husk_Injector.png" sourcerect="46,86,20,15" depth="0.5" origin="0.5,0.5" />
+  </limb>
+  <limb name="Necroappendage 3" id="15" height="10" width="15" ignorecollisions="True" flip="True">
+    <sprite texture="Content/Characters/Humanhusk/Husk_Injector.png" sourcerect="70,86,20,15" depth="0.5" origin="0.5,0.5" />
+  </limb>
+  <limb name="Necroappendage 4" id="16" height="10" width="15" attackpriority="2" flip="True" pullpos="0,25" type="None" healthindex="0" steerforce="0" stepoffset="0,0" radius="0" density="10" refjoint="-1" ignorecollisions="True" notes="" friction="0.3" restitution="0.05">
+    <sprite texture="Content/Characters/Humanhusk/Husk_Injector.png" sourcerect="91,86,20,15" depth="0.5" origin="0.5,0.5" />
+    <attack range="40" damagerange="25" duration="0.1" targetforce="0" structuresoundtype="StructureBlunt" force="6" applyforceonlimbs="1, 16" torque="0" context="Any" targettype="Character" hitdetectiontype="Distance" structuredamage="0" itemdamage="0" stun="0" onlyhumans="False" applyforcesonlyonce="False" targetimpulse="3" targetimpulseworld="0,0" targetforceworld="0,0" severlimbsprobability="0" stickchance="0" priority="0" afterattack="FollowThrough" cooldown="1" secondarycooldown="0" cooldownrandomfactor="0">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <ReduceAffliction identifier="damage" strength="5" />
+      </StatusEffect>
+      <Affliction identifier="bitewounds" strength="2" />
+      <Affliction identifier="bleeding" strength="2" probability="0.5" />
+      <Affliction identifier="necroinfection" strength="1" probability="0.5" />
+      <Affliction identifier="stun" strength="0.3" />
+    </attack>
+  </limb>
+  <!-- Head to husk appendage -->
+  <joint name="Head to Necroappendage" limb1="0" limb2="13" limb1anchor="2.8,-5" limb2anchor="-1.5,0" upperlimit="0" lowerlimit="-10" canbesevered="False" limitenabled="True" />
+  <joint name="Necroappendage 1-2" limb1="13" limb2="14" limb1anchor="1.5,0" limb2anchor="-1.5,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
+  <joint name="Necroappendage 2-3" limb1="14" limb2="15" limb1anchor="1.5,0" limb2anchor="-1.5,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
+  <joint name="Necroappendage 3-4" limb1="15" limb2="16" limb1anchor="1.5,0" limb2anchor="-1.5,0" upperlimit="1" lowerlimit="-1" canbesevered="False" limitenabled="True" />
+</necroappendage>

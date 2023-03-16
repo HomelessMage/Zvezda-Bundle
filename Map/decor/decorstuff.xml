@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <item name="sovietposter1" identifier="sovietposter1" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="0,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter2" identifier="sovietposter2" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="161,0,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter3" identifier="sovietposter3" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="0,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter4" identifier="sovietposter4" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="161,224,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter5" identifier="sovietposter5" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="0,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter6" identifier="sovietposter6" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="161,448,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter7" identifier="sovietposter7" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="0,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <item name="sovietposter8" identifier="sovietposter8" width="160" height="224" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/soviet_posters.png" sourcerect="161,672,160,224" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </item>
+  <OpDeco name="Reich_flag_square" identifier="Reich_flag_square" width="120" height="120" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="0,0,120,120" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Reich_flag_long" identifier="Reich_flag_long" width="130" height="208" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="125,0,130,208" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Reich_flag_triangle" identifier="Reich_flag_triangle" width="128" height="171" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="274,0,128,171" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Reich_eagle" identifier="Reich_eagle" width="130" height="158" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="417,0,130,158" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Ola_banner" identifier="Ola_banner" width="198" height="146" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="562,6,198,146" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Scratches_ver" identifier="Scratches_ver" width="128" height="234" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="786,6,128,234" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+  <OpDeco name="Scratches_hor" identifier="Scratches_hor" width="143" height="74" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+    <sprite texture="%ModDir%/Map/Walls/stuff.png" sourcerect="785,250,143,74" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
+  </OpDeco>
+</Items>

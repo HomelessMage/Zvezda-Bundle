@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--Сберкасса+-->
+  <Item name="Сберкасса+" identifier="atm+" tags="atm" category="Machine" linkable="true" allowedlinks="" description="Размен на больший валютный номинал" scale="0.35">
+    <Sprite texture="%ModDir%/Items/Currency/atm.png" sourcerect="0,0,256,512" depth="0.8" />
+    <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />
+      <sound file="Content/Items/Fabricators/Fabricator.ogg" type="OnActive" range="1000.0" loop="true" />
+      <poweronsound file="Content/Items/PowerOnLight1.ogg" range="600" loop="false" />
+      <StatusEffect type="InWater" target="This" condition="-0.5" />
+    </Fabricator>
+    <ConnectionPanel selectkey="Action" canbeselected="true" hudpriority="10" msg="ItemMsgRewireScrewdriver">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="60" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.50" mindeteriorationdelay="60" maxdeteriorationdelay="120" AIRepairThreshold="50" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.08" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="0.1,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem items="wrench" type="Equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flames="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>&gt;
+        </Repairable>
+    <ItemContainer capacity="10" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="Input" allowuioverlap="true">
+      <Containable items="currency" />
+    </ItemContainer>
+    <ItemContainer capacity="1" canbeselected="true" hideitems="true" slotsperrow="1" uilabel="Output" allowuioverlap="true" />
+  </Item>
+  <!--Сберкасса- -->
+  <Item name="Сберкасса-" identifier="atm-" tags="atm" category="Machine" linkable="true" allowedlinks="" description="Размен на меньший валютный номинал" scale="0.35">
+    <Sprite texture="%ModDir%/Items/Currency/atm.png" depth="0.8" sourcerect="256,0,256,512" />
+    <Deconstructor canbeselected="true" powerconsumption="0.0" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.25" style="ItemUI" anchor="Center" />
+      <sound file="Content/Items/Fabricators/Deconstructor.ogg" type="OnActive" range="1000.0" loop="true" />
+      <poweronsound file="Content/Items/PowerOnLight3.ogg" range="600" loop="false" />
+      <StatusEffect type="InWater" target="This" condition="-0.5" />
+    </Deconstructor>
+    <ConnectionPanel selectkey="Action" canbeselected="true" hudpriority="10" msg="ItemMsgRewireScrewdriver">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredSkill identifier="electrical" level="70" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/Weapons/ElectricalDischarger.ogg" range="1000" />
+        <Explosion range="100.0" stun="0" force="5.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="stun" strength="5" />
+        <Affliction identifier="burn" strength="5" />
+      </StatusEffect>
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+    </ConnectionPanel>
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="0.50" mindeteriorationdelay="60" maxdeteriorationdelay="120" AIRepairThreshold="50" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="0.0,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="55" />
+      <RequiredItem items="wrench" type="equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Explosion range="150.0" force="5" shockwave="false" smoke="false" flames="false" sparks="true" underwaterbubble="false" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+    </Repairable>
+    <ItemContainer capacity="1" canbeselected="true" hideitems="true" hudpos="0.5, 0.4" slotsperrow="5" uilabel="Input" allowuioverlap="true">
+      <Containable items="currency" />
+    </ItemContainer>
+    <ItemContainer capacity="10" canbeselected="true" hideitems="true" hudpos="0.5, 0.8" slotsperrow="5" uilabel="Output" allowuioverlap="true" />
+  </Item>
+  <!--5 рублей-->
+  <Item name="5 рублей" identifier="5rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 5 советских рублей" useinhealthinterface="false" scale="0.35" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wallet" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <Price baseprice="5" soldeverywhere="true">
+      <Price locationtype="outpost" multiplier="1" minavailable="100" />
+      <Price locationtype="city" multiplier="1" minavailable="100" />
+      <Price locationtype="research" multiplier="1" minavailable="100" />
+      <Price locationtype="military" multiplier="1" minavailable="100" />
+      <Price locationtype="mine" multiplier="1" minavailable="100" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="0,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+  </Item>
+  <!--10 рублей-->
+  <Item name="10 рублей" identifier="10rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 10 советских рублей" useinhealthinterface="false" scale="0.35" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wallet" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <Price baseprice="10" soldeverywhere="true">
+      <Price locationtype="outpost" multiplier="1" minavailable="100" />
+      <Price locationtype="city" multiplier="1" minavailable="100" />
+      <Price locationtype="research" multiplier="1" minavailable="100" />
+      <Price locationtype="military" multiplier="1" minavailable="100" />
+      <Price locationtype="mine" multiplier="1" minavailable="100" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="64,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+    <Fabricate suitablefabricators="atm+" requiredtime="5">
+      <RequiredSkill identifier="initiative" level="5" />
+      <RequiredItem identifier="5rubles" />
+      <RequiredItem identifier="5rubles" />
+    </Fabricate>
+    <Deconstruct suitabledeconstructors="atm-" time="5">
+      <Item identifier="5rubles" />
+      <Item identifier="5rubles" />
+    </Deconstruct>
+  </Item>
+  <!--25 рублей-->
+  <Item name="25 рублей" identifier="25rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 25 советских рублей" useinhealthinterface="false" scale="0.35" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wallet" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <Price baseprice="20" soldeverywhere="true">
+      <Price locationtype="outpost" multiplier="1" minavailable="100" />
+      <Price locationtype="city" multiplier="1" minavailable="100" />
+      <Price locationtype="research" multiplier="1" minavailable="100" />
+      <Price locationtype="military" multiplier="1" minavailable="100" />
+      <Price locationtype="mine" multiplier="1" minavailable="100" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="128,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+    <Fabricate suitablefabricators="atm+" requiredtime="5">
+      <RequiredSkill identifier="initiative" level="5" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
+    </Fabricate>
+    <Deconstruct suitabledeconstructors="atm-" time="5">
+      <Item identifier="10rubles" />
+      <Item identifier="10rubles" />
+      <Item identifier="5rubles" />
+    </Deconstruct>
+  </Item>
+  <!--50 рублей-->
+  <Item name="50 рублей" identifier="50rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 50 советских рублей" useinhealthinterface="false" scale="0.35" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wallet" minamount="0" maxamount="2" spawnprobability="0.15" />
+    <Price baseprice="50" soldeverywhere="true">
+      <Price locationtype="outpost" multiplier="1" minavailable="100" />
+      <Price locationtype="city" multiplier="1" minavailable="100" />
+      <Price locationtype="research" multiplier="1" minavailable="100" />
+      <Price locationtype="military" multiplier="1" minavailable="100" />
+      <Price locationtype="mine" multiplier="1" minavailable="100" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="192,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+    <Fabricate suitablefabricators="atm+" requiredtime="5">
+      <RequiredSkill identifier="initiative" level="5" />
+      <RequiredItem identifier="25rubles" />
+      <RequiredItem identifier="25rubles" />
+    </Fabricate>
+    <Deconstruct suitabledeconstructors="atm-" time="5">
+      <Item identifier="25rubles" />
+      <Item identifier="25rubles" />
+    </Deconstruct>
+  </Item>
+  <!--100 рублей-->
+  <Item name="100 рублей" identifier="100rubles" maxstacksize="10" category="Material" Tags="smallitem,currency" impacttolerance="8" description="Банкнота номиналом в 100 советских рублей" useinhealthinterface="false" scale="0.35" impactsoundtag="impact_soft">
+    <PreferredContainer primary="wallet" minamount="0" maxamount="2" spawnprobability="0.15" />
+    <Price baseprice="100" soldeverywhere="true">
+      <Price locationtype="outpost" multiplier="1" minavailable="100" />
+      <Price locationtype="city" multiplier="1" minavailable="100" />
+      <Price locationtype="research" multiplier="1" minavailable="100" />
+      <Price locationtype="military" multiplier="1" minavailable="100" />
+      <Price locationtype="mine" multiplier="1" minavailable="100" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="256,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+    <Fabricate suitablefabricators="atm+" requiredtime="5">
+      <RequiredSkill identifier="initiative" level="5" />
+      <RequiredItem identifier="50rubles" />
+      <RequiredItem identifier="50rubles" />
+    </Fabricate>
+    <Deconstruct suitabledeconstructors="atm-" time="5">
+      <Item identifier="50rubles" />
+      <Item identifier="50rubles" />
+    </Deconstruct>
+  </Item>
+  <!--Кошелёк-->
+  <Item name="Кошелёк" identifier="wallet" category="Equipment" tags="smallitem,wallet" showcontentsintooltip="true" fireproof="true" description="Небольшая сумочка с пластиковыми застёжками, с одним отделением для бумажных денег" impactsoundtag="impact_soft" scale="0.4">
+    <Deconstruct time="10">
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="mechanical" level="5" />
+      <Item identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Currency/currencyatlas.png" sourcerect="448,0,64,64" depth="0.6" origin="0.5,0.5" />
+    <Body width="64" height="64" density="20" />
+    <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"></Holdable>
+    <ItemContainer capacity="6" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="currency,money,idcard" />
+    </ItemContainer>
+    <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
+  </Item>
+</Items>

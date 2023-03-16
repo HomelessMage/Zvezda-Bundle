@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartItems>
+  <ItemSet identifier="easy" order="0"></ItemSet>
+  <ItemSet identifier="normal" order="1"></ItemSet>
+  <ItemSet identifier="hard" order="2"></ItemSet>
+</StartItems>

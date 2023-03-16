@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="carbonMelted" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="10" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="0,0,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="0,0,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="50" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="aluminiumMelted" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="42" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="240,0,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="240,0,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="50" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="zincMelted" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="26" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="480,0,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="480,0,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="50" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="titaniumMelted" category="Material" maxstacksize="1" Tags="smallitem,melted" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.2" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/hot.png" sourcerect="720,0,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/hot.png" sourcerect="720,0,240,160" depth="0.55" scale="0.2" angle="135" origin="0.5,0.5" />
+    <Body width="65" height="80" density="50" />
+    <LightComponent range="350.0" lightcolor="255,29,0,255" powerconsumption="3" MinVoltage="0.99" IsOn="true" castshadows="true" allowingameediting="false">
+      <Sprite texture="%ModDir%/Systems/Reactor/icons_reactor.png" sourcerect="627,248,19,69" />
+    </LightComponent>
+    <Deconstruct time="5">
+      <Item identifier="titaniumCool" />
+      <Item identifier="titaniumCool" />
+    </Deconstruct>
+    <Holdable slots="LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,10" handle1="-11,-7" holdangle="-45" handle2="-11,-7" pickingtime="5.0" attachable="true" reattachable="false">
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.6" />
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+      <!--If character holds a hot rod, give him exposure -->
+      <StatusEffect type="OnActive" targettype="This,Character" disabledeltatime="true" delay="1" stackable="false">
+        <Affliction identifier="Burn" amount="20" />
+      </StatusEffect>
+      <!--Constantly emits radiation sickness -->
+      <!--<StatusEffect type="Always" target="NearbyCharacters" disabledeltatime="true" range="60" stackable="false">
+          <Affliction identifier="Burn" strength="1" />
+        </StatusEffect>        
+        -->
+      <!--Make a hot rod sizzle in water -->
+      <StatusEffect type="InWater" target="This">
+        <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="1" velocitymin="0" velocitymax="50" scalemin="1" scalemax="1" />
+        <ParticleEmitter particle="extinguisher" anglemin="0" anglemax="360" velocitymin="5.0" velocitymax="50.0" particlespersecond="40" />
+        <sound file="%ModDir%/Systems/Reactor/bubbleloop.ogg" type="OnUse" range="300.0" loop="true" />
+      </StatusEffect>
+      <!--If the hot rod isn't contained anywhere, make it start fire and give exposure to nearby characters  -->
+      <StatusEffect type="OnNotContained" target="This" disabledeltatime="true" stackable="false" delay="1">
+        <Explosion range="30" stun="60" force="1" smoke="true" flames="true" shockwave="false" sparks="false" underwaterbubble="false" camerashake="0.01" flash="false" flashRange="90">
+          <Affliction identifier="Burn" strength="10" />
+        </Explosion>
+        <Fire />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="ironMelted" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="4" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="5" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="0,160,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="0,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="25" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="copperMelted" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="3" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="22" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="240,160,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="240,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="50" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="leadMelted" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="18" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="480,160,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="480,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="25" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+  <Item name="" identifier="tinMelted" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
+    <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
+    <PreferredContainer secondary="locker" />
+    <Price baseprice="11" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.1" />
+      <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="720,160,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="720,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="30" density="50" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+</Items>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="as_vall" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,mountableweapon" Scale="0.1" impactsoundtag="impact_metal_light">
+    <Deconstruct time="32">
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="250,735,75,45" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="50,0,1129,269" depth="0.55" origin="0.5,0.5" />
+    <Body width="300" height="136" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AS_VALL" texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="893,320,137,580" limb="Torso" hidelimb="false" origin="1.4,0.4" scale="0.19" />
+    </Wearable>
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="50,5" handle1="-140,-25" handle2="35,30" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon reload="0.08" barrelpos="40,18" spread="5" unskilledspread="10" combatPriority="85" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/Weapon/As_vall/AS_VALL.ogg" type="OnUse" range="2000" />
+      <Sound file="%ModDir%/Items/Weapons/Weapon/As_vall/AS_VALL.ogg" type="OnUse" range="2000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="70.0" force="2" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="100" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <Use />
+      </StatusEffect>
+      <RequiredItems items="as_vallmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="50" />
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="-5,-25" containedspritedepth="0.65">
+      <Containable items="as_vallmag" />
+    </ItemContainer>
+    <aitarget sightrange="2000" soundrange="3000" fadeouttime="5" />
+  </Item>
+  <Item name="" identifier="as_vallmag" cargocontaineridentifier="metalcrate" scale="0.1" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" sourcerect="355,835,64,60" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/As_vall/as_vall1.png" depth="0.54" sourcerect="50,680,138,174" origin="0.5,0.5" />
+    <Body width="105" height="78" density="50" />
+    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <StatusEffect type="OnUse" target="This" condition="-5" disabledeltatime="true">
+        <SpawnItem identifiers="54539mm" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="54539mm" />
+    </ItemContainer>
+    <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+</Items>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="titaniumCool" category="Material" maxstacksize="4" Tags="smallitem,cool" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.2" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="720,0,240,160" />
+    <Sprite texture="%ModDir%/Systems/Mining/Img/Melted.png" sourcerect="720,0,240,160" depth="0.55" angle="135" origin="0.5,0.5" />
+    <Body width="65" height="80" density="50" />
+    <Holdable slots="RightHand+LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,-35" holdangle="15" handle1="-11,-15" handle2="-11,-15" pickingtime="5.0" attachable="true" reattachable="false">
+      <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.7" />
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <AiTarget sightrange="1000" static="true" />
+  </Item>
+</Items>

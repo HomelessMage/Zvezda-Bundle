@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- ПАСПОРТ СССР -->
+  <Item name="" identifier="idcard" category="Equipment" Tags="smallitem,idcard" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="10" soldeverywhere="false" />
+    <InventoryIcon texture="idcard.png" sourcerect="7,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Sprite texture="idcard.png" depth="0.8" sourcerect="7,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Body width="16" height="16" density="20" />
+    <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand,LeftHand" />
+  </Item>
+  <!-- ПАСПОРТ СССР -->
+  <!-- РВАНЫЙ ПАСПОРТ СССР -->
+  <Item name="" identifier="idcardwreck" category="Equipment" Tags="smallitem,wreck_id" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="10" soldeverywhere="false" />
+    <InventoryIcon texture="idcard.png" sourcerect="57,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Sprite texture="idcard.png" depth="0.8" sourcerect="57,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Body width="16" height="16" density="20" />
+    <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand,LeftHand" />
+  </Item>
+  <!-- РВАНЫЙ ПАСПОРТ СССР -->
+  <!-- СЛУЖЕБНОЕ УДОСТОВЕРЕНИЕ ТЫСЯЧЕЛЕТНЕГО РЕЙХА -->
+  <Item name="" identifier="idcardreich" category="Equipment" Tags="smallitem,wreck_id" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="10" soldeverywhere="false" />
+    <InventoryIcon texture="idcard.png" sourcerect="103,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Sprite texture="idcard.png" depth="0.8" sourcerect="103,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Body width="16" height="16" density="20" />
+    <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand,LeftHand" />
+  </Item>
+  <!-- СЛУЖЕБНОЕ УДОСТОВЕРЕНИЕ ТЫСЯЧЕЛЕТНЕГО РЕЙХА -->
+  <!-- СЛУЖЕБНОЕ УДОСТОВЕРЕНИЕ БОЙЦА КМП США -->
+  <Item name="" identifier="idcardusa" category="Equipment" Tags="smallitem,wreck_id" cargocontaineridentifier="metalcrate" scale="0.5">
+    <Price baseprice="10" soldeverywhere="false" />
+    <InventoryIcon texture="idcard.png" sourcerect="153,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Sprite texture="idcard.png" depth="0.8" sourcerect="153,0,34,48" inherittexturescale="true" inheritorigin="true" />
+    <Body width="16" height="16" density="20" />
+    <IdCard slots="Card,Any" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand,LeftHand" />
+  </Item>
+  <!-- СЛУЖЕБНОЕ УДОСТОВЕРЕНИЕ БОЙЦА КМП США -->
+</Items>

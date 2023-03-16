@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="wooden_bed" identifier="wooden_bed" tags="bed" allowattachitems="false" texturescale="1.0,1.0" scale="0.65" category="Decorative" canflipy="false">
+    <sprite texture="%ModDir%/Map/decor/furniture.png" sourcerect="13,37,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
+    <Controller UserPos="0,-30" direction="Right" hidehud="false" canbeselected="true">
+      <limbposition limb="Head" position="47,0" />
+      <limbposition limb="Torso" position="92,0" />
+      <limbposition limb="Waist" position="162,0" />
+      <limbposition limb="RightFoot" position="272,0" />
+      <limbposition limb="LeftFoot" position="272,0" />
+      <limbposition limb="RightHand" position="162,0" allowusinglimb="true" />
+      <limbposition limb="LeftHand" position="162,0" allowusinglimb="true" />
+    </Controller>
+  </Item>
+  <Item name="steel_bed" identifier="steel_bed" tags="bed" allowattachitems="false" texturescale="1.0,1.0" scale="0.65" category="Decorative" canflipy="false">
+    <sprite texture="%ModDir%/Map/decor/furniture.png" sourcerect="13,138,287,101" depth="0.1" premultiplyalpha="false" origin="0.5,0.5" />
+    <Controller UserPos="0,-30" direction="Right" hidehud="false" canbeselected="true">
+      <limbposition limb="Head" position="47,0" />
+      <limbposition limb="Torso" position="92,0" />
+      <limbposition limb="Waist" position="162,0" />
+      <limbposition limb="RightFoot" position="272,0" />
+      <limbposition limb="LeftFoot" position="272,0" />
+      <limbposition limb="RightHand" position="162,0" allowusinglimb="true" />
+      <limbposition limb="LeftHand" position="162,0" allowusinglimb="true" />
+    </Controller>
+  </Item>
+  <Item name="woodencabinet_red" identifier="woodencabinet_red" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
+    <Sprite texture="%ModDir%/Map/decor/furniture.png" depth="0.84" sourcerect="340,55,217,359" origin="0.5,0.5" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="woodencabinet_pink" identifier="woodencabinet_pink" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
+    <Sprite texture="%ModDir%/Map/decor/furniture.png" depth="0.84" sourcerect="568,55,217,359" origin="0.5,0.5" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="woodencabinet_yellow" identifier="woodencabinet_yellow" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
+    <Sprite texture="%ModDir%/Map/decor/furniture.png" depth="0.84" sourcerect="794,55,217,359" origin="0.5,0.5" />
+    <ItemContainer capacity="30" slotsperrow="6" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
+      <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
+      <Containable items="smallitem,mediumitem" />
+    </ItemContainer>
+  </Item>
+  <Item name="sovietlogo" identifier="sovietlogo" allowattachitems="false" texturescale="1.0,1.0" scale="0.5" category="Decorative" noninteractable="true">
+    <sprite texture="%ModDir%/Map/Walls/furniture.png" sourcerect="6,429,147,147" depth="0.95" premultiplyalpha="false" origin="0.5,0.5" />
+  </Item>
+</Items>
