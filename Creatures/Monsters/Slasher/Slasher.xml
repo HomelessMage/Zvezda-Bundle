@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <override>
   <Character speciesname="Slasher" humanoid="False" displayname="" group="" hasinfo="False" husk="False" usehuskappendage="False" needsair="False" canspeak="False" noise="100" visibility="100" blooddecal="blood" eatingspeed="10" pathfinderpriority="1" needswater="False" bleedparticleair="blooddrop" bleedparticlewater="waterblood" hideinsonar="False" speciestranslationoverride="" sonardisruption="0" usebosshealthbar="False" bleedparticlemultiplier="1" distantsonarrange="0" disabledistance="25000" caninteract="False" caneat="True" usepathfinding="True" hideinthermalgoggles="False" soundinterval="10">
-    <ragdolls folder="%ModDir%/Creatures/Ebaki/Slasher/Ragdolls/" />
-    <animations folder="%ModDir%/Creatures/Ebaki/Slasher/Animations/" />
-    <huskappendage affliction="necroinfection" path="%ModDir%/Creatures/Ebaki/Slasher/Necroappendage.xml" />
+    <ragdolls folder="%ModDir%/Creatures/Monsters/Slasher/Ragdolls/" />
+    <animations folder="%ModDir%/Creatures/Monsters/Slasher/Animations/" />
+    <huskappendage affliction="necroinfection" path="%ModDir%/Creatures/Monsters/Slasher/Necroappendage.xml" />
     <bloodemitter particle="blackblood" particleamount="5" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
     <bloodemitter particle="blackwaterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
     <gibemitter particle="heavygib" particleamount="10" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="1" scalemax="1" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/idle1.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/idle2.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/idle3.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/idle4.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/hurt1.ogg" state="Damage" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/hurt2.ogg" state="Damage" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/die1.ogg" state="Die" range="1000" volume="0.5" gender="None" />
-    <sound file="%ModDir%/Creatures/Ebaki/Slasher/die2.ogg" state="Die" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/idle1.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/idle2.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/idle3.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/idle4.ogg" state="Idle" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/hurt1.ogg" state="Damage" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/hurt2.ogg" state="Damage" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/die1.ogg" state="Die" range="1000" volume="0.5" gender="None" />
+    <sound file="%ModDir%/Creatures/Monsters/Slasher/die2.ogg" state="Die" range="1000" volume="0.5" gender="None" />
     <health vitality="400" doesbleed="False" crushdepth="-Infinity" usehealthwindow="False" bleedingreduction="0" burnreduction="0" constanthealthregeneration="0" healthregenerationwheneating="0" stunimmunity="False" applyafflictioncolors="False">
       <Limb name="Head">
         <VitalityMultiplier type="damage" multiplier="1.0" />
