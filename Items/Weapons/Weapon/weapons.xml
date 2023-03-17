@@ -876,9 +876,9 @@
       </Attack>
     </MeleeWeapon>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
-    <Quality>
+    <!-- <Quality>
       <QualityStat stattype="AttackMultiplier" value="0.1" />
-    </Quality>
+    </Quality> -->
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <!--Шип шпинелина-->
