@@ -17,7 +17,7 @@
       </StatusEffect>
       <Affliction identifier="bitewounds" strength="2" />
       <Affliction identifier="bleeding" strength="2" probability="0.5" />
-      <Affliction identifier="necroinfection" strength="1" probability="0.5" />
+      <Affliction identifier="necroinfection" strength="1" probability="25" />
       <Affliction identifier="stun" strength="0.3" />
     </attack>
   </limb>
