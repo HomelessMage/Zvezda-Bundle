@@ -71,6 +71,7 @@
   <Item file="%ModDir%/Systems/Mining/fabricators.xml" />
   <Item file="%ModDir%/Systems/Mining/VanillaFabricators.xml" />
   <Character file="%ModDir%/Creatures/Monsters/Slasher/Slasher.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/Slasher/Necroappendage.xml" />
   <Other file="%ModDir%/Creatures/Monsters/Slasher/death1.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Slasher/death2.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Slasher/death3.ogg" />
@@ -93,6 +94,11 @@
   <Other file="%ModDir%/Creatures/Monsters/Slasher/delusion14.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Slasher/delusion15.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Slasher/delusion16.ogg" />
+  <Character file="%ModDir%/Creatures/Monsters/HumanSlasher/HumanSlasher.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/HumanSlasher/Animations/HumanSlasherRun.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/HumanSlasher/Animations/HumanSlasherSwimFast.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/HumanSlasher/Animations/HumanSlasherSwimSlow.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/HumanSlasher/Animations/HumanSlasherWalk.xml" />
   <Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
   <Other file="%ModDir%/Creatures/Characters/Pig/PigPain.ogg" />
   <Other file="%ModDir%/Creatures/Characters/Pig/PigGrowl.ogg" />
