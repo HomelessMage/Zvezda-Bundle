@@ -17,6 +17,8 @@
   <StatusEffect tags="thirst" type="always" target="This">
     <Affliction identifier="thirst" amount="0.02" />
   </StatusEffect>
+  <!-- Скрываем личность -->
+  <!-- <StatusEffect target="This" indetectable="true" /> -->
   <names path="%ModDir%/Creatures/Characters/Human/Sovnames.xml" />
   <ragdolls folder="default" />
   <animations folder="default" />
