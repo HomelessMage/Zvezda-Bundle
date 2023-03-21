@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <!--Комендант-->
-  <Job name="comendant" identifier="comendant" uicolor="0,0,128" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Комендант" identifier="comendant" uicolor="0,0,128" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="helm" level="100,100" primary="true" />
       <Skill identifier="weapons" level="55,55" />
@@ -11,7 +11,7 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="ComendantuniformK" equip="true" outfit="true" showpreview="true">
+      <Item identifier="comendantuniformK" equip="true" outfit="true" showpreview="true">
         <Item identifier="handcuffs" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
@@ -50,7 +50,7 @@
     </ItemSet>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="Comendantuniform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="comendantuniform" equip="true" outfit="true" showpreview="true">
         <Item identifier="handcuffs" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
@@ -74,7 +74,7 @@
     </ItemSet>
   </Job>
   <!--Милиционер-->
-  <Job name="militia" identifier="militia" uicolor="65,105,255" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Милиционер" identifier="militia" uicolor="65,105,255" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="55,55" primary="true" />
       <Skill identifier="medical" level="15,15" />
@@ -158,7 +158,7 @@
     </ItemSet>
   </Job>
   <!--Бригадир-->
-  <Job name="brigadier" identifier="brigadier" uicolor="255,158,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Бригадир" identifier="brigadier" uicolor="255,158,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="electrical" level="100,100" primary="true" />
       <Skill identifier="mechanical" level="100,100" />
@@ -171,7 +171,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="captan_head3" equip="true" showpreview="true" />
+      <Item identifier="captain_head_3" equip="true" showpreview="true" />
       <Item identifier="crewchiefclothes" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
@@ -181,7 +181,7 @@
     </ItemSet>
   </Job>
   <!--Инженер-->
-  <Job name="engineer" identifier="engineer" uicolor="255,128,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Инженер" identifier="engineer" uicolor="255,128,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="electrical" level="55,55" primary="true" />
       <Skill identifier="mechanical" level="55,55" />
@@ -214,7 +214,7 @@
     <!--Электрик-->
   </Job>
   <!--Механик-->
-  <Job name="mechanic" identifier="mechanic" uicolor="70,130,180" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Механик" identifier="mechanic" uicolor="70,130,180" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="mechanical" level="55,55" primary="true" />
       <Skill identifier="electrical" level="25,25" />
@@ -255,7 +255,7 @@
     </ItemSet>
   </Job>
   <!--Глав Врач-->
-  <Job name="leadermedicaldoctor" identifier="leadermedicaldoctor" uicolor="255,51,51" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Главврач" identifier="leadermedicaldoctor" uicolor="255,51,51" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="medical" level="100,100" primary="true" />
       <Skill identifier="weapons" level="0,0" />
@@ -286,7 +286,7 @@
     </ItemSet>
   </Job>
   <!--Врач-->
-  <Job name="medicaldoctor" identifier="medicaldoctor" uicolor="255,51,51" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Врач" identifier="medicaldoctor" uicolor="255,51,51" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="medical" level="55,55" primary="true" />
       <Skill identifier="weapons" level="0,0" />
@@ -309,7 +309,7 @@
     </ItemSet>
   </Job>
   <!--Стажёр-->
-  <Job name="stager" identifier="stager" uicolor="150,150,150" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Стажёр" identifier="stager" uicolor="150,150,150" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -349,7 +349,7 @@
     </ItemSet>
   </Job>
   <!--Заключённый-->
-  <Job name="prisoner" identifier="prisoner" uicolor="50,50,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Заключенный" identifier="prisoner" uicolor="50,50,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -363,7 +363,7 @@
     </ItemSet>
   </Job>
   <!--Завхоз-->
-  <Job name="stockman" identifier="stockman" uicolor="178,255,102" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Завхоз" identifier="stockman" uicolor="178,255,102" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -401,7 +401,7 @@
     </ItemSet>
   </Job>
   <!--Научный сотрудник-->
-  <Job name="scientist" identifier="scientist" uicolor="102,102,255" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Исследователь" identifier="scientist" uicolor="102,102,255" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -438,7 +438,7 @@
     </ItemSet>
   </Job>
   <!--Член-->
-  <Job name="cook" identifier="cook" uicolor="255,153,153" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Повар" identifier="cook" uicolor="255,153,153" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -458,7 +458,7 @@
     </ItemSet>
   </Job>
   <!--Военнослужащий-->
-  <Job name="militaryman" identifier="militaryman" uicolor="50,205,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Военнослужащий" identifier="militaryman" uicolor="50,205,50" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -570,7 +570,7 @@
     </ItemSet>
   </Job>
   <!--Уборщик-->
-  <Job name="janitor" identifier="janitor" uicolor="15, 105, 75" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Уборщик" identifier="janitor" uicolor="15, 105, 75" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
       <Skill identifier="mechanical" level="0,0" />
@@ -590,7 +590,7 @@
     </ItemSet>
   </Job>
   <!--Бандит-->
-  <Job name="bandit" identifier="bandit" uicolor="85,40,40" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Бандит" identifier="bandit" uicolor="85,40,40" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -673,7 +673,7 @@
     </ItemSet>
   </Job>
   <!--Тысячелетний Рейх-->
-  <Job name="neorussian" identifier="neorussian" uicolor="45,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job name="Боец «Тысячелетнего Рейха»" identifier="neorussian" uicolor="45,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -682,7 +682,7 @@
       <Skill identifier="helm" level="0,0" />
     </Skills>
     <ItemSet>
-      <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true" />
       <Item identifier="idcardreich" equip="true" showpreview="false" />
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
@@ -704,7 +704,7 @@
       </Item>
     </ItemSet>
     <ItemSet>
-      <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true" />
       <Item identifier="idcardreich" equip="true" showpreview="false" />
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
@@ -720,7 +720,7 @@
       </Item>
     </ItemSet>
     <ItemSet>
-      <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true" />
       <Item identifier="idcardreich" equip="true" showpreview="false" />
       <Item identifier="zsh_88" equip="true" showpreview="true" />
       <Item identifier="radio" equip="true" showpreview="false">
@@ -735,7 +735,7 @@
       </Item>
     </ItemSet>
     <ItemSet>
-      <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true">
+      <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true">
         <Item identifier="cigpack" showpreview="false" />
         <Item identifier="pmmag" showpreview="false" />
         <Item identifier="pmmag" showpreview="false" />
@@ -757,7 +757,7 @@
     </ItemSet>
   </Job>
   <!--Тысячелетний Рейх Банкерфюрер-->
-  <Job hiddenjob="false" name="neorussian_comm" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job hiddenjob="false" name="Бункерфюрер «Тысячелетнего Рейха»" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -770,7 +770,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="nacik_uniform1" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true" />
       <Item identifier="tpcap" equip="true" showpreview="true" />
     </ItemSet>
   </Job>

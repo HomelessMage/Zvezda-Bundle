@@ -59,7 +59,7 @@
     </Item>
   </Override>
   <!--Сумка бананка-->
-  <Item name="" identifier="bananka" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.14">
+  <Item name="Сумка-бананка" identifier="smallbag" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.14">
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
     </Deconstruct>
@@ -88,7 +88,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
   <!--Рюкзак «USMC»-->
-  <Item name="" identifier="backpack" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.25">
+  <Item name="Рюкзак КМП США" identifier="backpack" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.25">
     <InventoryIcon texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" sourcerect="23,376,222,228" origin="0.481989,0.4967918" depth="0.35" />
     <Sprite texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" sourcerect="23,376,222,228" depth="0.35" origin="0.48949417,0.6261876" />
     <Body width="120" radius="45" density="20" friction="1.0" restitution="0.01" />

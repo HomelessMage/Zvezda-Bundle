@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="generatordiesel_large" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Дизельный генератор (большой)" identifier="generatordiesel_large" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="96" y="-64" width="576" height="240" />
     <Sprite texture="%ModDir%/Map/Generator/generator_diesel_large.png" sourcerect="0,0,768,368" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
@@ -102,7 +102,7 @@
       </StatusEffect>
     </Repairable>
   </Item>
-  <Item name="" identifier="generatordiesel_medium" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Дизельный генератор (средний)" identifier="generatordiesel_medium" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="56" y="-64" width="448" height="224" />
     <Sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="0,0,560,352" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
@@ -212,7 +212,7 @@
       </StatusEffect>
     </Repairable>
   </Item>
-  <Item name="" identifier="generatordiesel_small" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+  <Item name="Дизельный генератор (малый)" identifier="generatordiesel_small" tags="generator,ek_dieselgenerator" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
     <trigger x="48" y="-32" width="256" height="224" />
     <Sprite texture="%ModDir%/Map/Generator/generator_diesel_medium.png" sourcerect="0,704,352,288" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />

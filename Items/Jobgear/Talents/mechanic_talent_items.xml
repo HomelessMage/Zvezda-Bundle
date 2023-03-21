@@ -26,7 +26,7 @@
       <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01" style="ItemUI" />
     </MiniMap>
   </Item>
-  <Item name="" identifier="repairpack" category="Equipment" maxstacksize="8" Tags="smallitem,tool,mechanicalrepairtool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
+  <Item name="Ремонтный набор" identifier="repairpack" category="Equipment" maxstacksize="8" Tags="smallitem,tool,mechanicalrepairtool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
     <Price baseprice="43">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />

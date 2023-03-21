@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="carbonOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая углеродная руда" identifier="carbonOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -26,7 +26,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="aluminiumOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая алюминиевая руда" identifier="aluminiumOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -48,7 +48,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="zincOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая цинковая руда" identifier="zincOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -69,7 +69,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="titaniumOre" category="Material" maxstacksize="4" Tags="smallitem,ore" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая титановая руда" identifier="titaniumOre" category="Material" maxstacksize="4" Tags="smallitem,ore" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -119,7 +119,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="copperOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая медная руда" identifier="copperOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="3" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -141,7 +141,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="leadOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая свинцовая руда" identifier="leadOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -163,7 +163,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="tinOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая оловянная руда" identifier="tinOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />

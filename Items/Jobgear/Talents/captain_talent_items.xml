@@ -83,7 +83,7 @@
       <QualityStat stattype="AttackMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="coalitioncommendation" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Медаль «За Трудовую Доблесть»" identifier="coalitioncommendation" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" minleveldifficulty="40" buyingpricemodifier="5">
       <Price locationtype="outpost" multiplier="1" maxavailable="0" />
       <Price locationtype="city" multiplier="0.9" maxavailable="1" />
@@ -111,7 +111,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="coalitionmedal" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Медаль «За Отвагу" identifier="coalitionmedal" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="600" minleveldifficulty="65" buyingpricemodifier="5">
       <Price locationtype="outpost" multiplier="1" maxavailable="0" />
       <Price locationtype="city" multiplier="0.9" maxavailable="1" />
@@ -140,7 +140,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="cigar" category="Misc" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" isshootable="true" requireaimtouse="true">
+  <Item name="Сигара" identifier="cigar" category="Misc" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" isshootable="true" requireaimtouse="true">
     <Price baseprice="150" soldeverywhere="false" />
     <Fabricate suitablefabricators="fabricator" requiredtime="5" requiresrecipe="true">
       <RequiredItem identifier="pipetobacco" />

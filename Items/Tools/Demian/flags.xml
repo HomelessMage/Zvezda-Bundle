@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <items>
   <!--Советский флаг-->
-  <Item name="" identifier="soviet_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="Знамя СССР" identifier="soviet_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
     <InventoryIcon texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
     <Body width="58" height="100" />
@@ -19,7 +19,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <!--Флаг рейха-->
-  <Item name="" identifier="neonazi_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="Знамя Рейха" identifier="neonazi_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
     <InventoryIcon texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
     <Body width="58" height="100" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Комендант -->
-  <Item name="" identifier="Comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -35,7 +35,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
   <!-- Комендант с нашивками-->
-  <Item name="" identifier="ComendantuniformK" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="comendantuniformK" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -137,7 +137,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
   <!-- Афганка -->
-  <Item name="" identifier="afganka" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Полевая форма М88 (Афганка)" identifier="afganka" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
       <Price locationtype="city" multiplier="0.9" minavailable="1" />
@@ -241,7 +241,7 @@
 		<Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
 	</Item>
 	-->
-  <Item name="" identifier="prisonerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Униформа заключенного" identifier="prisonerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />

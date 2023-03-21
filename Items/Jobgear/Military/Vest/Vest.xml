@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!--Портупея я ебал местный нейминг-->
-  <Item name="" identifier="holster" scale="0.366" category="Equipment" tags="smallitem,clothing,vest" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Портупея" identifier="holster" scale="0.366" category="Equipment" tags="smallitem,clothing,vest" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="organicfiber" />
       <Item identifier="plastic" outcondition="0.5" />
@@ -24,7 +24,7 @@
     </Wearable>
   </Item>
   <!--Разгрузка-->
-  <Item name="" identifier="ammovest" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный жилет «Лифчик» (ВС ССКЕ)" identifier="ammovest" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.2.0" scale="0.35" />
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
@@ -46,7 +46,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка с кобурой-->
-  <Item name="" identifier="ammovestholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный жилет «Лифчик» с кобурой (ВС ССКЕ)" identifier="ammovestholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.2.0" scale="0.35" />
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
@@ -68,7 +68,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка чёрная-->
-  <Item name="" identifier="ammovestblack" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный жилет «Лифчик» (черный)" identifier="ammovestblack" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.2.0" scale="0.35" />
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
@@ -90,7 +90,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка чёрная с кобурой-->
-  <Item name="" identifier="ammovestblackholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный жилет «Лифчик» c кобурой (черный)" identifier="ammovestblackholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.2.0" scale="0.35" />
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />

@@ -27,7 +27,7 @@
    
   <!-- Комендант -->  
 
-  <Item name="" identifier="Comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Китель (офицерский)" identifier="comendantuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
@@ -62,7 +62,7 @@
   </Item>
 
   <!-- Комендант с нашивками-->
-  <Item name="" identifier="ComendantuniformK" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Китель (офицерский со знаком отличия)" identifier="comendantuniformK" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
@@ -97,7 +97,7 @@
   </Item>
 
   <!-- Милиционер -->
-   <Item name="" identifier="Mvd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+   <Item name="Униформа милиционера" identifier="Mvd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
@@ -132,7 +132,7 @@
   </Item>
 
   <!-- Повар Фартук -->
-  <Item name="" identifier="cookform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Фартук повара" identifier="cookform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
@@ -171,7 +171,7 @@
   </Item>
 
   <!-- Ассистент -->
-  <Item name="" identifier="assistantclothes" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Комбинезон уборщика" identifier="assistantclothes" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
     <Price baseprice="150">
@@ -208,7 +208,7 @@
   </Item>  
 
   <!-- Обитатель станции 1 -->
-  <Item name="" identifier="commonerclothes1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 1)" identifier="commonerclothes1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -241,7 +241,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="commonerclothes2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 2)" identifier="commonerclothes2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -274,7 +274,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="commonerclothes3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 3)" identifier="commonerclothes3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -307,7 +307,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="commonerclothes4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 4)" identifier="commonerclothes4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -340,7 +340,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="commonerclothes5" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 5)" identifier="commonerclothes5" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -373,7 +373,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="crewchiefclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 6)" identifier="crewchiefclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -406,7 +406,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="medicalofficerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Униформа медработника" identifier="medicalofficerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -439,7 +439,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="minerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Комбинезон шахтера" identifier="minerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -472,7 +472,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="quartermasterclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда жителя станции (вариант 7)" identifier="quartermasterclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -505,7 +505,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="administratorclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Китель (тёмный)" identifier="administratorclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -604,7 +604,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="vipclothes2" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда дипломата" identifier="vipclothes2" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="0.9" sold="false"/>
@@ -813,7 +813,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
   <!-- UNIFORMS START -->
-  <Item name="" identifier="securityuniform1" aliases="securityuniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Китель (светлый)" identifier="securityuniform1" aliases="securityuniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05"/>
     <Price baseprice="150">
@@ -881,7 +881,7 @@
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
 
-  <Item name="" identifier="pirateclothesnovice" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда комбатанта (вариант 1)" identifier="pirateclothesnovice" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1.2" sold="false"/>
@@ -915,7 +915,7 @@
   </Item>
 
 
-  <Item name="" identifier="pirateclotheshard_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда комбатанта (вариант 2)" identifier="pirateclotheshard_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1.2" sold="false"/>
@@ -950,7 +950,7 @@
 
 
 
-  <Item name="" identifier="pirateclotheshard_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Одежда комбатанта (вариант 3)" identifier="pirateclotheshard_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="300" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false"/>
       <Price locationtype="city" multiplier="1.2" sold="false"/>
@@ -990,7 +990,7 @@
 
 
 
-  <Item name="" identifier="camo_woodland" aliases="Camo Woodland" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Полевая форма «BDU Woodland»" identifier="camo_woodland" aliases="Camo Woodland" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
     <Price baseprice="150">
@@ -1064,7 +1064,7 @@
   </Item>
 
   <!-- Омон форма -->
-  <Item name="" identifier="omonuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Униформа (ОМОН)" identifier="omonuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
@@ -1282,7 +1282,7 @@
   <!-- РАЗГРУЗКА -->
   <!-- РАЗГРУЗКА -->
   <!-- РАЗГРУЗКА -->
- <Item name="" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+ <Item name="Разгрузочный жилет «Лифчик»" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Price baseprice="250" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -1313,7 +1313,7 @@
 
 
 
-  <Item name="" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Бронежилет «6Б13»" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.35" />
     <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.7" />
     <Price baseprice="830" soldeverywhere="false">
@@ -1350,7 +1350,7 @@
   </Item>
 
 
-  <Item name="" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный бронежилет «Mil-Tec»" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.35" />
     <PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.6" />
     <Price baseprice="650" soldeverywhere="false">

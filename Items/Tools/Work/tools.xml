@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="radio" scale="0.35" category="Equipment" tags="smallitem,headset" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Радиостанция «Ангстрем-01»" identifier="radio" scale="0.35" category="Equipment" tags="smallitem,headset" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="radio.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
     <Sprite texture="radio.png" depth="0.6" sourcerect="0,64,48,96" origin="0.5,0.5" />
     <Body width="35" height="55" density="30" />
@@ -52,7 +52,7 @@
       </CustomInterface>         
 <-->
   </Item>
-  <Item name="" identifier="arcwelder" category="Equipment" Tags="smallitem,weldingequipment,tool,flashlight" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="Сварочный аппарат" identifier="arcwelder" category="Equipment" Tags="smallitem,weldingequipment,tool,flashlight" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" minamount="0" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="1" spawnprobability="0.125" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.1" />
@@ -121,7 +121,7 @@
       <QualityStat stattype="RepairToolStructureRepairMultiplier" value="0.2" />
     </Quality>
   </Item>
-  <Item name="" identifier="drill" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="Дрель" identifier="drill" category="Equipment" Tags="smallitem,cuttingequipment,tools,flashlight" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" />
     <PreferredContainer primary="engcab" minamount="1" maxamount="2" spawnprobability="1" />
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.125" />
@@ -183,7 +183,7 @@
       <QualityStat stattype="RepairToolDeattachTimeMultiplier" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="hullrepairkit" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
+  <Item name="Ремонтный набор" identifier="hullrepairkit" category="Equipment" Tags="smallitem,weldingequipment,tools" preferredcontainers="suppliescabinet,locker" cargocontaineridentifier="metalcrate" description="" Scale="0.32" impactsoundtag="impact_metal_light">
     <Price baseprice="35">
       <Price locationtype="outpost" multiplier="1" minavailable="3" />
       <Price locationtype="city" multiplier="0.9" minavailable="5" />
@@ -225,7 +225,7 @@
       <Containable items="steel" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="miningbackpack" scale="0.366" category="Equipment" tags="mediumitem,toolbelt,toolbox,mobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Шахтёрский рюкзак" identifier="miningbackpack" scale="0.366" category="Equipment" tags="mediumitem,toolbelt,toolbox,mobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" />
     <PreferredContainer primary="divingcab" minamount="0" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
@@ -310,7 +310,7 @@
     </ItemContainer>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="" identifier="toolbox" category="Equipment" tags="smallitem,mobilecontainer,tool" cargocontaineridentifier="" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_metal_heavy" RequireAimToUse="True">
+  <Item name="Контейнер для хранения" identifier="toolbox" category="Equipment" tags="smallitem,mobilecontainer,tool" cargocontaineridentifier="" showcontentsintooltip="true" Scale="0.5" fireproof="true" description="" impactsoundtag="impact_metal_heavy" RequireAimToUse="True">
     <PreferredContainer primary="engcab" />
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
@@ -1079,7 +1079,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <Override>
-    <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+    <Item name="Гитара" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
       <Upgrade gameversion="0.9.2.0" scale="0.5" />
       <PreferredContainer primary="crewcab" spawnprobability="0.01" />
       <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
@@ -1103,7 +1103,7 @@
       </Holdable>
     </Item>
   </Override>
-  <Item name="" identifier="guitar_bandit" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+  <Item name="Гитара (блатная)" identifier="guitar_bandit" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
     <Upgrade gameversion="0.9.2.0" scale="0.5" />
     <PreferredContainer primary="crewcab" spawnprobability="0.01" />
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
@@ -1129,7 +1129,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="guitar_reich" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+  <Item name="Гитара (ТР)" identifier="guitar_reich" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
     <Upgrade gameversion="0.9.2.0" scale="0.5" />
     <PreferredContainer primary="crewcab" spawnprobability="0.01" />
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />

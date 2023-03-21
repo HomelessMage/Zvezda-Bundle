@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="banditclothes_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Спортивная одежда (вариант 1)" identifier="banditclothes_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -41,7 +41,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="banditclothes_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Спортивная одежда (вариант 2)" identifier="banditclothes_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -82,7 +82,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="banditclothes_3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Спортивная одежда (вариант 3)" identifier="banditclothes_3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -115,7 +115,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="banditclothes_4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Спортивная одежда (вариант 4)" identifier="banditclothes_4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -148,7 +148,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="banditleaderclothes_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Кожанка (вариант 1)" identifier="banditleaderclothes_1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -181,7 +181,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
-  <Item name="" identifier="banditleaderclothes_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Кожанка (вариант 2)" identifier="banditleaderclothes_2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1" sold="false" />

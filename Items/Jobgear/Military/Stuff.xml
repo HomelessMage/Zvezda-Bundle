@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Наручники -->
-  <Item name="" identifier="handcuffs" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,handlocker" scale="0.5" impactsoundtag="impact_metal_light" equipconfirmationtext="handcuffequipconfirmation">
+  <Item name="Наручники" identifier="handcuffs" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,handlocker" scale="0.5" impactsoundtag="impact_metal_light" equipconfirmationtext="handcuffequipconfirmation">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckarmcab,abandonedarmcab,outpostarmcab" amount="1" spawnprobability="0.05" />
     <PreferredContainer primary="armcab" secondary="secarmcab" />
@@ -30,7 +30,7 @@
     </Wearable>
   </Item>
   <!-- Бронещит -->
-  <Item name="" identifier="riotshield" category="Equipment" tags="weapon" impactsoundtag="impact_metal_light">
+  <Item name="Противоударный щит" identifier="riotshield" category="Equipment" tags="weapon" impactsoundtag="impact_metal_light">
     <Price locationtype="Military" buyprice="200" />
     <Price locationtype="City" buyprice="225" />
     <Price locationtype="Outpost" buyprice="225" />

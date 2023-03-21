@@ -124,7 +124,7 @@
       </Repairable>
     </Upgrade>
   </Item>
-  <Item name="" identifier="reactor_mini" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
+  <Item name="Миниатюрный ядерный реактор «ЯР-5»" identifier="reactor_mini" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
     <trigger />
     <Sprite texture="%ModDir%/Systems/Reactor/reactor_mini.png" sourcerect="16,0,224,256" origin="0.5,0.5" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
@@ -243,7 +243,7 @@
       </StatusEffect>
     </Repairable>
   </Item>
-  <Item name="" identifier="reactor_small" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
+  <Item name="Ядерный реактор «ЯР-88»" identifier="reactor_small" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
     <trigger />
     <Sprite texture="%ModDir%/Systems/Reactor/reactor_small.png" sourcerect="0,0,384,344" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
@@ -362,7 +362,7 @@
       </StatusEffect>
     </Repairable>
   </Item>
-  <Item name="" identifier="reactorslow_small" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
+  <Item name="Маловольтажный ядерный реактор «ЯР-98»" identifier="reactorslow_small" tags="reactor" type="Reactor" scale="0.5" linkable="true" category="Machine" damagedbyexplosions="true" explosiondamagemultiplier="0.2" description="">
     <trigger />
     <Sprite texture="%ModDir%/Systems/Reactor/reactorslow_small.png" sourcerect="0,0,384,344" origin="0.5,0.45" depth="0.8" />
     <UpgradePreviewSprite scale="3.0" texture="Content/UI/WeaponUI.png" sourcerect="0,960,64,64" origin="0.5,0.45" />
@@ -481,7 +481,7 @@
       </StatusEffect>
     </Repairable>
   </Item>
-  <Item name="" identifier="generatorfuel" Tags="mediumitem,generatorfuel,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="" maxstacksize="1">
+  <Item name="Канистра дизеля" identifier="generatorfuel" Tags="mediumitem,generatorfuel,reactorfuel" cargocontaineridentifier="metalcrate" scale="0.5" description="" maxstacksize="1">
     <PreferredContainer primary="ek_dieselgenerator" minamount="1" maxamount="1" spawnprobability="1" />
     <Price baseprice="120">
       <Price locationtype="outpost" multiplier="1" minavailable="4" />

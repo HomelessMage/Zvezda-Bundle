@@ -102,7 +102,7 @@
 		</ItemContainer>
 	</Item>-->
   <!--Разгрузочный бронежилет «6Б4» (ВС СССР)-->
-  <Item name="" identifier="bodyarmor_6b4" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный бронежилет «6Б4» (ВС ССКЕ)" identifier="bodyarmor_6b4" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -125,7 +125,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузочный бронежилет «6Б4» (Тысячелетний Рейх)-->
-  <Item name="" identifier="bodyarmor_mod" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный бронежилет «6Б4» (ТР)" identifier="bodyarmor_mod" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -149,7 +149,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузочный бронежилет «6Б4» (МВД)-->
-  <Item name="" identifier="bodyarmor_mvd" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный бронежилет «6Б4» (МВД)" identifier="bodyarmor_mvd" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -173,7 +173,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузочный бронежилет «6Б4» (ОМОН)-->
-  <Item name="" identifier="bodyarmor_omon" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+  <Item name="Разгрузочный бронежилет «6Б4» (ОМОН)" identifier="bodyarmor_omon" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />

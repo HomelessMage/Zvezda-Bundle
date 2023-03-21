@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="trashbagroll" category="Equipment" tags="smallitem,mobilecontainer" showcontentsintooltip="true" scale="0.05" fireproof="true" impactsoundtag="impact_metal_heavy">
+  <Item name="Свёрток мусорных пакетов" identifier="trashbagroll" category="Equipment" tags="smallitem,mobilecontainer" showcontentsintooltip="true" scale="0.05" fireproof="true" impactsoundtag="impact_metal_heavy">
     <InventoryIcon texture="%ModDir%/Items/Tools/Cleaner/trashbagroll.png" sourcerect="11,7,988,992" origin="0.5020243,0.4969758" />
     <Sprite texture="%ModDir%/Items/Tools/Cleaner/trashbagroll.png" sourcerect="12,8,985,991" origin="0.47715735,0.42381433" />
     <MeleeWeapon slots="RightHand+LeftHand,Any" controlpose="true" aimpos="45,10" handle1="0,10" handle2="-15,10" holdangle="90" reload="1" range="50" combatpriority="5" msg="ItemMsgPickUpSelect" />
@@ -10,7 +10,7 @@
     </ItemContainer>
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
-  <Item name="" identifier="trashbag" category="Equipment" tags="smallitem,mobilecontainer" showcontentsintooltip="true" scale="0.15" fireproof="true" impactsoundtag="impact_metal_heavy">
+  <Item name="Мусорный пакет" identifier="trashbag" category="Equipment" tags="smallitem,mobilecontainer" showcontentsintooltip="true" scale="0.15" fireproof="true" impactsoundtag="impact_metal_heavy">
     <Price locationtype="Research" buyprice="10" />
     <Price locationtype="City" buyprice="10" />
     <Price locationtype="Military" buyprice="15" />
@@ -28,7 +28,7 @@
     </ItemContainer>
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="2" />
   </Item>
-  <Item name="" identifier="mop" category="Equipment" Tags="smallitem,weapon" cargocontaineridentifier="metalcrate" scale="0.15" impactsoundtag="impact_metal_light">
+  <Item name="Швабра" identifier="mop" category="Equipment" Tags="smallitem,weapon" cargocontaineridentifier="metalcrate" scale="0.15" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.65" />
     <Price locationtype="City" buyprice="40" />
     <Price locationtype="Research" buyprice="40" />

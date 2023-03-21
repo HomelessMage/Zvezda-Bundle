@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="torgomat" tags="torgomat" category="Machine" linkable="true" allowedlinks="fabricator,medicalfabricator,deconstructor,locker,container" description="" scale="0.2">
+  <Item name="Торгомат" identifier="torgomat" tags="torgomat" category="Machine" linkable="true" allowedlinks="fabricator,medicalfabricator,deconstructor,locker,container" description="" scale="0.2">
     <Sprite texture="%ModDir%/Map/Torgomat/torgomat.png" sourcerect="0,0,598,820" depth="0.8" />
     <Fabricator canbeselected="true" minvoltage="0.0" powerconsumption="0.0" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.4,0.45" style="ItemUI" anchor="Center" />

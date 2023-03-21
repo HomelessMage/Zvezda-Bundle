@@ -47,7 +47,7 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <!--Магазин для пкм-->
-  <Item name="" identifier="pkmmag" scale="0.17" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
+  <Item name="Короб для ПКМ" identifier="pkmmag" scale="0.17" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="pkm" minamount="0" maxamount="1" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="2" spawnprobability="0.125" />
@@ -123,7 +123,7 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <!--Барабан для РПД-->
-  <Item name="" identifier="rpdmagazine" scale="0.3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
+  <Item name="Барабан для РПД" identifier="rpdmagazine" scale="0.3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,76239mmmag" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="rpd" minamount="0" maxamount="1" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="2" spawnprobability="0.125" />
@@ -193,7 +193,7 @@
     </ItemContainer>
   </Item>
   <!--Магазин для акм-->
-  <Item name="" identifier="76239mmmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для АКМ" identifier="76239mmmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="akm" minamount="0" maxamount="1" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
@@ -217,7 +217,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
   <!--Патроны магазина акм-->
-  <Item name="" identifier="76239mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+  <Item name="Патрон 7.62x39-мм" identifier="76239mm" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
     <Body width="40" height="14" density="40" />
@@ -268,7 +268,7 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <!--Магазин АКУ -->
-  <Item name="" identifier="aksumag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для АКС-74У" identifier="aksumag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="167,444,46,68" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" depth="0.54" sourcerect="167,444,46,68" origin="0.5,0.5" />
     <Body width="105" height="78" density="50" />
@@ -332,7 +332,7 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <!--Магазин для АК74-->
-  <Item name="" identifier="ak74mmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для АК-74М" identifier="ak74mmag" cargocontaineridentifier="metalcrate" scale="0.4" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="213,444,46,68" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" depth="0.54" sourcerect="213,444,46,68" origin="0.5,0.5" />
     <Body width="105" height="78" density="50" />
@@ -381,7 +381,7 @@
     <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
   </Item>
   <!--Патрон 12 калибра (травматическая пуля)-->
-  <Item name="" identifier="shotgunshelltrauma" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Патрон 12 калибра (травматическая пуля)" identifier="shotgunshelltrauma" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
     <Body width="23" height="10" density="40" />
@@ -425,7 +425,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <!--Патрон 12 калибра (пуля)-->
-  <Item name="" identifier="shotgunshellslug" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Патрон 12 калибра (пуля)" identifier="shotgunshellslug" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,960,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="189,299,23,11" depth="0.55" origin="0.5,0.5" />
     <Body width="23" height="10" density="40" />
@@ -516,7 +516,7 @@
     </ItemContainer>
   </Item>
   <!--Магазин кипариса-->
-  <Item name="" identifier="kiparismag" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для ОЦ-2 «Кипарис»" identifier="kiparismag" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
     </Deconstruct>
@@ -559,7 +559,7 @@
     </ItemContainer>
   </Item>
   <!--Магазин ПМ (боевой)-->
-  <Item name="" identifier="pmmag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для ПМ (боевой)" identifier="pmmag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
     </Deconstruct>
@@ -575,7 +575,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
   <!--Магазин ПМ (травмат)-->
-  <Item name="" identifier="pmmagtrauma" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для ПМ (травматический)" identifier="pmmagtrauma" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,pmammo" Scale="0.20" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
     </Deconstruct>
@@ -591,7 +591,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
   <!--Патрон 9x18-мм-->
-  <Item name="" identifier="pmround" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
+  <Item name="Патрон 9x18-мм (боевой)" identifier="pmround" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -610,7 +610,7 @@
     </Projectile>
   </Item>
   <!--Патрон 9x18-мм (травмат)-->
-  <Item name="" identifier="pmroundtrauma" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
+  <Item name="Патрон 9x18-мм (травматический)" identifier="pmroundtrauma" maxstacksize="8" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -652,7 +652,7 @@
     <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
   </Item>
   <!--Патрон револьвера-->
-  <Item name="" identifier="76241mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverammo" impactsoundtag="impact_metal_light">
+  <Item name="Патрон 7,62x41,5-мм" identifier="76241mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,revolverammo" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -699,7 +699,7 @@
     <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
   </Item>
   <!--Магазин ТТ-33-->
-  <Item name="" identifier="tt33mag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для ТТ-33" identifier="tt33mag" scale="0.4" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem" Scale="0.20" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="steel" outcondition="0.5" />
     </Deconstruct>
@@ -715,7 +715,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
   <!--Патрон магазина ТТ-->
-  <Item name="" identifier="76225mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light">
+  <Item name="Патрон 7,62x25 мм ТТ" identifier="76225mm" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
     <Body width="29" height="10" density="40" />
@@ -767,7 +767,7 @@
     <aitarget sightrange="2000" soundrange="4000" fadeouttime="5" />
   </Item>
   <!--Магазин АР-15-->
-  <Item name="" identifier="ar15mag" cargocontaineridentifier="metalcrate" scale="0.3" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
+  <Item name="Магазин для AR-15" identifier="ar15mag" cargocontaineridentifier="metalcrate" scale="0.3" tags="smallitem" category="Equipment" linkable="true" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="267,443,39,71" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" depth="0.54" sourcerect="267,443,39,71" origin="0.5,0.5" />
     <Body width="105" height="78" density="50" />
@@ -780,7 +780,7 @@
     <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
   <!--Патрон магазина АР-15-->
-  <Item name="" identifier="55645round" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
+  <Item name="Патрон 5,56x45-мм НАТО" identifier="55645round" maxstacksize="30" category="Equipment" interactthroughwalls="true" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="false" scale="0.2">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/iconatlas_weapons.png" sourcerect="896,960,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/weapons.png" sourcerect="486,430,24,82" depth="0.55" origin="0.48657572,0.52703995" />
     <Body width="40" height="14" density="40" />
@@ -839,7 +839,7 @@
     </ItemContainer>
   </Item>
   <!--Нож Штык-Нож-->
-  <Item name="" identifier="divingknife" category="Equipment" Tags="smallitem,weapon,gunsmith" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Штык-нож «6Х4»" identifier="divingknife" category="Equipment" Tags="smallitem,weapon,gunsmith" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="armcab" minamount="0" maxamount="3" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="abandonedarmcab,abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.5" />
@@ -925,7 +925,7 @@
 ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝        ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝        ╚═╝  ╚═══╝╚══════╝   ╚═╝   
                                                                                                                              
    -->
-  <Item name="" identifier="stungrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Граната «Заря»" identifier="stungrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="3" spawnprobability="0.2" />
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="3" spawnprobability="0.33" />
@@ -970,7 +970,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="empgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Граната «РЭП»" identifier="empgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.2" />
     <Price baseprice="175" soldeverywhere="false">
@@ -1016,7 +1016,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="fraggrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="Граната «Ф-1»" identifier="fraggrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.175" />
     <PreferredContainer secondary="abandonedarmcab" minamount="0" maxamount="2" spawnprobability="0.2" />
@@ -1062,7 +1062,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="incendiumgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="Коктейль Молотова" identifier="incendiumgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1" />
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.125" />
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="2" spawnprobability="0.175" />

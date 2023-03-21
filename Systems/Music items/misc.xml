@@ -74,7 +74,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="accordion" category="Misc" Tags="smallitem" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="Аккордеон" identifier="accordion" category="Misc" Tags="smallitem" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.01" />
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
     <Price baseprice="50" soldeverywhere="false">
@@ -119,7 +119,7 @@
       <StatusEffect tags="playingharmonica" type="OnUse" target="Character" duration="0.1" stackable="false" />
     </Holdable>
   </Item>
-  <Item name="" identifier="captainspipe" category="Misc" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+  <Item name="Трубка капитана" identifier="captainspipe" category="Misc" Tags="smallitem" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.01" />
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1" />
     <Price baseprice="50">
