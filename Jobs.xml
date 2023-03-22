@@ -143,15 +143,15 @@
         </Item>
       </Item>
       <Item identifier="bodyarmor_omon" equip="true" showpreview="true">
-        <Item identifier="aksumag" showpreview="false" />
-        <Item identifier="aksumag" showpreview="false" />
-        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="as_vallmag" showpreview="false" />
+        <Item identifier="as_vallmag" showpreview="false" />
+        <Item identifier="as_vallmag" showpreview="false" />
       </Item>
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="aksu" showpreview="true">
-        <Item identifier="aksumag" showpreview="false" />
+      <Item identifier="as_vall" showpreview="true">
+        <Item identifier="as_vallmag" showpreview="false" />
       </Item>
       <Item identifier="pr73m" showpreview="false" />
       <Item identifier="zsh_omon" equip="true" showpreview="true" />
@@ -466,20 +466,21 @@
       <Skill identifier="electrical" level="0,0" />
       <Skill identifier="helm" level="55,55" />
     </Skills>
-    <!--Военнослужащий-->
+    <!--Боец погранвойск КГБ ССКЕ-->
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
+      <Item identifier="crowbar" equip="false" showpreview="false" />
       <Item identifier="zsh_40" equip="true" showpreview="true" />
-      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" />
-      <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true">
+      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="wallet" showpreview="false" />
       </Item>
+      <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true"/>
       <Item identifier="ak74m" showpreview="true">
         <Item identifier="ak74mmag" showpreview="false" />
       </Item>
@@ -495,6 +496,15 @@
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="radio" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="radio" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="radio" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
       </Item>
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false" />
@@ -509,12 +519,16 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="zsh_army" equip="true" showpreview="true" />
-      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" />
+      <Item identifier="tankhelmet" equip="true" showpreview="true" />
+      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="flashlight" showpreview="false" >
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+      </Item>
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-        <Item identifier="aksumag" showpreview="false" />
-        <Item identifier="aksumag" showpreview="false" />
-        <Item identifier="aksumag" showpreview="false" />
         <Item identifier="wallet" showpreview="false" />
       </Item>
       <Item identifier="aksu" showpreview="true">
@@ -527,18 +541,43 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
+      <Item identifier="screwdriver" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
+      <Item identifier="redwire" showpreview="false" />
       <Item identifier="zsh_army" equip="true" showpreview="true" />
       <Item identifier="bodyarmor_6b4" equip="true" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="detonator" showpreview="false" >
+          <Item identifier="grenade_f1" showpreview="false" />
+        </Item>
+        <Item identifier="detonator" showpreview="false" >
+          <Item identifier="grenade_f1" showpreview="false" />
+        </Item>
+        <Item identifier="detonator" showpreview="false" >
+          <Item identifier="grenade_f1" showpreview="false" />
+        </Item>
+        <Item identifier="detonator" showpreview="false" >
+          <Item identifier="grenade_f1" showpreview="false" />
+        </Item>
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
+        <Item identifier="button" showpreview="false" />
       </Item>
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-        <Item identifier="fraggrenade" showpreview="false" />
-        <Item identifier="screwdriver" showpreview="false" />
-        <Item identifier="detonator" showpreview="false" />
-        <Item identifier="redwire" showpreview="false" />
-        <Item identifier="button" showpreview="false" />
+        <Item identifier="sigpack" showpreview="false" />
       </Item>
       <Item identifier="aksu" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />
@@ -566,6 +605,44 @@
       <Item identifier="flamerz" showpreview="false" />
       <Item identifier="flamerpack" showpreview="true" equip="true">
         <Item identifier="petroltank" showpreview="false" />
+      </Item>
+    </ItemSet>
+    <!--СОБР-->
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="radio" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+      <Item identifier="zsh_army" equip="true" showpreview="true" />
+      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="aksumag" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+        <Item identifier="flare" showpreview="false" />
+      </Item>
+      <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
+        <Item identifier="wallet" showpreview="false" />
+        <Item identifier="stungrenade" showpreview="false" />
+        <Item identifier="stungrenade" showpreview="false" />
+        <Item identifier="stungrenade" showpreview="false" />
+      </Item>
+      <Item identifier="aksu" showpreview="true">
+        <Item identifier="aksumag" showpreview="false" />
       </Item>
     </ItemSet>
   </Job>
@@ -624,7 +701,7 @@
           <Item identifier="100rubles" showpreview="false" />
         </Item>
       </Item>
-      <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="divingknife" showpreview="true" />
       <Item identifier="eightBlade" showpreview="true" equip="true" />
       <Item identifier="pmpistol" showpreview="true" />

@@ -84,11 +84,12 @@
   <!--<jobname.militaryman1>Связист</jobname.militaryman1>
     <jobname.militaryman2>Мотострелок</jobname.militaryman2>
     <jobname.militaryman3>Сапёр</jobname.militaryman3>-->
-  <jobdescription.militaryman>Боец погранвойск КГБ ССКЕ. Имеет законодательную монополию на применение силы.
-1) Батальон связи — Батальон связи
-2) Мотострелок — Мотострелковый батальон
-3) Сапёр — Инженерно-сапёрный батальон
-4) Огнемётчик — Специальный батальон по борьбе с экзотиками Европы (СБЭЕ)</jobdescription.militaryman>
+  <jobdescription.militaryman>1) Боец погранвойск КГБ ССКЕ — Имеет законодательную монополию на применение силы.
+2) Связист — Батальон связи
+3) Мотострелок — Спец из батальона моторизированной разведки обученный на поддержку штурмовых отрядов
+4) Сапёр — Инженерно-сапёрный батальон
+5) Огнемётчик — Специальный батальон по борьбе с экзотиками Европы (СБЭЕ)
+6) СОБР — Бригада 3214, ветеран с наиболее полной и качественной экипировкой</jobdescription.militaryman>
   <!--<jobdescription.militaryman1>Батальон связи</jobdescription.militaryman1>
     <jobdescription.militaryman2>Мотострелковый батальон</jobdescription.militaryman2>
     <jobdescription.militaryman3>Инженерно-сапёрный батальон</jobdescription.militaryman3>-->
@@ -267,8 +268,6 @@
   <entitydescription.piratecaptainhat></entitydescription.piratecaptainhat>
   <entityname.piratebandana>Бандана</entityname.piratebandana>
   <entitydescription.piratebandana></entitydescription.piratebandana>
-  <entityname.zsh_helmet>Шлем «ЗШ-1»</entityname.zsh_helmet>
-  <entitydescription.zsh_helmet></entitydescription.zsh_helmet>
   <entityname.gasmask>Противогаз «ГП-5»</entityname.gasmask>
   <entitydescription.gasmask></entitydescription.gasmask>
   <entityname.ushanka>Шапка-ушанка (серая)</entityname.ushanka>
@@ -509,8 +508,8 @@
   <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
   <entityname.empgrenade>Граната «РЭП»</entityname.empgrenade>
   <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
-  <entityname.fraggrenade>Граната «Ф-1»</entityname.fraggrenade>
-  <entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>
+  <entityname.grenade_f1>Граната «Ф-1»</entityname.grenade_f1>
+  <entitydescription.grenade_f1>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.grenade_f1>
   <entityname.incendiumgrenade>Коктейль Молотова</entityname.incendiumgrenade>
   <entitydescription.incendiumgrenade>Бутыль с зажигательной смесью</entitydescription.incendiumgrenade>
   <entityname.pr73m>Дубинка «ПР-73М»</entityname.pr73m>
@@ -1625,8 +1624,8 @@
   <entitydescription.stungrenade>В момент взрыва производит громкий звук и яркую вспышку света, оглушая всех, кто находится поблизости.</entitydescription.stungrenade>
   <entityname.empgrenade>ЭМ-граната</entityname.empgrenade>
   <entitydescription.empgrenade>Повреждает электрическое оборудование.</entitydescription.empgrenade>
-  <!--<entityname.fraggrenade>Осколочная граната</entityname.fraggrenade>
-<entitydescription.fraggrenade>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.fraggrenade>-->
+  <!--<entityname.grenade_f1>Осколочная граната</entityname.grenade_f1>
+<entitydescription.grenade_f1>Осколочная граната общего назначения. Использовать с максимальной осторожностью.</entitydescription.grenade_f1>-->
   <entityname.incendiumgrenade>Граната с воспламенитом</entityname.incendiumgrenade>
   <entitydescription.incendiumgrenade>Зажигательная граната. Использовать с максимальной осторожностью.</entitydescription.incendiumgrenade>
   <entityname.stunbaton>Шоковая дубинка</entityname.stunbaton>

@@ -1016,7 +1016,7 @@
       <QualityStat stattype="ExplosionDamage" value="0.1" />
     </Quality>
   </Item>
-  <Item name="Граната «Ф-1»" identifier="fraggrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="Граната «Ф-1»" identifier="grenade_f1" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.175" />
     <PreferredContainer secondary="abandonedarmcab" minamount="0" maxamount="2" spawnprobability="0.2" />
