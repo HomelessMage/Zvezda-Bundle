@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.12" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.13" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
