@@ -31,12 +31,12 @@
       <!-- Расход топлива при использовании -->
       <StatusEffect type="OnUse" targettype="Contained" targets="petroltank" Condition="-6.0" />
       <!-- do burn damage to characters -->
-      <StatusEffect type="OnUse" target="UseTarget">
-        <Affliction identifier="burn" amount="3.75" />
+      <StatusEffect type="OnSuccess" target="UseTarget">
+        <Affliction identifier="burn" amount="2.0" />
       </StatusEffect>
       <!-- do minor burn damage to the user -->
       <StatusEffect type="OnUse" target="Character">
-        <Affliction identifier="burn" amount="0.1" />
+        <Affliction identifier="burn" amount="0.001" />
       </StatusEffect>
       <!-- consume oxygen from the hull -->
       <StatusEffect type="OnUse" target="Hull" Oxygen="-10000" />
@@ -56,6 +56,8 @@
     </ItemContainer>
     <aitarget sightrange="5000" soundrange="500" fadeouttime="5" />
   </Item>
+
+
   <Item name="Бензин в банке" identifier="petroltank" category="Equipment" maxstacksize="8" Tags="smallitem,petroltank" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="aluminium" />
@@ -89,6 +91,8 @@
       <QualityStat stattype="Condition" value="0.1" />
     </Quality>
   </Item>
+
+
   <Item name="Ранец с бензином" identifier="flamerpack" scale="0.5" category="Equipment" tags="mediumitem,petrolpack" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <Price baseprice="90" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
