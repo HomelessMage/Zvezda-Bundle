@@ -2,7 +2,7 @@
 <Items>
   <!--Сумка-->
   <Override>
-    <Item name="" identifier="duffelbag" category="Equipment" tags="mobilecontainer,smallitem,crate" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="false" waterproof="true" impactsoundtag="impact_soft" scale="0.33">
+    <Item name="Сумка" identifier="duffelbag" category="Equipment" tags="mobilecontainer,smallitem,crate" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="false" waterproof="true" impactsoundtag="impact_soft" scale="0.33">
       <Deconstruct time="10">
         <Item identifier="organicfiber" />
       </Deconstruct>
@@ -22,7 +22,7 @@
   </Override>
   <!--Пояс для инструментов-->
   <Override>
-    <Item name="" identifier="toolbelt" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.2">
+    <Item name="Пояс для инструментов" identifier="toolbelt" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.2">
       <Deconstruct time="10">
         <Item identifier="organicfiber" />
       </Deconstruct>

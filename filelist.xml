@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.9" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.12" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Юрий Гагарин v1.0.sub" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.2.sub" />
   <Submarine file="%ModDir%/Submarines/СТО v1.5.sub" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
+  <Submarine file="%ModDir%/Submarines/Пчела-1.sub" />
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт 3 v0.1.sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -105,7 +106,13 @@
   <Other file="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" />
   <Other file="%ModDir%/Creatures/Characters/Pig/PigAttack2.ogg" />
   <Other file="%ModDir%/Creatures/Characters/Pig/PigAttack1.ogg" />
+  <Character file="%ModDir%/Creatures/Monsters/Homing Shell/Homingshell.xml" />
+  <Character file="%ModDir%/Creatures/Monsters/Nuclear Homing Shell/Nuclearhomingshell.xml" />
+  <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_motor.ogg" />
+  <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_water.ogg" />
+  <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_windup.ogg" />
   <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg" />
+  <Other file="%ModDir%/Map/Generator/generator.xml" />
   <Other file="%ModDir%/Systems/Reactor/generator_diesel_small.ogg" />
   <Other file="%ModDir%/Systems/Reactor/generator_diesel_medium.ogg" />
   <Other file="%ModDir%/Systems/Reactor/generator_diesel_large.ogg" />

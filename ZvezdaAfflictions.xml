@@ -78,7 +78,7 @@
 
   <AfflictionHusk name="Лихорадка" identifier="necroinfection" description="Кажется, ты не можешь ясно мыслить. У тебя продолжают быть видения того, как ты потворствуешь разрыванию и разрыванию своей собственной плоти." type="alieninfection" targets="human" huskedspeciesname="slasher" causeofdeathdescription="Succumbed to necromorph infection." selfcauseofdeathdescription="Вы были захвачены паразитом-некроморфом." limbspecific="false" indicatorlimb="Torso" activationthreshold="0" showiconthreshold="40" karmachangeonapplied="-1" maxstrength="100" achievementonremoved="healhusk" iconcolors="255,0,0,255;255,0,0,255;255,0,0,255">
     <Effect minstrength="0" maxstrength="100" minvitalitydecrease="1" maxvitalitydecrease="2" strengthchange="0.3" />
-    <PeriodicEffect mininterval="2" maxinterval="5">
+    <PeriodicEffect mininterval="50" maxinterval="100">
       <StatusEffect target="Character" comparison="and">
         <Conditional isdead="false" />
         <Conditional necroinfection="eq 100.0" />
@@ -92,9 +92,10 @@
         <ParticleEmitter particle="blackblood" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <ParticleEmitter particle="fleshsmoke" particlespersecond="100" scalemin="1" scalemax="2" velocitymin="0" velocitymax="40" anglemin="0" anglemax="360" />
         <Affliction identifier="internaldamage" amount="3" />
+
       </StatusEffect>
     </PeriodicEffect>
-    <PeriodicEffect mininterval="100" maxinterval="200">
+    <PeriodicEffect mininterval="50" maxinterval="100">
       <StatusEffect target="Character" duration="30" onlyinside="true">
         <Conditional IsLocalPlayer="True" />
         <Sound file="%ModDir%/Creatures/Monsters/Slasher/delusion1.ogg" />
