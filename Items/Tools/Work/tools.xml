@@ -465,7 +465,7 @@
     <aitarget sightrange="1000" soundrange="1000" fadeouttime="1" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="" identifier="sprayer" category="Equipment" Tags="smallitem,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Распылитель" identifier="sprayer" category="Equipment" Tags="smallitem,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" minamount="1" maxamount="4" spawnprobability="1" />
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.125" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="0.1" />
@@ -524,7 +524,7 @@
     </ItemContainer>
     <aitarget sightrange="2000" soundrange="500" fadeouttime="3" />
   </Item>
-  <Item name="" identifier="screwdriver" category="Equipment" Tags="smallitem,simpletool,tool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Item name="Отвёртка" identifier="screwdriver" category="Equipment" Tags="smallitem,simpletool,tool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="reactorcab" minamount="1" maxamount="4" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="0" maxamount="3" spawnprobability="0.25" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="2" spawnprobability="0.5" />
@@ -631,7 +631,7 @@
     <aitarget sightrange="1000" soundrange="500" fadeouttime="1" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="" identifier="sonarbeacon" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Сонарный маяк" identifier="sonarbeacon" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="crewcab,supplycab" />
     <PreferredContainer primary="divingcab" minamount="1" maxamount="2" spawnprobability="1" />
     <Price baseprice="150" soldeverywhere="false">
@@ -817,7 +817,7 @@
       <QualityStat stattype="Condition" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="oxygenitetank" category="Equipment,Misc" maxstacksize="8" Tags="smallitem,oxygensource" description="" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Баллон с кислородитом" identifier="oxygenitetank" category="Equipment,Misc" maxstacksize="8" Tags="smallitem,oxygensource" description="" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="175" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
@@ -856,7 +856,7 @@
       <QualityStat stattype="Condition" value="0.1" />
     </Quality>
   </Item>
-  <redpaint name="" identifier="redpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <redpaint name="Красная краска" identifier="redpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
@@ -930,7 +930,7 @@
       </StatusEffect>
     </Throwable>
   </greenpaint>
-  <bluepaint name="" identifier="bluepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <bluepaint name="Синяя краска" identifier="bluepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -967,7 +967,7 @@
       </StatusEffect>
     </Throwable>
   </bluepaint>
-  <blackpaint name="" identifier="blackpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="20,20,20,255" InventoryIconColor="20,20,20,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <blackpaint name="Черная краска" identifier="blackpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="20,20,20,255" InventoryIconColor="20,20,20,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -1004,7 +1004,7 @@
       </StatusEffect>
     </Throwable>
   </blackpaint>
-  <whitepaint name="" identifier="whitepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,128,128,255" InventoryIconColor="128,128,128,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <whitepaint name="Белая краска" identifier="whitepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,128,128,255" InventoryIconColor="128,128,128,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -1041,7 +1041,7 @@
       </StatusEffect>
     </Throwable>
   </whitepaint>
-  <Item name="" identifier="glowstick" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
+  <Item name="ХИС" identifier="glowstick" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1" />
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125" />

@@ -79,7 +79,7 @@
     Tags="Male" />
   <sound File="Content/Characters/Human/male_damage11.ogg" State="Damage" Range="500" Volume="1"
     Tags="Male" />
-  <health Vitality="100" DoesBleed="True" CrushDepth="-30000" UseHealthWindow="True"
+  <health Vitality="100" DoesBleed="True" CrushDepth="1600" UseHealthWindow="True"
     BleedingReduction="0" BurnReduction="0.075" ConstantHealthRegeneration="0"
     HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False"
     ApplyAfflictionColors="True">

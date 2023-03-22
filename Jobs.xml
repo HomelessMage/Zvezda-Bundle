@@ -319,18 +319,22 @@
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="commonerclothes1" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="commonerclothes1" equip="true" outfit="true" showpreview="true">
+        <Item identifier="wallet" showpreview="false" />
+      </Item>
       <Item identifier="duffelbag" equip="true" showpreview="false" />
     </ItemSet>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="commonerclothes2" equip="true" outfit="true" showpreview="true" />
+      <Item identifier="commonerclothes2" equip="true" outfit="true" showpreview="true">
+        <Item identifier="wallet" showpreview="false" />
+      </Item>
       <Item identifier="duffelbag" equip="true" showpreview="false" />
     </ItemSet>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="commonerclothes3" equip="true" outfit="true" showpreview="true">
-        <Item identifier="wallet" showpreview="true" />
+        <Item identifier="wallet" showpreview="false" />
       </Item>
       <Item identifier="duffelbag" equip="true" showpreview="false" />
     </ItemSet>
@@ -343,7 +347,7 @@
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="commonerclothes5" equip="true" outfit="true" showpreview="true">
-        <Item identifier="wallet" showpreview="true" />
+        <Item identifier="wallet" showpreview="false" />
       </Item>
       <Item identifier="duffelbag" equip="true" showpreview="false" />
     </ItemSet>
@@ -437,7 +441,7 @@
       </Item>
     </ItemSet>
   </Job>
-  <!--Член-->
+  <!--Повар-->
   <Job name="Повар" identifier="cook" uicolor="255,153,153" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="0,0" />
@@ -577,7 +581,7 @@
         <Item identifier="button" showpreview="false" />
       </Item>
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
-        <Item identifier="sigpack" showpreview="false" />
+        <Item identifier="cigpack" showpreview="false" />
       </Item>
       <Item identifier="aksu" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />
@@ -833,7 +837,7 @@
       </Item>
     </ItemSet>
   </Job>
-  <!--Тысячелетний Рейх Банкерфюрер-->
+  <!--Тысячелетний Рейх Бункерфюрер-->
   <Job hiddenjob="false" name="Бункерфюрер «Тысячелетнего Рейха»" identifier="neorussian_comm" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
