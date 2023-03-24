@@ -403,25 +403,6 @@
         </Item>
       </Item>
     </ItemSet>
-    <ItemSet>
-      <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true">
-        <Item identifier="wallet" showpreview="false">
-          <Item identifier="100rubles" showpreview="false" />
-          <Item identifier="25rubles" showpreview="false" />
-        </Item>
-      </Item>
-    </ItemSet>
-    <ItemSet>
-      <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="botanistclothes" equip="true" outfit="true" showpreview="true">
-        <Item identifier="wallet" showpreview="false">
-          <Item identifier="100rubles" showpreview="false" />
-          <Item identifier="25rubles" showpreview="false" />
-        </Item>
-      </Item>
-      <Item identifier="bonnet" equip="true" showpreview="false" />
-    </ItemSet>
   </Job>
   <!--Научный сотрудник-->
   <Job name="Исследователь" identifier="scientist" uicolor="102,102,255" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
