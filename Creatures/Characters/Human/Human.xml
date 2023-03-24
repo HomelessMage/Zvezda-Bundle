@@ -37,7 +37,7 @@
   <gibemitter Particle="heavygib" AngleMin="0" AngleMax="360" ScaleMin="1" ScaleMax="1"
     VelocityMin="50" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10"
     HighQualityCollisionDetection="False" CopyEntityAngle="False" />
-  <sound File="Content/Characters/Human/female_damage1.ogg" State="Damage" Range="500" Volume="1"
+  <!-- <sound File="Content/Characters/Human/female_damage1.ogg" State="Damage" Range="500" Volume="1"
     Tags="Female" />
   <sound File="Content/Characters/Human/female_damage2.ogg" State="Damage" Range="500" Volume="1"
     Tags="Female" />
@@ -56,7 +56,7 @@
   <sound File="Content/Characters/Human/female_damage9.ogg" State="Damage" Range="500" Volume="1"
     Tags="Female" />
   <sound File="Content/Characters/Human/female_damage10.ogg" State="Damage" Range="500" Volume="1"
-    Tags="Female" />
+    Tags="Female" /> -->
   <sound File="Content/Characters/Human/male_damage1.ogg" State="Damage" Range="500" Volume="1"
     Tags="Male" />
   <sound File="Content/Characters/Human/male_damage2.ogg" State="Damage" Range="500" Volume="1"
@@ -144,7 +144,7 @@
     <Head tags="head14,male" sheetindex="1,3" />
     <Head tags="head15,male" sheetindex="2,3" />
     <Head tags="head16,male" sheetindex="3,3" />
-    <Head tags="head1,female" sheetindex="0,0" />
+    <!-- <Head tags="head1,female" sheetindex="0,0" />
     <Head tags="head2,female" sheetindex="1,0" />
     <Head tags="head3,female" sheetindex="2,0" />
     <Head tags="head4,female" sheetindex="3,0" />
@@ -159,10 +159,11 @@
     <Head tags="head13,female" sheetindex="0,3" />
     <Head tags="head14,female" sheetindex="1,3" />
     <Head tags="head15,female" sheetindex="2,3" />
-    <Head tags="head16,female" sheetindex="3,3" />
+    <Head tags="head16,female" sheetindex="3,3" /> -->
   </Heads>
   <Vars>
-    <Var var="GENDER" tags="female,male" />
+    <!-- <Var var="GENDER" tags="female,male" /> -->
+    <Var var="GENDER" tags="male" />
   </Vars>
   <MenuCategory var="GENDER" />
   <Pronouns var="GENDER" />
@@ -215,7 +216,7 @@
     <Wearable type="Hair" tags="male" replacewhenwearinghat="1">
       <sprite name="Hair 16" texture="Content/Characters/Human/Human_male_hair.png" sheetindex="3,3" />
     </Wearable>
-    <Wearable type="Hair" tags="female">
+    <!-- <Wearable type="Hair" tags="female">
       <sprite name="Hair 1" texture="Content/Characters/Human/Human_female_hair.png"
         sheetindex="0,0" />
     </Wearable>
@@ -278,7 +279,7 @@
     <Wearable type="Hair" tags="female" replacewhenwearinghat="1">
       <sprite name="Hair 16" texture="Content/Characters/Human/Human_female_hair.png"
         sheetindex="3,3" />
-    </Wearable>
+    </Wearable> -->
     <Wearable type="Beard" tags="male">
       <sprite name="Beard 1" texture="Content/Characters/Human/Human_beards.png" sheetindex="0,0" />
     </Wearable>
