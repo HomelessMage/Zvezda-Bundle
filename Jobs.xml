@@ -857,7 +857,7 @@
   </Job>
 
 
-  <Job hiddenjob="true" name="Боец КМП США" identifier="usmc" uicolor="25,0,0" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <!-- <Job name="Боец КМП США" identifier="usmc" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -866,26 +866,26 @@
       <Skill identifier="helm" level="100,100" />
     </Skills>
     <ItemSet>
-      <Item identifier="idcardusa" equip="true" showpreview="false" />
-      <Item identifier="radio" equip="true" showpreview="false">
-        <Item identifier="batterycell" showpreview="false" />
+      <Item identifier="idcardusa" equip="true" />
+      <Item identifier="radio" equip="true">
+        <Item identifier="batterycell" />
       </Item>
-      <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true" />
-      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
-      <Item identifier="bodyarmor" equip="true" showpreview="true">
-          <Item identifier="ar15mag" showpreview="false" />
-          <Item identifier="ar15mag" showpreview="false" />
-          <Item identifier="ar15mag" showpreview="false" />
-          <Item identifier="ar15mag" showpreview="false" />
-          <Item identifier="ar15mag" showpreview="false" />
-          <Item identifier="ar15mag" showpreview="false" />
+      <Item identifier="camo_woodland" equip="true" outfit="true" />
+      <Item identifier="ballistichelmet1" equip="true" />
+      <Item identifier="bodyarmor" equip="true">
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag"/>
+          <Item identifier="ar15mag" />
       </Item>
-      <Item identifier="backpack" showpreview="true" equip="true">
-        <Item identifier="petroltank" showpreview="false" />
+      <Item identifier="backpack" equip="true">
+        <Item identifier="petroltank" />
       </Item>
-      <Item identifier="ar15" showpreview="true">
-        <Item identifier="ar15mag" showpreview="false" />
+      <Item identifier="ar15">
+        <Item identifier="ar15mag" />
       </Item>
     </ItemSet>
-  </Job> 
+  </Job>  -->
 </Jobs>
