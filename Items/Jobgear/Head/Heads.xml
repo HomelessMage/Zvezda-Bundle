@@ -63,7 +63,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.3" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
       <sprite name="Ballistic Helmet 2 Wearable" texture="%ModDir%/Items/Jobgear/Head/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidewearablesoftype="hair" sourcerect="115,215,77,88" origin="0.625,0.5" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
@@ -259,7 +259,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,37,80,50" origin="0.45,0.85" />
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
@@ -273,7 +273,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,110,80,50" origin="0.45,0.95" />
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
@@ -404,7 +404,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.411" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="217,0,67,96" origin="0.55,0.55" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
     </Wearable>
@@ -434,7 +434,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="zsh_14" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" scale="0.380" ignorelimbscale="true" hidewearablesoftype="hair" sourcerect="143,0,74,87" origin="0.45,0.64" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
     </Wearable>
@@ -465,7 +465,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="zsh_army Wearable" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="143,96,83,61" origin="0.45,0.63" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
     </Wearable>
@@ -496,7 +496,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="zsh_mvd Wearable" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="227,96,83,61" origin="0.45,0.63" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
     </Wearable>
@@ -527,7 +527,7 @@
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="zsh_omon Wearable" texture="%ModDir%/Items/Jobgear/Head/Head2.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="311,96,83,61" origin="0.45,0.63" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
     </Wearable>
@@ -637,7 +637,7 @@
          <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.08" damagesound="impact_metal_heavy" deflectprojectiles="true" />
          <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.185" damagesound="LimbArmor" deflectprojectiles="true" />
          <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.09" damagesound="LimbArmor" deflectprojectiles="true" />
-         <damagemodifier afflictiontypes="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+         <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
          <sprite name="zsh_helmet" texture="%ModDir%/Items/Jobgear/Head/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.735" hidewearablesoftype="hair" sourcerect="100,0,85,67" origin="0.45,0.63" />
          <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.80" setvalue="true" disabledeltatime="true" />
       </Wearable>
