@@ -857,7 +857,7 @@
   </Job>
 
 
-  <Job hiddenjob="true" name="Боец КМП США" identifier="usmc" uicolor="25,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+  <Job hiddenjob="true" name="Боец КМП США" identifier="usmc" uicolor="25,0,0" initialcount="0" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
