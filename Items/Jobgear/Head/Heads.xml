@@ -256,10 +256,6 @@
       <RequiredItem identifier="5rubles" />
     </Fabricate>
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="impact_metal_heavy" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="bitewounds" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.50" damagesound="" deflectprojectiles="true" />
       <sprite name="Tp cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="415,37,80,50" origin="0.45,0.85" />
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
