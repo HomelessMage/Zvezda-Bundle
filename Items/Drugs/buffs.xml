@@ -3,7 +3,7 @@
   <!-- Name: Methamphetamine -->
   <!-- Description: A potent nervous system stimulant. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Methamphetamine name="" identifier="meth" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Methamphetamine name="Метамфетамин" identifier="meth" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
@@ -76,7 +76,7 @@
   <!-- Name: Anabolic Steroids -->
   <!-- Description: Temporarily increases muscular strength and physical performance. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <AnabolicSteroids name="" identifier="steroids" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <AnabolicSteroids name="Анаболические стероиды" identifier="steroids" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -144,7 +144,7 @@
   <!-- Name: Hyperzine -->
   <!-- Description: An extremely potent muscle stimulant for those moments when you gotta go fast. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Hyperzine name="" identifier="hyperzine" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Hyperzine name="Гиперцин" identifier="hyperzine" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -217,7 +217,7 @@
   <!-- Name: Ethanol -->
   <!-- Medical alcohol used as an ingredient in the manufacture of various medicines. Drinking while on duty is not advised. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Ethanol name="" identifier="ethanol" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical,petfood2" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Ethanol name="Этанол" identifier="ethanol" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical,petfood2" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="sprayer" amount="1" spawnprobability="1"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
@@ -263,7 +263,7 @@
   <!-- Name: Energy Drink -->
   <!-- Applies heightened speed for a while, but also has a probability to cause nausea. Only at vending machines. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <EnergyDrink name="" identifier="energydrink" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <EnergyDrink name="Энергонапиток" identifier="energydrink" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="abandonedcrewcab" minamount="1" maxamount="2" spawnprobability="0.15" />
@@ -294,7 +294,7 @@
   <!-- Name: Protein bar -->
   <!-- Provides slow healing for damage and burns. Only at vending machines. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <ProteinBar name="" identifier="proteinbar" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <ProteinBar name="Протеиновый батончик" identifier="proteinbar" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="abandonedcrewcab" minamount="1" maxamount="2" spawnprobability="0.15" />

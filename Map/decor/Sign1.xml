@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Opbg name="airlockbk" identifier="airlockbk" allowattachitems="true" width="128" height="224" resizehorizontal="false" resizevertical="false" texturescale="0.5,0.5" category="Decorative">
+  <Opbg name="" identifier="airlockbk" allowattachitems="true" width="128" height="224" resizehorizontal="false" resizevertical="false" texturescale="0.5,0.5" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="756,4,256,448" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
   </Opbg>
-  <OpDeco name="signhighvoltage" identifier="signhighvoltage" width="167" height="136" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="signhighvoltage" width="167" height="136" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="408,208,167,136" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="signmedsec" identifier="signmedsec" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="signmedsec" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="554,4,128,128" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="signview" identifier="signview" width="128" height="161" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="signview" width="128" height="161" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,4,128,161" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="signobservation" identifier="signobservation" width="128" height="86" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="signobservation" width="128" height="86" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,174,128,86" depth="0.965" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox1" identifier="oldbox1" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox1" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,349,128,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox2" identifier="oldbox2" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox2" width="128" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="144,349,128,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox3" identifier="oldbox3" width="229" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox3" width="229" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="288,349,229,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox4" identifier="oldbox4" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox4" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,480,256,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox5" identifier="oldbox5" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox5" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,612,256,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="oldbox6" identifier="oldbox6" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="oldbox6" width="256" height="128" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="5,743,256,128" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
-  <OpDeco name="carpet" identifier="carpet" width="509" height="496" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
+  <OpDeco name="" identifier="carpet" width="509" height="496" texturescale="1.0,1.0" scale="0.5" noninteractable="true" category="Decorative">
     <sprite texture="%ModDir%/Map/decor/sign.png" sourcerect="503,503,509,496" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
 </Items>

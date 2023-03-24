@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="handheldstatusmonitor" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Ручной монитор статуса" identifier="handheldstatusmonitor" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="140">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -26,7 +26,7 @@
       <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01" style="ItemUI" />
     </MiniMap>
   </Item>
-  <Item name="Ремонтный набор" identifier="repairpack" category="Equipment" maxstacksize="8" Tags="smallitem,tool,mechanicalrepairtool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
+  <Item name="Ремонтный комплект" identifier="repairpack" category="Equipment" maxstacksize="8" Tags="smallitem,tool,mechanicalrepairtool,electricalrepairtool" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
     <Price baseprice="43">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -55,7 +55,7 @@
     <aitarget sightrange="500" soundrange="500" fadeouttime="1" />
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="" identifier="portablepump" tags="smallitem" category="Machine" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2" impactsoundtag="impact_metal_heavy" isshootable="true">
+  <Item name="Портативный насос" identifier="portablepump" tags="smallitem" category="Machine" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2" impactsoundtag="impact_metal_heavy" isshootable="true">
     <Price baseprice="340" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.2" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -119,7 +119,7 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="safetyharness" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Страховочные ремни" identifier="safetyharness" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Price baseprice="120" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.2" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -155,7 +155,7 @@
       <StatValue stattype="FlowResistance" value="0.9" />
     </Wearable>
   </Item>
-  <Item name="" identifier="wrenchdementonite" descriptionidentifier="dementonitetool" variantof="wrench" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4">
+  <Item name="Дементонитовый гаечный ключ" identifier="wrenchdementonite" descriptionidentifier="dementonitetool" variantof="wrench" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4">
     <PreferredContainer primary="reactorcab" spawnprobability="0" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
     <PreferredContainer primary="outpostcrewcabinet" spawnprobability="0" />
@@ -187,7 +187,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="crowbardementonite" descriptionidentifier="dementonitetool" variantof="crowbar" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166">
+  <Item name="Дементонитовый лом" identifier="crowbardementonite" descriptionidentifier="dementonitetool" variantof="crowbar" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166">
     <PreferredContainer primary="reactorcab" spawnprobability="0" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
     <PreferredContainer primary="outpostcrewcabinet" spawnprobability="0" />
@@ -223,7 +223,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="screwdriverdementonite" descriptionidentifier="dementonitetool" variantof="screwdriver" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4">
+  <Item name="Дементонитовая отвертка" identifier="screwdriverdementonite" descriptionidentifier="dementonitetool" variantof="screwdriver" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166" addedrepairspeedmultiplier="0.4">
     <PreferredContainer primary="reactorcab" spawnprobability="0" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
     <PreferredContainer primary="outpostcrewcabinet" spawnprobability="0" />
@@ -255,7 +255,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="divingknifedementonite" descriptionidentifier="dementonitetool" variantof="divingknife" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166">
+  <Item name="Дементонитовый нож ныряльщика" identifier="divingknifedementonite" descriptionidentifier="dementonitetool" variantof="divingknife" inventoryiconcolor="136,142,166,255" spritecolor="136,142,166">
     <PreferredContainer primary="armcab" spawnprobability="0" />
     <PreferredContainer secondary="wreckarmcab" spawnprobability="0" />
     <PreferredContainer secondary="abandonedarmcab,abandonedstoragecab" spawnprobability="0" />
@@ -287,7 +287,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="fixfoamgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Граната с монтажной пеной" identifier="fixfoamgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="95" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.1" sold="false" />
       <Price locationtype="city" multiplier="1.3" sold="false" />

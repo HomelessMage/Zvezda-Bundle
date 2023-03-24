@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <prefabs>
-  <cigsmoke lifetime="3" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="360" rotatetodirection="False" drag="0" waterdrag="0" velocitychange="0,0.2" velocitychangewater="0,0.2" collisionradius="1" collideswithwalls="False" deleteoncollision="False" friction="0.5" restitution="0.5" startsizemin="0.01,0.01" startsizemax="0.2,0.2" sizechangemin="0.01,0.01" sizechangemax="0.1,0.1" growtime="0.1" startcolor="0.5,0.5,0.5,0.5" startalpha="1" colorchange="-0.1,-0.1,-0.1,-0.2" drawtarget="air" blendstate="AlphaBlend" animduration="3" loopanim="True">
+  <cigsmoke lifetime="1" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="360" rotatetodirection="False" drag="0" waterdrag="0" velocitychange="0,0.2" velocitychangewater="0,0.2" collisionradius="1" collideswithwalls="False" deleteoncollision="False" friction="0.5" restitution="0.5" startsizemin="0.01,0.01" startsizemax="0.2,0.2" sizechangemin="0.01,0.01" sizechangemax="0.1,0.1" growtime="0.1" startcolor="0.5,0.5,0.5,0.5" startalpha="1" colorchange="-0.1,-0.1,-0.1,-0.2" drawtarget="air" blendstate="AlphaBlend" animduration="3" loopanim="True">
     <animatedsprite texture="%ModDir%/Items/Tools/Cigarki/Smoke.png" sourcerect="0,0,4096,4096" columns="8" rows="8" origin="0.5,0.5" />
   </cigsmoke>
   <!--<swirlysmoke

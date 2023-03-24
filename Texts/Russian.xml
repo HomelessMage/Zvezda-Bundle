@@ -181,19 +181,21 @@
   <entitydescription.securityuniform1></entitydescription.securityuniform1>
   <entityname.scientific_collaboratorclothes>Одежда научного сотрудника</entityname.scientific_collaboratorclothes>
   <entitydescription.scientific_collaboratorclothes></entitydescription.scientific_collaboratorclothes>
-  <entityname.Mvd>Униформа милиционера</entityname.Mvd>
-  <entitydescription.Mvd></entitydescription.Mvd>
+  <entityname.mvd_uniform>Униформа милиционера</entityname.mvd_uniform>
+  <entitydescription.mvd_uniform></entitydescription.mvd_uniform>
   <entityname.afganka>Полевая форма М88 (Афганка)</entityname.afganka>
   <entitydescription.afganka>«Афганка» — жаргонное название, применяемое некоторыми военнослужащими для названия комплекта полевой формы военнослужащих Вооружённых Сил СССР.</entitydescription.afganka>
   <entityname.omonuniform>Униформа (ОМОН)</entityname.omonuniform>
   <entitydescription.omonuniform>Форменная одежда сотрудников ОМОН МВД СССР.</entitydescription.omonuniform>
   <entityname.medicalofficerclothes>Униформа медработника</entityname.medicalofficerclothes>
   <entitydescription.medicalofficerclothes></entitydescription.medicalofficerclothes>
+  <entityname.internfatigues>Униформа интерна</entityname.internfatigues>
+  <entitydescription.internfatigues></entitydescription.internfatigues>  
   <entityname.prisonerclothes>Униформа заключенного</entityname.prisonerclothes>
   <entitydescription.prisonerclothes></entitydescription.prisonerclothes>
   <entityname.commonerclothes1>Одежда жителя станции (вариант 1)</entityname.commonerclothes1>
   <entitydescription.commonerclothes1></entitydescription.commonerclothes1>
-  <entityname.commonerclothes2>Одежда жителя станции (вариант2)</entityname.commonerclothes2>
+  <entityname.commonerclothes2>Одежда жителя станции (вариант 2)</entityname.commonerclothes2>
   <entitydescription.commonerclothes2></entitydescription.commonerclothes2>
   <entityname.commonerclothes3>Одежда жителя станции (вариант 3)</entityname.commonerclothes3>
   <entitydescription.commonerclothes3></entitydescription.commonerclothes3>
@@ -221,9 +223,9 @@
   <entitydescription.banditclothes_3></entitydescription.banditclothes_3>
   <entityname.banditclothes_4>Спортивная одежда (вариант 4)</entityname.banditclothes_4>
   <entitydescription.banditclothes_4></entitydescription.banditclothes_4>
-  <entityname.banditleaderclothes_1>Кожанка (вариант 1)</entityname.banditleaderclothes_1>
+  <entityname.banditleaderclothes_1>Кожаная куртка (вариант 1)</entityname.banditleaderclothes_1>
   <entitydescription.banditclothes_1></entitydescription.banditclothes_1>
-  <entityname.banditleaderclothes_2>Кожанка (вариант 2)</entityname.banditleaderclothes_2>
+  <entityname.banditleaderclothes_2>Кожаная куртка (вариант 2)</entityname.banditleaderclothes_2>
   <entitydescription.banditleaderclothes_2></entitydescription.banditleaderclothes_2>
   <entityname.camo_woodland>Полевая форма «BDU Woodland»</entityname.camo_woodland>
   <entitydescription.camo_woodland></entitydescription.camo_woodland>
@@ -276,16 +278,16 @@
   <entitydescription.gcap></entitydescription.gcap>
   <entityname.balaclava>Балаклава</entityname.balaclava>
   <entitydescription.balaclava></entitydescription.balaclava>
-  <entityname.balaclava2>Жиганка с балаклавой</entityname.balaclava2>
+  <entityname.balaclava2>Кепка-хулиганка с балаклавой</entityname.balaclava2>
   <entitydescription.balaclava2></entitydescription.balaclava2>
   <entityname.balaclava3>Маска</entityname.balaclava3>
   <entitydescription.balaclava3></entitydescription.balaclava3>
-  <entityname.balaclava4>Жиганка с маской</entityname.balaclava4>
+  <entityname.balaclava4>Кепка-хулиганка с маской</entityname.balaclava4>
   <entitydescription.balaclava4></entitydescription.balaclava4>
-  <entityname.bonnet>Бомжанка</entityname.bonnet>
+  <entityname.bonnet>Шапка</entityname.bonnet>
   <entitydescription.bonnet></entitydescription.bonnet>
-  <entityname.eightBlade>Восьмиклинка</entityname.eightBlade>
-  <entitydescription.eightBlade></entitydescription.eightBlade>
+  <entityname.zhiganka>Кепка-хулиганка</entityname.zhiganka>
+  <entitydescription.zhiganka></entitydescription.zhiganka>
   <entityname.zsh_40>Шлем «ЗШ-40»</entityname.zsh_40>
   <entitydescription.zsh_40></entitydescription.zsh_40>
   <entityname.zsh_34>Шлем «ЗШ-40» (ТР)</entityname.zsh_34>
@@ -310,11 +312,11 @@
   <entitydescription.hardhatWL></entitydescription.hardhatWL>
   <entityname.hardhatW>Шахтёрская каска</entityname.hardhatW>
   <entitydescription.hardhatW></entitydescription.hardhatW>
-  <entityname.hardhatY>Жёлтая каска</entityname.hardhatY>
+  <entityname.hardhatY>Каска (жёлтая)</entityname.hardhatY>
   <entitydescription.hardhatY></entitydescription.hardhatY>
-  <entityname.hardhatB>Синяя каска</entityname.hardhatB>
+  <entityname.hardhatB>Каска (синяя)</entityname.hardhatB>
   <entitydescription.hardhatB></entitydescription.hardhatB>
-  <entityname.seacap>Флотская фуражка</entityname.seacap>
+  <entityname.seacap>Фуражка (флотская)</entityname.seacap>
   <entitydescription.seacap></entitydescription.seacap>
   <entityname.cookcap>Поварской колпак</entityname.cookcap>
   <entitydescription.cookcap></entitydescription.cookcap>
@@ -415,7 +417,7 @@
   <entityname.toolbox>Контейнер для хранения</entityname.toolbox>
   <entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
   <entityname.handcuffs>Наручники</entityname.handcuffs>
-  <entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
+  <entitydescription.handcuffs>Позволяют обездвиживать проблемных граждан.</entitydescription.handcuffs>
   <entityname.divingmask>Подводная маска</entityname.divingmask>
   <entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
   <entityname.divingsuit>Скафандр</entityname.divingsuit>
@@ -426,8 +428,6 @@
   <entitydescription.hazmat></entitydescription.hazmat>
   <entityname.tongs>Щипцы</entityname.tongs>
   <entitydescription.tongs></entitydescription.tongs>
-  <entityname.cigar>Сигара</entityname.cigar>
-  <entitydescription.cigar>Жизнь под водой давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>
   <entityname.cigarette>Сигарета</entityname.cigarette>
   <entitydescription.cigarette></entitydescription.cigarette>
   <entityname.cigpack>Пачка сигарет</entityname.cigpack>
@@ -468,6 +468,9 @@
   <entitydescription.guitar_bandit>Старая акустическая гитара.</entitydescription.guitar_bandit>
   <entityname.guitar_reich>Гитара (ТР)</entityname.guitar_reich>
   <entitydescription.guitar_reich>Старая акустическая гитара.</entitydescription.guitar_reich>
+  <entityname.shredder>Размельчитель</entityname.shredder>
+  <entitydescription.shredder></entitydescription.shredder>
+  
   <!-- Разное снаряжение -->
   <!-- Разное снаряжение -->
   <!-- Разное снаряжение -->
@@ -521,7 +524,7 @@
   <entityname.izdelie>Изделие «Заготовка-31»</entityname.izdelie>
   <entitydescription.izdelie>Кустарный образец карабина, сделанный из штампованных деталей.</entitydescription.izdelie>
   <entityname.flamerz>Самодельный огнемёт</entityname.flamerz>
-  <entitydescription.flamerz>Чёрт знает как это работает. Издалека видно, что автора этого творения необходимо изолировать от общества</entitydescription.flamerz>
+  <entitydescription.flamerz></entitydescription.flamerz>
   <entityname.flamerpack>Ранец с бензином</entityname.flamerpack>
   <entitydescription.flamerpack>Наполняет тару топливом.</entitydescription.flamerpack>
   <entityname.petroltank>Бензин в банке</entityname.petroltank>
@@ -638,10 +641,10 @@
   <entityname.titaniumCool>Остывший титан</entityname.titaniumCool>
   <entitydescription.titaniumCool></entitydescription.titaniumCool>
   <!--Медикаменты-->
-  <entityname.necroblood>Кровь Некроморфа</entityname.necroblood>
+  <entityname.necroblood>Сыворотка «A»</entityname.necroblood>
   <entitydescription.necroblood></entitydescription.necroblood>
-  <entityname.necroticeggs>Сыворотка X</entityname.necroticeggs>
-  <entitydescription.necroticeggs>Неизвестная сыворотка разработанная неким учённым. Требуеться изучение</entitydescription.necroticeggs>
+  <entityname.necroticeggs>Сыворотка «X»</entityname.necroticeggs>
+  <entitydescription.necroticeggs>Субстанция неизвестного содержания в склянке</entitydescription.necroticeggs>
   <!-- Loading Screen -->
   <loading>Загрузка...</loading>
   <pressanykey>Чтобы продолжить, нажмите любую клавишу</pressanykey>
@@ -1534,8 +1537,6 @@
   <entitydescription.orangejumpsuit>Жаропрочная ткань обеспечивает определенную защиту от огня.</entitydescription.orangejumpsuit>
   <entityname.bluejumpsuit>Синий комбинезон</entityname.bluejumpsuit>
   <entitydescription.bluejumpsuit>Жаропрочная ткань обеспечивает определенную защиту от огня.</entitydescription.bluejumpsuit>
-  <entityname.toolbox>Контейнер для хранения</entityname.toolbox>
-  <entitydescription.toolbox>Переносной контейнер для хранения инструментов.</entitydescription.toolbox>
   <entityname.headset>Наушники</entityname.headset>
   <entitydescription.headset>Обеспечивают связь с другими членами экипажа на расстоянии.</entitydescription.headset>
   <entityname.clownmask>Клоунская маска</entityname.clownmask>
@@ -1552,10 +1553,6 @@
   <entitydescription.bodyarmor>Хотя бронежилет и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.bodyarmor>
   <entityname.ballistichelmet1>Пуленепробиваемый шлем</entityname.ballistichelmet1>
   <entitydescription.ballistichelmet1>Хотя шлем и не способен защитить от большинства обитателей океана, он будет более чем полезен, если на борту подлодки окажется предатель.</entitydescription.ballistichelmet1>
-  <entityname.handcuffs>Наручники</entityname.handcuffs>
-  <entitydescription.handcuffs>Позволяют обездвиживать проблемных игроков.</entitydescription.handcuffs>
-  <entityname.riotshield>Полицейский щит</entityname.riotshield>
-  <entitydescription.riotshield>Защищает от урона.</entitydescription.riotshield>
   <entityname.divingmask>Подводная маска</entityname.divingmask>
   <entitydescription.divingmask>Достаточно компактная, чтобы везде носить ее с собой, эта маска все же не защитит вас от высокого давления воды в случае полноценной пробоины корпуса.</entitydescription.divingmask>
   <entityname.divingsuit>Водолазный скафандр</entityname.divingsuit>
@@ -1572,7 +1569,7 @@
   <entitydescription.weldingtool>Один из важнейших инструментов на борту подлодки. Работает даже под водой.</entitydescription.weldingtool>
   <entityname.plasmacutter>Плазменный резак</entityname.plasmacutter>
   <entitydescription.plasmacutter>Разрезает различные материалы струей ионизированного кислорода.</entitydescription.plasmacutter>
-  <entityname.weldingfueltank>Топливный бак сварочного аппарата</entityname.weldingfueltank>
+  <entityname.weldingfueltank>Топливный баллон</entityname.weldingfueltank>
   <entitydescription.weldingfueltank>Топливо для сварочного аппарата.</entitydescription.weldingfueltank>
   <entityname.extinguisher>Огнетушитель</entityname.extinguisher>
   <entitydescription.extinguisher>Удобный углекислотный огнетушитель.</entitydescription.extinguisher>
@@ -1905,6 +1902,13 @@
   <!-- Misc -->
   <entityname.swimbladder>Плавательный пузырь</entityname.swimbladder>
   <entitydescription.swimbladder>У многих обитателей Европы есть плавательный пузырь, межклеточные жидкости которого можно переработать в стабилиоцин и физраствор.</entitydescription.swimbladder>
+
+  <entityname.wooden_bed>Деревянная кровать</entityname.wooden_bed>
+  <entitydescription.wooden_bed></entitydescription.wooden_bed>
+  
+  <entityname.steel_bed>Металлическая кровать</entityname.steel_bed>
+  <entitydescription.steel_bed></entitydescription.steel_bed>
+
   <entityname.adrenalinegland>Адреналиновая железа</entityname.adrenalinegland>
   <entitydescription.adrenalinegland>Содержит большое количество адреналина, который можно извлечь при помощи деконструтора.</entitydescription.adrenalinegland>
   <entityname.guitar>Гитара</entityname.guitar>
@@ -4743,7 +4747,7 @@
   <entityname.icedebris>Ледяные обломки</entityname.icedebris>
   <entityname.supportbeamhorizontal>Горизонтальная балка</entityname.supportbeamhorizontal>
   <entityname.supportbeamvertical>Вертикальная балка</entityname.supportbeamvertical>
-  <entityname.toolbelt>Пояс инструментов</entityname.toolbelt>
+  <entityname.toolbelt>Пояс для инструментов</entityname.toolbelt>
   <entitydescription.toolbelt>Удобное приспособление для хранения инструментов и припасов на себе.</entitydescription.toolbelt>
   <entityname.scrap>Хлам</entityname.scrap>
   <entitydescription.scrap>Куча потенциально полезных материалов.</entitydescription.scrap>
@@ -5247,7 +5251,6 @@
   <dialoglowonpulselaserammo>Горючего для импульсного лазера осталось мало.</dialoglowonpulselaserammo>
   <campaigninteraction.examine>Осмотреть: [[key]]</campaigninteraction.examine>
   <entityname.vipoutfit>Костюм ВИП-персоны</entityname.vipoutfit>
-  <entityname.prisonerclothes>Костюм заключенного</entityname.prisonerclothes>
   <missiontype.escort>Сопровождение</missiontype.escort>
   <missiontype.pirate>Пират</missiontype.pirate>
   <dialogmentalstateconfused>Э-э... Что это было?</dialogmentalstateconfused>
@@ -5342,8 +5345,6 @@
   <orderdialog.mentalcase>У нас псих в помещении [roomname]!</orderdialog.mentalcase>
   <entityname.piratesubexterior>Часть экстерьера: пиратская подлодка</entityname.piratesubexterior>
   <entityname.piratesubdeco>Украшение: пиратская подлодка</entityname.piratesubdeco>
-  <entityname.piratecaptainhat>Шляпа пиратского капитана</entityname.piratecaptainhat>
-  <entityname.piratebandana>Бандана пирата</entityname.piratebandana>
   <entityname.pirateclothes>Костюм пирата</entityname.pirateclothes>
   <eventtext.atwitsend.c1>К вам подходит тощий молодой человек с бутылкой в руках. Несмотря на свой изможденный вид, он говорит довольно бодро:\n\n"Привет, я Арти Дулиттл. Вы же прибыли сюда на том корабле, так? Вы должны взять меня с собой!"\n</eventtext.atwitsend.c1>
   <eventtext.atwitsend.o1>Что? С чего бы мне это делать?</eventtext.atwitsend.o1>
@@ -6136,8 +6137,8 @@
   <entitydescription.pressurestabilizer>Это лекарство дает устойчивость к давлению и ненадолго снимает потребность в кислороде.</entitydescription.pressurestabilizer>
   <afflictionname.pressurestabilized>Давление стабилизировано</afflictionname.pressurestabilized>
   <afflictiondescription.pressurestabilized>Подопытный устойчив к давлению и сейчас не нуждается в кислороде.</afflictiondescription.pressurestabilized>
-  <entityname.endocrinebooster>Гормональный усилитель</entityname.endocrinebooster>
-  <entitydescription.endocrinebooster>Этот прибор дает постоянное улучшение характеристик.</entitydescription.endocrinebooster>
+  <entityname.endocrinebooster>Сыворотка «C»</entityname.endocrinebooster>
+  <entitydescription.endocrinebooster></entitydescription.endocrinebooster>
   <afflictionname.endocrineboost>Гормональное усиление</afflictionname.endocrineboost>
   <afflictiondescription.endocrineboost>Подопытный навсегда получил улучшенные возможности.</afflictiondescription.endocrineboost>
   <afflictionname.physicaldamage>Физический урон</afflictionname.physicaldamage>
@@ -6160,8 +6161,8 @@
   <entitydescription.screwdriverhardened>Отвертка, закаленная с помощью обедненного топлива. Благодаря усиленному материалу более эффективна как инструмент и оружие.</entitydescription.screwdriverhardened>
   <entityname.crowbarhardened>Закаленный лом</entityname.crowbarhardened>
   <entitydescription.crowbarhardened>Лом, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как инструмент и оружие.</entitydescription.crowbarhardened>
-  <entityname.divingknifehardened>Закаленный нож ныряльщика</entityname.divingknifehardened>
-  <entitydescription.divingknifehardened>Нож ныряльщика, закаленный с помощью обедненного топлива. Благодаря усиленному материалу более эффективен как оружие.</entitydescription.divingknifehardened>
+  <entityname.divingknifehardened>Закаленный штык-нож «6Х4»</entityname.divingknifehardened>
+  <entitydescription.divingknifehardened>Благодаря усиленному материалу более эффективен как оружие.</entitydescription.divingknifehardened>
   <entityname.revolverrounddepletedfuel>Патрон револьвера с обедненным топливом</entityname.revolverrounddepletedfuel>
   <entitydescription.revolverrounddepletedfuel>Револьверный патрон калибра .38 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.revolverrounddepletedfuel>
   <entityname.smgmagazinedepletedfuel>Магазин для ПП с обедненным топливом</entityname.smgmagazinedepletedfuel>
@@ -6177,28 +6178,24 @@
   <entityname.autoshotgun>Автоматический дробовик</entityname.autoshotgun>
   <entitydescription.autoshotgun>Примитивный автоматический дробовик с огромным боезапасом. Большой размер и вес доставляют неудобства при использовании.</entitydescription.autoshotgun>
   <entityname.handcannon>Бомбарда</entityname.handcannon>
-  <entitydescription.handcannon>Огромный револьвер, более эффективный против крупных инопланетных целей на Европе, чем обычное оружие.</entitydescription.handcannon>
+  <entitydescription.handcannon>Огромный револьвер, особая разработка советских учёных на Европе.</entitydescription.handcannon>
   <entityname.handcannonround>Патрон бомбарды</entityname.handcannonround>
   <entitydescription.handcannonround>Огромный револьверный патрон калибра .61. Уникальный материал изготовления обеспечивает высокую бронебойность и останавливающую силу.</entitydescription.handcannonround>
-  <entityname.coalitioncommendation>Благодарность коалиции</entityname.coalitioncommendation>
-  <entitydescription.coalitioncommendation>Небольшая медная медаль, награда коалиции. Переданная другому члену команды, мгновенно добавляет ему опыта.</entitydescription.coalitioncommendation>
-  <entityname.coalitionmedal>Медаль коалиции</entityname.coalitionmedal>
-  <entitydescription.coalitionmedal>Небольшая бронзовая медаль, награда коалиции. Как и благодарность коалиции, добавляет опыта при передаче члену команды, но несколько больше.</entitydescription.coalitionmedal>
   <entityname.assaultrifle>Штурмовая винтовка</entityname.assaultrifle>
   <entitydescription.assaultrifle>Штурмовая винтовка с магазином патронов калибра 6,8 мм. Запрещена коалицией, но чертежи для ее изготовления до сих пор в ходу на Европе, потому что нет ничего лучше для самозащиты на подлодке – или для революционной борьбы, если вы сепаратист.</entitydescription.assaultrifle>
   <entityname.assaultriflemagazine>Магазин штурмовой винтовки</entityname.assaultriflemagazine>
   <entitydescription.assaultriflemagazine>Магазин под патроны калибра 6,8 мм.</entitydescription.assaultriflemagazine>
   <entityname.shotgunslugexplosive>Разрывная пуля</entityname.shotgunslugexplosive>
   <entitydescription.shotgunslugexplosive>Пуля для дробовика, содержащая заряд взрывчатки. Пуля мощная, но выстрелы из дробовика не очень точные.</entitydescription.shotgunslugexplosive>
-  <entityname.boardingaxe>Абордажный топор</entityname.boardingaxe>
+  <entityname.boardingaxe>Пожарный топор</entityname.boardingaxe>
   <entitydescription.boardingaxe>Большой двуручный топор.</entitydescription.boardingaxe>
   <entityname.skillbooksailorsguide>Справочник моряка</entityname.skillbooksailorsguide>
   <entitydescription.skillbooksailorsguide>Краткий справочник по всем задачам, связанным с подводным плаванием.</entitydescription.skillbooksailorsguide>
-  <entityname.skillbooksubmarinewarfare>Искусство подводной войны</entityname.skillbooksubmarinewarfare>
+  <entityname.skillbooksubmarinewarfare>Книга «Советский офицер»</entityname.skillbooksubmarinewarfare>
   <entitydescription.skillbooksubmarinewarfare>Руководство по военным действиям с участием подлодок, с подробными схемами тактических маневров и полным справочником по вооружению.</entitydescription.skillbooksubmarinewarfare>
-  <entityname.skillbookhandyseaman>Умелый моряк</entityname.skillbookhandyseaman>
+  <entityname.skillbookhandyseaman>Книга «Советский инженер»</entityname.skillbookhandyseaman>
   <entitydescription.skillbookhandyseaman>Справочник с подробным описанием самых распространенных технических проблем на подлодках Европы, а также простыми и понятными советами по их решению.</entitydescription.skillbookhandyseaman>
-  <entityname.skillbookeuropanmedicine>Европейская медицина</entityname.skillbookeuropanmedicine>
+  <entityname.skillbookeuropanmedicine>Книга «Советский врач»</entityname.skillbookeuropanmedicine>
   <entitydescription.skillbookeuropanmedicine>Справочник по лечению раненых и больных в условиях ограниченного запаса медицинских ресурсов. В нем часто упоминается слово «сортировка».</entitydescription.skillbookeuropanmedicine>
   <entityname.thermalgoggles>Тепловизор</entityname.thermalgoggles>
   <entitydescription.thermalgoggles>Очки теплового зрения позволяют различать живые цели при плохом освещении и даже за препятствиями.</entitydescription.thermalgoggles>
@@ -6212,11 +6209,11 @@
   <entitydescription.nucleargun>Прототип энергетического оружия, созданный с использованием уникальных инопланетных материалов на Европе. При выстреле происходит реакция ядерного распада с мощным выбросом энергии.</entitydescription.nucleargun>
   <entityname.cargoscooter>Грузовой скутер</entityname.cargoscooter>
   <entitydescription.cargoscooter>Подводный скутер для транспортировки материалов под водой. Скутер слишком большой и не поместится в инвентаре, но нейтральная плавучесть позволяет ему оставаться там, где вы его бросите.</entitydescription.cargoscooter>
-  <entityname.clowndivingmask>Подводная маска клоуна</entityname.clowndivingmask>
-  <entitydescription.clowndivingmask>Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask>
+  <!-- <entityname.clowndivingmask>Подводная маска клоуна</entityname.clowndivingmask>
+  <entitydescription.clowndivingmask>Сочетание подводной и клоунской масок, позволяющая и паясничать, и дышать под водой.</entitydescription.clowndivingmask> -->
   <entityname.safetyharness>Страховочные ремни</entityname.safetyharness>
   <entitydescription.safetyharness>Специальная обвязка, разработанная для снижения травматизма на подлодках Европы. Также обвязка частично гасит эффект потока воды, помогая в случае пробоины в корпусе.</entitydescription.safetyharness>
-  <entityname.pucs>УЗК</entityname.pucs>
+  <entityname.pucs>Костюм УЗК</entityname.pucs>
   <entitydescription.pucs>Универсальный Защитный Костюм, или УЗК, обеспечивает полную защиту от воздействий внешней среды, таких как огонь и радиация. Встроенная система фильтрации воздуха оптимизирует использование кислорода, а портативный медицинский компьютер своевременно вводит пользователю имеющиеся в распоряжении медикаменты.</entitydescription.pucs>
   <entityname.cigar>Сигара</entityname.cigar>
   <entitydescription.cigar>Жизнь на подлодке давит на психику, а эта эксклюзивная сигара ручной работы помогает успокоить нервы.</entitydescription.cigar>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="handcannonround" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,handcannonammo,pistolammoitem" impactsoundtag="impact_metal_light">
+  <Item name="Патрон бомбарды" identifier="handcannonround" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,handcannonammo,pistolammoitem" impactsoundtag="impact_metal_light">
     <Price baseprice="115" soldeverywhere="false">
       <Price locationtype="outpost" sold="false" />
       <Price locationtype="city" sold="false" />
@@ -36,7 +36,7 @@
     </Projectile>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
-  <Item name="" identifier="handcannon" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,pistolitem" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Бомбарда" identifier="handcannon" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun,pistolitem" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="600" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />

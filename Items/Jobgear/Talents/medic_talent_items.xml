@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="autoinjectorheadset" scale="0.5" category="Equipment" tags="smallitem,mobileradio" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Гарнитура с инжектором" identifier="autoinjectorheadset" scale="0.5" category="Equipment" tags="smallitem,mobileradio" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <Price baseprice="140">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -28,7 +28,7 @@
       <sprite name="Headset Wearable" texture="Content/Items/JobGear/Talents/TalentGear.png" sourcerect="253,305,76,58" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" origin="0.5,0.5" />
     </Wearable>
   </Item>
-  <Item name="" identifier="skillbookeuropanmedicine" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
+  <Item name="Книга «Советский врач»" identifier="skillbookeuropanmedicine" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
     <Price baseprice="350" minleveldifficulty="40" buyingpricemodifier="2.5">
       <Price locationtype="outpost" multiplier="1" />
       <Price locationtype="city" multiplier="1" maxavailable="1" />
@@ -55,7 +55,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="combatstimulantsyringe" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Боевой стимулятор" identifier="combatstimulantsyringe" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="340" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -104,7 +104,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="pressurestabilizer" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Стабилизатор давления" identifier="pressurestabilizer" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="200" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -149,7 +149,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="endocrinebooster" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Сыворотка «C»" identifier="endocrinebooster" category="Material" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="1400" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />

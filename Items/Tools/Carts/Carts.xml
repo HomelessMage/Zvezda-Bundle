@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
+  <!-- Не совсем понимаю что это такое -->
   <Item name="" identifier="ekutility_cart_depthcharge" tags="coilgunammoshelf,container,coilgunammocontainer,ammocontainer" pickdistance="75" scale="0.6">
     <!--<Price storeidentifier="merchantCity" buyprice="70" />
     <Price storeidentifier="merchantOutpost" buyprice="80" />

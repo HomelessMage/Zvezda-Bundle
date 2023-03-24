@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="autoshotgun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith" Scale="0.62" impactsoundtag="impact_metal_light">
+  <Item name="Автоматический дробовик" identifier="autoshotgun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun,gunsmith" Scale="0.62" impactsoundtag="impact_metal_light">
     <Price baseprice="600" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.4" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -49,7 +49,7 @@
       <QualityStat stattype="AttackMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="assaultrifle" category="Equipment" cargocontaineridentifier="metalcrate" tags="weapon,gun,gunsmith" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Штурмовая винтовка" identifier="assaultrifle" category="Equipment" cargocontaineridentifier="metalcrate" tags="weapon,gun,gunsmith" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="660" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -101,7 +101,7 @@
       <QualityStat stattype="AttackMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="assaultriflemagazine" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultrifleammo" impactsoundtag="impact_metal_light">
+  <Item name="Магазин штурмовой винтовки" identifier="assaultriflemagazine" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,assaultrifleammo" impactsoundtag="impact_metal_light">
     <Price baseprice="350" minleveldifficulty="60" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.4" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -153,7 +153,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="shotgunslugexplosive" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Разрывная пуля" identifier="shotgunslugexplosive" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,shotgunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="75" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -231,7 +231,7 @@
     </Quality>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
-  <Item name="" identifier="skillbooksubmarinewarfare" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
+  <Item name="Книга «Советский офицер»" identifier="skillbooksubmarinewarfare" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
     <Price baseprice="350" minleveldifficulty="40" buyingpricemodifier="2.5">
       <Price locationtype="outpost" multiplier="1" />
       <Price locationtype="city" multiplier="1" maxavailable="1" />
@@ -260,7 +260,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="slipsuit" variantof="combatdivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
+  <Item name="Гидрокостюм" identifier="slipsuit" variantof="combatdivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
     <Price baseprice="480" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="0.9" sold="false" />
       <Price locationtype="city" multiplier="0.85" sold="false" />
@@ -311,7 +311,7 @@
       <StatValue stattype="WalkingSpeed" value="-0.6" />
     </Wearable>
   </Item>
-  <Item name="" identifier="stungundartfulgurium" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Грозовиевый дротик для электрошокера" identifier="stungundartfulgurium" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="120" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.4" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />

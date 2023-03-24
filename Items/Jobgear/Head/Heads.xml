@@ -246,7 +246,7 @@
     </Wearable>
   </Item>
   <!--Восьмиклинка-->
-  <Item name="Восьмиклинка" identifier="eightBlade" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <Item name="Кепка-хулиганка" identifier="zhiganka" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,37,80,50" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
@@ -316,7 +316,7 @@
     </Wearable>
   </Item>
   <!--Балаклава c кепкой-->
-  <Item name="Жиганка с балаклавой" identifier="balaclava2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+  <Item name="Кепка-хулиганка с балаклавой" identifier="balaclava2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
     <Sprite name="balaclava2" texture="%ModDir%/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,0,73,87" origin="0.5,0.5" scale="0.411" />
     <Body width="73" height="87" density="70" />
     <InventoryIcon texture="%ModDir%/Items/Jobgear/Head/Head2.png" sourcerect="70,0,73,87" />
@@ -348,7 +348,7 @@
     </Wearable>
   </Item>
   <!--Маска с кепкой-->
-  <Item name="Жиганка с маской" identifier="balaclava4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+  <Item name="Кепка-хулиганка с маской" identifier="balaclava4" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
     <Sprite name="Balaclava4" texture="%ModDir%/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="70,96,73,82" origin="0.5,0.5" scale="0.411" />
     <Body width="73" height="82" density="70" />
     <InventoryIcon texture="%ModDir%/Items/Jobgear/Head/Head2.png" sourcerect="70,96,73,82" />
@@ -363,8 +363,8 @@
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
     </Wearable>
   </Item>
-  <!--Бомжанка-->
-  <Item name="Бомжанка" identifier="bonnet" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
+  <!--Шапка-->
+  <Item name="Шапка" identifier="bonnet" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.411">
     <Sprite name="bonnet" texture="%ModDir%/Items/Jobgear/Head/Head2.png" depth="0.6" sourcerect="0,178,73,34" origin="0.5,0.5" scale="0.411" />
     <Body width="73" height="34" density="70" />
     <InventoryIcon texture="%ModDir%/Items/Jobgear/Head/Head2.png" sourcerect="0,178,73,34" />
@@ -563,7 +563,7 @@
     </Wearable>
   </Item>
   <!--Жёлтая каска-->
-  <Item name="Жёлтая каска" identifier="hardhatY" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <Item name="Каска (жёлтая)" identifier="hardhatY" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="hardhatY" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,0,78,55" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
@@ -573,7 +573,7 @@
     </Wearable>
   </Item>
   <!--Синяя каска-->
-  <Item name="Синяя каска" identifier="hardhatB" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <Item name="Каска (синяя)" identifier="hardhatB" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="hardhatB" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="355,0,78,55" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
@@ -582,8 +582,8 @@
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
   </Item>
-  <!--Пилотка МВД-->
-  <Item name="Пилотка ВС СССР" identifier="gcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <!--Пилотка ВС-->
+  <Item name="Пилотка ВС ССКЕ" identifier="gcap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="gcap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="276,56,80,39" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
@@ -592,8 +592,8 @@
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
   </Item>
-  <!--Флотская фуражка-->
-  <Item name="Флотская фуражка" identifier="seacap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <!--Фуражка (флотская)-->
+  <Item name="Фуражка (флотская)" identifier="seacap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="seacap" texture="%ModDir%/Items/Jobgear/Head/Head3.png" depth="0.6" sourcerect="397,195,84,51" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />

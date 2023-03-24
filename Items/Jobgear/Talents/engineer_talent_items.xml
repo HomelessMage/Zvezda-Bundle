@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="depletedfuel" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light">
+  <Item name="Обедненное топливо" identifier="depletedfuel" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light">
     <Price baseprice="75">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -38,7 +38,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="coilgunammoboxdepletedfuel" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
+  <Item name="Ящик с боеприпасами с обедненным топливом для магнитной пушки" identifier="coilgunammoboxdepletedfuel" scale="0.5" tags="coilgunequipment,coilgunammo,ammobox" category="Equipment" linkable="true" impactsoundtag="impact_metal_heavy">
     <Price baseprice="280" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -79,7 +79,7 @@
       <Containable items="depletedfuelbolt" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="depletedfuelbolt" category="Misc" scale="0.5" sonarsize="2" hideinmenus="true">
+  <Item name="Снаряд с обедненным топливом" identifier="depletedfuelbolt" category="Misc" scale="0.5" sonarsize="2" hideinmenus="true">
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="143,425,113,9" depth="0.55" />
     <Body width="160" height="10" density="20" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
@@ -105,7 +105,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="wrenchhardened" variantof="wrench" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110" addedrepairspeedmultiplier="0.25">
+  <Item name="Закаленный гаечный ключ" identifier="wrenchhardened" variantof="wrench" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110" addedrepairspeedmultiplier="0.25">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -135,7 +135,7 @@
       </Attack>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="crowbarhardened" variantof="crowbar" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+  <Item name="Закаленный лом" identifier="crowbarhardened" variantof="crowbar" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -164,7 +164,7 @@
       </Attack>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="screwdriverhardened" variantof="screwdriver" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110" addedrepairspeedmultiplier="0.25">
+  <Item name="Закаленная отвертка" identifier="screwdriverhardened" variantof="screwdriver" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110" addedrepairspeedmultiplier="0.25">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -194,7 +194,7 @@
       </Attack>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="divingknifehardened" variantof="divingknife" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+  <Item name="Закаленный штык-нож «6Х4»" identifier="divingknifehardened" variantof="divingknife" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -224,7 +224,7 @@
       </Attack>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="revolverrounddepletedfuel" variantof="revolverround" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+  <Item name="Патрон револьвера с обедненным топливом" identifier="revolverrounddepletedfuel" variantof="revolverround" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -254,7 +254,7 @@
       </Attack>
     </Projectile>
   </Item>
-  <Item name="" identifier="smgmagazinedepletedfuel" variantof="smgmagazine" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+  <Item name="Магазин для ПП с обедненным топливом" identifier="smgmagazinedepletedfuel" variantof="smgmagazine" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
     <PreferredContainer />
     <PreferredContainer />
     <PreferredContainer />
@@ -285,7 +285,7 @@
       </StatusEffect>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="smgrounddepletedfuel" variantof="smground" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
+  <Item name="Патрон для ПП с обедненным топливом" identifier="smgrounddepletedfuel" variantof="smground" inventoryiconcolor="110,120,110,255" spritecolor="110,120,110">
     <Sprite texture="Content/Items/Weapons/weapons_new.png" />
     <Projectile>
       <ParticleEmitter colormultiplier="200,255,80,175" />
@@ -297,7 +297,7 @@
       </Attack>
     </Projectile>
   </Item>
-  <Item name="" identifier="thermalgoggles" scale="0.5" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
+  <Item name="Тепловизор" identifier="thermalgoggles" scale="0.5" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab" minamount="0" maxamount="0" spawnprobability="0.0" />
     <Price baseprice="350" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
@@ -325,7 +325,7 @@
     </Wearable>
     <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
   </Item>
-  <Item name="" identifier="reactorpda" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Пульт реактора" identifier="reactorpda" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -348,7 +348,7 @@
     <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
     <RemoteController target="reactor" onlyinownsub="true" msg="ItemMsgInteractSelect" AllowInGameEditing="false" drawhudwhenequipped="true" />
   </Item>
-  <Item name="" identifier="skillbookhandyseaman" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
+  <Item name="Книга «Советский инженер»" identifier="skillbookhandyseaman" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
     <Price baseprice="350" minleveldifficulty="40" buyingpricemodifier="2.5">
       <Price locationtype="outpost" multiplier="1" maxavailable="1" />
       <Price locationtype="city" multiplier="1" />
@@ -377,7 +377,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="nucleargun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="Быстрый ускоритель распада" identifier="nucleargun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_heavy">
     <Price baseprice="675" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.5" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -467,7 +467,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="cargoscooter" category="Equipment" Tags="mediumitem,provocative,scooter" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
+  <Item name="Грузовой скутер" identifier="cargoscooter" category="Equipment" Tags="mediumitem,provocative,scooter" cargocontaineridentifier="metalcrate" description="" Scale="0.5" impactsoundtag="impact_metal_heavy" isshootable="true">
     <Price baseprice="270">
       <Price locationtype="outpost" multiplier="0.9" sold="false" />
       <Price locationtype="city" multiplier="0.85" sold="false" />
@@ -516,7 +516,7 @@
     </ItemContainer>
     <AiTarget soundrange="3000" maxsightrange="3000" />
   </Item>
-  <Item name="" identifier="dirtybomb" category="Equipment" Tags="smallitem,explosive" maxstacksize="8" Scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Ядерная бомба" identifier="dirtybomb" category="Equipment" Tags="smallitem,explosive" maxstacksize="8" Scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="240" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.25" sold="false" />
       <Price locationtype="city" multiplier="1.25" sold="false" />
@@ -568,7 +568,7 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-  <Item name="" identifier="handheldelectricalmonitor" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Ручной электромонитор" identifier="handheldelectricalmonitor" category="Equipment" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />
@@ -594,7 +594,7 @@
       <GuiFrame relativesize="0.4,0.4" anchor="CenterRight" relativeoffset="0.006,-0.01" style="ItemUI" />
     </MiniMap>
   </Item>
-  <Item name="" identifier="pucs" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
+  <Item name="Костюм УЗК" identifier="pucs" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
     <Price baseprice="570">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="1" sold="false" />
@@ -703,7 +703,7 @@
       </SubContainer>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="fulguriumfuelrodvolatile" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" health="400" scale="0.5">
+  <Item name="Нестабильный грозовиевый топливный стержень" identifier="fulguriumfuelrodvolatile" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" health="400" scale="0.5">
     <Price baseprice="400" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="0.9" sold="false" />

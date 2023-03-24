@@ -6,7 +6,7 @@
   <!-- Name: Morbusine -->
   <!-- Description: Causes oxygen deprivation. Kills relatively quickly, but not effective on bigger creatures -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Morbusine name="" identifier="morbusine" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Morbusine name="Морбузин" identifier="morbusine" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.02" />
@@ -72,7 +72,7 @@
   <!-- Name: Chloral Hydrate -->
   <!-- Description: A sedative that can be used to knock someone out for a short period of time. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <ChloralHydrate name="" identifier="chloralhydrate" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <ChloralHydrate name="Хлоральгидрат" identifier="chloralhydrate" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.1" />
@@ -129,7 +129,7 @@
   <!-- Name: Cyanide -->
   <!-- Description: Sudden death for normal characters. Works even on the strongest creatures, but it might take time. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Cyanide name="" identifier="cyanide" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Cyanide name="Цианид" identifier="cyanide" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -193,7 +193,7 @@
   <!-- Name: Radiotoxin -->
   <!-- Description: A highly potent neurotoxin. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Radiotoxin name="" identifier="radiotoxin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Radiotoxin name="Радиотоксин" identifier="radiotoxin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -248,7 +248,7 @@
   <!-- Name: Sufforin -->
   <!-- Description: disables slowly, makes very sick, eventually lethal. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Sufforin name="" identifier="sufforin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Sufforin name="Страданит" identifier="sufforin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -311,7 +311,7 @@
   <!-- Name: Deliriumine -->
   <!-- Description: A psychosis-inducing toxin. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Deliriumine name="" identifier="deliriumine" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Deliriumine name="Бредоген" identifier="deliriumine" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -364,7 +364,7 @@
   <!-- Name: Paralyzant -->
   <!-- Description: slows down effectively, but doesn't kill. In high doses effective even on the biggest monsters.-->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Paralyzant name="" identifier="paralyzant" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Paralyzant name="Парализатор" identifier="paralyzant" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -426,7 +426,7 @@
   <!-- Name: Raptor bane extract -->
   <!-- Description: Causes vomiting in humans, severely harms raptors. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <raptorbaneextract name="" identifier="raptorbaneextract" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <raptorbaneextract name="Экстракт бича раптора" identifier="raptorbaneextract" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
@@ -490,7 +490,7 @@
   <!-- Name: Hallucinogenic Bufotoxin -->
   <!-- Description: A hallucinogenic toxin. Has an antiparalyzant effect. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Bufotoxin name="" identifier="hallucinogenicbufotoxin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,medical" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Bufotoxin name="Галлюциногенный буфотоксин" identifier="hallucinogenicbufotoxin" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,poison,medical" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <PreferredContainer primary="toxcab" secondary="toxcontainer"/>
     <PreferredContainer primary="wrecktoxcab,abandonedtoxcab" spawnprobability="0.05" />
     <Price baseprice="200" sold="false" />

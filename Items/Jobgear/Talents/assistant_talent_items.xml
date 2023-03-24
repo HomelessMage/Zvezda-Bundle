@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="skillbooksailorsguide" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
+  <Item name="Справочник моряка" identifier="skillbooksailorsguide" category="Equipment" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft" useinhealthinterface="true">
     <Price baseprice="350" minleveldifficulty="40" buyingpricemodifier="2.5">
       <Price locationtype="outpost" multiplier="1" maxavailable="1" />
       <Price locationtype="city" multiplier="1" maxavailable="1" />
@@ -38,7 +38,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="clowndivingmask" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clownmask,diving,lightdiving" description="" scale="0.5">
+  <!-- <Item name="" identifier="clowndivingmask" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clownmask,diving,lightdiving" description="" scale="0.5">
     <Price baseprice="150" soldeverywhere="false" canbespecial="false">
       <Price locationtype="outpost" multiplier="1" sold="false" />
       <Price locationtype="city" multiplier="1" sold="false" />
@@ -58,7 +58,6 @@
     </Fabricate>
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
       <sprite name="Clown Diving Mask Wearable" texture="Content/Items/JobGear/Talents/TalentGear.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" sourcerect="378,301,80,70" origin="0.45,0.4" />
-      <!-- copied from divingmask -->
       <StatusEffect type="OnWearing" target="Contained,Character" OxygenAvailable="1000.0" Condition="-0.5" comparison="Or">
         <Conditional IsDead="false" />
         <RequiredItem items="oxygentank" type="Contained" />
@@ -91,5 +90,5 @@
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank">
       <Containable items="oxygensource,weldingtoolfuel" />
     </ItemContainer>
-  </Item>
+  </Item> -->
 </Items>

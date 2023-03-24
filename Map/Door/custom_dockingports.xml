@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Silent Vanilla Docking Ports -->
-  <Item name="Docking Port (Silent)" identifier="dockingportsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Стыковочный порт (тихий)" identifier="dockingportsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="Content/Items/Door/dockingport.png" sourcerect="0,0,226,418" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="224" height="60" />
     <trigger x="0" y="-358" width="224" height="60" />
@@ -42,7 +42,7 @@
 	  -->
     </ConnectionPanel>
   </Item>
-  <Item name="Docking Hatch (Silent)" identifier="dockinghatchsilent" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Стыковочный люк (тихий)" identifier="dockinghatchsilent" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="Content/Items/Door/dockingport.png" sourcerect="252,4,256,224" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="60" height="224" />
     <trigger x="196" y="0" width="60" height="224" />
@@ -84,7 +84,7 @@
     </ConnectionPanel>
   </Item>
   <!-- Docking Port Sizes -->
-  <Item name="Docking Rail Vertical" identifier="dockingrailvertical" tags="dock" linkable="true" scale="0.5" description="A docking interface aligned along a vertical rail." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Стыковочная рельса (вертикальная)" identifier="dockingrailvertical" tags="dock" linkable="true" scale="0.5" description="A docking interface aligned along a vertical rail." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="0,0,128,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="32" y="0" width="64" height="160" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,256" DockedDistance="176">
@@ -107,7 +107,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Docking Rail Horizontal" identifier="dockingrailhorizontal" tags="dock" linkable="true" scale="0.5" description="A docking interface aligned along a horizontal rail." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Стыковочная рельса (горизонтальная)" identifier="dockingrailhorizontal" tags="dock" linkable="true" scale="0.5" description="A docking interface aligned along a horizontal rail." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="128,0,160,128" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="-32" width="160" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="256,64" DockedDistance="176">
@@ -130,7 +130,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Small Docking Port" identifier="dockingportsmall" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Малый стыковочный порт" identifier="dockingportsmall" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="160" height="60" />
     <trigger x="0" y="-358" width="160" height="60" />
@@ -166,7 +166,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Small Docking Hatch" identifier="dockinghatchsmall" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface in a thin form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Малый стыковочный люк" identifier="dockinghatchsmall" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface in a thin form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="60" height="160" />
     <trigger x="196" y="0" width="60" height="160" />
@@ -202,7 +202,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Small Docking Port (Silent)" identifier="dockingportsmallsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Малый стыковочный порт (тихий)" identifier="dockingportsmallsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="0,168,160,416" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="160" height="60" />
     <trigger x="0" y="-358" width="160" height="60" />
@@ -237,7 +237,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Small Docking Hatch (Silent)" identifier="dockinghatchsmallsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Малый стыковочный люк (тихий)" identifier="dockinghatchsmallsilent" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a thin form-factor. Improved actuation mechanism and dampening systems allow for almost noiseless operation." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="296,0,256,160" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="0" width="60" height="160" />
     <trigger x="196" y="0" width="60" height="160" />
@@ -272,7 +272,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Docking Port Micro" identifier="dockingportmicro" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a very small form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Миниатюрный стыковочный порт" identifier="dockingportmicro" tags="dock" linkable="true" scale="0.5" description="A vertically aligned docking interface in a very small form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="560,96,72,64" depth="0.94" origin="0.5,0.5" />
     <trigger x="4" y="0" width="64" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="64,175" DockedDistance="64">
@@ -295,7 +295,7 @@
       <output name="proximity_sensor" displayname="connection.dockingproximitysensor" fallbackdisplayname="label.readytodock" />
     </ConnectionPanel>
   </Item>
-  <Item name="Docking Hach Micro" identifier="dockinghatchmicro" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface in a very small form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
+  <Item name="Миниатюрный стыковочный люк" identifier="dockinghatchmicro" tags="dock" linkable="true" scale="0.5" description="A horizontally aligned docking interface in a very small form-factor." indestructible="true" requirecursorinsidetrigger="true" requirebodyinsidetrigger="false">
     <Sprite texture="%ModDir%/Map/Door/dockingports_custom.png" sourcerect="640,96,64,72" depth="0.94" origin="0.5,0.5" />
     <trigger x="0" y="-4" width="64" height="64" />
     <DockingPort IsHorizontal="false" DistanceTolerance="175,64" DockedDistance="64">

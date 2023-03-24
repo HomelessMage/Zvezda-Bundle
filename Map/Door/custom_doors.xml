@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Windowed Interior Doors -->
-  <Item name="Glass Door" identifier="glassdoor" tags="door" scale="0.5" description="A sliding door with a huge window. No integrated buttons - has to be wired manually." health="80" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Стеклянная дверь" identifier="glassdoor" tags="door" scale="0.5" description="A sliding door with a huge window. No integrated buttons - has to be wired manually." health="80" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/door.png" sourcerect="0,0,49,416" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,416" depth="0.89" origin="0.5,0.5" />
@@ -40,7 +40,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Glass Door with Buttons" identifier="glassdoorwbuttons" tags="door" scale="0.5" description="A sliding door with a huge window and two integrated buttons." health="80" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Стеклянная дверь с кнопками" identifier="glassdoorwbuttons" tags="door" scale="0.5" description="A sliding door with a huge window and two integrated buttons." health="80" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbymeleeweapons="true" explosiondamagemultiplier="0.5" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="0,0,48,416" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/door.png" sourcerect="0,0,49,416" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door2.png" sourcerect="0,0,170,416" depth="0.89" origin="0.51,0.5" />
@@ -81,7 +81,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Windowed Hatch" identifier="glasshatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A windowed door, but on the horizontal axis. No integrated buttons - has to be wired manually." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
+  <Item name="Люк с окном" identifier="glasshatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A windowed door, but on the horizontal axis. No integrated buttons - has to be wired manually." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/hatch.png" sourcerect="0,0,256,98" depth="0.7" origin="0.5,0.5" />
     <Door window="48,0,160,48" canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
@@ -113,7 +113,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Windowed Hatch with Buttons" identifier="glasshatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A windowed door, but on the horizontal axis. Two integrated buttons." health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
+  <Item name="Люк с окном и кнопками" identifier="glasshatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A windowed door, but on the horizontal axis. Two integrated buttons." health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="64,0,256,48" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Door/hatch.png" sourcerect="0,0,256,98" depth="0.7" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/hatch.png" sourcerect="0,234,256,193" depth="0.89" origin="0.5,0.5" />
@@ -186,7 +186,7 @@
   </Item>
   -->
   <!-- Short Door -->
-  <Item name="Short Door" identifier="shortdoor" tags="door" scale="0.5" description="A door with the same size as a hatch. No integrated buttons - has to be wired manually." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Короткая дверь" identifier="shortdoor" tags="door" scale="0.5" description="A door with the same size as a hatch. No integrated buttons - has to be wired manually." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,256" depth="0.89" origin="0.5,0.5" />
@@ -219,7 +219,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Short Door With Buttons" identifier="shortdoorwbuttons" tags="door" scale="0.5" description="A door with the same size as a hatch with two integrated buttons." health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Короткая дверь с кнопками" identifier="shortdoorwbuttons" tags="door" scale="0.5" description="A door with the same size as a hatch with two integrated buttons." health="100" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="392,416,40,256" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="288,416,48,256" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,256" depth="0.89" origin="0.5,0.5" />
@@ -257,7 +257,7 @@
     </ConnectionPanel>
   </Item>
   <!-- Heavy Doors -->
-  <Item name="Heavy Door" identifier="heavydoorvanilla" tags="door" scale="0.5" description="A heavy bulkhead door. No integrated buttons - has to be wired manually." health="450" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Тяжелая дверь" identifier="heavydoorvanilla" tags="door" scale="0.5" description="A heavy bulkhead door. No integrated buttons - has to be wired manually." health="450" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
@@ -288,7 +288,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Heavy Door With Buttons" identifier="heavydoorvanillawbuttons" tags="door" scale="0.5" description="A heavy bulkhead door with two integrated buttons." health="450" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Тяжелая дверь с кнопками" identifier="heavydoorvanillawbuttons" tags="door" scale="0.5" description="A heavy bulkhead door with two integrated buttons." health="450" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.2" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_vanillaheavy.png" sourcerect="0,0,200,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_vanillaheavy.png" sourcerect="208,0,104,416" depth="0.51" origin="0.5,0.5" />
@@ -323,7 +323,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Blast Door" identifier="blastdoor" tags="door" scale="0.5" description="A heavily armored shutter. No integrated buttons - has to be wired manually." health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Гермозатвор" identifier="blastdoor" tags="door" scale="0.5" description="A heavily armored shutter. No integrated buttons - has to be wired manually." health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
@@ -354,7 +354,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Blast Door With Buttons" identifier="blastdoorwbuttons" tags="door" scale="0.5" description="A heavily armored shutter. No integrated buttons - has to be wired manually." health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Гермозатвор с кнопками" identifier="blastdoorwbuttons" tags="door" scale="0.5" description="A heavily armored shutter. No integrated buttons - has to be wired manually." health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="96,416,88,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="0,416,88,416" depth="0.51" origin="0.5,0.5" />
@@ -389,7 +389,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Blast Hatch" identifier="blasthatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually." health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
+  <Item name="Гермозатвор-люк" identifier="blasthatch" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually." health="350" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
@@ -419,7 +419,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Blast Hatch With Buttons" identifier="blasthatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually." health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
+  <Item name="Гермозатвор-люк с кнопками" identifier="blasthatchwbuttons" allowedlinks="gap,hull,structure,item" linkable="true" tags="door" scale="0.5" description="A heavily armored shutter, but on the horizontal axis. No integrated buttons - has to be wired manually." health="350" requirebodyinsidetrigger="false" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" explosiondamagemultiplier="0.15" allowrotatingineditor="false">
     <!-- repairtooldamagemultiplier="0.6" monsterdamagemultiplier="0.5" -->
     <InventoryIcon texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="352,0,384,80" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_custom1.png" sourcerect="352,88,384,104" depth="0.7" origin="0.5,0.5" />
@@ -454,7 +454,7 @@
     </ConnectionPanel>
   </Item>
   <!-- Maintenance Panels -->
-  <Item name="Maintenance Panel A Vertical 416" identifier="doormaintenance1_vertical416" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Служебная панель А416 (вертикальная)" identifier="doormaintenance1_vertical416" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="0,512,64,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="704,0,64,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
@@ -486,7 +486,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Maintenance Panel A Vertical 256" identifier="doormaintenance1_vertical256" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Служебная панель А256 (вертикальная)" identifier="doormaintenance1_vertical256" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="320,512,64,256" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="704,448,64,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
@@ -518,7 +518,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Maintenance Panel A Horizontal 384" identifier="doormaintenance1_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
+  <Item name="Служебная панель А384 (горизонтальная)" identifier="doormaintenance1_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="0,0,384,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="0,320,384,64" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
@@ -550,7 +550,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Maintenance Panel A Horizontal 256" identifier="doormaintenance1_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
+  <Item name="Служебная панель А256 (горизонтальная)" identifier="doormaintenance1_horizontal256" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="416,0,256,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="416,320,256,64" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="1,0.8">
@@ -582,7 +582,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Maintenance Panel B Vertical 416" identifier="doormaintenance2_vertical416" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Служебная панель Б416 (вертикальная)" identifier="doormaintenance2_vertical416" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="64,512,96,416" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="768,0,96,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
@@ -614,7 +614,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="Maintenance Panel B Vertical 256" identifier="doormaintenance2_vertical256" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Служебная панель Б256 (вертикальная)" identifier="doormaintenance2_vertical256" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Vertical thick hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="384,512,96,256" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="768,448,96,256" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="1.5" openingspeed="0.5" closingspeed="0.5" shadowscale="0.8,1">
@@ -646,6 +646,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
+  <!-- По всей видимости дальше не нужно переводить, это названия для редактора -->
   <Item name="Maintenance Panel B Horizontal 384" identifier="doormaintenance2_horizontal384" allowedlinks="gap,hull,structure,item" linkable="true" tags="door,wall" scale="0.5" description="A sliding maintenance panel used to access the inner crawlspaces of the submarine. Horizontal thick hull wall." health="100" damagedbyrepairtools="true" damagedbymonsters="true" damagedbyexplosions="true" monsterdamagemultiplier="0.75" explosiondamagemultiplier="0.1" allowrotatingineditor="false">
     <InventoryIcon texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="0,64,384,96" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Map/Door/door_maintenancepanels1.png" sourcerect="0,384,384,96" depth="0.89" origin="0.5,0.5" />

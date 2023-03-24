@@ -270,7 +270,7 @@
       <Containable items="smallitem,mediumitem,bigitem" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="shredder" width="122" height="201" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+  <Item name="Размельчитель" identifier="shredder" width="122" height="201" texturescale="1.0,1.0" scale="0.5" category="Decorative">
     <Sprite texture="Content/Items/Fabricators/FabricatorsAndDeconstructors.png" depth="0.8" sourcerect="0,304,256,320" />
     <ItemContainer capacity="1" slotsperrow="1" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.18,0.25" anchor="Center" style="ItemUI" />
@@ -893,7 +893,7 @@
       </StatusEffect>
     </Throwable>
   </redpaint>
-  <greenpaint name="" identifier="greenpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <greenpaint name="Зеленая краска" identifier="greenpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />

@@ -6,7 +6,7 @@
   <!-- Name: Bandage -->
   <!-- Description: Basic bandages, useful in the treatment of bleeding wounds and burns. -->
   <!-- *************************************************************************************************************************************************************************** -->
-    <Bandage name="" identifier="antibleeding1" aliases="Bandage" category="Medical" Tags="smallitem,medical" maxstacksize="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
+    <Bandage name="Бинт" identifier="antibleeding1" aliases="Bandage" category="Medical" Tags="smallitem,medical" maxstacksize="8" useinhealthinterface="true" cargocontaineridentifier="mediccrate" description="" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="supplycab" minamount="1" maxamount="2" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.3" />
@@ -55,7 +55,7 @@
   <!-- Name: Plastiseal -->
   <!-- Description: A synthetic skin with hemostatic properties, able to quickly seal most wounds. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Plastiseal name="" identifier="antibleeding2" category="Medical" Tags="smallitem,medical" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
+  <Plastiseal name="Эластичный бинт" identifier="antibleeding2" category="Medical" Tags="smallitem,medical" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_soft" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" secondary="medcontainer"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.4" />
@@ -99,7 +99,7 @@
   <!-- Description: An antibiotic glue with hemostatic properties. Seals bleeding wounds almost immediately and treats burns very effectively. Use with care as it may cause mobile 
   clots in the bloodstream. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <AntibioticGlue name="" identifier="antibleeding3" category="Medical" Tags="smallitem,medical" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <AntibioticGlue name="Антибиотический клей" identifier="antibleeding3" category="Medical" Tags="smallitem,medical" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" secondary="medcontainer"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.3" />
@@ -150,7 +150,7 @@
   <!-- Name: Morphine -->
   <!-- Description: A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Morphine name="" identifier="antidama1" aliases="Corrigodone" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Morphine name="Морфин" identifier="antidama1" aliases="Corrigodone" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="supplycab" minamount="1" maxamount="2" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.3" />
@@ -224,7 +224,7 @@
   <!-- Name: Fentanyl -->
   <!-- Description: A powerful opiate for treating pain associated with internal injuries, but will cause shortness of breath and eventual dependency with overuse. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Fentanyl name="" identifier="antidama2" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Fentanyl name="Фентанил" identifier="antidama2" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" secondary="medcontainer"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.4" />
@@ -295,7 +295,7 @@
   <!-- Name: Pomegrenade Extract -->
   <!-- Description: A crappy but non lethal alternative to opiods, made from pomegrenades.-->
   <!-- *************************************************************************************************************************************************************************** -->
-  <pomegrenadeextract name="" identifier="pomegrenadeextract" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <pomegrenadeextract name="Экстракт взрывного граната" identifier="pomegrenadeextract" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" minamount="2" maxamount="4" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.1" />
@@ -361,7 +361,7 @@
   <!-- Name: Saline -->
   <!-- Description: A sodium chloride infusion mildly useful in the treatment of blood loss. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Saline name="" identifier="antibloodloss1" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,petfood1,petfood2,petfood3" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Saline name="Физраствор" identifier="antibloodloss1" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,petfood1,petfood2,petfood3" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wrecksupplycab,beaconsupplycab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="3" spawnprobability="0.5" />
@@ -406,7 +406,7 @@
   <!-- Name: Blood Pack -->
   <!-- Description: A pack of blood substitute for the treatment of blood loss. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <BloodPack name="" identifier="antibloodloss2" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,petfood1" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_soft">
+  <BloodPack name="Пакет с кровью" identifier="antibloodloss2" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,petfood1" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" minamount="2" maxamount="3" notcampaign="true"/>
     <PreferredContainer secondary="outpostmedcab" minamount="1" maxamount="2" spawnprobability="0.2"/>
@@ -454,7 +454,7 @@
   <!-- Description: A highly potent stimulant effective in the treatment of internal damage, oxygen deprivation and, to a lesser extent, blood loss. Produces mild burns as a side 
   effect. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Deusizine name="" identifier="deusizine" aliases="Auxiliriozine" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Deusizine name="Деусицин" identifier="deusizine" aliases="Auxiliriozine" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.2" />
     <PreferredContainer secondary="outposttrashcan" amount="1" spawnprobability="0.02" />
@@ -518,7 +518,7 @@
   <!-- Name: Liquid Oxygenite -->
   <!-- Description: A mildly toxic solution that slowly releases oxygen into the bloodstream when injected. Avoid dropping. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <LiquidOxygenite name="" identifier="liquidoxygenite" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" impacttolerance="8" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <LiquidOxygenite name="Жидкий кислородит" identifier="liquidoxygenite" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" impacttolerance="8" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="80">
       <Price storeidentifier="merchantoutpost" sold="false" />
@@ -578,7 +578,7 @@
   <!-- Name: Calyxanide -->
   <!-- An antiparasitic drug used in the treatment of husk parasite infections. Might require higher dosage to cure the infection at later stages. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Calyxanide name="" identifier="calyxanide" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Calyxanide name="Каликсанид" identifier="calyxanide" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.1" />
@@ -652,7 +652,7 @@
   <!-- Name: Haloperidol -->
   <!-- A strong antipsychotic drug. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Haloperidol name="" identifier="antipsychosis" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Haloperidol name="Галоперидол" identifier="antipsychosis" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.2" />
@@ -715,7 +715,7 @@
   <!-- Name: Naloxone -->
   <!-- An opioid antagonist for the treatment of opiate-based withdrawal and overdose. -->
   <!-- *************************************************************************************************************************************************************************** -->
-   <Naloxone name="" identifier="antinarc" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+   <Naloxone name="Налоксон" identifier="antinarc" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" description="" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.2" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.5" />
@@ -775,7 +775,7 @@
   <!-- Name: Morbusine Antidote -->
   <!-- An antidote for acute morbusine poisoning. -->
   <!-- *************************************************************************************************************************************************************************** -->
-<MorbusineAntidote name="" identifier="morbusineantidote" aliases="Morbusanide" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+<MorbusineAntidote name="Антидот морбузина" identifier="morbusineantidote" aliases="Morbusanide" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -835,7 +835,7 @@
   <!-- Name: Cyanide Antidote -->
   <!-- An antidote for acute cyanide poisoning. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <CyanideAntidote name="" identifier="cyanideantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <CyanideAntidote name="Антидот цианида" identifier="cyanideantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -895,7 +895,7 @@
   <!-- Name: Sufforin Antidote -->
   <!-- An antidote for acute sufforin poisoning. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <SufforinAntidote name="" identifier="sufforinantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <SufforinAntidote name="Антидот страданита" identifier="sufforinantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -955,7 +955,7 @@
   <!-- Name: Deliriumine Antidote -->
   <!-- An antidote for acute deliriumine poisoning. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <DeliriumineAntidote name="" identifier="deliriumineantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <DeliriumineAntidote name="Антидот бредогена" identifier="deliriumineantidote" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" amount="1" spawnprobability="0.5" notcampaign="true"/>
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
@@ -1014,7 +1014,7 @@
   <!-- Name: AntiRad -->
   <!-- Slows down cellular degradation caused by radiation. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <AntiRad name="" identifier="antirad" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <AntiRad name="Антирад" identifier="antirad" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" amount="1" spawnprobability="0.1" />
     <PreferredContainer secondary="outpostmedcab" amount="1" spawnprobability="0.2" />
@@ -1072,7 +1072,7 @@
   <!-- Name: Paralysis Antidote -->
   <!-- An antidote for paralysis. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <ParalysisAntidote name="" identifier="antiparalysis" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <ParalysisAntidote name="Анапарализатор" identifier="antiparalysis" category="Medical" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="wrecksupplycab" amount="1" spawnprobability="0.3" />
     <PreferredContainer secondary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.8" />
@@ -1136,7 +1136,7 @@
   <!-- Name: Elastin -->
   <!-- A highly elastic, naturally occurring protein. Useful for crafting. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Elastin name="" identifier="elastin" category="Material" maxstacksize="8" Tags="smallitem,chem" cargocontaineridentifier="mediccrate" scale="0.5" impactsoundtag="impact_soft">
+  <Elastin name="Эластин" identifier="elastin" category="Material" maxstacksize="8" Tags="smallitem,chem" cargocontaineridentifier="mediccrate" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medfabcab" minamount="2" maxamount="6" spawnprobability="1" />
     <PreferredContainer primary="wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
@@ -1162,7 +1162,7 @@
   <!-- Name: Opium -->
   <!-- A relatively mild opioid obtained from aquatic poppy. Most commonly used to manufacture morphine and fentanyl. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Opium name="" identifier="opium" category="Medical" maxstacksize="8" Tags="smallitem,chem" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
+  <Opium name="Опиум" identifier="opium" category="Medical" maxstacksize="8" Tags="smallitem,chem" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer primary="medfabcab" secondary="medcontainer"/>
@@ -1214,7 +1214,7 @@
   <!-- Name: Broad-spectrum Antibiotics -->
   <!-- A mild antibiotic that acts against a wide range of disease-causing bacteria, though with the side effect of internal damage. Used as an ingredient in many medical compounds. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Antibiotics name="" identifier="antibiotics" category="Medical" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
+  <Antibiotics name="Антибиотики широкого спектра" identifier="antibiotics" category="Medical" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" cargocontaineridentifier="mediccrate" scale="0.5" useinhealthinterface="true" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer primary="medfabcab" secondary="medcontainer"/>
@@ -1278,7 +1278,7 @@
   </Antibiotics>
   <!-- Name: Stabilozine -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Stabilozine name="" identifier="stabilozine" category="Medical" maxstacksize="8" tags="smallitem,chem,medical,syringe" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Stabilozine name="Стабилоцин" identifier="stabilozine" category="Medical" maxstacksize="8" tags="smallitem,chem,medical,syringe" cargocontaineridentifier="mediccrate" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
     <PreferredContainer primary="medfabcab" secondary="medcontainer"/>
@@ -1326,7 +1326,7 @@
   <!-- Name: Adrenaline -->
   <!-- A naturally occurring hormone. Useful for crafting. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Adrenaline name="" identifier="adrenaline" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Adrenaline name="Адреналин" identifier="adrenaline" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medfabcab" secondary="medcontainer"/>
     <PreferredContainer secondary="abandonedmedcab,wreckmedcab" minamount="1" maxamount="2" spawnprobability="0.5" />
@@ -1361,7 +1361,7 @@
   <!-- Name: Sulphuric Acid -->
   <!-- A strong acid that causes burns when in contact with skin. Used as an ingredient in several poisons. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <SulphuricAcid name="" identifier="sulphuricacid" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <SulphuricAcid name="Серная кислота" identifier="sulphuricacid" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="toxcab" minamount="3" maxamount="6" />
     <PreferredContainer secondary="locker" />
@@ -1389,7 +1389,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </SulphuricAcid>
-  <Item name="" identifier="necroticeggs" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.3">
+  <Item name="Сыворотка «X»" identifier="necroticeggs" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.3">
     <PreferredContainer primary="toxcontainer" spawnprobability="0.0" />
     <PreferredContainer primary="locker" />
     <!-- TODO: adjust prices -->
@@ -1433,7 +1433,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="necroblood" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3">
+  <Item name="Сыворотка «A»" identifier="necroblood" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.3">
     <PreferredContainer primary="toxcontainer" spawnprobability="0.5" />
     <PreferredContainer primary="locker" />
     <!-- TODO: adjust prices -->

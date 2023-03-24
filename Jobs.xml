@@ -85,7 +85,7 @@
     <!--Милиционер-->
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
+      <Item identifier="mvd_uniform" equip="true" outfit="true" showpreview="true">
         <Item identifier="handcuffs" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
@@ -110,7 +110,7 @@
     <!--Патрульный-->
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="Mvd" equip="true" outfit="true" showpreview="true">
+      <Item identifier="mvd_uniform" equip="true" outfit="true" showpreview="true">
         <Item identifier="handcuffs" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
@@ -683,7 +683,7 @@
     <ItemSet>
       <Item identifier="banditclothes_1" equip="true" outfit="true" showpreview="true" />
       <Item identifier="divingknife" showpreview="true" />
-      <Item identifier="eightBlade" showpreview="true" equip="true" />
+      <Item identifier="zhiganka" showpreview="true" equip="true" />
       <Item identifier="idcardwreck" equip="true" showpreview="false" />
     </ItemSet>
     <!--Шнырь-->
@@ -691,7 +691,7 @@
       <Item identifier="banditclothes_2" equip="true" outfit="true" showpreview="true" />
       <Item identifier="idcardwreck" equip="true" showpreview="false" />
       <Item identifier="divingknife" showpreview="true" />
-      <Item identifier="eightBlade" showpreview="true" equip="true" />
+      <Item identifier="zhiganka" showpreview="true" equip="true" />
     </ItemSet>
     <!--Барыга-->
     <ItemSet>
@@ -707,7 +707,7 @@
       </Item>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="divingknife" showpreview="true" />
-      <Item identifier="eightBlade" showpreview="true" equip="true" />
+      <Item identifier="zhiganka" showpreview="true" equip="true" />
       <Item identifier="pmpistol" showpreview="true" />
     </ItemSet>
     <!--Приблатнённый-->

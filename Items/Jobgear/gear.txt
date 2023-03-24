@@ -97,7 +97,7 @@
   </Item>
 
   <!-- Милиционер -->
-   <Item name="Униформа милиционера" identifier="Mvd" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+   <Item name="Униформа милиционера" identifier="mvd_uniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
     <Price baseprice="150">
       <Price locationtype="outpost" multiplier="1" minavailable="1"/>
       <Price locationtype="city" multiplier="0.9" minavailable="1"/>
