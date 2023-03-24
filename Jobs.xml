@@ -178,6 +178,10 @@
           <Item identifier="100rubles" showpreview="false" />
         </Item>
       </Item>
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
+      </Item>
     </ItemSet>
   </Job>
   <!--Инженер-->
@@ -193,25 +197,28 @@
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="engineer_1" equip="true" outfit="true" showpreview="true">
-        <Item identifier="screwdriver" showpreview="true" />
-        <Item identifier="wrench" showpreview="true" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="50rubles" showpreview="false" />
         </Item>
+      </Item>
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
       </Item>
     </ItemSet>
     <!--Инженер-Ядерщик-->
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="engineer_2" equip="true" outfit="true" showpreview="true">
-        <Item identifier="screwdriver" showpreview="true" />
-        <Item identifier="wrench" showpreview="true" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="50rubles" showpreview="false" />
         </Item>
       </Item>
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
+      </Item>
     </ItemSet>
-    <!--Электрик-->
   </Job>
   <!--Механик-->
   <Job name="Механик" identifier="mechanic" uicolor="70,130,180" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
@@ -226,20 +233,30 @@
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="mechanic_1" equip="true" outfit="true">
-        <Item identifier="wrench" showpreview="true" />
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="25rubles" showpreview="false" />
         </Item>
+      </Item>
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
       </Item>
     </ItemSet>
     <!--Сварщик-->
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="mechanic_2" equip="true" outfit="true">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="25rubles" showpreview="false" />
         </Item>
-        <Item identifier="Stolichnaya vodka" showpreview="false" />
+      </Item>
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
       </Item>
     </ItemSet>
     <!--Слесарь-->
@@ -249,9 +266,11 @@
         <Item identifier="wallet" showpreview="false">
           <Item identifier="25rubles" showpreview="false" />
         </Item>
-        <Item identifier="Stolichnaya vodka" showpreview="false" />
       </Item>
-      <Item identifier="toolbelt" equip="true" showpreview="true" />
+      <Item identifier="toolbelt" equip="true" showpreview="false">
+        <Item identifier="wrench" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
+      </Item>
     </ItemSet>
   </Job>
   <!--Глав Врач-->
@@ -342,7 +361,7 @@
       <Item identifier="idcard" equip="true" showpreview="false" />
       <Item identifier="commonerclothes4" equip="true" outfit="true" showpreview="true" />
       <Item identifier="duffelbag" equip="true" showpreview="false" />
-      <Item identifier="bonnet" equip="true" showpreview="true" />
+      <Item identifier="bonnet" equip="true" showpreview="false" />
     </ItemSet>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
@@ -401,7 +420,7 @@
           <Item identifier="25rubles" showpreview="false" />
         </Item>
       </Item>
-      <Item identifier="bonnet" equip="true" showpreview="true" />
+      <Item identifier="bonnet" equip="true" showpreview="false" />
     </ItemSet>
   </Job>
   <!--Научный сотрудник-->
