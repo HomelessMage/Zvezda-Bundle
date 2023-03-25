@@ -857,7 +857,8 @@
   </Job>
 
 
-  <!-- <Job name="Боец КМП США" identifier="usmc" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true">
+   <Job hiddenjob="true" name="Боец КМП США" identifier="usmc" uicolor="51,51,51" allowalways="false" minnumber="0" maxnumber="0" initialcount="1">
+   <!--<Job name="american_operator" identifier="usmc" uicolor="51,51,51" allowalways="true" minkarma="0" minnumber="0" maxnumber="0" initialcount="1" vitalitymodifier="0" pricemultiplier="0"> -->
     <Skills>
       <Skill identifier="weapons" level="100,100" primary="true" />
       <Skill identifier="medical" level="55,55" />
@@ -870,22 +871,32 @@
       <Item identifier="radio" equip="true">
         <Item identifier="batterycell" />
       </Item>
-      <Item identifier="camo_woodland" equip="true" outfit="true" />
-      <Item identifier="ballistichelmet1" equip="true" />
-      <Item identifier="bodyarmor" equip="true">
-          <Item identifier="ar15mag" />
-          <Item identifier="ar15mag" />
-          <Item identifier="ar15mag" />
-          <Item identifier="ar15mag" />
-          <Item identifier="ar15mag"/>
-          <Item identifier="ar15mag" />
+      <Item identifier="camo_woodland" equip="true" outfit="true" >
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
       </Item>
-      <Item identifier="backpack" equip="true">
-        <Item identifier="petroltank" />
+      <Item identifier="american_helmet" equip="true" />
+      <Item identifier="american_vest" equip="true">
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
       </Item>
       <Item identifier="ar15">
         <Item identifier="ar15mag" />
       </Item>
     </ItemSet>
-  </Job>  -->
+  </Job>
 </Jobs>

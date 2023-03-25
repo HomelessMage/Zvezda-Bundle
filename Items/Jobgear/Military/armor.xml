@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <!--Бандера-->
+  <!--Патронташ-->
   <Item name="Патронташ" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Price baseprice="250" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
@@ -185,6 +185,29 @@
     <Body radius="45" height="60" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
       <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/6b4/armor_6b4_omon.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="16,44,103,180" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding,gunshotwound" damagemultiplier="0.45" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.70" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.75" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="false" movableframe="true">
+      <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+    </ItemContainer>
+  </Item>
+  <!--Разгрузочный бронежилет «SPCS»-->
+  <Item name="Разгрузочный бронежилет «SPCS»" identifier="american_vest" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
+    <Deconstruct time="20">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="ballisticfiber" />
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" sourcerect="0,42,127,138" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" sourcerect="0,42,127,138" depth="0.6" origin="0.5,0.5" />
+    <Body radius="45" height="60" density="40" />
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+      <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="0,42,127,138" origin="0.5,0.65" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding,gunshotwound" damagemultiplier="0.45" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.70" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
