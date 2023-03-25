@@ -164,9 +164,11 @@
   </Item>
   <Item name="Суп-пюре" identifier="bowl7" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Банка супа-пюре - это густой суп, приготовленный из протертых овощей, круп, мяса, птицы или рыбы; питательное блюдо, которое отличается выраженным вкусом, легко усваивается организмом человека и аппетитно выглядит." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
-      <RequiredItem identifier="canteen" />
-      <RequiredItem identifier="canteen" />
-      <RequiredItem identifier="mre" />
+      <RequiredItem identifier="canteen" condition="100"/>
+      <RequiredItem identifier="potato" />
+      <RequiredItem identifier="potato" />
+      <RequiredItem identifier="potato" />
+      <RequiredItem identifier="potato" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <SuitableTreatment identifier="thirst" suitability="100" />

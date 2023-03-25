@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+
+<Item name="Помидошка" identifier="potato" category="Material" maxstacksize="8" Tags="smallitem,plantitem,explodesinwater,seed" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
+    <Sprite texture="%ModDir%/Systems/Gardening/vegetables.png" depth="0.2" sourcerect="63,64,48,48" origin="0.5,0.5" />
+    <Body radius="30" density="9" />
+
+
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-10" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="1" />
+        <ReduceAffliction identifier="thirst" amount="1" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+
+    <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+        <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter1" decalsize="1.0" />
+        <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2" />
+        <ParticleEmitter particle="fruitchunks" anglemin="0" anglemax="360" particleamount="10" velocitymin="200" velocitymax="300" scalemin="0.4" scalemax="0.8" />
+      </StatusEffect>
+      <StatusEffect type="OnFire" target="This" Condition="-50.0" />
+      <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+
+    <Growable growthspeed="0.1" pickingtime="3" maximumvines="48" maxhealth="375" hardiness="0.162" floodtolerance="0.2" seedrate="0" productrate="0.0056" flowerquantity="8" baseflowerscale="0.40" vinescale="0.25" vinetint="90,192,76,255" flowertint="90,192,76,255">
+      <ProducedItem identifier="potato" probability="1.0"/>
+      <VineSprites vineatlas="Content/Items/Gardening/branches.png" decayatlas="Content/Items/Gardening/branches_overlay.png">
+        <LeafSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="0,512,256,256" />
+        <LeafSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="256,512,256,256" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="384,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="512,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="640,768,128,128" />
+        <VineSprite type="Stem" sourcerect="640,640,128,128" />
+        <VineSprite type="CrossJunction" sourcerect="512,640,128,128" />
+        <VineSprite type="VerticalLane" sourcerect="512,512,128,128" />
+        <VineSprite type="HorizontalLane" sourcerect="640,512,128,128" />
+        <VineSprite type="TurnTopRight" sourcerect="0,512,128,128" />
+        <VineSprite type="TurnTopLeft" sourcerect="384,512,128,128" />
+        <VineSprite type="TurnBottomLeft" sourcerect="256,512,128,128" />
+        <VineSprite type="TurnBottomRight" sourcerect="128,512,128,128" />
+        <VineSprite type="TSectionTop" sourcerect="128,640,128,128" />
+        <VineSprite type="TSectionLeft" sourcerect="256,640,128,128" />
+        <VineSprite type="TSectionBottom" sourcerect="384,640,128,128" />
+        <VineSprite type="TSectionRight" sourcerect="0,640,128,128" />
+        <VineSprite type="StumpTop" sourcerect="768,512,128,128" />
+        <VineSprite type="StumpLeft" sourcerect="896,512,128,128" />
+        <VineSprite type="StumpBottom" sourcerect="768,640,128,128" />
+        <VineSprite type="StumpRight" sourcerect="896,640,128,128" />
+      </VineSprites>
+    </Growable>
+
+    
+
+    <Upgrade gameversion="0.15.22.0">
+      <Growable growthspeed="0.1" hardiness="0.162" floodtolerance="0.2" productrate="0.0056"/>
+    </Upgrade>
+
+  </Item>
+
+
+
+</Items>

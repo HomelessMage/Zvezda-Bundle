@@ -59,7 +59,9 @@
       <Item identifier="steel" copycondition="true" mincondition="0.1" />
       <Item identifier="plastic" copycondition="true" mincondition="0.1" />
     </Deconstruct>
-    <Holdable slots="Any,RightHand+LeftHand" aimpos="60,0" holdangle="45" handle1="-50,20" handle2="-30,52" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" aimpos="60,0" holdangle="45" handle1="-50,20" handle2="-30,52" msg="ItemMsgPickUpSelect" >
+      <StatusEffect type="InWater" target="This" Condition="100.0" setvalue="true" />
+    </Holdable>
     <RepairTool wateramount="10.0" range="0" barrelpos="28,11" targetstructures="false" hititems="false">
       <ParticleEmitter particle="waterdrop" velocitymin="10.0" velocitymax="50.0" particlespersecond="50" />
     </RepairTool>
@@ -93,7 +95,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="seedbag" category="Material" Tags="smallitem,mobilecontainer" scale="0.5">
+  <Item name="" identifier="seedbag" category="Material" Tags="smallitem,mobilecontainer" scale="1.2">
     <PreferredContainer primary="storagecab" spawnprobability="0.3" />
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.25" />
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="841,704,49,65" depth="0.55" origin="0.5,0.5" />

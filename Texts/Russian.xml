@@ -640,6 +640,12 @@
   <entitydescription.tinMelted></entitydescription.tinMelted>
   <entityname.titaniumCool>Остывший титан</entityname.titaniumCool>
   <entitydescription.titaniumCool></entitydescription.titaniumCool>
+
+  <!--Растения-->
+  <entityname.potato>Помидошка</entityname.potato>
+  <entitydescription.potato></entitydescription.potato>
+
+
   <!--Медикаменты-->
   <entityname.necroblood>Сыворотка «A»</entityname.necroblood>
   <entitydescription.necroblood></entitydescription.necroblood>
