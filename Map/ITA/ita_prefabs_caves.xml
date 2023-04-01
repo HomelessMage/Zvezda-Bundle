@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <!-- Everything is categorized as 'Structure' unless explicitly categorized otherwise -->
+
+
+  <!-- CAVES - Cosmetic -->
+
+  <Item name="CaveDeco1" identifier="CaveDeco1" category="Decorative" allowattachitems="true" width="490" height="508" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="14,0,490,508" depth="0.865" />
+  </Item>
+
+  <SubDeco name="CaveDeco2" identifier="CaveDeco2" category="Decorative" allowattachitems="true" width="479" height="448" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="513,70,490,448" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco3" identifier="CaveDeco3" category="Decorative" allowattachitems="true" width="487" height="498" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="519,518,497,498" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco4" identifier="CaveDeco4" category="Decorative" allowattachitems="true" width="489" height="451" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="0,569,489,451" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco5" identifier="CaveDeco5" category="Decorative" allowattachitems="true" width="327" height="482" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1019,19,327,482" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco6" identifier="CaveDeco6" category="Decorative" allowattachitems="true" width="327" height="497" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1361,7,327,497" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco7" identifier="CaveDeco7" category="Decorative" allowattachitems="true" width="324" height="420" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1704,46,324,420" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco8" identifier="CaveDeco8" category="Decorative" allowattachitems="true" width="490" height="470" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1019,519,490,470" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco9" identifier="CaveDeco9" category="Decorative" allowattachitems="true" width="470" height="407" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1543,531,470,407" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco10" identifier="CaveDeco10" category="Decorative" allowattachitems="true" width="305" height="244" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="15,1071,305,244" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco11" identifier="CaveDeco11" category="Decorative" allowattachitems="true" width="306" height="285" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="354,1029,306,285" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco12" identifier="CaveDeco12" category="Decorative" allowattachitems="true" width="315" height="296" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="698,1018,315,296" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco13" identifier="CaveDeco13" category="Decorative" allowattachitems="true" width="325" height="325" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="8,1331,325,325" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco14" identifier="CaveDeco14" category="Decorative" allowattachitems="true" width="321" height="302" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="353,1354,321,302" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco15" identifier="CaveDeco15" category="Decorative" allowattachitems="true" width="313" height="301" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="695,1355,313,301" depth="0.865" />
+  </SubDeco>
+
+<!--
+  <SubDeco name="CaveDeco16" identifier="CaveDeco16" category="Decorative" allowattachitems="true" width="313" height="301" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="695,1355,313,301" depth="0.865" />
+  </SubDeco>
+-->
+
+  <SubDeco name="CaveDeco17" identifier="CaveDeco17" category="Decorative" allowattachitems="true" width="316" height="301" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="17,1696,316,301" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco18" identifier="CaveDeco18" category="Decorative" allowattachitems="true" width="322" height="252" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="349,1745,322,252" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco19" identifier="CaveDeco19" category="Decorative" allowattachitems="true" width="313" height="301" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="703,1696,313,301" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco20" identifier="CaveDeco20" category="Decorative" allowattachitems="true" width="460" height="259" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1021,1028,460,259" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco21" identifier="CaveDeco21" category="Decorative" allowattachitems="true" width="509" height="259" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1498,1028,509,259" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco22" identifier="CaveDeco22" category="Decorative" allowattachitems="true" width="474" height="211" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1034,1338,474,211" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco23" identifier="CaveDeco23" category="Decorative" allowattachitems="true" width="473" height="248" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1530,1301,473,248" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco24" identifier="CaveDeco24" category="Decorative" allowattachitems="true" width="478" height="242" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1023,1577,478,242" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco25" identifier="CaveDeco25" category="Decorative" allowattachitems="true" width="476" height="258" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1522,1577,476,258" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco26" identifier="CaveDeco26" category="Decorative" allowattachitems="true" width="298" height="149" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1025,1828,298,149" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco27" identifier="CaveDeco27" category="Decorative" allowattachitems="true" width="312" height="147" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1376,1839,312,147" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco28" identifier="CaveDeco28" category="Decorative" allowattachitems="true" width="308" height="150" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative.png" sourcerect="1721,1835,308,150" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco29" identifier="CaveDeco29" category="Decorative" allowattachitems="true" width="547" height="289" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="0,0,547,289" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco30" identifier="CaveDeco30" category="Decorative" allowattachitems="true" width="512" height="196" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="600,87,512,196" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco31" identifier="CaveDeco31" category="Decorative" allowattachitems="true" width="367" height="255" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1133,21,367,255" depth="0.865" />
+  </SubDeco>
+
+<!--
+  <SubDeco name="CaveDeco32" identifier="CaveDeco32" category="Decorative" allowattachitems="true" width="512" height="196" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1127,21,374,291" depth="0.865" />
+  </SubDeco>
+-->
+  <SubDeco name="CaveDeco33" identifier="CaveDeco33" category="Decorative" allowattachitems="true" width="524" height="290" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1510,15,524,290" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco34" identifier="CaveDeco34" category="Decorative" allowattachitems="true" width="546" height="283" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="18,321,546,283" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco35" identifier="CaveDeco35" category="Decorative" allowattachitems="true" width="546" height="319" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="583,283,546,319" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco36" identifier="CaveDeco36" category="Decorative" allowattachitems="true" width="361" height="257" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1131,366,361,257" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco37" identifier="CaveDeco37" category="Decorative" allowattachitems="true" width="517" height="315" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1494,309,517,315" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco38" identifier="CaveDeco38" category="Decorative" allowattachitems="true" width="363" height="236" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="9,612,363,236" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco39" identifier="CaveDeco39" category="Decorative" allowattachitems="true" width="253" height="222" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="2,902,253,222" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco40" identifier="CaveDeco40" category="Decorative" allowattachitems="true" width="243" height="242" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="271,873,243,242" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco41" identifier="CaveDeco41" category="Decorative" allowattachitems="true" width="249" height="248" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="535,873,249,248" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco42" identifier="CaveDeco42" category="Decorative" allowattachitems="true" width="242" height="240" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="799,872,242,240" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco43" identifier="CaveDeco43" category="Decorative" allowattachitems="true" width="252" height="229" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="3,1150,252,292" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco44" identifier="CaveDeco44" category="Decorative" allowattachitems="true" width="252" height="240" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="268,1146,252,240" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco45" identifier="CaveDeco45" category="Decorative" allowattachitems="true" width="252" height="231" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="533,1149,252,231" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco46" identifier="CaveDeco46" category="Decorative" allowattachitems="true" width="253" height="237" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="798,1153,253,237" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco47" identifier="CaveDeco47" category="Decorative" allowattachitems="true" width="328" height="495" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1066,1528,328,495" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco48" identifier="CaveDeco48" category="Decorative" allowattachitems="true" width="302" height="501" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1405,1372,302,501" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco49" identifier="CaveDeco49" category="Decorative" allowattachitems="true" width="330" height="507" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1714,1374,330,507" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco50" identifier="CaveDeco50" category="Decorative" allowattachitems="true" width="291" height="274" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1227,1102,291,274" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco51" identifier="CaveDeco51" category="Decorative" allowattachitems="true" width="296" height="252" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1518,1099,296,252" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco52" identifier="CaveDeco52" category="Decorative" allowattachitems="true" width="209" height="388" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1026,643,209,388" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco53" identifier="CaveDeco53" category="Decorative" allowattachitems="true" width="290" height="448" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1249,647,290,448" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco54" identifier="CaveDeco54" category="Decorative" allowattachitems="true" width="266" height="275" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1778,651,266,275" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco55" identifier="CaveDeco55" category="Decorative" allowattachitems="true" width="241" height="138" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="14,1517,241,138" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco56" identifier="CaveDeco56" category="Decorative" allowattachitems="true" width="252" height="197" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="268,1719,252,197" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco57" identifier="CaveDeco57" category="Decorative" allowattachitems="true" width="252" height="148" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="798,1496,252,148" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco58" identifier="CaveDeco58" category="Decorative" allowattachitems="true" width="253" height="231" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="2,1677,253,231" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco59" identifier="CaveDeco59" category="Decorative" allowattachitems="true" width="252" height="225" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="533,1426,252,225" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco60" identifier="CaveDeco60" category="Decorative" allowattachitems="true" width="228" height="442" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative2.png" sourcerect="1550,643,228,442" depth="0.865" />
+  </SubDeco>
+  
+  <SubDeco name="CaveDeco61" identifier="CaveDeco61" category="Decorative" allowattachitems="true" width="164" height="243" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="0,7,164,243" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco62" identifier="CaveDeco62" category="Decorative" allowattachitems="true" width="164" height="249" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="171,1,164,249" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco63" identifier="CaveDeco63" category="Decorative" allowattachitems="true" width="162" height="210" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="343,21,162,210" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco64" identifier="CaveDeco64" category="Decorative" allowattachitems="true" width="246" height="235" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="0,258,246,235" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco65" identifier="CaveDeco65" category="Decorative" allowattachitems="true" width="235" height="203" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="263,264,235,203" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco66" identifier="CaveDeco66" category="Decorative" allowattachitems="true" width="315" height="250" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="0,515,315,250" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco67" identifier="CaveDeco67" category="Decorative" allowattachitems="true" width="341" height="297" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="408,489,341,297" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco68" identifier="CaveDeco68" category="Decorative" allowattachitems="true" width="310" height="238" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="0,786,310,238" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco69" identifier="CaveDeco69" category="Decorative" allowattachitems="true" width="240" height="132" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="524,295,240,132" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco70" identifier="CaveDeco70" category="Decorative" allowattachitems="true" width="245" height="150" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="771,287,245,150" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco71" identifier="CaveDeco71" category="Decorative" allowattachitems="true" width="251" height="169" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="520,29,251,169" depth="0.865" />
+  </SubDeco>
+
+  <SubDeco name="CaveDeco72" identifier="CaveDeco72" category="Decorative" allowattachitems="true" width="244" height="198" scale="0.5">
+    <sprite texture="%ModDir%/Map/ITA/CaveDecorative3.png" sourcerect="779,0,244,198" depth="0.865" />
+  </SubDeco>
+
+  <!-- CAVES TILED WALLS HORIZONTAL -->
+  <structure name="CaveWallT1" identifier="Cave_Wall_T1" description="" width="2048" height="195" resizehorizontal="true" body="true" castshadow="true" health="9000" noaitarget="true" bodyheight="125" scale="0.5" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveTileWalls.png" depth="0.06" sourcerect="0,0,2048,195" origin="0.5,0.5" />
+  </structure>
+  
+  <structure name="CaveWallT2" identifier="Cave_Wall_T2" description="" width="2048" height="335" resizehorizontal="true" body="true" castshadow="true" health="9000" noaitarget="true" bodyheight="205" scale="0.5" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveTileWalls.png" depth="0.06" sourcerect="0,208,2048,335" origin="0.5,0.5" />
+  </structure>
+
+  <structure name="CaveWallT3" identifier="Cave_Wall_T3" description="" width="2048" height="345" resizehorizontal="true" body="true" castshadow="true" health="9000" noaitarget="true" bodyheight="240" scale="0.5" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveTileWalls.png" depth="0.06" sourcerect="0,547,2048,345" origin="0.5,0.5" />
+  </structure>
+
+  <!-- CAVES TILED WALLS VERTICAL -->
+  <structure name="CaveWallT4" identifier="Cave_Wall_T4" description="" width="128" height="780" resizevertical="true" body="true" bodywidth="80" castshadow="true" health="9000" noaitarget="true" scale="1.0" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" depth="0.06" sourcerect="0,0,128,780" origin="0.5,0.5" />
+  </structure>
+
+  <structure name="CaveWallT5" identifier="Cave_Wall_T5" description="" width="132" height="778" resizevertical="true" body="true" bodywidth="90" castshadow="true" health="9000" noaitarget="true" scale="1.0" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" depth="0.06" sourcerect="136,0,132,778" origin="0.5,0.5" />
+  </structure>
+
+  <structure name="CaveWallT6" identifier="Cave_Wall_T6" description="" width="98" height="778" resizevertical="true" body="true" bodywidth="75" castshadow="true" health="9000" noaitarget="true" scale="1.0" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" depth="0.06" sourcerect="273,0,98,778" origin="0.5,0.5" />
+  </structure>
+
+  <!-- CAVES BACK WALLS -->
+  <Wall_B name="CaveWallB1" identifier="Cave_Wall_B1" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative" tags="backgroundwall">
+    <sprite texture="%ModDir%/Map/ITA/CaveBackWalls.png" sourcerect="0,0,1024,1024" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_B>
+  
+  <Wall_B name="CaveWallB2" identifier="Cave_Wall_B2" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative" tags="backgroundwall">
+    <sprite texture="%ModDir%/Map/ITA/CaveBackWalls.png" sourcerect="1024,0,1024,1024" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_B>
+  
+  <Wall_B name="CaveWallB3" identifier="Cave_Wall_B3" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative" tags="backgroundwall">
+    <sprite texture="%ModDir%/Map/ITA/CaveBackWalls.png" sourcerect="0,1024,1024,1024" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_B>
+
+  <Wall_B name="CaveWallB4" identifier="Cave_Wall_B4" description="" allowattachitems="true" width="16" height="16" resizehorizontal="true" resizevertical="true" texturescale="0.5,0.5" category="Decorative" tags="backgroundwall">
+    <sprite texture="%ModDir%/Map/ITA/CaveBackWalls.png" sourcerect="1024,1024,1024,1024" depth="0.98" premultiplyalpha="false" origin="0.5,0.5" />
+  </Wall_B>
+ 
+  <!-- CAVES SHELL WALLS -->
+  <shellA name="CaveShellA_6deg" identifier="CaveShellA_6deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="760" bodyheight="80" bodyoffset="0,0" bodyrotation="6" tags="inner">
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="381,368,785,207" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellB_6deg" identifier="CaveShellB_6deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="760" bodyheight="88" bodyoffset="0,0" bodyrotation="6" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="376,172,781,195" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellC_6deg" identifier="CaveShellC_6deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="760" bodyheight="80" bodyoffset="0,0" bodyrotation="6" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="374,1,780,171" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellC_27deg" identifier="CaveShellC_27deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="760" bodyheight="68" bodyoffset="0,0" bodyrotation="27" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="750,1101,728,440" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellB_27deg" identifier="CaveShellB_27deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="760" bodyheight="80" bodyoffset="0,0" bodyrotation="-207" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="0,1057,737,459" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellC_77deg" identifier="CaveShellC_77deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="257" bodyheight="78" bodyoffset="0,0" bodyrotation="77" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="1330,815,149,274" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellC_60deg" identifier="CaveShellC_60deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="257" bodyheight="78" bodyoffset="0,0" bodyrotation="60" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="1120,819,207,270" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellC_25deg" identifier="CaveShellC_25deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="257" bodyheight="78" bodyoffset="0,0" bodyrotation="25" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="841,835,270,191" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+  
+  <shellA name="CaveShellB_25deg" identifier="CaveShellB_25deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="244" bodyheight="84" bodyoffset="0,0" bodyrotation="-25" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="403,807,263,220" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellB_60deg" identifier="CaveShellB_60deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="244" bodyheight="84" bodyoffset="0,0" bodyrotation="-60" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="178,785,223,265" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellB_77deg" identifier="CaveShellB_77deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="244" bodyheight="84" bodyoffset="0,0" bodyrotation="-77" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="0,780,178,269" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellA_25deg" identifier="CaveShellA_25deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="247" bodyheight="75" bodyoffset="0,0" bodyrotation="-25" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="1658,362,267,179" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellA_60deg" identifier="CaveShellA_60deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="247" bodyheight="75" bodyoffset="0,0" bodyrotation="-60" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="1813,65,211,248" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+  <shellA name="CaveShellA_77deg" identifier="CaveShellA_77deg" description="" body="true" castshadow="true" health="9000" noaitarget="true" bodywidth="247" bodyheight="75" bodyoffset="0,0" bodyrotation="-77" >
+    <sprite texture="%ModDir%/Map/ITA/CaveShells.png" sourcerect="1626,60,167,259" depth="0.1" origin="0.5,0.5" />
+  </shellA>
+
+</prefabs>

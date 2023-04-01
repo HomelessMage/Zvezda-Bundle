@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.19" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.20" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
   <Other file="%ModDir%/Lua/Autorun/localvoicefix.lua" />
@@ -11,7 +11,7 @@
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
-   <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" />
+  <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -511,4 +511,5 @@
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
 </contentpackage>
