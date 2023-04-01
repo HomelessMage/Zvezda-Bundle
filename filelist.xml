@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Zvezda Bundle" modversion="2.2.19" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
-  <!-- Local Voice Fix -->
+  <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
   <Other file="%ModDir%/Lua/Autorun/localvoicefix.lua" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
