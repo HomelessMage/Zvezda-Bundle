@@ -11,6 +11,7 @@
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
+   <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
