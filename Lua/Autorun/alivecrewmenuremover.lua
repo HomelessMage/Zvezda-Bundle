@@ -19,11 +19,11 @@ Hook.Add("roundStart", "crewmenuRoundStart", function ()
             value.Character.TeamID = CharacterTeamType.FriendlyNPC
         end
     end
-    local info = CharacterInfo(Identifier("human"), "God Himself")
+    -- local info = CharacterInfo(Identifier("human"), "God Himself")
     
-    botGod = Character.Create(info, Vector2.Zero, info.Name, 0, true, false)
-    botGod.GodMode = true
-    botGod.TeamID = CharacterTeamType.FriendlyNPC
+    -- botGod = Character.Create(info, Vector2.Zero, info.Name, 0, true, false)
+    -- botGod.GodMode = true
+    -- botGod.TeamID = CharacterTeamType.FriendlyNPC
 end)
 
 Hook.Add("roundEnd", "crewmenuRoundEnd", function ()
