@@ -79,9 +79,9 @@
     <PreferredContainer primary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.4" />
     <Fabricate suitablefabricators="fabricator" requiredtime="45">
       <RequiredSkill identifier="electrical" level="20" />
-      <RequiredItem identifier="uranium" />
-      <RequiredItem identifier="carbon" />
-      <RequiredItem identifier="saltvineseed" />
+      <RequiredItem identifier="poop" />
+      <RequiredItem identifier="poop" />
+      <RequiredItem identifier="poop" />
     </Fabricate>
     <Deconstruct time="30">
       <Item identifier="uranium" copycondition="true" mincondition="0.1" />

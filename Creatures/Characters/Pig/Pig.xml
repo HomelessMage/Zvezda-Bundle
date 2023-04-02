@@ -15,19 +15,31 @@
   <sound File="%ModDir%/Creatures/Characters/Pig/PigPain.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
   <sound File="%ModDir%/Creatures/Characters/Pig/PigGrowl.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
   <sound File="%ModDir%/Creatures/Characters/Pig/PigBark1.ogg" State="Damage" Range="2000" Volume="1" Tags="" />
+  <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item identifier="pigmeat" />
+    <Item identifier="pigmeat" />
+    <Item identifier="pigmeat" />
+    <Item identifier="pigmeat" />
+  </Inventory>
   <ai CombatStrength="250" Sight="1" Hearing="1" AggressionHurt="200" AggressionGreed="10" FleeHealthThreshold="10" AttackWhenProvoked="False" AvoidGunfire="True" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="True" EnforceAggressiveBehaviorForMissions="True" TargetOuterWalls="True" RandomAttack="False" CanOpenDoors="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
-    <target Tag="husk" State="PassiveAggressive" Priority="200" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
-    <target Tag="dead" State="Attack" Priority="999" ReactDistance="100" AttackDistance="100" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
-    <target Tag="monsterfood" State="Eat" Priority="30" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="husk" State="Attack" Priority="200" ReactDistance="2000" AttackDistance="500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="dead" State="Attack" Priority="99" ReactDistance="100" AttackDistance="100" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="dead" state="Eat" priority="100" reactdistance="0" />
+    <target Tag="monsterfood" State="Eat" Priority="101" ReactDistance="1000" AttackDistance="100" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <!-- <target Tag="vegetables" State="Eat" Priority="100" ReactDistance="1000" AttackDistance="100" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" /> -->
+    <target tag="vegetables" state="Eat" priority="101" />
     <chooserandom>
       <latchonto attachtowalls="true" attachtosub="true" mindeattachspeed="5.0" maxdeattachspeed="8.0" damageondetach="30" detachstun="5.0" attachlimb="Head" localattachpos="40,10" offset="50" attachlimbrotation="100" />
       <latchonto attachtowalls="true" attachtosub="false" mindeattachspeed="5.0" maxdeattachspeed="8.0" damageondetach="30" detachstun="5.0" attachlimb="Head" localattachpos="40,10" offset="50" attachlimbrotation="100" />
     </chooserandom>
     <SwarmBehavior mindistfromclosest="200" maxdistfromcenter="1000" cohesion="1" />
-    <petbehavior>
-      <itemproduction rate="0.9" invhungerrate="0.5" requiredhunger="0-30">
+    <petbehavior maxhappiness="100" happinessdecreaserate="0.016" hungerincreaserate="0.01" playforce="6.0">
+      <itemproduction rate="0.05" invhungerrate="0.002" requiredhunger="1">
         <item identifier="poop" commonness="100" />
       </itemproduction>
+      <!-- <itemproduction rate="1.0" invhungerrate="0.5" requiredhunger="1">
+        <item identifier="poop" commonness="100" />
+      </itemproduction> -->
     </petbehavior>
     <target Tag="pig" State="Follow" Priority="0" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" CircleRotationSpeed="1" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
   </ai>

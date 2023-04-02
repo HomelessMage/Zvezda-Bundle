@@ -140,6 +140,31 @@
       </StatusEffect>
     </Holdable>
   </Item>
+  <Item name="Сырая свинина" identifier="pigmeat" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,food" impacttolerance="8" description="Сырой кусок свини для разделки на кухне." useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/pigcock.png" sourcerect="0,0,78,54" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/pigcock.png" sourcerect="0,0,78,54" depth="0.6" origin="0.5,0.5" />
+    <Body width="50" height="58" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-01.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="1" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="Сало" identifier="salo" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,food" impacttolerance="8" description="Питательный брикет жира и ??? все называют это салом." useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="kitchen" requiredtime="10">
+      <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Systems/Nourishment/pigcock.png" sourcerect="78,0,80,54" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Systems/Nourishment/pigcock.png" sourcerect="78,0,80,54" depth="0.6" origin="0.5,0.5" />
+    <Body width="50" height="58" density="20" />
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" disabledeltatime="true">
+        <ReduceAffliction identifier="hunger" amount="25" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
   <Item name="Борщ" identifier="bowl1" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с борщом - разновидности супа на основе свёклы, которая придаёт ему характерный красный цвет." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
       <RequiredItem identifier="canteen" />
@@ -164,7 +189,7 @@
   </Item>
   <Item name="Суп-пюре" identifier="bowl7" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Банка супа-пюре - это густой суп, приготовленный из протертых овощей, круп, мяса, птицы или рыбы; питательное блюдо, которое отличается выраженным вкусом, легко усваивается организмом человека и аппетитно выглядит." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
-      <RequiredItem identifier="canteen" condition="100"/>
+      <RequiredItem identifier="canteen" condition="100" usecondition="true"/>
       <RequiredItem identifier="potato" />
       <RequiredItem identifier="potato" />
       <RequiredItem identifier="potato" />
@@ -188,8 +213,7 @@
   </Item>
   <Item name="Котлеты по-киевски" identifier="bowl2" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с котлетами по-киевски - разновидность котлет из отбивного куриного филе, в которые завёрнуты кусочки сливочного масла." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
-      <RequiredItem identifier="saltbulb" />
-      <RequiredItem identifier="mre" />
+      <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" origin="0.5,0.5" />
@@ -251,7 +275,7 @@
   <Item name="Бутерброд с ветчиной и сыром" identifier="bowl5" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с бутербродом с ветчиной и сыром - закуска, представляющая собой ломтик хлеба или булки, на который положены дополнительные пищевые продукты. Существует огромное количество видов бутербродов — от классических с колбасой или сыром до многослойных из различных сортов мяса, овощей, зелени и соусов или паштетов." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
       <RequiredItem identifier="mre" />
-      <RequiredItem identifier="slimebacteria" />
+      <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
       <RequiredItem identifier="elastinplant" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
@@ -271,7 +295,7 @@
   <Item name="Фрикадельки" identifier="bowl6" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с фрикадельками, заправленными острым соусом - блюдо, представляющее собой шарики из мясного или рыбного фарша." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
       <RequiredItem identifier="mre" />
-      <RequiredItem identifier="slimebacteria" />
+      <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
       <RequiredItem identifier="adrenalinegland" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />

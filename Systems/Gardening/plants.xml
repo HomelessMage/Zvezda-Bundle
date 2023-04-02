@@ -3,7 +3,7 @@
 
 
 
-<Item name="Помидошка" identifier="potato" category="Material" maxstacksize="8" Tags="smallitem,plantitem,explodesinwater,seed" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
+<Item name="Помидошка" identifier="potato" category="Material" maxstacksize="8" Tags="smallitem,plantitem,explodesinwater,seed,vegetables" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
     <Sprite texture="%ModDir%/Systems/Gardening/vegetables.png" depth="0.2" sourcerect="63,64,48,48" origin="0.5,0.5" />
     <Body radius="30" density="9" />
 
@@ -30,6 +30,7 @@
         <Remove />
       </StatusEffect>
     </Throwable>
+
 
     <Growable growthspeed="0.1" pickingtime="3" maximumvines="48" maxhealth="375" hardiness="0.162" floodtolerance="0.2" seedrate="0" productrate="0.0056" flowerquantity="8" baseflowerscale="0.40" vinescale="0.25" vinetint="90,192,76,255" flowertint="90,192,76,255">
       <ProducedItem identifier="potato" probability="1.0"/>
@@ -58,7 +59,7 @@
       </VineSprites>
     </Growable>
 
-    
+    <AiTarget sightrange="1000" static="true" />
 
     <Upgrade gameversion="0.15.22.0">
       <Growable growthspeed="0.1" hardiness="0.162" floodtolerance="0.2" productrate="0.0056"/>
