@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.23" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
-<Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
+<contentpackage name="Zvezda Bundle" modversion="2.2.24" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
+  <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
   <Other file="%ModDir%/Lua/Autorun/localvoicefix.lua" />
+  <Item file="%ModDir%/Map/ITA/ita_items.xml" />
+  <Structure file="%ModDir%/Map/ITA/ita_prefabs_caves.xml" />
+  <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
+  <Submarine file="%ModDir%/Submarines/!test.sub" />
+  <Submarine file="%ModDir%/Звезда-2 (лифт).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
@@ -12,7 +18,7 @@
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
-  <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" />
+  <!-- <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" /> -->
   <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
@@ -55,7 +61,9 @@
   <Item file="%ModDir%/Map/decor/columns.xml" />
   <Item file="%ModDir%/Map/decor/beds.xml" />
   <Item file="%ModDir%/Map/Walls/lsepanels.xml" />
+  <Item file="%ModDir%/Map/Door/custom_dockingports_backwards_compat.xml" />
   <Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
+  <Item file="%ModDir%/Map/Door/custom_doors_backwards_compat.xml" />
   <Item file="%ModDir%/Map/Door/custom_doors.xml" />
   <Item file="%ModDir%/Map/Torgomat/torgomat.xml" />
   <Structure file="%ModDir%/Map/Walls/Walls.xml" />
@@ -64,6 +72,7 @@
   <Item file="%ModDir%/Systems/Gardening/plants.xml" />
   <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
   <Item file="%ModDir%/Systems/Nourishment/Hungertool.xml" />
+  <Item file="%ModDir%/Systems/Reactor/reactor_backwards_compat.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactorgear.xml" />
   <Item file="%ModDir%/Systems/Reactor/rod.xml" />
@@ -117,6 +126,7 @@
   <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_water.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_windup.ogg" />
   <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg" />
+  <Other file="%ModDir%/Map/Generator/generator_backwards_compat.xml" />
   <Other file="%ModDir%/Map/Generator/generator.xml" />
   <Other file="%ModDir%/Systems/Reactor/generator_diesel_small.ogg" />
   <Other file="%ModDir%/Systems/Reactor/generator_diesel_medium.ogg" />
@@ -511,6 +521,5 @@
   <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
-  <Submarine file="%ModDir%/Submarines/!test.sub" />
+
 </contentpackage>
