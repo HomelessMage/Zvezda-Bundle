@@ -9,7 +9,7 @@
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
-  <Submarine file="%ModDir%/Звезда-2 (лифт).sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
@@ -18,7 +18,6 @@
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
-  <!-- <Submarine file="%ModDir%/Submarines/Zvezda-2 v0.1.2 by Torvald118.sub" /> -->
   <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
@@ -521,5 +520,4 @@
   <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
-
 </contentpackage>
