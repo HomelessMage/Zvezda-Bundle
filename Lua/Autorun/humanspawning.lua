@@ -14,7 +14,7 @@ Hook.Add("chatMessage", "examples.humanSpawning", function (message, client)
     -- Note: If we plan only running this server-side, we could grab the CharacterInfo from client instead, which will have all their info already set, like name and hair style.
     -- local info = CharacterInfo("human", client.Name)
     local info = CharacterInfo("human", randomName)
-    info.Job = Job(JobPrefab.Get("stager")
+    info.Job = Job(JobPrefab.Get("prisoner")
 )
 
     local submarine = Submarine.MainSub
