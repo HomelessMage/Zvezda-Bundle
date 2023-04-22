@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.25" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.8.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.27" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />

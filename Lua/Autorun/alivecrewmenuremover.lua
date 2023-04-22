@@ -71,7 +71,7 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
                 end
             end
 
-            Game.SendDirectChatMessage("", msg, nil, 7, client)
+            -- Game.SendDirectChatMessage("", msg, nil, 7, client)
             Game.SendDirectChatMessage("", msg, nil, 1, client)
 
             return true
