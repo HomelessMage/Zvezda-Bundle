@@ -7,8 +7,8 @@
   <Item file="%ModDir%/Map/ITA/ita_items.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_caves.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.3.sub" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
