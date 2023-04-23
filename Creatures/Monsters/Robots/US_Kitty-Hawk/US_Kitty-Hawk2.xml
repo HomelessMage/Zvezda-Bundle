@@ -89,13 +89,13 @@
     <Item Identifier="alientrinket3" />
   </inventory>
   <StatusEffect type="OnActive" target="this">
-    <Conditional HealthPercentage="lte 30" />
+    <Conditional HealthPercentage="lte 50" />
     <Affliction identifier="internaldamage" strength="0.4" />
     <Affliction identifier="strengthen" strength="50" />
     <Sound file="Content/Characters/Fractalguardian/ALIEN_fractalGuardianPanicLoop.ogg" loop="true" range="3000" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="this">
-    <Conditional HealthPercentage="gte 70" />
+    <Conditional HealthPercentage="gte 40" />
     <Sound file="%ModDir%/Creatures/Monsters/Robots/US_Kitty-Hawk/siren.ogg" loop="true" range="3000" />
   </StatusEffect>
 </Character>
