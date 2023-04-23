@@ -45,7 +45,7 @@
     <Sprite texture="%ModDir%/Items/Tools/Cleaner/mop.png" sourcerect="2,216,691,243" depth="0.55" origin="0.44573084,0.6995885" />
     <Body width="250" height="25" density="50" />
     <MeleeWeapon slots="RightHand+LeftHand" aimpos="250,0" handle1="-5,-5" holdangle="30" reload="1" range="250" combatPriority="25" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="10" severlimbsprobability="0" itemdamage="25">
+      <Attack targetimpulse="10" severlimbsprobability="0" itemdamage="1">
         <Affliction identifier="blunttrauma" strength="1" />
         <Sound file="Content/Sounds/Damage/LimbBlunt1.ogg" type="OnUse" range="3000" selectionmode="Random" />
         <Sound file="Content/Sounds/Damage/LimbBlunt2.ogg" type="OnUse" range="3000" />
