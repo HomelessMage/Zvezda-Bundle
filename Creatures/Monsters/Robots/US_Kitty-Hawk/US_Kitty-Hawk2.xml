@@ -1,7 +1,7 @@
 ﻿<Character SpeciesName="US_Kitty-Hawk2" SpeciesTranslationOverride="US_Kitty-Hawk2" DisplayName="" Group="ancientalien" Humanoid="False" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" IsMachine="True" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="True" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1">
   <ragdolls folder="default" />
   <animations folder="default" />
-  <health Vitality="1200" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="0" BurnReduction="1" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="1" EmpVulnerability="1" ApplyAfflictionColors="False">
+  <health Vitality="2400" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="0" BurnReduction="1" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="True" PoisonImmunity="True" PoisonVulnerability="1" EmpVulnerability="1" ApplyAfflictionColors="False">
     <Limb name="Torso">
       <VitalityMultiplier identifier="explosiondamage" multiplier="1.5" />
       <VitalityMultiplier type="burn" multiplier="0.25" />

@@ -613,21 +613,19 @@
   <entitydescription.zincOre></entitydescription.zincOre>
   <entityname.titaniumOre>Обогащённая титановая руда</entityname.titaniumOre>
   <entitydescription.titaniumOre></entitydescription.titaniumOre>
-  <entityname.ironOre>Обогащённая железная руда</entityname.ironOre>
-  <entitydescription.ironOre></entitydescription.ironOre>
+  <entityname.ironOre2>Обогащённая железная руда</entityname.ironOre2>
+  <entitydescription.ironOre2></entitydescription.ironOre2>
   <entityname.copperOre>Обогащённая медная руда</entityname.copperOre>
   <entitydescription.copperOre></entitydescription.copperOre>
   <entityname.leadOre>Обогащённая свинцовая руда</entityname.leadOre>
   <entitydescription.leadOre></entitydescription.leadOre>
   <entityname.tinOre>Обогащённая оловянная руда</entityname.tinOre>
   <entitydescription.tinOre></entitydescription.tinOre>
+  
   <entityname.carbonMelted>Выплавка углерода</entityname.carbonMelted>
   <entitydescription.carbonMelted></entitydescription.carbonMelted>
   <entityname.aluminiumMelted>Выплавка алюминия</entityname.aluminiumMelted>
   <entitydescription.aluminiumMelted></entitydescription.aluminiumMelted>
-
-<!-- ПРОДОЛЖИТЬ ТУТ -->
-
   <entityname.zincMelted>Выплавка цинка</entityname.zincMelted>
   <entitydescription.zincMelted></entitydescription.zincMelted>
   <entityname.titaniumMelted>Выплавка титана</entityname.titaniumMelted>
@@ -1793,8 +1791,6 @@
   <entitydescription.langbeinite>Минерал, содержащий калий и магний.</entitydescription.langbeinite>
   <entityname.chamosite>Бавалин</entityname.chamosite>
   <entitydescription.chamosite>Минерал, состоящий из железа и алюминия.</entitydescription.chamosite>
-  <entityname.ironore>Железная руда</entityname.ironore>
-  <entitydescription.ironore>Минерал, содержащий большое количество железа.</entitydescription.ironore>
   <entityname.polyhalite>Полигалит</entityname.polyhalite>
   <entitydescription.polyhalite>Минерал, содержащий калий и кальций.</entitydescription.polyhalite>
   <entityname.graphite>Графит</entityname.graphite>
