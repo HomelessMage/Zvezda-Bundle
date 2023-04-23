@@ -13,8 +13,8 @@
     </Price>
     <Fabricate suitablefabricators="fabricator" requiredtime="80">
       <RequiredSkill identifier="weapons" level="45" />
-      <RequiredItem identifier="carbonMelted" />
-      <RequiredItem identifier="carbonMelted" />
+      <RequiredItem identifier="carbonCool" />
+      <RequiredItem identifier="carbonCool" />
     </Fabricate>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="5,55,46,38" depth="0.55" origin="0.5,0.5" />
@@ -40,6 +40,11 @@
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="5,92,46,38" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="25" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="ironCool" />
+      <RequiredItem identifier="ironCool" />
+    </Fabricate>
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
@@ -61,6 +66,11 @@
     </Price>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="150,92,47,38" depth="0.55" origin="0.5,0.5" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="tinCool" />
+      <RequiredItem identifier="tinCool" />
+    </Fabricate>
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -84,6 +94,11 @@
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="768,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="101,92,47,38" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="25" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="leadCool" />
+      <RequiredItem identifier="leadCool" />
+    </Fabricate>
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
@@ -149,6 +164,11 @@
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="102,55,46,37" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="zincCool" />
+      <RequiredItem identifier="zincCool" />
+    </Fabricate>
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
@@ -242,6 +262,11 @@
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,192,64,64" />
     <Sprite texture="Content/Items/Materials/CraftingElements1.png" sourcerect="53,53,47,39" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="80">
+      <RequiredSkill identifier="weapons" level="45" />
+      <RequiredItem identifier="aluminiumCool" />
+      <RequiredItem identifier="aluminiumCool" />
+    </Fabricate>
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">

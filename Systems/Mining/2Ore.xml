@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="Обогащённая углеродная руда" identifier="carbonOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая углеродная руда" identifier="carbonOre" category="Material" maxstacksize="8" Tags="smallitem,ore" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -16,8 +16,8 @@
       <Item identifier="carbonMelted" />
       <Item identifier="carbonMelted" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="258,4,126,121" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="258,4,126,121" origin="0.5,0.5" />
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="258,509,126,121" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="258,509,126,121" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -26,7 +26,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="Обогащённая алюминиевая руда" identifier="aluminiumOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая алюминиевая руда" identifier="aluminiumOre" category="Material" maxstacksize="8" Tags="smallitem,ore,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -37,8 +37,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
     </Price>
-    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="10,6,119,122" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.45" sourcerect="10,6,119,122" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="aluminiumMelted" />
+      <Item identifier="aluminiumMelted" />
+      <Item identifier="aluminiumMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="652,642,120,121" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="652,642,120,121" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -48,7 +53,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="Обогащённая цинковая руда" identifier="zincOre" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая цинковая руда" identifier="zincOre" category="Material" maxstacksize="8" Tags="smallitem,ore" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -59,8 +64,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
     </Price>
-    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="480,0,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="480,0,240,160" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="zincMelted" />
+      <Item identifier="zincMelted" />
+      <Item identifier="zincMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="12,761,121,126" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" sourcerect="12,761,121,126" depth="0.3" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -80,13 +90,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="5" />
     </Price>
-    <Deconstruct time="45">
+    <Deconstruct time="45" >
       <Item identifier="titaniumMelted" />
       <Item identifier="titaniumMelted" />
       <Item identifier="titaniumMelted" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="394,133,118,123" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" sourcerect="394,133,118,123" angle="90" depth="0.3" origin="0.5,0.5" />
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="396,635,118,123" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="396,635,118,123" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable slots="RightHand+LeftHand" msg="ItemMsgPickUpSelect" holdpos="90,-35" holdangle="15" handle1="-11,-15" handle2="-11,-15" pickingtime="5.0" attachable="true" reattachable="false">
       <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.7" />
@@ -97,7 +107,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="ironOre2" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая железная руда" identifier="ironOre2" category="Material" maxstacksize="8" Tags="smallitem,ore,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="4" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -108,8 +118,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
-    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="0,160,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="0,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="ironMelted" />
+      <Item identifier="ironMelted" />
+      <Item identifier="ironMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="520,637,128,120" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="520,637,128,120" origin="0.5,0.5" />
     <Body width="45" height="30" density="25" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -119,7 +134,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="Обогащённая медная руда" identifier="copperOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая медная руда" identifier="copperOre" category="Material" maxstacksize="8" Tags="smallitem,ore,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="3" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -130,8 +145,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
     </Price>
-    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="240,160,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="240,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="copperMelted" />
+      <Item identifier="copperMelted" />
+      <Item identifier="copperMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="906,637,108,115" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="906,637,108,115" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -141,7 +161,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="Обогащённая свинцовая руда" identifier="leadOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая свинцовая руда" identifier="leadOre" category="Material" maxstacksize="8" Tags="smallitem,ore,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -152,8 +172,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="10" />
     </Price>
-    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="480,160,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="480,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="leadMelted" />
+      <Item identifier="leadMelted" />
+      <Item identifier="leadMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="135,889,114,123" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="135,889,114,123" origin="0.5,0.5" />
     <Body width="45" height="30" density="25" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->
@@ -163,7 +188,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="Обогащённая оловянная руда" identifier="tinOre" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Обогащённая оловянная руда" identifier="tinOre" category="Material" maxstacksize="8" Tags="smallitem,ore,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -174,8 +199,13 @@
       <Price storeidentifier="merchantmilitary" multiplier="1.1" />
       <Price storeidentifier="merchantmine" sold="true" multiplier="0.8" minavailable="20" />
     </Price>
-    <InventoryIcon texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="720,160,240,160" />
-    <Sprite texture="%ModDir%/Systems/Mining/Img/Ore.png" sourcerect="720,160,240,160" depth="0.55" origin="0.5,0.5" />
+    <Deconstruct time="45" >
+      <Item identifier="tinMelted" />
+      <Item identifier="tinMelted" />
+      <Item identifier="tinMelted" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="265,890,116,121" />
+    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="265,890,116,121" origin="0.5,0.5" />
     <Body width="45" height="30" density="50" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <!-- Remove the item when fully used -->

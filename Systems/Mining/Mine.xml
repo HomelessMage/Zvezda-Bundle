@@ -685,46 +685,6 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="Обогащённая железная руда" identifier="ironOre" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
-    <PreferredContainer secondary="locker" />
-    <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
-    <Price baseprice="25" sold="false">
-      <Price storeidentifier="merchantoutpost" multiplier="1.1" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" />
-      <Price storeidentifier="merchantresearch" />
-      <Price storeidentifier="merchantmilitary" />
-      <Price storeidentifier="merchantmine" multiplier="0.75" />
-    </Price>
-    <Deconstruct time="5">
-      <Item identifier="ironOre2" />
-      <Item identifier="ironOre2" />
-      <Item identifier="ironOre2" />
-      <Item identifier="ironOre2" />
-    </Deconstruct>
-    <!-- TODO: sprite and inventory icon -->
-    <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
-      <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
-    </LightComponent>
-    <ContainedSprite texture="Content/Items/Materials/MineralEnvironment.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="0,438,86,148" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="517,130,128,120" origin="0.5,0.5" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="84,438,88,148" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.48" sourcerect="172,440,84,146" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.51" sourcerect="84,438,88,148" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.52" sourcerect="172,440,84,146" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.491" sourcerect="84,438,88,148" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
-    <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.53" sourcerect="172,440,84,146" offset="0,-30" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,10" origin="0.5,0.5" randomgroupid="3" />
-    <DecorativeSprite texture="Content/Items/Materials/Minerals.png" depth="0.4" sourcerect="810,893,173,131" offset="0,-40" randomrotation="-20,20" origin="0.5,0.5" />
-    <Body radius="40" width="20" density="50" />
-    <LevelResource deattachduration="4" randomoffsetfromwall="80">
-      <Commonness commonness="0.65" />
-      <Commonness commonness="0.50" leveltype="ridgebasic" />
-      <Commonness commonness="0.50" leveltype="plateaubasic" />
-      <Commonness commonness="0.40" leveltype="greatseabasic" />
-      <Commonness commonness="0.30" leveltype="wastesbasic" />
-      <RequiredItem items="cuttingequipment" type="Equipped" />
-    </LevelResource>
-    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
-  </Item>
   <Item name="" identifier="polyhalite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />

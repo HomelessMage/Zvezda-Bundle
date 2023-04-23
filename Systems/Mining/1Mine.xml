@@ -16,6 +16,7 @@
       <Item identifier="titaniumOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,146,86,147" />
     <LightComponent lightcolor="113,204,164,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -41,7 +42,7 @@
       <StatusEffect type="OnActive" target="Character" setvalue="true" SpeedMultiplier="0.45" />
     </Holdable>
   </Item>
-  <Item name="" identifier="brockite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="brockite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="150" sold="false">
@@ -56,6 +57,7 @@
       <Item identifier="thorium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,731,85,147" />
     <LightComponent lightcolor="178,108,109,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -79,7 +81,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="thorianite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="thorianite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="300" sold="false">
@@ -94,6 +96,7 @@
       <Item identifier="thorium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="172,877,84,147" />
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -117,7 +120,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="amblygonite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="amblygonite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="200" sold="false">
@@ -133,6 +136,7 @@
       <Item identifier="sodium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="84,3,84,144" />
     <LightComponent lightcolor="211,189,89,120" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -156,7 +160,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="sphalerite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="sphalerite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -172,11 +176,12 @@
       <Item identifier="zincOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,585,88,147" />
     <LightComponent lightcolor="196,196,196,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
     <ContainedSprite texture="Content/Items/Materials/MineralEnvironment.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="172,585,84,147" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="5,261,121,126" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,585,88,147" depth="0.3" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="85,585,88,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.48" sourcerect="0,585,86,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.51" sourcerect="85,585,88,147" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
@@ -195,7 +200,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="pyromorphite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="pyromorphite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="30" sold="false">
@@ -210,6 +215,7 @@
       <Item identifier="chlorine" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="768,292,86,147" />
     <LightComponent lightcolor="115,154,127,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -233,7 +239,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="quartz" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="quartz" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -270,7 +276,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="diamond" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="diamond" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="50" sold="false">
@@ -308,7 +314,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="hydroxyapatite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="hydroxyapatite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -324,6 +330,7 @@
       <Item identifier="phosphorus" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="341,292,86,147" />
     <LightComponent lightcolor="179,173,154,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -347,7 +354,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="uraniumore" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="uraniumOre" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="200" sold="false">
@@ -363,6 +370,7 @@
       <Item identifier="uranium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/Minerals.png" sourcerect="912,265,107,116" />
     <LightComponent lightcolor="83,160,100,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -386,7 +394,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="ilmenite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ilmenite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -400,6 +408,7 @@
       <Item identifier="titaniumOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="681,292,87,147" />
     <LightComponent lightcolor="117,143,123,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -423,7 +432,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="stannite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="stannite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="50" sold="false">
@@ -439,6 +448,7 @@
       <Item identifier="tinOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="853,877,86,147" />
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -462,7 +472,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="chalcopyrite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="chalcopyrite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="60" sold="false">
@@ -477,6 +487,7 @@
       <Item identifier="copperOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="681,438,87,148" />
     <LightComponent lightcolor="162,135,83,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -500,7 +511,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="esperite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="esperite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -516,6 +527,7 @@
       <Item identifier="leadOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="341,585,86,147" />
     <ContainedSprite texture="Content/Items/Materials/MineralEnvironment.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="256,585,86,147" origin="0.5,0.5" />
     <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="142,262,112,119" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="341,585,86,147" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
@@ -533,7 +545,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="galena" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="galena" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="70" sold="false">
@@ -548,6 +560,7 @@
       <Item identifier="leadOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="256,877,86,147" />
     <LightComponent lightcolor="117,139,162,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -568,7 +581,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="triphylite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="triphylite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="100" sold="false">
@@ -582,6 +595,7 @@
       <Item identifier="lithium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="426,0,86,147" />
     <LightComponent lightcolor="127,174,170,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -605,7 +619,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="langbeinite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="langbeinite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="200" sold="false">
@@ -621,6 +635,7 @@
       <Item identifier="magnesium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="597,146,84,147" />
     <LightComponent lightcolor="150,125,105,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -644,7 +659,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="chamosite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="chamosite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="130" sold="false">
@@ -661,11 +676,12 @@
       <Item identifier="aluminiumOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="426,438,86,148" />
     <LightComponent lightcolor="69,158,142,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
     <ContainedSprite texture="Content/Items/Materials/MineralEnvironment.png" usewhenattached="true" decorativespritebehavior="HideWhenNotVisible" depth="0.55" sourcerect="341,438,86,148" origin="0.5,0.5" />
-    <Sprite texture="Content/Items/Materials/Minerals.png" depth="0.3" sourcerect="650,130,120,121" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="426,438,86,148" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.49" sourcerect="256,441,86,145" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.48" sourcerect="426,438,86,148" offset="20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="1" />
     <DecorativeSprite texture="Content/Items/Materials/MineralEnvironment.png" depth="0.51" sourcerect="256,441,86,145" offset="-20,0" randomrotation="-20,20" randomscale="0.8,1.5" randomoffset="30,30" origin="0.5,0.5" randomgroupid="2" />
@@ -684,7 +700,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="ironOre" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="ironOre" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="25" sold="false">
@@ -701,6 +717,7 @@
       <Item identifier="ironOre2" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="172,440,84,146" />
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -724,7 +741,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="polyhalite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="polyhalite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="50" sold="false">
@@ -739,6 +756,7 @@
       <Item identifier="calcium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="853,146,86,147" />
     <LightComponent lightcolor="134,99,88" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -762,7 +780,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="graphite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="graphite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="25" sold="false">
@@ -777,6 +795,7 @@
       <Item identifier="carbonOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="597,0,84,145" />
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -800,7 +819,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="sylvite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="sylvite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="70" sold="false">
@@ -816,6 +835,7 @@
       <Item identifier="potassium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="597,877,84,147" />
     <LightComponent lightcolor="160,89,67,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -839,7 +859,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="lazulite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="lazulite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="25" sold="false">
@@ -854,6 +874,7 @@
       <Item identifier="ironOre2" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="426,731,86,147" />
     <LightComponent lightcolor="88,121,142,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -877,7 +898,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="bornite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="bornite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="60" sold="false">
@@ -892,6 +913,7 @@
       <Item identifier="copperOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="938,438,86,148" />
     <LightComponent lightcolor="119,82,124,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -915,7 +937,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="cassiterite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="cassiterite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="40" sold="false">
@@ -931,6 +953,7 @@
       <Item identifier="tinOre" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="512,877,86,147" />
     <LightComponent lightcolor="153,82,66,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -954,7 +977,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="cryolite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="cryolite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="80" sold="false">
@@ -969,6 +992,7 @@
       <Item identifier="sodium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,146,88,147" />
     <LightComponent lightcolor="160,175,187,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -992,7 +1016,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="aragonite" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="aragonite" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="80" sold="false">
@@ -1007,6 +1031,7 @@
       <Item identifier="calcium" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="85,292,88,147" />
     <LightComponent lightcolor="187,157,67,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
@@ -1030,7 +1055,7 @@
     </LevelResource>
     <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgUsePlasmaCutter" handle1="0,0" pickingtime="5.0" attachable="true" reattachable="false" />
   </Item>
-  <Item name="" identifier="chrysoprase" category="Material" Tags="smallitem,ore" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="chrysoprase" category="Material" Tags="smallitem,mine" maxstacksize="8" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="locker" />
     <PreferredContainer primary="mineralcontainer" spawnprobability="0.1" />
     <Price baseprice="40" sold="false">
@@ -1044,6 +1069,7 @@
       <Item identifier="silicon" />
     </Deconstruct>
     <!-- TODO: sprite and inventory icon -->
+    <InventoryIcon texture="Content/Items/Materials/MineralEnvironment.png" sourcerect="938,585,86,147" />
     <LightComponent lightcolor="115,148,82,225" range="100" powerconsumption="0" flicker="0.0" flickerspeed="0.5" pulsefrequency="0.4" pulseamount="0" ison="true" drawbehindsubs="true">
       <LightTexture texture="Content/Lights/pointlight_rays.png" origin="0.5,0.5" />
     </LightComponent>
