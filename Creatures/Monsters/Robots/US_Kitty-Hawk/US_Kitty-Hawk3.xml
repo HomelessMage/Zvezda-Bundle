@@ -1,0 +1,18 @@
+﻿<Charactervariant inherit="US_Kitty-Hawk2" speciesname="US_Kitty-Hawk3" speciestranslationoverride="US_Kitty-Hawk3">
+  <ai combatstrength="700" aggressiveboarding="True">
+    <target tag="guardianshelter" state="FleeTo" priority="1000" reactdistance="25" offset="0,60" thresholdmin="30" thresholdmax="99" attackdistance="0" timer="0" ignorecontained="False" ignoreinside="False" ignoreoutside="True" ignoreifnotinsamesub="False" ignoreincapacitated="False" attackpattern="Straight" sweepdistance="0" sweepstrength="10" sweepspeed="1" circlestartdistance="5000" circlerotationspeed="1" circlestrikedistancemultiplier="5" circlemaxrandomoffset="0" />
+    <target tag="provocative" state="Attack" priority="200" ignoreifnotinsamesub="True"/>
+    <target tag="weapon" state="Attack" priority="200" ignoreifnotinsamesub="True"/>
+    <target tag="tool" state="Attack" priority="100" ignoreifnotinsamesub="True"/>
+    <target tag="room" state="Attack" priority="50"/>
+    <target tag="door" state="Attack" priority="30" />
+    <target tag="wall" state="Attack" priority="10" />
+    <target tag="sonar" state="Attack" priority="1" ignoreinside="true"/>
+    <target tag="turret" state="Attack" priority="1" ignoreinside="true"/>
+    <target tag="portalguardian" state="Follow" priority="5" ignoreinside="true" reactdistance="1000"/>
+    <target tag="fractalguardian_emp" state="Follow" priority="1" ignoreinside="true" reactdistance="1000"/>
+  </ai>
+  <inventory slots="RightHand, Any" accessiblewhenalive="False" accessiblebyowner="True">
+    <Item identifier="guardianbeamweapon" slot="RightHand"/>
+  </inventory>
+</Charactervariant>

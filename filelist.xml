@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.27" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.30" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -125,6 +125,8 @@
   <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_motor.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_water.ogg" />
   <Other file="%ModDir%/Creatures/Monsters/Homing Shell/homingshell_windup.ogg" />
+  <Character file="%ModDir%/Creatures/Monsters/Robots/US_Kitty-Hawk/US_Kitty-Hawk2.xml" />
+  <Character file="%ModDir%/Creatures/Monsters/Robots/US_Kitty-Hawk/US_Kitty-Hawk3.xml" />
   <Other file="%ModDir%/Systems/Reactor/bubbleloop.ogg" />
   <Other file="%ModDir%/Map/Generator/generator_backwards_compat.xml" />
   <Other file="%ModDir%/Map/Generator/generator.xml" />
@@ -253,11 +255,9 @@
   <Character file="Content/Characters/Defensebot/Defensebot.xml" />
   <Character file="Content/Characters/Endworm/Endworm.xml" />
   <Character file="Content/Characters/Fractalguardian/Fractalguardian.xml" />
-  <Character file="Content/Characters/Fractalguardian2/Fractalguardian2.xml" />
   <Character file="Content/Characters/Fractalguardian_emp/Fractalguardian_emp.xml" />
   <Character file="Content/Characters/Portalguardian/Portalguardian.xml" />
   <Character file="Content/Characters/Guardianrepairbot/Guardianrepairbot.xml" />
-  <Character file="Content/Characters/Variants/Fractalguardian3.xml" />
   <Character file="Content/Characters/Swarmfeeder/Swarmfeeder.xml" />
   <Character file="Content/Characters/Hammerhead/Hammerhead.xml" />
   <Character file="Content/Characters/Hammerheadgold/Hammerheadgold.xml" />
