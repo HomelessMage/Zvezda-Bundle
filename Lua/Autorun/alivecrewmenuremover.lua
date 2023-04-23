@@ -62,20 +62,47 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
             for key, value in pairs(Character.CharacterList) do
 
                 if value.IsHuman and not value.IsBot then
-                    print(value.IsDead)
+                    -- print(value.IsDead)
                     if value.IsDead then
-                        msg = msg .. "[МЕРТВ] " .. value.name .. "\n"
+                        msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
                     else
-                        msg = msg .. "[ЖИВ] " .. value.name .. "\n"
+                        msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .. "\n"
                     end
                 end
             end
 
             -- Game.SendDirectChatMessage("", msg, nil, 7, client)
-            Game.SendDirectChatMessage("", msg, nil, 1, client)
+            -- В консоль
+            Game.SendDirectChatMessage("", msg, nil, 6, client)
+            -- В чат
+            -- Game.SendDirectChatMessage("", msg, nil, 1, client)
+            -- Game.SendDirectChatMessage("", msg, nil, 2, client)
+            Game.SendDirectChatMessage("", msg, nil, 3, client)
+            print(msg)
+            
+            -- GameServer.Log("msg", ServerLog.MessageType.Attack)
+
 
             return true
         end
 
     end
 end)
+
+
+-- Hook.Add("think", "logtimer", function()
+--     if basicTimer > Timer.GetTime() then return end -- skip code below
+    
+--     basicTimer = Timer.GetTime() + 1                -- timer runs every 5 seconds
+--     local ratelimiter = 0
+--     for key, value in pairs(loglist) do
+--       ratelimiter = ratelimiter + 1
+--       if discordhook ~= "https://discord.com/api/webhooks/1099761629534638122/D-WBDacyd5_ryRehnFSINlcFpKsSc8VOx3d9JD8PxysIgIhrw1n8wYqcBGGPan_xH0WT" then
+--         Networking.RequestPostHTTP(discordhook, function(result)
+--         end, value)
+--       end
+--       if ratelimiter >= 5 then
+--         break
+--       end
+--     end
+--   end)
