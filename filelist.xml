@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.30" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.32" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -8,7 +8,6 @@
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_caves.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.2.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
@@ -19,7 +18,8 @@
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
+  <Submarine file="%ModDir%/Звезда-2 (бэкап).sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
