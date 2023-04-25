@@ -39,7 +39,7 @@ Hook.Add("chatMessage", "examples.humanSpawning", function (message, client)
         client.SetClientCharacter(character)
     end
     -- Логгирование
-    print("Вселение в персонажа" .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" .. "[Имя персонажа]: " .. randomName)
+    print("Вселение в персонажа" .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" .. "[Имя персонажа]: " .. randomName .. "\n" .. "[SteamID]: " .. client.SteamID)
 
     return true -- returning true allows us to hide the message
 end)
