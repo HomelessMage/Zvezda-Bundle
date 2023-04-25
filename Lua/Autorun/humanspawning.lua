@@ -27,15 +27,19 @@ Hook.Add("chatMessage", "examples.humanSpawning", function (message, client)
     end
 
     local character = Character.Create(info, spawnPoint.WorldPosition, info.Name, 0, false, false)
-    -- character.TeamID = CharacterTeamType.Team1
-    character.TeamID = CharacterTeamType.FriendlyNPC
+    character.TeamID = CharacterTeamType.Team1
+    -- Предположительно вызывает краши:
+    -- character.TeamID = CharacterTeamType.FriendlyNPC
     character.GiveJobItems()
+
 
     if CLIENT then
         Character.Controlled = character
     else
         client.SetClientCharacter(character)
     end
+    -- Логгирование
+    print("Вселение в персонажа" .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" .. "[Имя персонажа]: " .. randomName)
 
     return true -- returning true allows us to hide the message
 end)
