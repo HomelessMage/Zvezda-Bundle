@@ -19,7 +19,7 @@
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
-  <Submarine file="%ModDir%/Звезда-2 (бэкап).sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
