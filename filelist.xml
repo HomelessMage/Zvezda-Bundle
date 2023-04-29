@@ -43,6 +43,7 @@
   <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
   <Item file="%ModDir%/Items/Jobgear/Factions/Reich/Reich.xml" />
   <Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />
+  <item file="%ModDir%/Items/Jobgear/Factions/China/China.xml" />
   <Item file="%ModDir%/Items/Jobgear/Bags/Bags.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
   <Item file="%ModDir%/Items/Jobgear/Diving/divinggear.xml" />

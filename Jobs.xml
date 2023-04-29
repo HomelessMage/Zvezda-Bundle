@@ -855,7 +855,81 @@
       <Item identifier="tpcap" equip="true" showpreview="true" />
     </ItemSet>
   </Job>
-
+  <!--Китайцы-->
+  <Job hiddenjob="false" name="Китайский офицер" identifier="chinaofficer" uicolor="100,0,0" initialcount="1" allowalways="true" minkarma="0" vitalitymodifier="0" pricemultiplier="0">
+    <Skills>
+      <Skill identifier="helm" level="100,100" primary="true" />
+      <Skill identifier="weapons" level="55,55" />
+      <Skill identifier="mechanical" level="0,0" />
+      <Skill identifier="electrical" level="0,0" />
+      <Skill identifier="medical" level="15,15" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="commiechineese_uniform" equip="true" outfit="true" showpreview="true">
+      </Item>
+      <Item identifier="holster" equip="true">
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="ots38" showpreview="true">
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+        </Item>
+      </Item>
+      <Item identifier="radio" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+      <Item identifier="chinaofficercap1" equip="true" showpreview="true" />
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="nacikchineese_uniform" equip="true" outfit="true" showpreview="true">
+      </Item>
+      <Item identifier="holster" equip="true">
+        <Item identifier="holster" equip="true">
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="76241mm" showpreview="false" />
+        <Item identifier="ots38" showpreview="true">
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+          <Item identifier="76241mm" showpreview="false" />
+        </Item>
+      </Item>
+      <Item identifier="radio" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+      <Item identifier="chinaofficercap2" equip="true" showpreview="true" />
+    </ItemSet>
+  </Job>
 
    <Job hiddenjob="true" name="Боец КМП США" identifier="usmc" uicolor="51,51,51" allowalways="false" minnumber="0" maxnumber="0" initialcount="1">
    <!--<Job name="american_operator" identifier="usmc" uicolor="51,51,51" allowalways="true" minkarma="0" minnumber="0" maxnumber="0" initialcount="1" vitalitymodifier="0" pricemultiplier="0"> -->
