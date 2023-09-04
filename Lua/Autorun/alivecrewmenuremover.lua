@@ -64,9 +64,12 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
                 if value.IsHuman and not value.IsBot then
                     -- print(value.IsDead)
                     if value.IsDead then
-                        msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
+                        -- Работает некорректно, выводит мой никнейм...
+                        -- msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
+                        msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n"                        
                     else
-                        msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .. "\n"
+                        -- msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"                        
+                        msg = msg .. "[Живой персонаж]: " .. value.name .. "\n"
                         -- client.OwnerClientEndPoint
 
                         -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
@@ -76,12 +79,14 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
 
             -- Game.SendDirectChatMessage("", msg, nil, 7, client)
             -- В консоль
-            Game.SendDirectChatMessage("", msg, nil, 6, client)
+            print(msg)
+            -- Game.SendDirectChatMessage("", msg, nil, 6, client)
             -- В чат
             -- Game.SendDirectChatMessage("", msg, nil, 1, client)
             -- Game.SendDirectChatMessage("", msg, nil, 2, client)
-            Game.SendDirectChatMessage("", msg, nil, 3, client)
-            print(msg)
+
+            -- Game.SendDirectChatMessage("", msg, nil, 3, client)
+
             
             -- GameServer.Log("msg", ServerLog.MessageType.Attack)
 
