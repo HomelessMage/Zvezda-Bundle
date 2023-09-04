@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.33" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.34" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -20,7 +20,6 @@
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -535,4 +534,5 @@
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
   <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
 </contentpackage>
