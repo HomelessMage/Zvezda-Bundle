@@ -173,9 +173,9 @@
   <entitydescription.assistantclothes></entitydescription.assistantclothes>
   <entityname.botanistclothes>Комбинезон завхоза</entityname.botanistclothes>
   <entitydescription.botanistclothes></entitydescription.botanistclothes>
-  <entityname.comendantuniform>Китель (офицерский)</entityname.comendantuniform>
+  <entityname.comendantuniform>Униформа (КГБ СССР)</entityname.comendantuniform>
   <entitydescription.comendantuniform></entitydescription.comendantuniform>
-  <entityname.comendantuniformK>Китель (офицерский со знаком отличия)</entityname.comendantuniformK>
+  <entityname.comendantuniformK>Униформа (ВК СССР)</entityname.comendantuniformK>
   <entitydescription.comendantuniformK></entitydescription.comendantuniformK>
   <entityname.administratorclothes>Китель (тёмный)</entityname.administratorclothes>
   <entitydescription.administratorclothes></entitydescription.administratorclothes>
@@ -239,6 +239,15 @@
   <entitydescription.neorussian_uniform></entitydescription.neorussian_uniform>
   <entityname.furcoatclothes2>Пуховик</entityname.furcoatclothes2>
   <entitydescription.furcoatclothes2></entitydescription.furcoatclothes2>
+
+
+  <entityname.commiechineese_uniform>Униформа (НОАК)</entityname.commiechineese_uniform>
+  <entitydescription.commiechineese_uniform></entitydescription.commiechineese_uniform>
+  <entityname.commiechineese_uniform>Униформа (ГоминьДан)</entityname.commiechineese_uniform>
+  <entitydescription.commiechineese_uniform></entitydescription.commiechineese_uniform>
+
+
+
   <!-- Одежда -->
   <!-- Одежда -->
   <!-- Одежда -->
@@ -324,6 +333,13 @@
   <entitydescription.cookcap></entitydescription.cookcap>
   <entityname.baseballcap>Бейсбольная кепка</entityname.baseballcap>
   <entitydescription.baseballcap></entitydescription.baseballcap>
+  <entityname.chinaofficercap1>Фуражка (НОАК)</entityname.chinaofficercap1>
+  <entitydescription.chinaofficercap1></entitydescription.chinaofficercap1>
+  <entityname.chinaofficercap2>Фуражка (ГоминьДан)</entityname.chinaofficercap2>
+  <entitydescription.chinaofficercap2></entitydescription.chinaofficercap2>
+  
+
+  
   <!-- Головные уборы -->
   <!-- Головные уборы -->
   <!-- Головные уборы -->
@@ -642,7 +658,7 @@
   <entitydescription.titaniumCool></entitydescription.titaniumCool>
 
   <!--Растения-->
-  <entityname.potato>Помидошка</entityname.potato>
+  <entityname.potato>Картофелина</entityname.potato>
   <entitydescription.potato></entitydescription.potato>
 
 
@@ -2528,7 +2544,7 @@
   <huskdormant>Такое чувство, будто у вас что-то застряло в горле</huskdormant>
   <huskdormant>У вас болят мышцы</huskdormant>
   <huskcantspeak>Вам кажется, будто что-то шевелится у вас в горле. Вы пытаетесь кричать, но не можете издать ни звука.</huskcantspeak>
-  <huskactivate>Из вашего рта вырывается странный хитиновый отросток. Используйте его, чтобы вводить яйца в тела живых людей (нажмите [Attack])!</huskactivate>
+  <huskactivate>Из вашего рта вырывается странный хитиновый отросток...</huskactivate>
   <!-- Skills -->
   <skillname.helm>Управление</skillname.helm>
   <skillname.weapons>Оружие</skillname.weapons>

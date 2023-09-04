@@ -111,7 +111,6 @@
     <ItemContainer capacity="1" depth="0.5" ShowContainedStateIndicator="false" ShowConditionInContainedStateIndicator="true" UILabel="Перекачка">
       <Containable items="petroltank,refillableoxygensource" excludeditems="" />
     </ItemContainer>
-    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
       <sprite name="Flamerpack Wearable" texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamerpack.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="0,0,80,160" origin="1.2,0.6" scale="0.5" />
       <OxygenGenerator powerconsumption="0.0" minvoltage="0.0" canbeselected="true" msg="ItemMsgInteractSelect">

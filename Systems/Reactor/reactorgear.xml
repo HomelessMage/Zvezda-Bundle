@@ -156,8 +156,8 @@
       <sprite name="Hazmat 1 Left Leg" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftLeg" hidelimb="true" inheritlimbdepth="true" scale="0.4" origin="0.5,0.55" sourcerect="85,140,69,96" />
       <sprite name="Hazmat 1 Right Shoe" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="RightFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
       <sprite name="Hazmat 1 Left Shoe" texture="%ModDir%/Systems/Reactor/hazmat.png" hideotherwearables="true" limb="LeftFoot" hidelimb="true" inheritlimbdepth="true" scale="0.44" origin="0.5,0.62" sourcerect="353,237,84,66" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.67" damagesound="LimbArmor" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="radiationsickness" damagemultiplier="0.5" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" damagemultiplier="0.67" damagesound="LimbArmor" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.5" damagesound="LimbArmor" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.6" HideFace="true" ObstructVision="true" setvalue="true" disabledeltatime="true" />
       <StatusEffect type="OnWearing" target="Character">
         <ReduceAffliction identifier="exposure" strength="300" />

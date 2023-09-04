@@ -259,10 +259,68 @@
     </PeriodicEffect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="128,640,128,128" color="195,177,60,255" origin="0,0" />
   </Affliction>
-  <AfflictionHusk name="Husk infection" identifier="huskinfection" description="Something dark and unpleasant moves in the mouth. They are rendered completely mute, save for occasional clicking sounds apparently emanating from deep within the throat." type="alieninfection" targets="human,crawler" huskedspeciesname="[speciesname]husk" causeofdeathdescription="Taken over by a husk parasite" selfcauseofdeathdescription="You have been taken over by the husk parasite." limbspecific="false" indicatorlimb="Torso" activationthreshold="0" showiconthreshold="40" karmachangeonapplied="-1" maxstrength="100" transferbuffs="true" achievementonremoved="healhusk" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
+  <AfflictionHusk name="Husk infection" identifier="huskinfection" description="Something dark and unpleasant moves in the mouth. They are rendered completely mute, save for occasional clicking sounds apparently emanating from deep within the throat." type="alieninfection" targets="human,crawler" huskedspeciesname="[speciesname]husk" causeofdeathdescription="Taken over by a husk parasite" selfcauseofdeathdescription="You have been taken over by the husk parasite." limbspecific="false" indicatorlimb="Torso" activationthreshold="0" showiconthreshold="75" karmachangeonapplied="-1" maxstrength="100" transferbuffs="true" achievementonremoved="healhusk" iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
     <Effect minstrength="0" maxstrength="100" maxvitalitydecrease="0" strengthchange="0.3" minbodytint="195,195,195,0" maxbodytint="195,195,195,200" />
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,640,128,128" color="60,107,195,255" origin="0,0" />
   </AfflictionHusk>
+
+
+<AfflictionHusk
+    identifier="husksymbiosis"
+    type="alieninfection"    
+    targets="human"
+    huskedspeciesname="[speciesname]husk"
+    limbspecific="false"
+    indicatorlimb="Torso"
+    activationthreshold="0"
+    showiconthreshold="0"
+    showinhealthscannerthreshold="0"
+    karmachangeonapplied="-1"
+    maxstrength="100"
+    transferbuffs="true"
+    causespeechimpediment="false"
+    achievementonreceived="ascension"
+    achievementonremoved="healhusk"
+    dormantthreshold="50"
+    activethreshold="75"
+    transformthresholdondeath="1000"
+    transitionthreshold="1000"
+    healableinmedicalclinic="false"
+    iconcolors="60,140,195,255;60,107,195,255;60,0,195,255">
+    <Effect minstrength="0" maxstrength="75"
+      maxvitalitydecrease="0"
+      strengthchange="50"
+      minbodytint="255,255,255,0"
+      maxbodytint="255,255,255,255"
+      minfacetint="255,255,255,0"
+      maxfacetint="255,255,255,255"
+      tag="huskinfected" blocktransformation="huskinfection"
+      resistancefor="huskinfection"  minresistance="1.0" maxresistance="1.0">
+      <StatusEffect target="Character" type="OnActive">
+        <ReduceAffliction identifier="huskinfection" amount="1000" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="75" maxstrength="100"
+      maxvitalitydecrease="0"
+      strengthchange="10"
+      minbodytint="255,255,255,255"
+      maxbodytint="255,255,255,255"
+      minfacetint="255,255,255,255"
+      maxfacetint="255,255,255,255"
+      tag="huskinfected" blocktransformation="huskinfection"
+      resistancefor="huskinfection"  minresistance="1.0" maxresistance="1.0">
+      <StatusEffect target="Character" type="OnActive">
+        <ReduceAffliction identifier="huskinfection" amount="1000" />
+      </StatusEffect>
+      <StatusEffect target="Character">
+        <ReduceAffliction type="damage" amount="0.75" />
+        <ReduceAffliction type="bleeding" amount="0.18" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,640,128,128" color="60,107,195,255" origin="0,0"/>
+  </AfflictionHusk>
+
+
   <AfflictionSpaceHerpes name="Space herpes" identifier="spaceherpes" description="" type="spaceherpes" causeofdeathdescription="" selfcauseofdeathdescription="" limbspecific="false" indicatorlimb="Torso" showiconthreshold="20" maxstrength="100">
     <Effect minstrength="0" maxstrength="50" minscreendistort="0.0" maxscreendistort="0.0" minradialdistort="0.0" maxradialdistort="0.0"></Effect>
     <Effect minstrength="50" maxstrength="100" minscreendistort="0.0" maxscreendistort="0.5" minradialdistort="0.0" maxradialdistort="0.5">
@@ -321,41 +379,241 @@
       </StatusEffect>
     </PeriodicEffect>
   </AfflictionPsychosis>
-  <Affliction name="Drunk" identifier="drunk" description="The smell of alcohol rises from them like a vapor, their speech slurs a little, and their eyes fail to focus." type="poison" causeofdeathdescription="Alcohol poisoning" selfcauseofdeathdescription="You have died of alcohol poisoning." limbspecific="false" indicatorlimb="Head" activationthreshold="20" maxstrength="100">
+  <Affliction
+    identifier="drunk"
+    description="The smell of alcohol rises from them like a vapor, their speech slurs a little, and their eyes fail to focus."
+    type="debuff"
+    causeofdeathdescription="Alcohol poisoning"
+    selfcauseofdeathdescription="You have died of alcohol poisoning."
+    limbspecific="false"
+    indicatorlimb="Head"
+    activationthreshold="20"
+    treatmentthreshold="1000"
+    maxstrength="100"
+    affectmachines="false">
+     <Description
+      textidentifier="afflictiondescription.drunk.self"
+      target="Self"
+      minstrength="0"
+      maxstrength="80"/>
+     <Description
+      textidentifier="afflictiondescription.drunk.lethal.self"
+      target="Self"
+      minstrength="80"
+      maxstrength="100"/>
+     <Description
+      textidentifier="afflictiondescription.drunk.low"
+      target="OtherCharacter"
+      minstrength="0"
+      maxstrength="40"/>
+    <Description
+      textidentifier="afflictiondescription.drunk"
+      target="OtherCharacter"
+      minstrength="40"
+      maxstrength="80"/>
+    <Description
+      textidentifier="afflictiondescription.drunk.lethal"
+      target="OtherCharacter"
+      minstrength="80"
+      maxstrength="100"/>
+    <!-- no effects at this point -->
+    <Effect minstrength="0" maxstrength="20" strengthchange="-0.1" />
     <!-- Low level of drunkenness decreases vitality and speed slightly -->
-    <Effect minstrength="20" maxstrength="40" minvitalitydecrease="0" maxvitalitydecrease="10" minscreendistort="0" maxscreendistort="0.1" strengthchange="-0.1" minfacetint="255,0,0,0" maxfacetint="255,0,0,100">
-      <StatusEffect target="Character" SpeedMultiplier="0.8" setvalue="true" />
+    <Effect minstrength="20" maxstrength="40"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="10"
+      minscreendistort="0"
+      maxscreendistort="0.1"
+      strengthchange="-0.1"
+      minfacetint="255,0,0,0"
+      maxfacetint="255,0,0,50"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.8">
     </Effect>
+
     <!-- Heavier drunkenness decreases vitality and speed more -->
-    <Effect minstrength="40" maxstrength="80" minvitalitydecrease="10" maxvitalitydecrease="30" minscreendistort="0.1" maxscreendistort="1.0" minscreenblur="0.1" maxscreenblur="1.0" strengthchange="-0.2" minradialdistort="0.0" maxradialdistort="5.0" dialogflag="DrunkMedium" minfacetint="255,0,0,100" maxfacetint="255,0,0,150">
-      <StatusEffect target="Character" SpeedMultiplier="0.7" setvalue="true" />
-      <Affliction identifier="nausea" strength="10" probability="0.2" />
+    <Effect minstrength="40" maxstrength="80"
+      minvitalitydecrease="10"
+      maxvitalitydecrease="30"
+      minscreendistort="0.1"
+      maxscreendistort="1.0"
+      minscreenblur="0.1"
+      maxscreenblur="1.0"
+      strengthchange="-0.2"
+      minradialdistort="0.0"
+      maxradialdistort="2.0"
+      dialogflag="DrunkMedium"
+      minfacetint="255,0,0,50"
+      maxfacetint="255,0,0,100"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.7">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="10" probability="0.05" />
+      </StatusEffect>
     </Effect>
+
     <!-- After drinking enough the effect starts to get lethal -->
-    <Effect minstrength="80" maxstrength="100" minvitalitydecrease="30" maxvitalitydecrease="100" minscreendistort="1.0" maxscreendistort="3.0" minscreenblur="1.0" maxscreenblur="3.0" strengthchange="-0.2" minradialdistort="5.0" maxradialdistort="10.0" dialogflag="DrunkHigh" minfacetint="255,0,0,150" maxfacetint="255,0,0,150">
-      <StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true" />
-      <Affliction identifier="nausea" strength="20" probability="0.75" />
+    <Effect minstrength="80" maxstrength="100"
+      minvitalitydecrease="30"
+      maxvitalitydecrease="100"
+      minscreendistort="1.0"
+      maxscreendistort="3.0"
+      minscreenblur="1.0"
+      maxscreenblur="3.0"
+      strengthchange="-0.2"
+      minradialdistort="2.0"
+      maxradialdistort="3.0"
+      dialogflag="DrunkHigh"
+      minfacetint="255,0,0,150"
+      maxfacetint="255,0,0,150"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.5">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="20" probability="0.15" />
+      </StatusEffect>
     </Effect>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,640,128,128" color="170,194,147,255" origin="0,0" />
+
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,640,128,128" color="170,194,147,255" origin="0,0"/>
   </Affliction>
-  <Affliction name="Opiate withdrawal" identifier="opiatewithdrawal" description="Agitation and a tremor are obvious, as are the signs of nausea." type="poison" causeofdeathdescription="Died of opiate withdrawal" selfcauseofdeathdescription="You have died of opiate withdrawal." limbspecific="false" indicatorlimb="Head" showiconthreshold="20" maxstrength="100">
+
+  <Affliction
+    identifier="drunknodebuffs"
+    type="debuff"
+    translationoverride="drunk"
+    limbspecific="false"
+    indicatorlimb="Head"
+    activationthreshold="20"
+    maxstrength="100"
+    affectmachines="false">
+    
+    <Effect minstrength="20" maxstrength="40"
+      minscreendistort="0"
+      maxscreendistort="0.1"
+      strengthchange="-0.1"
+      minfacetint="255,0,0,0"
+      maxfacetint="255,0,0,50">
+      <!-- remove "normal" drunkenness -->
+      <StatusEffect target="Character" setvalue="true">
+        <ReduceAffliction identifier="drunk" strength="100" />
+      </StatusEffect>
+    </Effect>
+
+    <Effect minstrength="40" maxstrength="80"
+      minscreendistort="0.1"
+      maxscreendistort="1.0"
+      minscreenblur="0.1"
+      maxscreenblur="0.5"
+      strengthchange="-0.2"
+      minradialdistort="0.0"
+      maxradialdistort="2.0"
+      dialogflag="DrunkMedium"
+      minfacetint="255,0,0,50"
+      maxfacetint="255,0,0,100">
+      <!-- remove "normal" drunkenness -->
+      <StatusEffect target="Character" setvalue="true">
+        <ReduceAffliction identifier="drunk" strength="100" />
+      </StatusEffect>
+    </Effect>
+
+    <Effect minstrength="80" maxstrength="100"
+      minscreendistort="1.0"
+      maxscreendistort="3.0"
+      minscreenblur="0.5"
+      maxscreenblur="1.0"
+      strengthchange="-0.2"
+      minradialdistort="2.0"
+      maxradialdistort="3.0"
+      dialogflag="DrunkHigh"
+      minfacetint="255,0,0,150"
+      maxfacetint="255,0,0,150">
+      <!-- remove "normal" drunkenness -->
+      <StatusEffect target="Character" setvalue="true">
+        <ReduceAffliction identifier="drunk" strength="100" />
+      </StatusEffect>
+    </Effect>
+
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,640,128,128" color="170,194,147,255" origin="0,0"/>
+  </Affliction>
+
+  <Affliction
+    name="Opiate withdrawal"
+    identifier="opiatewithdrawal"
+    description="Agitation and a tremor are obvious, as are the signs of nausea."
+    type="debuff"
+    causeofdeathdescription="Died of opiate withdrawal"
+    selfcauseofdeathdescription="You have died of opiate withdrawal."
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="20"
+    showinhealthscannerthreshold="5"
+    treatmentthreshold="50"
+    maxstrength="100"
+    affectmachines="false">
+     <Description
+      textidentifier="afflictiondescription.opiatewithdrawal.low"
+      minstrength="0"
+      maxstrength="50"/>
+    <Description
+      textidentifier="afflictiondescription.opiatewithdrawal"
+      minstrength="50"
+      maxstrength="100"/>
+    <!-- no effects at this point -->
+    <Effect minstrength="0" maxstrength="20" strengthchange="-0.05" />  
     <!-- Slow down the character and slightly decrease vitality -->
-    <Effect minstrength="20" maxstrength="40" minvitalitydecrease="0" maxvitalitydecrease="20" strengthchange="-0.05" minchromaticaberration="0.0" maxchromaticaberration="1.0" dialogflag="OpiateWithdrawalLow" minfacetint="255,255,255,0" maxfacetint="255,255,255,50">
-      <StatusEffect target="Character" SpeedMultiplier="0.8" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.1" />
+    <Effect minstrength="20" maxstrength="40"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="20"
+      strengthchange="-0.05"
+      minchromaticaberration="0.0"
+      maxchromaticaberration="1.0"
+      dialogflag="OpiateWithdrawalLow"
+      minfacetint="255,255,255,0"
+      maxfacetint="255,255,255,50"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.8">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="10" probability="0.05" />
+      </StatusEffect>
     </Effect>
     <!-- Decrease vitality more. The strength of the affliction drops faster, meaning that 
     the character needs a stronger opiate addiction for the withdrawal symptoms to stay at this level -->
-    <Effect minstrength="40" maxstrength="80" minvitalitydecrease="20" maxvitalitydecrease="50" strengthchange="-0.1" minchromaticaberration="1.0" maxchromaticaberration="5.0" dialogflag="OpiateWithdrawalMedium" minfacetint="255,255,255,50" maxfacetint="255,255,255,100">
-      <StatusEffect target="Character" SpeedMultiplier="0.7" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.3" />
+    <Effect minstrength="40" maxstrength="80"
+      minvitalitydecrease="20"
+      maxvitalitydecrease="50"
+      strengthchange="-0.1"
+      minchromaticaberration="1.0"
+      maxchromaticaberration="5.0"
+      dialogflag="OpiateWithdrawalMedium"
+      minfacetint="255,255,255,50"
+      maxfacetint="255,255,255,100"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.7">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="20" probability="0.15" />
+      </StatusEffect>
     </Effect>
     <!-- Withdrawal symptoms start to get lethal at this level -->
-    <Effect minstrength="80" maxstrength="100" minvitalitydecrease="50" maxvitalitydecrease="200" minscreendistort="0.0" maxscreendistort="3.0" strengthchange="-0.2" minchromaticaberration="5.0" maxchromaticaberration="10.0" minradialdistort="40.0" maxradialdistort="80.0" dialogflag="OpiateWithdrawalHigh" minfacetint="255,255,255,100" maxfacetint="255,255,255,150">
-      <StatusEffect target="Character" SpeedMultiplier="0.5" color="195,136,60,255" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.5" />
+    <Effect minstrength="80" maxstrength="100"
+      minvitalitydecrease="50"
+      maxvitalitydecrease="200"
+      minscreendistort="0.0"
+      maxscreendistort="3.0"
+      strengthchange="-0.2"
+      minchromaticaberration="5.0"
+      maxchromaticaberration="10.0"
+      minradialdistort="40.0"
+      maxradialdistort="80.0"
+      dialogflag="OpiateWithdrawalHigh"
+      minfacetint="255,255,255,100"
+      maxfacetint="255,255,255,150"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.5">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="30" probability="0.25" />
+      </StatusEffect>
     </Effect>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="512,768,128,128" color="209,121,84,255" origin="0,0" />
+
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="512,768,128,128" color="209,121,84,255" origin="0,0"/>
   </Affliction>
   <Affliction name="Opiate overdose" identifier="opiateoverdose" description="The patient has pinpoint pupils and icy cold skin. They struggle to breathe and swallow." type="poison" causeofdeathdescription="Died of opiate overdose" selfcauseofdeathdescription="You have died of opiate overdose." limbspecific="false" indicatorlimb="Head" showiconthreshold="50" karmachangeonapplied="-1" maxstrength="100">
     <!-- No effects except slight distortion at this level -->
@@ -716,49 +974,108 @@
     <Effect minstrength="100" maxstrength="100" />
     <icon texture="Content/UI/CommandUIAtlas.png" sourcerect="896,768,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
-  <Affliction name="Chem Addiction" identifier="chemaddiction" description="" type="poison" limbspecific="false" indicatorlimb="Head" showiconthreshold="20" maxstrength="100" karmachangeonapplied="-0.1">
-    <Effect minstrength="0" maxstrength="20" strengthchange="-0.025" />
+<Affliction
+    name="Chem Addiction"
+    identifier="chemaddiction"
+    description=""
+    type="debuff"
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="20"
+    showinhealthscannerthreshold="5"
+    maxstrength="100"
+    affectmachines="false"
+    karmachangeonapplied="-0.1">
+    <Effect minstrength="0" maxstrength="20" strengthchange="-0.025"/>
     <Effect minstrength="20" maxstrength="40" strengthchange="-0.025">
-      <StatusEffect target="Character">
-        <Affliction identifier="chemwithdrawal" strength="0.1" />
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="chemwithdrawal" strength="0.1"/>
       </StatusEffect>
     </Effect>
     <Effect minstrength="40" maxstrength="60" strengthchange="-0.025">
-      <StatusEffect target="Character">
-        <Affliction identifier="chemwithdrawal" strength="0.2" />
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="chemwithdrawal" strength="0.2"/>
       </StatusEffect>
     </Effect>
     <Effect minstrength="60" maxstrength="80" strengthchange="-0.025">
-      <StatusEffect target="Character">
-        <Affliction identifier="chemwithdrawal" strength="0.4" />
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="chemwithdrawal" strength="0.4"/>
       </StatusEffect>
     </Effect>
     <Effect minstrength="80" maxstrength="100" strengthchange="-0.025">
-      <StatusEffect target="Character">
-        <Affliction identifier="chemwithdrawal" strength="0.8" />
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="chemwithdrawal" strength="0.8"/>
       </StatusEffect>
     </Effect>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,768,128,128" color="195,180,60,255" origin="0,0" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="384,768,128,128" color="195,180,60,255" origin="0,0"/>
   </Affliction>
-  <Affliction name="Chem withdrawal" identifier="chemwithdrawal" description="" type="poison" causeofdeathdescription="Died of chem withdrawal" selfcauseofdeathdescription="You have died of chem withdrawal." limbspecific="false" indicatorlimb="Head" showiconthreshold="20" maxstrength="100">
+  
+  <Affliction
+    name="Chem withdrawal"
+    identifier="chemwithdrawal"
+    description=""
+    type="debuff"
+    causeofdeathdescription="Died of chem withdrawal"
+    selfcauseofdeathdescription="You have died of chem withdrawal."
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="20"
+    showinhealthscannerthreshold="5"
+    maxstrength="100"
+    affectmachines="false">
     <!-- Slow down the character and slightly decrease vitality -->
-    <Effect minstrength="20" maxstrength="40" minvitalitydecrease="0" maxvitalitydecrease="20" strengthchange="-0.1" minchromaticaberration="0.0" maxchromaticaberration="1.0">
-      <StatusEffect target="Character" SpeedMultiplier="0.8" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.1" />
+    <Effect minstrength="20" maxstrength="40"
+      minvitalitydecrease="0"
+      maxvitalitydecrease="20"
+      strengthchange="-0.05"
+      minchromaticaberration="0.0"
+      maxchromaticaberration="1.0"
+      minfacetint="255,255,255,0"
+      maxfacetint="255,255,255,50"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.8">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="10" probability="0.05" />
+      </StatusEffect>
     </Effect>
     <!-- Decrease vitality more. The strength of the affliction drops faster, meaning that 
-    the character needs a stronger opiate addiction for the withdrawal symptoms to stay at this level -->
-    <Effect minstrength="40" maxstrength="80" minvitalitydecrease="20" maxvitalitydecrease="50" strengthchange="-0.2" minchromaticaberration="1.0" maxchromaticaberration="5.0">
-      <StatusEffect target="Character" SpeedMultiplier="0.7" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.3" />
+    the character needs a stronger chem addiction for the withdrawal symptoms to stay at this level -->
+    <Effect minstrength="40" maxstrength="80"
+      minvitalitydecrease="20"
+      maxvitalitydecrease="50"
+      strengthchange="-0.1"
+      minchromaticaberration="1.0"
+      maxchromaticaberration="5.0"
+      minfacetint="255,255,255,50"
+      maxfacetint="255,255,255,100"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.7">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="20" probability="0.15" />
+      </StatusEffect>
     </Effect>
     <!-- Withdrawal symptoms start to get lethal at this level -->
-    <Effect minstrength="80" maxstrength="100" minvitalitydecrease="50" maxvitalitydecrease="200" minscreendistort="0.0" maxscreendistort="3.0" strengthchange="-0.4" minchromaticaberration="5.0" maxchromaticaberration="10.0" minradialdistort="0.0" maxradialdistort="10.0">
-      <StatusEffect target="Character" SpeedMultiplier="0.5" color="195,136,60,255" setvalue="true" />
-      <Affliction identifier="nausea" strength="30" probability="0.5" />
+    <Effect minstrength="80" maxstrength="100"
+      minvitalitydecrease="50"
+      maxvitalitydecrease="200"
+      minscreendistort="0.0"
+      maxscreendistort="3.0"
+      strengthchange="-0.2"
+      minchromaticaberration="5.0"
+      maxchromaticaberration="10.0"
+      minradialdistort="40.0"
+      maxradialdistort="80.0"
+      minfacetint="255,255,255,100"
+      maxfacetint="255,255,255,150"
+      minspeedmultiplier="0.8"
+      maxspeedmultiplier="0.5">
+      <StatusEffect target="Character" interval="1" disabledeltatime="true">
+        <Affliction identifier="nausea" strength="30" probability="0.25" />
+      </StatusEffect>
     </Effect>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="512,768,128,128" color="209,121,84,255" origin="0,0" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="512,768,128,128" color="209,121,84,255" origin="0,0"/>
   </Affliction>
+
   <!-- The icon is hidden because there's no text for the affliction name and the description. TODO: Add the texts and make the icon visible? -->
   <Affliction name="Damage immunity" identifier="damageimmunity" type="resistance" isbuff="true" limbspecific="false" showiconthreshold="1000" maxstrength="1">
     <Effect minstrength="0" maxstrength="1" strengthchange="-0.6" resistancefor="damage,bleeding,burn" minresistance="1" maxresistance="1" />
@@ -771,4 +1088,94 @@
     </Effect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
+
+
+
+
+
+  <Affliction
+    name="EMP"
+    identifier="emp"
+    type="emp"
+    limbspecific="false"
+    indicatorlimb="Torso"
+    showiconthreshold="1000"
+    showinhealthscannerthreshold="1000"
+    maxstrength="100"
+    WeaponSkillGain="1.0">
+    <Effect minstrength="0" maxstrength="25" strengthchange="-1.0">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" particlespersecond="5" velocitymin="10" velocitymax="50" scalemin="0.4" scalemax="0.7"/>
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" particlespersecond="2" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="25" maxstrength="50" strengthchange="-1.5">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" particlespersecond="10" velocitymin="50" velocitymax="100" scalemin="0.4" scalemax="0.7"/>
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" particlespersecond="5" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="40" particlespersecond="1" anglemin="0" anglemax="360" scalemin="0.03" scalemax="0.06" />
+      </StatusEffect>
+      <StatusEffect target="Character" setvalue="false" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="internaldamage" amount="0.1" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="50" maxstrength="75" strengthchange="-2.0">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" particlespersecond="15" velocitymin="75" velocitymax="150" scalemin="0.4" scalemax="0.7"/>
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" particlespersecond="7" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="40" particlespersecond="2" anglemin="0" anglemax="360" scalemin="0.04" scalemax="0.1" />
+      </StatusEffect>
+      <StatusEffect target="Character" setvalue="false" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="internaldamage" amount="0.25" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="75" maxstrength="100" strengthchange="-3.0">
+      <StatusEffect target="Character" setvalue="true">
+        <Affliction identifier="stun" amount="1" />
+        <Sound file="Content/Items/Electricity/Zap1.ogg" range="500" selectionmode="Random" />
+        <Sound file="Content/Items/Electricity/Zap2.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap3.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap4.ogg" range="500" />
+        <Sound file="Content/Items/Electricity/Zap5.ogg" range="500" />
+        <ParticleEmitter drawontop="true" particle="spark" distancemin="0" distancemax="30" anglemin="0" anglemax="360" particlespersecond="20" velocitymin="100" velocitymax="200" scalemin="0.4" scalemax="0.7"/>
+        <ParticleEmitter drawontop="true" particle="swirlysmoke" particlespersecond="10" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+        <ParticleEmitter drawontop="true" particle="electricshock" distancemin="0" distancemax="40" particlespersecond="3" anglemin="0" anglemax="360" scalemin="0.04" scalemax="0.1" />
+      </StatusEffect>
+      <StatusEffect target="Character" setvalue="false" multiplyafflictionsbymaxvitality="true">
+        <Affliction identifier="internaldamage" amount="0.5" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="640,640,128,128" color="0,255,0,255" origin="0,0"/>
+  </Affliction>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </Afflictions>

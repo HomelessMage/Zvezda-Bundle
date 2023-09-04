@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Форма китайцев -->
-  <Item name="Китайская Форма (коммунист)" identifier="commiechineese_uniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Униформа (НОАК)" identifier="commiechineese_uniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
     <Price baseprice="150">
@@ -17,8 +17,8 @@
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Commie Chineese Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Commie Chineese Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Commie Chineese Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Commie Chineese Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Commie Chineese Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Commie Chineese Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Commie Chineese Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Commie Chineese Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -30,14 +30,14 @@
       <sprite name="Commie Chineese Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Commie Chineese Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Commie Chineese Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/China/comendantcom.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
+      <!-- <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" /> -->
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="5">
       <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
     </ItemContainer>
   </Item>
-  <Item name="Китайская Форма (гоминьдан)" identifier="nacikchineese_uniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="Униформа (ГоминьДан)" identifier="nacikchineese_uniform" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
     <Price baseprice="150">
@@ -53,8 +53,8 @@
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Nacik Chineese Uniform 1 Torso" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Nacik Chineese Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <sprite name="Nacik Chineese Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Chineese Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Nacik Chineese Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Nacik Chineese Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Nacik Chineese Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Nacik Chineese Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -66,7 +66,7 @@
       <sprite name="Nacik Chineese Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Nacik Chineese Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
       <sprite name="Nacik Chineese Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Factions/China/comendantnac.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
-      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" />
+      <!-- <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.3" /> -->
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="5">

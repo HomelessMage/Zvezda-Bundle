@@ -709,21 +709,34 @@ Y8,        ,8P    88     88       88  8PP"""""""  88             88        88  ,
   </Item>
   <!--Офицерская фуражка НОАК-->
   <Item name="Фуражка (НОАК)" identifier="chinaofficercap1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-    <Sprite name="China Officer Cap 1" texture="%ModDir%/Items/Jobgear/Factions/China/Head5.png" depth="0.6" sourcerect="309,32,380,76" origin="0.5,0.5" scale="0.5" />
+    <Sprite name="China Officer Cap 1" texture="%ModDir%/Items/Jobgear/Factions/China/Head5.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <sprite name="China cap 1 wearable" texture="%ModDir%/Items/Jobgear/Factions/China/Head5.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="309,32,380,76" origin="0.6,1.05" />
+      <sprite name="China cap 1 wearable" texture="%ModDir%/Items/Jobgear/Factions/China/Head5.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
   </Item>
-  <!--Офицерская фуражка ГоминьДана-->
-  <Item name="Фуражка (ГоминьДан)" identifier="chinaofficercap2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
-    <Sprite name="China Officer Cap 2" texture="%ModDir%/Items/Jobgear/Factions/China/Head1.png" depth="0.6" sourcerect="309,32,380,76" origin="0.5,0.5" scale="0.5" />
+
+  <!-- <Item name="Фуражка (ВС СССР)" identifier="sovietofficercap" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+    <Sprite name="Soviet Officer Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
     <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
-      <sprite name="China cap 2 wearable" texture="%ModDir%/Items/Jobgear/Factions/China/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="309,32,380,76" origin="0.6,1.05" />
+      <sprite name="Soviet cap wearable" texture="%ModDir%/Items/Jobgear/Head/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
+      <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
+    </Wearable>
+  </Item> -->
+
+
+
+  <!--Офицерская фуражка ГоминьДана-->
+  <Item name="Фуражка (ГоминьДан)" identifier="chinaofficercap2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+    <Sprite name="China Officer Cap 2" texture="%ModDir%/Items/Jobgear/Factions/China/Head1.png" depth="0.6" sourcerect="296,24,84,51" origin="0.5,0.5" scale="0.5" />
+    <Body width="84" height="51" density="15" />
+    <Deconstruct time="10" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="China cap 2 wearable" texture="%ModDir%/Items/Jobgear/Factions/China/Head1.png" limb="Head" inheritlimbdepth="true" inherittexturescale="false" hidewearablesoftype="hair" scale="0.388" sourcerect="296,24,84,51" origin="0.6,1.05" />
       <StatusEffect tags="" type="OnWearing" target="Character" HideFace="false" duration="0.1" stackable="false" />
     </Wearable>
   </Item>

@@ -27,7 +27,7 @@
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
       <Containable items="mobilebattery">
-        <StatusEffect type="OnActive" target="This" Condition="-0.2" disabledeltatime="true" />
+        <StatusEffect type="OnActive" target="Contained" Condition="-0.01" disabledeltatime="true" />
       </Containable>
     </ItemContainer>
     <Holdable slots="Any" />
@@ -256,7 +256,6 @@
     <ItemContainer capacity="20" depth="0.5">
       <Containable items="smallitem,explosive,tool,ore" excludeditems="toolbelt,toolbox,mobilecontainer,rucksack,backpack,waistbelt" />
     </ItemContainer>
-    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Select" allowswappingwhenpicked="false" />
     <Wearable limbtype="Torso" slots="OuterClothes" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
       <sprite name="Backpack Wearable" texture="%ModDir%/Items/Tools/Work/tools.png" limb="Torso" hidelimb="false" inheritlimbdepth="true" inherittexturescale="false" hideotherwearables="false" sourcerect="656,0,96,160" origin="1.2,0.6" scale="0.35" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.85" setvalue="true" disabledeltatime="true" />
@@ -832,7 +831,7 @@
       <Item identifier="liquidoxygenite" mincondition="0.1" />
       <Item identifier="liquidoxygenite" mincondition="0.9" />
     </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" outcondition="100.0" requiredtime="5">
+    <Fabricate suitablefabricators="fabricator" outcondition="0.0" requiredtime="5">
       <RequiredSkill identifier="mechanical" level="40" />
       <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="liquidoxygenite" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.32" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.9.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.33" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -17,10 +17,10 @@
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -44,7 +44,7 @@
   <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
   <Item file="%ModDir%/Items/Jobgear/Factions/Reich/Reich.xml" />
   <Item file="%ModDir%/Items/Jobgear/Factions/Bandits/Bandits.xml" />
-  <item file="%ModDir%/Items/Jobgear/Factions/China/China.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Factions/China/China.xml" />
   <Item file="%ModDir%/Items/Jobgear/Bags/Bags.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Vest/Vest.xml" />
   <Item file="%ModDir%/Items/Jobgear/Diving/divinggear.xml" />
@@ -534,4 +534,5 @@
   <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
 </contentpackage>
