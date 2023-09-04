@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bannedplayers>
+  <ban name="ban1" reason="" accountid="STEAM_1:0:494703290" />
+  <ban name="ban2" reason="" accountid="STEAM_1:0:564896912" />
+  <ban name="ban3" reason="" accountid="STEAM_0:0:494703290" />
+  <ban name="ban4" reason="" accountid="STEAM_1:1:513664528" />
+</bannedplayers>
