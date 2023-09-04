@@ -67,6 +67,9 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
                         msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
                     else
                         msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .. "\n"
+                        -- client.OwnerClientEndPoint
+
+                        -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
                     end
                 end
             end
