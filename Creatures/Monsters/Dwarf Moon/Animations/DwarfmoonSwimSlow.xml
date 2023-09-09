@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DwarfmoonSwimSlow animationtype="SwimSlow" usesinemovement="False" flip="False" flipcooldown="1" flipdelay="0.5" mirror="True" mirrorlerp="True" waveamplitude="5" wavelength="10" rotatetowardsmovement="True" torsotorque="655" headtorque="500" tailtorque="50" tailtorquemultiplier="100" foottorque="30" footangles="" tailangle="NaN" steertorque="543" movementspeed="1.9897228" cyclespeed="3.299999" headangle="NaN" torsoangle="NaN" />

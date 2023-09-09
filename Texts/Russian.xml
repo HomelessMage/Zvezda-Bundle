@@ -1055,6 +1055,16 @@
   <character.tigerthresherboss>Акулий тигр-босс</character.tigerthresherboss>
   <character.watcher>Смотритель</character.watcher>
   <character.hammerhead>Молотоглав</character.hammerhead>
+
+  <character.deadcrawler>Infans Mutatus Pustulatus</character.deadcrawler>
+  <character.dividerhead>Aquaticus Novus Suppurans</character.dividerhead>
+  <character.dwarfmoon>Larva Mutans Abscessus</character.dwarfmoon>
+  <character.humandivider>Submarinus Infantem Variolae</character.humandivider>  
+  <character.infector>Submarinus Infans Carbunculus</character.infector>  
+  <character.slasher>Mutatio Aquatica Pyogenica</character.slasher>
+  <character.humanslasher>Mutatio Aquatica Pyogenica</character.humanslasher>
+  <character.slasher2>Larva Mutans Abscessus Profundus</character.slasher2>  
+
   <!-- Pronouns -->
   <pronounmale>Он</pronounmale>
   <pronounpossessivemale>Его</pronounpossessivemale>
@@ -1062,6 +1072,8 @@
   <pronounfemale>Она</pronounfemale>
   <pronounpossessivefemale>Ее</pronounpossessivefemale>
   <pronounreflexivefemale>Сама</pronounreflexivefemale>
+  <!-- How does an non-binary samurai kill people?
+  They/them -->
   <!-- Campaign -->
   <campaignsetup>Настройка кампании</campaignsetup>
   <newcampaign>Новая кампания</newcampaign>

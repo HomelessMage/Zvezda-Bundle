@@ -131,7 +131,10 @@
   -->
   <Item name="Костюм РХБЗ" identifier="hazmat" category="Equipment" tags="diving,deepdiving,provocative,respawnsuit" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft">
     <InventoryIcon name="Hazmat 1 Icon" texture="%ModDir%/Systems/Reactor/hazmat.png" sourcerect="8,350,64,64" origin="0.5,0.5" />
-    <Sprite name="Hazmat 1" texture="%ModDir%/Systems/Reactor/hazmat.png" sourcerect="232,323,125,94" depth="0.55" origin="0.5,0.5" />
+    <Sprite name="Diving Suit Item" texture="%ModDir%/Systems/Reactor/Locker.png" sourcerect="0,362,180,120" depth="0.55" origin="0.5,0.5" />
+    <ContainedSprite name="Hazmat Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/Systems/Reactor/HazmatSuitLocker.png" sourcerect="427,5,75,193" depth="0.55" origin="0.5,0.5" />
+    <ContainedSprite name="Hazmat Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/Systems/Reactor/Locker.png" sourcerect="11,29,75,193" depth="0.55" origin="-0.17,-0.2" />
+    <ContainedSprite name="Hazmat Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/Systems/Reactor/HazmatSuitLocker.png" sourcerect="238,344,244,67" depth="0.55" origin="0.6,0.5" />
     <Body width="125" height="94" density="18" friction="0.8" restitution="0.01" />
     <Price baseprice="1200">
       <Price locationtype="outpost" multiplier="1" minavailable="1" maxavailable="1" />
