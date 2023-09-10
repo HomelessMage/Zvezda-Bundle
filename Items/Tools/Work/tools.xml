@@ -27,7 +27,7 @@
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
       <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
       <Containable items="mobilebattery">
-        <StatusEffect type="OnActive" target="Contained" Condition="-0.002" disabledeltatime="true" />
+        <StatusEffect type="OnActive" target="Contained" Condition="-0.001" disabledeltatime="true" />
       </Containable>
     </ItemContainer>
     <Holdable slots="Any" />
