@@ -3,7 +3,7 @@ Hook.Add("client.connected", "logConnections", function (client)
     print(msg)
 end)
 
-
-Hook.Add('character.death', 'logDeaths', function(character)
-    print('Персонаж погиб: ', character.Name, 'Убийца: ', character.Info.CauseOfDeath.Attacker.Name)
-end)
+-- Срёт ошибками
+-- Hook.Add('character.death', 'logDeaths', function(character)
+--     print('Персонаж погиб: ', character.Name, 'Убийца: ', character.Info.CauseOfDeath.Attacker.Name)
+-- end)

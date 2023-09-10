@@ -59,24 +59,26 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
         if client.Character == nil or client.Character.IsDead == true or bit32.band(client.Permissions, 0x40) == 0x40 then
 
             local msg = ""
-            for key, value in pairs(Character.CharacterList) do
 
-                if value.IsHuman and not value.IsBot then
-                    -- print(value.IsDead)
-                    if value.IsDead then
-                        -- Работает некорректно, выводит мой никнейм...
-                        -- msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
-                        msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n"                        
-                    else
-                        -- msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"                        
-                        msg = msg .. "[Живой персонаж]: " .. value.name .. "\n"
-                        -- client.OwnerClientEndPoint
 
-                        -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
+            for key, client in pairs(client.ClientList) do
+                for key, character in pairs(Character.CharacterList) do
+
+                    if character.IsHuman and not character.IsBot then
+                        -- print(value.IsDead)
+                        if character.IsDead then
+                            msg = msg .. "\n" .. "[Мертвый персонаж]: " .. character.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n" 
+                            -- msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n"                        
+                        else
+                            msg = msg .. "\n" .. "[Живой персонаж]: " .. character.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
+                            -- msg = msg .. "[Живой персонаж]: " .. value.name .. "\n"
+                            -- client.OwnerClientEndPoint
+    
+                            -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
+                        end
                     end
-                end
+                end   
             end
-
             -- Game.SendDirectChatMessage("", msg, nil, 7, client)
             -- В консоль
             print(msg)
