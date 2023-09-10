@@ -20,7 +20,7 @@ Hook.Add("roundStart", "crewmenuRoundStart", function ()
         end
     end
     -- local info = CharacterInfo(Identifier("human"), "God Himself")
-    
+
     -- botGod = Character.Create(info, Vector2.Zero, info.Name, 0, true, false)
     -- botGod.GodMode = true
     -- botGod.TeamID = CharacterTeamType.FriendlyNPC
@@ -55,45 +55,39 @@ end)
 
 Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
 
-    if msg == "!игроки" then
-        if client.Character == nil or client.Character.IsDead == true or bit32.band(client.Permissions, 0x40) == 0x40 then
-
-            local msg = ""
-            for key, value in pairs(Character.CharacterList) do
-
-                if value.IsHuman and not value.IsBot then
-                    -- print(value.IsDead)
-                    if value.IsDead then
-                        -- Работает некорректно, выводит мой никнейм...
-                        -- msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"
-                        msg = msg .. "[Мертвый персонаж]: " .. value.name .. "\n"                        
-                    else
-                        -- msg = msg .. "[Живой персонаж]: " .. value.name .. "\n" .. "[Никнейм]: " .. client.Name .. "\n" ..  "[SteamID]: " .. client.SteamID .."\n"                        
-                        msg = msg .. "[Живой персонаж]: " .. value.name .. "\n"
-                        -- client.OwnerClientEndPoint
-
-                        -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
-                    end
-                end
+    if msg ~= "!игроки" then return end
+    if bit32.band(client.Permissions, 0x40) == 0x40 then
+        local msg = ""
+        -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
+        for player in Client.ClientList do
+            -- print(player.Name .. player.Character.Name)
+            if player.Character.IsHuman then
+                    msg = msg .. "\n" .. "[Живой персонаж]: " .. player.Character.Name .. "\n" .. "[Никнейм]: " .. player.Name .. "\n" ..  "[SteamID]: " .. player.SteamID .."\n"
             end
-
-            -- Game.SendDirectChatMessage("", msg, nil, 7, client)
-            -- В консоль
-            print(msg)
-            -- Game.SendDirectChatMessage("", msg, nil, 6, client)
-            -- В чат
-            -- Game.SendDirectChatMessage("", msg, nil, 1, client)
-            -- Game.SendDirectChatMessage("", msg, nil, 2, client)
-
-            -- Game.SendDirectChatMessage("", msg, nil, 3, client)
-
-            
-            -- GameServer.Log("msg", ServerLog.MessageType.Attack)
-
-
-            return true
+        end
+        for character in Character.CharacterList do
+            if character.IsHuman and character.IsDead and not character.IsBot then
+                msg = msg .. "\n" .. "[Мертвый персонаж]: " .. character.Name .. "\n"
+            end
         end
 
+
+
+        -- Game.SendDirectChatMessage("", msg, nil, 7, client)
+        -- В консоль
+        print(msg)
+        -- Game.SendDirectChatMessage("", msg, nil, 6, client)
+        -- В чат
+        -- Game.SendDirectChatMessage("", msg, nil, 1, client)
+        -- Game.SendDirectChatMessage("", msg, nil, 2, client)
+
+        -- Game.SendDirectChatMessage("", msg, nil, 3, client)
+
+        
+        -- GameServer.Log("msg", ServerLog.MessageType.Attack)
+
+
+        return true
     end
 end)
 
