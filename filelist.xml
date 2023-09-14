@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda-Bundle" modversion="2.2.35" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.38" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -19,6 +19,7 @@
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
+  <Submarine file="%ModDir%/Submarines/Горький 23 Осадный.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -83,6 +84,7 @@
   <Item file="%ModDir%/Systems/Mining/4Cooldown.xml" />
   <Item file="%ModDir%/Systems/Mining/5Ingot.xml" />
   <Item file="%ModDir%/Systems/Mining/Img/Didntburn.xml" />
+  <!-- <Item file="%ModDir%/Systems/Mining/cart.xml" /> -->
   <Item file="%ModDir%/Systems/Mining/fabricators.xml" />
   <Item file="%ModDir%/Systems/Mining/VanillaFabricators.xml" />
   <Character file="%ModDir%/Creatures/Monsters/Slasher/Slasher.xml" />
@@ -229,6 +231,7 @@
   <Item file="Content/Items/Weapons/pulselaser.xml" />
   <Item file="Content/Items/Weapons/railgun.xml" />
   <Item file="Content/Items/Weapons/turrethardpoint.xml" />
+  <Item file="Content/Items/Weapons/flakcannon.xml" />
   <Item file="Content/Items/Legacy/legacycommand.xml" />
   <Item file="Content/Items/Legacy/legacycontainers.xml" />
   <Item file="Content/Items/Legacy/legacyengine.xml" />
