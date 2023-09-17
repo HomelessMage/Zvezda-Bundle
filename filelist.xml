@@ -227,6 +227,10 @@
   <Other file="%ModDir%/Map/Door/dockingrail2.ogg" />
   <Other file="%ModDir%/Map/Door/exteriorshelldoor1_move.ogg" />
   <Other file="%ModDir%/Map/Door/maintenancepanel1_move.ogg" />
+  <Other file="%ModDir%/Map/Megaphone/fuhrer.ogg" />
+  <Other file="%ModDir%/Map/Megaphone/fuhrer1.ogg" />
+  <Other file="%ModDir%/Map/Megaphone/comissar.ogg" />
+  <Item file="%ModDir%/Map/Megaphone/megaphone.xml" />
   <Other file="%ModDir%/Items/Tools/Demian/neonazi_scream.ogg" />
   <Other file="%ModDir%/Items/Tools/Demian/soviet_scream.ogg" />
   <Other file="%ModDir%/Items/Tools/Work/drill_loop.ogg" />

@@ -439,7 +439,7 @@
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
       </ItemContainer>
-      <sprite name="Commoner's Clothes 4 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Commoner's Clothes 4 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/commonerclothes4.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
