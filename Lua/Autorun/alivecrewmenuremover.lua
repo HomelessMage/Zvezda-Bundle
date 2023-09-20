@@ -1,56 +1,59 @@
 if CLIENT then return end
 
-local botGod
-local setClientCharacterToNil = {}
+-- local botGod
+-- local setClientCharacterToNil = {}
 
-local function clientChar(char)
-    local clients = Client.ClientList
+-- local function clientChar(char)
+--     local clients = Client.ClientList
 
-    for key, client in pairs(clients) do
-        if (client.Character == char) then return client end
-    end
+--     for key, client in pairs(clients) do
+--         if (client.Character == char) then return client end
+--     end
 
-    return nil
-end
+--     return nil
+-- end
 
-Hook.Add("roundStart", "crewmenuRoundStart", function ()
-    for key, value in pairs(Client.ClientList) do
-        if value.Character ~= nil then
-            value.Character.TeamID = CharacterTeamType.FriendlyNPC
-        end
-    end
-    -- local info = CharacterInfo(Identifier("human"), "God Himself")
+-- Hook.Add("roundStart", "crewmenuRoundStart", function ()
+--     for key, value in pairs(Client.ClientList) do
+--         if value.Character ~= nil then
+--             value.Character.TeamID = CharacterTeamType.Team1
+--         end
+--     end
+-- end)
 
-    -- botGod = Character.Create(info, Vector2.Zero, info.Name, 0, true, false)
-    -- botGod.GodMode = true
-    -- botGod.TeamID = CharacterTeamType.FriendlyNPC
-end)
+-- Hook.Add("character.created", "characterCreated", function ()
+--     for key, value in pairs(Client.ClientList) do
+--         if value.Character ~= nil then
+--             value.Character.TeamID = CharacterTeamType.Team1
+--         end
+--     end
+-- end)
 
-Hook.Add("roundEnd", "crewmenuRoundEnd", function ()
-    setClientCharacterToNil = {}
-end)
+-- Hook.Add("roundEnd", "crewmenuRoundEnd", function ()
+--     setClientCharacterToNil = {}
+-- end)
 
-Hook.Add("characterDeath", "crewmenuRemoveDeath", function (character)
-    if not character.IsHuman or character.IsBot then return end
+-- Hook.Add("characterDeath", "crewmenuRemoveDeath", function (character)
+--     if not character.IsHuman or character.IsBot then return end
 
-    local client = clientChar(character)
+--     local client = clientChar(character)
 
-    if client == nil then return end
+--     if client == nil then return end
 
-    client.SetClientCharacter(botGod)
+--     client.SetClientCharacter(botGod)
 
-    setClientCharacterToNil[client] = Timer.GetTime() + 0.5
-end)
+--     setClientCharacterToNil[client] = Timer.GetTime() + 0.5
+-- end)
 
-Hook.Add("think", "crewmenuTimer", function ()
-    for key, value in pairs(setClientCharacterToNil) do
-        if Timer.GetTime() > value then
-            key.SetClientCharacter(nil)
+-- Hook.Add("think", "crewmenuTimer", function ()
+--     for key, value in pairs(setClientCharacterToNil) do
+--         if Timer.GetTime() > value then
+--             key.SetClientCharacter(nil)
 
-            setClientCharacterToNil[key] = nil
-        end
-    end
-end)
+--             setClientCharacterToNil[key] = nil
+--         end
+--     end
+-- end)
 
 
 Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
