@@ -21,7 +21,7 @@
         <RequiredItem identifier="10rubles" />
       </Fabricate>
     </Fabricate>
-    <WifiComponent range="50000.0" channel="0" LinkToChat="true" MinChatMessageInterval="0.0">
+    <WifiComponent range="50000.0" LinkToChat="true" MinChatMessageInterval="0.0">
       <RequiredItems items="mobilebattery" type="Contained" />
     </WifiComponent>
     <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
