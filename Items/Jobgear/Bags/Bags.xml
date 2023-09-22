@@ -22,7 +22,7 @@
   </Override>
   <!--Пояс для инструментов-->
   <Override>
-    <Item name="Пояс инструментов" identifier="toolbelt" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.2">
+    <Item name="Пояс инструментов" identifier="toolbelt" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.14">
       <Deconstruct time="10">
         <Item identifier="organicfiber" />
       </Deconstruct>

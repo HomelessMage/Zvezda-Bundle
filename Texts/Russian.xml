@@ -55,7 +55,8 @@
     <jobname.medicaldoctor2>Фельдшер</jobname.medicaldoctor2>-->
   <jobdescription.medicaldoctor>Профессионал давший клятву Гиппократу.
 1) Терапевт — Врач общей практики, который может оказать медицинскую помощь.
-2) Фельдшер — Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.</jobdescription.medicaldoctor>
+2) Фельдшер-Хирург — Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.
+3) Ветеринар-Санитар — Специалист по работе по работе в некомфортных условиях.</jobdescription.medicaldoctor>
   <!--<jobdescription.medicaldoctor1>Врач общей практики, который может оказать медицинскую помощь.</jobdescription.medicaldoctor1>
     <jobdescription.medicaldoctor2>Сотрудник бригады скорой помощи, готовый к оказания первой медицинской помощи в любых условиях.</jobdescription.medicaldoctor2>-->
   <jobname.stager>Стажёр</jobname.stager>

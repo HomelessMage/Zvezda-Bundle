@@ -287,16 +287,13 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicform" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
         </Item>
-        <Item identifier="toolbox" showpreview="false">
-          <Item identifier="handheldterminal" showpreview="false" />
-          <Item identifier="handheldterminal" showpreview="false" />
-          <Item identifier="handheldterminal" showpreview="false" />
+        <Item identifier="satchel" showpreview="true" >
           <Item identifier="handheldterminal" showpreview="false" />
           <Item identifier="handheldterminal" showpreview="false" />
           <Item identifier="handheldterminal" showpreview="false" />
@@ -318,7 +315,33 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicform" equip="true" outfit="true" showpreview="true">
+        <Item identifier="wallet" showpreview="false">
+          <Item identifier="100rubles" showpreview="false" />
+          <Item identifier="100rubles" showpreview="false" />
+          <Item identifier="50rubles" showpreview="false" />
+        </Item>
+      </Item>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="radio" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+      <Item identifier="surgeonform" equip="true" outfit="true" showpreview="true">
+        <Item identifier="wallet" showpreview="false">
+          <Item identifier="100rubles" showpreview="false" />
+          <Item identifier="100rubles" showpreview="false" />
+          <Item identifier="50rubles" showpreview="false" />
+        </Item>
+      </Item>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="radio" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+      <Item identifier="veterinarianform" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />

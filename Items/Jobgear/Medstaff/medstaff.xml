@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <Item name="Форма медика" identifier="medicform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+      <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
+      <Price baseprice="75">
+        <Price locationtype="outpost" multiplier="1" minavailable="1" />
+        <Price locationtype="city" multiplier="0.9" minavailable="1" />
+        <Price locationtype="research" multiplier="1" minavailable="1" />
+        <Price locationtype="military" multiplier="1" minavailable="1" />
+        <Price locationtype="mine" multiplier="1" minavailable="1" />
+      </Price>
+      <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+      <Sprite name="medicform" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5" />
+      <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+      <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+        <sprite name="Medic Form Torso" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Hand" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Hand" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Waist" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Leg" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Leg" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Left Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Medic Form Right Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/medic.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <ItemContainer capacity="5">
+          <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
+        </ItemContainer>
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    </Item>
+
+    <Item name="Форма хирурга" identifier="surgeonform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+      <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
+      <Price baseprice="75">
+        <Price locationtype="outpost" multiplier="1" minavailable="1" />
+        <Price locationtype="city" multiplier="0.9" minavailable="1" />
+        <Price locationtype="research" multiplier="1" minavailable="1" />
+        <Price locationtype="military" multiplier="1" minavailable="1" />
+        <Price locationtype="mine" multiplier="1" minavailable="1" />
+      </Price>
+      <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+      <Sprite name="surgeonform" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5" />
+      <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+      <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+        <sprite name="Surgeon Form Torso" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Hand" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Hand" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Waist" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Leg" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Leg" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Left Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Surgeon Form Right Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/Surgeon.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <ItemContainer capacity="5">
+          <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
+        </ItemContainer>
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    </Item>
+
+    <Item name="Форма ветеринара" identifier="veterinarianform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+      <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5" />
+      <Price baseprice="75">
+        <Price locationtype="outpost" multiplier="1" minavailable="1" />
+        <Price locationtype="city" multiplier="0.9" minavailable="1" />
+        <Price locationtype="research" multiplier="1" minavailable="1" />
+        <Price locationtype="military" multiplier="1" minavailable="1" />
+        <Price locationtype="mine" multiplier="1" minavailable="1" />
+      </Price>
+      <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+      <Sprite name="veterinarianform" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5" />
+      <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+      <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+        <sprite name="Veterinarian Form Torso" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Hand" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Hand" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Lower Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Upper Arm" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Waist" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Thigh" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Leg" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Leg" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Left Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Veterinarian Form Right Shoe" texture="%ModDir%/Items/Jobgear/Medstaff/Veterinarian.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <ItemContainer capacity="5">
+          <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
+        </ItemContainer>
+      </Wearable>
+      <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    </Item>
+
+
+
+
+
+
+
+    <Item name="Саквояж" identifier="satchel" category="Equipment" tags="mobilecontainer,smallitem,tool,clothing" cargocontaineridentifier="metalcrate" showcontentsintooltip="true" fireproof="true" waterproof="true" impactsoundtag="impact_soft" scale="0.35">
+      <Deconstruct time="10">
+        <Item identifier="organicfiber" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20">
+        <RequiredSkill identifier="mechanical" level="20" />
+        <Item identifier="organicfiber" />
+        <Item identifier="organicfiber" />
+      </Fabricate>
+      <Price baseprice="110" soldeverywhere="true">
+        <Price locationtype="outpost" multiplier="1" minavailable="4" />
+        <Price locationtype="city" multiplier="0.9" minavailable="6" />
+        <Price locationtype="research" multiplier="1.25" minavailable="8" />
+        <Price locationtype="military" multiplier="1.25" minavailable="8" />
+        <Price locationtype="mine" multiplier="1.25" minavailable="8" />
+      </Price>
+      <InventoryIcon texture="%ModDir%/Items/Jobgear/Medstaff/satchel.png" sourcerect="0,0,127,90" depth="0.56"/>
+      <Sprite texture="%ModDir%/Items/Jobgear/Medstaff/satchel.png" sourcerect="0,0,127,90" depth="0.56" />
+      <Body width="120" radius="45" density="20" friction="1.0" restitution="0.01" />
+      <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+        <sprite name="satchel-equipped" texture="%ModDir%/Items/Jobgear/Medstaff/satchel-equipped.png" limb="Torso" hidelimb="false" inherittexturescale="false" inherittexturedepth="true" origin="0.55, 0.4" scale="0.6" sourcerect="0,0,74,126" depth="0.56" />
+      </Wearable>
+      <ItemContainer capacity="12" keepopenwhenequipped="false" movableframe="true">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+      </ItemContainer>
+      <MeleeWeapon slots="RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-10,0" holdangle="90" reload="0.75" range="50" combatpriority="6" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="0" itemdamage="1" targetimpulse="2">
+        <Affliction identifier="blunttrauma" strength="2" />
+        <Affliction identifier="stun" strength="0.6" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character"/>
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500"/>
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+    </MeleeWeapon>
+    <Holdable slots="RightHand,LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+    </Item>
+</Items>
