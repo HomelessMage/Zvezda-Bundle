@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+   <Item name="Громкоговоритель с красной пропагандой" identifier="comissar" category="Equipment" Tags="smallitem,sound" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+      <Price baseprice="150">
+         <Price locationtype="outpost" multiplier="1" />
+         <Price locationtype="city" multiplier="0.9" />
+         <Price locationtype="research" multiplier="1.25" />
+         <Price locationtype="military" multiplier="1" />
+         <Price locationtype="mine" multiplier="1" />
+      </Price>
+      <PreferredContainer primary="reactorcab,storagecab" />
+      <PreferredContainer secondary="wreckreactorcab,wreckstoragecab,abandonedreactorcab" minamount="0" maxamount="1" spawnprobability="0.06" />
+      <Deconstruct time="10">
+         <Item identifier="fpgacircuit" />
+         <Item identifier="steel" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+         <RequiredSkill identifier="electrical" level="30" />
+         <RequiredItem identifier="fpgacircuit" />
+         <RequiredItem identifier="steel" />
+      </Fabricate>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/InventoryIconAtlas.png" depth="0.8" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Body radius="20" height="20" density="30" />
+      <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+         <RequiredItem items="wrench" type="Equipped" />
+      </Holdable>
+      <LightComponent canbeselected="false" lightcolor="255,0,0,100" castshadows="false" blinkfrequency="0" range="20">
+         <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="302,894,40,62" origin="0.5,0.5" alpha="1.0" />
+         <sound file="%ModDir%/Map/Megaphone/comissar.ogg" type="OnActive" range="1000000" loop="true" volume="0.5" />
+         <StatusEffect type="OnContained" target="This" IsActive="false">
+            <Conditional targetitemcomponent="Holdable" IsActive="eq false" />
+         </StatusEffect>
+      </LightComponent>
+      <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+         <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+         <RequiredItem items="screwdriver" type="Equipped" />
+         <input name="toggle" displayname="connection.togglestate" />
+         <input name="set_state" displayname="connection.setstate" />
+      </ConnectionPanel>
+   </Item>
+   <Item name="Громкоговоритель с фашистской пропагандой" identifier="fuhrer" category="Equipment" Tags="smallitem,sound" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+      <Price baseprice="150">
+         <Price locationtype="outpost" multiplier="1" />
+         <Price locationtype="city" multiplier="0.9" />
+         <Price locationtype="research" multiplier="1.25" />
+         <Price locationtype="military" multiplier="1" />
+         <Price locationtype="mine" multiplier="1" />
+      </Price>
+      <PreferredContainer primary="reactorcab,storagecab" />
+      <PreferredContainer secondary="wreckreactorcab,wreckstoragecab,abandonedreactorcab" minamount="0" maxamount="1" spawnprobability="0.06" />
+      <Deconstruct time="10">
+         <Item identifier="fpgacircuit" />
+         <Item identifier="steel" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+         <RequiredSkill identifier="electrical" level="30" />
+         <RequiredItem identifier="fpgacircuit" />
+         <RequiredItem identifier="steel" />
+      </Fabricate>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/InventoryIconAtlas.png" depth="0.8" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Body radius="20" height="20" density="30" />
+      <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+         <RequiredItem items="wrench" type="Equipped" />
+      </Holdable>
+      <LightComponent canbeselected="false" lightcolor="255,0,0,100" castshadows="false" blinkfrequency="0" range="20">
+         <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="302,894,40,62" origin="0.5,0.5" alpha="1.0" />
+         <sound file="%ModDir%/Map/Megaphone/fuhrer.ogg" type="OnActive" range="1000000" loop="true" volume="0.5" />
+         <StatusEffect type="OnContained" target="This" IsActive="false">
+            <Conditional targetitemcomponent="Holdable" IsActive="eq false" />
+         </StatusEffect>
+      </LightComponent>
+      <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+         <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+         <RequiredItem items="screwdriver" type="Equipped" />
+         <input name="toggle" displayname="connection.togglestate" />
+         <input name="set_state" displayname="connection.setstate" />
+      </ConnectionPanel>
+   </Item>
+   <Item name="Громкоговоритель с фашистской пропагандой о начале войны" identifier="fuhrer1" category="Equipment" Tags="smallitem,sound" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+      <Price baseprice="150">
+         <Price locationtype="outpost" multiplier="1" />
+         <Price locationtype="city" multiplier="0.9" />
+         <Price locationtype="research" multiplier="1.25" />
+         <Price locationtype="military" multiplier="1" />
+         <Price locationtype="mine" multiplier="1" />
+      </Price>
+      <PreferredContainer primary="reactorcab,storagecab" />
+      <PreferredContainer secondary="wreckreactorcab,wreckstoragecab,abandonedreactorcab" minamount="0" maxamount="1" spawnprobability="0.06" />
+      <Deconstruct time="10">
+         <Item identifier="fpgacircuit" />
+         <Item identifier="steel" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+         <RequiredSkill identifier="electrical" level="30" />
+         <RequiredItem identifier="fpgacircuit" />
+         <RequiredItem identifier="steel" />
+      </Fabricate>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/InventoryIconAtlas.png" depth="0.8" sourcerect="191,127,64,64" origin="0.5,0.5" />
+      <Body radius="20" height="20" density="30" />
+      <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+         <RequiredItem items="wrench" type="Equipped" />
+      </Holdable>
+      <LightComponent canbeselected="false" lightcolor="255,0,0,100" castshadows="false" blinkfrequency="0" range="20">
+         <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="302,894,40,62" origin="0.5,0.5" alpha="1.0" />
+         <sound file="%ModDir%/Map/Megaphone/fuhrer1.ogg" type="OnActive" range="1000000" loop="true" volume="0.5" />
+         <StatusEffect type="OnContained" target="This" IsActive="false">
+            <Conditional targetitemcomponent="Holdable" IsActive="eq false" />
+         </StatusEffect>
+      </LightComponent>
+      <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+         <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+         <RequiredItem items="screwdriver" type="Equipped" />
+         <input name="toggle" displayname="connection.togglestate" />
+         <input name="set_state" displayname="connection.setstate" />
+      </ConnectionPanel>
+   </Item>
+</Items>

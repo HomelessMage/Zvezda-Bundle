@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DividerHeadSwimSlow animationtype="SwimSlow" usesinemovement="False" flip="True" flipcooldown="1" flipdelay="0.5" mirror="True" mirrorlerp="True" waveamplitude="5" wavelength="10" rotatetowardsmovement="True" torsotorque="25" headtorque="25" tailtorque="50" tailtorquemultiplier="1" foottorque="25" footangles="3: 0,5: 0" tailangle="NaN" steertorque="25" movementspeed="1.6941288" cyclespeed="1" headangle="55" torsoangle="NaN" />

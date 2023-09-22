@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InfectorSwimFast animationtype="SwimFast" usesinemovement="False" flip="True" mirror="True" waveamplitude="5" wavelength="10" rotatetowardsmovement="True" torsotorque="170" headtorque="115" tailtorque="50" tailtorquemultiplier="1" foottorque="25" footangles="4: 0,5: 0" tailangle="NaN" steertorque="195" movementspeed="15" cyclespeed="1" headangle="NaN" torsoangle="NaN" flipcooldown="1" flipdelay="0.5" mirrorlerp="True" />

@@ -31,10 +31,7 @@
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
       </ItemContainer>
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,lacerations" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.9" damagesound="" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.99" damagesound="LimbArmor" />
-      <StatusEffect type="OnWearing" target="Character" HideFace="true" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Character" HideFace="false" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
@@ -442,7 +439,7 @@
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun" />
       </ItemContainer>
-      <sprite name="Commoner's Clothes 4 Left Shoe" texture="%ModDir%/Items/Jobgear/Vanilla/Commoner4.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Commoner's Clothes 4 Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/commonerclothes4.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>

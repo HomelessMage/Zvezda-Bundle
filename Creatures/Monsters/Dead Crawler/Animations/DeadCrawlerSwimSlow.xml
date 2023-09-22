@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeadCrawlerSwimSlow animationtype="SwimSlow" usesinemovement="False" flip="True" mirror="True" waveamplitude="1" wavelength="10" rotatetowardsmovement="True" torsotorque="5" headtorque="50" tailtorque="50" foottorque="25" footangles="8: 0,9: 0" tailangle="NaN" steertorque="25" movementspeed="1" cyclespeed="1" headangle="NaN" torsoangle="NaN" flipcooldown="1" flipdelay="0.5" mirrorlerp="True" tailtorquemultiplier="1" />
