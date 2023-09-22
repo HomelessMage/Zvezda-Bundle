@@ -18,6 +18,7 @@
   <Submarine file="%ModDir%/Submarines/Железногорск v1.3.4.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
+  <Submarine file="%ModDir%/Submarines/Горький 23 Осадный.sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
