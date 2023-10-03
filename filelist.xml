@@ -37,6 +37,7 @@
   <Item file="%ModDir%/Items/idcards/idcard.xml" />
   <Item file="%ModDir%/Items/Jobgear/Crew/Crew.xml" />
   <Item file="%ModDir%/Items/Jobgear/Head/Heads.xml" />
+  <Item file="%ModDir%/Items/Jobgear/Medical/medical.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Armor.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Military.xml" />
   <Item file="%ModDir%/Items/Jobgear/Military/Stuff.xml" />
