@@ -64,7 +64,7 @@ Hook.Add("chatMessage", "crewmenu_chatcommands", function(msg, client)
         -- you have to loop through Client.ClientList do find the client that is controlling the character, or use Util.FindClientCharacter(character)
         for player in Client.ClientList do
             -- print(player.Name .. player.Character.Name)
-            if player.Character.IsHuman then
+            if player.Character.IsHuman and player.Character ~= nil then
                     msg = msg .. "\n" .. "[Живой персонаж]: " .. player.Character.Name .. "\n" .. "[Никнейм]: " .. player.Name .. "\n" ..  "[SteamID]: " .. player.SteamID .."\n"
             end
         end
