@@ -1200,4 +1200,46 @@
     </ItemComponent>
   </Item>
   -->
+  <!--Автомат "Эйфория"-->
+  <Item name="Автомат (Эйфория)" identifier="rust_ak" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,gun,weapon,heavygun,mountableweapon" scale="0.35" impactsoundtag="impact_metal_light">
+    <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="1" spawnprobability="0.25" />
+    <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="1" spawnprobability="0.125" />
+    <Price baseprice="200" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.5" sold="false" />
+      <Price locationtype="city" multiplier="1.25" minavailable="6" />
+      <Price locationtype="research" multiplier="1.25" sold="false" />
+      <Price locationtype="military" multiplier="0.9" minavailable="12" />
+      <Price locationtype="mine" multiplier="1.25" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="steel" />
+      <Item identifier="plastic" />
+      <Item identifier="aluminium"/>
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/iconatlas_weapons.png" sourcerect="895,830,67,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Weapons/Weapon/rust_weapons.png" sourcerect="461,0,388,78" depth="0.55" />
+    <Body width="90" height="30" density="50" />
+    <Wearable slots="OuterClothes">
+      <sprite name="AKM" texture="%ModDir%/Items/Weapons/Weapon/weapons_wearable.png" sourcerect="353,0,93,304" limb="Torso" hidelimb="false" origin="1.3,0.35" scale="0.35" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,0" aimpos="45,0" handle1="-40,-10" handle2="30,10" holdangle="-40" msg="ItemMsgPickUpSelect" />
+    <RangedWeapon barrelpos="120,60" spread="10" unskilledspread="30" combatPriority="50" reload="0.15" drawhudwhenequipped="true" crosshairscale="0.2">
+      <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
+      <Sound file="%ModDir%/Items/Weapons/ogg/akmshot.ogg" type="OnUse" range="3000" />
+      <Sound file="%ModDir%/Items/Weapons/ogg/akmshot1.ogg" type="OnUse" range="3000" />
+      <StatusEffect type="OnUse">
+        <Explosion range="150.0" force="1" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" camerashake="30" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem identifiers="76239mmmag" type="Contained" />
+        <Use />
+      </StatusEffect>
+      <RequiredItems identifiers="76239mmmag" type="Contained" msg="ItemMsgAmmoRequired" />
+      <RequiredSkill identifier="weapons" level="100" />
+    </RangedWeapon>
+    <ItemContainer capacity="1" hideitems="false" itempos="-30,-20" depth="0.65">
+      <Containable identifiers="76239mmmag" />
+    </ItemContainer>
+  </Item> 
 </Items>
