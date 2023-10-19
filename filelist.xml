@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.46" corepackage="True" steamworkshopid="2826890267" gameversion="1.0.21.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.49" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -454,6 +454,9 @@
   <OutpostModule file="Content/Map/RuinModules/Alien_Storage1R.sub" />
   <OutpostModule file="Content/Map/RuinModules/Alien_Storage1L.sub" />
   <OutpostModule file="Content/Map/RuinModules/Alien_Offices1.sub" />
+  <OutpostModule file="Content/Map/Outposts/EndOutpost_Entrance.sub" />
+  <OutpostModule file="Content/Map/Outposts/EndOutpost_Mid.sub" />
+  <OutpostModule file="Content/Map/Outposts/EndOutpost_Final.sub" />
   <WreckAIConfig file="Content/Map/Thalamus/ThalamusAI.xml" />
   <BackgroundCreaturePrefabs file="Content/BackgroundCreatures/BackgroundCreaturePrefabs.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/Common/CommonLevelObjects.xml" />
@@ -464,6 +467,10 @@
   <RandomEvents file="Content/FactionEvents.xml" />
   <RandomEvents file="Content/OutpostEvents.xml" />
   <RandomEvents file="Content/OutpostEventsLegacy.xml" />
+  <Tutorials file="Content/Tutorials/Tutorials.xml" />
+  <Outpost file="Content/Tutorials/BasicsTutorial.sub" />
+  <Outpost file="Content/Tutorials/TutorialOutpost.sub" />
+  <Outpost file="Content/Tutorials/CampaignStartOutpost.sub" />
   <RandomEvents file="Content/Tutorials/TutorialEvents.xml" />
   <RandomEvents file="Content/Tutorials/CampaignTutorialEvents.xml" />
   <EventManagerSettings file="Content/EventManagerSettings.xml" />
@@ -488,9 +495,10 @@
   <LevelObjectPrefabs file="Content/Map/Biomes/HydrothermalWastes/HydrothermalWastesObjects.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/TheGreatSea/TheGreatSea.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/TheGreatSea/TheGreatSeaObjects.xml" />
+  <LevelGenerationParameters file="Content/Map/Biomes/EndBiome/EndBiome.xml" />
+  <LevelObjectPrefabs file="Content/Map/Biomes/EndBiome/EndBiomeObjects.xml" />
   <OutpostConfig file="Content/Map/Outposts/OutpostGenerationParameters.xml" />
   <Missions file="Content/Missions.xml" />
-  <TraitorMissions file="Content/TraitorMissions.xml" />
   <NPCPersonalityTraits file="Content/Characters/Human/PersonalityTraits.xml" />
   <NPCConversations file="Content/NPCConversations/English/NpcConversations_English.xml" />
   <NPCConversations file="Content/NPCConversations/German/NpcConversations_German.xml" />
@@ -547,6 +555,7 @@
   <BeaconStation file="Content/Map/BeaconStations/BeaconStation2.sub" />
   <BeaconStation file="Content/Map/BeaconStations/BeaconStation3.sub" />
   <BeaconStation file="Content/Map/BeaconStations/BeaconStation3_bandit.sub" />
+  <BeaconStation file="Content/Map/BeaconStations/BeaconStation2_AlienResearch.sub" />
   <OutpostModule file="Content/Map/Outposts/MineModule_04.sub" />
   <OutpostModule file="Content/Map/Outposts/HallModuleHorizontal_Abandoned.sub" />
   <OutpostModule file="Content/Map/Outposts/HallModuleVertical_Abandoned.sub" />
