@@ -34,7 +34,8 @@
     namefile="%ModDir%/Map/locations/locationNames.txt"
     commonnessperzone="1: 1.5, 2: 3.0, 3: 4.0, 4: 5.0, 5: 5.0, 6: 0"
     hasoutpost="false"
-    beaconstationchance="0.5">
+    beaconstationchance="0.5"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,640,128,128" color="128,206,175,255" />
     <Portrait texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
@@ -57,7 +58,8 @@
     replaceinradiation="Abandoned"
     namefile="%ModDir%/Map/locations/locationNames.txt"
     commonnessperzone="1: 0, 2: 0.5"
-    mincountperzone="1: 1">
+    mincountperzone="1: 1"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="384,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
@@ -88,7 +90,8 @@
     identifier="Outpost"
     replaceinradiation="Abandoned"
     namefile="%ModDir%/Map/locations/locationNames.txt"
-    commonnessperzone="1: 1.5, 2: 2.5, 3: 1.0, 4: 0.75">
+    commonnessperzone="1: 1.5, 2: 2.5, 3: 1.0, 4: 0.75"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,512,128,128" color="128,206,175,255"/>
     <Portrait texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
@@ -141,7 +144,8 @@
     commonnessperzone="1: 0, 2: 0.8, 3: 0.8, 4: 0.5, 5: 0.5, 6: 0"
     missiontags="abandonedoutpost"
     hideentitysubcategories="abandonedhuman,abandonedmonster"
-    outpostteam="None">
+    outpostteam="None"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
     <Portrait texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
@@ -155,7 +159,8 @@
     replaceinradiation="Abandoned"
     namefile="%ModDir%/Map/locations/locationNames.txt"
     commonnessperzone="1: 0.6, 2: 1.75, 3: 1.0, 4: 0.75"
-    UsePortraitInMainMenu="true">
+    UsePortraitInMainMenu="true"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="640,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
@@ -197,7 +202,8 @@
     identifier="Research"
     replaceinradiation="Abandoned"
     namefile="%ModDir%/Map/locations/locationNames.txt"
-    commonnessperzone="1: 0.0, 2: 1.75, 3: 1.0, 4: 0.75">
+    commonnessperzone="1: 0.0, 2: 1.75, 3: 1.0, 4: 0.75"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="512,512,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
@@ -239,7 +245,8 @@
     identifier="Mine"
     replaceinradiation="Abandoned"
     namefile="%ModDir%/Map/locations/locationNames.txt"
-    commonnessperzone="1: 0.6, 2: 1.75, 3: 1.0, 4: 0.75">
+    commonnessperzone="1: 0.6, 2: 1.75, 3: 1.0, 4: 0.75"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,640,128,128" color="128,206,175,255"/>
     <RadiationSymbol texture="Content/Map/MapAtlas.png" sourcerect="896,512,128,128" color="245,105,105"/>
@@ -282,7 +289,8 @@
     hasoutpost="true"
     outpostteam="None"
     allowinrandomlevels="false"
-    UsePortraitInRandomLoadingScreens="false">
+    UsePortraitInRandomLoadingScreens="false"
+    AllowAsBiomeGate="false">
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="521,648,110,110" color="245,105,105"/>
     <Portrait texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
   </EndLocation>
@@ -293,7 +301,8 @@
     namefile="%ModDir%/Map/locations/locationNames.txt"
     forceoutpostgenerationparams="tutorialoutpost"    
     allowinrandomlevels="false"
-    ignoregenericevents="true">
+    ignoregenericevents="true"
+    AllowAsBiomeGate="false">
 
     <Symbol texture="Content/Map/MapAtlas.png" sourcerect="256,512,128,128" color="128,206,175,255"/>
     <Portrait texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
