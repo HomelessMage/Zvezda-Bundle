@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.49" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.0">
+<contentpackage name="Zvezda Bundle" modversion="2.2.52" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.0">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -406,6 +406,8 @@
   <Text file="Content/Texts/English/EnglishVanilla.xml" />
   <Text file="Content/Texts/English/EnglishVanillaEditorTexts.xml" />
   <Text file="Content/Texts/English/EnglishVanillaNew.xml" />
+  <Text file="Content/Texts/English/EnglishVanillaFactions.xml" />
+  <Text file="Content/Texts/English/EnglishVanillaEndgame.xml" />
   <Text file="Content/Texts/German/GermanVanilla.xml" />
   <Text file="Content/Texts/French/FrenchVanilla.xml" />
   <Text file="Content/Texts/Russian/RussianVanilla.xml" />
@@ -463,6 +465,7 @@
   <Particles file="Content/Particles/ParticlePrefabs.xml" />
   <Decals file="Content/Particles/DecalPrefabs.xml" />
   <RandomEvents file="Content/randomevents_lineardifficulty.xml" />
+  <RandomEvents file="Content/TraitorEvents.xml" />
   <RandomEvents file="Content/randomevents_campaign.xml" />
   <RandomEvents file="Content/FactionEvents.xml" />
   <RandomEvents file="Content/OutpostEvents.xml" />
