@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.53" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
+<contentpackage name="Zvezda Bundle" modversion="2.2.56" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -15,11 +15,14 @@
   <Submarine file="%ModDir%/Submarines/СТО v1.5.sub" />
   <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
-  <Submarine file="%ModDir%/Submarines/Пчела-1 v1.sub" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.5.sub" />
+  <Submarine file="%ModDir%/Submarines/Пчела-1 v2.sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.7.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
   <Submarine file="%ModDir%/Submarines/Горький 23 Осадный.sub" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
+  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <UIStyle file="%ModDir%/UI/style.xml" />
   <UIStyle file="Content/UI/Server/PlayStyles.xml" />
   <Slideshows file="Content/Slideshows.xml" />
@@ -607,9 +610,6 @@
   <Talents file="Content/Talents/Captain/TalentsCaptain.xml" />
   <Talents file="Content/Talents/Doctor/TalentsDoctor.xml" />
   <TalentTrees file="Content/Talents/TalentTrees.xml" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <Tutorials file="Content/Tutorials/Tutorials.xml" />
   <Outpost file="Content/Tutorials/BasicsTutorial.sub" />
   <Outpost file="Content/Tutorials/TutorialOutpost.sub" />

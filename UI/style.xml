@@ -203,34 +203,34 @@
     <Sprite texture="Content/UI/OuterGlow.png" size="0.0, 0.0" sourcerect="0, 0, 256, 256" slice="96,96,160,160" compress="false"/>
   </OuterGlow>
   <GUIFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5" compress="false"/>
+    <Sprite name="GUIFrame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5" compress="false"/>
   </GUIFrame>
   <GUIFrameLarge color="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrameLarge" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,363,363" slice="402,32,722,349" origin="0.5,0.5" compress="false"/>
+    <Sprite name="GUIFrameLarge" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,363,363" slice="402,32,722,349" origin="0.5,0.5" compress="false"/>
   </GUIFrameLarge>
   <ItemUI color="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="ItemUI" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="7,7,360,361" slice="33,38,340,340" origin="0.5,0.5" compress="false"/>
+    <Sprite name="ItemUI" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="7,7,360,361" slice="33,38,340,340" origin="0.5,0.5" compress="false"/>
   </ItemUI>
   <CircuitBoxFrame color="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="CircuitBoxFrame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="580,798,106,78" slice="606,818,662,848" origin="0.5,0.5" compress="false"/>
+    <Sprite name="CircuitBoxFrame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="580,798,106,78" slice="606,818,662,848" origin="0.5,0.5" compress="false"/>
   </CircuitBoxFrame>
   <CircuitBoxTop color="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="CircuitBoxTop" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="580,769,106,29" slice="591,779,675,790" origin="0.5,0.5" compress="false"/>
+    <Sprite name="CircuitBoxTop" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="580,769,106,29" slice="591,779,675,790" origin="0.5,0.5" compress="false"/>
   </CircuitBoxTop>
   <GUIFrameTop color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrameTop" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,175,363,193" slice="402,177,722,349" origin="0.5,0.5"/>
+    <Sprite name="GUIFrameTop" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,175,363,193" slice="402,177,722,349" origin="0.5,0.5"/>
   </GUIFrameTop>
   <GUIFrameBottom color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrameBottom" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,363,159" slice="402,32,722,148" origin="0.5,0.5"/>
+    <Sprite name="GUIFrameBottom" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,363,159" slice="402,32,722,148" origin="0.5,0.5"/>
   </GUIFrameBottom>
   <GUIFrameLeft color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrameLeft" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="550,5,194,363" slice="551,32,722,349" origin="0.5,0.5"/>
+    <Sprite name="GUIFrameLeft" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="550,5,194,363" slice="551,32,722,349" origin="0.5,0.5"/>
   </GUIFrameLeft>
   <GUIFrameRight color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="GUIFrameRight" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,175,363" slice="402,32,554,349" origin="0.5,0.5"/>
+    <Sprite name="GUIFrameRight" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="380,5,175,363" slice="402,32,554,349" origin="0.5,0.5"/>
   </GUIFrameRight>
   <InnerFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-    <Sprite name="InnerFrame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+    <Sprite name="InnerFrame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
   </InnerFrame>
   <InnerFrameRed color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
     <Sprite name="InnerFrameRed" texture="Content/UI/UIAtlasDevices.png" size="0.0, 0.0" sourcerect="350,104,153,154" slice="355,109,498,253" origin="0.5,0.5" compress="false"/>
@@ -272,31 +272,31 @@
   <MainMenuGUIFrame color="255,255,255,255">
     <Sprite name="MainMenuGUIFrame" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="10,812,476,199" tile="false" origin="0.5,0.5"/>
   </MainMenuGUIFrame>
-  <MainMenuGUIButton hovercolor="44,208,150,255" disabledcolor="125,125,125,125">
+  <MainMenuGUIButton hovercolor="255,255,255,255" disabledcolor="125,125,125,125">
     <Sprite name="MainMenuGUIButton" texture="%ModDir%/UI/InventoryUIAtlas.png" state="Hover" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5"/>
     <GUITextBlock textcolor="228,217,167,255" disabledcolor="125,125,125,125" disabledtextcolor="125,125,125,125" padding="10.0, 0.0, 10.0, 0.0"/>
   </MainMenuGUIButton>
   <MainMenuNotifBackground>
     <Sprite name="MainMenuGUIButton" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="500,891,338,39" tile="false" origin="0.5,0.5"/>
   </MainMenuNotifBackground>
-  <MainMenuCampaignIcon color="44,208,150,255">
+  <MainMenuCampaignIcon color="255,255,255,255">
     <Sprite name="MainMenuCampaignIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="773,524,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5"/>
   </MainMenuCampaignIcon>
-  <MainMenuMultiplayerIcon color="44,208,150,255">
+  <MainMenuMultiplayerIcon color="255,255,255,255">
     <Sprite name="MainMenuMultiplayerIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="773,335,160,174" tile="false" maintainaspectratio="true" origin="0.5,0.5"/>
   </MainMenuMultiplayerIcon>
-  <MainMenuCustomizeIcon color="44,208,150,255">
+  <MainMenuCustomizeIcon color="255,255,255,255">
     <Sprite name="MainMenuCustomizeIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="582,713,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5"/>
   </MainMenuCustomizeIcon>
-  <MainMenuOptionIcon color="44,208,150,255">
+  <MainMenuOptionIcon color="255,255,255,255">
     <Sprite name="MainMenuOptionIcon" texture="%ModDir%/UI/InventoryUIAtlas.png" sourcerect="582,524,159,174" tile="false" maintainaspectratio="true" origin="0.5,0.5"/>
   </MainMenuOptionIcon>
   <MainMenuVignette color="255,255,255,255">
-    <Sprite name="MainMenuVignette" texture="%ModDir%/UI/MainMenuVignette.png" sourcerect="0,0,1752,2160" origin="0.5,0.5"/>
+    <Sprite name="MainMenuVignette" texture="%ModDir%/UI/MainMenuVignette.png" sourcerect="0,0,1750,2160" origin="0.5,0.5"/>
   </MainMenuVignette>  
   <MainMenuBackground color="255,255,255,255">
-    <Sprite texture="Content/Map/LocationPortraits/MainMenu1.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
-    <Sprite texture="Content/Map/LocationPortraits/MainMenu2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <Sprite texture="%ModDir%/UI/Menu.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/>
+    <!-- <Sprite texture="Content/Map/LocationPortraits/MainMenu2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false"/> -->
   </MainMenuBackground>
   <GUIButtonLarge color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" disabledcolor="125,125,125,255" pressedcolor="230,230,230,255">
     <Sprite name="GUIButtonLarge.None" texture="Content/UI/UIAtlasGeneral.png" state="None" sourcerect="6,216,164,45" slice="11,221,165,256" origin="0.5,0.5"/>
@@ -454,7 +454,7 @@
     <Sprite name="GUITextBlock.Selected" texture="Content/UI/UIAtlasGeneral.png" state="Selected" sourcerect="198,154,191,51" slice="203,159,384,200" origin="0.5,0.5"/>
   </GUITextBlock>
   <GUIToolTip textcolor="228,217,167,255" color="255,255,255,255" hovercolor="0.3, 0.3, 0.3, 1.0" selectedcolor="1.0, 0.6, 0.0, 1.0" padding="5.0, 0.0, 5.0, 0.0">
-    <Sprite name="GUIToolTip" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+    <Sprite name="GUIToolTip" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
   </GUIToolTip>
   <GUIListBox color="169,212,187,255" textcolor="228,217,167,255" outlinecolor="0,0,0,0" padding="5,5,5,5">
     <GUIFrame color="169,212,187,255" hovercolor="255,255,255,242" disabledcolor="127,127,127,127" selectedcolor="169,212,187,204" textcolor="228,217,167,255">
@@ -730,37 +730,37 @@
   <GUIMessageBox.Default color="0,0,0,204" hovercolor="0,0,0,204" selectedcolor="0,0,0,204" pressedcolor="0,0,0,204" textcolor="0,0,0,0">
     <Sprite texture="Content/UI/InnerShadow.png" sourcerect="0,0,512,512" slice="170,170,342,342"/>
     <GUIFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" textcolor="0,0,0,255">
-      <Sprite name="GUIMessageBox.Default" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.Default" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.Default>
   <GUIMessageBox.Warning color="0,0,0,204" hovercolor="0,0,0,204" selectedcolor="0,0,0,204" pressedcolor="0,0,0,204" textcolor="0,0,0,0">
     <Sprite texture="Content/UI/InnerShadow.png" sourcerect="0,0,512,512" slice="170,170,342,342"/>
     <GUIFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" textcolor="0,0,0,255">
-      <Sprite name="GUIMessageBox.Default" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.Default" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.Warning>
   <GUIMessageBox.Vote color="0,0,0,0" hovercolor="0,0,0,0" selectedcolor="0,0,0,0" pressedcolor="0,0,0,0" textcolor="0,0,0,0">
     <GUIFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" textcolor="0,0,0,255">
-      <Sprite name="GUIMessageBox.Default" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.Default" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="376,368,376,371" slice="398,390,727,707" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.Vote>
   <GUIMessageBox.InGame color="0,0,0,0" hovercolor="0,0,0,0" selectedcolor="0,0,0,0" pressedcolor="0,0,0,0" textcolor="0,0,0,0">
     <GUIFrame color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" textcolor="228,217,167,255">
-      <Sprite name="GUIMessageBox.InGame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.InGame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.InGame>
   <GUIMessageBox.Hint color="0,0,0,0" hovercolor="0,0,0,0" selectedcolor="0,0,0,0" pressedcolor="0,0,0,0" textcolor="0,0,0,0">
     <GUIFrame color="255,255,255,242" hovercolor="255,255,255,242" selectedcolor="255,255,255,242" pressedcolor="255,255,255,242" textcolor="0,0,0,255">
-      <Sprite name="GUIMessageBox.Hint" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.Hint" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.Hint>
   <GUIMessageBox.Tutorial color="0,0,0,0" hovercolor="0,0,0,0" selectedcolor="0,0,0,0" pressedcolor="0,0,0,0" textcolor="0,0,0,0">
     <GUIFrame color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" textcolor="228,217,167,255">
-      <Sprite name="GUIMessageBox.InGame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+      <Sprite name="GUIMessageBox.InGame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
     </GUIFrame>
   </GUIMessageBox.Tutorial>
   <DialogBox color="255,255,255,229" hovercolor="255,255,255,229" selectedcolor="255,255,255,229" textcolor="228,217,167,255">
-    <Sprite name="DialogBox" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="375,769,191,191" slice="416,810,524,919" origin="0.5,0.5" compress="false"/>
+    <Sprite name="DialogBox" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="375,769,191,191" slice="416,810,524,919" origin="0.5,0.5" compress="false"/>
   </DialogBox>
   <GUIProgressBar color="255,255,255,255" padding="3,3,3,3">
     <GUIFrame color="255,255,255,255">
@@ -783,7 +783,7 @@
     <GUITextBlock textcolor="0,0,0,0"/>
   </GUIBackgroundBlocker>
   <SerializableEntityEditor padding="10.0, 0.0, 0.0, 10.0" color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" textcolor="0,0,0,255">
-    <Sprite name="SerializableEntityEditor" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+    <Sprite name="SerializableEntityEditor" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
   </SerializableEntityEditor>
   <ChatBox color="255,255,255,255" hovercolor="255,255,255,242" disabledcolor="127,127,127,127" selectedcolor="169,212,187,204" textcolor="228,217,167,255">
     <Sprite name="ChatBox" texture="Content/UI/UIAtlasGeneral.png" state="None" tile="false" sourcerect="785,694,239,308" origin="0.5,0.5"/>
@@ -989,10 +989,10 @@
     <Size height="4.6vh"/>
   </DeviceButtonFixedSize>
   <ConnectionPanel color="255,255,255,248" hovercolor="255,255,255,230" selectedcolor="255,255,255,230">
-    <Sprite name="ConnectionPanel" texture="Content/UI/UIAtlasFrames.png" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+    <Sprite name="ConnectionPanel" texture="%ModDir%/UI/UIAtlasFrames.png" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
   </ConnectionPanel>
   <ConnectionPanelFront color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255">
-    <Sprite name="ConnectionPanelFront" texture="Content/UI/UIAtlasFrames.png" tile="true" sourcerect="1,369,374,370" slice="13,388,361,723" origin="0.5,0.5"/>
+    <Sprite name="ConnectionPanelFront" texture="%ModDir%/UI/UIAtlasFrames.png" tile="true" sourcerect="1,369,374,370" slice="13,388,361,723" origin="0.5,0.5"/>
   </ConnectionPanelFront>
   <ConnectionPanelConnector color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255">
     <Sprite name="ConnectionPanelConnector" texture="Content/UI/UIAtlasDevices.png" sourcerect="69,3,45,85" origin="0.5,0.27" tile="false"/>
@@ -1033,7 +1033,7 @@
     <Sprite texture="Content/UI/UIAtlasDevices.png" tile="true" sourcerect="522,105,126,128"/>
   </ScanLinesSeamless>
   <TextFrame padding="40.0, 40.0, 40.0, 40.0" color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" textcolor="228,217,167,255">
-    <Sprite name="TextFrame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
+    <Sprite name="TextFrame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="751,1,187,189" slice="759,10,927,178" origin="0.5,0.5"/>
   </TextFrame>
   <HorizontalLine color="255,255,255,255" hovercolor="255,255,255,255" selectedcolor="255,255,255,255" textcolor="0,0,0,255">
     <Sprite name="HorizontalLine" texture="Content/UI/UIAtlasGeneral.png" sourcerect="10,478,327,2" tile="false" origin="0.5,0.5"/>
@@ -1276,7 +1276,7 @@
     </UpgradeIndicatorOn>
   </UpgradeIndicator>
   <UpgradeUIFrame color="255,255,255,242" hovercolor="200,200,200,242" selectedcolor="243,162,50,121" pressedcolor="255,255,255,242" disabledcolor="125,125,125,255" textcolor="0,0,0,255">
-    <Sprite name="UpgradeUIFrame" texture="Content/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="375,769,191,191" slice="416,810,524,919" origin="0.5,0.5" compress="false"/>
+    <Sprite name="UpgradeUIFrame" texture="%ModDir%/UI/UIAtlasFrames.png" size="0.0, 0.0" sourcerect="375,769,191,191" slice="416,810,524,919" origin="0.5,0.5" compress="false"/>
   </UpgradeUIFrame>
   <SubmarineIcon color="228,217,167,255" hovercolor="228,217,167,255" selectedcolor="228,217,167,255">
     <Sprite name="SubmarineIcon" texture="Content/UI/CampaignUIAtlas2.png" sourcerect="128,256,128,128" origin="0.5,0.5" tile="false" maintainaspectratio="true"/>
