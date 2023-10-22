@@ -76,7 +76,7 @@
       <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
     </Repairable>
   </Item>
-  <Item name="Лампа" identifier="ita_lantern1" category="Electrical" Tags="smallitem" scale="0.4">
+  <Item name="Ручная лампа" identifier="ita_lantern1" category="Electrical" Tags="smallitem" scale="0.4">
     <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="160,528,64,112" depth="0.8" origin="0.5,0.5" />
     <Body width="64" height="112" density="15" />
     <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-15" aimpos="100,0" handle1="-13,0" handle2="-13,0" msg="ItemMsgPickUpSelect">

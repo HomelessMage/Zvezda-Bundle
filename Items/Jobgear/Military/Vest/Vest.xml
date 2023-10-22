@@ -24,8 +24,7 @@
     </Wearable>
   </Item>
   <!--Разгрузка-->
-  <Item name="Разгрузочный жилет «Лифчик» (ВС ССКЕ)" identifier="ammovest" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
-    <Upgrade gameversion="0.9.2.0" scale="0.35" />
+  <Item name="Разгрузочный жилет «Лифчик» (ВС ССКЕ)" identifier="ammovest" category="Equipment" tags="smallitem,clothing,vest" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -34,11 +33,11 @@
       <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" sourcerect="14,45,103,158" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" sourcerect="14,45,103,158" depth="0.6" />
-    <Body radius="45" height="50" density="40" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" sourcerect="19,55,118,173" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" sourcerect="19,55,118,173" depth="0.6" origin="0.5,0.5" />
+    <Body width="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovest.png" limb="Torso" hidelimb="false" sourcerect="19,55,118,173" depth="0.6" origin="0.4,0.35" inherittexturescale="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="8" keepopenwhenequipped="false" movableframe="true">
@@ -46,8 +45,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка с кобурой-->
-  <Item name="Разгрузочный жилет «Лифчик» с кобурой (ВС ССКЕ)" identifier="ammovestholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
-    <Upgrade gameversion="0.9.2.0" scale="0.35" />
+  <Item name="Разгрузочный жилет «Лифчик» с кобурой (ВС ССКЕ)" identifier="ammovestholster" category="Equipment" tags="smallitem,clothing,vest" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -56,11 +54,11 @@
       <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" sourcerect="14,45,103,158" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" sourcerect="14,45,103,158" depth="0.6" />
-    <Body radius="45" height="50" density="40" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" sourcerect="19,55,118,173" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" sourcerect="19,55,118,173" depth="0.6" origin="0.5,0.5" />
+    <Body width="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestholster.png" limb="Torso" hidelimb="false" sourcerect="19,55,118,173" depth="0.6" origin="0.4,0.35" inherittexturescale="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="8" keepopenwhenequipped="false" movableframe="true">
@@ -68,8 +66,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка чёрная-->
-  <Item name="Разгрузочный жилет «Лифчик» (черный)" identifier="ammovestblack" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
-    <Upgrade gameversion="0.9.2.0" scale="0.35" />
+  <Item name="Разгрузочный жилет «Лифчик» (черный)" identifier="ammovestblack" category="Equipment" tags="smallitem,clothing,vest" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -78,11 +75,11 @@
       <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" sourcerect="14,45,103,158" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" sourcerect="14,45,103,158" depth="0.6" />
-    <Body radius="45" height="50" density="40" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" sourcerect="19,55,118,173" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" sourcerect="19,55,118,173" depth="0.6" origin="0.5,0.5" />
+    <Body width="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblack.png" limb="Torso" hidelimb="false" sourcerect="19,55,118,173" depth="0.6" origin="0.4,0.35" inherittexturescale="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="8" keepopenwhenequipped="false" movableframe="true">
@@ -90,8 +87,7 @@
     </ItemContainer>
   </Item>
   <!--Разгрузка чёрная с кобурой-->
-  <Item name="Разгрузочный жилет «Лифчик» c кобурой (черный)" identifier="ammovestblackholster" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
-    <Upgrade gameversion="0.9.2.0" scale="0.35" />
+  <Item name="Разгрузочный жилет «Лифчик» c кобурой (черный)" identifier="ammovestblackholster" category="Equipment" tags="smallitem,clothing,vest" scale="0.35" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
     <Deconstruct time="20">
       <Item identifier="ballisticfiber" />
       <Item identifier="ballisticfiber" />
@@ -100,11 +96,11 @@
       <RequiredItem identifier="ballisticfiber" />
       <RequiredItem identifier="ballisticfiber" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" sourcerect="14,45,103,158" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" sourcerect="14,45,103,158" depth="0.6" />
-    <Body radius="45" height="50" density="40" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" sourcerect="19,55,118,173" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" sourcerect="19,55,118,173" depth="0.6" origin="0.5,0.5" />
+    <Body width="45" height="50" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Ammo Vest" texture="%ModDir%/Items/Jobgear/Military/Vest/ammovestblackholster.png" limb="Torso" hidelimb="false" sourcerect="19,55,118,173" depth="0.6" origin="0.4,0.35" inherittexturescale="true" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
     <ItemContainer capacity="8" keepopenwhenequipped="false" movableframe="true">

@@ -261,7 +261,7 @@
     </Wearable>
   </Item>
   <!--ЗШ-40-->
-  <Item name="Шлем «ЗШ-40»" identifier="zsh_40" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <Item name="Шлем «СШ-68»" identifier="ssh_68" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,110,80,50" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />
@@ -275,7 +275,7 @@
     </Wearable>
   </Item>
   <!--ЗШ-40 ТР-->
-  <Item name="Шлем «ЗШ-40» (ТР)" identifier="zsh_34" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
+  <Item name="Шлем «СШ-68» (ТР)" identifier="zsh_34" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,hat" scale="0.5">
     <Sprite name="Tp Cap" texture="%ModDir%/Items/Jobgear/Head/Head1.png" depth="0.6" sourcerect="415,175,80,50" origin="0.5,0.5" scale="0.5" />
     <Body width="84" height="51" density="15" />
     <Deconstruct time="10" />

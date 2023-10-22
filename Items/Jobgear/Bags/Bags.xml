@@ -52,7 +52,7 @@
         <sprite name="WaistBeltWearable" texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" limb="Torso" hidelimb="false" scale="0.2" inherittexturescale="false" inherittexturedepth="true" origin="0.5,-0.5" sourcerect="0,55,228,144" depth="0.56" />
         <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
       </Wearable>
-      <ItemContainer capacity="9" keepopenwhenequipped="false" movableframe="true">
+      <ItemContainer capacity="5" keepopenwhenequipped="false" movableframe="true">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
       </ItemContainer>
       <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
@@ -82,7 +82,7 @@
       <sprite name="WaistBeltWearable" texture="%ModDir%/Items/Jobgear/Bags/Rucksack.png" limb="Torso" hidelimb="false" scale="0.14" inherittexturescale="false" inherittexturedepth="true" origin="0.38,-1.5" sourcerect="273,55,273,86" depth="0.56" />
       <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
     </Wearable>
-    <ItemContainer capacity="9" keepopenwhenequipped="false" movableframe="true">
+    <ItemContainer capacity="5" keepopenwhenequipped="false" movableframe="true">
       <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
     </ItemContainer>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,50" handle2="0,50" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />

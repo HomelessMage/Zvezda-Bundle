@@ -287,7 +287,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="medicform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
@@ -315,7 +315,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="medicform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
@@ -328,7 +328,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="surgeonform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
@@ -341,7 +341,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="veterinarianform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="medicalofficerclothes" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
@@ -500,14 +500,14 @@
         <Item identifier="batterycell" showpreview="false" />
       </Item>
       <Item identifier="crowbar" equip="false" showpreview="false" />
-      <Item identifier="zsh_40" equip="true" showpreview="true" />
+      <Item identifier="ssh_68" equip="true" showpreview="true" />
       <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="wallet" showpreview="false" />
       </Item>
-      <Item identifier="camo_woodland" equip="true" outfit="true" showpreview="true"/>
+      <Item identifier="afganka" equip="true" outfit="true" showpreview="true"/>
       <Item identifier="ak74m" showpreview="true">
         <Item identifier="ak74mmag" showpreview="false" />
       </Item>
@@ -518,7 +518,7 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="zsh_40" equip="true" showpreview="true" />
+      <Item identifier="ssh_68" equip="true" showpreview="true" />
       <Item identifier="bodyarmor_6b4" equip="true" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
@@ -717,9 +717,12 @@
     <!--Барыга-->
     <ItemSet>
       <Item identifier="banditclothes_3" equip="true" outfit="true" showpreview="true">
-        <Item identifier="pmmagtrauma" showpreview="false" />
+        <Item identifier="pmpistol" showpreview="true">
+          <Item identifier="pmmag" showpreview="false" />
+        </Item>
+        <Item identifier="divingknife" showpreview="true" />
         <Item identifier="pmmag" showpreview="false" />
-        <Item identifier="pmmagtrauma" showpreview="false" />
+        <Item identifier="pmmag" showpreview="false" />
         <Item identifier="wallet" showpreview="false">
           <Item identifier="100rubles" showpreview="false" />
           <Item identifier="100rubles" showpreview="false" />
@@ -727,9 +730,8 @@
         </Item>
       </Item>
       <Item identifier="idcard" equip="true" showpreview="false" />
-      <Item identifier="divingknife" showpreview="true" />
       <Item identifier="zhiganka" showpreview="true" equip="true" />
-      <Item identifier="pmpistol" showpreview="true" />
+      
     </ItemSet>
     <!--Приблатнённый-->
     <ItemSet>
@@ -838,6 +840,7 @@
     </ItemSet>
     <ItemSet>
       <Item identifier="neorussian_uniform" equip="true" outfit="true" showpreview="true">
+      <Item identifier="idcardreich" equip="true" showpreview="false" />
         <Item identifier="cigpack" showpreview="false" />
         <Item identifier="pmmag" showpreview="false" />
         <Item identifier="pmmag" showpreview="false" />

@@ -1043,19 +1043,19 @@
     <Body width="212" height="64" density="30" friction="0.8" restitution="0.01"/>
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
       <sprite name="Afganka Uniform 1 Torso" texture="Afganka.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
-      <sprite name="Afganka Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/Solders/Afganka.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Hand" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Hand" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Lower Arm" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Upper Arm" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Waist" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Thigh" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Thigh" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Leg" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Leg" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Left Shoe" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Afganka Uniform 1 Right Shoe" texture="%ModDir%/Items/Jobgear/Military/Soldiers/Afganka.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
       <ItemContainer capacity="5">
         <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
       </ItemContainer>

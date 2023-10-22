@@ -8,7 +8,7 @@
       <Item identifier="plastic" />
     </Deconstruct>
     <Body width="150" height="77" density="40" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="75,5" aimpos="75,0" handle1="-143,-20" handle2="40,5" holdangle="-70" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="75,5" aimpos="75,0" handle1="-143,-20" handle2="40,5" holdangle="-70" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="20.0" structurefixamount="0.0" usablein="Air" range="1200" barrelpos="35,10" fireprobability="0.01" repairmultiple="true" repairthroughwalls="false" repairthroughholes="true" combatpriority="90" spread="2" unskilledspread="99">
       <RequiredItems items="petroltank" type="Contained" msg="ItemMsgWeldingFuelRequired" />
       <ParticleEmitterHitCharacter particle="fleshsmoke" particlespersecond="3" anglemin="-5" anglemax="5" velocitymin="10" velocitymax="100" />

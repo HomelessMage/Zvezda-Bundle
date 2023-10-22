@@ -157,7 +157,7 @@
       <Price locationtype="military" multiplier="1" sold="false" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="512,0,128,128" origin="0.5,0.5" />
     <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="15,813,212,64" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
@@ -190,7 +190,7 @@
       <Price locationtype="military" multiplier="1" sold="false" />
       <Price locationtype="mine" multiplier="1" sold="false" />
     </Price>
-    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5" />
+    <InventoryIcon name="Commoner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="256,512,128,128" origin="0.5,0.5" />
     <Sprite name="bandit" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="241,813,200,64" depth="0.6" origin="0.5,0.5" />
     <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
     <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">

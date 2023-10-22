@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.58" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
+<contentpackage name="Zvezda Bundle" modversion="2.2.60" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
   <Afflictions file="%ModDir%/ZvezdaAfflictions.xml" />
   <Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
   <Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
@@ -251,9 +251,6 @@
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
   <Structure file="%ModDir%/Map/Walls/Walls.xml" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
-  <Submarine file="%ModDir%/Submarines/Zvezda_IV.sub" />
-  <Submarine file="%ModDir%/Submarines/Горький 23 Осадный.sub" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.7.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.3.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
@@ -616,4 +613,8 @@
   <Wreck file="Content/Map/Wrecks/Kastrull_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Wreck1.sub" />
   <WreckAIConfig file="Content/Map/Thalamus/ThalamusAI.xml" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.7.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-2 (Тысячелетний Рейх).sub" />
+  <Submarine file="%ModDir%/Submarines/Горький-23.sub" />
+  <Submarine file="%ModDir%/Submarines/Звезда-4.sub" />
 </contentpackage>
