@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
   <!-- s -->
-  <Affliction name="Голод" identifier="hunger" description="Потребность в еде" type="hunger" causeofdeathdescription="Погиб от голода." selfcauseofdeathdescription="Вы погибли от голода." limbspecific="false" indicatorlimb="Torso" showiconthreshold="0" karmachangeonapplied="0" maxstrength="200">
+  <Affliction name="Голод" identifier="hunger" description="Потребность в еде" type="hunger" causeofdeathdescription="Погиб от голода." selfcauseofdeathdescription="Вы погибли от голода." limbspecific="false" indicatorlimb="Torso" showiconthreshold="30" karmachangeonapplied="0" maxstrength="200">
     <!-- Slow the player down -->
     <Effect minstrength="0" maxstrength="30" strengthchange="0.03" />
     <Effect minstrength="30" maxstrength="50" dialogflag="Недоедание" strengthchange="0.02" minscreendistort="0.0" maxscreendistort="0.1" minscreenblur="0.0" maxscreenblur="0.1">
@@ -19,9 +19,9 @@
     <Effect minstrength="100" maxstrength="200" multiplybymaxvitality="true" dialogflag="Истощение" minvitalitydecrease="0" maxvitalitydecrease="1" strengthchange="0.02" minscreendistort="0.4" maxscreendistort="0.5" minscreenblur="0.4" maxscreenblur="0.5">
       <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5" />
     </Effect>
-    <icon texture="%ModDir%/Systems/Hunger/HungerIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
+    <icon texture="%ModDir%/Systems/Hunger/HungerIcon.png" sourcerect="0,0,128,128" color="255,0,0,255" origin="0,0" />
   </Affliction>
-  <Affliction name="Жажда" identifier="thirst" description="Потребность в воде" type="thirst" causeofdeathdescription="Погиб от обезвоживания." selfcauseofdeathdescription="Вы погибли от обезвоживания." limbspecific="false" indicatorlimb="Head" showiconthreshold="0" karmachangeonapplied="0" maxstrength="200">
+  <Affliction name="Жажда" identifier="thirst" description="Потребность в воде" type="thirst" causeofdeathdescription="Погиб от обезвоживания." selfcauseofdeathdescription="Вы погибли от обезвоживания." limbspecific="false" indicatorlimb="Head" showiconthreshold="30" karmachangeonapplied="0" maxstrength="200">
     <!-- Slow the player down -->
     <Effect minstrength="0" maxstrength="30" strengthchange="0.04" />
     <Effect minstrength="30" maxstrength="50" dialogflag="Слабое обезвоживание" strengthchange="0.03" minscreenblur="0.0" maxscreenblur="0.1">
@@ -39,7 +39,7 @@
     <Effect minstrength="100" maxstrength="200" multiplybymaxvitality="true" dialogflag="Сильное обезвоживание" minvitalitydecrease="0" maxvitalitydecrease="1" strengthchange="0.03" minscreenblur="0.4" maxscreenblur="0.5">
       <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5" />
     </Effect>
-    <icon texture="%ModDir%/Systems/Hunger/ThirstIcon.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0" />
+    <icon texture="%ModDir%/Systems/Hunger/ThirstIcon.png" sourcerect="0,0,128,128" color="255,0,0,255" origin="0,0" />
   </Affliction>
   <Affliction name="Холод" identifier="temperature" description="Потребность в Тепле" type="temperature" causeofdeathdescription="Погиб от гипотермии." selfcauseofdeathdescription="Вы погибли от гипотермии." limbspecific="false" indicatorlimb="Torso" showiconthreshold="0" karmachangeonapplied="0" maxstrength="200">
     <!-- Slow the player down -->
@@ -56,7 +56,7 @@
     <Effect minstrength="100" maxstrength="200" multiplybymaxvitality="true" dialogflag="Гипотерия" minvitalitydecrease="0" maxvitalitydecrease="1" strengthchange="0" minscreendistort="0.4" maxscreendistort="0.5" minscreenblur="0.4" maxscreenblur="0.5">
       <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5" />
     </Effect>
-    <icon texture="%ModDir%/Systems/Temperature/temperature.png" sourcerect="0,0,386,384" color="0,255,0,255" origin="0,0" />
+    <icon texture="%ModDir%/Systems/Temperature/temperature.png" sourcerect="0,0,386,384" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <Affliction name="Коммунизм" identifier="communism_banner_morale" description="Этот человек верит в правоту коммунистической партии и будет бороться за революцию до последнего вздоха." type="resistance" isbuff="true" limbspecific="false" maxstrength="600" indicatorlimb="Head">
     <Effect minstrength="0" maxstrength="600" strengthchange="-0.5" resistancefor="damage" minresistance="0" maxresistance="0.25" />

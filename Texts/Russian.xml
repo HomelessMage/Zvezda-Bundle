@@ -510,6 +510,9 @@
   <entitydescription.rpd>7,62-мм ручной пулемёт Дегтярёва — советский ручной пулемёт, разработанный в 1944 году под 7,62-мм патрон образца 1943 года.</entitydescription.rpd>
   <entityname.akm>АКМ</entityname.akm>
   <entitydescription.akm>7,62-мм автомат Калашникова модернизированный — автомат, принятый на вооружение ВС Союза ССР, в 1959 году, взамен автомата АК.</entitydescription.akm>
+  <entityname.akm_crafted>АКМ (кустарный)</entityname.akm_crafted>
+  <entitydescription.akm_crafted>Кустарно-произведённая версия АКМ. Тот кто создал это явно сидел на чем-то тяжелом</entitydescription.akm_crafted>
+
   <entityname.aksu>АКС-74У</entityname.aksu>
   <entitydescription.aksu>5,45×39 автомат Калашникова складной укороченный — укороченный вариант автомата АКС74, был разработан в конце 1970 — начале 1980-х годов для вооружения экипажей боевых машин, авиатехники, расчётов орудий, а также десантников.</entitydescription.aksu>
   <entityname.ak74m>АК-74М</entityname.ak74m>

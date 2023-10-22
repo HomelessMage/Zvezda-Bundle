@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.56" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
+<contentpackage name="Zvezda Bundle" modversion="2.2.57" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
   <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
   <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
   <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
@@ -7,7 +7,6 @@
   <Item file="%ModDir%/Map/ITA/ita_items.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_caves.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
-  <Submarine file="%ModDir%/Submarines/!test.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.3.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
@@ -616,4 +615,5 @@
   <Outpost file="Content/Tutorials/CampaignStartOutpost.sub" />
   <RandomEvents file="Content/Tutorials/TutorialEvents.xml" />
   <RandomEvents file="Content/Tutorials/CampaignTutorialEvents.xml" />
+  <Submarine file="%ModDir%/Submarines/!test.sub" />
 </contentpackage>
