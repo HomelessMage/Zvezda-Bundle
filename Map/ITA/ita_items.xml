@@ -20,7 +20,7 @@
       <Item identifier="elastin" />
     </Deconstruct>
   </Item>-->
-  <Item name="" identifier="ita_CaveLamp1" category="Electrical" Tags="smallitem,light" scale="0.5" width="48" height="95">
+  <Item name="Фонарь" identifier="ita_CaveLamp1" category="Electrical" Tags="smallitem,light" scale="0.5" width="48" height="95">
     <Sprite texture="%ModDir%/Map/ITA/CaveLamps.png" sourcerect="57,0,39,514" depth="0.8" origin="0.5,0.12" width="40" radius="40" />
     <LightComponent lightcolor="1.0,1.0,1.0,0.5" range="800.0" powerconsumption="5">
       <LightTexture texture="Content/Lights/light.png" origin="0.5,0.5" />
@@ -48,7 +48,7 @@
       <input name="set_state" displayname="connection.setstate" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ita_CaveLamp2" category="Electrical" Tags="smallitem,light" scale="0.5">
+  <Item name="Фонарь" identifier="ita_CaveLamp2" category="Electrical" Tags="smallitem,light" scale="0.5">
     <Sprite texture="%ModDir%/Map/ITA/CaveLamps.png" sourcerect="242,0,48,512" depth="0.8" origin="0.5,0.12" />
     <LightComponent lightcolor="1.0,1.0,1.0,0.5" range="800.0" powerconsumption="5">
       <LightTexture texture="Content/Lights/light.png" origin="0.5,0.5" />
@@ -76,7 +76,7 @@
       <ParticleEmitter particle="fleshsmoke" particlespersecond="2" scalemin="1" scalemax="2" mincondition="0.0" maxcondition="50.0" />
     </Repairable>
   </Item>
-  <Item name="" identifier="ita_lantern1" category="Electrical" Tags="smallitem" scale="0.4">
+  <Item name="Лампа" identifier="ita_lantern1" category="Electrical" Tags="smallitem" scale="0.4">
     <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="160,528,64,112" depth="0.8" origin="0.5,0.5" />
     <Body width="64" height="112" density="15" />
     <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-15" aimpos="100,0" handle1="-13,0" handle2="-13,0" msg="ItemMsgPickUpSelect">
@@ -98,7 +98,7 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ita_door1" tags="reinforceddoor" scale="0.5" health="1000" damagedbyrepairtools="false" damagedbymonsters="false" damagedbyexplosions="false" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
+  <Item name="Баллистическая дверь" identifier="ita_door1" tags="reinforceddoor" scale="0.5" health="1000" damagedbyrepairtools="false" damagedbymonsters="false" damagedbyexplosions="false" explosiondamagemultiplier="0.1" allowrotatingineditor="false" allowedlinks="structure,item" linkable="true">
     <Sprite texture="Content/Items/Door/door.png" sourcerect="0,0,49,416" depth="0.51" origin="0.5,0.5" />
     <DecorativeSprite texture="Content/Items/Door/door.png" sourcerect="49,0,49,416" depth="0.89" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="0.7,1">
@@ -139,7 +139,7 @@
       <WireSprite texture="%ModDir%/Map/ITA/CaveItems.png" sourcerect="0,83,50,32" depth="0.57" origin="0.5,0.5" />
     </Wire>
   </Item>
-  <Item name="" identifier="ita_bridge1" allowedlinks="gap,hull,structure,item" linkable="true" tags="bridge" scale="0.5" health="100" damagedbyrepairtools="false" damagedbymonsters="false" damagedbyexplosions="false" allowrotatingineditor="false">
+  <Item name="Раздвижной мост" identifier="ita_bridge1" allowedlinks="gap,hull,structure,item" linkable="true" tags="bridge" scale="0.5" health="100" damagedbyrepairtools="false" damagedbymonsters="false" damagedbyexplosions="false" allowrotatingineditor="false">
     <Sprite texture="%ModDir%/Map/ITA/ita_door.png" sourcerect="1,511,987,80" depth="0.51" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" horizontal="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="10.0" shadowscale="1,0.8">
       <RequiredItem items="crowbar" type="Equipped" />
@@ -195,7 +195,7 @@
     </ConnectionPanel>
     <ItemContainer canbeselected="true" capacity="1" itempos="0,0" hideitems="false" />
   </Item>
-  <Item name="" identifier="ita_aliendoor_blue" category="Alien" Tags="alien">
+  <Item name="Инопланетная дверь" identifier="ita_aliendoor_blue" category="Alien" Tags="alien">
     <Sprite texture="%ModDir%/Map/ITA/ita_aliendoor_blue.png" sourcerect="0,0,48,208" depth="0.8" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="30.0">
       <Sprite texture="%ModDir%/Map/ITA/ita_aliendoor_blue.png" sourcerect="56,0,19,208" depth="0.6" origin="0.5,0.0" />
@@ -210,7 +210,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ita_aliendoor_red" category="Alien" Tags="alien">
+  <Item name="Инопланетная дверь" identifier="ita_aliendoor_red" category="Alien" Tags="alien">
     <Sprite texture="%ModDir%/Map/ITA/ita_aliendoor_red.png" sourcerect="0,0,48,208" depth="0.8" origin="0.5,0.5" />
     <Door canbeselected="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="30.0">
       <Sprite texture="%ModDir%/Map/ITA/ita_aliendoor_red.png" sourcerect="56,0,19,208" depth="0.6" origin="0.5,0.0" />
@@ -225,7 +225,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ita_alienhatch_blue" category="Alien" Tags="alien">
+  <Item name="Инопланетный люк" identifier="ita_alienhatch_blue" category="Alien" Tags="alien">
     <Sprite texture="%ModDir%/Map/ITA/ita_alienhatch_blue.png" sourcerect="0,0,208,48" depth="0.8" origin="0.5,0.5" />
     <Door canbeselected="true" horizontal="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="30.0">
       <Sprite texture="%ModDir%/Map/ITA/ita_alienhatch_blue.png" sourcerect="0,56,208,19" depth="0.6" origin="0.0,0.5" />
@@ -240,7 +240,7 @@
       <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="ita_alienhatch_red" category="Alien" Tags="alien">
+  <Item name="Инопланетный люк" identifier="ita_alienhatch_red" category="Alien" Tags="alien">
     <Sprite texture="%ModDir%/Map/ITA/ita_alienhatch_red.png" sourcerect="0,0,208,48" depth="0.8" origin="0.5,0.5" />
     <Door canbeselected="true" horizontal="true" canbepicked="true" pickkey="Action" msg="ItemMsgForceOpenCrowbar" PickingTime="30.0">
       <Sprite texture="%ModDir%/Map/ITA/ita_alienhatch_red.png" sourcerect="0,56,208,19" depth="0.6" origin="0.0,0.5" />

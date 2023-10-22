@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- Не совсем понимаю что это такое -->
-  <Item name="" identifier="ekutility_cart_depthcharge" tags="coilgunammoshelf,container,coilgunammocontainer,ammocontainer" pickdistance="75" scale="0.6">
+  <Item name="Тележка для перевозки боеприпасов" identifier="ekutility_cart_depthcharge" tags="coilgunammoshelf,container,coilgunammocontainer,ammocontainer" pickdistance="75" scale="0.6">
     <!--<Price storeidentifier="merchantCity" buyprice="70" />
     <Price storeidentifier="merchantOutpost" buyprice="80" />
     <Price storeidentifier="merchantMilitary" buyprice="60" />
@@ -24,7 +24,7 @@
       <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
-    <Sprite texture="%ModDir%/Items/Containers/ekutility_containers.png" depth="0.525" sourcerect="680,0,240,176" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Carts/ekutility_containers.png" depth="0.525" sourcerect="680,0,240,176" origin="0.5,0.5" />
     <Body width="182" height="157" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="80,-70" holdangle="2" handle1="-108,76" handle2="-108,76" aimable="false" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.6" setvalue="true" />
@@ -34,7 +34,7 @@
       <Containable identifiers="depthchargeammo,crate,metalcrate,ek_ammocrate_small,coilgunammobox,coilgunammo,chaingunammo,pulselaserammo,ammobox,divingsuit,combatdivingsuit,abyssdivingsuit,pucs,slipsuit,ita_cratebulk,duffelbag,ita_duffelbag1,ek_densifiedresource" />
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekutility_handtruck" pickdistance="75" scale="0.6">
+  <Item name="Тележка для перевозки снарядов" identifier="ekutility_handtruck" pickdistance="75" scale="0.6">
     <!--<Price storeidentifier="merchantCity" buyprice="70" />
     <Price storeidentifier="merchantOutpost" buyprice="80" />
     <Price storeidentifier="merchantMilitary" buyprice="60" />
@@ -57,7 +57,7 @@
       <RequiredItem identifier="aluminium" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
-    <Sprite texture="%ModDir%/Items/Containers/ekutility_containers.png" depth="0.54" sourcerect="224,0,112,192" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Carts/ekutility_containers.png" depth="0.54" sourcerect="224,0,112,192" origin="0.5,0.5" />
     <Body width="96" height="178" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="40,-88" holdangle="25" handle1="-40,82" handle2="-40,82" aimable="false" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.6" setvalue="true" />
@@ -69,7 +69,7 @@
       </Containable>
     </ItemContainer>
   </Item>
-  <Item name="" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor,ekutility_compatiblefuelstorage" pickdistance="75" scale="0.6">
+  <Item name="Тележка для перевозки РХБ" identifier="ekutility_handtruck_reactorfuel" category="Equipment" Tags="reactor,ekutility_compatiblefuelstorage" pickdistance="75" scale="0.6">
     <Price baseprice="100">
       <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
@@ -94,7 +94,7 @@
       <RequiredItem identifier="potassium" />
       <RequiredItem identifier="rubber" />
     </Fabricate>
-    <Sprite texture="%ModDir%/Items/Containers/ekutility_containers.png" depth="0.54" sourcerect="0,624,160,224" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Carts/ekutility_containers.png" depth="0.54" sourcerect="0,624,160,224" origin="0.5,0.5" />
     <Body width="136" height="208" density="25" />
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="52,-82" holdangle="25" handle1="-54,86" handle2="-54,86" aimable="false" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.6" setvalue="true" />

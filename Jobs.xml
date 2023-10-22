@@ -568,23 +568,12 @@
       <Item identifier="radio" equip="true" showpreview="false">
         <Item identifier="batterycell" showpreview="false" />
       </Item>
-      <Item identifier="screwdriver" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
-      <Item identifier="redwire" showpreview="false" />
       <Item identifier="zsh_army" equip="true" showpreview="true" />
       <Item identifier="bodyarmor_6b4" equip="true" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
         <Item identifier="aksumag" showpreview="false" />
-        <Item identifier="detonator" showpreview="false" >
-          <Item identifier="grenade_f1" showpreview="false" />
-        </Item>
+        <Item identifier="aksumag" showpreview="false" />
         <Item identifier="detonator" showpreview="false" >
           <Item identifier="grenade_f1" showpreview="false" />
         </Item>
@@ -605,6 +594,15 @@
       </Item>
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
         <Item identifier="cigpack" showpreview="false" />
+        <Item identifier="screwdriver" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />
+        <Item identifier="redwire" showpreview="false" />        
       </Item>
       <Item identifier="aksu" showpreview="true">
         <Item identifier="aksumag" showpreview="false" />

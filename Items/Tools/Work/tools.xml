@@ -262,7 +262,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
   </Item>
-  <Item name="" identifier="opdeco_trashcan_mod" width="122" height="201" texturescale="1.0,1.0" scale="0.5" category="Decorative">
+  <Item name="Мусорное ведро" identifier="opdeco_trashcan_mod" width="122" height="201" texturescale="1.0,1.0" scale="0.5" category="Decorative">
     <sprite texture="Content/Map/Outposts/Art/Storage.png" sourcerect="1662,914,125,205" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
     <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.18,0.25" anchor="Center" style="ItemUI" />
@@ -332,7 +332,7 @@
     <!--<Sprite texture="Content/Items/Containers/crates.png" depth="0.54" sourcerect="1,0,68,39"/>-->
     <Body width="90" height="60" density="20" />
     <MeleeWeapon slots="RightHand,LeftHand" controlpose="true" aimpos="45,10" handle1="0,18" holdangle="90" reload="1" range="50" combatpriority="6" msg="ItemMsgPickUpSelect">
-      <Attack structuredamage="10" itemdamage="5" targetimpulse="2">
+      <Attack structuredamage="0" itemdamage="5" targetimpulse="2">
         <Affliction identifier="blunttrauma" strength="2" />
         <Affliction identifier="stun" strength="0.6" />
         <Sound file="Content/Items/Weapons/Smack2.ogg" range="800" />

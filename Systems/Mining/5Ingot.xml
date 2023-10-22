@@ -26,7 +26,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="iron" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="iron" category="Material" maxstacksize="8" Tags="smallitem,petfood3,munition_jacket" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="4" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -80,7 +80,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="lead" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="lead" category="Material" maxstacksize="8" Tags="smallitem,petfood3,munition_core" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -107,7 +107,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="phosphorus" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="phosphorus" category="Material" maxstacksize="8" Tags="smallitem,munition_propulsion" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="3" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -128,7 +128,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="copper" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="copper" category="Material" maxstacksize="8" Tags="smallitem,petfood3,munition_core,munition_jacket,advmunition_jacket" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="3" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -150,7 +150,7 @@
     </Holdable>
     <AiTarget sightrange="1000" static="true" />
   </Item>
-  <Item name="" identifier="zinc" category="Material" maxstacksize="8" Tags="smallitem" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="zinc" category="Material" maxstacksize="8" Tags="smallitem,munition_jacket,advmunition_jacket" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -325,7 +325,7 @@
       </StatusEffect>
     </Holdable>
   </Item>
-  <Item name="" identifier="titanium" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="1.2" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="titanium" category="Material" maxstacksize="8" Tags="smallitem,petfood3,advmunition_core,advmunition_tip" canbepicked="true" cargocontaineridentifier="metalcrate" scale="1.2" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="0" maxamount="2" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />
@@ -440,7 +440,7 @@
     </Holdable>
   </Item>
   <!-- Compounds ************************************************************************************************ -->
-  <Item name="" identifier="steel" category="Material" maxstacksize="8" Tags="smallitem,petfood3" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="steel" category="Material" maxstacksize="8" Tags="smallitem,petfood3,munition_core,advmunition_core,advmunition_tip" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.4" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="4" spawnprobability="1" />
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="3" spawnprobability="0.06" />
     <PreferredContainer secondary="locker" />

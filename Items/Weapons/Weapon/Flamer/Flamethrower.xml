@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="Самодельный огнемёт" identifier="flamerz" category="Equipment" Tags="smallitem,weapon,gun" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
+  <Item name="Самодельный огнемёт" identifier="flamerz" category="Weapon" Tags="mediumitem,gun,weapon,heavygun,mountableweapon" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
     <InventoryIcon texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamericon.png" sourcerect="0,0,250,361" />
     <Sprite texture="%ModDir%/Items/Weapons/Weapon/Flamer/Flamer.png" sourcerect="0,0,415,140" depth="0.55" origin="0.5,0.5" />
     <Deconstruct time="25">
@@ -58,7 +58,7 @@
   </Item>
 
 
-  <Item name="Бензин в банке" identifier="petroltank" category="Equipment" maxstacksize="8" Tags="smallitem,petroltank" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light">
+  <Item name="Бензин в банке" identifier="petroltank" category="Weapon" maxstacksize="8" Tags="smallitem,petroltank" cargocontaineridentifier="metalcrate" scale="0.25" impactsoundtag="impact_metal_light">
     <Deconstruct time="10">
       <Item identifier="aluminium" />
     </Deconstruct>
@@ -93,7 +93,7 @@
   </Item>
 
 
-  <Item name="Ранец с бензином" identifier="flamerpack" scale="0.5" category="Equipment" tags="mediumitem,petrolpack" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
+  <Item name="Ранец с бензином" identifier="flamerpack" scale="0.5" category="Weapon" tags="mediumitem,petrolpack" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
     <Price baseprice="90" soldeverywhere="false" minleveldifficulty="15">
       <Price locationtype="outpost" multiplier="1" minavailable="1" />
       <Price locationtype="city" multiplier="0.9" sold="false" />

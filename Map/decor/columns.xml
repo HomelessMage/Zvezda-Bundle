@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!-- fcolumn1 -->
-  <OpDeco name="" identifier="fcolumn1" category="Decorative" allowattachitems="true" width="249" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 1)" noninteractable="true" identifier="fcolumn1" category="Decorative" allowattachitems="true" width="249" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="0,0,249,382" depth="0.97" />
   </OpDeco>
   <!-- fcolumn2 -->
-  <OpDeco name="" identifier="fcolumn2" category="Decorative" allowattachitems="true" width="71" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 2)" noninteractable="true" identifier="fcolumn2" category="Decorative" allowattachitems="true" width="71" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="249,0,71,382" depth="0.97" />
   </OpDeco>
   <!-- fcolumn3 -->
-  <OpDeco name="" identifier="fcolumn3" category="Decorative" allowattachitems="true" width="72" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 3)" noninteractable="true" identifier="fcolumn3" category="Decorative" allowattachitems="true" width="72" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="324,0,72,382" depth="0.97" />
   </OpDeco>
   <!-- fcolumn4 -->
-  <OpDeco name="" identifier="fcolumn4" category="Decorative" allowattachitems="true" width="54" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 4)" noninteractable="true" identifier="fcolumn4" category="Decorative" allowattachitems="true" width="54" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="403,0,54,382" depth="0.97" />
   </OpDeco>
   <!-- fcolumn5 -->
-  <OpDeco name="" identifier="fcolumn5" category="Decorative" allowattachitems="true" width="48" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 5)" noninteractable="true" identifier="fcolumn5" category="Decorative" allowattachitems="true" width="48" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="463,0,48,382" depth="0.97" />
   </OpDeco>
   <!-- fcolumn6 -->
-  <OpDeco name="" identifier="fcolumn6" category="Decorative" allowattachitems="true" width="82" height="382" scale="0.5">
+  <OpDeco name="Колонна (версия 6)" noninteractable="true" identifier="fcolumn6" category="Decorative" allowattachitems="true" width="82" height="382" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="520,0,82,382" depth="0.97" />
   </OpDeco>
   <!-- Lenin -->
-  <OpDeco name="" identifier="Lenin" category="Decorative" allowattachitems="true" width="164" height="218" scale="0.5">
+  <OpDeco name="Бюст Ленина (верх)" noninteractable="true" identifier="Lenin" category="Decorative" allowattachitems="true" width="164" height="218" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="650,19,164,218" depth="0.97" />
   </OpDeco>
   <!-- Lenin_stand -->
-  <OpDeco name="" identifier="Lenin_stand" category="Decorative" allowattachitems="true" width="112" height="236" scale="0.5">
+  <OpDeco name="Бюст Ленина (платформа)" noninteractable="true" identifier="Lenin_stand" category="Decorative" allowattachitems="true" width="112" height="236" scale="0.5">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="839,21,112,236" depth="0.97" />
   </OpDeco>
   <!-- Saviors -->
-  <OpDeco name="" identifier="Saviors" category="Decorative" allowattachitems="true" width="397" height="146" scale="1.2">
+  <OpDeco name="Памятник" noninteractable="true" identifier="Saviors" category="Decorative" allowattachitems="true" width="397" height="146" scale="1.2">
     <sprite texture="%ModDir%/Map/decor/columns.png" sourcerect="611,298,397,146" depth="0.97" />
   </OpDeco>
 </Items>

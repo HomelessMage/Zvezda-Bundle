@@ -4797,6 +4797,16 @@
   <entitydescription.chitinhelmet>Прочный шлем, сделанный из хитина.</entitydescription.chitinhelmet>
   <entityname.hallucinogenicbufotoxin>Галлюциногенный буфотоксин</entityname.hallucinogenicbufotoxin>
   <entitydescription.hallucinogenicbufotoxin>Галлюциногенный токсин, который встречается у некоторых обитателей Европы. В случае крайней необходимости можно использовать как антипарализатор.</entitydescription.hallucinogenicbufotoxin>
+
+  <fabricationdescription.munition_propulsion>Пропульсивные материалы боеприпасов.</fabricationdescription.munition_propulsion>
+  <fabricationdescription.munition_core>Основной материал боеприпасов. Металл высокой плотности.</fabricationdescription.munition_core>
+  <fabricationdescription.munition_jacket>Материал оболочки боеприпасов. Более мягкий металл.</fabricationdescription.munition_jacket>
+  <fabricationdescription.advmunition_tip>Усовершенствованный материал наконечника пули. Закаленный металл.</fabricationdescription.advmunition_tip>
+  <fabricationdescription.advmunition_core>Усовершенствованный основной материал боеприпасов. Металл высокой плотности.</fabricationdescription.advmunition_core>
+  <fabricationdescription.advmunition_jacket>Усовершенствованный материал оболочки боеприпасов. Более мягкий металл.</fabricationdescription.advmunition_jacket>
+
+
+
   <entityname.poop>Говно</entityname.poop>
   <entitydescription.poop>Кучка говна.</entitydescription.poop>
   <character.peanut>Арахис</character.peanut>
