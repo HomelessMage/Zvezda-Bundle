@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.60" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
+<contentpackage name="Zvezda Bundle" modversion="2.2.62" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
   <Afflictions file="%ModDir%/ZvezdaAfflictions.xml" />
   <Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
   <Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
@@ -43,9 +43,7 @@
   <Item file="%ModDir%/Map/decor/columns.xml" />
   <Item file="%ModDir%/Map/decor/Sign1.xml" />
   <Item file="%ModDir%/Map/decor/Sign2.xml" />
-  <Item file="%ModDir%/Map/Door/custom_dockingports_backwards_compat.xml" />
   <Item file="%ModDir%/Map/Door/custom_dockingports.xml" />
-  <Item file="%ModDir%/Map/Door/custom_doors_backwards_compat.xml" />
   <Item file="%ModDir%/Map/Door/custom_doors.xml" />
   <Item file="%ModDir%/Map/ITA/ita_items.xml" />
   <Item file="%ModDir%/Map/Megaphone/megaphone.xml" />
@@ -63,7 +61,6 @@
   <Item file="%ModDir%/Systems/Mining/VanillaFabricators.xml" />
   <Item file="%ModDir%/Systems/Nourishment/Hungertool.xml" />
   <Item file="%ModDir%/Systems/Nourishment/nourishment.xml" />
-  <Item file="%ModDir%/Systems/Reactor/reactor_backwards_compat.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactor.xml" />
   <Item file="%ModDir%/Systems/Reactor/reactorgear.xml" />
   <Item file="%ModDir%/Systems/Reactor/rod.xml" />
@@ -207,7 +204,6 @@
   <Other file="%ModDir%/Map/Door/dockingrail2.ogg" />
   <Other file="%ModDir%/Map/Door/exteriorshelldoor1_move.ogg" />
   <Other file="%ModDir%/Map/Door/maintenancepanel1_move.ogg" />
-  <Other file="%ModDir%/Map/Generator/generator_backwards_compat.xml" />
   <Other file="%ModDir%/Map/Generator/generator.xml" />
   <Other file="%ModDir%/Map/Megaphone/comissar.ogg" />
   <Other file="%ModDir%/Map/Megaphone/fuhrer.ogg" />
@@ -248,20 +244,14 @@
   <Sounds file="%ModDir%/Sounds/sounds.xml" />
   <StartItems file="%ModDir%/StartItems.xml" />
   <Structure file="%ModDir%/Map/ITA/ita_prefabs_caves.xml" />
-  <Structure file="%ModDir%/Map/ITA/ita_prefabs_generic.xml" />
   <Structure file="%ModDir%/Map/Walls/Walls.xml" />
   <Submarine file="%ModDir%/Submarines/!test.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.3.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-2 (бэкап).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (лифт).sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 v1.1.sub" />
-  <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Пчела-1 v2.sub" />
   <Submarine file="%ModDir%/Submarines/Руины Звезда-1 v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/СТО v1.5.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v18.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта «Курск» v4.sub" />
-  <Submarine file="%ModDir%/Submarines/Шахта Кавказский Очаг v1.4.sub" />
   <Submarine file="%ModDir%/Submarines/Юрий Гагарин v1.0.sub" />
   <Text file="%ModDir%/Texts/Russian.xml" />
   <UIStyle file="%ModDir%/UI/style.xml" />
@@ -416,15 +406,13 @@
   <ItemAssembly file="Content/Items/Assemblies/DivingSuitLocker.xml" />
   <ItemAssembly file="Content/Items/Assemblies/Door.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/AphoticPlateau/AphoticPlateau.xml" />
-  <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
-  <LevelGenerationParameters file="Content/Map/Biomes/ColdCaverns/ColdCaverns.xml" />
+  <LevelObjectPrefabs file="Content/Map/Biomes/ColdCaverns/ColdCavernsObjects.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/EndBiome/EndBiome.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/EuropanRidge/EuropanRidge.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/HydrothermalWastes/HydrothermalWastes.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/TheGreatSea/TheGreatSea.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/AphoticPlateau/AphoticPlateauObjects.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/BioluminescentCave/BioluminescentCaveObject.xml" />
-  <LevelObjectPrefabs file="Content/Map/Biomes/ColdCaverns/ColdCavernsObjects.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/Common/CommonLevelObjects.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/CrystalCave/CrystalCaveObjects.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/EndBiome/EndBiomeObjects.xml" />
@@ -613,8 +601,9 @@
   <Wreck file="Content/Map/Wrecks/Kastrull_Wrecked.sub" />
   <Wreck file="Content/Map/Wrecks/Wreck1.sub" />
   <WreckAIConfig file="Content/Map/Thalamus/ThalamusAI.xml" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.3.7.sub" />
+  <Submarine file="%ModDir%/Submarines/Север.sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.4.0.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-2 (Тысячелетний Рейх).sub" />
   <Submarine file="%ModDir%/Submarines/Горький-23.sub" />
-  <Submarine file="%ModDir%/Submarines/Звезда-4.sub" />
+  <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
 </contentpackage>

@@ -154,7 +154,7 @@
         <Item identifier="as_vallmag" showpreview="false" />
       </Item>
       <Item identifier="pr73m" showpreview="false" />
-      <Item identifier="zsh_omon" equip="true" showpreview="true" />
+      <Item identifier="gcap" equip="true" showpreview="true" />
     </ItemSet>
   </Job>
   <!--Бригадир-->
@@ -729,9 +729,8 @@
           <Item identifier="100rubles" showpreview="false" />
         </Item>
       </Item>
-      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="idcardwreck" equip="true" showpreview="false" />
       <Item identifier="zhiganka" showpreview="true" equip="true" />
-      
     </ItemSet>
     <!--Приблатнённый-->
     <ItemSet>
@@ -761,7 +760,7 @@
       <Item identifier="pmpistol" showpreview="true">
         <Item identifier="pmmagtrauma" showpreview="false" />
       </Item>
-      <Item identifier="idcardwreck" equip="true" showpreview="false" />
+      <Item identifier="idcard" equip="true" showpreview="false" />
     </ItemSet>
     <!--Пахан-->
     <ItemSet>

@@ -509,7 +509,7 @@
     <InventoryIcon texture="%ModDir%/Systems/Reactor/fuel_items.png" sourcerect="96,0,64,64" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Systems/Reactor/fuel_items.png" depth="0.55" sourcerect="0,0,88,128" />
     <Body width="72" height="116" density="9" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="-3,47" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" removeOnCombined="true">
+    <Holdable slots="RightHand,LeftHand" holdpos="10,-75" handle1="-3,47" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" removeOnCombined="true">
       <StatusEffect type="OnFire" target="This" Condition="-100.0" disabledeltatime="true" delay="3" stackable="false" checkconditionalalways="true">
         <Conditional HasStatusTag="onfire" />
         <sound file="Content/Items/Weapons/ExplosionSmall3.ogg" range="5000" selectionmode="All" />

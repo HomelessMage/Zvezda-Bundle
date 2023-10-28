@@ -5,12 +5,12 @@
   <music file="Content/Sounds/Music/Simplex.ogg" type="default"/>
   <music file="Content/Sounds/Music/Tenebrous Brothers Carnival - Prelude.ogg" type="default"/>
   -->
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Retreat.ogg" type="menu" />
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - The Motherland.ogg" type="menu" />
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="crewdead" />
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="start" />
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="endround" />
-  <music file="%ModDir%/Sounds/Music/Tim Wynn - The Motherland.ogg" type="editor" continuefromprevioustime="true" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Retreat.ogg" type="menu" volume="0.1" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - The Motherland.ogg" type="menu" volume="0.1" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="crewdead" volume="0.1" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="start" volume="0.1" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - Russian Celebration.ogg" type="endround" volume="0.1" />
+  <music file="%ModDir%/Sounds/Music/Tim Wynn - The Motherland.ogg" type="editor" continuefromprevioustime="true" volume="0.1" />
   <music file="Content/Sounds/Music/Water Of The SSN Rusty Clown.ogg" type="default" intensityrange="0,15" />
   <music file="Content/Sounds/Music/Wondrous Places.ogg" type="default" intensityrange="0,15" />
   <music file="Content/Sounds/Music/Overclocked Weakness.ogg" type="default" intensityrange="0,15" />
