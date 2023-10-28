@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.62" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
+<contentpackage name="Zvezda Bundle" modversion="2.2.63" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.18.1">
   <Afflictions file="%ModDir%/ZvezdaAfflictions.xml" />
   <Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
   <Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
@@ -405,6 +405,7 @@
   <ItemAssembly file="Content/Items/Assemblies/DivingGearCabinetSmall.xml" />
   <ItemAssembly file="Content/Items/Assemblies/DivingSuitLocker.xml" />
   <ItemAssembly file="Content/Items/Assemblies/Door.xml" />
+  <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/AphoticPlateau/AphoticPlateau.xml" />
   <LevelObjectPrefabs file="Content/Map/Biomes/ColdCaverns/ColdCavernsObjects.xml" />
   <LevelGenerationParameters file="Content/Map/Biomes/EndBiome/EndBiome.xml" />
