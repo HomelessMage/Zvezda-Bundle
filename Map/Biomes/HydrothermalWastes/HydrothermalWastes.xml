@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelGenerationParameters>
+    <WastesBasic identifier="wastesbasic" commonness="0" />
+</LevelGenerationParameters>

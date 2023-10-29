@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelGenerationParameters>
+    <RidgeBasic identifier="ridgebasic" commonness="0" />
+    <RidgeAdvanced identifier="ridgeadvanced" commonness="0" />
+</LevelGenerationParameters>

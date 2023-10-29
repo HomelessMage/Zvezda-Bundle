@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelGenerationParameters>
+    <ColdCavernsBasic identifier="coldcavernsbasic" commonness="0" />
+    <ColdCavernsAdvanced identifier="coldcavernsadvanced" commonness="0" />
+    <ColdCavernsMaze identifier="coldcavernsmaze" commonness="0" />
+    <ColdCavernsTransition identifier="coldcavernstransition" commonness="0" />
+</LevelGenerationParameters>

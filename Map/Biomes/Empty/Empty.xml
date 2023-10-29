@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LevelGenerationParameters>
+	<Empty 
+    abyssislandcount="0" 
+    ambientlightcolor="0,0,0,0"
+    backgroundcolor="20,40,50,255"
+    backgroundcreatureamount="0"
+    backgroundtexturecolor="0,0,0,0"
+    biomes="any"
+    bottomholeprobability="1.0"
+    cavecount="0"
+    cellirregularity="0.0"
+    cellroundingamount="0.0"
+    commonness="100"
+    createholenexttoend="false"
+    createholetoabyss="false"
+    endposition="0.9,0.1"
+    floatingicechunkcount="0" 
+    forcebeaconstation="%ModDir%/Map/BeaconStations/Свердловск-71.sub"
+    height="70000"
+    icespirecount="0"
+    identifier="pureemptylevel"
+    initialdepthmax="0"
+    initialdepthmin="0"
+    islandcount="0"
+    itemcount="0"
+    levelobjectamount="0"
+    mainpathvariance="0.0"
+    maxcorpsecount="0"
+    maxleveldifficulty="100"
+    maxwidth="200000"
+    maxwreckcount="5"
+    mincorpsecount="0"
+    minleveldifficulty="0"
+    mintunnelradius="20000"
+    minwidth="200000"
+    minwreckcount="5"
+    mountaincountmax="0"
+    mountaincountmin="0"
+    nolevelgeometry="true"
+    ruincount="0"
+    seafloordepth="0"
+    seafloorvariance="0"
+    sidetunnelcount="0,0"
+    startposition="0.5,0.5"
+    thalamusprobability="0.0"
+    type="LocationConnection"
+    voronoisiteinterval="20000,20000"
+    voronoisitevariance="0,0"
+    walledgeexpandinwardsamount="128"
+    walledgeexpandoutwardsamount="128"
+    walledgetexturewidth="1024"
+    walltexturesize="512"
+    >
+		<!-- <WaterParticles
+      texture="Content/Map/Biomes/TheGreatSea/BackgroundParticles.png" /> -->
+		<Wall texture="Content/Map/Biomes/TheGreatSea/LevelWall.png" premultiplyalpha="false" />
+		<WallEdge texture="Content/Map/Biomes/TheGreatSea/LevelWallEdge.png" />
+		<DestructibleWall texture="Content/Map/Biomes/DestructibleWall.png" />
+		<DestructibleWallEdge texture="Content/Map/Biomes/DestructibleWallEdge.png" />
+		<WallDestroyed texture="Content/Map/Biomes/DestroyedWall.png" premultiplyalpha="false" />
+	</Empty>
+</LevelGenerationParameters>
