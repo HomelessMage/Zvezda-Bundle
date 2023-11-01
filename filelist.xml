@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Zvezda Bundle" modversion="2.2.71" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.19.3">
+<contentpackage name="Zvezda Bundle" modversion="2.2.72" corepackage="True" steamworkshopid="2826890267" gameversion="1.1.19.3">
   <Afflictions file="%ModDir%/ZvezdaAfflictions.xml" />
   <Character file="%ModDir%/Creatures/Characters/Human/Human.xml" />
   <Character file="%ModDir%/Creatures/Characters/Pig/Pig.xml" />
@@ -195,10 +195,6 @@
   <Other file="%ModDir%/Items/Weapons/ogg/RPDsingleShot6.ogg" />
   <Other file="%ModDir%/Items/Weapons/Weapon/As_vall/AS_VALL.ogg" />
   <Other file="%ModDir%/Items/Weapons/Weapon/Flamer/welrod.ogg" />
-  <Other file="%ModDir%/Lua/Autorun/alivecrewmenuremover.lua" />
-  <Other file="%ModDir%/Lua/Autorun/disconnectkill.lua" />
-  <Other file="%ModDir%/Lua/Autorun/humanspawning.lua" />
-  <Other file="%ModDir%/Lua/Autorun/localvoicefix.lua" />
   <Other file="%ModDir%/Map/Door/blastdoor1_move.ogg" />
   <Other file="%ModDir%/Map/Door/dockingrail1.ogg" />
   <Other file="%ModDir%/Map/Door/dockingrail2.ogg" />
@@ -582,7 +578,7 @@
   <Submarine file="%ModDir%/Submarines/Горький-23.sub" />
   <Submarine file="%ModDir%/Submarines/Порт-3 v1.sub" />
   <Submarine file="%ModDir%/Submarines/Север.sub" />
-  <Submarine file="%ModDir%/Submarines/Железногорск v1.4.2.sub" />
+  <Submarine file="%ModDir%/Submarines/Железногорск v1.4.3.sub" />
   <Submarine file="%ModDir%/Submarines/Звезда-1 v1.16.4.sub" />
   <LevelGenerationParameters file="Content/Map/Biomes/Biomes.xml" />
   <LevelGenerationParameters file="%ModDir%/Map/Biomes/Empty/Empty.xml" />
@@ -592,7 +588,7 @@
   <LevelGenerationParameters file="%ModDir%/Map/Biomes/HydrothermalWastes/HydrothermalWastes.xml" />
   <LevelGenerationParameters file="%ModDir%/Map/Biomes/TheGreatSea/TheGreatSea.xml" />
   <LevelGenerationParameters file="%ModDir%/Map/Biomes/EndBiome/EndBiome.xml" />
-  <BeaconStation file="%ModDir%/Map/BeaconStations/Свердловск-71.sub" />
   <Wreck file="%ModDir%/Map/Wrecks/Звезда-1.sub" />
   <OutpostConfig file="Content/Map/Outposts/OutpostGenerationParameters.xml" />
+  <BeaconStation file="%ModDir%/Map/BeaconStations/Свердловск-71.sub" />
 </contentpackage>
