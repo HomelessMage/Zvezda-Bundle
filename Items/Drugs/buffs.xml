@@ -28,7 +28,7 @@
       <Item identifier="carbon" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="75,0,37,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="75,0,37,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="35" />
@@ -100,7 +100,7 @@
     </Deconstruct>
     <!-- TODO: sprite -->
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="112,0,38,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="112,0,38,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="35" />
@@ -166,7 +166,7 @@
       <Item identifier="steroids" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="149,0,37,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="149,0,37,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="50" />
@@ -355,7 +355,7 @@
       <Item identifier="zinc" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="383,5,33,87" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="383,5,33,87" depth="0.6" origin="0.5,0.5" />
     <Body width="30" height="80" density="11" waterdragcoefficient="1" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="32,15" holdangle="0" aimangle="90" aimable="false" msg="ItemMsgPickUpSelect">
       <!-- TODO: too low skill requirement, never triggers-->

@@ -549,4 +549,40 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
   </Item>
+
+  <Item name="Комбинезон шахтера" identifier="minerclothes" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <PreferredContainer primary="outpostcrewcabinet,abandonedcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.5"/>
+    <Price baseprice="75">
+      <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+      <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" minavailable="1"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1" minavailable="1"/>
+    </Price>
+    <InventoryIcon name="Miner Clothes Icon" texture="%ModDir%/Items/Jobgear/OutfitIcons.png" sourcerect="383,274,128,110" origin="0.5,0.5"/>
+    <Sprite name="miner" texture="%ModDir%/Items/Jobgear/MiscJobGear.png" sourcerect="442,376,206,63" depth="0.6" origin="0.5,0.5"/>
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+    <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Miner Torso" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Hand" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Hand" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Lower Arm" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Upper Arm" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Waist" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Thigh" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Thigh" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Leg" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Leg" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Left Shoe" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <sprite name="Miner Right Shoe" texture="%ModDir%/Items/Jobgear/Crew/miner.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true"/>
+      <ItemContainer capacity="5">
+        <Containable items="smallitem,hat" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing,heavygun"/>
+      </ItemContainer>
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-20" handle1="0,0" handle2="0,0" aimable="True" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+  </Item>
+
+
 </Items>

@@ -501,7 +501,7 @@
       </Item>
       <Item identifier="crowbar" equip="false" showpreview="false" />
       <Item identifier="ssh_68" equip="true" showpreview="true" />
-      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" >
+      <Item identifier="6b13" equip="true" showpreview="true" >
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
         <Item identifier="ak74mmag" showpreview="false" />
@@ -617,7 +617,7 @@
       <Item identifier="gasmask" equip="true" showpreview="true">
         <Item identifier="oxygentank" showpreview="false" />
       </Item>
-      <Item identifier="bodyarmor_6b4" equip="true" showpreview="true" />
+      <Item identifier="ammovest" equip="true" showpreview="true" />
       <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
         <Item identifier="cigpack" showpreview="false" />
         <Item identifier="pmmag" showpreview="false" />
@@ -627,8 +627,8 @@
       <Item identifier="pmpistol" showpreview="false">
         <Item identifier="pmmag" showpreview="false" />
       </Item>
-      <Item identifier="flamerz" showpreview="false" />
-      <Item identifier="flamerpack" showpreview="true" equip="true">
+      <Item identifier="flamerz" showpreview="true" />
+      <Item identifier="flamerpack" showpreview="false" equip="true">
         <Item identifier="petroltank" showpreview="false" />
       </Item>
     </ItemSet>
@@ -660,7 +660,7 @@
         <Item identifier="flare" showpreview="false" />
         <Item identifier="flare" showpreview="false" />
       </Item>
-      <Item identifier="afganka" equip="true" outfit="true" showpreview="true">
+      <Item identifier="berezka" equip="true" outfit="true" showpreview="true">
         <Item identifier="wallet" showpreview="false" />
         <Item identifier="stungrenade" showpreview="false" />
         <Item identifier="stungrenade" showpreview="false" />
@@ -1008,5 +1008,37 @@
         <Item identifier="ar15mag" />
       </Item>
     </ItemSet>
+    <ItemSet>
+      <Item identifier="idcardusa" equip="true" />
+      <Item identifier="radio" equip="true">
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="camo_woodland" equip="true" outfit="true" >
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antidama1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibleeding1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antibloodloss2" />
+      </Item>
+      <Item identifier="american_helmet" equip="true" />
+      <Item identifier="miltec" equip="true">
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+          <Item identifier="ar15mag" />
+      </Item>
+      <Item identifier="ar15">
+        <Item identifier="ar15mag" />
+      </Item>
+    </ItemSet>    
   </Job>
 </Jobs>

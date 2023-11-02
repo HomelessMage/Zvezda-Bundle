@@ -3,8 +3,8 @@
   <!--Сигарета-->
   <!--Пачка сигарет-->
   <Item name="Пачка сигарет" identifier="cigpack" category="Misc" Tags="cntnr,smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="39,1,10,20" depth="0.55" />
-    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="50,1,10,20" depth="0.55" maxcondition="0" fadein="true" />
+    <Sprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="39,1,10,20" depth="0.55" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="50,1,10,20" depth="0.55" maxcondition="0" fadein="true" />
     <Body width="6" height="16" density="9.8" />
     <Throwable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" throwforce="2" aimpos="35,-10">
       <StatusEffect type="OnFire" target="This" Condition="-10" />
@@ -20,11 +20,11 @@
     </ItemContainer>
   </Item>
   <Item name="Сигарета" identifier="cigarette" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light">
-    <Sprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
-    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
-    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
-    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,10,17,2" depth="0.55" maxcondition="0" />
-    <InventoryIcon texture="%ModDir%/Items/Tools/Cigarki/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+    <Sprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="1,4,17,2" depth="0.55" maxcondition="99" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="1,7,17,2" depth="0.55" maxcondition="40" />
+    <BrokenSprite texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="1,10,17,2" depth="0.55" maxcondition="0" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Cigarrettes/Cigarette.png" sourcerect="1,1,17,2" depth="0.55" />
     <Body width="32" height="4" density="9.9" />
     <RepairTool structurefixamount="0.0" usablein="Air">
       <StatusEffect type="OnFailure" target="UseTarget">

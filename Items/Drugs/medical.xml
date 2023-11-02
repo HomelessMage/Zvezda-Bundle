@@ -30,7 +30,7 @@
     <SuitableTreatment type="bleeding" suitability="30" />
     <SuitableTreatment type="burn" suitability="30" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="310,33,26,42" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="310,33,26,42" depth="0.6" origin="0.5,0.5" />
     <Body width="25" height="40" density="10.05" />
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="10" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40" />
@@ -71,7 +71,7 @@
     </Fabricate>
     <Deconstruct time="2"/>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="959,771,63,59" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="340,33,26,42" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="340,33,26,42" depth="0.6" origin="0.5,0.5" />
     <Body width="25" height="40" density="10.05" />
     <SuitableTreatment type="bleeding" suitability="50" />
     <SuitableTreatment type="burn" suitability="50" />
@@ -119,7 +119,7 @@
       <Item identifier="elastin" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="312,8,63,22" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="312,8,63,22" depth="0.6" origin="0.5,0.5" />
     <Body width="60" height="20" density="12" />
     <SuitableTreatment type="bleeding" suitability="100" />
     <SuitableTreatment type="burn" suitability="100" />
@@ -181,7 +181,7 @@
       <Item identifier="opium" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="0,0,37,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="0,0,37,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1" />
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40" />
@@ -252,7 +252,7 @@
       <Item identifier="ethanol" mincondition="0.9" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="37,0,38,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="37,0,38,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="72" />
@@ -320,7 +320,7 @@
       <Item identifier="creepingorange" amount="2" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="0,384,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="228,380,64,64" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="228,380,64,64" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="25" />
@@ -382,7 +382,7 @@
     <Deconstruct time="5"/>
     <SuitableTreatment type="bloodloss" suitability="30" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,640,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="0,261,83,46" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="0,261,83,46" depth="0.6" origin="0.5,0.5" />
     <Body width="80" height="45" density="11" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <RequiredSkill identifier="medical" level="40" />
@@ -429,7 +429,7 @@
     </Deconstruct>
     <SuitableTreatment type="bloodloss" suitability="120" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,640,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="1,217,82,44" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="1,217,82,44" depth="0.6" origin="0.5,0.5" />
     <Body width="80" height="42" density="11" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <RequiredSkill identifier="medical" level="40" />
@@ -474,7 +474,7 @@
       <Item identifier="liquidoxygenite" />
     </Deconstruct>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="226,306,38,72" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="226,306,38,72" depth="0.6" origin="0.5,0.5" />
     <SuitableTreatment type="damage" suitability="90" />
     <SuitableTreatment identifier="oxygenlow" suitability="45" />
     <SuitableTreatment type="bloodloss" suitability="30" />
@@ -533,7 +533,7 @@
     <SuitableTreatment identifier="organdamage" suitability="-30" />
     <SuitableTreatment identifier="oxygenlow" suitability="99" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,640,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="187,138,38,71" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="187,138,38,71" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="72" />
@@ -607,7 +607,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="huskinfection" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="897,449,63,63" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="223,69,38,70" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="223,69,38,70" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="38" />
@@ -679,7 +679,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="psychosis" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,640,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="37,138,38,71" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="37,138,38,71" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="37" />
@@ -736,7 +736,7 @@
     <SuitableTreatment identifier="opiatewithdrawal" suitability="60" />
     <SuitableTreatment identifier="opiateoverdose" suitability="60" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,448,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="186,0,38,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="186,0,38,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="39" />
@@ -801,7 +801,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="morbusinepoisoning" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="190,378,37,70" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="190,378,37,70" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40"/>
@@ -861,7 +861,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="cyanidepoisoning" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="192,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="153,306,36,71" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="153,306,36,71" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40"/>
@@ -921,7 +921,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="sufforinpoisoning" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="75,68,38,70" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="75,68,38,70" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40"/>
@@ -980,7 +980,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="deliriuminepoisoning" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,703,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="225,210,37,70" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="225,210,37,70" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="40"/>
@@ -1038,7 +1038,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="radiationsickness" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="149,142,37,67" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="149,142,37,67" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="25" />
@@ -1097,7 +1097,7 @@
     </Deconstruct>
     <SuitableTreatment identifier="paralysis" suitability="100" />
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="960,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="150,210,39,69" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="150,210,39,69" depth="0.6" origin="0.5,0.5" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
       <RequiredSkill identifier="medical" level="64" />
@@ -1229,7 +1229,7 @@
     </Price>
     <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="60" fabricationlimitmin="5" fabricationlimitmax="10"/>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,704,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="263,142,36,68" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="263,142,36,68" depth="0.6" origin="0.5,0.5" />
     <SuitableTreatment type="damage" suitability="-33" />
     <SuitableTreatment identifier="huskinfection" suitability="30" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
@@ -1291,7 +1291,7 @@
       <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="15" />
     </Price>
     <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,640,64,64" origin="0.5,0.5" />
-    <Sprite texture="Medicines.png" sourcerect="112,139,37,70" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="112,139,37,70" depth="0.6" origin="0.5,0.5" />
     <SuitableTreatment type="poison" suitability="10" />
     <Body width="35" height="65" density="10.2" waterdragcoefficient="1"/>
     <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="0,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
@@ -1404,7 +1404,7 @@
       <Item identifier="necroblood" copycondition="true" mincondition="0.1" />
     </Deconstruct>
     <InventoryIcon texture="%ModDir%/Items/Jobgear/InventoryIconAtlas3.png" sourcerect="907,455,50,50" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Drugs/Medicines.png" sourcerect="262,143,62,115" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="262,143,62,115" depth="0.6" origin="0.5,0.5" />
     <Body width="62" height="115" density="20" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="10" reload="1.0">
       <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
@@ -1439,7 +1439,7 @@
     <!-- TODO: adjust prices -->
     <Price locationtype="Research" buyprice="1200" />
     <InventoryIcon texture="%ModDir%/Items/Jobgear/InventoryIconAtlas3.png" sourcerect="907,455,50,50" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Drugs/Medicines.png" sourcerect="262,143,62,115" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Medical/Medicines.png" sourcerect="262,143,62,115" depth="0.6" origin="0.5,0.5" />
     <Body width="62" height="115" density="20" />
     <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="10" reload="1.0">
       <StatusEffect type="OnUse" target="This" Condition="-50.0" disabledeltatime="true" />

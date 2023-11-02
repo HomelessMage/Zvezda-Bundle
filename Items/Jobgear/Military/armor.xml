@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!--Патронташ-->
-  <Item name="Патронташ" identifier="bandolier" category="Equipment" tags="smallitem,clothing" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Патронташ" identifier="bandolier" category="Equipment" tags="smallitem,vest" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
     <Price baseprice="250" soldeverywhere="false">
       <Price locationtype="outpost" multiplier="1.3" sold="false" />
       <Price locationtype="city" multiplier="1.2" sold="false" />
@@ -26,11 +26,11 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="4">
-      <Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+      <Containable items="smallitem" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
     </ItemContainer>
   </Item>
   <!--6B13-->
-  <!--<Item name="" identifier="6b13" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Бронежилет «6Б13»" identifier="6b13" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
 		<Upgrade gameversion="0.9.3.0" scale="0.35" />
 		<PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.7" />
 		<Price baseprice="830" soldeverywhere="false">
@@ -63,9 +63,12 @@
 			<StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.75" setvalue="true" disabledeltatime="true" />
 		</Wearable>
 		<Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
-	</Item>-->
+		<ItemContainer capacity="4">
+			<Containable items="smallitem" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
+		</ItemContainer>    
+	</Item>
   <!--Милитек-->
-  <!--<Item name="" identifier="miltec" category="Equipment" tags="smallitem,clothing" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+  <Item name="Бронежилет «Mil-Tec»" identifier="miltec" category="Equipment" tags="smallitem,vest" scale="0.35" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
 		<Upgrade gameversion="0.9.3.0" scale="0.35" />
 		<PreferredContainer primary="armcab" minamount="0" maxamount="1" spawnprobability="0.6" />
 		<Price baseprice="650" soldeverywhere="false">
@@ -98,9 +101,9 @@
 		</Wearable>
 		<Holdable slots="RightHand+LeftHand" holdpos="0,-100" handle1="0,0-30" handle2="0,-30" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
 		<ItemContainer capacity="4">
-			<Containable items="smallitem" excludeditems="toolbelt,toolbox,bandolier,cargoscooter" />
+			<Containable items="smallitem" excludeditems="toolbox,toolbelt,vest,bag,crate,clothing" />
 		</ItemContainer>
-	</Item>-->
+	</Item>
   <!--Разгрузочный бронежилет «6Б4» (ВС СССР)-->
   <Item name="Разгрузочный бронежилет «6Б4» (ВС ССКЕ)" identifier="bodyarmor_6b4" category="Equipment" tags="smallitem,vest" fireproof="true" cargocontaineridentifier="metalcrate" scale="0.35" impactsoundtag="impact_soft">
     <Deconstruct time="20">
@@ -203,11 +206,11 @@
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="plastic" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" sourcerect="0,42,127,138" />
-    <Sprite texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" sourcerect="0,42,127,138" depth="0.6" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Jobgear/Military/SPCS/american_v.png" sourcerect="0,42,127,138" />
+    <Sprite texture="%ModDir%/Items/Jobgear/Military/SPCS/american_v.png" sourcerect="0,42,127,138" depth="0.6" origin="0.5,0.5" />
     <Body radius="45" height="60" density="40" />
     <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
-      <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/American armor/american_v.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="0,42,127,138" origin="0.5,0.65" />
+      <sprite name="6b4 Torso" texture="%ModDir%/Items/Jobgear/Military/SPCS/american_v.png" limb="Torso" hidelimb="false" inherittexturescale="false" inheritorigin="false" inheritsourcerect="false" scale="0.37" sourcerect="0,42,127,138" origin="0.5,0.65" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bleeding,gunshotwound" afflictiontypes="" damagemultiplier="0.45" bleedingmultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="burn" afflictiontypes="" damagemultiplier="0.70" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="" afflictiontypes="damage" damagemultiplier="0.65" bleedingmultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />

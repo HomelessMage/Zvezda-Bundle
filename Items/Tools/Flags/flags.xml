@@ -2,12 +2,12 @@
 <items>
   <!--Советский флаг-->
   <Item name="Знамя СССР" identifier="soviet_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
-    <InventoryIcon texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Tools/Demian/soviet_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Flags/soviet_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Flags/soviet_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
     <Body width="58" height="100" />
     <Holdable slots="RightHand+LeftHand" aimable="false" aimpos="50,30" handle1="-30,-100" handle2="60,70" swingamount="50,0" swingspeed="0.5" holdangle="50" swingwhenusing="true" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnUse">
-        <Sound file="%ModDir%/Items/Tools/Demian/soviet_scream.ogg" type="OnUse" range="200" loop="true" />
+        <Sound file="%ModDir%/Items/Tools/Flags/soviet_scream.ogg" type="OnUse" range="200" loop="true" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Character">
         <Explosion range="100.0" force="0.05" shockwave="false" smoke="false" flash="false" sparks="false" flames="false" underwaterbubble="false" camerashake="0.05">
@@ -20,12 +20,12 @@
   </Item>
   <!--Флаг рейха-->
   <Item name="Знамя Рейха" identifier="neonazi_banner" category="Misc" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.6" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
-    <InventoryIcon texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Tools/Demian/neonazi_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/Items/Tools/Flags/neonazi_flag.png" sourcerect="0,0,130,300" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Tools/Flags/neonazi_flag.png" sourcerect="0,0,130,300" depth="0.55" origin="0.5,0.5" />
     <Body width="58" height="100" />
     <Holdable slots="RightHand+LeftHand" aimable="false" aimpos="50,30" handle1="-30,-100" handle2="60,70" swingamount="50,0" swingspeed="0.5" holdangle="50" swingwhenusing="true" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnUse">
-        <Sound file="%ModDir%/Items/Tools/Demian/neonazi_scream.ogg" type="OnUse" range="200" loop="true" />
+        <Sound file="%ModDir%/Items/Tools/Flags/neonazi_scream.ogg" type="OnUse" range="200" loop="true" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="Character">
         <Explosion range="100.0" force="0.05" shockwave="false" smoke="false" flash="false" sparks="false" flames="false" underwaterbubble="false" camerashake="0.05">

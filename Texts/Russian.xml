@@ -371,9 +371,9 @@
   <entityname.backpack>Рюкзак КМП США</entityname.backpack>
   <entitydescription.backpack>Обычный рюкзак</entitydescription.backpack>
   <entityname.6b13>Бронежилет «6Б13»</entityname.6b13>
-  <entitydescription.6b13>Советский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.6b13>
-  <entityname.miltec>Разгрузочный бронежилет «Mil-Tec»</entityname.miltec>
-  <entitydescription.miltec>Американский штурмовой бронежилет с кирамическими бронеэлементами.</entitydescription.miltec>
+  <entitydescription.6b13>Советский штурмовой бронежилет с керамическими бронеэлементами.</entitydescription.6b13>
+  <entityname.miltec>Бронежилет «Mil-Tec»</entityname.miltec>
+  <entitydescription.miltec>Американский штурмовой бронежилет с керамическими бронеэлементами.</entitydescription.miltec>
   <entityname.bodyarmor_6b4>Разгрузочный бронежилет «6Б4» (ВС ССКЕ)</entityname.bodyarmor_6b4>
   <entitydescription.bodyarmor_6b4>6Б4 - советский противоосколочный и противопульный бронежилет четвёртого поколения.</entitydescription.bodyarmor_6b4>
   <entityname.bodyarmor_mod>Разгрузочный бронежилет «6Б4» (ТР)</entityname.bodyarmor_mod>

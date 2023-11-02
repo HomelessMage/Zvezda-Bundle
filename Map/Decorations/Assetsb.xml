@@ -2,76 +2,76 @@
 <Items>
   <!-- Security sign -->
   <OpDeco name="Знак на немецком" noninteractable="true" identifier="opdeco_securitysign" width="65" height="68" texturescale="1.0,1.0" scale="0.5" category="Decorative">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1352,131,65,68" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1352,131,65,68" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet poster 1 -->
   <OpDeco name="Плакат с пропагандой (версия 1)" noninteractable="true" identifier="opdeco_sovietpropagandaposter1" texturescale="1.0,1.0" scale="0.5" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1106,6,460,124" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1106,6,460,124" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet poster  2 -->
   <OpDeco name="Плакат с пропагандой (версия 2)" noninteractable="true" identifier="opdeco_sovietpropagandaposter2" texturescale="1.0,1.0" scale="0.5" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1859,4,184,226" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1859,4,184,226" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet poster  3 -->
   <OpDeco name="Плакат с пропагандой (версия 3)" noninteractable="true" identifier="opdeco_sovietpropagandaposter3" texturescale="1.0,1.0" scale="0.5" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1819,230,222,175" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1819,230,222,175" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet poster 4 -->
   <OpDeco name="Плакат с пропагандой (версия 4)" noninteractable="true" identifier="opdeco_sovietpropagandaposter4" texturescale="1.0,1.0" scale="0.5" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1817,406,225,302" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1817,406,225,302" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet Poster 5 with lightbox -->
   <OpDeco name="Рекламный щит с пропагандой (версия 1)" noninteractable="true" identifier="op_lightboxSoviet1" width="163" height="209" texturescale="1.1,1.1" scale="0.5" category="Decorative">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1567,5,146,195" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1567,5,146,195" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
     <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="true" castshadows="false" allowingameediting="false" />
   </OpDeco>
   <!-- Soviet Poster 6 with Lightbox -->
   <OpDeco name="Рекламный щит с пропагандой (версия 2)" noninteractable="true" identifier="op_lightboxSoviet2" texturescale="1.0,1.0" scale="0.5" category="Decorative">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1713,6,146,190" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1713,6,146,190" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
     <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="true" castshadows="false" allowingameediting="false" />
   </OpDeco>
   <!-- Soviet Hammer and Sickle -->
   <OpDeco name="Серп и молот (версия 1)" noninteractable="true" identifier="opdeco_hammersickle" texturescale="1.0,1.0" scale="0.5" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1224,485,240,233" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1224,485,240,233" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet Hammer and Sickle2 -->
   <OpDeco name="Серп и молот (версия 2)" noninteractable="true" identifier="opdeco_hammersickle2" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="769,325,452,479" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="769,325,452,479" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet Hanging Food -->
   <OpDeco name="Свисающая еда" noninteractable="true" identifier="opdeco_hangingfood" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1535,718,506,280" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1535,718,506,280" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- KirovII blueprint -->
   <OpDeco name="Чертёж подлодки" noninteractable="true" identifier="opdeco_KirovBlueprint" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1253,1488,795,285" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1253,1488,795,285" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- <OpDeco name="QRcode" identifier="opdeco_QRcode" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="605,1088,267,265" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="605,1088,267,265" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco> -->
   <!-- WarpsPainting -->
   <OpDeco name="Картина" noninteractable="true" identifier="opdeco_WarpsPainting" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="880,1002,403,357" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="880,1002,403,357" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Quarantine Sign -->
   <OpDeco name="Знак биологической угрозы" noninteractable="true" identifier="opdeco_Quarantine" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1084,144,170,167" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1084,144,170,167" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet Painting of Glorious leader Komrad Emperor Lenin -->
   <OpDeco name="Портрет Ленина" noninteractable="true" identifier="opdeco_LeninPainting" texturescale="1.0,1.0" scale="0.2" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="-2,1423,542,628" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="-2,1423,542,628" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
     <LightComponent range="60.0" lightcolor="255,234,181,200" IsOn="false" castshadows="false" allowingameediting="false"></LightComponent>
   </OpDeco>
   <!-- Soviet USSR Flag -->
   <OpDeco name="Флаг СССР" noninteractable="true" identifier="opdeco_SovietFlag" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="13,1103,510,320" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="13,1103,510,320" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet USSA Flag -->
   <OpDeco name="Флаг ССША" noninteractable="true" identifier="opdeco_USSASovietFlag" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="11,783,513,321" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="11,783,513,321" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
   <!-- Soviet Remove poster -->
   <OpDeco name="Постер Балканский" noninteractable="true" identifier="opdeco_removek" texturescale="1.0,1.0" scale="0.3" category="Decorative" allowattachitems="true">
-    <sprite texture="%ModDir%/Map/decor/Assetsb.png" sourcerect="1101,1572,151,203" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Map/Decorations/Assetsb.png" sourcerect="1101,1572,151,203" depth="0.97" premultiplyalpha="false" origin="0.5,0.5" />
   </OpDeco>
 </Items>

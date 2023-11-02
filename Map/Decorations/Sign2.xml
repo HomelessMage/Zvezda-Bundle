@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="Торгомат" identifier="vendor" tags="locker,container" linkable="true" pickdistance="150" scale="0.5">
-    <Sprite texture="%ModDir%/Map/decor/sign.png" depth="0.84" sourcerect="144,4,257,340" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Map/Decorations/sign.png" depth="0.84" sourcerect="144,4,257,340" origin="0.5,0.5" />
     <LightComponent range="0.0" lightcolor="255,255,255,111" IsOn="true" castshadows="false" allowingameediting="false">
-      <sprite texture="%ModDir%/Map/decor/light.png" sourcerect="0,0,257,340" depth="0.1" origin="0.5,0.5" alpha="1.0" />
+      <sprite texture="%ModDir%/Map/Decorations/light.png" sourcerect="0,0,257,340" depth="0.1" origin="0.5,0.5" alpha="1.0" />
     </LightComponent>
     <ItemContainer capacity="10" slotsperrow="2" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
@@ -11,7 +11,7 @@
     </ItemContainer>
   </Item>
   <Item name="Сейф" identifier="safecabinet" tags="locker,container,securecontainer" linkable="true" spritecolor="255,255,255,255" pickdistance="150" scale="0.5">
-    <Sprite texture="%ModDir%/Map/decor/sign.png" depth="0.84" sourcerect="408,4,127,160" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Map/Decorations/sign.png" depth="0.84" sourcerect="408,4,127,160" origin="0.5,0.5" />
     <ItemContainer capacity="10" slotsperrow="5" canbeselected="true" hideitems="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.25,0.45" anchor="Center" style="ItemUI" />
       <RequiredItem items="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
