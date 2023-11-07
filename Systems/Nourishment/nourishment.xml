@@ -106,6 +106,9 @@
     <Fabricate suitablefabricators="kitchen" requiredtime="10">
       <RequiredItem identifier="canteen" mincondition="0.0" usecondition="false" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="5rubles" />
+    </Fabricate>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredItem identifier="iron" />
     </Fabricate>
@@ -126,6 +129,9 @@
   <Item name="Рацион питания" identifier="mre" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,food" impacttolerance="8" description="Индивидуальный рацион питания состоящий из протеинового порошка. Можно приготовить на плите." useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="10">
       <RequiredItem identifier="mre" mincondition="0.0" usecondition="false" />
+    </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="5rubles" />
     </Fabricate>
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredItem identifier="carbon" />
@@ -171,6 +177,10 @@
       <RequiredItem identifier="fiberplant" />
       <RequiredItem identifier="yeastshroom" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="thirst" suitability="100" />
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="27,24,92,78" origin="0.5,0.5" />
@@ -195,6 +205,9 @@
       <RequiredItem identifier="potato" />
       <RequiredItem identifier="potato" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <SuitableTreatment identifier="thirst" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="752,397,67,80" origin="0.5,0.5" />
@@ -214,6 +227,10 @@
   <Item name="Котлеты по-киевски" identifier="bowl2" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с котлетами по-киевски - разновидность котлет из отбивного куриного филе, в которые завёрнуты кусочки сливочного масла." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
       <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
+    </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="600,36,86,55" origin="0.5,0.5" />
@@ -235,6 +252,11 @@
       <RequiredItem identifier="fiberplant" />
       <RequiredItem identifier="yeastshroom" />
       <RequiredItem identifier="aquaticpoppy" />
+    </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="883,538,91,49" origin="0.5,0.5" />
@@ -258,6 +280,10 @@
       <RequiredItem identifier="saltbulb" />
       <RequiredItem identifier="mre" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="29,789,86,48" depth="0.6" origin="0.5,0.5" />
@@ -277,6 +303,10 @@
       <RequiredItem identifier="mre" />
       <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
       <RequiredItem identifier="elastinplant" />
+    </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="601,786,84,52" origin="0.5,0.5" />
@@ -298,6 +328,11 @@
       <RequiredItem identifier="pigmeat" target="This" Condition="-50.0" disabledeltatime="true"/>
       <RequiredItem identifier="adrenalinegland" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="599,914,89,47" depth="0.6" origin="0.5,0.5" />
@@ -316,6 +351,11 @@
     <Fabricate suitablefabricators="kitchen" requiredtime="50">
       <RequiredItem identifier="swimbladder" />
       <RequiredItem identifier="adrenalinegland" />
+    </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="5rubles" />
     </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="887,285,83,55" origin="0.5,0.5" />
@@ -337,6 +377,11 @@
       <RequiredItem identifier="adrenalinegland" />
       <RequiredItem identifier="saltbulb" />
     </Fabricate>
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="456,48,88,27" depth="0.6" origin="0.5,0.5" />
@@ -352,6 +397,12 @@
     </Holdable>
   </Item>
   <Item name="Торт Наполеон" identifier="bowl8" category="Material" cargocontaineridentifier="chemicalcrate" Tags="smallitem,equipment" impacttolerance="8" description="Тарелка с тортом-пирожным из слоёного теста с заварным кремом." useinhealthinterface="true" scale="0.3" impactsoundtag="impact_metal_light">
+    <Fabricate suitablefabricators="torgomat" requiredtime="3">
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+      <RequiredItem identifier="10rubles" />
+    </Fabricate>
     <SuitableTreatment identifier="hunger" suitability="100" />
     <InventoryIcon texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Systems/Nourishment/foods_new.png" sourcerect="25,540,93,48" depth="0.6" origin="0.5,0.5" />
